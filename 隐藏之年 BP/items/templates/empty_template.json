@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:empty_template",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "空制作模板\n \n§b§o描述：一个空的模板，貌似没什么用？"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:icon": {
+				"texture": "hy_empty_template"
+			}
+		}
+	}
+}

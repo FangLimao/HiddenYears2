@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:copper_hammer_template",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "制作模板-铜锤\n \n§b§o可以用这玩意和木柄合成铜锤！"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:icon": {
+				"texture": "hy_copper_hammer_template"
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.bridge/
+builds/
+
+*.mcpack
+*.mcaddon
+*.mcworld
+
+*.zip
+*.rar
+*.7z

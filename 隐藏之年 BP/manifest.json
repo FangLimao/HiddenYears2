@@ -1,0 +1,67 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"方漓猫"
+		]
+	},
+	"header": {
+		"name": "隐藏之年",
+		"description": "§4§l让我们的Minecraft变得更好玩！§r\n§5§o作者：klpbbs@方漓猫，按照MIT协议提供§r",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "e1b2000f-c88c-46ed-a9cd-3f0b06130a1f",
+		"version": [
+			1,
+			0,
+			20
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "553b40a9-116e-44bf-ae36-704a730b1ca2",
+			"version": [
+				1,
+				0,
+				20
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "8b778acb-463d-40de-a41e-da44c3212f8c",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b16bb643-fe64-43a2-8423-820a57145c4d",
+			"version": [
+				1,
+				0,
+				20
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

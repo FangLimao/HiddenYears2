@@ -1,0 +1,30 @@
+{
+	"resource_pack_name": "隐藏之年",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"hy_copper_hammer": {
+			"textures": "textures/items/tools/hammers/copper_hammers/copper_hammer"
+		},
+		"hy_exposed_copper_hammer": {
+			"textures": "textures/items/tools/hammers/copper_hammers/exposed_copper_hammer"
+		},
+		"hy_weathered_copper_hammer": {
+			"textures": "textures/items/tools/hammers/copper_hammers/weathered_copper_hammer"
+		},
+		"hy_oxidized_copper_hammer": {
+			"textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
+		},
+		"hy_copper_hammer_head": {
+			"textures": "textures/items/materials/copper_hammer_head"
+		},
+		"hy_empty_template": {
+			"textures": "textures/items/templates/empty_template"
+		},
+		"hy_copper_hammer_template": {
+			"textures": "textures/items/templates/tools/hammers/copper_hammers/hammer_template"
+		},
+		"hy_wooden_handle": {
+			"textures": "textures/items/materials/handles/wooden_handle"
+		}
+	}
+}

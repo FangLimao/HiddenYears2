@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hy:copper_hammer_template"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hy:copper_hammer_head"
+			},
+			{
+				"item": "hy:empty_template"
+			}
+		],
+		"result": {
+			"item": "hy:copper_hammer_template"
+		}
+	}
+}
