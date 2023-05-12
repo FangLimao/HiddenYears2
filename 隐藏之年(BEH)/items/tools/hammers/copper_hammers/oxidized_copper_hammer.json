@@ -21,7 +21,7 @@
 				"texture": "hy_oxidized_copper_hammer"
 			},
 			"minecraft:mining_speed": 1,
-			"minecraft:damage": 4,
+			"minecraft:damage": 6,
 			"minecraft:weapon": {
 				"on_hurt_entity": {
 					"event": "damaged",
