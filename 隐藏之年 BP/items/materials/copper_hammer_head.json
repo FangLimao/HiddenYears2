@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.17.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "hy:copper_hammer_head",
@@ -7,10 +7,13 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "铜锤头\n \n§b§o描述：你可以用这玩意合成铜锤子"
+				"value": "hy.item.copper_hammer_head"
 			},
 			"minecraft:icon": {
 				"texture": "hy_copper_hammer_head"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
 			}
 		}
 	}

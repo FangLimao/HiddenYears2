@@ -1,5 +1,5 @@
 {
-	"values": [
-		"system/close_command_output"
-	]
+    "values": [
+        "core/close_command_feedback"
+    ]
 }

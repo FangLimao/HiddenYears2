@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:copper_star",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "铜之星\n \n§b§o描述：铜之星可以分解成很多铜锭！！"
+			},
+			"minecraft:icon": {
+				"texture": "hy_copper_star"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		}
+	}
+}

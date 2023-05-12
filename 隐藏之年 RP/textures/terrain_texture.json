@@ -3,5 +3,18 @@
 	"padding": 8,
 	"resource_pack_name": "隐藏之年",
 	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"hy_copper_essence_ore": {
+			"textures": "textures/blocks/ores/essences/copper_essence_ore"
+		},
+		"hy_deepslate_copper_essence_ore": {
+			"textures": "textures/blocks/ores/essences/deepslate_copper_essence_ore"
+		},
+		"hy_amethyst_essence_ore": {
+			"textures": "textures/blocks/ores/essences/amethyst_essence_ore"
+		},
+		"hy_deepslate_amethyst_essence_ore": {
+			"textures": "textures/blocks/ores/essences/deepslate_amethyst_essence_ore"
+		}
+	}
 }

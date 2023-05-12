@@ -55,46 +55,18 @@
 		},
 		"events": {
 			"on_tool_used": {
-				"sequence": [
-					{
-						"damage": {
-							"type": "magic",
-							"amount": 1,
-							"target": "self"
-						}
-					},
-					{
-						"run_command": {
-							"target": "self",
-							"command": [
-								"gamerule sendCommandFeedback false",
-								"give @s hy:exposed_copper_hammer"
-							]
-						},
-						"condition": "query.remaining_durability==0"
-					}
-				]
+				"damage": {
+					"type": "magic",
+					"amount": 1,
+					"target": "self"
+				}
 			},
 			"damaged": {
-				"sequence": [
-					{
-						"damage": {
-							"type": "magic",
-							"amount": 2,
-							"target": "self"
-						}
-					},
-					{
-						"run_command": {
-							"target": "self",
-							"command": [
-								"gamerule sendCommandFeedback false",
-								"give @s hy:exposed_copper_hammer"
-							]
-						},
-						"condition": "query.remaining_durability==0"
-					}
-				]
+				"damage": {
+					"type": "magic",
+					"amount": 2,
+					"target": "self"
+				}
 			}
 		}
 	}

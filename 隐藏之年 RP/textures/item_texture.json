@@ -25,6 +25,108 @@
 		},
 		"hy_wooden_handle": {
 			"textures": "textures/items/materials/handles/wooden_handle"
+		},
+		"hy_copper_coin": {
+			"textures": "textures/items/treasures/coins/copper_coin"
+		},
+		"hy_gemstone_trader_egg": {
+			"textures": "textures/items/traders/egg_gemstone_trader"
+		},
+		"hy_copper_pickaxe": {
+			"textures": "textures/items/tools/pickaxes/copper_pickaxes/copper_pickaxe"
+		},
+		"hy_exposed_copper_pickaxe": {
+			"textures": "textures/items/tools/pickaxes/copper_pickaxes/exposed_copper_pickaxe"
+		},
+		"hy_weathered_copper_pickaxe": {
+			"textures": "textures/items/tools/pickaxes/copper_pickaxes/weathered_copper_pickaxe"
+		},
+		"hy_oxidized_copper_pickaxe": {
+			"textures": "textures/items/tools/pickaxes/copper_pickaxes/oxidized_copper_pickaxe"
+		},
+		"hy_copper_essence": {
+			"textures": "textures/items/essences/copper_essence"
+		},
+		"hy_copper_star": {
+			"textures": "textures/items/treasures/stars/copper_star"
+		},
+		"hy_copper_axe": {
+			"textures": "textures/items/tools/axes/copper_axes/copper_axe"
+		},
+		"hy_exposed_copper_axe": {
+			"textures": "textures/items/tools/axes/copper_axes/exposed_copper_axe"
+		},
+		"hy_weathered_copper_axe": {
+			"textures": "textures/items/tools/axes/copper_axes/weathered_copper_axe"
+		},
+		"hy_oxidized_copper_axe": {
+			"textures": "textures/items/tools/axes/copper_axes/oxidized_copper_axe"
+		},
+		"hy_copper_stick": {
+			"textures": "textures/items/materials/copper_stick"
+		},
+		"hy_amethyst_axe": {
+			"textures": "textures/items/tools/axes/amethyst_axe"
+		},
+		"hy_amethyst_hammer": {
+			"textures": "textures/items/tools/hammers/amethyst_hammer"
+		},
+		"hy_amethyst_hoe": {
+			"textures": "textures/items/tools/hoes/amethyst_hoe"
+		},
+		"hy_amethyst_pickaxe": {
+			"textures": "textures/items/tools/pickaxes/amethyst_pickaxe"
+		},
+		"hy_amethyst_shovel": {
+			"textures": "textures/items/tools/shovels/amethyst_shovel"
+		},
+		"hy_amethyst_ingot": {
+			"textures": "textures/items/materials/amethyst_ingot"
+		},
+		"hy_amethyst_sword": {
+			"textures": "textures/items/tools/weapons/swords/amethyst_sword"
+		},
+		"hy_amethyst_hammer_head": {
+			"textures": "textures/items/materials/amethyst_hammer_head"
+		},
+		"hy_copper_hoe": {
+			"textures": "textures/items/tools/hoes/copper_hoes/copper_hoe"
+		},
+		"hy_exposed_copper_hoe": {
+			"textures": "textures/items/tools/hoes/copper_hoes/exposed_copper_hoe"
+		},
+		"hy_weathered_copper_hoe": {
+			"textures": "textures/items/tools/hoes/copper_hoes/weathered_exposed_copper_hoe"
+		},
+		"hy_oxidized_copper_hoe": {
+			"textures": "textures/items/tools/hoes/copper_hoes/oxidized_exposed_copper_hoe"
+		},
+		"hy_debug": {
+			"textures": "textures/items/debug"
+		},
+		"hy_copper_sword": {
+			"textures": "textures/items/tools/weapons/swords/copper_swords/copper_sword"
+		},
+		"hy_exposed_copper_sword": {
+			"textures": "textures/items/tools/weapons/swords/copper_swords/exposed_copper_sword"
+		},
+		"hy_weathered_copper_sword": {
+			"textures": "textures/items/tools/weapons/swords/copper_swords/weathered_copper_sword"
+		},
+		"hy_oxidized_copper_sword": {
+			"textures": "textures/items/tools/weapons/swords/copper_swords/oxidized_copper_sword"
+		},
+		"hy_copper_shovel": {
+			"textures": "textures/items/tools/shovels/copper_shovels/copper_shovel"
+		},
+		"hy_exposed_copper_shovel": {
+			"textures": "textures/items/tools/shovels/copper_shovels/exposed_copper_shovel"
+		},
+		"hy_weathered_copper_shovel": {
+			"textures": "textures/items/tools/shovels/copper_shovels/weathered_copper_shovel"
+		},
+		"hy_oxidized_copper_shovel": {
+			"textures": "textures/items/tools/shovels/copper_shovels/oxidized_copper_shovel"
 		}
 	}
 }

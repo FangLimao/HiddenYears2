@@ -1,0 +1,97 @@
+{
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "num_to_select": 5,
+                    "trades": [
+                        {
+                            "max_uses": 16,
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_ingot"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 16,
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 4
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "copper_ingot"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 8,
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "gold_nugget"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 8,
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 16
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "gold_ingot"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 16,
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 32
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "diamond"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 16,
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "netherite_ingot"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

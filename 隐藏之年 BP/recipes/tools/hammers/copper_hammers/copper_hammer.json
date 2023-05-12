@@ -9,7 +9,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "hy:copper_hammer_template"
+				"item": "hy:copper_hammer_head"
 			},
 			{
 				"item": "hy:wooden_handle"
