@@ -1,5 +1,6 @@
 .bridge/
-builds/
+builds
+.git/
 
 *.mcpack
 *.mcaddon
