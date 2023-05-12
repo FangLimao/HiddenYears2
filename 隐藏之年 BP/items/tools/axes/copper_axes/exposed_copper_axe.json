@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "斑驳的铜斧\n \n§b§o描述：一把斑驳陆离的斧子！"
+				"value": "hy.item.exposed_copper_axe"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
