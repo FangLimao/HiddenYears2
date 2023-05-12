@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:amethyst_hammer_head"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "hy_amethyst_hammer_head"
+			},
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:display_name": {
+				"value": "hy.item.amethyst_hammer_head"
+			}
+		}
+	}
+}
