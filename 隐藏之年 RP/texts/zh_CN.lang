@@ -5,6 +5,7 @@ tile.hy.block.copper_essence_ore.name=铜髓矿石
 tile.hy.block.deepslate_copper_essence_ore.name=深层铜髓矿石
 hy.item.copper_hammer_head=铜锤头
 hy.item.copper_stick=铜棍
+hy.item.copper_essence=铜髓
 hy.item.copper_hoe=铜锄
 hy.item.exposed_copper_hoe=斑驳的铜锄
 hy.item.oxidized_copper_hoe=锈蚀的铜锄

@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "铜髓\n \n§b§o描述：天知道有什么用？"
+				"value": "hy.item.copper_essence"
 			},
 			"minecraft:icon": {
 				"texture": "hy_copper_essence"
