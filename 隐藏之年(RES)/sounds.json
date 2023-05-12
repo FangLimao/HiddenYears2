@@ -1,0 +1,22 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"hy:gemstone_trader": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.gemstone_trader.idle",
+					"hurt": "mob.gemstone_trader.hit",
+					"death": "mob.gemstone_trader.death",
+					"death.to.zombie": "mob.gemstone_trader.death",
+					"haggle": "mob.gemstone_trader.haggle",
+					"haggle.yes": "mob.gemstone_trader.yes",
+					"haggle.no": "mob.gemstone_trader.no"
+				}
+			}
+		}
+	}
+}
