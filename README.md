@@ -1,7 +1,7 @@
 <h1 align="center">欢迎来到</h1>
 <h1 align="center">隐藏之年</h1>
 
-![logo](%E9%9A%90%E8%97%8F%E4%B9%8B%E5%B9%B4%20(BEH)/pack_icon.png)
+![logo](https://gitee.com/harain/Hidden-Years-Project/blob/dev/%E9%9A%90%E8%97%8F%E4%B9%8B%E5%B9%B4(BEH)/pack_icon.png)
 
 ## 下载
 - [点我下载](/assets/mods/latest.mcaddon)
