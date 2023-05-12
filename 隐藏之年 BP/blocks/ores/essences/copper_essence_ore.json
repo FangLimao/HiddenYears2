@@ -6,8 +6,8 @@
 		},
 		"components": {
 			"minecraft:display_name": "hy.block.copper_essence_ore",
-			"minecraft:destroy_time": 3,
-			"minecraft:explosion_resistance": 3,
+			"minecraft:destroy_time": 2.0,
+			"minecraft:explosion_resistance": 2.0,
 			"minecraft:map_color": "#ffffff",
 			"minecraft:creative_category": {
 				"category": "nature",

@@ -5,9 +5,9 @@
 			"identifier": "hy:amethyst_essence_ore"
 		},
 		"components": {
-			"minecraft:destroy_time": 3,
+			"minecraft:destroy_time": 2.0,
 			"minecraft:display_name": "hy.block.amethyst_essence_ore",
-			"minecraft:explosion_resistance": 3,
+			"minecraft:explosion_resistance": 2.0,
 			"minecraft:map_color": "#FFFFFF",
 			"minecraft:loot": "loot_tables/blocks/amethyst_essence_ore.json",
 			"minecraft:creative_category": {
