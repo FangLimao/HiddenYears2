@@ -26,6 +26,11 @@ hy.item.exposed_copper_hammer=斑驳的铜锤
 hy.item.oxidized_copper_hammer=锈蚀的铜锤
 hy.item.weathered_copper_hammer=氧化的铜锤
 hy.item.waxed_copper_hammer=涂蜡的铜锤
+hy.item.copper_pickaxe=铜镐
+hy.item.exposed_copper_pickaxe=斑驳的铜镐
+hy.item.oxidized_copper_pickaxe=锈蚀的铜镐
+hy.item.weathered_copper_pickaxe=氧化的铜镐
+hy.item.waxed_copper_pickaxe=涂蜡的铜镐
 
 tile.hy.block.amethyst_essence_ore.name=紫水晶矿石
 tile.hy.block.deepslate_amethyst_essence_ore.name=深层紫水晶矿石

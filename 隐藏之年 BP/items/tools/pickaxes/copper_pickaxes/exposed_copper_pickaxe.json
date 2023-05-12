@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "斑驳的铜镐\n \n§b§o描述：一把生锈的铜镐"
+				"value": "hy.item.exposed_copper_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

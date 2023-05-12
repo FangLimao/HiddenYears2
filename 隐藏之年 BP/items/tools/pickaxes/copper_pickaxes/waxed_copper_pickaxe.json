@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "涂蜡的铜镐\n \n§b§o描述：一把永远不会生锈的铜镐！"
+				"value": "hy.item.waxed_copper_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

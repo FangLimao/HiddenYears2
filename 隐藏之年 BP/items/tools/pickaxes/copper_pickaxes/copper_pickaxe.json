@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "铜镐\n \n§b§o描述：一把铜镐！"
+				"value": "hy.item.copper_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

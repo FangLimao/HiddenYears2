@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "氧化的铜镐\n \n§b§o描述：完全生锈的铜镐，挖掘速度大不如前"
+				"value": "hy.item.oxidized_copper_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

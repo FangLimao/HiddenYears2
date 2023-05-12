@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "锈蚀的铜镐\n \n§b§o描述：一把斑驳的铜镐，或许没什么用了？"
+				"value": "hy.item.weathered_copper_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"
