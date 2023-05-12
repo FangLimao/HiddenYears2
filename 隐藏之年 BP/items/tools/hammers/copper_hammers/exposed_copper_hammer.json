@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "斑驳的铜锤\n \n§b§o描述：铜锤子，但是生锈了（悲"
+				"value": "hy.item.exposed_copper_hammer"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

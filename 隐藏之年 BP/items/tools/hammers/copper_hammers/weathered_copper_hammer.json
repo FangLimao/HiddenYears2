@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "锈蚀的铜锤\n \n§b§o描述：生锈的铜锤子，挖掘速度已大不如前。"
+				"value": "hy.item.weathered_copper_hammer"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "铜锤\n \n§b§o描述：一把铜做的锤子，也许可以派上用场？"
+				"value": "hy.item.copper_hammer"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

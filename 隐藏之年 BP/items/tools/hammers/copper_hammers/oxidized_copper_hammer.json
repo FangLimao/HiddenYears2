@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "氧化的铜锤\n \n§b§o描述：铜锤，但是已经完全氧化了"
+				"value": "hy.item.oxidized_copper_hammer"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

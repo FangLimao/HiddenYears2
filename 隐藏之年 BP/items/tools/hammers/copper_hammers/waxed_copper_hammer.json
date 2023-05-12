@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "涂蜡的铜锤\n \n§b§o描述：一把永远不会生锈的铜锤！"
+				"value": "hy.item.waxed_copper_hammer"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
