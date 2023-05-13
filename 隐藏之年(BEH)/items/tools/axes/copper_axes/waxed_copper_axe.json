@@ -17,7 +17,7 @@
 			"minecraft:mining_speed": 1,
 			"minecraft:damage": 1,
 			"minecraft:enchantable": {
-				"value": 14,
+				"value": 8,
 				"slot": "axe"
 			},
 			"minecraft:use_on": {
