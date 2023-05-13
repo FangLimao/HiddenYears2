@@ -21,7 +21,7 @@
 				"texture": "hy_amethyst_hammer"
 			},
 			"minecraft:enchantable": {
-				"value": 2,
+				"value": 57257,
 				"slot": "pickaxe"
 			},
 			"minecraft:mining_speed": 1,
