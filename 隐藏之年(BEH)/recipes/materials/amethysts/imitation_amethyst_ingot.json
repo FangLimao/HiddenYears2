@@ -1,14 +1,21 @@
 {
-	"format_version": "1.17.0",
-	"minecraft:recipe_furnace": {
-		"description": {
-			"identifier": "hy:imitation_amethyst_ingot"
-		},
-		"tags": [
-			"furnace",
-			"blast_furnace"
-		],
-		"input": "stained_glass_pane",
-		"output": "hy:imitation_amethyst_ingot"
-	}
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:imitation_amethyst_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "stained_glass_pane",
+                "data": 10
+            }
+        ],
+        "result": {
+            "item": "hy:imitation_amethyst_ingot",
+            "count": 2
+        }
+    }
 }
