@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "木柄\n \n§b§o描述：你可以用它来合成工具！"
+				"value": "hy.item.wooden_handle"
 			},
 			"minecraft:icon": {
 				"texture": "hy_wooden_handle"

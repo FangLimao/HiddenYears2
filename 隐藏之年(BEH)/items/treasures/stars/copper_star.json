@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "铜之星\n \n§b§o描述：铜之星可以分解成很多铜锭！！"
+				"value": "hy.item.copper_star"
 			},
 			"minecraft:icon": {
 				"texture": "hy_copper_star"

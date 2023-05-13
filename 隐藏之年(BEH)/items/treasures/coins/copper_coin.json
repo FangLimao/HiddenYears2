@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "铜币\n \n§b§o描述：用这玩意和商人进行贸易交换！"
+				"value": "hy.item.copper_coin"
 			},
 			"minecraft:icon": {
 				"texture": "hy_copper_coin"
