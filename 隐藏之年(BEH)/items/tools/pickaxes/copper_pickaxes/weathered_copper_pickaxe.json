@@ -24,7 +24,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:weathered_copper_pickaxe"
+                            "hy:copper_pickaxe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },
@@ -36,7 +36,25 @@
                     },
                     {
                         "items": [
-                            "hy:copper_pickaxe"
+                            "hy:waxed_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:exposed_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:weathered_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:oxidized_copper_pickaxe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
                     }
