@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "hy:amethyst_essence_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "hy:amethyst_essence_ore",
+		"output": "hy:amethyst_ingot"
+	}
+}
