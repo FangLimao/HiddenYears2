@@ -98,11 +98,23 @@
         },
         "events": {
             "damaged": {
-                "damage": {
-                    "type": "magic",
-                    "amount": 1,
-                    "target": "self"
-                }
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 1,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv3a"
+                            ]
+                        }
+                    }
+                ]
             },
             "on_tool_used": {
                 "damage": {

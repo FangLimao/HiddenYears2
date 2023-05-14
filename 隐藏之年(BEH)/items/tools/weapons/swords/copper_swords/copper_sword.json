@@ -110,7 +110,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/exposed_copper_sword"
+                                "function mods/_HiddenYears/items/oxidising/exposed_sword"
                             ]
                         },
                         "condition": "query.remaining_durability==0"

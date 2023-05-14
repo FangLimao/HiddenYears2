@@ -110,10 +110,18 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidized_copper_sword"
+                                "function mods/_HiddenYears/items/oxidising/oxidized_sword"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
+                    },
+                                        {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv2a"
+                            ]
+                        }
                     }
                 ]
             },
