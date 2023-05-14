@@ -359,7 +359,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidized_copper_hammer"
+                                "function mods/_HiddenYears/items/oxidising/oxidized_hammer"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
