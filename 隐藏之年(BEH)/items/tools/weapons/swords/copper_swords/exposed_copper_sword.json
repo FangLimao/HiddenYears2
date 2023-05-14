@@ -110,7 +110,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/weathered_sword"
+                                "function mods/_HiddenYears/items/oxidising/swords/weathered_sword"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -138,7 +138,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/weathered_copper_sword"
+                                "function mods/_HiddenYears/items/oxidising/swords/weathered_sword"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
