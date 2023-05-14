@@ -346,16 +346,28 @@
             "tag:minecraft:is_pickaxe": {}
         },
         "events": {
+            "damaged": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "amount": 2,
+                            "target": "self",
+                            "type": "magic"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv3a"
+                            ]
+                        }
+                    }
+                ]
+            },
             "on_tool_used": {
                 "damage": {
                     "amount": 1,
-                    "target": "self",
-                    "type": "magic"
-                }
-            },
-            "damaged": {
-                "damage": {
-                    "amount": 2,
                     "target": "self",
                     "type": "magic"
                 }
