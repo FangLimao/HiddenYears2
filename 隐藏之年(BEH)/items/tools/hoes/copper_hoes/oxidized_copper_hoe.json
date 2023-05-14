@@ -231,11 +231,23 @@
                 }
             },
             "damaged": {
-                "damage": {
-                    "amount": 2,
-                    "target": "self",
-                    "type": "magic"
-                }
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 1,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv1a"
+                            ]
+                        }
+                    }
+                ]
             }
         }
     }

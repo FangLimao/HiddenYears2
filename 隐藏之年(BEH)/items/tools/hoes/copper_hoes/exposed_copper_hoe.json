@@ -260,6 +260,14 @@
                             ]
                         },
                         "condition": "query.remaining_durability==0"
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv1a"
+                            ]
+                        }
                     }
                 ]
             }
