@@ -359,7 +359,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/exposed_pickaxe"
+                                "function mods/_HiddenYears/items/oxidising/pickaxes/exposed_pickaxe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -379,7 +379,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/exposed_pickaxe"
+                                "function mods/_HiddenYears/items/oxidising/pickaxes/exposed_pickaxe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
