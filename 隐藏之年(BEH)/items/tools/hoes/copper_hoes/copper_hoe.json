@@ -236,7 +236,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/exposed_copper_hoe"
+                                "function mods/_HiddenYears/items/oxidising/hoes/exposed_hoe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -256,7 +256,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/exposed_copper_hoe"
+                                "function mods/_HiddenYears/items/oxidising/hoes/exposed_hoe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
