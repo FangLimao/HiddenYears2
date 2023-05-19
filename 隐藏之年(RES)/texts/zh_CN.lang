@@ -1,6 +1,8 @@
 pack.name=隐藏之年
 pack.description=为你而来的附加包
 
+hy.message.error.100=§c致命错误(100)：缺少前置函数库，请重新下载此附加包。
+
 hy.message.tetanus=你获得了§b『破伤风』§r效果！
 
 hy.message.oxidising.exposed_sword=你的铜剑变得§b『斑驳』§r
@@ -9,6 +11,15 @@ hy.message.oxidising.oxidized_sword=你的铜剑§b『完全氧化』§r
 hy.message.oxidising.exposed_pickaxe=你的铜镐变得§b『斑驳』§r
 hy.message.oxidising.weathered_pickaxe=你的铜镐变得§b『锈蚀』§r
 hy.message.oxidising.oxidized_pickaxe=你的铜镐§b『完全氧化』§r
+hy.message.oxidising.exposed_hoe=你的铜锄变得§b『斑驳』§r
+hy.message.oxidising.weathered_hoe=你的铜锄变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_hoe=你的铜锄§b『完全氧化』§r
+hy.message.oxidising.exposed_hammer=你的铜锤变得§b『斑驳』§r
+hy.message.oxidising.weathered_hammer=你的铜锤变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_hammer=你的铜锤§b『完全氧化』§r
+hy.message.oxidising.exposed_axe=你的铜斧变得§b『斑驳』§r
+hy.message.oxidising.weathered_axe=你的铜斧变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_axe=你的铜斧§b『完全氧化』§r
 
 entity.hy:gemstone_trader.name=宝石商人
 item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
