@@ -146,6 +146,14 @@
                         "run_command": {
                             "target": "self",
                             "command": [
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv1a"
+                            ]
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
                                 "function mods/_HiddenYears/items/oxidising/axes/weathered_axe"
                             ]
                         },
