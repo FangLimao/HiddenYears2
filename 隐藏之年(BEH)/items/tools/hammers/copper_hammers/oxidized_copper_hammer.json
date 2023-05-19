@@ -74,7 +74,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/effects/tetanus_all"
+                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv3a"
                             ]
                         }
                     }
