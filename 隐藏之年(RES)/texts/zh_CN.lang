@@ -20,6 +20,9 @@ hy.message.oxidising.oxidized_hammer=你的铜锤§b『完全氧化』§r
 hy.message.oxidising.exposed_axe=你的铜斧变得§b『斑驳』§r
 hy.message.oxidising.weathered_axe=你的铜斧变得§b『锈蚀』§r
 hy.message.oxidising.oxidized_axe=你的铜斧§b『完全氧化』§r
+hy.message.oxidising.exposed_shovel=你的铜锹变得§b『斑驳』§r
+hy.message.oxidising.weathered_shovel=你的铜锹变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_shovel=你的铜锹§b『完全氧化』§r
 
 entity.hy:gemstone_trader.name=宝石商人
 item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
