@@ -1,0 +1,20 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:emerald_nugget",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.emerald_nugget"
+            },
+            "minecraft:icon": {
+                "texture": "hy_emerald_nugget"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}

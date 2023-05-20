@@ -1,0 +1,20 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:netherite_nugget",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.netherite_nugget"
+            },
+            "minecraft:icon": {
+                "texture": "hy_netherite_nugget"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}
