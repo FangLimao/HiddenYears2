@@ -2,7 +2,7 @@
     "format_version": "1.17.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:lapis_nugget"
+            "identifier": "hy:copper_nugget_from_stonecutter"
         },
         "tags": [
             "stonecutter"
@@ -10,11 +10,11 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "lapis_lazuli"
+                "item": "coppe_ingot"
             }
         ],
         "result": {
-            "item": "hy:lapis_nugget",
+            "item": "hy:copper_nugget",
             "count": 12
         }
     }

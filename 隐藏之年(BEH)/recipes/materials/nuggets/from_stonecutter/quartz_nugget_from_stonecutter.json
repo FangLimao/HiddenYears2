@@ -2,7 +2,7 @@
     "format_version": "1.17.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:netherite_nugget"
+            "identifier": "hy:quartz_nugget_from_stonecutter"
         },
         "tags": [
             "stonecutter"
@@ -10,11 +10,11 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "netherite_ingot"
+                "item": "quartz"
             }
         ],
         "result": {
-            "item": "hy:netherite_nugget",
+            "item": "hy:quartz_nugget",
             "count": 12
         }
     }
