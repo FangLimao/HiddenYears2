@@ -1,0 +1,21 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:copper_ingot_from_nugget"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "hy:copper_nugget",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "copper_ingot"
+        }
+    }
+}
