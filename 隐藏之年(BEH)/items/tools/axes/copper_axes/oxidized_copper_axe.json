@@ -113,12 +113,12 @@
             "tag:minecraft:is_axe": {}
         },
         "events": {
-            "on_tool_used": {
+            "damaged": {
                 "sequence": [
                     {
                         "damage": {
                             "type": "magic",
-                            "amount": 1,
+                            "amount": 2,
                             "target": "self"
                         }
                     },
@@ -132,9 +132,9 @@
                     }
                 ]
             },
-            "damaged": {
+            "on_tool_used": {
                 "damage": {
-                    "amount": 2,
+                    "amount": 1,
                     "target": "self",
                     "type": "magic"
                 }
