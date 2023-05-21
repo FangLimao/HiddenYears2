@@ -1,6 +1,11 @@
 pack.name=隐藏之年
 pack.description=为你而来的附加包
 
+container.stonecutter=切割机	#
+container.stonecutter_block=切割机	#
+tile.stonecutter.name=切割机	#
+tile.stonecutter_block.name=切割机	#
+
 hy.message.error.100=§c致命错误(100)：缺少前置函数库，请重新下载此附加包。
 
 hy.message.tetanus=你获得了§b『破伤风』§r效果！
