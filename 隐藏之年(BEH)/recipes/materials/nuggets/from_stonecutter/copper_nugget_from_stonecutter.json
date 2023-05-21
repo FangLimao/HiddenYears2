@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "coppe_ingot"
+                "item": "copper_ingot"
             }
         ],
         "result": {
