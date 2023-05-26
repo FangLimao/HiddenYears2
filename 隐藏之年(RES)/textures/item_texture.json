@@ -154,6 +154,36 @@
         },
         "hy_redstone_nugget": {
             "textures": "textures/items/materials/nuggets/redstone_nugget"
+        },
+        "hy_amethyst_dust": {
+            "textures": "textures/items/materials/dusts/amethyst_dust"
+        },
+        "hy_coal_dust": {
+            "textures": "textures/items/materials/dusts/coal_dust"
+        },
+        "hy_copper_dust": {
+            "textures": "textures/items/materials/dusts/copper_dust"
+        },
+        "hy_diamond_dust": {
+            "textures": "textures/items/materials/dusts/diamond_dust"
+        },
+        "hy_emerald_dust": {
+            "textures": "textures/items/materials/dusts/emerald_dust"
+        },
+        "hy_lapis_dust": {
+            "textures": "textures/items/materials/dusts/lapis_dust"
+        },
+        "hy_netherite_dust": {
+            "textures": "textures/items/materials/dusts/netherite_dust"
+        },
+        "hy_quartz_dust": {
+            "textures": "textures/items/materials/dusts/quartz_dust"
+        },
+        "hy_iron_dust": {
+            "textures": "textures/items/materials/dusts/iron_dust"
+        },
+        "hy_gold_dust": {
+            "textures": "textures/items/materials/dusts/gold_dust"
         }
     }
 }
