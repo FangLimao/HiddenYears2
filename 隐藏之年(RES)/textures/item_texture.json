@@ -184,6 +184,24 @@
         },
         "hy_gold_dust": {
             "textures": "textures/items/materials/dusts/gold_dust"
+        },
+        "hy_netherite_hammer": {
+            "textures": "textures/items/tools/hammers/metal_hammers/netherite_hammer"
+        },
+        "hy_diamond_hammer": {
+            "textures": "textures/items/tools/hammers/metal_hammers/diamond_hammer"
+        },
+        "hy_iron_hammer": {
+            "textures": "textures/items/tools/hammers/metal_hammers/iron_hammer"
+        },
+        "hy_gold_hammer": {
+            "textures": "textures/items/tools/hammers/metal_hammers/netherite_hammer"
+        },
+        "hy_stone_hammer": {
+            "textures": "textures/items/tools/hammers/stone_hammer"
+        },
+        "hy_wooden_hammer": {
+            "textures": "textures/items/tools/hammers/wooden_hammer"
         }
     }
 }
