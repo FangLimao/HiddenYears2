@@ -39,7 +39,7 @@
 						"block": {
 							"tags": "query.any_tag('stone')"
 						},
-						"speed": 5,
+						"speed": 7,
 						"on_dig": {
 							"event": "on_tool_used",
 							"target": "self"
@@ -47,7 +47,7 @@
 					},
 					{
 						"block": "sandstone",
-						"speed": 5,
+						"speed": 7,
 						"on_dig": {
 							"event": "on_tool_used",
 							"target": "self"
