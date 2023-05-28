@@ -195,7 +195,7 @@
             "textures": "textures/items/tools/hammers/metal_hammers/iron_hammer"
         },
         "hy_gold_hammer": {
-            "textures": "textures/items/tools/hammers/metal_hammers/netherite_hammer"
+            "textures": "textures/items/tools/hammers/metal_hammers/gold_hammer"
         },
         "hy_stone_hammer": {
             "textures": "textures/items/tools/hammers/stone_hammer"
