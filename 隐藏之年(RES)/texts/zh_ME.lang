@@ -114,3 +114,17 @@ hy.item.quartz_dust=下界石英粉末
 ## 哼哼哼——啊啊啊啊啊啊——啊啊啊啊啊啊啊啊——
 hy.item.iron_dust=铁粉末
 hy.item.gold_dust=金粉末
+
+hy.item.diamond_hammer=钻石锤
+hy.item.gold_hammer=金锤
+hy.item.iron_hammer=铁锤
+hy.item.netherite_hammer=下界合金锤
+hy.item.wooden_hammer=木锤
+hy.item.stone_hammer=石锤
+
+hy.item.diamond_hammer_head=钻石锤头
+hy.item.gold_hammer_head=金锤头
+hy.item.iron_hammer_head=铁锤头
+hy.item.netherite_hammer_head=下界合金锤头
+hy.item.wooden_hammer_head=木锤头
+hy.item.stone_hammer_head=石锤头
