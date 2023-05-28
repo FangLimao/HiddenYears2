@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:gold_hammer_head",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "hy.item.gold_hammer_head"
+			},
+			"minecraft:icon": {
+				"texture": "hy_gold_hammer_head"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		}
+	}
+}
