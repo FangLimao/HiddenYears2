@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:wooden_hammer_head_from_crimson_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "crimson_planks"
+			}
+		},
+		"pattern": [
+			"###",
+			"###"
+		],
+		"result": {
+			"item": "hy:wooden_hammer_head"
+		}
+	}
+}

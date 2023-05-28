@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_smithing_transform": {
+        "description": {
+            "identifier": "hy:netherite_hammer_head"
+        },
+        "tags": [
+            "smithing_table"
+        ],
+        "base": "hy:diamond_hammer_head",
+        "addition": "netherite_ingot",
+        "result": "hy:netherite_hammer_head"
+    }
+}
