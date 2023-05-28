@@ -15,7 +15,7 @@
             "textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
         },
         "hy_copper_hammer_head": {
-            "textures": "textures/items/materials/copper_hammer_head"
+            "textures": "textures/items/tools/hammers/hammer_heads/copper_hammer_head"
         },
         "hy_empty_template": {
             "textures": "textures/items/templates/empty_template"
@@ -87,7 +87,7 @@
             "textures": "textures/items/tools/weapons/swords/amethyst_sword"
         },
         "hy_amethyst_hammer_head": {
-            "textures": "textures/items/materials/amethyst_hammer_head"
+            "textures": "textures/items/tools/hammers/hammer_heads/amethyst_hammer_head"
         },
         "hy_copper_hoe": {
             "textures": "textures/items/tools/hoes/copper_hoes/copper_hoe"
@@ -202,6 +202,24 @@
         },
         "hy_wooden_hammer": {
             "textures": "textures/items/tools/hammers/wooden_hammer"
+        },
+        "hy_diamond_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/diamond_hammer_head"
+        },
+        "hy_gold_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/gold_hammer_head"
+        },
+        "hy_iron_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/iron_hammer_head"
+        },
+        "hy_netherite_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/netherite_hammer_head"
+        },
+        "hy_wooden_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/wooden_hammer_head"
+        },
+        "hy_stone_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/stone_hammer_head"
         }
     }
 }
