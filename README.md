@@ -4,7 +4,7 @@
 ![logo](%E9%9A%90%E8%97%8F%E4%B9%8B%E5%B9%B4(BEH)/pack_icon.png)
 
 ## 下载
-- [点我下载](/assets/mods/latest.mcaddon)
+- [到苦力怕论坛下载](https://klpbbs.com/thread-85797-1-1.html)
 - gitee（需登录）：[点我下载](https://gitee.com/harain/Hidden-Years-Project/releases)
 - 云盘（更新较慢）：[点我下载](https://gitee.com/harain/Hidden-Years-Project/releases)
 
