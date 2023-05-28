@@ -48,6 +48,30 @@
                             "event": "on_tool_used",
                             "target": "self"
                         }
+                    },
+                    {
+                        "block": "deepslate",
+                        "speed": 10,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "chiseled_deepslate",
+                        "speed": 10,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "polished_deepslate",
+                        "speed": 10,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
                     }
                 ]
             },
