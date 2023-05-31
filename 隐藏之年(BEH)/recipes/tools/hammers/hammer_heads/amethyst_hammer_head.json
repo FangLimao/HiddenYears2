@@ -14,7 +14,8 @@
 		},
 		"pattern": [
 			"###",
-			"###"
+			"###",
+			" # "
 		],
 		"result": {
 			"item": "hy:amethyst_hammer_head"
