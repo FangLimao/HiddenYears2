@@ -79,7 +79,7 @@
                     }
                 ]
             },
-            "tag:hy:is_hammer": {}
+            "tag:rainy:amethyst_hammer": {}
         },
         "events": {
             "on_tool_used": {

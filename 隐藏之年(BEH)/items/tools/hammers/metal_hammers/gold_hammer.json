@@ -75,7 +75,7 @@
                     }
                 ]
             },
-            "tag:hy:is_hammer": {}
+            "tag:rainy:gold_hammer": {}
         },
         "events": {
             "on_tool_used": {
