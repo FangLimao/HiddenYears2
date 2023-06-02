@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hy:sharp_copper_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hy:copper_hammer"
+			},
+			{
+				"item": "flint"
+			}
+		],
+		"result": {
+			"item": "hy:sharp_copper_hammer"
+		}
+	}
+}

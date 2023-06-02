@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hy:sharp_netherite_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hy:netherite_hammer"
+			},
+			{
+				"item": "flint"
+			}
+		],
+		"result": {
+			"item": "hy:sharp_netherite_hammer"
+		}
+	}
+}

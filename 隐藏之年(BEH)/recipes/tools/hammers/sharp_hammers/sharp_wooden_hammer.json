@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hy:sharp_wooden_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hy:wooden_hammer"
+			},
+			{
+				"item": "flint"
+			}
+		],
+		"result": {
+			"item": "hy:sharp_wooden_hammer"
+		}
+	}
+}

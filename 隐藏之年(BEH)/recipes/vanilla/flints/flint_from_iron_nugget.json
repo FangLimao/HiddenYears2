@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:flint_from_iron_nugget"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" #",
+			"# "
+		],
+		"key": {
+			"#": {
+				"item": "iron_nugget"
+			}
+		},
+		"result": {
+			"item": "flint",
+			"count": 16
+		},
+		"priority": -1
+	}
+}
