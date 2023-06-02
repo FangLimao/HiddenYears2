@@ -1,14 +1,14 @@
-pack.name=隐秘岁月
-pack.description=适合您的插件｜梗体中文版
+pack.name=隐藏之年
+pack.description=为你而来的附加包
 
-container.stonecutter=昂船洲	#
-container.stonecutter_block=昂船洲	#
-tile.stonecutter.name=昂船洲	#
-tile.stonecutter_block.name=昂船洲	#
+container.stonecutter=切割机	#
+container.stonecutter_block=切割机	#
+tile.stonecutter.name=切割机	#
+tile.stonecutter_block.name=切割机	#
 
-hy.message.error.100=§c致命错误 （114）：缺少前函数库，请再次下载此插件。
+hy.message.error.100=§c致命错误(100)：缺少前置函数库，请重新下载此附加包。
 
-hy.message.tetanus=你获得了§b『脆弱』§r效果！
+hy.message.tetanus=你获得了§b『破伤风』§r效果！
 
 hy.message.oxidising.exposed_sword=你的铜剑变得§b『斑驳』§r
 hy.message.oxidising.weathered_sword=你的铜剑变得§b『锈蚀』§r
@@ -112,7 +112,7 @@ hy.item.lapis_dust=青金石粉末
 hy.item.netherite_dust=下界合金粉末
 hy.item.quartz_dust=下界石英粉末
 ## 哼哼哼——啊啊啊啊啊啊——啊啊啊啊啊啊啊啊——
-hy.item.iron_dust=铁   粉
+hy.item.iron_dust=铁粉末
 hy.item.gold_dust=金粉末
 
 hy.item.diamond_hammer=钻石锤
