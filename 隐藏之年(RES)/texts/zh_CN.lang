@@ -60,7 +60,6 @@ hy.item.copper_hammer=铜锤
 hy.item.exposed_copper_hammer=斑驳的铜锤
 hy.item.oxidized_copper_hammer=氧化的铜锤
 hy.item.weathered_copper_hammer=锈蚀的铜锤
-hy.item.waxed_copper_hammer=涂蜡的铜锤
 hy.item.copper_pickaxe=铜镐
 hy.item.exposed_copper_pickaxe=斑驳的铜镐
 hy.item.oxidized_copper_pickaxe=氧化的铜镐
@@ -111,6 +110,7 @@ hy.item.emerald_dust=绿宝石粉末
 hy.item.lapis_dust=青金石粉末
 hy.item.netherite_dust=下界合金粉末
 hy.item.quartz_dust=下界石英粉末
+
 ## 哼哼哼——啊啊啊啊啊啊——啊啊啊啊啊啊啊啊——
 hy.item.iron_dust=铁粉末
 hy.item.gold_dust=金粉末
@@ -128,3 +128,21 @@ hy.item.iron_hammer_head=铁锤头
 hy.item.netherite_hammer_head=下界合金锤头
 hy.item.wooden_hammer_head=木锤头
 hy.item.stone_hammer_head=石锤头
+
+hy.item.waxed_copper_hammer=涂蜡的铜锤
+hy.item.waxed_amethyst_hammer=涂蜡的紫水晶锤
+hy.item.waxed_diamond_hammer=涂蜡的钻石锤
+hy.item.waxed_gold_hammer=涂蜡的金锤
+hy.item.waxed_iron_hammer=涂蜡的铁锤
+hy.item.waxed_netherite_hammer=涂蜡的下界合金锤
+hy.item.waxed_wooden_hammer=涂蜡的木锤
+hy.item.waxed_stone_hammer=涂蜡的石锤
+
+hy.item.sharp_copper_hammer=打磨的铜锤
+hy.item.sharp_amethyst_hammer=打磨的紫水晶锤
+hy.item.sharp_diamond_hammer=打磨的钻石锤
+hy.item.sharp_gold_hammer=打磨的金锤
+hy.item.sharp_iron_hammer=打磨的铁锤
+hy.item.sharp_netherite_hammer=打磨的下界合金锤
+hy.item.sharp_wooden_hammer=打磨的木锤
+hy.item.sharp_stone_hammer=打磨的石锤
