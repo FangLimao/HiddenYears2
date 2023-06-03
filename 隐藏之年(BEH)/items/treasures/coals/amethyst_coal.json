@@ -17,7 +17,8 @@
             },
             "minecraft:creative_category": {
                 "parent": "items"
-            }
+            },
+            "tag:minecraft:coals":{}
         }
     }
 }
