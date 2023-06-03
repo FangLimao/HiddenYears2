@@ -1,5 +1,5 @@
 pack.name=隐藏之年
-pack.description=为你而来的附加包｜正式版1.1.2
+pack.description=为你而来的附加包｜正式版1.2.0
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -146,3 +146,14 @@ hy.item.sharp_iron_hammer=打磨的铁锤
 hy.item.sharp_netherite_hammer=打磨的下界合金锤
 hy.item.sharp_wooden_hammer=打磨的木锤
 hy.item.sharp_stone_hammer=打磨的石锤
+
+hy.item.amethyst_coal=晶碳
+hy.item.amethyst_coal=铜碳
+hy.item.iron_coal=铁碳
+hy.item.gold_coal=金碳
+hy.item.emerald_coal=绿宝石碳
+hy.item.quartz_coal=下界石英碳
+hy.item.diamond_coal=钻碳
+hy.item.redstone_coal=红石碳
+hy.item.lapis_coal=青金石碳
+hy.item.netherite_coal=下界合金碳
