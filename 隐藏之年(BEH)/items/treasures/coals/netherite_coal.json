@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:netherite_coal",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.netherite_coal"
+            },
+            "minecraft:fuel": {
+                "duration": 160
+            },
+            "minecraft:icon": {
+                "texture": "hy_netherite_coal"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}

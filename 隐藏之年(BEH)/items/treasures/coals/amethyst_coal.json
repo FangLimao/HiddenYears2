@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:amethyst_coal",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.amethyst_coal"
+            },
+            "minecraft:fuel": {
+                "duration": 160
+            },
+            "minecraft:icon": {
+                "texture": "hy_amethyst_coal"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}

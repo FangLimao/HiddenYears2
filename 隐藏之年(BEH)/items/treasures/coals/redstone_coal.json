@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:redstone_coal",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.redstone_coal"
+            },
+            "minecraft:fuel": {
+                "duration": 160
+            },
+            "minecraft:icon": {
+                "texture": "hy_redstone_coal"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}

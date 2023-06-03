@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:diamond_coal",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.diamond_coal"
+            },
+            "minecraft:fuel": {
+                "duration": 160
+            },
+            "minecraft:icon": {
+                "texture": "hy_diamond_coal"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}
