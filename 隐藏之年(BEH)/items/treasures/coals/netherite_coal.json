@@ -10,7 +10,7 @@
                 "value": "hy.item.netherite_coal"
             },
             "minecraft:fuel": {
-                "duration": 160
+                "duration": 5120
             },
             "minecraft:icon": {
                 "texture": "hy_netherite_coal"

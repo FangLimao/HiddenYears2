@@ -10,7 +10,7 @@
                 "value": "hy.item.diamond_coal"
             },
             "minecraft:fuel": {
-                "duration": 160
+                "duration": 2560
             },
             "minecraft:icon": {
                 "texture": "hy_diamond_coal"
