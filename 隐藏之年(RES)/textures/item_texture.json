@@ -220,6 +220,36 @@
         },
         "hy_stone_hammer_head": {
             "textures": "textures/items/tools/hammers/hammer_heads/stone_hammer_head"
+        },
+        "hy_amethyst_coal": {
+            "textures": "textures/items/treasures/coals/amethyst_coal"
+        },
+        "hy_copper_coal": {
+            "textures": "textures/items/treasures/coals/copper_coal"
+        },
+        "hy_iron_coal": {
+            "textures": "textures/items/treasures/coals/iron_coal"
+        },
+        "hy_gold_coal": {
+            "textures": "textures/items/treasures/coals/gold_coal"
+        },
+        "hy_emerald_coal": {
+            "textures": "textures/items/treasures/coals/emerald_coal"
+        },
+        "hy_quartz_coal": {
+            "textures": "textures/items/treasures/coals/quartz_coal"
+        },
+        "hy_diamond_coal": {
+            "textures": "textures/items/treasures/coals/diamond_coal"
+        },
+        "hy_redstone_coal": {
+            "textures": "textures/items/treasures/coals/redstone_coal"
+        },
+        "hy_lapis_coal": {
+            "textures": "textures/items/treasures/coals/lapis_coal"
+        },
+        "hy_netherite_coal": {
+            "textures": "textures/items/treasures/coals/netherite_coal"
         }
     }
 }
