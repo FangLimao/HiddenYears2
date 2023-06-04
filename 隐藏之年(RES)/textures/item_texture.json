@@ -285,7 +285,7 @@
             "textures": "textures/items/treasures/fuels/netherite_fuel"
         },
         "hy_empty_fuel": {
-            "textures": "textures/items/treasures/fuels/emptyp_fuel"
+            "textures": "textures/items/treasures/fuels/fuel"
         }
     }
 }
