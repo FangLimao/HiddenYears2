@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:coal_template",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "hy.item.coal_template"
+			},
+			"minecraft:icon": {
+				"texture": "hy_coal_template"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		}
+	}
+}
