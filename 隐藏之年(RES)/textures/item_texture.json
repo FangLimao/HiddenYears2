@@ -253,6 +253,36 @@
         },
         "hy_coal_template": {
             "textures": "textures/items/treasures/templates/coal_template"
+        },
+        "hy_amethyst_fuel": {
+            "textures": "textures/items/treasures/fuels/amethyst_fuel"
+        },
+        "hy_copper_fuel": {
+            "textures": "textures/items/treasures/fuels/copper_fuel"
+        },
+        "hy_iron_fuel": {
+            "textures": "textures/items/treasures/fuels/iron_fuel"
+        },
+        "hy_gold_fuel": {
+            "textures": "textures/items/treasures/fuels/gold_fuel"
+        },
+        "hy_emerald_fuel": {
+            "textures": "textures/items/treasures/fuels/emerald_fuel"
+        },
+        "hy_quartz_fuel": {
+            "textures": "textures/items/treasures/fuels/quartz_fuel"
+        },
+        "hy_diamond_fuel": {
+            "textures": "textures/items/treasures/fuels/diamond_fuel"
+        },
+        "hy_redstone_fuel": {
+            "textures": "textures/items/treasures/fuels/redstone_fuel"
+        },
+        "hy_lapis_fuel": {
+            "textures": "textures/items/treasures/fuels/lapis_fuel"
+        },
+        "hy_netherite_fuel": {
+            "textures": "textures/items/treasures/fuels/netherite_fuel"
         }
     }
 }
