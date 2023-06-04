@@ -15,6 +15,12 @@
         },
         "hy_deepslate_amethyst_essence_ore": {
             "textures": "textures/blocks/ores/essences/deepslate_amethyst_essence_ore"
+        },
+        "hy_fuel_ore": {
+            "textures": "textures/blocks/ores/fuel_ore"
+        },
+        "hy_deepslate_fuel_ore": {
+            "textures": "textures/blocks/ores/deepslate_fuel_ore"
         }
     }
 }
