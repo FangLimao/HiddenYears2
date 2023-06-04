@@ -7,6 +7,7 @@
         "tags": [
             "smithing_table"
         ],
+        "template": "netherite_upgrade_smithing_template",
         "base": "hy:diamond_hammer_head",
         "addition": "netherite_ingot",
         "result": "hy:netherite_hammer_head"
