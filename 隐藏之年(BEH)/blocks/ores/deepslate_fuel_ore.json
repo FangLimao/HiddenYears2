@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "hy:deepslate_fuel_ore"
+		},
+		"components": {
+			"minecraft:display_name": "hy.block.deepslate_fuel_ore",
+			"minecraft:destroy_time": 2.0,
+			"minecraft:explosion_resistance": 2.0,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:loot": "loot_tables/blocks/fuel_ore.json",
+			"tag:minecraft:stone_pick_diggable": {}
+		}
+	}
+}

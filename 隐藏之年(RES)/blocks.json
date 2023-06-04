@@ -1,23 +1,31 @@
 {
-	"format_version": [
-		1,
-		17,
-		0
-	],
-	"hy:copper_essence_ore": {
-		"sound": "stone",
-		"textures": "hy_copper_essence_ore"
-	},
-	"hy:deepslate_copper_essence_ore": {
-		"sound": "deepslate",
-		"textures": "hy_deepslate_copper_essence_ore"
-	},
-	"hy:amethyst_essence_ore": {
-		"sound": "stone",
-		"textures": "hy_amethyst_essence_ore"
-	},
-	"hy:deepslate_amethyst_essence_ore": {
-		"sound": "deepslate",
-		"textures": "hy_deepslate_amethyst_essence_ore"
-	}
+    "format_version": [
+        1,
+        17,
+        0
+    ],
+    "hy:copper_essence_ore": {
+        "sound": "stone",
+        "textures": "hy_copper_essence_ore"
+    },
+    "hy:deepslate_copper_essence_ore": {
+        "sound": "deepslate",
+        "textures": "hy_deepslate_copper_essence_ore"
+    },
+    "hy:amethyst_essence_ore": {
+        "sound": "stone",
+        "textures": "hy_amethyst_essence_ore"
+    },
+    "hy:deepslate_amethyst_essence_ore": {
+        "sound": "deepslate",
+        "textures": "hy_deepslate_amethyst_essence_ore"
+    },
+    "hy:fuel_ore": {
+        "sound": "stone",
+        "textures": "hy_amethyst_essence_ore"
+    },
+    "hy:deepslate_fuel_ore": {
+        "sound": "deepslate",
+        "textures": "hy_deepslate_fuel_ore"
+    }
 }
