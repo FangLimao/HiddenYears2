@@ -250,6 +250,9 @@
         },
         "hy_netherite_coal": {
             "textures": "textures/items/treasures/coals/netherite_coal"
+        },
+        "hy_coal_template": {
+            "textures": "textures/items/treasures/templates/coal_template"
         }
     }
 }
