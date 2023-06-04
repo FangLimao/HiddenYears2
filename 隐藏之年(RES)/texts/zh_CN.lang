@@ -158,3 +158,17 @@ hy.item.redstone_coal=红石煤碳
 hy.item.lapis_coal=青金石煤碳
 hy.item.netherite_coal=下界合金煤碳
 hy.item.coal_template=煤炭升级模板
+
+tile.hy.block.fuel_ore.name=燃料矿石
+tile.hy.block.deepslate_fuel_ore.name=深层燃料矿石
+hy.item.amethyst_fuel=紫水晶燃料
+hy.item.amethyst_fuel=铜燃料
+hy.item.iron_fuel=铁燃料
+hy.item.gold_fuel=金燃料
+hy.item.emerald_fuel=绿宝石燃料
+hy.item.quartz_fuel=下界石英燃料
+hy.item.diamond_fuel=钻石燃料
+hy.item.redstone_fuel=红石燃料
+hy.item.lapis_fuel=青金石燃料
+hy.item.netherite_fuel=下界合金燃料
+hy.item.empty_fuel=燃料
