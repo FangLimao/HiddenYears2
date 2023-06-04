@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:netherite_fuel",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.netherite_fuel"
+            },
+            "minecraft:fuel": {
+                "duration": 5120
+            },
+            "minecraft:icon": {
+                "texture": "hy_netherite_fuel"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            },
+            "tag:minecraft:fuels": {}
+        }
+    }
+}

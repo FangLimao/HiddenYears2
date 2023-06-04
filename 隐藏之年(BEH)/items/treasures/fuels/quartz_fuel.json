@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:quartz_fuel",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.quartz_fuel"
+            },
+            "minecraft:fuel": {
+                "duration": 2500
+            },
+            "minecraft:icon": {
+                "texture": "hy_quartz_fuel"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            },
+            "tag:minecraft:fuels": {}
+        }
+    }
+}

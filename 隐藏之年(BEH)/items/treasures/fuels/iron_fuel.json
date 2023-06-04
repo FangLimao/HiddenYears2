@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:iron_fuel",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.iron_fuel"
+            },
+            "minecraft:fuel": {
+                "duration": 640
+            },
+            "minecraft:icon": {
+                "texture": "hy_iron_fuel"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            },
+            "tag:minecraft:fuels": {}
+        }
+    }
+}
