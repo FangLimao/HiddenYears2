@@ -286,6 +286,9 @@
         },
         "hy_empty_fuel": {
             "textures": "textures/items/treasures/fuels/fuel"
+        },
+        "hy_coal_fuel": {
+            "textures": "textures/items/treasures/fuels/coal_fuel"
         }
     }
 }
