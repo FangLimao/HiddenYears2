@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:quartz_fuel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "hy:empty_fuel"
+            },
+            {
+                "item": "quartz"
+            }
+        ],
+        "result": {
+            "item": "hy:quartz_fuel",
+            "count": 6
+        }
+    }
+}
