@@ -22,7 +22,7 @@
     },
     "hy:fuel_ore": {
         "sound": "stone",
-        "textures": "hy_amethyst_essence_ore"
+        "textures": "hy_fuel_ore"
     },
     "hy:deepslate_fuel_ore": {
         "sound": "deepslate",
