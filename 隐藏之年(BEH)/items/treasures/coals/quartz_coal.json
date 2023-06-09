@@ -10,7 +10,7 @@
                 "value": "hy.item.quartz_coal"
             },
             "minecraft:fuel": {
-                "duration": 2500
+                "duration": 600
             },
             "minecraft:icon": {
                 "texture": "hy_quartz_coal"

@@ -10,7 +10,7 @@
                 "value": "hy.item.amethyst_coal"
             },
             "minecraft:fuel": {
-                "duration": 160
+                "duration": 100
             },
             "minecraft:icon": {
                 "texture": "hy_amethyst_coal"

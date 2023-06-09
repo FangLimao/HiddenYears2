@@ -10,7 +10,7 @@
                 "value": "hy.item.copper_coal"
             },
             "minecraft:fuel": {
-                "duration": 320
+                "duration": 200
             },
             "minecraft:icon": {
                 "texture": "hy_copper_coal"
