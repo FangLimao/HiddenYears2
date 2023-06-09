@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:lapis_coal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "hu:coal_template"
+            },
+            {
+                "item": "lapis_lazuli"
+            }
+        ],
+        "result": {
+            "item": "hy:lapis_coal",
+            "count": 12
+        }
+    }
+}

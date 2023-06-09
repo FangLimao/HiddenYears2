@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:redstone_coal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "hu:coal_template"
+            },
+            {
+                "item": "redstone"
+            }
+        ],
+        "result": {
+            "item": "hy:redstone_coal",
+            "count": 12
+        }
+    }
+}

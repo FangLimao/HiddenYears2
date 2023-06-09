@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:amethyst_coal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "hu:coal_template"
+            },
+            {
+                "item": "hy:amethyst_ingot"
+            }
+        ],
+        "result": {
+            "item": "hy:amethyst_coal",
+            "count": 12
+        }
+    }
+}
