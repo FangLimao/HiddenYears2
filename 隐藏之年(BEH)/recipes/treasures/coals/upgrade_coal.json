@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:upgrade_coal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "hy:coal_template"
+            }
+        ],
+        "result": {
+            "item": "coal",
+            "count": 45
+        }
+    }
+}
