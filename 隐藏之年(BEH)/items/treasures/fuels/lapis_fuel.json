@@ -10,7 +10,7 @@
                 "value": "hy.item.lapis_fuel"
             },
             "minecraft:fuel": {
-                "duration": 4000
+                "duration": 2200
             },
             "minecraft:icon": {
                 "texture": "hy_lapis_fuel"

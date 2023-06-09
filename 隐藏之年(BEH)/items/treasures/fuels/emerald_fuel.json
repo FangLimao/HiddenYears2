@@ -10,7 +10,7 @@
                 "value": "hy.item.emerald_fuel"
             },
             "minecraft:fuel": {
-                "duration": 2000
+                "duration": 1400
             },
             "minecraft:icon": {
                 "texture": "hy_emerald_fuel"

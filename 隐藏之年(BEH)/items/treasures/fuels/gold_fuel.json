@@ -10,7 +10,7 @@
                 "value": "hy.item.gold_fuel"
             },
             "minecraft:fuel": {
-                "duration": 1280
+                "duration": 1200
             },
             "minecraft:icon": {
                 "texture": "hy_gold_fuel"

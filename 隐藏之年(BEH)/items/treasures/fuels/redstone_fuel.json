@@ -10,7 +10,7 @@
                 "value": "hy.item.redstone_fuel"
             },
             "minecraft:fuel": {
-                "duration": 3000
+                "duration": 2000
             },
             "minecraft:icon": {
                 "texture": "hy_redstone_fuel"
