@@ -289,6 +289,54 @@
         },
         "hy_coal_fuel": {
             "textures": "textures/items/treasures/fuels/coal_fuel"
+        },
+        "hy_amethyst_knife": {
+            "textures": "textures/items/tools/weapons/knifes/amethyst_knife"
+        },
+        "hy_copper_knife": {
+            "textures": "textures/items/tools/weapons/knifes/copper_knife"
+        },
+        "hy_iron_knife": {
+            "textures": "textures/items/tools/weapons/knifes/iron_knife"
+        },
+        "hy_gold_knife": {
+            "textures": "textures/items/tools/weapons/knifes/gold_knife"
+        },
+        "hy_diamond_knife": {
+            "textures": "textures/items/tools/weapons/knifes/diamond_knife"
+        },
+        "hy_netherite_knife": {
+            "textures": "textures/items/tools/weapons/knifes/netherite_knife"
+        },
+        "hy_stone_knife": {
+            "textures": "textures/items/tools/weapons/knifes/stone_knife"
+        },
+        "hy_wooden_knife": {
+            "textures": "textures/items/tools/weapons/knifes/wooden_knife"
+        },
+        "hy_amethyst_awl": {
+            "textures": "textures/items/materials/awls/amethyst_awl"
+        },
+        "hy_copper_awl": {
+            "textures": "textures/items/materials/awls/copper_awl"
+        },
+        "hy_iron_awl": {
+            "textures": "textures/items/materials/awls/iron_awl"
+        },
+        "hy_gold_awl": {
+            "textures": "textures/items/materials/awls/gold_awl"
+        },
+        "hy_diamond_awl": {
+            "textures": "textures/items/materials/awls/diamond_awl"
+        },
+        "hy_netherite_awl": {
+            "textures": "textures/items/materials/awls/netherite_awl"
+        },
+        "hy_stone_awl": {
+            "textures": "textures/items/materials/awls/stone_awl"
+        },
+        "hy_wooden_awl": {
+            "textures": "textures/items/materials/awls/wooden_awl"
         }
     }
 }
