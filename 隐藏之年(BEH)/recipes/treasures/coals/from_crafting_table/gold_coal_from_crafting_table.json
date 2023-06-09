@@ -1,0 +1,22 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:gold_coal_from_crafting_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "gold_ingot"
+            }
+        ],
+        "result": {
+            "item": "hy:gold_coal"
+        }
+    }
+}
