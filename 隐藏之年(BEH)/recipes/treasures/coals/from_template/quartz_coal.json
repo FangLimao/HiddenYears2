@@ -2,7 +2,7 @@
     "format_version": "1.17.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:diamond_coal"
+            "identifier": "hy:quartz_coal"
         },
         "tags": [
             "crafting_table"
@@ -12,14 +12,14 @@
                 "item": "coal"
             },
             {
-                "item": "hu:coal_template"
+                "item": "hy:coal_template"
             },
             {
-                "item": "diamond"
+                "item": "quartz"
             }
         ],
         "result": {
-            "item": "hy:diamond_coal",
+            "item": "hy:quartz_coal",
             "count": 12
         }
     }

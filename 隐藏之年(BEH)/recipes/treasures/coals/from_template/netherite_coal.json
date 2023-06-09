@@ -2,7 +2,7 @@
     "format_version": "1.17.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:amethyst_coal"
+            "identifier": "hy:netherite_coal"
         },
         "tags": [
             "crafting_table"
@@ -12,14 +12,14 @@
                 "item": "coal"
             },
             {
-                "item": "hu:coal_template"
+                "item": "hy:coal_template"
             },
             {
-                "item": "hy:amethyst_ingot"
+                "item": "netherite_ingot"
             }
         ],
         "result": {
-            "item": "hy:amethyst_coal",
+            "item": "hy:netherite_coal",
             "count": 12
         }
     }

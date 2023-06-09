@@ -2,7 +2,7 @@
     "format_version": "1.17.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:emerald_coal"
+            "identifier": "hy:gold_coal"
         },
         "tags": [
             "crafting_table"
@@ -12,14 +12,14 @@
                 "item": "coal"
             },
             {
-                "item": "hu:coal_template"
+                "item": "hy:coal_template"
             },
             {
-                "item": "emerald"
+                "item": "gold_ingot"
             }
         ],
         "result": {
-            "item": "hy:emerald_coal",
+            "item": "hy:gold_coal",
             "count": 12
         }
     }
