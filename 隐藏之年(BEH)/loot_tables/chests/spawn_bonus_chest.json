@@ -20,6 +20,24 @@
             "entries": [
                 {
                     "type": "item",
+                    "name": "hy:coal_template",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 14
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
                     "name": "minecraft:stone_pickaxe",
                     "weight": 1
                 },
