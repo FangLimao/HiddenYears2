@@ -143,7 +143,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:copper_ingot"
+                            "copper_ingot"
                         ],
                         "repair_amount": 50
                     },

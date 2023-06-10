@@ -143,7 +143,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:iron_ingot"
+                            "iron_ingot"
                         ],
                         "repair_amount": 50
                     },

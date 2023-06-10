@@ -143,7 +143,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:stone_ingot"
+                            "stone"
                         ],
                         "repair_amount": 50
                     },
