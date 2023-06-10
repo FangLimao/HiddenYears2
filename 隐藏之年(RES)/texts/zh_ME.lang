@@ -1,5 +1,5 @@
 pack.name=隐秘岁月
-pack.description=适合您的插件 ｜ 正式版1.2.0(梗体中文版)
+pack.description=适合您的插件 ｜ 正式版1.3.0(梗体中文版)
 
 container.stonecutter=昂船洲	#
 container.stonecutter_block=昂船洲	#
@@ -173,3 +173,30 @@ hy.item.lapis_fuel=青金石燃料
 hy.item.netherite_fuel=下界合金燃料
 hy.item.coal_fuel=煤燃料
 hy.item.empty_fuel=燃料
+
+hy.item.diamond_awl=钻石锥
+hy.item.gold_awl=金锥
+hy.item.iron_awl=铁锥
+hy.item.netherite_awl=下界合金锥
+hy.item.wooden_awl=木锥
+hy.item.stone_awl=石锥
+hy.item.copper_awl=铜锥
+hy.item.amethyst_awl=紫水晶锥
+
+hy.item.diamond_knife=钻石小刀
+hy.item.gold_knife=金小刀
+hy.item.iron_knife=铁小刀
+hy.item.netherite_knife=下界合金小刀
+hy.item.wooden_knife=木小刀
+hy.item.stone_knife=石小刀
+hy.item.copper_knife=铜小刀
+hy.item.amethyst_knife=紫水晶小刀
+
+hy.item.diamond_dagger=钻石匕首
+hy.item.gold_dagger=金匕首
+hy.item.iron_dagger=铁匕首
+hy.item.netherite_dagger=下界合金匕首
+hy.item.wooden_dagger=木匕首
+hy.item.stone_dagger=石匕首
+hy.item.copper_dagger=铜匕首
+hy.item.amethyst_dagger=紫水晶匕首
