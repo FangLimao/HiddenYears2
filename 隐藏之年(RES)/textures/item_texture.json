@@ -337,6 +337,30 @@
         },
         "hy_wooden_awl": {
             "textures": "textures/items/materials/awls/wooden_awl"
+        },
+        "hy_amethyst_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/amethyst_dagger"
+        },
+        "hy_copper_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/copper_dagger"
+        },
+        "hy_iron_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/iron_dagger"
+        },
+        "hy_gold_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/gold_dagger"
+        },
+        "hy_diamond_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/diamond_dagger"
+        },
+        "hy_netherite_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/netherite_dagger"
+        },
+        "hy_stone_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/stone_dagger"
+        },
+        "hy_wooden_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/wooden_dagger"
         }
     }
 }
