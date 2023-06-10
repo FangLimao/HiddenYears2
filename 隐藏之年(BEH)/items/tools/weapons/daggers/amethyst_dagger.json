@@ -14,9 +14,9 @@
                 "parent": "equipment"
             },
             "minecraft:durability": {
-                "max_durability": 100
+                "max_durability": 50
             },
-            "minecraft:damage": 6,
+            "minecraft:damage": 10,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "on_dig": {
