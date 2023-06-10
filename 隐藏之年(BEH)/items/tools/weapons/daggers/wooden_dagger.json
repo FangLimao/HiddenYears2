@@ -30,7 +30,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:wooden_ingot"
+                            "planks"
                         ],
                         "repair_amount": 50
                     },

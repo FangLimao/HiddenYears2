@@ -30,7 +30,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:diamond_ingot"
+                            "diamond"
                         ],
                         "repair_amount": 50
                     },

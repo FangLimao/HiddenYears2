@@ -30,7 +30,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:netherite_ingot"
+                            "netherite_ingot"
                         ],
                         "repair_amount": 50
                     },
