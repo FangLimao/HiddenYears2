@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:iron_awl"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "iron_nugget"
+			}
+		},
+		"result": {
+			"item": "hy:iron_awl"
+		}
+	}
+}
