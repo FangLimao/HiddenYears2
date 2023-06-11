@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:diamond_dagger"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "hy:diamond_knife"
+            },
+            {
+                "item": "flint"
+            }
+        ],
+        "result": {
+            "item": "hy:diamond_dagger"
+        }
+    }
+}
