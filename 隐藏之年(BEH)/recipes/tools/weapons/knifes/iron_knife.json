@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:iron_knife"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "hy:iron_awl"
+            },
+            {
+                "item": "stick"
+            }
+        ],
+        "result": {
+            "item": "hy:iron_knife"
+        }
+    }
+}
