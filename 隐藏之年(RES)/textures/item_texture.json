@@ -361,6 +361,12 @@
         },
         "hy_wooden_dagger": {
             "textures": "textures/items/tools/weapons/daggers/wooden_dagger"
+        },
+        "hy_gold_coin": {
+            "textures": "textures/items/treasures/coins/gold_coin"
+        },
+        "hy_diamond_coin": {
+            "textures": "textures/items/treasures/coins/diamond_coin"
         }
     }
 }
