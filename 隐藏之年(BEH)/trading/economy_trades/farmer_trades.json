@@ -294,7 +294,7 @@
                         {
                             "wants": [
                                 {
-                                    "item": "hu:copper_coin",
+                                    "item": "hy:copper_coin",
                                     "quantity": 50,
                                     "price_multiplier": 0.05
                                 }
