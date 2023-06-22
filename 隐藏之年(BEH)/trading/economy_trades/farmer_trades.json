@@ -394,20 +394,74 @@
             "total_exp_required": 70,
             "groups": [
                 {
-                    "num_to_select": 1,
+                    "num_to_select": 3,
                     "trades": [
                         {
                             "wants": [
                                 {
-                                    "item": "minecraft:melon_block",
+                                    "item": "kelp",
                                     "quantity": 4,
                                     "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:emerald",
-                                    "quantity": 1
+                                    "item": "hy:copper_coin",
+                                    "quantity": 24
+                                }
+                            ],
+                            "trader_exp": 20,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "cocoa_beans",
+                                    "quantity": 4,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 24
+                                }
+                            ],
+                            "trader_exp": 20,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 24,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "kelp",
+                                    "quantity": 5
+                                }
+                            ],
+                            "trader_exp": 20,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 24,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "cocoa_beans",
+                                    "quantity": 5
                                 }
                             ],
                             "trader_exp": 20,
@@ -422,15 +476,178 @@
                         {
                             "wants": [
                                 {
-                                    "item": "minecraft:emerald",
-                                    "quantity": 3,
+                                    "item": "cookie",
+                                    "quantity": 6,
                                     "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:cookie",
-                                    "quantity": 18
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 55,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "cookie",
+                                    "quantity": 6
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "melon_block",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 35
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pumpkin",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 35
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 35,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "melon_block",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 35,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "pumpkin",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "cake",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 35
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "suspicious_stew:0",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05,
+                                    "functions": [
+                                        {
+                                            "function": "random_aux_value",
+                                            "values": {
+                                                "min": 0,
+                                                "max": 5
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 35
+                                }
+                            ],
+                            "trader_exp": 10,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 40,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "cake",
+                                    "quantity": 1
                                 }
                             ],
                             "trader_exp": 10,
@@ -450,24 +667,33 @@
                         {
                             "wants": [
                                 {
-                                    "item": "minecraft:emerald",
+                                    "item": "hy:copper_coin",
+                                    "quantity": 55,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "dried_kelp_block",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 15,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "dried_kelp_block",
                                     "quantity": 1,
                                     "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:suspicious_stew:0",
-                                    "quantity": 1,
-                                    "functions": [
-                                        {
-                                            "function": "random_aux_value",
-                                            "values": {
-                                                "min": 0,
-                                                "max": 5
-                                            }
-                                        }
-                                    ]
+                                    "item": "hy:copper_coin",
+                                    "quantity": 50
                                 }
                             ],
                             "trader_exp": 15,
@@ -482,14 +708,32 @@
                         {
                             "wants": [
                                 {
-                                    "item": "minecraft:emerald",
+                                    "item": "poisonous_potato",
                                     "quantity": 1,
                                     "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:cake",
+                                    "item": "hy:copper_coin",
+                                    "quantity": 60
+                                }
+                            ],
+                            "trader_exp": 15,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 55,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "poisonous_potato",
                                     "quantity": 1
                                 }
                             ],
@@ -498,6 +742,78 @@
                             "reward_exp": true
                         }
                     ]
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "golden_carrot",
+                            "quantity": 1,
+                            "price_multiplier": 0.05
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "hy:copper_coin",
+                            "quantity": 60
+                        }
+                    ],
+                    "trader_exp": 15,
+                    "max_uses": 12,
+                    "reward_exp": true
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "hy:copper_coin",
+                            "quantity": 64,
+                            "price_multiplier": 0.05
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "golden_carrot",
+                            "quantity": 1
+                        }
+                    ],
+                    "trader_exp": 15,
+                    "max_uses": 12,
+                    "reward_exp": true
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "glistering_melon_slice",
+                            "quantity": 1,
+                            "price_multiplier": 0.05
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "hy:copper_coin",
+                            "quantity": 60
+                        }
+                    ],
+                    "trader_exp": 15,
+                    "max_uses": 12,
+                    "reward_exp": true
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "glistering_melon_slice",
+                            "quantity": 64,
+                            "price_multiplier": 0.05
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "glistering_melon_slice",
+                            "quantity": 1
+                        }
+                    ],
+                    "trader_exp": 15,
+                    "max_uses": 12,
+                    "reward_exp": true
                 }
             ]
         },
@@ -510,15 +826,15 @@
                         {
                             "wants": [
                                 {
-                                    "item": "minecraft:emerald",
-                                    "quantity": 3,
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64,
                                     "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:golden_carrot",
-                                    "quantity": 3
+                                    "item": "nether_wart",
+                                    "quantity": 1
                                 }
                             ],
                             "trader_exp": 30,
@@ -528,15 +844,87 @@
                         {
                             "wants": [
                                 {
-                                    "item": "minecraft:emerald",
-                                    "quantity": 4,
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64,
                                     "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:speckled_melon",
-                                    "quantity": 3
+                                    "item": "glow_berries",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 30,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "chorus_fruit",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 30,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "nether_wart",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64
+                                }
+                            ],
+                            "trader_exp": 30,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "glow_berries",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64
+                                }
+                            ],
+                            "trader_exp": 30,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "chorus_fruit",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:copper_coin",
+                                    "quantity": 64
                                 }
                             ],
                             "trader_exp": 30,
