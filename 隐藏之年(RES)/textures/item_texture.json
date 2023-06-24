@@ -367,6 +367,15 @@
         },
         "hy_diamond_coin": {
             "textures": "textures/items/treasures/coins/diamond_coin"
+        },
+        "hy_stack_of_gold_coin": {
+            "textures": "textures/items/treasures/coins/stack_of_gold_coin"
+        },
+        "hy_stack_of_diamond_coin": {
+            "textures": "textures/items/treasures/coins/stack_of_diamond_coin"
+        },
+        "hy_stack_of_copper_coin": {
+            "textures": "textures/items/treasures/coins/stack_of_copper_coin"
         }
     }
 }
