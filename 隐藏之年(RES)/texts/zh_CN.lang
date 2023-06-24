@@ -203,3 +203,6 @@ hy.item.amethyst_dagger=紫水晶匕首
 
 hy.item.gold_coin=金币
 hy.item.diamond_coin=钻石币
+hy.item.stack_of_gold_coin=金币组
+hy.item.stack_of_diamond_coin=钻石币组
+hy.item.stack_of_copper_coin=铜币组
