@@ -2,14 +2,14 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:copper_coin"
+			"identifier": "hy:gold_coin"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"#": {
-				"item": "copper_ingot"
+				"item": "gold_ingot"
 			}
 		},
 		"pattern": [
@@ -18,7 +18,7 @@
 			"###"
 		],
 		"result": {
-			"item": "hy:copper_coin",
+			"item": "hy:gold_coin",
 			"count": 40
 		}
 	}
