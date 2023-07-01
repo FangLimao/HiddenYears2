@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:item": {
 		"description": {
-			"identifier": "hy:diamond_coin",
+			"identifier": "hy:stack_of_diamond_coin",
 			"category": "items"
 		},
 		"components": {
