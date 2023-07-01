@@ -355,7 +355,7 @@
                         {
                             "wants": [
                                 {
-                                    "item": "hy:set_of_gold_coin",
+                                    "item": "hy:stack_of_gold_coin",
                                     "quantity": 1,
                                     "price_multiplier": 0.05
                                 }
@@ -373,7 +373,7 @@
                         {
                             "wants": [
                                 {
-                                    "item": "hy:set_of_gold_coin",
+                                    "item": "hy:stack_of_gold_coin",
                                     "quantity": 5,
                                     "price_multiplier": 0.05
                                 }
@@ -391,7 +391,7 @@
                         {
                             "wants": [
                                 {
-                                    "item": "hy:set_of_gold_coin",
+                                    "item": "hy:stack_of_gold_coin",
                                     "quantity": 2,
                                     "price_multiplier": 0.05
                                 }
