@@ -158,7 +158,7 @@
               "wants": [
                 {
                   "item": "hy:copper_coin",
-                  "quantity": 2,
+                  "quantity": 6,
                   "price_multiplier": 0.05
                 }
               ],
@@ -167,7 +167,7 @@
                   "choice": [
                     {
                       "item": "carpet",
-                      "quantity": 4,
+                      "quantity": 22,
                       "functions": [
                         {
                           "function": "random_block_state",
@@ -231,7 +231,7 @@
               "gives": [
                 {
                   "item": "hy:copper_coin",
-                  "quantity": 1
+                  "quantity": 2
                 }
               ],
               "trader_exp": 20,
@@ -247,7 +247,7 @@
               "wants": [
                 {
                   "item": "hy:copper_coin",
-                  "quantity": 3,
+                  "quantity": 2,
                   "price_multiplier": 0.05
                 }
               ],
@@ -323,7 +323,7 @@
               "gives": [
                 {
                   "item": "hy:copper_coin",
-                  "quantity": 1
+                  "quantity": 5
                 }
               ],
               "trader_exp": 30,
@@ -339,14 +339,14 @@
               "wants": [
                 {
                   "item": "hy:copper_coin",
-                  "quantity": 3,
+                  "quantity": 2,
                   "price_multiplier": 0.05
                 }
               ],
               "gives": [
                 {
                   "item": "banner",
-                  "quantity": 1,
+                  "quantity": 7,
                   "functions": [
                     {
                       "function": "random_aux_value",
@@ -376,14 +376,14 @@
               "wants": [
                 {
                   "item": "hy:copper_coin",
-                  "quantity": 2,
+                  "quantity": 6,
                   "price_multiplier": 0.05
                 }
               ],
               "gives": [
                 {
                   "item": "painting",
-                  "quantity": 8
+                  "quantity": 3
                 }
               ],
               "trader_exp": 30,
