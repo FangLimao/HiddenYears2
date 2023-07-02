@@ -9,7 +9,7 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:coal:0",
+                  "item": "coal:0",
                   "quantity": 15,
                   "price_multiplier": 0.05
                 }
@@ -39,7 +39,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:iron_axe",
+                  "item": "iron_axe",
                   "quantity": 1
                 }
               ],
@@ -62,7 +62,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:iron_sword",
+                  "item": "iron_sword",
                   "quantity": 1,
                   "functions": [
                     {
@@ -93,7 +93,7 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:iron_ingot",
+                  "item": "iron_ingot",
                   "quantity": 4,
                   "price_multiplier": 0.05
                 }
@@ -123,7 +123,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:bell",
+                  "item": "bell",
                   "quantity": 1
                 }
               ],
@@ -144,7 +144,7 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:flint",
+                  "item": "flint",
                   "quantity": 4,
                   "price_multiplier": 0.05
                 }
@@ -173,7 +173,7 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:diamond",
+                  "item": "diamond",
                   "quantity": 1,
                   "price_multiplier": 0.05
                 }
@@ -203,7 +203,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:diamond_axe",
+                  "item": "diamond_axe",
                   "quantity": 1,
                   "functions": [
                     {
@@ -241,7 +241,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:diamond_sword",
+                  "item": "diamond_sword",
                   "quantity": 1,
                   "functions": [
                     {
