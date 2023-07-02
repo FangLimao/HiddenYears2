@@ -11,22 +11,22 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:wool:0",
+                      "item": "wool:0",
                       "quantity": 18,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:wool:7",
+                      "item": "wool:7",
                       "quantity": 18,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:wool:12",
+                      "item": "wool:12",
                       "quantity": 18,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:wool:15",
+                      "item": "wool:15",
                       "quantity": 18,
                       "price_multiplier": 0.05
                     }
@@ -58,7 +58,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:shears",
+                  "item": "shears",
                   "quantity": 1
                 }
               ],
@@ -81,27 +81,27 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:dye:16",
+                      "item": "dye:16",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:8",
+                      "item": "dye:8",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:10",
+                      "item": "dye:10",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:12",
+                      "item": "dye:12",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:19",
+                      "item": "dye:19",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     }
@@ -135,7 +135,7 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:wool",
+                      "item": "wool",
                       "functions": [
                         {
                           "function": "random_block_state",
@@ -166,7 +166,7 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:carpet",
+                      "item": "carpet",
                       "quantity": 4,
                       "functions": [
                         {
@@ -201,27 +201,27 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:dye:1",
+                      "item": "dye:1",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:7",
+                      "item": "dye:7",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:9",
+                      "item": "dye:9",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:11",
+                      "item": "dye:11",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:14",
+                      "item": "dye:14",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     }
@@ -255,7 +255,7 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:bed",
+                      "item": "bed",
                       "functions": [
                         {
                           "function": "random_aux_value",
@@ -288,32 +288,32 @@
                 {
                   "choice": [
                     {
-                      "item": "minecraft:dye:2",
+                      "item": "dye:2",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:17",
+                      "item": "dye:17",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:18",
+                      "item": "dye:18",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:5",
+                      "item": "dye:5",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:6",
+                      "item": "dye:6",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     },
                     {
-                      "item": "minecraft:dye:13",
+                      "item": "dye:13",
                       "quantity": 12,
                       "price_multiplier": 0.05
                     }
@@ -345,7 +345,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:banner",
+                  "item": "banner",
                   "quantity": 1,
                   "functions": [
                     {
@@ -382,7 +382,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:painting",
+                  "item": "painting",
                   "quantity": 8
                 }
               ],
