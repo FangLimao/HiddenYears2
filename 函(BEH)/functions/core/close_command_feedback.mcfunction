@@ -1,1 +1,0 @@
-gamerule sendcommandfeedback false
