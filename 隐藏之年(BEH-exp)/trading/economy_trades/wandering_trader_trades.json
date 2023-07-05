@@ -3,715 +3,151 @@
         {
             "groups": [
                 {
-                    "num_to_select": 5,
+                    "num_to_select": 7,
                     "trades": [
                         {
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 2
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "sea_pickle",
-                                    "quantity": {
-                                        "min": 12,
-                                        "max": 28
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 4
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:slime_ball",
-                                    "quantity": {
-                                        "min": 9,
-                                        "max": 12
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 2
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:glowstone"
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 5
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "nautilus_shell",
-                                    "quantity": {
-                                        "min": 4,
-                                        "max": 6
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "tallgrass:2",
-                                    "quantity": {
-                                        "min": 25,
-                                        "max": 32
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "reeds",
-                                    "quantity": {
-                                        "min": 4,
-                                        "max": 6
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 5
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "pumpkin",
-                                    "quantity": {
-                                        "min": 4,
-                                        "max": 6
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 3
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:kelp"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 8,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 3
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:cactus"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:yellow_flower"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:0"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 8,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:1"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:2"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:3"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:4"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:5"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:6"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:7"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:8"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:9"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 7,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:red_flower:10"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:wheat_seeds"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:beetroot_seeds"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:pumpkin_seeds"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:melon_seeds"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "weight": 4,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "choice": [
-                                        {
-                                            "item": "minecraft:wheat_seeds"
-                                        },
-                                        {
-                                            "item": "minecraft:pumpkin_seeds"
-                                        },
-                                        {
-                                            "item": "minecraft:melon_seeds"
-                                        },
-                                        {
-                                            "item": "minecraft:beetroot_seeds"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 8,
-                            "weight": 6,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 5
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "choice": [
-                                        {
-                                            "item": "minecraft:sapling",
-                                            "functions": [
-                                                {
-                                                    "function": "random_block_state",
-                                                    "block_state": "sapling_type",
-                                                    "values": {
-                                                        "min": 0,
-                                                        "max": 5
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "item": "minecraft:mangrove_propagule"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "weight": 16,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:dye",
-                                    "quantity": 3,
-                                    "functions": [
-                                        {
-                                            "function": "random_aux_value",
-                                            "values": {
-                                                "min": 0,
-                                                "max": 15
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 8,
-                            "weight": 5,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 3
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:coral_block",
+                                    "item": "hy:diamond_coin",
                                     "quantity": 1,
-                                    "functions": [
-                                        {
-                                            "function": "random_block_state",
-                                            "block_state": "coral_color",
-                                            "values": {
-                                                "min": 0,
-                                                "max": 4
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 12,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
+                                    "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:vine"
+                                    "item": "heart_of_the_sea",
+                                    "quantity": 3
                                 }
-                            ]
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         },
                         {
-                            "max_uses": 12,
-                            "weight": 2,
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
+                                    "item": "hy:diamond_coin",
+                                    "quantity": 3,
+                                    "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "choice": [
-                                        {
-                                            "item": "minecraft:brown_mushroom"
-                                        },
-                                        {
-                                            "item": "minecraft:red_mushroom"
-                                        }
-                                    ]
+                                    "item": "ender_eye",
+                                    "quantity": 16
                                 }
-                            ]
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         },
                         {
-                            "max_uses": 5,
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
+                                    "item": "hy:diamond_coin",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:waterlily",
+                                    "item": "glowstone",
+                                    "quantity": 52
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:diamond_coin",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "respawn_anchor",
                                     "quantity": 2
                                 }
-                            ]
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         },
                         {
-                            "max_uses": 5,
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
+                                    "item": "hy:diamond_coin",
+                                    "quantity": 5,
+                                    "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:small_dripleaf_block",
-                                    "quantity": 2
+                                    "item": "end_rod",
+                                    "quantity": 27
                                 }
-                            ]
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         },
                         {
-                            "max_uses": 8,
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
+                                    "item": "hy:diamond_coin",
+                                    "quantity": 4,
+                                    "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:sand:0",
-                                    "quantity": 8
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 6,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:sand:1",
+                                    "item": "blaze_rod",
                                     "quantity": 4
                                 }
-                            ]
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         },
                         {
-                            "max_uses": 5,
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
+                                    "item": "hy:stack_of_diamond_coin",
+                                    "quantity": 64,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "nether_star",
                                     "quantity": 1
                                 }
                             ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:pointed_dripstone",
-                                    "quantity": 2
-                                }
-                            ]
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         },
                         {
-                            "max_uses": 5,
                             "wants": [
                                 {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
+                                    "item": "hy:diamond_coin",
+                                    "quantity": 7,
+                                    "price_multiplier": 0.05
                                 }
                             ],
                             "gives": [
                                 {
-                                    "item": "minecraft:dirt_with_roots",
-                                    "quantity": 2
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 5,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:moss_block",
-                                    "quantity": 2
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "num_to_select": 1,
-                    "trades": [
-                        {
-                            "max_uses": 4,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 5
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:bucket:4"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 4,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 5
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:bucket:5"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 6,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
+                                    "item": "netherite_scrap",
                                     "quantity": 3
                                 }
                             ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:packed_ice"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 6,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 6
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:blue_ice"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 8,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 1
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:gunpowder"
-                                }
-                            ]
-                        },
-                        {
-                            "max_uses": 6,
-                            "wants": [
-                                {
-                                    "item": "hy:copper_coin",
-                                    "quantity": 3
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:podzol",
-                                    "quantity": 3
-                                }
-                            ]
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
                         }
                     ]
                 }
