@@ -256,7 +256,7 @@
                             ],
                             "gives": [
                                 {
-                                    "item": "gold_axe",
+                                    "item": "golden_axe",
                                     "quantity": 1
                                 }
                             ],
@@ -274,7 +274,7 @@
                             ],
                             "gives": [
                                 {
-                                    "item": "gold_sword",
+                                    "item": "golden_sword",
                                     "quantity": 1
                                 }
                             ],
