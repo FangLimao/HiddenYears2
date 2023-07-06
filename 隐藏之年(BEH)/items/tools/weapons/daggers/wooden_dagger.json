@@ -21,6 +21,95 @@
                 "value": 10,
                 "slot": "sword"
             },
+                        "minecraft:digger": {
+                "use_efficiency": true,
+                "on_dig": {
+                    "event": "on_tool_used",
+                    "target": "self"
+                },
+                "destroy_speeds": [
+                    {
+                        "block": "web",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bamboo",
+                        "speed": 60,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "cocoa",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "glow_lichen",
+                        "speed": 60,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "azalea_leaves_flowered",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "azalea_leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "leaves2",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "mangrove_leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "cherry_leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "on_tool_used",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
                 "texture": "hy_wooden_dagger"
