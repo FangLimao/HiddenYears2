@@ -11,7 +11,7 @@
             },
             "minecraft:can_destroy_in_creative": false,
             "minecraft:creative_category": {
-                "parent": "equipment"
+                "parent": "itemGroup.name.sword"
             },
             "minecraft:durability": {
                 "max_durability": 25
