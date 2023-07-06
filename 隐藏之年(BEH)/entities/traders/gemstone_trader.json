@@ -11,8 +11,8 @@
 		"component_groups": {
 			"best": {
 				"minecraft:economy_trade_table": {
-					"display_name": "宝石商人",
-					"table": "trading/economy_trades/traders/gemstone_trader.json",
+					"display_name": "entity.hy:gemstone_trader.name",
+					"table": "trading/economy_trades/gemstone_trader.json",
 					"new_screen": true
 				}
 			},
