@@ -337,7 +337,7 @@
                             ],
                             "gives": [
                                 {
-                                    "item": "gold_sword",
+                                    "item": "golden_sword",
                                     "quantity": 1,
                                     "functions": [
                                         {
@@ -398,7 +398,7 @@
                             ],
                             "gives": [
                                 {
-                                    "item": "gold_sword",
+                                    "item": "golden_sword",
                                     "quantity": 1,
                                     "functions": [
                                         {
