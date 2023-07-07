@@ -376,6 +376,39 @@
         },
         "hy_stack_of_copper_coin": {
             "textures": "textures/items/treasures/coins/stack_of_copper_coin"
+        },
+        "hy.fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/fuel"
+        },
+        "hy.amethyst_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/amethyst_fuel"
+        },
+        "hy.copper_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/copper_fuel"
+        },
+        "hy.diamond_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/diamond_fuel"
+        },
+        "hy.emerald_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/emerald_fuel"
+        },
+        "hy.gold_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/gold_fuel"
+        },
+        "hy.iron_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/iron_fuel"
+        },
+        "hy.lapis_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/lapis_fuel"
+        },
+        "hy.netherite_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/netherite_fuel"
+        },
+        "hy.quartz_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/quartz_fuel"
+        },
+        "hy.redstone_fuel_metal": {
+            "textures": "textures/items/materials/fuel_metals/redstone_fuel"
         }
     }
 }
