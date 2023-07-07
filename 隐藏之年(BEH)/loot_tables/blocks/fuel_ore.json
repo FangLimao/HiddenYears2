@@ -5,14 +5,14 @@
             "conditions": [
                 {
                     "condition": "match_tool",
-                    "item": "minecraft:diamond_pickaxe",
+                    "item": "diamond_pickaxe",
                     "count": 1
                 }
             ],
             "entries": [
                 {
                     "type": "item",
-                    "name": "hy:empty_fuel",
+                    "name": "hy:fuel_metal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -30,14 +30,14 @@
             "conditions": [
                 {
                     "condition": "match_tool",
-                    "item": "minecraft:netherite_pickaxe",
+                    "item": "netherite_pickaxe",
                     "count": 1
                 }
             ],
             "entries": [
                 {
                     "type": "item",
-                    "name": "hy:empty_fuel",
+                    "name": "hy:fuel_metal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -55,14 +55,14 @@
             "conditions": [
                 {
                     "condition": "match_tool",
-                    "item": "minecraft:iron_pickaxe",
+                    "item": "iron_pickaxe",
                     "count": 1
                 }
             ],
             "entries": [
                 {
                     "type": "item",
-                    "name": "hy:empty_fuel",
+                    "name": "hy:fuel_metal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -80,14 +80,14 @@
             "conditions": [
                 {
                     "condition": "match_tool",
-                    "item": "minecraft:stone_pickaxe",
+                    "item": "stone_pickaxe",
                     "count": 1
                 }
             ],
             "entries": [
                 {
                     "type": "item",
-                    "name": "hy:empty_fuel",
+                    "name": "hy:fuel_metal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -112,7 +112,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hy:empty_fuel",
+                    "name": "hy:fuel_metal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -137,7 +137,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hy:empty_fuel",
+                    "name": "hy:fuel_metal",
                     "functions": [
                         {
                             "function": "set_count",
