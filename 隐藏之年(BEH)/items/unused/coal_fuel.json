@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:coal_fuel",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:display_name": {
@@ -16,7 +16,7 @@
                 "texture": "hy_coal_fuel"
             },
             "minecraft:creative_category": {
-                "parent": "items"
+                "parent": "none"
             },
             "tag:hy:fuels":{}
         }
