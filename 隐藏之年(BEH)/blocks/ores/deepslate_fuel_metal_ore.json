@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hy:deepslate_fuel_metal_ore"
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hy.deepslate_fuel_metal_ore",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:display_name": "hy.block.deepslate_fuel_metal_ore",
+            "minecraft:destroy_time": 0.8,
+            "minecraft:explosion_resistance": 2.0,
+            "minecraft:map_color": "#ffffff",
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            },
+            "minecraft:loot": "loot_tables/blocks/fuel_ore.json",
+            "tag:minecraft:stone_pick_diggable": {}
+        }
+    }
+}
