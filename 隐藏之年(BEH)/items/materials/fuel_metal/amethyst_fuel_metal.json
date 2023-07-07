@@ -13,7 +13,7 @@
                 "duration": 600
             },
             "minecraft:icon": {
-                "texture": "hy_amethyst_fuel_metal"
+                "texture": "hy.amethyst_fuel_metal"
             },
             "minecraft:creative_category": {
                 "parent": "none"

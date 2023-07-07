@@ -13,7 +13,7 @@
                 "duration": 800
             },
             "minecraft:icon": {
-                "texture": "hy_copper_fuel_metal"
+                "texture": "hy.copper_fuel_metal"
             },
             "minecraft:creative_category": {
                 "parent": "none"
