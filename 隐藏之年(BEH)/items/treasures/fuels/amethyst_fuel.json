@@ -18,7 +18,7 @@
             "minecraft:creative_category": {
                 "parent": "items"
             },
-            "tag:minecraft:fuels":{}
+            "tag:hy:fuels":{}
         }
     }
 }
