@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:emerald_fuel_metal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "hy:fuel_metal"
+            },
+            "&": {
+                "item": "emerald"
+            }
+        },
+        "pattern": [
+            "#&#",
+            "#&#"
+        ],
+        "result": {
+            "item": "hy:emerald_fuel_metal",
+            "count": 10
+        }
+    }
+}

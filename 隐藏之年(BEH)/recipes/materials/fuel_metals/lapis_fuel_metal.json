@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:lapis_fuel_metal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "hy:fuel_metal"
+            },
+            "&": {
+                "item": "lapis_lazuli"
+            }
+        },
+        "pattern": [
+            "#&#",
+            "#&#"
+        ],
+        "result": {
+            "item": "hy:lapis_fuel_metal",
+            "count": 10
+        }
+    }
+}

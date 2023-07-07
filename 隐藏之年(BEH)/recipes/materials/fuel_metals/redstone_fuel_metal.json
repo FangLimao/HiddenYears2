@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:redstone_fuel_metal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "hy:fuel_metal"
+            },
+            "&": {
+                "item": "redstone_ingot"
+            }
+        },
+        "pattern": [
+            "#&#",
+            "#&#"
+        ],
+        "result": {
+            "item": "hy:redstone_fuel_metal",
+            "count": 10
+        }
+    }
+}

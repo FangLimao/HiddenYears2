@@ -159,8 +159,8 @@ hy.item.lapis_coal=青金石煤炭
 hy.item.netherite_coal=下界合金煤炭
 hy.item.coal_template=煤炭升级模板
 
-## tile.hy.block.fuel_ore.name=燃料矿石
-## tile.hy.block.deepslate_fuel_ore.name=深层燃料矿石
+tile.hy.block.fuel_ore.name=燃料矿石
+tile.hy.block.deepslate_fuel_ore.name=深层燃料矿石
 hy.item.amethyst_fuel=旧版紫水晶燃料
 hy.item.amethyst_fuel=旧版铜燃料
 hy.item.iron_fuel=旧版铁燃料
@@ -207,8 +207,8 @@ hy.item.stack_of_gold_coin=金币组
 hy.item.stack_of_diamond_coin=钻石币组
 hy.item.stack_of_copper_coin=铜币组
 
-tile.hy.block.fuel_ore.name=燃金矿石
-tile.hy.block.deepslate_fuel_ore.name=深层燃金矿石
+tile.hy.block.fuel_metal_ore.name=燃金矿石
+tile.hy.block.deepslate_fuel_metal_ore.name=深层燃金矿石
 hy.item.amethyst_fuel_metal=晶化燃金
 hy.item.amethyst_fuel_metal=铜质燃金
 hy.item.iron_fuel_metal=铁质燃金

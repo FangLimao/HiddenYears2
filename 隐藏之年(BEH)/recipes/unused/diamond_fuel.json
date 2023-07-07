@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:diamond_fuel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "hy:empty_fuel"
+            },
+            {
+                "item": "diamond"
+            }
+        ],
+        "result": {
+            "item": "hy:diamond_fuel",
+            "count": 6
+        }
+    }
+}
