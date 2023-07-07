@@ -7,13 +7,13 @@
 		"count": 20,
 		"replace_rules": [
 			{
-				"places_block": "hy:fuel_ore",
+				"places_block": "hy:fuel_metal_ore",
 				"may_replace": [
 					"stone"
 				]
 			},
 			{
-				"places_block": "hy:deepslate_fuel_ore",
+				"places_block": "hy:deepslate_fuel_metal_ore",
 				"may_replace": [
 					"deepslate"
 				]
