@@ -21,6 +21,12 @@
         },
         "hy_deepslate_fuel_ore": {
             "textures": "textures/blocks/ores/deepslate_fuel_ore"
+        },
+        "hy.fuel_metal_ore": {
+            "textures": "textures/blocks/ores/fuel_metal_ore"
+        },
+        "hy.deepslate_fuel_metal_ore": {
+            "textures": "textures/blocks/ores/deepslate_fuel_metal_ore"
         }
     }
 }
