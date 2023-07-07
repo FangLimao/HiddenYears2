@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:gold_fuel_metal",
+            "category": "none"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.gold_fuel_metal"
+            },
+            "minecraft:fuel": {
+                "duration": 1200
+            },
+            "minecraft:icon": {
+                "texture": "hy_gold_fuel_metal"
+            },
+            "minecraft:creative_category": {
+                "parent": "none"
+            },
+            "tag:hy:fuels":{}
+        }
+    }
+}
