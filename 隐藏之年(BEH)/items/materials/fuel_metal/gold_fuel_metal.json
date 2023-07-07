@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:gold_fuel_metal",
-            "category": "none"
+            "category": "items"
         },
         "components": {
             "minecraft:display_name": {
@@ -16,7 +16,7 @@
                 "texture": "hy.gold_fuel_metal"
             },
             "minecraft:creative_category": {
-                "parent": "none"
+                "parent": "items"
             },
             "tag:hy:fuels":{}
         }
