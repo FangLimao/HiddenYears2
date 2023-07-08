@@ -136,18 +136,26 @@
             "damaged": {
                 "sequence": [
                     {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 2,
-                            "target": "self"
-                        }
+                        "randomize": [
+                            {
+                                "weight": 1,
+                                "run_command": {
+                                    "target": "self",
+                                    "command": [
+                                        "function mods/_HiddenYears/effects/tetanus/tetanus_lv1a"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 9
+                            }
+                        ]
                     },
                     {
-                        "run_command": {
+                        "damage": {
+                            "type": "durability",
                             "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv1a"
-                            ]
+                            "amount": 2
                         }
                     },
                     {
