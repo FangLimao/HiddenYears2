@@ -246,28 +246,36 @@
             "damaged": {
                 "sequence": [
                     {
+                        "randomize": [
+                            {
+                                "weight": 1,
+                                "run_command": {
+                                    "target": "self",
+                                    "command": [
+                                        "function mods/_HiddenYears/effects/tetanus/tetanus_lv2a"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 9
+                            }
+                        ]
+                    },
+                    {
                         "damage": {
-                            "type": "magic",
-                            "amount": 2,
-                            "target": "self"
+                            "type": "durability",
+                            "target": "self",
+                            "amount": 2
                         }
                     },
                     {
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/hoes/oxidized_hoe"
+                                "function mods/_HiddenYears/items/oxidising/axes/weathered_axe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv2a"
-                            ]
-                        }
                     }
                 ]
             }
