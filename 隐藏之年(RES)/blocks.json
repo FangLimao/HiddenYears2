@@ -29,9 +29,11 @@
         "textures": "hy_deepslate_fuel_ore"
     },
     "hy:fuel_metal_ore": {
-        "sound": "stone"
+        "sound": "stone",
+        "textures": "hy.fuel_metal_ore"
     },
     "hy:deepslate_fuel_metal_ore": {
-        "sound": "deepslate"
+        "sound": "deepslate",
+        "textures": "hy.deepslate_fuel_metal_ore"
     }
 }
