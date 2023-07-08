@@ -137,15 +137,6 @@
                             "target": "self",
                             "amount": 2
                         }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/items/oxidising/axes/weathered_axe"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
                     }
                 ]
             },

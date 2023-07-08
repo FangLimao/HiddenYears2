@@ -127,7 +127,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/axes/weathered_axe"
+                                "function mods/_HiddenYears/items/oxidising/hammers/weathered_hammer"
                             ]
                         },
                         "condition": "query.remaining_durability==0"

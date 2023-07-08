@@ -346,42 +346,33 @@
             "tag:minecraft:is_pickaxe": {}
         },
         "events": {
-    "damaged": {
-		"sequence":[
-			{
-				"randomize": [
+            "damaged": {
+                "sequence": [
                     {
-                       	"weight": 1,
-                         "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv3a"
-                            ]
-                        }
+                        "randomize": [
+                            {
+                                "weight": 1,
+                                "run_command": {
+                                    "target": "self",
+                                    "command": [
+                                        "function mods/_HiddenYears/effects/tetanus/tetanus_lv3a"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 9
+                            }
+                        ]
                     },
-					{
-						"weight": 9
-					}
-				]
-			},
-			{
-				"damage":{
-					"type":"durability",
-					"target":"self",
-					"amount":2
-				}
-			},
-			{
-                        "run_command": {
+                    {
+                        "damage": {
+                            "type": "durability",
                             "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/items/oxidising/axes/weathered_axe"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
+                            "amount": 2
+                        }
                     }
-		]
-    },
+                ]
+            },
             "on_tool_used": {
                 "damage": {
                     "amount": 1,
