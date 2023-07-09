@@ -81,7 +81,7 @@
             "textures": "textures/items/tools/shovels/amethyst_shovel"
         },
         "hy_amethyst_ingot": {
-            "textures": "textures/items/materials/amethyst_ingot"
+            "textures": "textures/items/materials/ingots/amethyst_ingot"
         },
         "hy_amethyst_sword": {
             "textures": "textures/items/tools/weapons/swords/amethyst_sword"
@@ -409,6 +409,36 @@
         },
         "hy.redstone_fuel_metal": {
             "textures": "textures/items/materials/fuel_metals/redstone_fuel"
+        },
+        "hy.andesite_metal_ingot": {
+            "textures": "textures/items/materials/ingots/andesite_metal_ingot"
+        },
+        "hy.basalt_metal_ingot": {
+            "textures": "textures/items/materials/ingots/basalt_metal_ingot"
+        },
+        "hy.blackstone_metal_ingot": {
+            "textures": "textures/items/materials/ingots/blackstone_metal_ingot"
+        },
+        "hy.calcite_metal_ingot": {
+            "textures": "textures/items/materials/ingots/calcite_metal_ingot"
+        },
+        "hy.deepslate_metal_ingot": {
+            "textures": "textures/items/materials/ingots/deepslate_metal_ingot"
+        },
+        "hy.diorite_metal_ingot": {
+            "textures": "textures/items/materials/ingots/diorite_metal_ingot"
+        },
+        "hy.end_metal_ingot": {
+            "textures": "textures/items/materials/ingots/end_metal_ingot"
+        },
+        "hy.granite_metal_ingot": {
+            "textures": "textures/items/materials/ingots/granite_metal_ingot"
+        },
+        "hy.netherrack_metal_ingot": {
+            "textures": "textures/items/materials/ingots/netherrack_metal_ingot"
+        },
+        "hy.tuff_metal_ingot": {
+            "textures": "textures/items/materials/ingots/tuff_metal_ingot"
         }
     }
 }
