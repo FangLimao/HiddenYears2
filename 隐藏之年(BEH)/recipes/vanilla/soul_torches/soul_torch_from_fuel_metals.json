@@ -1,0 +1,32 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:soul_torch_from_fuel_metals"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            ".",
+            "|",
+            "#"
+        ],
+        "key": {
+            ".": {
+                "tag": "hy:fuels"
+            },
+            "|": {
+                "item": "hy:copper_stick"
+            },
+            "#": {
+                "tag": "soul_fire_base_blocks"
+            }
+        },
+        "result": {
+            "item": "soul_torch",
+            "count": 16
+        },
+        "priority": -1
+    }
+}

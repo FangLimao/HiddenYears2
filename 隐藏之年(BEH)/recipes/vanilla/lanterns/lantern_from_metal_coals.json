@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:lantern_from_metal_coals"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#x#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "iron_nugget"
+            },
+            "x": {
+                "tag": "hy:metal_coals"
+            }
+        },
+        "result": {
+            "item": "lantern",
+            "count": 4
+        }
+    }
+}
