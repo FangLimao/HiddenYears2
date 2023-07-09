@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:torch_metal_coals"
+			"identifier": "hy:torch_from_fuel_metals"
 		},
 		"tags": [
 			"crafting_table"
@@ -16,12 +16,12 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "hy:metal_coals"
+				"tag": "hy:fuels"
 			}
 		},
 		"result": {
 			"item": "torch",
-			"count": 50
+			"count": 16
 		},
 		"priority": -1
 	}

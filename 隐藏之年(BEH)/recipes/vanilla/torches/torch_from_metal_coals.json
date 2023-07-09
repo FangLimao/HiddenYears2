@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:torch_copper_stick"
+			"identifier": "hy:torch_from_metal_coals"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,15 +13,15 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:copper_stick"
+				"item": "stick"
 			},
 			"X": {
-				"tag": "minecraft:coals"
+				"tag": "hy:metal_coals"
 			}
 		},
 		"result": {
 			"item": "torch",
-			"count": 12
+			"count": 32
 		},
 		"priority": -1
 	}
