@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:calcite_metal_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "hy.calcite_metal_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "hy.item.calcite_metal_ingot"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			},
+			"tag:hy:stone_metal_ingots":{}
+		}
+	}
+}
