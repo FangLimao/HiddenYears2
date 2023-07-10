@@ -1,4 +1,4 @@
-pack.name=隐藏之年
+<hr>pack.name=隐藏之年
 pack.description=为你而来的附加包 ｜ 正式版1.4.4
 
 container.stonecutter=切割机	#
@@ -220,3 +220,14 @@ hy.item.redstone_fuel_metal=红石燃金
 hy.item.lapis_fuel_metal=青金石燃金
 hy.item.netherite_fuel_metal=下界合金燃金
 hy.item.fuel_metal=燃金
+
+hy.item.andesite_metal_ingot=安山岩金锭
+hy.item.basalt_metal_ingot=玄武岩金锭
+hy.item.blackstone_metal_ingot=黑石岩金锭
+hy.item.calcite_metal_ingot=方解岩金锭
+hy.item.deepslate_metal_ingot=深板岩金锭
+hy.item.diorite_metal_ingot=闪长岩金锭
+hy.item.end_metal_ingot=末地岩金锭
+hy.item.granite_metal_ingot=花岗岩金锭
+hy.item.netherrack_metal_ingot=下界岩金锭
+hy.item.tuff_metal_ingot=凝灰岩金锭
