@@ -439,6 +439,9 @@
         },
         "hy.tuff_metal_ingot": {
             "textures": "textures/items/materials/ingots/tuff_metal_ingot"
-        }
+        },
+                "hy.andesite_metal_axe": {
+            "textures": "textures/items/tools/axes/stone_metal_axes/andesite_metal_axe"
+        },
     }
 }
