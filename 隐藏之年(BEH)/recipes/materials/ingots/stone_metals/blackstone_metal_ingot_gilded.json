@@ -1,0 +1,25 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:blackstone_metal_ingot_gilded"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "gilded_blackstone"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "hy:blackstone_metal_ingot",
+            "count": 16
+        }
+    }
+}

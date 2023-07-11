@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:andesite_metal_ingot_smooth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "stone",
+                "data": 6
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "hy:andesite_metal_ingot",
+            "count": 6
+        }
+    }
+}

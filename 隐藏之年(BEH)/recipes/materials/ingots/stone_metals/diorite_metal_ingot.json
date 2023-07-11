@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:diorite_metal_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "stone",
+                "data": 3
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "hy:diorite_metal_ingot",
+            "count": 4
+        }
+    }
+}
