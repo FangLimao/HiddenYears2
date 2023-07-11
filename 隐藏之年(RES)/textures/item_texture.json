@@ -440,8 +440,53 @@
         "hy.tuff_metal_ingot": {
             "textures": "textures/items/materials/ingots/tuff_metal_ingot"
         },
-                "hy.andesite_metal_axe": {
+        "hy.andesite_metal_axe": {
             "textures": "textures/items/tools/axes/stone_metal_axes/andesite_metal_axe"
         },
+        "hy.andesite_metal_hammer": {
+            "textures": "textures/items/tools/hammers/stone_metal_hammers/andesite_metal_hammer"
+        },
+        "hy.andesite_metal_hoe": {
+            "textures": "textures/items/tools/hoes/stone_metal_hoes/andesite_metal_hoe"
+        },
+        "hy.andesite_metal_pickaxe": {
+            "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/andesite_metal_pickaxe"
+        },
+        "hy.andesite_metal_shovel": {
+            "textures": "textures/items/tools/shovels/stone_metal_shovels/andesite_metal_shovel"
+        },
+        "hy.andesite_metal_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/andesite_metal_dagger"
+        },
+        "hy.andesite_metal_knife": {
+            "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/andesite_metal_knife"
+        },
+        "hy.andesite_metal_sword": {
+            "textures": "textures/items/tools/weapons/swords/stone_metal_swords/andesite_metal_sword"
+        },
+        "hy.basalt_metal_axe": {
+            "textures": "textures/items/tools/axes/stone_metal_axes/basalt_metal_axe"
+        },
+        "hy.basalt_metal_hammer": {
+            "textures": "textures/items/tools/hammers/stone_metal_hammers/basalt_metal_hammer"
+        },
+        "hy.basalt_metal_hoe": {
+            "textures": "textures/items/tools/hoes/stone_metal_hoes/basalt_metal_hoe"
+        },
+        "hy.basalt_metal_pickaxe": {
+            "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/basalt_metal_pickaxe"
+        },
+        "hy.basalt_metal_shovel": {
+            "textures": "textures/items/tools/shovels/stone_metal_shovels/basalt_metal_shovel"
+        },
+        "hy.basalt_metal_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/basalt_metal_dagger"
+        },
+        "hy.basalt_metal_knife": {
+            "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/basalt_metal_knife"
+        },
+        "hy.basalt_metal_sword": {
+            "textures": "textures/items/tools/weapons/swords/stone_metal_swords/basalt_metal_sword"
+        }
     }
 }
