@@ -21,7 +21,7 @@
                 "texture": "hy.iron_hammer"
             },
             "minecraft:mining_speed": 1,
-            "minecraft:damage": 5,
+            "minecraft:damage": 11,
             "minecraft:weapon": {
                 "on_hurt_entity": {
                     "event": "hy.on_hurt_entity",

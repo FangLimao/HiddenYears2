@@ -20,7 +20,7 @@
             "minecraft:icon": {
                 "texture": "hy_netherite_hammer"
             },
-            "minecraft:mining_speed": 1,
+            "minecraft:mining_speed": 11,
             "minecraft:damage": 2,
             "minecraft:weapon": {
                 "on_hurt_entity": {

@@ -25,7 +25,7 @@
                 "slot": "pickaxe"
             },
             "minecraft:mining_speed": 1,
-            "minecraft:damage": 2,
+            "minecraft:damage": 10,
             "minecraft:weapon": {
                 "on_hurt_entity": {
                     "event": "hy.on_hurt_entity",
