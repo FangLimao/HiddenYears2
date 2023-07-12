@@ -1,5 +1,6 @@
-<hr>pack.name=隐藏之年
+pack.name=隐藏之年
 pack.description=为你而来的附加包 ｜ 正式版1.4.4
+hy.about=§c『隐藏之年』基岩版1.5.2ex3，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -232,20 +233,49 @@ hy.item.granite_metal_ingot=花岗岩金锭
 hy.item.netherrack_metal_ingot=下界岩金锭
 hy.item.tuff_metal_ingot=凝灰岩金锭
 
-hy.item.andesite_axe=安山岩金斧
-hy.item.andesite_hammer=安山岩金锤
-hy.item.andesite_hoe=安山岩金锄
-hy.item.andesite_pickaxe=安山岩金镐
-hy.item.andesite_shovel=安山岩金锹
-hy.item.andesite_dagger=安山岩金匕首
-hy.item.andesite_knife=安山岩金小刀
-hy.item.andesite_hammer_head=安山岩金锤头
+hy.item.andesite_metal_axe=安山岩金斧
+hy.item.andesite_metal_hammer=安山岩金锤
+hy.item.andesite_metal_hoe=安山岩金锄
+hy.item.andesite_metal_pickaxe=安山岩金镐
+hy.item.andesite_metal_shovel=安山岩金锹
+hy.item.andesite_metal_dagger=安山岩金匕首
+hy.item.andesite_metal_knife=安山岩金小刀
+hy.item.andesite_metal_hammer_head=安山岩金锤头
 
-hy.item.basalt_axe=玄武岩金斧
-hy.item.basalt_hammer=玄武岩金锤
-hy.item.basalt_hoe=玄武岩金锄
-hy.item.basalt_pickaxe=玄武岩金镐
-hy.item.basalt_shovel=玄武岩金锹
-hy.item.basalt_dagger=玄武岩金匕首
-hy.item.basalt_knife=玄武岩金小刀
-hy.item.basalt_hammer_head=玄武岩金锤头
+hy.item.deepslate_metal_axe=玄武岩金斧
+hy.item.deepslate_metal_hammer=玄武岩金锤
+hy.item.deepslate_metal_hoe=玄武岩金锄
+hy.item.deepslate_metal_pickaxe=玄武岩金镐
+hy.item.deepslate_metal_shovel=玄武岩金锹
+hy.item.deepslate_metal_dagger=玄武岩金匕首
+hy.item.deepslate_metal_knife=玄武岩金小刀
+hy.item.deepslate_metal_hammer_head=玄武岩金锤头
+
+hy.item.blackstone_metal_axe=黑石岩金斧
+hy.item.blackstone_metal_hammer=黑石岩金锤
+hy.item.blackstone_metal_hoe=黑石岩金锄
+hy.item.blackstone_metal_pickaxe=黑石岩金镐
+hy.item.blackstone_metal_shovel=黑石岩金锹
+hy.item.blackstone_metal_dagger=黑石岩金匕首
+hy.item.blackstone_metal_knife=黑石岩金小刀
+hy.item.blackstone_metal_hammer_head=黑石岩金锤头
+
+hy.item.calcite_metal_axe=方解岩金斧
+hy.item.calcite_metal_hammer=方解岩金锤
+hy.item.calcite_metal_hoe=方解岩金锄
+hy.item.calcite_metal_pickaxe=方解岩金镐
+hy.item.calcite_metal_shovel=方解岩金锹
+hy.item.calcite_metal_dagger=方解岩金匕首
+hy.item.calcite_metal_knife=方解岩金小刀
+hy.item.calcite_metal_hammer_head=方解岩金锤头
+
+hy.item.basalt_metal_axe=玄武岩金斧
+hy.item.basalt_metal_hammer=玄武岩金锤
+hy.item.basalt_metal_hoe=玄武岩金锄
+hy.item.basalt_metal_pickaxe=玄武岩金镐
+hy.item.basalt_metal_shovel=玄武岩金锹
+hy.item.basalt_metal_dagger=玄武岩金匕首
+hy.item.basalt_metal_knife=玄武岩金小刀
+hy.item.basalt_metal_hammer_head=玄武岩金锤头
+
+hy.tips.copper_essence.introduction=
