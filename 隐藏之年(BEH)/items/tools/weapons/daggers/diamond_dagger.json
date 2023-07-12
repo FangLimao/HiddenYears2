@@ -112,7 +112,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_diamond_dagger"
+                "texture": "hy.diamond_dagger"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

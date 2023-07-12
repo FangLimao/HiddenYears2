@@ -13,7 +13,7 @@
                 "duration": 2400
             },
             "minecraft:icon": {
-                "texture": "hy_netherite_fuel"
+                "texture": "hy.legacy_netherite_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

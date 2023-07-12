@@ -136,7 +136,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_copper_knife"
+                "texture": "hy.copper_knife"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

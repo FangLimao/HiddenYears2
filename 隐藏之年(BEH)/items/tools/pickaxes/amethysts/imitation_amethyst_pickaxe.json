@@ -18,7 +18,7 @@
 				"max_durability": 150
 			},
 			"minecraft:icon": {
-				"texture": "hy_amethyst_pickaxe"
+				"texture": "hy.amethyst_pickaxe"
 			},
 			"minecraft:repairable": {
 				"repair_items": [

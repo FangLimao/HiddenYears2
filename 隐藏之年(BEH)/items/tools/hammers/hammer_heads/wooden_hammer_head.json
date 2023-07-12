@@ -10,7 +10,7 @@
 				"value": "hy.item.wooden_hammer_head"
 			},
 			"minecraft:icon": {
-				"texture": "hy_wooden_hammer_head"
+				"texture": "hy.wooden_hammer_head"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

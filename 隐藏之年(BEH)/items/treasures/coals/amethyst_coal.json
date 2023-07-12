@@ -13,7 +13,7 @@
                 "duration": 100
             },
             "minecraft:icon": {
-                "texture": "hy_amethyst_coal"
+                "texture": "hy.amethyst_coal"
             },
             "minecraft:creative_category": {
                 "parent": "items"

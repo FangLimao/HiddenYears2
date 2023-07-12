@@ -10,7 +10,7 @@
 				"value": "hy.item.wooden_handle"
 			},
 			"minecraft:icon": {
-				"texture": "hy_wooden_handle"
+				"texture": "hy.wooden_handle"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

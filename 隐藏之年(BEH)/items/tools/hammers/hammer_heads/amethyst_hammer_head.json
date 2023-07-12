@@ -7,7 +7,7 @@
         },
         "components": {
             "minecraft:icon": {
-                "texture": "hy_amethyst_hammer_head"
+                "texture": "hy.amethyst_hammer_head"
             },
             "minecraft:creative_category": {
                 "parent": "items"

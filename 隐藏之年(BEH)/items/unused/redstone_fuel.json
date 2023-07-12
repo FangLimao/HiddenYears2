@@ -13,7 +13,7 @@
                 "duration": 2000
             },
             "minecraft:icon": {
-                "texture": "hy_redstone_fuel"
+                "texture": "hy.legacy_redstone_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

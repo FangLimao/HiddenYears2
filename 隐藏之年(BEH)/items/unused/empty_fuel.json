@@ -13,7 +13,7 @@
                 "duration": 200
             },
             "minecraft:icon": {
-                "texture": "hy_empty_fuel"
+                "texture": "hy.legacy_empty_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

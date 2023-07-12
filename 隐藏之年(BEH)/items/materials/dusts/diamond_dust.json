@@ -10,7 +10,7 @@
                 "value": "hy.item.diamond_dust"
             },
             "minecraft:icon": {
-                "texture": "hy_diamond_dust"
+                "texture": "hy.diamond_dust"
             },
             "minecraft:creative_category": {
                 "parent": "items"

@@ -10,7 +10,7 @@
                 "value": "hy.item.emerald_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_emerald_nugget"
+                "texture": "hy.emerald_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

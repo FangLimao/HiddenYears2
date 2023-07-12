@@ -18,7 +18,7 @@
                 "max_durability": 600
             },
             "minecraft:icon": {
-                "texture": "hy_diamond_hammer"
+                "texture": "hy.diamond_hammer"
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 5,

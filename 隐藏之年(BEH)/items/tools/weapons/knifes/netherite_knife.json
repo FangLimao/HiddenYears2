@@ -136,7 +136,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_netherite_knife"
+                "texture": "hy.netherite_knife"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

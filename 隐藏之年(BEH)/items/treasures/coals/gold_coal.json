@@ -13,7 +13,7 @@
                 "duration": 400
             },
             "minecraft:icon": {
-                "texture": "hy_gold_coal"
+                "texture": "hy.gold_coal"
             },
             "minecraft:creative_category": {
                 "parent": "items"

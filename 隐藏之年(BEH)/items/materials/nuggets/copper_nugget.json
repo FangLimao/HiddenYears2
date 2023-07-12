@@ -10,7 +10,7 @@
                 "value": "hy.item.copper_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_copper_nugget"
+                "texture": "hy.copper_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

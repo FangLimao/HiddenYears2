@@ -10,7 +10,7 @@
                 "value": "hy.item.gold_awl"
             },
             "minecraft:icon": {
-                "texture": "hy_gold_awl"
+                "texture": "hy.gold_awl"
             },
             "minecraft:creative_category": {
                 "parent": "items"

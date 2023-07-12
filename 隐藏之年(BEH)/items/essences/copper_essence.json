@@ -10,7 +10,7 @@
 				"value": "hy.item.copper_essence"
 			},
 			"minecraft:icon": {
-				"texture": "hy_copper_essence"
+				"texture": "hy.copper_essence"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

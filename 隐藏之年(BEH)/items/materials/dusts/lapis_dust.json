@@ -10,7 +10,7 @@
                 "value": "hy.item.lapis_dust"
             },
             "minecraft:icon": {
-                "texture": "hy_lapis_dust"
+                "texture": "hy.lapis_dust"
             },
             "minecraft:creative_category": {
                 "parent": "items"

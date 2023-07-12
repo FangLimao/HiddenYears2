@@ -10,7 +10,7 @@
                 "value": "hy.item.coal_dust"
             },
             "minecraft:icon": {
-                "texture": "hy_coal_dust"
+                "texture": "hy.coal_dust"
             },
             "minecraft:creative_category": {
                 "parent": "items"

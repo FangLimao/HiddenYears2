@@ -10,7 +10,7 @@
                 "value": "hy.item.quartz_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_quartz_nugget"
+                "texture": "hy.quartz_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

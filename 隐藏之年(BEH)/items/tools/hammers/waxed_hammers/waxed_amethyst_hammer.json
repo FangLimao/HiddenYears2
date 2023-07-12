@@ -18,7 +18,7 @@
                 "max_durability": 500
             },
             "minecraft:icon": {
-                "texture": "hy_amethyst_hammer"
+                "texture": "hy.amethyst_hammer"
             },
             "minecraft:enchantable": {
                 "value": 57257,

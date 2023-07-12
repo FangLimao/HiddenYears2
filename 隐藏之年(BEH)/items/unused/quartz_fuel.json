@@ -13,7 +13,7 @@
                 "duration": 1600
             },
             "minecraft:icon": {
-                "texture": "hy_quartz_fuel"
+                "texture": "hy.legacy_quartz_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

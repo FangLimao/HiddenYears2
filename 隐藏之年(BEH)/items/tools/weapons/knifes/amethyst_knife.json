@@ -136,7 +136,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_amethyst_knife"
+                "texture": "hy.amethyst_knife"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

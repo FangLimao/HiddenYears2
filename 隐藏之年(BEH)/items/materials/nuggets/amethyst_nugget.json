@@ -10,7 +10,7 @@
                 "value": "hy.item.amethyst_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_amethyst_nugget"
+                "texture": "hy.amethyst_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

@@ -13,7 +13,7 @@
                 "duration": 1200
             },
             "minecraft:icon": {
-                "texture": "hy_gold_fuel"
+                "texture": "hy.legacy_gold_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

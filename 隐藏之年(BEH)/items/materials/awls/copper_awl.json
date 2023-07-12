@@ -10,7 +10,7 @@
                 "value": "hy.item.copper_awl"
             },
             "minecraft:icon": {
-                "texture": "hy_copper_awl"
+                "texture": "hy.copper_awl"
             },
             "minecraft:creative_category": {
                 "parent": "items"

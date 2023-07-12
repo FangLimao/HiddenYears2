@@ -76,7 +76,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy_weathered_copper_shovel"
+                "texture": "hy.weathered_copper_shovel"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.shovel"

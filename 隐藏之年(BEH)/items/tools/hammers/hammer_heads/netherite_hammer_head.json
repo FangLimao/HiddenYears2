@@ -10,7 +10,7 @@
 				"value": "hy.item.netherite_hammer_head"
 			},
 			"minecraft:icon": {
-				"texture": "hy_netherite_hammer_head"
+				"texture": "hy.netherite_hammer_head"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

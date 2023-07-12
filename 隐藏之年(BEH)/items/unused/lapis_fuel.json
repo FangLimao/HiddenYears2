@@ -13,7 +13,7 @@
                 "duration": 2200
             },
             "minecraft:icon": {
-                "texture": "hy_lapis_fuel"
+                "texture": "hy.legacy_lapis_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

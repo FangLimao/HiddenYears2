@@ -10,7 +10,7 @@
 				"value": "hy.item.gold_coin"
 			},
 			"minecraft:icon": {
-				"texture": "hy_gold_coin"
+				"texture": "hy.gold_coin"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

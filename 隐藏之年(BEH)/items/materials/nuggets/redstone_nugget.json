@@ -10,7 +10,7 @@
                 "value": "hy.item.redstone_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_redstone_nugget"
+                "texture": "hy.redstone_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

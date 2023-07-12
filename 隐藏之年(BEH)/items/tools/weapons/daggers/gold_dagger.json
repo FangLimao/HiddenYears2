@@ -112,7 +112,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_gold_dagger"
+                "texture": "hy.gold_dagger"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

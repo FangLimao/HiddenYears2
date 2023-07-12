@@ -112,7 +112,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_amethyst_dagger"
+                "texture": "hy.amethyst_dagger"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

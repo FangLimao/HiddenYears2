@@ -10,7 +10,7 @@
 				"value": "hy.item.stack_of_diamond_coin"
 			},
 			"minecraft:icon": {
-				"texture": "hy_stack_of_diamond_coin"
+				"texture": "hy.stack_of_diamond_coin"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

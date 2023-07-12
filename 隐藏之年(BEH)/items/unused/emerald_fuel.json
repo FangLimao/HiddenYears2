@@ -13,7 +13,7 @@
                 "duration": 1400
             },
             "minecraft:icon": {
-                "texture": "hy_emerald_fuel"
+                "texture": "hy.legacy_emerald_fuel"
             },
             "minecraft:creative_category": {
                 "parent": "none"

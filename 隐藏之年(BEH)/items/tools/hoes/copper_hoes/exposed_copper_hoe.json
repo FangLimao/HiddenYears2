@@ -60,7 +60,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy_exposed_copper_hoe"
+                "texture": "hy.exposed_copper_hoe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.hoe"

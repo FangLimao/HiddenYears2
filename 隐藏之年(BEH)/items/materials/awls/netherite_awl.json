@@ -10,7 +10,7 @@
                 "value": "hy.item.netherite_awl"
             },
             "minecraft:icon": {
-                "texture": "hy_netherite_awl"
+                "texture": "hy.netherite_awl"
             },
             "minecraft:creative_category": {
                 "parent": "items"

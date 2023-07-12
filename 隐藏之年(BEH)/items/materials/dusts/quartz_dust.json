@@ -10,7 +10,7 @@
                 "value": "hy.item.quartz_dust"
             },
             "minecraft:icon": {
-                "texture": "hy_quartz_dust"
+                "texture": "hy.quartz_dust"
             },
             "minecraft:creative_category": {
                 "parent": "items"

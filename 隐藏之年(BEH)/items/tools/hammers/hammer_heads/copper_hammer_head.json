@@ -10,7 +10,7 @@
 				"value": "hy.item.copper_hammer_head"
 			},
 			"minecraft:icon": {
-				"texture": "hy_copper_hammer_head"
+				"texture": "hy.copper_hammer_head"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

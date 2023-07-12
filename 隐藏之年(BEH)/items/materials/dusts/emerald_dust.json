@@ -10,7 +10,7 @@
                 "value": "hy.item.emerald_dust"
             },
             "minecraft:icon": {
-                "texture": "hy_emerald_dust"
+                "texture": "hy.emerald_dust"
             },
             "minecraft:creative_category": {
                 "parent": "items"

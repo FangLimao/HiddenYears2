@@ -10,7 +10,7 @@
 				"value": "hy.item.copper_coin"
 			},
 			"minecraft:icon": {
-				"texture": "hy_copper_coin"
+				"texture": "hy.copper_coin"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

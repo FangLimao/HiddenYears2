@@ -136,7 +136,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy_iron_knife"
+                "texture": "hy.iron_knife"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

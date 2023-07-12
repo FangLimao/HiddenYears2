@@ -13,7 +13,7 @@
                 "duration": 800
             },
             "minecraft:icon": {
-                "texture": "hy_redstone_coal"
+                "texture": "hy.redstone_coal"
             },
             "minecraft:creative_category": {
                 "parent": "items"

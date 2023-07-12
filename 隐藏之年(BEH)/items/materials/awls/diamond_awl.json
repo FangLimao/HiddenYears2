@@ -10,7 +10,7 @@
                 "value": "hy.item.diamond_awl"
             },
             "minecraft:icon": {
-                "texture": "hy_diamond_awl"
+                "texture": "hy.diamond_awl"
             },
             "minecraft:creative_category": {
                 "parent": "items"

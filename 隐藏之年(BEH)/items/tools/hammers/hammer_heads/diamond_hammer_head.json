@@ -10,7 +10,7 @@
                 "value": "hy.item.diamond_hammer_head"
             },
             "minecraft:icon": {
-                "texture": "hy_diamond_hammer_head"
+                "texture": "hy.diamond_hammer_head"
             },
             "minecraft:creative_category": {
                 "parent": "items"

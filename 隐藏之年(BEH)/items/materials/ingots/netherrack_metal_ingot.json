@@ -1,3 +1,4 @@
+//TODO:将岩金锭移动至单独文件夹
 {
 	"format_version": "1.17.0",
 	"minecraft:item": {

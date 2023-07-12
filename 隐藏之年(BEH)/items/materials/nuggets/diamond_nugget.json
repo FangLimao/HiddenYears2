@@ -10,7 +10,7 @@
                 "value": "hy.item.diamond_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_diamond_nugget"
+                "texture": "hy.diamond_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

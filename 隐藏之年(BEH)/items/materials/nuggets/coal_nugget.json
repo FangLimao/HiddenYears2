@@ -10,7 +10,7 @@
                 "value": "hy.item.coal_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy_coal_nugget"
+                "texture": "hy.coal_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

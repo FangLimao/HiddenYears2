@@ -18,7 +18,7 @@
                 "max_durability": 700
             },
             "minecraft:icon": {
-                "texture": "hy_netherite_hammer"
+                "texture": "hy.netherite_hammer"
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 5,

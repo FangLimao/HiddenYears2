@@ -13,7 +13,7 @@
                 "duration": 600
             },
             "minecraft:icon": {
-                "texture": "hy_quartz_coal"
+                "texture": "hy.quartz_coal"
             },
             "minecraft:creative_category": {
                 "parent": "items"

@@ -10,7 +10,7 @@
                 "value": "hy.item.amethyst_awl"
             },
             "minecraft:icon": {
-                "texture": "hy_amethyst_awl"
+                "texture": "hy.amethyst_awl"
             },
             "minecraft:creative_category": {
                 "parent": "items"
