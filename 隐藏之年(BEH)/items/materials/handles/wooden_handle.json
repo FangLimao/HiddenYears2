@@ -12,6 +12,8 @@
 			"minecraft:icon": {
 				"texture": "hy.wooden_handle"
 			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 2,
 			"minecraft:creative_category": {
 				"parent": "items"
 			}
