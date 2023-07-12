@@ -2,12 +2,12 @@
 	"format_version": "1.17.0",
 	"minecraft:item": {
 		"description": {
-			"identifier": "hy:andesite_metal_axe",
+			"identifier": "hy:amethyst_axe",
 			"category": "equipment"
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "hy.item.andesite_metal_axe"
+				"value": "hy.item.amethyst_axe"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
@@ -24,13 +24,13 @@
 				"repair_items": [
 					{
 						"items": [
-							"hy:andesite_metal_axe"
+							"hy:amethyst_axe"
 						],
 						"repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
 					},
 					{
 						"items": [
-							"hy:andesite_metal_ingot"
+							"hy:amethyst_ingot"
 						],
 						"repair_amount": 50
 					}
@@ -68,7 +68,7 @@
 				]
 			},
 			"minecraft:icon": {
-				"texture": "hy.andesite_metal_axe"
+				"texture": "hy.amethyst_axe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.axe"
