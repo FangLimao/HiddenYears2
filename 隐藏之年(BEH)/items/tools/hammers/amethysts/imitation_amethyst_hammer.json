@@ -28,7 +28,7 @@
             "minecraft:damage": 2,
             "minecraft:weapon": {
                 "on_hurt_entity": {
-                    "event": "damaged",
+                    "event": "hy.on_hurt_entity",
                     "target": "self"
                 }
             },
@@ -41,7 +41,7 @@
                         },
                         "speed": 7,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -49,7 +49,7 @@
                         "block": "sandstone",
                         "speed": 7,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -57,7 +57,7 @@
                         "block": "deepslate",
                         "speed": 7,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -65,7 +65,7 @@
                         "block": "chiseled_deepslate",
                         "speed": 7,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -73,7 +73,7 @@
                         "block": "polished_deepslate",
                         "speed": 7,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     }
@@ -82,7 +82,7 @@
             "tag:rainy:amethyst_hammer": {}
         },
         "events": {
-            "on_tool_used": {
+            "hy.on_break_block": {
                 "randomize": [
                     {
                         "weight": 25,
@@ -102,7 +102,7 @@
                     }
                 ]
             },
-            "damaged": {
+            "hy.on_hurt_entity": {
                 "randomize": [
                     {
                         "weight": 25,

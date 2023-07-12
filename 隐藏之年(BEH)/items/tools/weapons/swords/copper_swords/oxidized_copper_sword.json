@@ -20,7 +20,7 @@
             "minecraft:digger": {
                 "use_efficiency": true,
                 "on_dig": {
-                    "event": "on_tool_used",
+                    "event": "hy.on_break_block",
                     "target": "self"
                 },
                 "destroy_speeds": [
@@ -28,7 +28,7 @@
                         "block": "web",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -36,7 +36,7 @@
                         "block": "bamboo",
                         "speed": 60,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -44,7 +44,7 @@
                         "block": "cocoa",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -52,7 +52,7 @@
                         "block": "glow_lichen",
                         "speed": 60,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -60,7 +60,7 @@
                         "block": "azalea_leaves_flowered",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -68,7 +68,7 @@
                         "block": "azalea_leaves",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -76,7 +76,7 @@
                         "block": "leaves",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -84,7 +84,7 @@
                         "block": "leaves2",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -92,7 +92,7 @@
                         "block": "mangrove_leaves",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -100,7 +100,7 @@
                         "block": "cherry_leaves",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -108,7 +108,7 @@
                         "block": "melon_block",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -116,7 +116,7 @@
                         "block": "vine",
                         "speed": 30,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -124,7 +124,7 @@
                         "block": "pumpkin",
                         "speed": 15,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     }
@@ -181,7 +181,7 @@
             },
             "minecraft:weapon": {
                 "on_hurt_entity": {
-                    "event": "damaged",
+                    "event": "hy.on_hurt_entity",
                     "target": "self"
                 }
             },
@@ -189,7 +189,7 @@
             "tag:minecraft:is_tool": {}
         },
         "events": {
-            "damaged": {
+            "hy.on_hurt_entity": {
                 "sequence": [
                     {
                         "randomize": [
@@ -216,7 +216,7 @@
                     }
                 ]
             },
-            "on_tool_used": {
+            "hy.on_break_block": {
                 "damage": {
                     "type": "magic",
                     "amount": 2,

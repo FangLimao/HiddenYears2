@@ -24,7 +24,7 @@
             "minecraft:damage": 2,
             "minecraft:weapon": {
                 "on_hurt_entity": {
-                    "event": "damaged",
+                    "event": "hy.on_hurt_entity",
                     "target": "self"
                 }
             },
@@ -37,7 +37,7 @@
                         },
                         "speed": 5,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -45,7 +45,7 @@
                         "block": "sandstone",
                         "speed": 5,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -53,7 +53,7 @@
                         "block": "deepslate",
                         "speed": 5,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -61,7 +61,7 @@
                         "block": "chiseled_deepslate",
                         "speed": 5,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     },
@@ -69,7 +69,7 @@
                         "block": "polished_deepslate",
                         "speed": 5,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     }
@@ -78,14 +78,14 @@
             "tag:rainy:wooden_hammer": {}
         },
         "events": {
-            "on_tool_used": {
+            "hy.on_break_block": {
                 "damage": {
                     "type": "magic",
                     "amount": 1,
                     "target": "self"
                 }
             },
-            "damaged": {
+            "hy.on_hurt_entity": {
                 "damage": {
                     "type": "magic",
                     "amount": 2,

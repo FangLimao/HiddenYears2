@@ -92,7 +92,7 @@
                         "block": "hy.on_break_block",
                         "speed": 6,
                         "on_dig": {
-                            "event": "on_tool_used",
+                            "event": "hy.on_break_block",
                             "target": "self"
                         }
                     }
