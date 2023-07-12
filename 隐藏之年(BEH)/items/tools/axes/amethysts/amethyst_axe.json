@@ -58,6 +58,134 @@
 						}
 					},
 					{
+						"block": "trapped_chest",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "lectern",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "smithing_table",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "loom",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "cartography_table",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "fletching_table ",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "barrel",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "jukebox",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "campfire",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "soul_campfire",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "bookshelf",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "banner",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "noteblock",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "beehive",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "bee_nest",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
+						"block": "daylight_detector",
+						"speed": 6,
+						"on_dig": {
+							"event": "hy.on_break_block",
+							"target": "self"
+						}
+					},
+					{
 						"block": "melon_block",
 						"speed": 6,
 						"on_dig": {
