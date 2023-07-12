@@ -60,3 +60,22 @@ item.hy:copper_shovel=copper shovel
 item.hy:exposed_copper_shovel=exposed copper shovel
 item.hy:weathered_copper_shovel=weathered copper shovel
 item.hy:oxidized_copper_shovel=oxidized copper shovel
+
+
+hy.item.andesite_axe=安山岩金斧
+hy.item.andesite_hammer=安山岩金锤
+hy.item.andesite_hoe=安山岩金锄
+hy.item.andesite_pickaxe=安山岩金镐
+hy.item.andesite_shovel=安山岩金锹
+hy.item.andesite_dagger=安山岩金匕首
+hy.item.andesite_knife=安山岩金小刀
+hy.item.andesite_hammer_head=安山岩金锤头
+
+hy.item.basalt_axe=玄武岩金斧
+hy.item.basalt_hammer=玄武岩金锤
+hy.item.basalt_hoe=玄武岩金锄
+hy.item.basalt_pickaxe=玄武岩金镐
+hy.item.basalt_shovel=玄武岩金锹
+hy.item.basalt_dagger=玄武岩金匕首
+hy.item.basalt_knife=玄武岩金小刀
+hy.item.basalt_hammer_head=玄武岩金锤头
