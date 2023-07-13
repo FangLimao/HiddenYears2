@@ -313,4 +313,13 @@ hy.item.end_metal_dagger=末地石金匕首
 hy.item.end_metal_knife=末地石金小刀
 hy.item.end_metal_hammer_head=末地石金锤头
 
+hy.item.netherrack_metal_axe=下界岩金斧
+hy.item.netherrack_metal_hammer=下界岩金锤
+hy.item.netherrack_metal_hoe=下界岩金锄
+hy.item.netherrack_metal_pickaxe=下界岩金镐
+hy.item.netherrack_metal_shovel=下界岩金锹
+hy.item.netherrack_metal_dagger=下界岩金匕首
+hy.item.netherrack_metal_knife=下界岩金小刀
+hy.item.netherrack_metal_hammer_head=下界岩金锤头
+
 hy.tips.copper_essence.introduction=这是一个未完成的功能！
