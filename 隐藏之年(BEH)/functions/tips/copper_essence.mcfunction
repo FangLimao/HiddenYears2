@@ -1,4 +1,4 @@
-playsound random.levelup @s ~~~ 
+playsound hy.tips @s ~~~ 
 tellraw @s { "rawtext" : [ { "translate" : "hy.tips.copper_essence.introduction" } ] }
 tellraw @s { "rawtext" : [ { "translate" : "hy.tips.copper_essence.main" } ] }
 tellraw @s { "rawtext" : [ { "translate" : "hy.tips.copper_essence.technology" } ] }

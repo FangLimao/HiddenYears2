@@ -1,6 +1,10 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"hy.tips": {
+			"category": "ui",
+			"sounds": ["sounds/tips"]
+		},
 		"mob.gemstone_trader.death": {
 			"category": "neutral",
 			"sounds": [
