@@ -1,1 +1,0 @@
-声音`hy.tips`来自于[FREESOUND.ORG](https://freesound.org/people/Thoribass/sounds/253595/)，作者为Thoribass，按照CC-BY协议提供
