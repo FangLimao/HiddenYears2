@@ -14,7 +14,8 @@
             },
             "minecraft:creative_category": {
                 "parent": "items"
-            }
+            },
+            "tag:hy:stone_metal_nuggets":{}
         }
     }
 }
