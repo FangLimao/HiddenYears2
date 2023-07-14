@@ -1,6 +1,6 @@
 pack.name=隐藏之年
 pack.description=为你而来的附加包 ｜ 正式版1.4.4
-hy.about=§c『隐藏之年』基岩版1.5.2ex3，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+hy.mod.about=§c『隐藏之年』基岩版1.5.2ex3，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -323,3 +323,4 @@ hy.item.netherrack_metal_knife=下界岩金小刀
 hy.item.netherrack_metal_hammer_head=下界岩金锤头
 
 hy.tips.copper_essence.introduction=这是一个未完成的功能！
+hy.tips.copper_essence.main=

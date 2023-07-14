@@ -679,6 +679,36 @@
         },
         "hy.netherrack_metal_sword": {
             "textures": "textures/items/tools/weapons/swords/stone_metal_swords/netherrack_metal_sword"
+        },
+        "hy.andesite_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/andesite_metal_nugget"
+        },
+        "hy.basalt_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/basalt_metal_nugget"
+        },
+        "hy.blackstone_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/blackstone_metal_nugget"
+        },
+        "hy.calcite_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/calcite_metal_nugget"
+        },
+        "hy.deepslate_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/deepslate_metal_nugget"
+        },
+        "hy.diorite_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/diorite_metal_nugget"
+        },
+        "hy.end_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/end_metal_nugget"
+        },
+        "hy.granite_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/granite_metal_nugget"
+        },
+        "hy.netherrack_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/netherrack_metal_nugget"
+        },
+        "hy.tuff_metal_nugget": {
+            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/tuff_metal_nugget"
         }
     }
 }
