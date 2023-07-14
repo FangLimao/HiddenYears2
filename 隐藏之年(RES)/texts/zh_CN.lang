@@ -322,5 +322,17 @@ hy.item.netherrack_metal_dagger=下界岩金匕首
 hy.item.netherrack_metal_knife=下界岩金小刀
 hy.item.netherrack_metal_hammer_head=下界岩金锤头
 
-hy.tips.copper_essence.introduction=这是一个未完成的功能！
+hy.item.andesite_metal_nugget=安山岩金粒
+hy.item.basalt_metal_nugget=玄武岩金粒
+hy.item.blackstone_metal_nugget=黑石岩金粒
+hy.item.calcite_metal_nugget=方解岩金粒
+hy.item.deepslate_metal_nugget=深板岩金粒
+hy.item.diorite_metal_nugget=闪长岩金粒
+hy.item.end_metal_nugget=末地岩金粒
+hy.item.granite_metal_nugget=花岗岩金粒
+hy.item.netherrack_metal_nugget=下界岩金粒
+hy.item.tuff_metal_nugget=凝灰岩金粒
+
+hy.tips.copper_essence.introduction=
 hy.tips.copper_essence.main=
+hy.tips.copper_essence.technology=
