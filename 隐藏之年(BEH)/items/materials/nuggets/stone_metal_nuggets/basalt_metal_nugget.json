@@ -1,0 +1,20 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:basalt_nugget",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.basalt_nugget"
+            },
+            "minecraft:icon": {
+                "texture": "hy.basalt_nugget"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}

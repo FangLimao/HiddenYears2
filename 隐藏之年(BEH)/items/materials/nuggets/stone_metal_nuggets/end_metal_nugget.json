@@ -1,0 +1,20 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:end_nugget",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.end_nugget"
+            },
+            "minecraft:icon": {
+                "texture": "hy.end_nugget"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}
