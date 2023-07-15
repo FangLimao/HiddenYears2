@@ -333,6 +333,10 @@ hy.item.granite_metal_nugget=花岗岩金粒
 hy.item.netherrack_metal_nugget=下界岩金粒
 hy.item.tuff_metal_nugget=凝灰岩金粒
 
+tile.hy.block.andesite_metal_stone.name=安山岩金石
+tile.hy.block.diorite_metal_stone.name=闪长岩金石
+tile.hy.block.granite_metal_stone.name=花岗岩金石
+
 hy.tips.copper_essence.introduction=
 hy.tips.copper_essence.main=
 hy.tips.copper_essence.technology=

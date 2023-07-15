@@ -2,15 +2,15 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:deepslate_nugget",
+            "identifier": "hy:deepslate_metal_nugget",
             "category": "items"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.deepslate_nugget"
+                "value": "hy.item.deepslate_metal_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy.deepslate_nugget"
+                "texture": "hy.deepslate_metal_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"

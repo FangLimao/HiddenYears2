@@ -1,0 +1,21 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:deepslate_metal_nugget_from_crafting_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "hy:deepslate_metal_ingot"
+            }
+        ],
+        "result": {
+            "item": "hy:deepslate_metal_nugget",
+            "count": 9
+        }
+    }
+}

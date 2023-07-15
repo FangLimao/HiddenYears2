@@ -35,5 +35,17 @@
     "hy:deepslate_fuel_metal_ore": {
         "sound": "deepslate",
         "textures": "hy.deepslate_fuel_metal_ore"
+    },
+    "hy:andesite_metal_stone": {
+        "sound": "stone",
+        "textures": "andesite"
+    },
+    "hy:diorite_metal_stone": {
+        "sound": "stone",
+        "textures": "diorite"
+    },
+    "hy:granite_metal_stone": {
+        "sound": "stone",
+        "textures": "granite"
     }
 }

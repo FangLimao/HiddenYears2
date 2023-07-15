@@ -2,15 +2,15 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:calcite_nugget",
+            "identifier": "hy:calcite_metal_nugget",
             "category": "items"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.calcite_nugget"
+                "value": "hy.item.calcite_metal_nugget"
             },
             "minecraft:icon": {
-                "texture": "hy.calcite_nugget"
+                "texture": "hy.calcite_metal_nugget"
             },
             "minecraft:creative_category": {
                 "parent": "items"
