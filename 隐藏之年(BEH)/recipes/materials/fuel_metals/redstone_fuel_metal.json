@@ -12,7 +12,7 @@
                 "item": "hy:fuel_metal"
             },
             "&": {
-                "item": "redstone_ingot"
+                "item": "redstone"
             }
         },
         "pattern": [
