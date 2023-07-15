@@ -9,19 +9,19 @@
             {
                 "places_block": "hy:andesite_metal_stone",
                 "may_replace": [
-                    "stone:5"
+                    "stone"
                 ]
             },
             {
                 "places_block": "hy:diorite_metal_stone",
                 "may_replace": [
-                    "stone:3"
+                    "stone"
                 ]
             },
             {
                 "places_block": "hy:granite_metal_stone",
                 "may_replace": [
-                    "stone:1"
+                    "stone"
                 ]
             }
         ]
