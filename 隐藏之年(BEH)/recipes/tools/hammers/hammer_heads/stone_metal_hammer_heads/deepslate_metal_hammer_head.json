@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:deepslate_metal_hammer_head"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "hy:deepslate_metal_ingot"
+			}
+		},
+		"pattern": [
+			"###",
+			"###",
+			" # "
+		],
+		"result": {
+			"item": "hy:deepslate_metal_hammer_head"
+		}
+	}
+}
