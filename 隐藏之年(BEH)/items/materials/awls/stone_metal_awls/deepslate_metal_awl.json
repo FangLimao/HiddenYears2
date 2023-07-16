@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:deepslate_metal_awl",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.deepslate_metal_awl"
+            },
+            "minecraft:icon": {
+                "texture": "hy.deepslate_metal_awl"
+            },
+            "minecraft:durability": {
+                "max_durability": 16
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 5,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hy.on_hurt_entity",
+                    "target": "self"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}

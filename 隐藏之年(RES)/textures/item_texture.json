@@ -739,6 +739,36 @@
         },
         "hy.tuff_metal_hammer_head": {
             "textures": "textures/items/tools/hammers/hammer_heads/tuff_metal_hammer_head"
+        },
+        "hy.andesite_metal_awl": {
+            "textures": "textures/items/materials/awls/andesite_metal_awl"
+        },
+        "hy.basalt_metal_awl": {
+            "textures": "textures/items/materials/awls/basalt_metal_awl"
+        },
+        "hy.blackstone_metal_awl": {
+            "textures": "textures/items/materials/awls/blackstone_metal_awl"
+        },
+        "hy.calcite_metal_awl": {
+            "textures": "textures/items/materials/awls/calcite_metal_awl"
+        },
+        "hy.deepslate_metal_awl": {
+            "textures": "textures/items/materials/awls/deepslate_metal_awl"
+        },
+        "hy.diorite_metal_awl": {
+            "textures": "textures/items/materials/awls/diorite_metal_awl"
+        },
+        "hy.end_metal_awl": {
+            "textures": "textures/items/tools/hammers/awls/end_metal_awl"
+        },
+        "hy.granite_metal_awl": {
+            "textures": "textures/items/materials/awls/granite_metal_awl"
+        },
+        "hy.netherrack_metal_awl": {
+            "textures": "textures/items/materials/awls/netherrack_metal_awl"
+        },
+        "hy.tuff_metal_awl": {
+            "textures": "textures/items/materials/awls/tuff_metal_awl"
         }
     }
 }
