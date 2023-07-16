@@ -709,6 +709,36 @@
         },
         "hy.tuff_metal_nugget": {
             "textures": "textures/items/materials/nuggets/stone_metal_nuggets/tuff_metal_nugget"
+        },
+        "hy.andesite_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/andesite_metal_hammer_head"
+        },
+        "hy.basalt_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/basalt_metal_hammer_head"
+        },
+        "hy.blackstone_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/blackstone_metal_hammer_head"
+        },
+        "hy.calcite_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/calcite_metal_hammer_head"
+        },
+        "hy.deepslate_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/deepslate_metal_hammer_head"
+        },
+        "hy.diorite_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/diorite_metal_hammer_head"
+        },
+        "hy.end_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/end_metal_hammer_head"
+        },
+        "hy.granite_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/granite_metal_hammer_head"
+        },
+        "hy.netherrack_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/netherrack_metal_hammer_head"
+        },
+        "hy.tuff_metal_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/tuff_metal_hammer_head"
         }
     }
 }
