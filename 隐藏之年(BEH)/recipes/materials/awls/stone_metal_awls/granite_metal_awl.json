@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:granite_metal_awl"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "hy:granite_metal_nugget"
+			}
+		},
+		"result": {
+			"item": "hy:granite_metal_awl"
+		}
+	}
+}
