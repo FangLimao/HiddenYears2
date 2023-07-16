@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:diorite_metal_hoe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "stick"
+			},
+			"X": {
+				"item": "hy:diorite_metal_ingot"
+			}
+		},
+		"result": {
+			"item": "hy:diorite_metal_hoe"
+		}
+	}
+}

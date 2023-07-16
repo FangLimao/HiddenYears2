@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:netherrack_metal_hoe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "stick"
+			},
+			"X": {
+				"item": "hy:netherrack_metal_ingot"
+			}
+		},
+		"result": {
+			"item": "hy:netherrack_metal_hoe"
+		}
+	}
+}
