@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:diorite_metal_shovel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "stick"
+			},
+			"X": {
+				"item": "hy:diorite_metal_ingot"
+			}
+		},
+		"result": {
+			"item": "hy:diorite_metal_shovel"
+		}
+	}
+}
