@@ -3,11 +3,11 @@
 	"minecraft:item": {
 		"description": {
 			"category": "equipment",
-			"identifier": "hy:end_metal_pickaxe"
+			"identifier": "hy:granite_metal_pickaxe"
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "hy.item.end_metal_pickaxe"
+				"value": "hy.item.granite_metal_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"
@@ -18,19 +18,19 @@
 				"max_durability": 250
 			},
 			"minecraft:icon": {
-				"texture": "hy.end_metal_pickaxe"
+				"texture": "hy.granite_metal_pickaxe"
 			},
 			"minecraft:repairable": {
 				"repair_items": [
 					{
 						"items": [
-							"hy:end_metal_pickaxe"
+							"hy:granite_metal_pickaxe"
 						],
 						"repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
 					},
 					{
 						"items": [
-							"hy:end_metal_ingot"
+							"hy:granite_metal_ingot"
 						],
 						"repair_amount": 50
 					}
