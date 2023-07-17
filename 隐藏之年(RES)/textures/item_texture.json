@@ -759,7 +759,7 @@
             "textures": "textures/items/materials/awls/diorite_metal_awl"
         },
         "hy.end_metal_awl": {
-            "textures": "textures/items/tools/hammers/awls/end_metal_awl"
+            "textures": "textures/items/materials/awls/end_metal_awl"
         },
         "hy.granite_metal_awl": {
             "textures": "textures/items/materials/awls/granite_metal_awl"
