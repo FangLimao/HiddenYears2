@@ -2,15 +2,15 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:andesite_metal_awl",
+            "identifier": "hy:end_metal_awl",
             "category": "items"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.andesite_metal_awl"
+                "value": "hy.item.end_metal_awl"
             },
             "minecraft:icon": {
-                "texture": "hy.andesite_metal_awl"
+                "texture": "hy.end_metal_awl"
             },
             "minecraft:durability": {
                 "max_durability": 16
