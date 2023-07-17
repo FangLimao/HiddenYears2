@@ -227,7 +227,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy_weathered_copper_axe"
+                "texture": "hy.weathered_copper_axe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.axe"
