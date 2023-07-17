@@ -127,6 +127,14 @@
                             "event": "hy.on_break_block",
                             "target": "self"
                         }
+                    },
+                    {
+                        "block": "lit_pumpkin",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
                     }
                 ]
             },
