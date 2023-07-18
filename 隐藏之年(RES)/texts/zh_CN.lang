@@ -369,6 +369,15 @@ tile.hy.block.andesite_metal_stone.name=安山岩金石
 tile.hy.block.diorite_metal_stone.name=闪长岩金石
 tile.hy.block.granite_metal_stone.name=花岗岩金石
 
+tile.hy.block.shallow_coal_ore.name=浅层煤矿石
+tile.hy.block.shallow_copper_ore.name=浅层铜矿石
+tile.hy.block.shallow_diamond_ore.name=浅层钻石矿石
+tile.hy.block.shallow_emerald_ore.name=浅层绿宝石矿石
+tile.hy.block.shallow_iron_ore.name=浅层铁矿石
+tile.hy.block.shallow_lapis_ore.name=浅层青金石矿石
+tile.hy.block.shallow_redstone_ore.name=浅层红石矿石
+tile.hy.block.shallow_gold_ore.name=浅层金矿石
+
 hy.tips.copper_essence.introduction=『铜晶』的自述
 hy.tips.copper_essence.main=这是一种晶状体。可以用四个它合成『铜之星』
 hy.tips.copper_essence.technology=

@@ -47,5 +47,37 @@
     "hy:granite_metal_stone": {
         "sound": "stone",
         "textures": "granite"
+    },
+    "hy:shallow_gold_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_gold_ore"
+    },
+    "hy:shallow_coal_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_coal_ore"
+    },
+    "hy:shallow_copper_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_copper_ore"
+    },
+    "hy:shallow_diamond_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_diamond_ore"
+    },
+    "hy:shallow_emerald_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_emerald_ore"
+    },
+    "hy:shallow_iron_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_iron_ore"
+    },
+    "hy:shallow_lapis_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_lapis_ore"
+    },
+    "hy:shallow_redstone_ore": {
+        "sound": "stone",
+        "textures": "hy.shallow_redstone_ore"
     }
 }

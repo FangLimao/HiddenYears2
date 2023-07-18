@@ -1,0 +1,34 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hy:shallow_iron_ore"
+        },
+        "components": {
+            "minecraft:display_name": "hy.block.shallow_iron_ore",
+            "minecraft:destroy_time": 0.8,
+            "minecraft:explosion_resistance": 2.0,
+            "minecraft:map_color": "#ffffff",
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            },
+            "minecraft:loot": "loot_tables/blocks/fuel_ore.json",
+            "minecraft:on_player_destroyed": {
+                "event": "hy.pick_up_xp",
+                "target": "self"
+            },
+            "tag:minecraft:stone_pick_diggable": {}
+        },
+        "events": {
+            "hy.pick_up_xp": {
+                "run_command": {
+                    "command": [
+                        "function core/default_ore_xp"
+                    ],
+                    "target": "self"
+                }
+            }
+        }
+    }
+}
