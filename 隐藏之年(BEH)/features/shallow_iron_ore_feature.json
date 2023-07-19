@@ -1,0 +1,17 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "hy:shallow_iron_ore_feature"
+		},
+		"count": 25,
+		"replace_rules": [
+			{
+				"places_block": "hy:shallow_iron_ore",
+				"may_replace": [
+					"stone"
+				]
+			}
+		]
+	}
+}

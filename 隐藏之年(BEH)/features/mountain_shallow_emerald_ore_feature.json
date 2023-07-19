@@ -1,0 +1,17 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "hy:mountain_shallow_emerald_ore_feature"
+        },
+        "count": 25,
+        "replace_rules": [
+            {
+                "places_block": "hy:shallow_emerald_ore",
+                "may_replace": [
+                    "stone"
+                ]
+            }
+        ]
+    }
+}
