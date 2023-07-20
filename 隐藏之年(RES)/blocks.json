@@ -79,5 +79,37 @@
     "hy:shallow_redstone_ore": {
         "sound": "stone",
         "textures": "hy.shallow_redstone_ore"
+    },
+    "hy:suspicious_gold_ore": {
+        "sound": "stone",
+        "textures": "gold_ore"
+    },
+    "hy:suspicious_coal_ore": {
+        "sound": "stone",
+        "textures": "coal_ore"
+    },
+    "hy:suspicious_copper_ore": {
+        "sound": "stone",
+        "textures": "copper_ore"
+    },
+    "hy:suspicious_diamond_ore": {
+        "sound": "stone",
+        "textures": "diamond_ore"
+    },
+    "hy:suspicious_emerald_ore": {
+        "sound": "stone",
+        "textures": "emerald_ore"
+    },
+    "hy:suspicious_iron_ore": {
+        "sound": "stone",
+        "textures": "iron_ore"
+    },
+    "hy:suspicious_lapis_ore": {
+        "sound": "stone",
+        "textures": "lapis_ore"
+    },
+    "hy:suspicious_redstone_ore": {
+        "sound": "stone",
+        "textures": "redstone_ore"
     }
 }
