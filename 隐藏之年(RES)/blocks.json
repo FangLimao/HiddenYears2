@@ -111,5 +111,37 @@
     "hy:suspicious_redstone_ore": {
         "sound": "stone",
         "textures": "redstone_ore"
+    },
+    "hy:deepslate_suspicious_gold_ore": {
+        "sound": "stone",
+        "textures": "deepslate_gold_ore"
+    },
+    "hy:deepslate_suspicious_coal_ore": {
+        "sound": "stone",
+        "textures": "deepslate_coal_ore"
+    },
+    "hy:deepslate_suspicious_copper_ore": {
+        "sound": "stone",
+        "textures": "deepslate_copper_ore"
+    },
+    "hy:deepslate_suspicious_diamond_ore": {
+        "sound": "stone",
+        "textures": "deepslate_diamond_ore"
+    },
+    "hy:deepslate_suspicious_emerald_ore": {
+        "sound": "stone",
+        "textures": "deepslate_emerald_ore"
+    },
+    "hy:deepslate_suspicious_iron_ore": {
+        "sound": "stone",
+        "textures": "deepslate_iron_ore"
+    },
+    "hy:deepslate_suspicious_lapis_ore": {
+        "sound": "stone",
+        "textures": "deepslate_lapis_ore"
+    },
+    "hy:deepslate_suspicious_redstone_ore": {
+        "sound": "stone",
+        "textures": "deepslate_redstone_ore"
     }
 }
