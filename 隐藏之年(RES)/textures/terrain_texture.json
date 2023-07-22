@@ -51,6 +51,27 @@
         },
         "hy.shallow_coal_ore": {
             "textures": "textures/blocks/ores/shallow_ores/shallow_coal_ore"
+        },
+        "hy.deep_diamond_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_diamond_ore"
+        },
+        "hy.deep_gold_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_gold_ore"
+        },
+        "hy.deep_iron_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_iron_ore"
+        },
+        "hy.deep_lapis_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_lapis_ore"
+        },
+        "hy.deep_emerald_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_emerald_ore"
+        },
+        "hy.deep_redstone_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_redstone_ore"
+        },
+        "hy.deep_copper_ore": {
+            "textures": "textures/blocks/ores/deep_ores/deep_copper_ore"
         }
     }
 }

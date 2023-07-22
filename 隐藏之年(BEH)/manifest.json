@@ -18,7 +18,7 @@
         "uuid": "e1b2000f-c88c-46ed-a9cd-3f0b06130a1f",
         "version": [
             1,
-            5,
+            6,
             0
         ],
         "pack_scope": "world"
@@ -29,7 +29,7 @@
             "uuid": "553b40a9-116e-44bf-ae36-704a730b1ca2",
             "version": [
                 1,
-                5,
+                6,
                 0
             ]
         }
@@ -39,7 +39,7 @@
             "uuid": "b16bb643-fe64-43a2-8423-820a57145c4d",
             "version": [
                 1,
-                5,
+                6,
                 0
             ]
         }

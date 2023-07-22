@@ -1,6 +1,6 @@
 pack.name=隐藏之年
-pack.description=为你而来的附加包 ｜ 正式版1.5.0
-hy.mod.about=§c『隐藏之年』基岩版1.5.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=为你而来的附加包 ｜ 正式版1.6.0
+hy.mod.about=§c『隐藏之年』基岩版1.6.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -377,6 +377,15 @@ tile.hy.block.shallow_iron_ore.name=浅层铁矿石
 tile.hy.block.shallow_lapis_ore.name=浅层青金石矿石
 tile.hy.block.shallow_redstone_ore.name=浅层红石矿石
 tile.hy.block.shallow_gold_ore.name=浅层金矿石
+
+tile.hy.block.deep_coal_ore.name=深层煤矿石
+tile.hy.block.deep_copper_ore.name=深层铜矿石
+tile.hy.block.deep_diamond_ore.name=深层钻石矿石
+tile.hy.block.deep_emerald_ore.name=深层绿宝石矿石
+tile.hy.block.deep_iron_ore.name=深层铁矿石
+tile.hy.block.deep_lapis_ore.name=深层青金石矿石
+tile.hy.block.deep_redstone_ore.name=深层红石矿石
+tile.hy.block.deep_gold_ore.name=深层金矿石
 
 tile.hy.block.suspicious_coal_ore.name=可疑的煤矿石
 tile.hy.block.suspicious_copper_ore.name=可疑的铜矿石
