@@ -10,8 +10,7 @@
             "minecraft:explosion_resistance": 2.0,
             "minecraft:map_color": "#ffffff",
             "minecraft:creative_category": {
-                "category": "nature",
-                "group": "itemGroup.name.ore"
+               "category": "none"
             },
             "minecraft:loot": "loot_tables/blocks/deep_ores/redstone.json",
             "minecraft:on_player_destroyed": {
