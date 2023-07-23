@@ -387,14 +387,14 @@ tile.hy.block.deep_lapis_ore.name=深层青金石矿石
 tile.hy.block.deep_redstone_ore.name=深层红石矿石
 tile.hy.block.deep_gold_ore.name=深层金矿石
 
-tile.hy.block.geocentric_coal_ore.name=地心煤矿石
-tile.hy.block.geocentric_copper_ore.name=地心铜矿石
-tile.hy.block.geocentric_diamond_ore.name=地心钻石矿石
-tile.hy.block.geocentric_emerald_ore.name=地心绿宝石矿石
-tile.hy.block.geocentric_iron_ore.name=地心铁矿石
-tile.hy.block.geocentric_lapis_ore.name=地心青金石矿石
-tile.hy.block.geocentric_redstone_ore.name=地心红石矿石
-tile.hy.block.geocentric_gold_ore.name=地心金矿石
+hy.block.geocentric_coal_ore=地心煤矿石
+hy.block.geocentric_copper_ore=地心铜矿石
+hy.block.geocentric_diamond_ore=地心钻石矿石
+hy.block.geocentric_emerald_ore=地心绿宝石矿石
+hy.block.geocentric_iron_ore=地心铁矿石
+hy.block.geocentric_lapis_ore=地心青金石矿石
+hy.block.geocentric_redstone_ore=地心红石矿石
+hy.block.geocentric_gold_ore=地心金矿石
 
 tile.hy.block.suspicious_coal_ore.name=可疑的煤矿石
 tile.hy.block.suspicious_copper_ore.name=可疑的铜矿石

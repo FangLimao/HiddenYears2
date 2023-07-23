@@ -1,0 +1,19 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "hy:geocentric_copper_ore_feature"
+        },
+        "count": 5,
+        "replace_rules": [
+            {
+                "places_block": "hy:geocentric_copper_ore",
+                "may_replace": [
+                    "deepslate_copper_ore",
+                    "shallow_copper_ore",
+                    "deepslate"
+                ]
+            }
+        ]
+    }
+}
