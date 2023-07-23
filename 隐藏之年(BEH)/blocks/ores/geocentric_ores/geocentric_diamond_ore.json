@@ -1,19 +1,29 @@
 {
-    "format_version": "1.17.0",
+    "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "hy:deep_diamond_ore"
+            "identifier": "hy:geocentric_diamond_ore",
+            "menu_category": {
+                "group": "itemGroup.name.ore",
+                "category": "nature",
+                "is_hidden_in_commands": false
+            }
         },
         "components": {
-            "minecraft:display_name": "hy.block.deep_diamond_ore",
-            "minecraft:destroy_time": 0.8,
-            "minecraft:explosion_resistance": 2.0,
-            "minecraft:map_color": "#ffffff",
-            "minecraft:creative_category": {
-                "category": "nature",
-                "group": "itemGroup.name.ore"
-            },
             "minecraft:loot": "loot_tables/blocks/deep_ores/diamond.json",
+            "minecraft:display_name": "hy.block.geocentric_diamond_ore",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.0
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3.0
+            },
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 50,
+                "burn_odds": 0
+            },
             "minecraft:on_player_destroyed": {
                 "event": "hy.pick_up_xp",
                 "target": "self"
@@ -23,9 +33,7 @@
         "events": {
             "hy.pick_up_xp": {
                 "run_command": {
-                    "command": [
-                        "function core/default_ore_xp"
-                    ],
+                    "command": "function core/default_ore_xp",
                     "target": "self"
                 }
             }

@@ -12,9 +12,13 @@
         "components": {
             "minecraft:loot": "loot_tables/blocks/deep_ores/copper.json",
             "minecraft:display_name": "hy.block.geocentric_copper_ore",
-            "minecraft:destroy_time": 2.0,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.0
+            },
             "minecraft:friction": 0.6,
-            "minecraft:explosion_resistance": 2.0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3.0
+            },
             "minecraft:map_color": "#00ff00",
             "minecraft:flammable": {
                 "flame_odds": 50,
@@ -29,9 +33,7 @@
         "events": {
             "hy.pick_up_xp": {
                 "run_command": {
-                    "command": [
-                        "function core/default_ore_xp"
-                    ],
+                    "command": "function core/default_ore_xp",
                     "target": "self"
                 }
             }
