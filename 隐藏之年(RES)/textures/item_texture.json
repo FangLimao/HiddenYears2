@@ -769,6 +769,15 @@
         },
         "hy.tuff_metal_awl": {
             "textures": "textures/items/materials/awls/tuff_metal_awl"
+        },
+        "hy.tin_ingot": {
+            "textures": "textures/items/materials/ingots/tin_ingot"
+        },
+        "hy.tin_dust": {
+            "textures": "textures/items/materials/dusts/tin_dust"
+        },
+        "hy.tin_nugget": {
+            "textures": "textures/items/materials/nuggets/tin_nugget"
         }
     }
 }
