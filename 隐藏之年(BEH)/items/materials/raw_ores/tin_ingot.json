@@ -1,0 +1,20 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:raw_tin",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.raw_tin"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.raw_tin"
+            },
+            "minecraft:creative_category": {
+                "category": "items"
+            }
+        }
+    }
+}

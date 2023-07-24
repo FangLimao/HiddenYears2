@@ -72,6 +72,15 @@
         },
         "hy.deep_copper_ore": {
             "textures": "textures/blocks/ores/deep_ores/deep_copper_ore"
+        },
+        "hy.tin_ore": {
+            "textures": "textures/blocks/ores/tin_ore"
+        },
+        "hy.deepslate_tin_ore": {
+            "textures": "textures/blocks/ores/deepslate_tin_ore"
+        },
+        "hy.tin_block": {
+            "textures": "textures/blocks/ingot_blocks/tin_block"
         }
     }
 }

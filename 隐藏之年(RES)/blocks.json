@@ -207,5 +207,17 @@
     "hy:geocentric_redstone_ore": {
         "sound": "deepslate",
         "textures": "hy.deep_redstone_ore"
+    },
+    "hy:tin_ore": {
+        "sound": "stone",
+        "textures": "hy.tin_ore"
+    },
+    "hy:deepslate_tin_ore": {
+        "sound": "deepslate",
+        "textures": "hy.deepslate_tin_ore"
+    },
+    "hy:tin_block": {
+        "sound": "metal",
+        "textures": "hy.tin_block"
     }
 }

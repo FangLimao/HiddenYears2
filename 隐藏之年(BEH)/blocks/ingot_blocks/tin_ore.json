@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hy:tin_block",
+            "menu_category": {
+                "category": "construction",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/tin_block.json",
+            "minecraft:display_name": "hy.block.tin_block",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.0
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3.0
+            },
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 50,
+                "burn_odds": 0
+            },
+            "tag:minecraft:stone_pick_diggable": {}
+        },
+        "events": {}
+    }
+}

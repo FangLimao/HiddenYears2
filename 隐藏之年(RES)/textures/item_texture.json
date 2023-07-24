@@ -778,6 +778,9 @@
         },
         "hy.tin_nugget": {
             "textures": "textures/items/materials/nuggets/tin_nugget"
+        },
+        "hy.raw_tin": {
+            "textures": "textures/items/materials/raw_ores/raw_tin"
         }
     }
 }
