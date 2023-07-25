@@ -790,6 +790,18 @@
         },
         "hy.bronze_nugget": {
             "textures": "textures/items/materials/nuggets/bronze_nugget"
+        },
+        "hy.bronze_helmet": {
+            "textures": "textures/items/armors/bronze_armors/bronze_helmet"
+        },
+        "hy.bronze_chestplate": {
+            "textures": "textures/items/armors/bronze_armors/bronze_chestplate"
+        },
+        "hy.bronze_leggings": {
+            "textures": "textures/items/armors/bronze_armors/bronze_leggings"
+        },
+        "hy.bronze_boots": {
+            "textures": "textures/items/armors/bronze_armors/bronze_boots"
         }
     }
 }

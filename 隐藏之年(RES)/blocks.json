@@ -219,5 +219,9 @@
     "hy:tin_block": {
         "sound": "metal",
         "textures": "hy.tin_block"
+    },
+    "hy:bronze_block": {
+        "sound": "metal",
+        "textures": "hy.bronze_block"
     }
 }

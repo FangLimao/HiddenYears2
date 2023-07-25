@@ -81,6 +81,9 @@
         },
         "hy.tin_block": {
             "textures": "textures/blocks/ingot_blocks/tin_block"
+        },
+        "hy.bronze_block": {
+            "textures": "textures/blocks/ingot_blocks/bronze_block"
         }
     }
 }
