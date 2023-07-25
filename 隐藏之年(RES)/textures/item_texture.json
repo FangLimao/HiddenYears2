@@ -781,6 +781,15 @@
         },
         "hy.raw_tin": {
             "textures": "textures/items/materials/raw_ores/raw_tin"
+        },
+        "hy.bronze_ingot": {
+            "textures": "textures/items/materials/ingots/bronze_ingot"
+        },
+        "hy.bronze_dust": {
+            "textures": "textures/items/materials/dusts/bronze_dust"
+        },
+        "hy.bronze_nugget": {
+            "textures": "textures/items/materials/nuggets/bronze_nugget"
         }
     }
 }
