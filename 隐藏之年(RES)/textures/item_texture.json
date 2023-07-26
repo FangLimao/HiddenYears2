@@ -802,6 +802,33 @@
         },
         "hy.bronze_boots": {
             "textures": "textures/items/armors/bronze_armors/bronze_boots"
+        },
+        "hy.bronze_hammer": {
+            "textures": "textures/items/tools/hammers/bronze_hammer"
+        },
+        "hy.bronze_hoe": {
+            "textures": "textures/items/tools/hoes/bronze_hoe"
+        },
+        "hy.bronze_pickaxe": {
+            "textures": "textures/items/tools/pickaxes/bronze_pickaxe"
+        },
+        "hy.bronze_shovel": {
+            "textures": "textures/items/tools/shovels/bronze_shovel"
+        },
+        "hy.bronze_sword": {
+            "textures": "textures/items/tools/weapons/swords/bronze_sword"
+        },
+        "hy.bronze_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/bronze_dagger"
+        },
+        "hy.bronze_knife": {
+            "textures": "textures/items/tools/weapons/knifes/bronze_knife"
+        },
+        "hy.bronze_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/bronze_hammer_head"
+        },
+        "hy.bronze_axe": {
+            "textures": "textures/items/tools/axes/bronze_axe"
         }
     }
 }
