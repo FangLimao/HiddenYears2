@@ -36,7 +36,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy.copper_hoe"
+                "texture": "hy.bronze_hoe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.hoe"

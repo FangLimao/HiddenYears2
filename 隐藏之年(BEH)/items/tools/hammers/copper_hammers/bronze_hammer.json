@@ -18,7 +18,7 @@
                 "max_durability": 800
             },
             "minecraft:icon": {
-                "texture": "hy.copper_hammer"
+                "texture": "hy.bronze_hammer"
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 9,

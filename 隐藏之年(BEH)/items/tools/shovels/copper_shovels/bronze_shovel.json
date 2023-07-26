@@ -75,7 +75,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy.copper_shovel"
+                "texture": "hy.bronze_shovel"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.shovel"
