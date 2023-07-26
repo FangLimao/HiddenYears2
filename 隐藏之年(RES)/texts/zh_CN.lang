@@ -1,6 +1,6 @@
 pack.name=隐藏之年
-pack.description=为你而来的附加包 ｜ 正式版1.6.1
-hy.mod.about=§c『隐藏之年』基岩版1.6.1，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=为你而来的附加包 ｜ 正式版1.6.2
+hy.mod.about=§c『隐藏之年』基岩版1.6.2，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -429,6 +429,16 @@ hy.item.bronze_helmet=青铜头盔
 hy.item.bronze_chestplate=青铜胸甲
 hy.item.bronze_leggings=青铜护腿
 hy.item.bronze_boots=青铜靴子
+hy.item.bronze_axe=青铜斧
+hy.item.bronze_hammer=青铜锤
+hy.item.bronze_hoe=青铜锄
+hy.item.bronze_pickaxe=青铜镐
+hy.item.bronze_shovel=青铜锹
+hy.item.bronze_dagger=青铜匕首
+hy.item.bronze_knife=青铜小刀
+hy.item.bronze_hammer_head=青铜锤头
+hy.item.bronze_awl=青铜锥
+hy.item.bronze_sword=青铜剑
 hy.block.bronze_block=青铜块
 
 hy.tips.copper_essence.introduction=『铜晶』的自述
