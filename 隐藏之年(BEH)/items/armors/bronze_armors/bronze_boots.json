@@ -7,7 +7,7 @@
         },
         "components": {
             "minecraft:creative_category": {
-                "parent": "itemGroup.name.boots",
+                "parent": "itemGroup.name.boots"
             },
             "minecraft:icon": {
                 "texture": "hy.bronze_boots"

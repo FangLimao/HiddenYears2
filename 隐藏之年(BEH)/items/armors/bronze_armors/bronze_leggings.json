@@ -7,7 +7,7 @@
         },
         "components": {
             "minecraft:creative_category": {
-                "parent": "itemGroup.name.leggings",
+                "parent": "itemGroup.name.leggings"
             },
             "minecraft:icon": {
                 "texture": "hy.bronze_leggings"
