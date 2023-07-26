@@ -14,9 +14,9 @@
                 "parent": "itemGroup.name.sword"
             },
             "minecraft:durability": {
-                "max_durability": 400
+                "max_durability": 800
             },
-            "minecraft:damage": 5,
+            "minecraft:damage": 7,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "on_dig": {
@@ -151,37 +151,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "copper_ingot"
+                            "hy:bronze_ingot"
                         ],
                         "repair_amount": 40
                     },
                     {
                         "items": [
-                            "hy:copper_sword"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
                             "hy:bronze_sword"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "hy:exposed_copper_sword"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "hy:weathered_copper_sword"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "hy:oxidized_copper_sword"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }

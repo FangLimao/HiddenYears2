@@ -15,13 +15,13 @@
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
-                "max_durability": 600
+                "max_durability": 800
             },
             "minecraft:icon": {
                 "texture": "hy.copper_hammer"
             },
             "minecraft:mining_speed": 1,
-            "minecraft:damage": 5,
+            "minecraft:damage": 9,
             "minecraft:weapon": {
                 "on_hurt_entity": {
                     "event": "hy.on_hurt_entity",
