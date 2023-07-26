@@ -829,6 +829,9 @@
         },
         "hy.bronze_axe": {
             "textures": "textures/items/tools/axes/bronze_axe"
+        },
+        "hy.bronze_awl": {
+            "textures": "textures/items/materials/awls/bronze_awl"
         }
     }
 }

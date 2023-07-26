@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:bronze_awl",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.bronze_awl"
+            },
+            "minecraft:icon": {
+                "texture": "hy.bronze_awl"
+            },
+            "minecraft:durability": {
+                "max_durability": 16
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 5,
+            "minecraft:weapon": {},
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}
