@@ -223,5 +223,16 @@
     "hy:bronze_block": {
         "sound": "metal",
         "textures": "hy.bronze_block"
+    },
+    "hy:lab_table": {
+        "sound": "metal",
+        "textures": {
+            "up": "hy.lab_table.top",
+            "down": "hy.lab_table.bottom",
+            "north": "hy.lab_table.side_1",
+            "south": "hy.lab_table.side_2",
+            "west": "hy.lab_table.side_3",
+            "east": "hy.lab_table.front"
+        }
     }
 }

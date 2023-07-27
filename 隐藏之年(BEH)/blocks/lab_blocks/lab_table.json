@@ -1,0 +1,37 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hy:lab_table",
+            "menu_category": {
+                "category": "items",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:display_name": "hy.block.lab_table",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.0
+            },
+            "minecraft:crafting_table": {
+                "table_name": "hy.block.lab_table",
+                "crafting_tags": [
+                    "medicine_table",
+                    "lab_table",
+                    "crafting_table"
+                ]
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3.0
+            },
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 50,
+                "burn_odds": 0
+            },
+            "tag:minecraft:stone_pick_diggable": {}
+        },
+        "events": {}
+    }
+}
