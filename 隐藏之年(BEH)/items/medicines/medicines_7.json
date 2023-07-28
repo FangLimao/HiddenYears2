@@ -21,7 +21,7 @@
                 "nutrition": 2,
                 "can_always_eat": true,
                 "saturation_modifier": 1.0,
-                "using_converts_to": "bottle",
+                "using_converts_to": "glass_bottle",
                 "on_consume": {
                     "event": "hy.on_drink",
                     "target": "self"
