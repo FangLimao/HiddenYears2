@@ -832,6 +832,9 @@
         },
         "hy.bronze_awl": {
             "textures": "textures/items/materials/awls/bronze_awl"
+        },
+        "hy.medicines.default": {
+            "textures": "textures/items/medicines/medicine_default"
         }
     }
 }

@@ -442,6 +442,17 @@ hy.item.bronze_sword=青铜剑
 hy.block.bronze_block=青铜块
 
 hy.block.lab_table=实验台
+hy.item.medicines.1=眼药水
+hy.item.medicines.2=胃药
+hy.item.medicines.3=驱邪药
+hy.item.medicines.4=驱毒药
+hy.item.medicines.5=驱魔药
+hy.item.medicines.6=灵药
+hy.item.medicines.7=枸橼酸铁铵溶液
+hy.item.medicines.8=村庄探索者溶液
+hy.item.medicines.9=海底探索者溶液
+hy.item.medicines.10=新生者溶液
+hy.item.medicines.11=兴奋剂
 
 hy.tips.copper_essence.introduction=『铜晶』的自述
 hy.tips.copper_essence.main=这是一种晶状体。可以用四个它合成『铜之星』
