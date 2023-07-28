@@ -838,6 +838,18 @@
         },
         "hy.medicines.eye": {
             "textures": "textures/items/medicines/medicine_eye"
+        },
+        "hy.medicines.dope": {
+            "textures": "textures/items/medicines/medicine_dope"
+        },
+        "hy.medicines.poison": {
+            "textures": "textures/items/medicines/medicine_poison"
+        },
+        "hy.medicines.newlife": {
+            "textures": "textures/items/medicines/medicine_newlife"
+        },
+        "hy.medicines.nausea": {
+            "textures": "textures/items/medicines/medicine_nausea"
         }
     }
 }
