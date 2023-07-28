@@ -17,8 +17,7 @@
                 "table_name": "hy.block.lab_table",
                 "crafting_tags": [
                     "medicine_table",
-                    "lab_table",
-                    "crafting_table"
+                    "lab_table"
                 ]
             },
             "minecraft:friction": 0.6,
