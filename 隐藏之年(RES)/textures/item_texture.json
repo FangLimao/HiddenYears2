@@ -835,6 +835,9 @@
         },
         "hy.medicines.default": {
             "textures": "textures/items/medicines/medicine_default"
+        },
+        "hy.medicines.eye": {
+            "textures": "textures/items/medicines/medicine_eye"
         }
     }
 }
