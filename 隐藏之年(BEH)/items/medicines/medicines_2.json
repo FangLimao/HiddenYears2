@@ -26,7 +26,8 @@
                     "event": "hy.on_drink",
                     "target": "self"
                 }
-            }
+            },
+            "tag:hy:medicine_poison": {}
         },
         "events": {
             "hy.on_drink": {

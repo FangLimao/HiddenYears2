@@ -28,7 +28,8 @@
                     "event": "hy.on_use",
                     "target": "self"
                 }
-            }
+            },
+            "tag:hy:medicine_poison": {}
         },
         "events": {
             "hy.on_use": {
