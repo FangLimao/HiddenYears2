@@ -850,6 +850,12 @@
         },
         "hy.medicines.nausea": {
             "textures": "textures/items/medicines/medicine_nausea"
+        },
+        "hy.medicines.bandage": {
+            "textures": "textures/items/medicines/bandage"
+        },
+        "hy.medicines.medicine_pack": {
+            "textures": "textures/items/medicines/medicine_pack"
         }
     }
 }

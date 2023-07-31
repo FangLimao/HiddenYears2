@@ -1,5 +1,9 @@
 pack.name=HiddenYears
-pack.description=The mod for YOU | Release1.7.0
+pack.description=The mod for YOU | Release1.7.1
+hy.update.index=§l§6感谢你选用隐藏之年！
+hy.update.version=§l§b你已成功更新/加载正式版1.7.1
+hy.update.bbs=§7§o，本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
+hy.update.log=§l本次更新加入了『绷带』及『医药包』，并加入了更新提示§o（就是你现在看到的这行字）
 
 item.hy:copper_hammer=copper hammer
 item.hy:exposed_copper_hammer=exposed copper hammer
@@ -81,3 +85,5 @@ hy.item.basalt_knife=玄武岩金小刀
 hy.item.basalt_hammer_head=玄武岩金锤头
 
 hy.block.lab_table=Lab Table
+hy.item.medicines.medicine_pack=medicine pack
+hy.item.medicines.bandage=bandage

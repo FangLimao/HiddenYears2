@@ -1,6 +1,6 @@
 {
     "values": [
         "core/close_command_feedback",
-        "core/welcome_join"
+        "core/update_information"
     ]
 }

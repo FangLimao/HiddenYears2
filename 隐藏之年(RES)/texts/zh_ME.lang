@@ -1,6 +1,10 @@
 pack.name=隐藏之年
-pack.description=为你而来的附加包 ｜ 正式版1.7.0
-hy.mod.about=§c『隐藏之年』基岩版1.7.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=为你而来的附加包 ｜ 正式版1.7.1
+hy.mod.about=§c『隐藏之年』基岩版1.7.1，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+hy.update.index=§l§6感谢你选用隐藏之年！
+hy.update.version=§l§b你已成功更新/加载正式版1.7.1
+hy.update.bbs=§7§o，本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
+hy.update.log=§l本次更新加入了『绷带』及『医药包』，并加入了更新提示§o（就是你现在看到的这行字）
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -453,6 +457,8 @@ hy.medicines.8=村庄探索者溶液
 hy.medicines.9=海底探索者溶液
 hy.medicines.10=新生者溶液
 hy.medicines.11=兴奋剂
+hy.item.medicines.medicine_pack=医药包
+hy.item.medicines.bandage=绷带
 
 hy.tips.copper_essence.introduction=『铜晶』的自述
 hy.tips.copper_essence.main=这是一种晶状体。可以用四个它合成『铜之星』
