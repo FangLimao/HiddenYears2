@@ -1,6 +1,9 @@
 pack.name=隐藏之年
 pack.description=为你而来的附加包 ｜ 正式版1.7.0 [§l本包需要开启§6假日创造者功能、自定义生物群系实验性玩法§r]
 hy.mod.about=§c『隐藏之年』基岩版1.7.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+hy.welcome.index=欢迎使用隐藏之年
+hy.welcome.version=你当前加载的是1.7.1版本的隐藏之年
+hy.welcome.bbs=欢迎访问苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）或者Minebbs（https://www.minebbs.com/resources/6182/）了解更多！
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
