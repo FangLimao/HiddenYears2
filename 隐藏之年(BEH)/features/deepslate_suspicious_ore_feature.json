@@ -45,7 +45,7 @@
                 "places_block": "hy:deepslate_suspicious_iron_ore",
                 "may_replace": [
                     "deepslate_iron_ore",
-                    "shallow_iron_ores"
+                    "shallow_iron_ore"
                 ]
             },
             {
