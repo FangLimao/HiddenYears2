@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tide_armor_trim_smithing_template",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
