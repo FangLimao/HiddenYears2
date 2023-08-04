@@ -36,7 +36,7 @@
 				"controller.render.gemstone_trader"
 			],
 			"spawn_egg": {
-				"texture": "hy_gemstone_trader_egg",
+				"texture": "hy.gemstone_trader_egg",
 				"texture_index": 0
 			}
 		}
