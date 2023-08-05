@@ -1,10 +1,10 @@
 pack.name=HiddenYears
-pack.description=The mod for YOU | Release1.8.1
-hy.mod.about=§c『隐藏之年』基岩版1.8.1，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=The mod for YOU | Release1.8.2
+hy.mod.about=§c『隐藏之年』基岩版1.8.2，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载正式版1.8.1
+hy.update.version=§l§b你已成功更新/加载正式版1.8.2
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新翻新了Minecraft中敌对生物的战利品表
+hy.update.log=§l本次更新修复了一些漏洞
 
 item.hy:copper_hammer=copper hammer
 item.hy:exposed_copper_hammer=exposed copper hammer
