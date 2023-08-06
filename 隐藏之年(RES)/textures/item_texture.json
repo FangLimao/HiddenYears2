@@ -856,6 +856,60 @@
         },
         "hy.medicines.medicine_pack": {
             "textures": "textures/items/medicines/medicine_pack"
+        },
+        "hy.steel_ingot": {
+            "textures": "textures/items/materials/ingots/steel_ingot"
+        },
+        "hy.steel_dust": {
+            "textures": "textures/items/materials/dusts/steel_dust"
+        },
+        "hy.steel_nugget": {
+            "textures": "textures/items/materials/nuggets/steel_nugget"
+        },
+        "hy.steel_helmet": {
+            "textures": "textures/items/armors/steel_armors/steel_helmet"
+        },
+        "hy.steel_chestplate": {
+            "textures": "textures/items/armors/steel_armors/steel_chestplate"
+        },
+        "hy.steel_leggings": {
+            "textures": "textures/items/armors/steel_armors/steel_leggings"
+        },
+        "hy.steel_boots": {
+            "textures": "textures/items/armors/steel_armors/steel_boots"
+        },
+        "hy.steel_hammer": {
+            "textures": "textures/items/tools/hammers/steel_hammer"
+        },
+        "hy.steel_hoe": {
+            "textures": "textures/items/tools/hoes/steel_hoe"
+        },
+        "hy.steel_pickaxe": {
+            "textures": "textures/items/tools/pickaxes/steel_pickaxe"
+        },
+        "hy.steel_shovel": {
+            "textures": "textures/items/tools/shovels/steel_shovel"
+        },
+        "hy.steel_sword": {
+            "textures": "textures/items/tools/weapons/swords/steel_sword"
+        },
+        "hy.steel_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/steel_dagger"
+        },
+        "hy.steel_knife": {
+            "textures": "textures/items/tools/weapons/knifes/steel_knife"
+        },
+        "hy.steel_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/steel_hammer_head"
+        },
+        "hy.steel_axe": {
+            "textures": "textures/items/tools/axes/steel_axe"
+        },
+        "hy.steel_awl": {
+            "textures": "textures/items/materials/awls/steel_awl"
+        },
+        "hy.raw_steel": {
+            "textures": "textures/items/materials/raw_ores/raw_steel"
         }
     }
 }
