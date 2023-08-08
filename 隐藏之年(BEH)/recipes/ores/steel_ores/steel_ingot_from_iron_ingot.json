@@ -8,7 +8,7 @@
 			"furnace",
 			"blast_furnace"
 		],
-		"input": "hy:iron_ingot",
+		"input": "iron_ingot",
 		"output": "hy:steel_ingot"
 	}
 }
