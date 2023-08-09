@@ -2,23 +2,23 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:steel_axe",
-            "category": "equipment"
+            "category": "equipment",
+            "identifier": "hy:steel_pickaxe"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.steel_axe"
+                "value": "hy.item.steel_pickaxe"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.pickaxe"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
                 "max_durability": 1000
             },
-            "minecraft:mining_speed": 1,
-            "minecraft:damage": 5,
-            "minecraft:enchantable": {
-                "value": 8,
-                "slot": "axe"
+            "minecraft:icon": {
+                "texture": "hy.steel_pickaxe"
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -26,22 +26,28 @@
                         "items": [
                             "hy:steel_ingot"
                         ],
-                        "repair_amount": 50
+                        "repair_amount": 40
                     },
                     {
                         "items": [
-                            "hy:steel_axe"
+                            "hy:steel_pickaxe"
                         ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
                     }
                 ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 4,
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "pickaxe"
             },
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
                         "block": {
-                            "tags": "query.any_tag('wood', 'pumpkin', 'plant')"
+                            "tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')"
                         },
                         "speed": 5,
                         "on_dig": {
@@ -50,7 +56,7 @@
                         }
                     },
                     {
-                        "block": "chest",
+                        "block": "ice",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -58,7 +64,7 @@
                         }
                     },
                     {
-                        "block": "trapped_chest",
+                        "block": "sandstone",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -66,7 +72,7 @@
                         }
                     },
                     {
-                        "block": "lectern",
+                        "block": "netherite_block",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -74,7 +80,7 @@
                         }
                     },
                     {
-                        "block": "loom",
+                        "block": "crying_obsidian",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -82,7 +88,7 @@
                         }
                     },
                     {
-                        "block": "cartography_table",
+                        "block": "respawn_anchor",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -90,7 +96,7 @@
                         }
                     },
                     {
-                        "block": "fletching_table ",
+                        "block": "ancient_debris",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -98,7 +104,7 @@
                         }
                     },
                     {
-                        "block": "barrel",
+                        "block": "ender_chest",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -106,7 +112,7 @@
                         }
                     },
                     {
-                        "block": "jukebox",
+                        "block": "anvil",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -114,7 +120,7 @@
                         }
                     },
                     {
-                        "block": "campfire",
+                        "block": "coal_block",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -122,7 +128,7 @@
                         }
                     },
                     {
-                        "block": "soul_campfire",
+                        "block": "diamond_block",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -130,7 +136,7 @@
                         }
                     },
                     {
-                        "block": "bookshelf",
+                        "block": "emerald_block",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -138,7 +144,7 @@
                         }
                     },
                     {
-                        "block": "banner",
+                        "block": "redstone_block",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -146,7 +152,7 @@
                         }
                     },
                     {
-                        "block": "noteblock",
+                        "block": "enchanting_table",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -154,7 +160,7 @@
                         }
                     },
                     {
-                        "block": "beehive",
+                        "block": "diamond_block",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -162,7 +168,135 @@
                         }
                     },
                     {
-                        "block": "bee_nest",
+                        "block": "iron_trapdoor",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "mob_spawner",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bell",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "dispenser",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "dropper",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "observer",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "furnace",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lit_furnace",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "blast_furnace",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "smoker",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "stonecutter_block",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lodestone",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lantern",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "soul_lantern",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "conduit",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "hopper",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "hopper",
                         "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
@@ -176,30 +310,8 @@
                             "event": "hy.on_break_block",
                             "target": "self"
                         }
-                    },
-                    {
-                        "block": "daylight_detector",
-                        "speed": 5,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "melon_block",
-                        "speed": 5,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
                     }
                 ]
-            },
-            "minecraft:icon": {
-                "texture": "hy.steel_axe"
-            },
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.axe"
             },
             "minecraft:weapon": {
                 "on_hurt_entity": {
@@ -207,7 +319,7 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_axe": {}
+            "tag:minecraft:is_pickaxe": {}
         },
         "events": {
             "hy.on_break_block": {
