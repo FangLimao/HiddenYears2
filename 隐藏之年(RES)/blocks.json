@@ -234,5 +234,16 @@
             "west": "hy.lab_table.side_3",
             "east": "hy.lab_table.front"
         }
+    },
+    "hy:steel_furnace": {
+        "sound": "stone",
+        "textures": {
+            "down": "blast_furnace_top",
+            "east": "blast_furnace_side",
+            "north": "blast_furnace_side",
+            "south": "blast_furnace_front_off",
+            "up": "blast_furnace_top",
+            "west": "blast_furnace_side"
+        }
     }
 }
