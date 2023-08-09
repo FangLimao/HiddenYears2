@@ -16,7 +16,7 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "hy:fuels"
+				"tag": "rainy:fuel"
 			}
 		},
 		"result": {

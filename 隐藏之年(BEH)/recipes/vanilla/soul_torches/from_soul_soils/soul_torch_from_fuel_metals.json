@@ -14,7 +14,7 @@
         ],
         "key": {
             ".": {
-                "tag": "hy:fuels"
+                "tag": "rainy:fuel"
             },
             "|": {
                 "item": "hy:copper_stick"
