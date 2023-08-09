@@ -4,28 +4,18 @@
         "description": {
             "identifier": "hy:steel_furnace",
             "states": {
-                "rainy:machine_fuel_count": [
-                    0,
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    12,
-                    13,
-                    14,
-                    15,
-                    16
+                "rainy:has_fuel": [
+                    false,
+                    true
+                ],
+                "rainy:has_ingot": [
+                    false,
+                    true
                 ]
             }
         },
         "components": {
-            "minecraft:display_name": "hy.block.lab_table",
+            "minecraft:display_name": "hy.block.steel_furnace",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 2.0
             },
@@ -47,11 +37,99 @@
         },
         "permutations": [
             {
-                "condition": "query.block_property('rainy:machine_fuel_count') == 0 ",
+                "condition": "query.block_property('rainy:has_fuel') == false ",
                 "components": {
                     "minecraft:display_name": "空的钢炉"
                 }
+            },
+            {
+                "condition": "query.block_property('rainy:has_fuel') == true ",
+                "components": {
+                    "minecraft:display_name": "装有燃料的钢炉",
+                    "minecraft:queued_ticking": {
+                        "on_tick": {
+                            "condition": "query.block_property('rainy:has_ingot') == true",
+                            "event": "rainy.smelting",
+                            "target": "self"
+                        },
+                        "interval_range": [
+                            1,
+                            1
+                        ]
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "query.get_equipped_item_name('main_hand') == 'iron_ingot' ",
+                        "event": "rainy.add_ingot",
+                        "target": "self"
+                    }
+                }
             }
-        ]
+        ],
+        "events": {
+            "rainy.add_fuel": {
+                "sequence": [
+                    {
+                        "decrement_stack": {
+                            "ignore_game_mode": true
+                        },
+                        "condition": "query.block_property('rainy:has_fuel') == false"
+                    },
+                    {
+                        "play_sound": {
+                            "sound": "block.end_portal_frame.fill",
+                            "target": "self"
+                        },
+                        "condition": "query.block_property('rainy:has_fuel') == false"
+                    },
+                    {
+                        "set_block_property": {
+                            "rainy:has_fuel": "true"
+                        }
+                    }
+                ]
+            },
+            "rainy.add_ingot": {
+                "sequence": [
+                    {
+                        "decrement_stack": {
+                            "ignore_game_mode": true
+                        },
+                        "condition": "query.block_property('rainy:has_ingot') == false"
+                    },
+                    {
+                        "set_block_property": {
+                            "rainy:has_ingot": true
+                        },
+                        "condition": "query.block_property('rainy:has_ingot') == false"
+                    },
+                    {
+                        "play_sound": {
+                            "sound": "block.end_portal_frame.fill",
+                            "target": "self"
+                        },
+                        "condition": "query.block_property('rainy:has_ingot') == false"
+                    }
+                ]
+            },
+            "rainy.smelting": {
+                "sequence": [
+                    {
+                        "set_block_property": {
+                            "rainy:has_ingot": false
+                        }
+                    },
+                    {
+                        "set_block_property": {
+                            "rainy:has_fuel": "false"
+                        }
+                    },
+                    {
+                        "spawn_loot": {
+                            "table": "loot_tables/gameplay/smelting_steel.json"
+                        }
+                    }
+                ]
+            }
+        }
     }
 }
