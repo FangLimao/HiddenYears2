@@ -15,7 +15,7 @@
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
-                "max_durability": 100
+                "max_durability": 50
             },
             "minecraft:icon": {
                 "texture": "hy.exposed_copper_pickaxe"
@@ -71,9 +71,9 @@
                 "destroy_speeds": [
                     {
                         "block": {
-                            "tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable','iron_pick_diggable')"
+                            "tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable')"
                         },
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -81,7 +81,7 @@
                     },
                     {
                         "block": "ice",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -89,7 +89,7 @@
                     },
                     {
                         "block": "sandstone",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -97,7 +97,7 @@
                     },
                     {
                         "block": "netherite_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -105,7 +105,7 @@
                     },
                     {
                         "block": "crying_obsidian",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -113,7 +113,7 @@
                     },
                     {
                         "block": "respawn_anchor",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -121,7 +121,7 @@
                     },
                     {
                         "block": "ancient_debris",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -129,7 +129,7 @@
                     },
                     {
                         "block": "ender_chest",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -137,7 +137,7 @@
                     },
                     {
                         "block": "anvil",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -145,7 +145,7 @@
                     },
                     {
                         "block": "coal_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -153,7 +153,7 @@
                     },
                     {
                         "block": "diamond_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -161,7 +161,7 @@
                     },
                     {
                         "block": "emerald_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -169,7 +169,7 @@
                     },
                     {
                         "block": "redstone_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -177,7 +177,7 @@
                     },
                     {
                         "block": "enchanting_table",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -185,7 +185,7 @@
                     },
                     {
                         "block": "diamond_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -193,7 +193,7 @@
                     },
                     {
                         "block": "iron_trapdoor",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -201,7 +201,7 @@
                     },
                     {
                         "block": "mob_spawner",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -209,7 +209,7 @@
                     },
                     {
                         "block": "bell",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -217,7 +217,7 @@
                     },
                     {
                         "block": "dispenser",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -225,7 +225,7 @@
                     },
                     {
                         "block": "dropper",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -233,7 +233,7 @@
                     },
                     {
                         "block": "observer",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -241,7 +241,7 @@
                     },
                     {
                         "block": "furnace",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -249,7 +249,7 @@
                     },
                     {
                         "block": "lit_furnace",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -257,7 +257,7 @@
                     },
                     {
                         "block": "blast_furnace",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -265,7 +265,7 @@
                     },
                     {
                         "block": "smoker",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -273,7 +273,7 @@
                     },
                     {
                         "block": "stonecutter_block",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -281,7 +281,7 @@
                     },
                     {
                         "block": "lodestone",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -289,7 +289,7 @@
                     },
                     {
                         "block": "lantern",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -297,7 +297,7 @@
                     },
                     {
                         "block": "soul_lantern",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -305,7 +305,7 @@
                     },
                     {
                         "block": "conduit",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -313,7 +313,7 @@
                     },
                     {
                         "block": "hopper",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -321,7 +321,7 @@
                     },
                     {
                         "block": "hopper",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -329,7 +329,7 @@
                     },
                     {
                         "block": "bed",
-                        "speed": 4,
+                        "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
