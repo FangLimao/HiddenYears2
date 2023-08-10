@@ -35,7 +35,7 @@
                         "block": {
                             "tags": "query.any_tag('stone')"
                         },
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -43,7 +43,7 @@
                     },
                     {
                         "block": "sandstone",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -51,7 +51,7 @@
                     },
                     {
                         "block": "deepslate",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -59,7 +59,7 @@
                     },
                     {
                         "block": "chiseled_deepslate",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -67,7 +67,7 @@
                     },
                     {
                         "block": "polished_deepslate",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"

@@ -15,7 +15,7 @@
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
-                "max_durability": 600
+                "max_durability": 200
             },
             "minecraft:icon": {
                 "texture": "hy.copper_hammer"
@@ -35,7 +35,7 @@
                         "block": {
                             "tags": "query.any_tag('stone')"
                         },
-                        "speed": 6,
+                        "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -43,7 +43,7 @@
                     },
                     {
                         "block": "sandstone",
-                        "speed": 6,
+                        "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -51,7 +51,7 @@
                     },
                     {
                         "block": "deepslate",
-                        "speed": 6,
+                        "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -59,7 +59,7 @@
                     },
                     {
                         "block": "chiseled_deepslate",
-                        "speed": 6,
+                        "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -67,7 +67,7 @@
                     },
                     {
                         "block": "polished_deepslate",
-                        "speed": 6,
+                        "speed": 5,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
