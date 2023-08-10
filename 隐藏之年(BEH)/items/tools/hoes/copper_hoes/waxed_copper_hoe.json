@@ -12,9 +12,9 @@
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
-                "max_durability": 400
+                "max_durability": 200
             },
-            "minecraft:damage": 1,
+            "minecraft:damage": 3,
             "minecraft:enchantable": {
                 "value": 8,
                 "slot": "hoe"
@@ -70,7 +70,7 @@
                 "destroy_speeds": [
                     {
                         "block": "nether_wart_block",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -78,7 +78,7 @@
                     },
                     {
                         "block": "warped_wart_block",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -86,7 +86,7 @@
                     },
                     {
                         "block": "shroomlight",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -94,7 +94,7 @@
                     },
                     {
                         "block": "hay_block",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -102,7 +102,7 @@
                     },
                     {
                         "block": "target",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -110,7 +110,7 @@
                     },
                     {
                         "block": "dried_kelp_block",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -118,7 +118,7 @@
                     },
                     {
                         "block": "sponge",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -126,7 +126,7 @@
                     },
                     {
                         "block": "moss_block",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -134,7 +134,7 @@
                     },
                     {
                         "block": "leaves",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -142,7 +142,7 @@
                     },
                     {
                         "block": "leaves2",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -150,7 +150,7 @@
                     },
                     {
                         "block": "mangrove_leaves",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -158,7 +158,7 @@
                     },
                     {
                         "block": "azalea_leaves",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -166,7 +166,7 @@
                     },
                     {
                         "block": "azalea_leaves_flowered",
-                        "speed": 8,
+                        "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
