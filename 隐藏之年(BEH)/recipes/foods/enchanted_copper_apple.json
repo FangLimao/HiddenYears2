@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:enchanted_copper_apple"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX",
+            "XAX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "copper_block"
+            },
+            "A": {
+                "item": "apple"
+            }
+        },
+        "result": {
+            "item": "hy:enchanted_copper_apple"
+        }
+    }
+}
