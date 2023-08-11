@@ -1,10 +1,10 @@
 pack.name=隐藏之年
-pack.description=为你而来的附加包 ｜ 正式版1.9.2 [§l本包需要开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.mod.about=§c『隐藏之年』基岩版1.9.2，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=为你而来的附加包 ｜ 正式版1.10.0 [§l本包需要开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+hy.mod.about=§c『隐藏之年』基岩版1.10.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载正式版1.9.2
+hy.update.version=§l§b你已成功更新/加载正式版1.10.0
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新优化了钢锭的纹理
+hy.update.log=§l本次更新添加了铜苹果及附魔铜苹果
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
