@@ -1,20 +1,39 @@
 {
-	"format_version": "1.17.0",
-	"minecraft:item": {
-		"description": {
-			"identifier": "hy:copper_star",
-			"category": "items"
-		},
-		"components": {
-			"minecraft:display_name": {
-				"value": "hy.item.copper_star"
-			},
-			"minecraft:icon": {
-				"texture": "hy.copper_star"
-			},
-			"minecraft:creative_category": {
-				"parent": "items"
-			}
-		}
-	}
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:copper_star",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.copper_star"
+            },
+            "minecraft:icon": {
+                "texture": "hy.copper_star"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "hy.summon_lightning_bolt",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "hy.summon_lightning_bolt": {
+                "run_command": {
+                    "command": [
+                        "summon lightning_bolt ~1 ~ ~",
+                        "summon lightning_bolt ~-1 ~ ~",
+                        "summon lightning_bolt ~ ~ ~1",
+                        "summon lightning_bolt ~ ~ ~-1"
+                    ],
+                    "target": "self"
+                }
+            }
+        }
+    }
 }
