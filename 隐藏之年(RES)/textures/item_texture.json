@@ -928,6 +928,9 @@
         },
         "hy.oxidized_copper_dagger": {
             "textures": "textures/items/tools/weapons/daggers/copper_daggers/oxidized_copper_dagger"
+        },
+        "hy.copper_apple": {
+            "textures": "textures/items/foods/copper_apple"
         }
     }
 }
