@@ -293,9 +293,6 @@
         "hy.amethyst_knife": {
             "textures": "textures/items/tools/weapons/knifes/amethyst_knife"
         },
-        "hy.copper_knife": {
-            "textures": "textures/items/tools/weapons/knifes/copper_knife"
-        },
         "hy.iron_knife": {
             "textures": "textures/items/tools/weapons/knifes/iron_knife"
         },
@@ -342,7 +339,7 @@
             "textures": "textures/items/tools/weapons/daggers/amethyst_dagger"
         },
         "hy.copper_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/copper_dagger"
+            "textures": "textures/items/tools/weapons/daggers/copper_daggers/copper_dagger"
         },
         "hy.iron_dagger": {
             "textures": "textures/items/tools/weapons/daggers/iron_dagger"
@@ -910,6 +907,27 @@
         },
         "hy.raw_steel": {
             "textures": "textures/items/materials/raw_ores/raw_steel"
+        },
+        "hy.copper_knife": {
+            "textures": "textures/items/tools/weapons/knifes/copper_knifes/copper_knife"
+        },
+        "hy.exposed_copper_knife": {
+            "textures": "textures/items/tools/weapons/knifes/copper_knifes/exposed_copper_knife"
+        },
+        "hy.weathered_copper_knife": {
+            "textures": "textures/items/tools/weapons/knifes/copper_knifes/weathered_copper_knife"
+        },
+        "hy.oxidized_copper_knife": {
+            "textures": "textures/items/tools/weapons/knifes/copper_knifes/oxidized_copper_knife"
+        },
+        "hy.exposed_copper_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/copper_daggers/exposed_copper_dagger"
+        },
+        "hy.weathered_copper_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/copper_daggers/weathered_copper_dagger"
+        },
+        "hy.oxidized_copper_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/copper_daggers/oxidized_copper_dagger"
         }
     }
 }

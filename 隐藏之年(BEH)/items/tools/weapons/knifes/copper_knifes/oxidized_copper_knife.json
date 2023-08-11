@@ -2,21 +2,21 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:copper_knife",
+            "identifier": "hy:oxidized_copper_knife",
             "category": "equipment"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.copper_knife"
+                "value": "hy.item.oxidized_copper_knife"
             },
             "minecraft:can_destroy_in_creative": false,
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.sword"
             },
             "minecraft:durability": {
-                "max_durability": 1
+                "max_durability": 10
             },
-            "minecraft:damage": 10,
+            "minecraft:damage": 7,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "on_dig": {
@@ -136,7 +136,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy.copper_knife"
+                "texture": "hy.oxidized_copper_knife"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {
@@ -149,7 +149,7 @@
                     },
                     {
                         "items": [
-                            "hy:copper_knife"
+                            "hy:oxidized_copper_knife"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }
@@ -165,44 +165,18 @@
         },
         "events": {
             "hy.on_hurt_entity": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 1,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/items/oxidising/knifes/exposed_knife"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
-                    }
-                ]
+                "damage": {
+                    "type": "magic",
+                    "amount": 1,
+                    "target": "self"
+                }
             },
             "hy.on_break_block": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 2,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/items/oxidising/knifes/exposed_knife"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
-                    }
-                ]
+                "damage": {
+                    "type": "magic",
+                    "amount": 2,
+                    "target": "self"
+                }
             }
         }
     }

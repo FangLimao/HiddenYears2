@@ -33,6 +33,12 @@ hy.message.oxidising.oxidized_axe=你的铜斧§b『完全氧化』§r
 hy.message.oxidising.exposed_shovel=你的铜锹变得§b『斑驳』§r
 hy.message.oxidising.weathered_shovel=你的铜锹变得§b『锈蚀』§r
 hy.message.oxidising.oxidized_shovel=你的铜锹§b『完全氧化』§r
+hy.message.oxidising.exposed_knife=你的铜小刀变得§b『斑驳』§r
+hy.message.oxidising.weathered_knife=你的铜小刀变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_knife=你的铜小刀§b『完全氧化』§r
+hy.message.oxidising.exposed_dagger=你的铜匕首变得§b『斑驳』§r
+hy.message.oxidising.weathered_dagger=你的铜匕首变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_dagger=你的铜匕首§b『完全氧化』§r
 
 entity.hy:gemstone_trader.name=宝石商人
 item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
@@ -193,7 +199,6 @@ hy.item.iron_knife=铁小刀
 hy.item.netherite_knife=下界合金小刀
 hy.item.wooden_knife=木小刀
 hy.item.stone_knife=石小刀
-hy.item.copper_knife=铜小刀
 hy.item.amethyst_knife=紫水晶小刀
 
 hy.item.diamond_dagger=钻石匕首
@@ -202,7 +207,6 @@ hy.item.iron_dagger=铁匕首
 hy.item.netherite_dagger=下界合金匕首
 hy.item.wooden_dagger=木匕首
 hy.item.stone_dagger=石匕首
-hy.item.copper_dagger=铜匕首
 hy.item.amethyst_dagger=紫水晶匕首
 
 hy.item.gold_coin=金币
@@ -479,6 +483,17 @@ hy.item.steel_hammer_head=钢锤头
 hy.item.steel_awl=钢锥
 hy.item.steel_sword=钢剑
 hy.block.steel_block=钢块
+
+hy.item.copper_knife=铜小刀
+hy.item.exposed_copper_knife=斑驳的铜小刀
+hy.item.oxidized_copper_knife=氧化的铜小刀
+hy.item.weathered_copper_knife=锈蚀的铜小刀
+hy.item.waxed_copper_knife=涂蜡的铜小刀
+hy.item.copper_dagger=铜匕首
+hy.item.exposed_copper_dagger=斑驳的铜匕首
+hy.item.oxidized_copper_dagger=氧化的铜匕首
+hy.item.weathered_copper_dagger=锈蚀的铜匕首
+hy.item.waxed_copper_dagger=涂蜡的铜匕首
 
 hy.tips.copper_essence.introduction=『铜晶』的自述
 hy.tips.copper_essence.main=这是一种晶状体。可以用四个它合成『铜之星』
