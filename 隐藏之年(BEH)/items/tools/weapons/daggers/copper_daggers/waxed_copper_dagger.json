@@ -2,7 +2,7 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:copper_dagger",
+            "identifier": "hy:waxed_copper_dagger",
             "category": "equipment"
         },
         "components": {
@@ -14,7 +14,7 @@
                 "parent": "itemGroup.name.sword"
             },
             "minecraft:durability": {
-                "max_durability": 2
+                "max_durability": 30
             },
             "minecraft:damage": 12,
             "minecraft:digger": {
@@ -136,7 +136,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "hy.copper_dagger"
+                "texture": "hy.waxed_copper_dagger"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {
@@ -149,7 +149,7 @@
                     },
                     {
                         "items": [
-                            "hy:copper_dagger"
+                            "hy:waxed_copper_dagger"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }
@@ -165,44 +165,18 @@
         },
         "events": {
             "hy.on_hurt_entity": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 1,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/items/oxidising/daggers/exposed_dagger"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
-                    }
-                ]
+                "damage": {
+                    "type": "magic",
+                    "amount": 1,
+                    "target": "self"
+                }
             },
             "hy.on_break_block": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 2,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function mods/_HiddenYears/items/oxidising/daggers/exposed_dagger"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
-                    }
-                ]
+                "damage": {
+                    "type": "magic",
+                    "amount": 2,
+                    "target": "self"
+                }
             }
         }
     }
