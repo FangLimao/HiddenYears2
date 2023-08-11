@@ -145,11 +145,35 @@
                         "items": [
                             "copper_ingot"
                         ],
-                        "repair_amount": 50
+                        "repair_amount": 40
+                    },
+                    {
+                        "items": [
+                            "hy:copper_knife"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:waxed_copper_knife"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },
                     {
                         "items": [
                             "hy:exposed_copper_knife"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:weathered_copper_knife"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:oxidized_copper_knife"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }
