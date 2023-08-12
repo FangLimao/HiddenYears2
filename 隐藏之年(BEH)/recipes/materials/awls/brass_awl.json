@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:brass_awl"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "hy:brass_nugget"
+			}
+		},
+		"result": {
+			"item": "hy:brass_awl"
+		}
+	}
+}
