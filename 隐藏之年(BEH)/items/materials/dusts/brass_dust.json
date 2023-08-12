@@ -1,0 +1,20 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:brass_dust",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.brass_dust"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.brass_dust"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            }
+        }
+    }
+}
