@@ -931,6 +931,48 @@
         },
         "hy.copper_apple": {
             "textures": "textures/items/foods/copper_apple"
+        },
+         "hy.brass_ingot": {
+            "textures": "textures/items/materials/ingots/brass_ingot"
+        },
+        "hy.brass_dust": {
+            "textures": "textures/items/materials/dusts/brass_dust"
+        },
+        "hy.brass_nugget": {
+            "textures": "textures/items/materials/nuggets/brass_nugget"
+        },
+        "hy.brass_hammer": {
+            "textures": "textures/items/tools/hammers/brass_hammer"
+        },
+        "hy.brass_hoe": {
+            "textures": "textures/items/tools/hoes/brass_hoe"
+        },
+        "hy.brass_pickaxe": {
+            "textures": "textures/items/tools/pickaxes/brass_pickaxe"
+        },
+        "hy.brass_shovel": {
+            "textures": "textures/items/tools/shovels/brass_shovel"
+        },
+        "hy.brass_sword": {
+            "textures": "textures/items/tools/weapons/swords/brass_sword"
+        },
+        "hy.brass_dagger": {
+            "textures": "textures/items/tools/weapons/daggers/brass_dagger"
+        },
+        "hy.brass_knife": {
+            "textures": "textures/items/tools/weapons/knifes/brass_knife"
+        },
+        "hy.brass_hammer_head": {
+            "textures": "textures/items/tools/hammers/hammer_heads/brass_hammer_head"
+        },
+        "hy.brass_axe": {
+            "textures": "textures/items/tools/axes/brass_axe"
+        },
+        "hy.brass_awl": {
+            "textures": "textures/items/materials/awls/brass_awl"
+        },
+        "hy.raw_brass_ingot": {
+            "textures": "textures/items/materials/ingots/raw_brass_ingot"
         }
     }
 }
