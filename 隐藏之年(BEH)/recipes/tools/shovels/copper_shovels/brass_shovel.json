@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:brass_shovel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "stick"
+            },
+            "X": {
+                "item": "hy:brass_ingot"
+            }
+        },
+        "result": {
+            "item": "hy:brass_shovel"
+        }
+    }
+}
