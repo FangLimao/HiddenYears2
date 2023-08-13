@@ -13,7 +13,7 @@
 				"texture": "hy.coal_template"
 			},
 			"minecraft:creative_category": {
-				"parent": "items"
+				"parent": "itemGroup.name.smithing_templates"
 			}
 		}
 	}
