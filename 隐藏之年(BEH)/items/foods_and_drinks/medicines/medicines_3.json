@@ -34,7 +34,7 @@
                 "run_command": {
                     "target": "self",
                     "command": [
-                        "function medicines/3"
+                        "function gameplay/items/medicines/3"
                     ]
                 }
             }

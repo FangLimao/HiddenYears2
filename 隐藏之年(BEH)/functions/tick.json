@@ -1,6 +1,6 @@
 {
     "values": [
-        "core/close_command_feedback",
-        "core/update_information"
+        "api/close_feedback/v1.0/on_first_load",
+        "api/upgrade_information/v1.1/base"
     ]
 }

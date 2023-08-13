@@ -2,15 +2,15 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:medicine_7",
+            "identifier": "hy:medicine_12",
             "category": "equipment"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "hy.medicines.default"
+                "texture": "hy.medicines.eye"
             },
             "minecraft:display_name": {
-                "value": "hy.item.medicines.7"
+                "value": "hy.item.medicines.12"
             },
             "minecraft:creative_category": {
                 "category": "equipment"
@@ -34,7 +34,7 @@
                 "run_command": {
                     "target": "self",
                     "command": [
-                        "function medicines/7"
+                        "function gameplay/items/medicines/12"
                     ]
                 }
             }

@@ -2,15 +2,15 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:medicine_10",
+            "identifier": "hy:medicine_4",
             "category": "equipment"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "hy.medicines.newlife"
+                "texture": "hy.medicines.poison"
             },
             "minecraft:display_name": {
-                "value": "hy.item.medicines.10"
+                "value": "hy.item.medicines.4"
             },
             "minecraft:creative_category": {
                 "category": "equipment"
@@ -34,7 +34,7 @@
                 "run_command": {
                     "target": "self",
                     "command": [
-                        "function medicines/10"
+                        "function gameplay/items/medicines/4"
                     ]
                 }
             }

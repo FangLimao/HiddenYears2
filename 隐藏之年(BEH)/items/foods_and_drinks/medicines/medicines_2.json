@@ -2,15 +2,15 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:medicine_5",
+            "identifier": "hy:medicine_2",
             "category": "equipment"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "hy.medicines.poison"
+                "texture": "hy.medicines.nausea"
             },
             "minecraft:display_name": {
-                "value": "hy.item.medicines.5"
+                "value": "hy.item.medicines.2"
             },
             "minecraft:creative_category": {
                 "category": "equipment"
@@ -27,14 +27,14 @@
                     "target": "self"
                 }
             },
-            "tag:hy:medicine_poison":{}
+            "tag:hy:medicine_poison": {}
         },
         "events": {
             "hy.on_drink": {
                 "run_command": {
                     "target": "self",
                     "command": [
-                        "function medicines/5"
+                        "function gameplay/items/medicines/2"
                     ]
                 }
             }

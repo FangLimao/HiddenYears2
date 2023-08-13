@@ -44,7 +44,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function medicines/medicine_pack"
+                                "function gameplay/items/medicines/medicine_pack"
                             ]
                         }
                     }

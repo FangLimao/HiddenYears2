@@ -45,7 +45,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function medicines/bandage"
+                                "function gameplay/items/medicines/bandage"
                             ]
                         }
                     }

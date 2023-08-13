@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:medicine_8",
+            "identifier": "hy:medicine_6",
             "category": "equipment"
         },
         "components": {
@@ -10,7 +10,7 @@
                 "texture": "hy.medicines.default"
             },
             "minecraft:display_name": {
-                "value": "hy.item.medicines.8"
+                "value": "hy.item.medicines.6"
             },
             "minecraft:creative_category": {
                 "category": "equipment"
@@ -34,7 +34,7 @@
                 "run_command": {
                     "target": "self",
                     "command": [
-                        "function medicines/8"
+                        "function gameplay/items/medicines/6"
                     ]
                 }
             }
