@@ -236,7 +236,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/hoes/oxidized_hoe"
+                                "function gameplay/items/item_oxidising/hoes/oxidized_hoe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -264,7 +264,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/hoes/oxidized_hoe"
+                                "function gameplay/items/item_oxidising/hoes/oxidized_hoe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
