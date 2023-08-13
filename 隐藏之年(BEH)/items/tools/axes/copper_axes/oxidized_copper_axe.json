@@ -247,7 +247,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv3a"
+                                "function api/tetanus.effect/v1.0/radius4/lv3"
                             ]
                         }
                     },
