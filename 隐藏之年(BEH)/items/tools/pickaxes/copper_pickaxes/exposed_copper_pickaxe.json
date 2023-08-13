@@ -367,7 +367,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/pickaxes/weathered_pickaxe"
+                                "function gameplay/items/item_oxidising/pickaxes/weathered_pickaxe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -387,7 +387,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/pickaxes/weathered_pickaxe"
+                                "function gameplay/items/item_oxidising/pickaxes/weathered_pickaxe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
