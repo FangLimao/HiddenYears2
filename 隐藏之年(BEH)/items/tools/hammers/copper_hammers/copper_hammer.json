@@ -90,7 +90,7 @@
                     {
                         "run_command": {
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/hammers/exposed_hammer"
+                                "function gameplay/items/item_oxidising/hammers/exposed_hammer"
                             ],
                             "target": "self"
                         },
@@ -110,7 +110,7 @@
                     {
                         "run_command": {
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/hammers/exposed_hammer"
+                                "function gameplay/items/item_oxidising/hammers/exposed_hammer"
                             ],
                             "target": "self"
                         },
