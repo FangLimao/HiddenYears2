@@ -254,7 +254,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/axes/exposed_axe"
+                                "function gameplay/items/item_oxidising/axes/exposed_axe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -274,7 +274,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/axes/exposed_axe"
+                                "function gameplay/items/item_oxidising/axes/exposed_axe"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
