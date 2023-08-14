@@ -24,7 +24,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:iron_axe"
+                            "hy:imitation_iron_axe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },

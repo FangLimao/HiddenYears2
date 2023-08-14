@@ -24,13 +24,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:imitation_diamond_ingot"
+                            "hy:imitation_diamond"
                         ],
                         "repair_amount": 5
                     },
                     {
                         "items": [
-                            "hy:diamond_shovel"
+                            "hy:imitation_diamond_shovel"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }

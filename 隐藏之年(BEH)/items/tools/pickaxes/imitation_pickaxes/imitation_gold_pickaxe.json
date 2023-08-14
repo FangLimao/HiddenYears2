@@ -24,7 +24,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:gold_pickaxe"
+                            "hy:imitation_gold_pickaxe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },

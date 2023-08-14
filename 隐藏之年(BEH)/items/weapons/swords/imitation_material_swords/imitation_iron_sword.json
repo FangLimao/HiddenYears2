@@ -157,7 +157,7 @@
                     },
                     {
                         "items": [
-                            "hy:iron_sword"
+                            "hy:imitation_iron_sword"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }

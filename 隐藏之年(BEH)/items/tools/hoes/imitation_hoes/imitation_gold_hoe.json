@@ -23,7 +23,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:gold_hoe"
+                            "hy:imitation_gold_hoe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },

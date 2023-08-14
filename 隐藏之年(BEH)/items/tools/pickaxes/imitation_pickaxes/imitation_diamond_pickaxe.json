@@ -24,13 +24,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:diamond_pickaxe"
+                            "hy:imitation_diamond_pickaxe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },
                     {
                         "items": [
-                            "hy:imitation_diamond_ingot"
+                            "hy:imitation_diamond"
                         ],
                         "repair_amount": 5
                     }

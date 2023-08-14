@@ -59,10 +59,12 @@
 #### 文件命名规范
 - 物品、方块、实体的行为文件使用其ID命名
 - 文件名不可以包含作者名称等附加信息
+- 不可以过长
 
 好的命名示例：`copper_ingot`、`brass_pickaxe`
 
-不好的命名示例：`oldb_lv2_stone`
+不好的命名示例：`oldb:lv2stone`、`oooollllllddddddddbbbbbbbbbbbbbbbbbbb:fang_limao`、`zheshiid:shitougongyi`、`kkkkkkkkkaaaaaaaaaaaaasssssssssssstttttttttttnnnnnnnnnnnaaaaaaaaaammmmmmmmmeeeeeeeeeee!!!!!!!!!!!!`
+
 
 ### 打包方式
 为避免在UWP平台上可能的导入失败，应遵循以下打包方式：
