@@ -75,7 +75,7 @@
                     }
                 ]
             },
-            "tag:rainy:netherite_hammer": {}
+            "tag:hy:is_hammer": {}
         },
         "events": {
             "hy.on_break_block": {

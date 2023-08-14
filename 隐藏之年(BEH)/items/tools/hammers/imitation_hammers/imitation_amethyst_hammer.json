@@ -79,7 +79,7 @@
                     }
                 ]
             },
-            "tag:rainy:amethyst_hammer": {}
+            "tag:hy:is_hammer": {}
         },
         "events": {
             "hy.on_break_block": {

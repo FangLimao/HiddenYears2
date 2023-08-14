@@ -164,8 +164,14 @@ minecraft:is_shovel
 minecraft:is_hoe
 ```
 
+- 锤
+  - 保留标签
+```
+hy:is_hammer
+```
+
 - `impart`
-	- 暂无作用
+	- 保留标签
 ```
 hy:is_impart
 ```

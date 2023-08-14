@@ -75,7 +75,7 @@
                     }
                 ]
             },
-            "tag:rainy:blackstone_metal_hammer": {}
+            "tag:hy:is_hammer": {}
         },
         "events": {
             "hy.on_break_block": {
