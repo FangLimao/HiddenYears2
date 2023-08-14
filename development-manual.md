@@ -195,6 +195,12 @@ hy:is_impart
 metal
 ```
 
+- 岩金石
+  - 用于挖掘
+```
+stone
+```
+
 ## 玩家标签
 ```
 hy.temp.tetanus_attacker
