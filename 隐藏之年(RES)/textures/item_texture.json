@@ -45,7 +45,7 @@
             "textures": "textures/items/tools/pickaxes/copper_pickaxes/oxidized_copper_pickaxe"
         },
         "hy.copper_essence": {
-            "textures": "textures/items/essences/copper_essence"
+            "textures": "textures/items/treasures/essences/copper_essence"
         },
         "hy.copper_star": {
             "textures": "textures/items/treasures/stars/copper_star"

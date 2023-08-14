@@ -86,22 +86,22 @@
             "textures": "textures/blocks/ingot_blocks/bronze_block"
         },
         "hy.lab_table.top": {
-            "textures": "textures/blocks/lab_blocks/lab_tables/lab_table_top"
+            "textures": "textures/blocks/machines/lab_tables/lab_table_top"
         },
         "hy.lab_table.front": {
-            "textures": "textures/blocks/lab_blocks/lab_tables/lab_table_front"
+            "textures": "textures/blocks/machines/lab_tables/lab_table_front"
         },
         "hy.lab_table.side_1": {
-            "textures": "textures/blocks/lab_blocks/lab_tables/lab_table_side_a"
+            "textures": "textures/blocks/machines/lab_tables/lab_table_side_a"
         },
         "hy.lab_table.side_2": {
-            "textures": "textures/blocks/lab_blocks/lab_tables/lab_table_side_b"
+            "textures": "textures/blocks/machines/lab_tables/lab_table_side_b"
         },
         "hy.lab_table.side_3": {
-            "textures": "textures/blocks/lab_blocks/lab_tables/lab_table_side_c"
+            "textures": "textures/blocks/machines/lab_tables/lab_table_side_c"
         },
         "hy.lab_table.bottom": {
-            "textures": "textures/blocks/lab_blocks/lab_tables/lab_table_bottom"
+            "textures": "textures/blocks/machines/lab_tables/lab_table_bottom"
         }
     }
 }
