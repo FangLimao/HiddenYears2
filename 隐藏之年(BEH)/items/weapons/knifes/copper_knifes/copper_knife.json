@@ -201,7 +201,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/knifes/exposed_knife"
+                                "function gameplay/items/item_oxidising/knifes/exposed_knife"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -221,7 +221,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/knifes/exposed_knife"
+                                "function gameplay/items/item_oxidising/knifes/exposed_knife"
                             ]
                         },
                         "condition": "query.remaining_durability==0"

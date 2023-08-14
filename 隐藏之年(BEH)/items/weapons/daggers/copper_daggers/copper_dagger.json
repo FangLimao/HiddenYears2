@@ -201,7 +201,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/daggers/exposed_dagger"
+                                "function gameplay/items/item_oxidising/daggers/exposed_dagger"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -221,7 +221,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/daggers/exposed_dagger"
+                                "function gameplay/items/item_oxidising/daggers/exposed_dagger"
                             ]
                         },
                         "condition": "query.remaining_durability==0"

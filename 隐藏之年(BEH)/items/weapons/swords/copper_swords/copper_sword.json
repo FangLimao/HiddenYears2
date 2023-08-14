@@ -210,7 +210,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/swords/exposed_sword"
+                                "function gameplay/items/item_oxidising/swords/exposed_sword"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -230,7 +230,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/swords/exposed_sword"
+                                "function gameplay/items/item_oxidising/swords/exposed_sword"
                             ]
                         },
                         "condition": "query.remaining_durability==0"

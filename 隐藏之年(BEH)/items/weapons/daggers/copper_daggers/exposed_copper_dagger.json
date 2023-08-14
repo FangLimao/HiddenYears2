@@ -201,7 +201,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv1a"
+                                "function api/tetanus.effect/v1.0/radius4/lv1"
                             ]
                         }
                     },
@@ -209,7 +209,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/daggers/weathered_dagger"
+                                "function gameplay/items/item_oxidising/daggers/weathered_dagger"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -229,7 +229,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/daggers/weathered_dagger"
+                                "function gameplay/items/item_oxidising/daggers/weathered_dagger"
                             ]
                         },
                         "condition": "query.remaining_durability==0"

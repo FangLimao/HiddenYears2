@@ -119,7 +119,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/shovels/oxidized_shovel"
+                                "function gameplay/items/item_oxidising/shovels/oxidized_shovel"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
@@ -132,7 +132,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/effects/tetanus/tetanus_lv2a"
+                                "function api/tetanus.effect/v1.0/radius4/lv2"
                             ]
                         }
                     },
@@ -147,7 +147,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function mods/_HiddenYears/items/oxidising/shovels/oxidized_shovel"
+                                "function gameplay/items/item_oxidising/shovels/oxidized_shovel"
                             ]
                         },
                         "condition": "query.remaining_durability==0"
