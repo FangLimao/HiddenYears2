@@ -2,41 +2,41 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:imitation_amethyst_hoe",
+            "identifier": "hy:imitation_iron_hoe",
             "category": "equipment"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.imitation_amethyst_hoe"
+                "value": "hy.item.imitation_iron_hoe"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
-                "max_durability": 150
+                "max_durability": 250
             },
-            "minecraft:damage": 1,
+            "minecraft:damage": 4,
             "minecraft:enchantable": {
-                "value": 57257,
+                "value": 4,
                 "slot": "hoe"
             },
             "minecraft:repairable": {
                 "repair_items": [
                     {
                         "items": [
-                            "hy:amethyst_hoe"
+                            "hy:iron_hoe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     },
                     {
                         "items": [
-                            "hy:imitation_amethyst_ingot"
+                            "hy:imitation_iron_ingot"
                         ],
                         "repair_amount": 5
                     }
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy.amethyst_hoe"
+                "texture": "iron_hoe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.hoe"
@@ -202,7 +202,7 @@
             "hy.on_break_block": {
                 "randomize": [
                     {
-                        "weight": 25,
+                        "weight": 2,
                         "damage": {
                             "amount": 1,
                             "target": "self",
@@ -210,11 +210,37 @@
                         }
                     },
                     {
-                        "weight": 1,
+                        "weight": 5,
                         "damage": {
-                            "amount": 5,
+                            "amount": 10,
                             "type": "magic",
                             "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 10,
+                        "damage": {
+                            "amount": 15,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 3,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/1"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 2,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/2"
+                            ]
                         }
                     }
                 ]
@@ -222,19 +248,45 @@
             "hy.on_hurt_entity": {
                 "randomize": [
                     {
-                        "weight": 25,
+                        "weight": 2,
                         "damage": {
-                            "amount": 2,
+                            "amount": 1,
                             "target": "self",
                             "type": "magic"
                         }
                     },
                     {
-                        "weight": 1,
+                        "weight": 5,
                         "damage": {
                             "amount": 10,
                             "type": "magic",
                             "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 10,
+                        "damage": {
+                            "amount": 15,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 3,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/1"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 2,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/2"
+                            ]
                         }
                     }
                 ]
