@@ -29,7 +29,7 @@
                 "flame_odds": 50,
                 "burn_odds": 0
             },
-            "tag:minecraft:stone_pick_diggable": {}
+            "tag:metal": {}
         },
         "events": {}
     }
