@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:imitation_iron_ingot_from_gray_dye"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "gray_dye"
+            },
+            "&": {
+                "item": "copper_ingot"
+            }
+        },
+        "pattern": [
+            "###",
+            "#&#",
+            "###"
+        ],
+        "result": {
+            "item": "hy:imitation_iron_ingot",
+            "count": 8
+        }
+    }
+}
