@@ -213,7 +213,7 @@
             "hy.on_break_block": {
                 "randomize": [
                     {
-                        "weight": 25,
+                        "weight": 2,
                         "damage": {
                             "amount": 1,
                             "target": "self",
@@ -221,9 +221,17 @@
                         }
                     },
                     {
-                        "weight": 1,
+                        "weight": 5,
                         "damage": {
-                            "amount": 5,
+                            "amount": 10,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 10,
+                        "damage": {
+                            "amount": 15,
                             "type": "magic",
                             "target": "self"
                         }
