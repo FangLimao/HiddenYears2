@@ -9,7 +9,6 @@
             }
         },
         "components": {
-            "minecraft:loot": "loot_tables/blocks/bronze_block.json",
             "minecraft:display_name": "hy.block.bronze_block",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 2.0
@@ -26,7 +25,11 @@
             "tag:metal": {}
         },
         "events": {
-            "hy.spawn_loot": {}
+            "hy.spawn_loot": {
+                "spawn_loot": {
+                    "table": "loot_tables/blocks/metal_blocks/bronze_block.json"
+                }
+            }
         }
     }
 }
