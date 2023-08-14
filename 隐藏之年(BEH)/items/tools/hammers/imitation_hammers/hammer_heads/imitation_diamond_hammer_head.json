@@ -1,0 +1,20 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:imitation_diamond_hammer_head",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.diamond_hammer_head"
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.imitation_diamond_hammer_head"
+            }
+        }
+    }
+}
