@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:deepslate_metal_axe_another_side"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " XX",
+            " #X",
+            " #"
+        ],
+        "key": {
+            "#": {
+                "item": "stick"
+            },
+            "X": {
+                "item": "hy:deepslate_metal_ingot"
+            }
+        },
+        "result": {
+            "item": "hy:deepslate_metal_axe"
+        }
+    }
+}
