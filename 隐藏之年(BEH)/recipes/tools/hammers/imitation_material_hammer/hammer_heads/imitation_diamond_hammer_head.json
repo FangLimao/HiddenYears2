@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:imitation_diamond_hammer_head"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "hy:imitation_diamond_ingot"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            " # "
+        ],
+        "result": {
+            "item": "hy:imitation_diamond_hammer_head"
+        }
+    }
+}
