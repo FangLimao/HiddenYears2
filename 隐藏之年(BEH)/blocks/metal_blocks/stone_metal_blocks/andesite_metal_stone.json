@@ -12,21 +12,17 @@
             "minecraft:creative_category": {
                 "category": "nature"
             },
-            "minecraft:loot": "loot_tables/blocks/stone_metal_blocks/andesite.json",
             "minecraft:on_player_destroyed": {
-                "event": "hy.pick_up_xp",
-                "target": "self"
+                "event": "hy.spawn_loot",
+                "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
             },
             "tag:minecraft:stone_pick_diggable": {},
             "tag:stone": {}
         },
         "events": {
-            "hy.pick_up_xp": {
-                "run_command": {
-                    "command": [
-                        "function core/default_ore_xp"
-                    ],
-                    "target": "self"
+            "hy.spawn_loot": {
+                "spawn_loot": {
+                    "table": "loot_tables/blocks/metal_blocks/stone_metal_blocks/andesite.json"
                 }
             }
         }
