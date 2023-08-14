@@ -1,0 +1,419 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "category": "equipment",
+            "identifier": "hy:imitation_gold_pickaxe"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.imitation_gold_pickaxe"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.pickaxe"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:durability": {
+                "max_durability": 32
+            },
+            "minecraft:icon": {
+                "texture": "golden_pickaxe"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "hy:gold_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:imitation_gold_ingot"
+                        ],
+                        "repair_amount": 5
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 1,
+            "minecraft:enchantable": {
+                "value": 4,
+                "slot": "pickaxe"
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')"
+                        },
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "ice",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "sandstone",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "netherite_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "crying_obsidian",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "respawn_anchor",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "ancient_debris",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "ender_chest",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "anvil",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "coal_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "diamond_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "emerald_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "redstone_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "enchanting_table",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "diamond_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "iron_trapdoor",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "mob_spawner",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bell",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "dispenser",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "dropper",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "observer",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "furnace",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lit_furnace",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "blast_furnace",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "smoker",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "stonecutter_block",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lodestone",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lantern",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "soul_lantern",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "conduit",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "hopper",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "hopper",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bed",
+                        "speed": 8,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hy.on_hurt_entity",
+                    "target": "self"
+                }
+            },
+            "tag:minecraft:is_pickaxe": {}
+        },
+        "events": {
+            "hy.on_break_block": {
+                "randomize": [
+                    {
+                        "weight": 2,
+                        "damage": {
+                            "amount": 1,
+                            "target": "self",
+                            "type": "magic"
+                        }
+                    },
+                    {
+                        "weight": 5,
+                        "damage": {
+                            "amount": 10,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 10,
+                        "damage": {
+                            "amount": 15,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 3,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/1"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 2,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/2"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "hy.on_hurt_entity": {
+                "randomize": [
+                    {
+                        "weight": 2,
+                        "damage": {
+                            "amount": 1,
+                            "target": "self",
+                            "type": "magic"
+                        }
+                    },
+                    {
+                        "weight": 5,
+                        "damage": {
+                            "amount": 10,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 10,
+                        "damage": {
+                            "amount": 15,
+                            "type": "magic",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "weight": 3,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/1"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 2,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/imitation_damage/2"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
