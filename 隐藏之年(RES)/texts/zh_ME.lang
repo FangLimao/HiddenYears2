@@ -1,10 +1,10 @@
 pack.name=隐藏之年
-pack.description=为你而来的附加包 ｜ 热修复1.10.3 [§l本包需要开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.mod.about=§c『隐藏之年』基岩版1.10.3，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=为你而来的附加包 ｜ 正式版1.11.0 | 函框架0.1.0 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+hy.mod.about=§c『隐藏之年』基岩版1.11.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载热修复1.10.3
+hy.update.version=§l§b你已成功更新/加载热修复1.11.0
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新修复了一些漏洞
+hy.update.log=§l本次更新加入了『仿制材料』，并进行了技术更新，开放了一些函数
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -33,14 +33,20 @@ hy.message.oxidising.oxidized_axe=你的铜斧§b『完全氧化』§r
 hy.message.oxidising.exposed_shovel=你的铜锹变得§b『斑驳』§r
 hy.message.oxidising.weathered_shovel=你的铜锹变得§b『锈蚀』§r
 hy.message.oxidising.oxidized_shovel=你的铜锹§b『完全氧化』§r
+hy.message.oxidising.exposed_knife=你的铜小刀变得§b『斑驳』§r
+hy.message.oxidising.weathered_knife=你的铜小刀变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_knife=你的铜小刀§b『完全氧化』§r
+hy.message.oxidising.exposed_dagger=你的铜匕首变得§b『斑驳』§r
+hy.message.oxidising.weathered_dagger=你的铜匕首变得§b『锈蚀』§r
+hy.message.oxidising.oxidized_dagger=你的铜匕首§b『完全氧化』§r
 
 entity.hy:gemstone_trader.name=宝石商人
 item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
 
 hy.item.wooden_handle=木柄
 
-tile.hy.block.copper_essence_ore.name=铜髓矿石
-tile.hy.block.deepslate_copper_essence_ore.name=深层铜髓矿石
+hy.block.copper_essence_ore=铜髓矿石
+hy.block.deepslate_copper_essence_ore=深层铜髓矿石
 hy.item.copper_hammer_head=铜锤头
 hy.item.copper_stick=铜棍
 hy.item.copper_essence=铜髓
@@ -76,8 +82,8 @@ hy.item.oxidized_copper_shovel=氧化的铜锹
 hy.item.weathered_copper_shovel=锈蚀的铜锹
 hy.item.waxed_copper_shovel=涂蜡的铜锹
 
-tile.hy.block.amethyst_essence_ore.name=紫水晶矿石
-tile.hy.block.deepslate_amethyst_essence_ore.name=深层紫水晶矿石
+hy.block.amethyst_essence_ore=紫水晶矿石
+hy.block.deepslate_amethyst_essence_ore=深层紫水晶矿石
 hy.item.amethyst_ingot=紫水晶锭
 hy.item.amethyst_axe=紫水晶斧
 hy.item.amethyst_hammer=紫水晶锤
@@ -86,16 +92,6 @@ hy.item.amethyst_pickaxe=紫水晶镐
 hy.item.amethyst_shovel=紫水晶锹
 hy.item.amethyst_sword=紫水晶剑
 hy.item.amethyst_hammer_head=紫水晶锤头
-
-hy.item.imitation_amethyst_axe=仿制紫水晶斧
-hy.item.imitation_amethyst_ingot=仿制紫水晶锭
-hy.item.imitation_amethyst_axe=仿制紫水晶斧
-hy.item.imitation_amethyst_hammer=仿制紫水晶锤
-hy.item.imitation_amethyst_hoe=仿制紫水晶锄
-hy.item.imitation_amethyst_pickaxe=仿制紫水晶镐
-hy.item.imitation_amethyst_shovel=仿制紫水晶锹
-hy.item.imitation_amethyst_sword=仿制紫水晶剑
-hy.item.imitation_amethyst_hammer_head=仿制紫水晶锤头
 
 hy.item.amethyst_nugget=紫水晶粒
 hy.item.coal_nugget=煤粒
@@ -152,7 +148,7 @@ hy.item.sharp_wooden_hammer=打磨的木锤
 hy.item.sharp_stone_hammer=打磨的石锤
 
 hy.item.amethyst_coal=紫水晶煤炭
-hy.item.amethyst_coal=铜煤炭
+hy.item.copper_coal=铜煤炭
 hy.item.iron_coal=铁煤炭
 hy.item.gold_coal=金煤炭
 hy.item.emerald_coal=绿宝石煤炭
@@ -193,7 +189,6 @@ hy.item.iron_knife=铁小刀
 hy.item.netherite_knife=下界合金小刀
 hy.item.wooden_knife=木小刀
 hy.item.stone_knife=石小刀
-hy.item.copper_knife=铜小刀
 hy.item.amethyst_knife=紫水晶小刀
 
 hy.item.diamond_dagger=钻石匕首
@@ -202,7 +197,6 @@ hy.item.iron_dagger=铁匕首
 hy.item.netherite_dagger=下界合金匕首
 hy.item.wooden_dagger=木匕首
 hy.item.stone_dagger=石匕首
-hy.item.copper_dagger=铜匕首
 hy.item.amethyst_dagger=紫水晶匕首
 
 hy.item.gold_coin=金币
@@ -211,8 +205,8 @@ hy.item.stack_of_gold_coin=金币组
 hy.item.stack_of_diamond_coin=钻石币组
 hy.item.stack_of_copper_coin=铜币组
 
-tile.hy.block.fuel_metal_ore.name=燃金矿石
-tile.hy.block.deepslate_fuel_metal_ore.name=深层燃金矿石
+hy.block.fuel_metal_ore=燃金矿石
+hy.block.deepslate_fuel_metal_ore=深层燃金矿石
 hy.item.amethyst_fuel_metal=晶化燃金
 hy.item.copper_fuel_metal=铜质燃金
 hy.item.iron_fuel_metal=铁质燃金
@@ -369,18 +363,18 @@ hy.item.granite_metal_hammer_head=花岗岩金锤头
 hy.item.netherrack_metal_hammer_head=下界岩金锤头
 hy.item.tuff_metal_hammer_head=凝灰岩金锤头
 
-tile.hy.block.andesite_metal_stone.name=安山岩金石
-tile.hy.block.diorite_metal_stone.name=闪长岩金石
-tile.hy.block.granite_metal_stone.name=花岗岩金石
+hy.block.andesite_metal_stone=安山岩金石
+hy.block.diorite_metal_stone=闪长岩金石
+hy.block.granite_metal_stone=花岗岩金石
 
-tile.hy.block.shallow_coal_ore.name=浅层煤矿石
-tile.hy.block.shallow_copper_ore.name=浅层铜矿石
-tile.hy.block.shallow_diamond_ore.name=浅层钻石矿石
-tile.hy.block.shallow_emerald_ore.name=浅层绿宝石矿石
-tile.hy.block.shallow_iron_ore.name=浅层铁矿石
-tile.hy.block.shallow_lapis_ore.name=浅层青金石矿石
-tile.hy.block.shallow_redstone_ore.name=浅层红石矿石
-tile.hy.block.shallow_gold_ore.name=浅层金矿石
+hy.block.shallow_coal_ore=浅层煤矿石
+hy.block.shallow_copper_ore=浅层铜矿石
+hy.block.shallow_diamond_ore=浅层钻石矿石
+hy.block.shallow_emerald_ore=浅层绿宝石矿石
+hy.block.shallow_iron_ore=浅层铁矿石
+hy.block.shallow_lapis_ore=浅层青金石矿石
+hy.block.shallow_redstone_ore=浅层红石矿石
+hy.block.shallow_gold_ore=浅层金矿石
 
 tile.hy.block.deep_coal_ore.name=深层煤矿石
 tile.hy.block.deep_copper_ore.name=深层铜矿石
@@ -446,19 +440,39 @@ hy.item.bronze_sword=青铜剑
 hy.block.bronze_block=青铜块
 
 hy.block.lab_table=实验台
-hy.medicines.1=眼药水
-hy.medicines.2=胃药
-hy.medicines.3=驱邪药
-hy.medicines.4=驱毒药
-hy.medicines.5=驱魔药
-hy.medicines.6=灵药
-hy.medicines.7=枸橼酸铁铵溶液
-hy.medicines.8=村庄探索者溶液
-hy.medicines.9=海底探索者溶液
-hy.medicines.10=新生者溶液
-hy.medicines.11=兴奋剂
+hy.item.medicines.1=眼药水
+hy.item.medicines.2=胃药
+hy.item.medicines.3=驱邪药
+hy.item.medicines.4=驱毒药
+hy.item.medicines.5=驱魔药
+hy.item.medicines.6=灵药
+hy.item.medicines.7=枸橼酸铁铵溶液
+hy.item.medicines.8=村庄探索者溶液
+hy.item.medicines.9=海底探索者溶液
+hy.item.medicines.10=新生者溶液
+hy.item.medicines.11=兴奋剂
+hy.item.medicines.12=致盲眼药水
 hy.item.medicines.medicine_pack=医药包
 hy.item.medicines.bandage=绷带
+
+hy.item.steel_ingot=钢锭
+hy.item.steel_nugget=钢粒
+hy.item.steel_dust=钢粉
+hy.item.steel_helmet=钢头盔
+hy.item.steel_chestplate=钢胸甲
+hy.item.steel_leggings=钢护腿
+hy.item.steel_boots=钢靴子
+hy.item.steel_axe=钢斧
+hy.item.steel_hammer=钢锤
+hy.item.steel_hoe=钢锄
+hy.item.steel_pickaxe=钢镐
+hy.item.steel_shovel=钢锹
+hy.item.steel_dagger=钢匕首
+hy.item.steel_knife=钢小刀
+hy.item.steel_hammer_head=钢锤头
+hy.item.steel_awl=钢锥
+hy.item.steel_sword=钢剑
+hy.block.steel_block=钢块
 
 hy.item.copper_knife=铜小刀
 hy.item.exposed_copper_knife=斑驳的铜小刀
@@ -514,7 +528,7 @@ hy.item.imitation_gold_sword=仿制金剑
 hy.item.imitation_gold_hammer_head=仿制金锤头
 
 hy.item.imitation_diamond_axe=仿制钻石斧
-hy.item.imitation_diamond_ingot=仿制钻石锭
+hy.item.imitation_diamond=仿制钻石
 hy.item.imitation_diamond_axe=仿制钻石斧
 hy.item.imitation_diamond_hammer=仿制钻石锤
 hy.item.imitation_diamond_hoe=仿制钻石锄
