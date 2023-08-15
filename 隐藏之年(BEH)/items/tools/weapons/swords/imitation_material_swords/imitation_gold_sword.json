@@ -144,7 +144,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "golden_sword"
+                "texture": "mc.gold_sword"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

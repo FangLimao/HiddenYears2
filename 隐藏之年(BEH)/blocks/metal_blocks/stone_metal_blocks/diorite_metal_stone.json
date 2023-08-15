@@ -9,6 +9,7 @@
             }
         },
         "components": {
+            "minecraft:loot": "loot_tables/empty.json",
             "minecraft:display_name": "hy.block.diorite_metal_stone",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.8

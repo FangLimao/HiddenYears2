@@ -68,7 +68,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "iron_shovel"
+                "texture": "mc.iron_shovel"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.shovel"

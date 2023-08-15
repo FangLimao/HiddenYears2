@@ -18,7 +18,7 @@
                 "max_durability": 1561
             },
             "minecraft:icon": {
-                "texture": "diamond_pickaxe"
+                "texture": "mc.diamond_pickaxe"
             },
             "minecraft:repairable": {
                 "repair_items": [

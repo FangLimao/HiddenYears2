@@ -196,7 +196,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "diamond_axe"
+                "texture": "mc.diamond_axe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.axe"

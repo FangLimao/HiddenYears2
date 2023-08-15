@@ -10,6 +10,7 @@
             }
         },
         "components": {
+            "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "hy.fuel_metal_ore",

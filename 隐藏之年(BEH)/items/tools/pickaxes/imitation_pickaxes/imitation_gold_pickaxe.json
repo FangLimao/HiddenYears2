@@ -18,7 +18,7 @@
                 "max_durability": 32
             },
             "minecraft:icon": {
-                "texture": "golden_pickaxe"
+                "texture": "mc.gold_pickaxe"
             },
             "minecraft:repairable": {
                 "repair_items": [

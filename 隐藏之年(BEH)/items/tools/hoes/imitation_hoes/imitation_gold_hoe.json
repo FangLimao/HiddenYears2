@@ -36,7 +36,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "gold_hoe"
+                "texture": "mc.gold_hoe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.hoe"

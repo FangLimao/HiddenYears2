@@ -144,7 +144,7 @@
             },
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
-                "texture": "iron_sword"
+                "texture": "mc.iron_sword"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:repairable": {

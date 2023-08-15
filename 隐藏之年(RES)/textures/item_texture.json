@@ -932,7 +932,7 @@
         "hy.copper_apple": {
             "textures": "textures/items/foods/copper_apple"
         },
-         "hy.brass_ingot": {
+        "hy.brass_ingot": {
             "textures": "textures/items/materials/ingots/brass_ingot"
         },
         "hy.brass_dust": {
@@ -973,6 +973,51 @@
         },
         "hy.raw_brass_ingot": {
             "textures": "textures/items/materials/ingots/raw_brass_ingot"
+        },
+        "mc.diamond_axe": {
+            "textures": "textures/items/diamond_axe"
+        },
+        "mc.iron_axe": {
+            "textures": "textures/items/iron_axe"
+        },
+        "mc.gold_axe": {
+            "textures": "textures/items/gold_axe"
+        },
+        "mc.diamond_hoe": {
+            "textures": "textures/items/diamond_hoe"
+        },
+        "mc.iron_hoe": {
+            "textures": "textures/items/iron_hoe"
+        },
+        "mc.gold_hoe": {
+            "textures": "textures/items/gold_hoe"
+        },
+        "mc.diamond_pickaxe": {
+            "textures": "textures/items/diamond_pickaxe"
+        },
+        "mc.iron_pickaxe": {
+            "textures": "textures/items/iron_pickaxe"
+        },
+        "mc.gold_pickaxe": {
+            "textures": "textures/items/gold_pickaxe"
+        },
+        "mc.diamond_shovel": {
+            "textures": "textures/items/diamond_shovel"
+        },
+        "mc.iron_shovel": {
+            "textures": "textures/items/iron_shovel"
+        },
+        "mc.gold_shovel": {
+            "textures": "textures/items/gold_shovel"
+        },
+        "mc.diamond_sword": {
+            "textures": "textures/items/diamond_sword"
+        },
+        "mc.iron_sword": {
+            "textures": "textures/items/iron_sword"
+        },
+        "mc.gold_sword": {
+            "textures": "textures/items/gold_sword"
         }
     }
 }
