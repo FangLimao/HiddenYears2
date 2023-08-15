@@ -14,7 +14,7 @@
             },
             "minecraft:creative_category": {
                 "category": "nature",
-                "group": "itemGroup.name.crop"
+                "parent": "itemGroup.name.crop"
             },
             "minecraft:use_animation": "eat",
             "minecraft:use_duration": 1.4,

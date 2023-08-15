@@ -45,8 +45,8 @@ item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
 
 hy.item.wooden_handle=木柄
 
-tile.hy.block.copper_essence_ore.name=铜髓矿石
-tile.hy.block.deepslate_copper_essence_ore.name=深层铜髓矿石
+hy.block.copper_essence_ore=铜髓矿石
+hy.block.deepslate_copper_essence_ore=深层铜髓矿石
 hy.item.copper_hammer_head=铜锤头
 hy.item.copper_stick=铜棍
 hy.item.copper_essence=铜髓
@@ -82,8 +82,8 @@ hy.item.oxidized_copper_shovel=氧化的铜锹
 hy.item.weathered_copper_shovel=锈蚀的铜锹
 hy.item.waxed_copper_shovel=涂蜡的铜锹
 
-tile.hy.block.amethyst_essence_ore.name=紫水晶矿石
-tile.hy.block.deepslate_amethyst_essence_ore.name=深层紫水晶矿石
+hy.block.amethyst_essence_ore=紫水晶矿石
+hy.block.deepslate_amethyst_essence_ore=深层紫水晶矿石
 hy.item.amethyst_ingot=紫水晶锭
 hy.item.amethyst_axe=紫水晶斧
 hy.item.amethyst_hammer=紫水晶锤
@@ -205,8 +205,8 @@ hy.item.stack_of_gold_coin=金币组
 hy.item.stack_of_diamond_coin=钻石币组
 hy.item.stack_of_copper_coin=铜币组
 
-tile.hy.block.fuel_metal_ore.name=燃金矿石
-tile.hy.block.deepslate_fuel_metal_ore.name=深层燃金矿石
+hy.block.fuel_metal_ore=燃金矿石
+hy.block.deepslate_fuel_metal_ore=深层燃金矿石
 hy.item.amethyst_fuel_metal=晶化燃金
 hy.item.copper_fuel_metal=铜质燃金
 hy.item.iron_fuel_metal=铁质燃金
@@ -363,18 +363,18 @@ hy.item.granite_metal_hammer_head=花岗岩金锤头
 hy.item.netherrack_metal_hammer_head=下界岩金锤头
 hy.item.tuff_metal_hammer_head=凝灰岩金锤头
 
-tile.hy.block.andesite_metal_stone.name=安山岩金石
-tile.hy.block.diorite_metal_stone.name=闪长岩金石
-tile.hy.block.granite_metal_stone.name=花岗岩金石
+hy.block.andesite_metal_stone=安山岩金石
+hy.block.diorite_metal_stone=闪长岩金石
+hy.block.granite_metal_stone=花岗岩金石
 
-tile.hy.block.shallow_coal_ore.name=浅层煤矿石
-tile.hy.block.shallow_copper_ore.name=浅层铜矿石
-tile.hy.block.shallow_diamond_ore.name=浅层钻石矿石
-tile.hy.block.shallow_emerald_ore.name=浅层绿宝石矿石
-tile.hy.block.shallow_iron_ore.name=浅层铁矿石
-tile.hy.block.shallow_lapis_ore.name=浅层青金石矿石
-tile.hy.block.shallow_redstone_ore.name=浅层红石矿石
-tile.hy.block.shallow_gold_ore.name=浅层金矿石
+hy.block.shallow_coal_ore=浅层煤矿石
+hy.block.shallow_copper_ore=浅层铜矿石
+hy.block.shallow_diamond_ore=浅层钻石矿石
+hy.block.shallow_emerald_ore=浅层绿宝石矿石
+hy.block.shallow_iron_ore=浅层铁矿石
+hy.block.shallow_lapis_ore=浅层青金石矿石
+hy.block.shallow_redstone_ore=浅层红石矿石
+hy.block.shallow_gold_ore=浅层金矿石
 
 tile.hy.block.deep_coal_ore.name=深层煤矿石
 tile.hy.block.deep_copper_ore.name=深层铜矿石
@@ -528,7 +528,7 @@ hy.item.imitation_gold_sword=仿制金剑
 hy.item.imitation_gold_hammer_head=仿制金锤头
 
 hy.item.imitation_diamond_axe=仿制钻石斧
-hy.item.imitation_diamond_ingot=仿制钻石锭
+hy.item.imitation_diamond=仿制钻石
 hy.item.imitation_diamond_axe=仿制钻石斧
 hy.item.imitation_diamond_hammer=仿制钻石锤
 hy.item.imitation_diamond_hoe=仿制钻石锄

@@ -13,7 +13,7 @@
                 "value": "hy.item.enchanted_copper_apple"
             },
             "minecraft:creative_category": {
-                "group": "itemGroup.name.crop",
+                "parent": "itemGroup.name.crop",
                 "category": "nature"
             },
             "minecraft:use_animation": "eat",
