@@ -1,32 +1,34 @@
 {
-    "format_version": "1.17.0",
+    "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "hy:shallow_copper_ore"
+            "identifier": "hy:shallow_copper_ore",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore",
+                "is_hidden_in_commands": false
+            }
         },
         "components": {
             "minecraft:display_name": "hy.block.shallow_copper_ore",
-            "minecraft:destroy_time": 0.8,
-            "minecraft:explosion_resistance": 2.0,
-            "minecraft:map_color": "#ffffff",
-            "minecraft:creative_category": {
-                "category": "nature",
-                "group": "itemGroup.name.ore"
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.8
             },
-            "minecraft:loot": "loot_tables/blocks/shallow_ores/copper.json",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 2.0
+            },
+            "minecraft:map_color": "#ffffff",
+            "minecraft:loot": "loot_tables/empty.json",
             "minecraft:on_player_destroyed": {
-                "event": "hy.pick_up_xp",
-                "target": "self"
+                "event": "hy.spawn_loot",
+                "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
             },
             "tag:minecraft:stone_pick_diggable": {}
         },
         "events": {
-            "hy.pick_up_xp": {
-                "run_command": {
-                    "command": [
-                        "function core/default_ore_xp"
-                    ],
-                    "target": "self"
+            "hy.spawn_loot": {
+                "spawn_loot": {
+                    "table": "loot_tables/blocks/shallow_ores/copper.json"
                 }
             }
         }
