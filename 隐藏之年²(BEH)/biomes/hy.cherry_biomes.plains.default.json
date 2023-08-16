@@ -2,7 +2,7 @@
     "format_version": "1.13.0",
     "minecraft:biome": {
         "description": {
-            "identifier": "hy:cherry_plains"
+            "identifier": "hy.cherry_biomes.plains.default"
         },
         "components": {
             "minecraft:climate": {
