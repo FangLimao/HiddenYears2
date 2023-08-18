@@ -102,6 +102,9 @@
         },
         "hy.lab_table.bottom": {
             "textures": "textures/blocks/machines/lab_tables/lab_table_bottom"
+        },
+        "hy.deepslate_ruby_ore": {
+            "textures": "textures/blocks/ores/deepslate_ruby_ore"
         }
     }
 }

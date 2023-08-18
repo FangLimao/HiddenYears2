@@ -120,14 +120,10 @@
 	- `/function api/tetanus.effect/v1.0/self/lv3`（给予自己三级破伤风）
 	 
 #### `body_corrosion.effect`
-> 这是一个计划中的API，目前无法调用
-
 - 版本：1.0
 - 描述：给予『身心腐蚀』状态效果集
 - 调用方法：
-	- `/function api/clear_effect/v1.0/clear_all_effects`（清除所有状态效果）
-	- `/function api/clear_effect/v1.0/clear_good_effects`（清除所有正面效果）
-	- `/function api/clear_effect/v1.0/clear_bad_effecs`（清除所有负面效果）	
+	- `/function api/body_corrosion.effect/v1.0/radius5/lv1`（给予半径五格内所有实体身心腐蚀I）
 	
 ### 物品标签
 - 斑驳的物品
@@ -214,7 +210,13 @@ hy.temp.tetanus_attacker
 hy.temp.exposed_attacker
 ```
 - 用于标记攻击者
-	- 添加标签的玩家将无法受锈蚀攻击影响
+	- 添加标签的玩家将无法受身心腐蚀影响
+	
+```
+hy.ruby
+```
+- 用于标记使用过红宝石的玩家
+  - 添加标签的玩家不受腐蚀工具、武器反甲伤害
 
     
 ```
