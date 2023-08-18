@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:lv1_corrosion_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "copper_ingot"
+            },
+            {
+                "item": "hy:exposed_copper_dust"
+            },
+            {
+                "item": "rotten_flesh"
+            }
+        ],
+        "result": {
+            "item": "hy:lv1_corrosion_ingot"
+        }
+    }
+}
