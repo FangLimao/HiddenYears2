@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hy:lv1_corrosion_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hy:lv1_corrosion_hammer_head"
+			},
+			{
+				"item": "hy:wooden_handle"
+			}
+		],
+		"result": {
+			"item": "hy:lv1_corrosion_hammer"
+		}
+	}
+}
