@@ -238,7 +238,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_axe": {}
+            "tag:minecraft:is_axe": {},
+            "tag:hy:exposed_item": {}
         },
         "events": {
             "hy.on_break_block": {

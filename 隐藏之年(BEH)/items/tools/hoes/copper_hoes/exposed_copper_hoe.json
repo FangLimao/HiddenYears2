@@ -220,7 +220,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_hoe": {}
+            "tag:minecraft:is_hoe": {},
+            "tag:hy:exposed_item": {}
         },
         "events": {
             "hy.on_break_block": {

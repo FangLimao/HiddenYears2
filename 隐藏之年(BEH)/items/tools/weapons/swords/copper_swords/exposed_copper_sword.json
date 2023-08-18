@@ -194,7 +194,8 @@
                 }
             },
             "tag:minecraft:is_sword": {},
-            "tag:minecraft:is_tool": {}
+            "tag:minecraft:is_tool": {},
+            "tag:hy:exposed_item": {}
         },
         "events": {
             "hy.on_hurt_entity": {
