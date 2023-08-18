@@ -75,7 +75,8 @@
                     }
                 ]
             },
-            "tag:hy:is_hammer": {}
+            "tag:hy:is_hammer": {},
+            "tag:hy:weathered_item": {}
         },
         "events": {
             "hy.on_break_block": {

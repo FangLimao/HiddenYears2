@@ -185,7 +185,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_tool": {}
+            "tag:minecraft:is_tool": {},
+            "tag:hy:weathered_item": {}
         },
         "events": {
             "hy.on_hurt_entity": {
