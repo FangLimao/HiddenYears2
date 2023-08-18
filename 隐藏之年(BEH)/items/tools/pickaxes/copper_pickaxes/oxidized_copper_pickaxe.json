@@ -343,7 +343,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_pickaxe": {}
+            "tag:minecraft:is_pickaxe": {},
+            "tag:hy:oxidized_item": {}
         },
         "events": {
             "hy.on_hurt_entity": {

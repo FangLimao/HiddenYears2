@@ -110,7 +110,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_shovel": {}
+            "tag:minecraft:is_shovel": {},
+            "tag:hy:oxidized_item": {}
         },
         "events": {
             "hy.on_break_block": {

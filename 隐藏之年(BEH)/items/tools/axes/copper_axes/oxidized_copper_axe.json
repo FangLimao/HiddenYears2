@@ -238,7 +238,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_axe": {}
+            "tag:minecraft:is_axe": {},
+            "tag:hy:oxidized_item": {}
         },
         "events": {
             "hy.on_hurt_entity": {
