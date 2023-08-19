@@ -580,6 +580,9 @@ hy.item.corrosion_knife=腐蚀小刀
 hy.item.corrosion_hammer_head=腐蚀锤头
 hy.item.corrosion_awl=腐蚀之锥
 hy.item.corrosion_sword=腐蚀之剑
+hy.item.exposed_copper_dust=斑驳的铜粉
+hy.item.weathered_copper_dust=锈蚀的铜粉
+hy.item.oxidized_copper_dust=氧化的铜粉
 
 hy.item.imitation_coal=仿制煤炭
 hy.item.imitation_charcoal=仿制木炭
