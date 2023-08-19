@@ -121,10 +121,11 @@
 	 
 #### `body_corrosion.effect`
 - 版本：1.0
-- 描述：给予『身心腐蚀』状态效果集
+- 描述：释放『身心腐蚀』状态效果集
 - 调用方法：
-	- `/function api/body_corrosion.effect/v1.0/radius5/lv1`（给予半径五格内所有实体身心腐蚀I）
-	
+	- `/function api/body_corrosion.effect/v1.0/lv1`（释放身心腐蚀I）
+	- `/function api/body_corrosion.effect/v1.0/lv2`（释放身心腐蚀II）	- `/function api/body_corrosion.effect/v1.0/lv3`（释放身心腐蚀III）
+
 ### 物品标签
 - 斑驳的物品
 	- 用于合成

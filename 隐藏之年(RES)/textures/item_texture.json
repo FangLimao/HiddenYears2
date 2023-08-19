@@ -254,42 +254,6 @@
         "hy.coal_template": {
             "textures": "textures/items/treasures/templates/coal_template"
         },
-        "hy.legacy_amethyst_fuel": {
-            "textures": "textures/items/treasures/fuels/amethyst_fuel"
-        },
-        "hy.legacy_copper_fuel": {
-            "textures": "textures/items/treasures/fuels/copper_fuel"
-        },
-        "hy.legacy_iron_fuel": {
-            "textures": "textures/items/treasures/fuels/iron_fuel"
-        },
-        "hy.legacy_gold_fuel": {
-            "textures": "textures/items/treasures/fuels/gold_fuel"
-        },
-        "hy.legacy_emerald_fuel": {
-            "textures": "textures/items/treasures/fuels/emerald_fuel"
-        },
-        "hy.legacy_quartz_fuel": {
-            "textures": "textures/items/treasures/fuels/quartz_fuel"
-        },
-        "hy.legacy_diamond_fuel": {
-            "textures": "textures/items/treasures/fuels/diamond_fuel"
-        },
-        "hy.legacy_redstone_fuel": {
-            "textures": "textures/items/treasures/fuels/redstone_fuel"
-        },
-        "hy.legacy_lapis_fuel": {
-            "textures": "textures/items/treasures/fuels/lapis_fuel"
-        },
-        "hy.legacy_netherite_fuel": {
-            "textures": "textures/items/treasures/fuels/netherite_fuel"
-        },
-        "hy.legacy_empty_fuel": {
-            "textures": "textures/items/treasures/fuels/fuel"
-        },
-        "hy.legacy_coal_fuel": {
-            "textures": "textures/items/treasures/fuels/coal_fuel"
-        },
         "hy.amethyst_knife": {
             "textures": "textures/items/tools/weapons/knifes/amethyst_knife"
         },
