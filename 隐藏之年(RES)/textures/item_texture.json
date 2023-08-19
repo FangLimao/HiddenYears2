@@ -982,6 +982,15 @@
         },
         "mc.gold_sword": {
             "textures": "textures/items/gold_sword"
+        },
+        "hy.lv1_corrosion_ingot": {
+            "textures": "textures/items/materials/ingots/corrosion_ingots/lv1_corrosion_ingot"
+        },
+        "hy.lv2_corrosion_ingot": {
+            "textures": "textures/items/materials/ingots/corrosion_ingots/lv2_corrosion_ingot"
+        },
+        "hy.lv3_corrosion_ingot": {
+            "textures": "textures/items/materials/ingots/corrosion_ingots/lv3_corrosion_ingot"
         }
     }
 }
