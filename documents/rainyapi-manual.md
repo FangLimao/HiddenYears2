@@ -1,5 +1,5 @@
 # 技术手册
-> 框架版本：0.2.0
+> 框架版本：0.2.1
 > 
 > 游戏版本：Minecraft基岩版1.20.15
 
@@ -15,6 +15,7 @@
 | --- | --- |
 | 0.1.0 | 基岩版1.19.10+ |
 | 0.2.0 | 基岩版1.19.10+ |
+| 0.2.1 | 基岩版1.19.10+ |
 
 ## 函框架API
 > 漓猫lib（不是
@@ -61,8 +62,9 @@
 	- `/function api/tetanus.effect/v1.0/self/lv3`（给予自己三级破伤风）
 	 
 #### `body_corrosion.effect`
-- 版本：1.0
+- 版本：1.0/1.1
 - 描述：释放『身心腐蚀』状态效果集
 - 调用方法：
-	- `/function api/body_corrosion.effect/v1.0/lv1`（释放身心腐蚀I）
-	- `/function api/body_corrosion.effect/v1.0/lv2`（释放身心腐蚀II）	- `/function api/body_corrosion.effect/v1.0/lv3`（释放身心腐蚀III）
+	- `/function api/body_corrosion.effect/v1.1/lv1`（释放身心腐蚀I）
+	- `/function api/body_corrosion.effect/v1.1/lv2`（释放身心腐蚀II）	
+	- `/function api/body_corrosion.effect/v1.1/lv3`（释放身心腐蚀III）

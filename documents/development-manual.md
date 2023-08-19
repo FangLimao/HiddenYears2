@@ -121,11 +121,11 @@
 	- `/function api/tetanus.effect/v1.0/self/lv3`（给予自己三级破伤风）
 	 
 #### `body_corrosion.effect`
-- 版本：1.0
+- 版本：1.0/1.1
 - 描述：释放『身心腐蚀』状态效果集
 - 调用方法：
-	- `/function api/body_corrosion.effect/v1.0/lv1`（释放身心腐蚀I）
-	- `/function api/body_corrosion.effect/v1.0/lv2`（释放身心腐蚀II）	- `/function api/body_corrosion.effect/v1.0/lv3`（释放身心腐蚀III）
+	- `/function api/body_corrosion.effect/v1.1/lv1`（释放身心腐蚀I）
+	- `/function api/body_corrosion.effect/v1.1/lv2`（释放身心腐蚀II）	- `/function api/body_corrosion.effect/v1.1/lv3`（释放身心腐蚀III）
 
 ### 物品标签
 - 斑驳的物品
