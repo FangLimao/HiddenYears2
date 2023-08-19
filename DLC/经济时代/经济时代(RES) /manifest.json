@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "方漓猫"
+        ],
+        "license": "MIT"
+    },
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "uuid": "b16bb615-fe64-43a2-8423-820a57145c4d",
+        "version": [
+            1,
+            11,
+            1
+        ],
+        "pack_scope": "world"
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "10abb052-0d22-4750-bd21-3521f53f00b9",
+            "version": [
+                1,
+                11,
+                1
+            ]
+        }
+    ],
+    "dependencies": []
+}

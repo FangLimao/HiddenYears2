@@ -2,12 +2,23 @@
     "format_version": "1.17.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:brass_axe",
+            "identifier": "hy:lv1_corrosion_axe",
             "category": "equipment"
         },
         "components": {
+            "minecraft:foil": true,
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "hy.on_use",
+                    "target": "self"
+                }
+            },
+            "minecraft:cooldown": {
+                "category": "hy.body_corrosion_cooldown",
+                "duration": 25
+            },
             "minecraft:display_name": {
-                "value": "hy.item.brass_axe"
+                "value": "hy.item.lv1_corrosion_axe"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
@@ -31,13 +42,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:brass_ingot"
+                            "hy:lv1_corrosion_ingot"
                         ],
                         "repair_amount": 50
                     },
                     {
                         "items": [
-                            "hy:brass_axe"
+                            "hy:lv1_corrosion_axe"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }
@@ -203,7 +214,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy.brass_axe"
+                "texture": "hy.exposed_copper_axe"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.axe"
@@ -217,6 +228,25 @@
             "tag:minecraft:is_axe": {}
         },
         "events": {
+            "hy.on_use": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 10,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function api/body_corrosion.effect/v1.1/lv1"
+                            ]
+                        }
+                    }
+                ]
+            },
             "hy.on_break_block": {
                 "damage": {
                     "amount": 1,

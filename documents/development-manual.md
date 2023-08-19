@@ -13,6 +13,7 @@
   - [物品标签](#物品标签)
   - [方块标签](#方块标签)
   - [玩家标签](#玩家标签)
+  - [冷却类型](#冷却类型)
 
 ## 内部规范
 ### 版本规范
@@ -187,7 +188,7 @@ hy:is_hammer
 hy:is_impart
 ```
 
-## 方块标签
+### 方块标签
 - 金属方块
   - 用于挖掘
 ```
@@ -200,7 +201,7 @@ metal
 stone
 ```
 
-## 玩家标签
+### 玩家标签
 ```
 hy.temp.tetanus_attacker
 ```
@@ -225,6 +226,22 @@ hy.updateXYYZ
 ```
 - 用于标记已更新版本者
 	- 缺失此标签的玩家将收到更新提示
+
+### 冷却类型
+- 绷带
+```
+hy.bandage_cooldown
+```
+
+- 医药包
+```
+hy.medicine_pack_cooldown
+```
+
+- 身心腐蚀
+```
+hy.body_corrosion_cooldown
+```
 
 ---
 

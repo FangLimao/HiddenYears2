@@ -1,0 +1,809 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "coal",
+                                    "quantity": 15,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 45
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "flint",
+                                    "quantity": 20,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_axe",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_pickaxe",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_shovel",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_hoe",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "shears",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 3,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "compass",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "iron_ingot",
+                                    "quantity": 3,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 18
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "lapis_lazuli",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 40
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 6,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "clock",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 3,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "choice": [
+                                        {
+                                            "item": "oak_hanging_sign",
+                                            "quantity": 1,
+                                            "price_multiplier": 0.05,
+                                            "biomes": [
+                                                "plains"
+                                            ]
+                                        },
+                                        {
+                                            "item": "spruce_hanging_sign",
+                                            "quantity": 1,
+                                            "price_multiplier": 0.05,
+                                            "biomes": [
+                                                "snow",
+                                                "taiga"
+                                            ]
+                                        },
+                                        {
+                                            "item": "jungle_hanging_signt",
+                                            "quantity": 1,
+                                            "price_multiplier": 0.05,
+                                            "biomes": [
+                                                "desert",
+                                                "jungle"
+                                            ]
+                                        },
+                                        {
+                                            "item": "acacia_hanging_sign",
+                                            "quantity": 1,
+                                            "price_multiplier": 0.05,
+                                            "biomes": [
+                                                "savannah"
+                                            ]
+                                        },
+                                        {
+                                            "item": "dark_oak_hanging_sign",
+                                            "quantity": 1,
+                                            "price_multiplier": 0.05,
+                                            "biomes": [
+                                                "swamp"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_axe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_pickaxe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_shovel",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "iron_hoe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "copper_ingot",
+                                    "quantity": 15,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 30
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 6,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_axe",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 6,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_pickaxe",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 6,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_shovel",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 6,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_hoe",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "quartz",
+                                    "quantity": 2,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 64
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 8,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_axe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 8,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_pickaxe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 8,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_shovel",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 8,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "golden_hoe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "amethyst_shard",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 64
+                                }
+                            ],
+                            "trader_exp": 2,
+                            "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 12,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "diamond_axe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 12,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "diamond_pickaxe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 12,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "diamond_shovel",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:gold_coin",
+                                    "quantity": 12,
+                                    "price_multiplier": 0.2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "diamond_hoe",
+                                    "quantity": 1,
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 5,
+                                                "max": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "trader_exp": 1,
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
