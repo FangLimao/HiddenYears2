@@ -993,13 +993,13 @@
             "textures": "textures/items/materials/ingots/corrosion_ingots/lv3_corrosion_ingot"
         },
         "hy.exposed_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/exposed_copper_ingot"
+            "textures": "textures/items/materials/dusts/corrosion_dusts/exposed_copper_dust"
         },
         "hy.weathered_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/weathered_copper_ingot"
+            "textures": "textures/items/materials/dusts/corrosion_dusts/weathered_copper_dust"
         },
         "hy.oxidized_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_opper_ingot"
+            "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_opper_dust"
         }
     }
 }
