@@ -1,3 +1,3 @@
 tag @s add hy.ruby
-xp @s -1L
+xp -1L @s
 playsound random.levelup @s ~ ~ ~
