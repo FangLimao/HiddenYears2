@@ -999,7 +999,7 @@
             "textures": "textures/items/materials/dusts/corrosion_dusts/weathered_copper_dust"
         },
         "hy.oxidized_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_opper_dust"
+            "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_copper_dust"
         }
     }
 }
