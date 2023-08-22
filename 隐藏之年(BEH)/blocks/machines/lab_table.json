@@ -12,7 +12,7 @@
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:display_name": "hy.block.lab_table",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 2.0
+                "seconds_to_destroy": 1.9
             },
             "minecraft:crafting_table": {
                 "table_name": "hy.block.lab_table",
