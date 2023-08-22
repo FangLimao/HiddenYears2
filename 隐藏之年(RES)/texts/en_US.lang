@@ -1,7 +1,7 @@
 hy.item.oldb=【石头工艺联动】oldb
 
 pack.name=HiddenYears
-pack.description=为你而来的附加包 ｜ 正式版1.12.0 | 函框架0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+pack.description=The Add-on for you ｜ Release1.12.0 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
 hy.mod.about=§c『隐藏之年』基岩版1.12.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 hy.update.index=§l§6感谢你选用隐藏之年！
 hy.update.version=§l§b你已成功更新/加载正式版1.12.0
@@ -47,11 +47,11 @@ item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
 
 hy.item.wooden_handle=wooden handle
 
-hy.block.copper_essence_ore=铜髓矿石
-hy.block.deepslate_copper_essence_ore=深层铜髓矿石
-hy.item.copper_hammer_head=铜锤头
-hy.item.copper_stick=铜棍
-hy.item.copper_essence=铜髓
+hy.block.copper_essence_ore=copper essence ore
+hy.block.deepslate_copper_essence_ore=deepslate copper essence ore
+hy.item.copper_hammer_head=copper hammer head
+hy.item.copper_stick=copper stick
+hy.item.copper_essence=copper essence
 hy.item.copper_coin=铜币
 hy.item.copper_star=铜之星
 hy.item.copper_hoe=铜锄
@@ -78,7 +78,7 @@ hy.item.exposed_copper_pickaxe=斑驳的铜镐
 hy.item.oxidized_copper_pickaxe=氧化的铜镐
 hy.item.weathered_copper_pickaxe=锈蚀的铜镐
 hy.item.waxed_copper_pickaxe=涂蜡的铜镐
-hy.item.copper_shovel=铜锹
+hy.item.copper_shovel=copper shovel
 hy.item.exposed_copper_shovel=斑驳的铜锹
 hy.item.oxidized_copper_shovel=氧化的铜锹
 hy.item.weathered_copper_shovel=锈蚀的铜锹
@@ -594,8 +594,8 @@ hy.item.exposed_copper_dust=斑驳的铜粉
 hy.item.weathered_copper_dust=锈蚀的铜粉
 hy.item.oxidized_copper_dust=氧化的铜粉
 
-hy.item.imitation_coal=仿制煤炭
-hy.item.imitation_charcoal=仿制木炭
+hy.item.imitation_coal=imitation coal
+hy.item.imitation_charcoal=imitation charcoal
 
 hy.item.iron_crowbar=iron crowbar
 hy.item.gold_crowbar=gold crowbar
