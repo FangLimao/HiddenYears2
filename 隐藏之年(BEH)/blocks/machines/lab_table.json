@@ -24,7 +24,7 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 2.5
             },
-            "minecraft:map_color": "#00ff00",
+            "minecraft:map_color": "#999999",
             "minecraft:on_player_destroyed": {
                 "event": "hy.spawn_loot",
                 "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'hy:is_crowbar')"
