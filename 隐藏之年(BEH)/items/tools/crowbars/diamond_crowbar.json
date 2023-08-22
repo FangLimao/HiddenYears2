@@ -99,6 +99,14 @@
                             "event": "hy.on_break_block",
                             "target": "self"
                         }
+                    },
+                    {
+                        "block": "bedrock",
+                        "speed": 1,
+                        "on_dig": {
+                            "event": "hy.on_break_bedrock",
+                            "target": "self"
+                        }
                     }
                 ]
             },
