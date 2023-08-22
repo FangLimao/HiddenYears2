@@ -21,15 +21,10 @@
                     "lab_table"
                 ]
             },
-            "minecraft:friction": 0.6,
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 3.0
+                "explosion_resistance": 2.5
             },
             "minecraft:map_color": "#00ff00",
-            "minecraft:flammable": {
-                "flame_odds": 50,
-                "burn_odds": 0
-            },
             "minecraft:on_player_destroyed": {
                 "event": "hy.spawn_loot",
                 "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'hy:is_crowbar')"
