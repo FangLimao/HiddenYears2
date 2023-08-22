@@ -6,6 +6,7 @@
             "category": "items"
         },
         "components": {
+            "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
             "minecraft:durability": {
                 "max_durability": 80
