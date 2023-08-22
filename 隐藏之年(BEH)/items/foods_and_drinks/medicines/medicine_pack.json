@@ -36,8 +36,7 @@
                     {
                         "damage": {
                             "type": "magic",
-                            "amount": 1,
-                            "target": "self"
+                            "amount": 1
                         }
                     },
                     {
