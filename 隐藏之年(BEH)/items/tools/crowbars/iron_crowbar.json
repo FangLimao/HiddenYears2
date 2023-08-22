@@ -30,7 +30,7 @@
                         "block": {
                             "tags": "query.any_tag('metal')"
                         },
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -38,7 +38,7 @@
                     },
                     {
                         "block": "lapis_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -46,7 +46,7 @@
                     },
                     {
                         "block": "coal_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -54,7 +54,7 @@
                     },
                     {
                         "block": "diamond_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -62,7 +62,7 @@
                     },
                     {
                         "block": "emerald_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -70,7 +70,7 @@
                     },
                     {
                         "block": "netherite_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -78,7 +78,7 @@
                     },
                     {
                         "block": "raw_gold_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -86,7 +86,7 @@
                     },
                     {
                         "block": "raw_iron_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
@@ -94,7 +94,7 @@
                     },
                     {
                         "block": "raw_copper_block",
-                        "speed": 25,
+                        "speed": 50,
                         "on_dig": {
                             "event": "hy.on_break_block",
                             "target": "self"
