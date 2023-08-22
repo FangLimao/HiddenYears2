@@ -12,10 +12,10 @@
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:display_name": "hy.block.granite_metal_stone",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.8
+                "seconds_to_destroy": 0.6
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 3.0
+                "explosion_resistance": 6.0
             },
             "minecraft:map_color": "#ffffff",
             "minecraft:on_player_destroyed": {
