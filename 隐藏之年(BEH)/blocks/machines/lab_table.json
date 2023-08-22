@@ -9,6 +9,7 @@
             }
         },
         "components": {
+            "minecraft:flammable": false,
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:display_name": "hy.block.lab_table",
             "minecraft:destructible_by_mining": {
