@@ -17,7 +17,7 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 6.0
             },
-            "minecraft:map_color": "#ffffff",
+            "minecraft:map_color": "#FFFCF5",
             "minecraft:on_player_destroyed": {
                 "event": "hy.spawn_loot",
                 "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
