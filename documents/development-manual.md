@@ -1,7 +1,7 @@
 # 技术手册
 > 模组版本：隐藏之年1.x.x
 > 
-> 游戏版本：Minecraft基岩版1.20.12
+> 游戏版本：Minecraft基岩版1.20.15
 
 ## 目录
 - [内部规范](#内部规范)
@@ -180,6 +180,12 @@ minecraft:is_hoe
   - 保留标签
 ```
 hy:is_hammer
+```
+
+- 撬棍
+  - 用途挖掘
+```
+hy:is_crowbar
 ```
 
 - `impart`

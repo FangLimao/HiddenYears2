@@ -1,0 +1,136 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:diamond_crowbar",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:hand_equipped": true,
+            "minecraft:durability": {
+                "max_durability": 100
+            },
+            "minecraft:damage": 25,
+            "minecraft:icon": {
+                "texture": "hy.diamond_crowbar"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.diamond_crowbar"
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hy.on_hurt_entity",
+                    "target": "self"
+                }
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "query.any_tag('metal')"
+                        },
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lapis_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "coal_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "diamond_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "emerald_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "netherite_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "raw_gold_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "raw_iron_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "raw_copper_block",
+                        "speed": 25,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:creative_category": {
+                "category": "equipment"
+            },
+            "tag:hy:is_crowbar": {}
+        },
+        "events": {
+            "hy.on_hurt_entity": {
+                "damage": {
+                    "type": "magic",
+                    "amount": 5
+                }
+            },
+            "hy.on_break_block": {
+                "damage": {
+                    "type": "magic",
+                    "amount": 1
+                }
+            },
+            "hy.on_break_bedrock": {
+                "damage": {
+                    "type": "magic",
+                    "amount": 80
+                },
+                "run_command": {
+                    "command": [
+                        "function gameplay/items/crowbar_on_break_bedrock"
+                    ]
+                }
+            }
+        }
+    }
+}
