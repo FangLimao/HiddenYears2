@@ -1000,6 +1000,15 @@
         },
         "hy.oxidized_copper_dust": {
             "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_copper_dust"
+        },
+        "hy.iron_crowbar": {
+            "textures": "textures/items/tools/crowbars/iron_crowbar"
+        },
+        "hy.gold_crowbar": {
+            "textures": "textures/items/tools/crowbars/gold_crowbar"
+        },
+        "hy.diamond_crowbar": {
+            "textures": "textures/items/tools/crowbars/diamond_crowbar"
         }
     }
 }
