@@ -13,7 +13,7 @@
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:display_name": "hy.block.geocentric_diamond_ore",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 2.0
+                "seconds_to_destroy": 0.8
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 3.0
