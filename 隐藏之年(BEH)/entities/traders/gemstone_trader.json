@@ -5,8 +5,7 @@
 			"identifier": "hy:gemstone_trader",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"runtime_identifier": "minecraft:villager"
+			"is_experimental": false
 		},
 		"component_groups": {
 			"best": {
