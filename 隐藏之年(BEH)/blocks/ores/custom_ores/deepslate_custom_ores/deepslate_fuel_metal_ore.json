@@ -22,7 +22,7 @@
                 "seconds_to_destroy": 0.8
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 2.0
+                "explosion_resistance": 3.0
             },
             "minecraft:map_color": "#565656",
             "minecraft:on_player_destroyed": {
