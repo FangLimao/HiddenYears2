@@ -22,18 +22,6 @@
                     "mob"
                 ]
             },
-            "minecraft:timer": {
-                "looping": false,
-                "random_interval": true,
-                "time": [
-                    300,
-                    1200
-                ],
-                "time_down_event": {
-                    "event": "savage:become_self",
-                    "target": "self"
-                }
-            },
             "minecraft:breathable": {
                 "total_supply": 15,
                 "suffocate_time": 0
@@ -111,38 +99,6 @@
                 "is_pushable_by_piston": true
             }
         },
-        "events": {
-            "minecraft:entity_spawned": {
-                "randomize": [
-                    {
-                        "weight": 1,
-                        "add": {
-                            "component_groups": [
-                                "best"
-                            ]
-                        }
-                    }
-                ]
-            },
-            "minecraft:entity_transformed": {
-                "randomize": [
-                    {
-                        "weight": 5,
-                        "add": {
-                            "component_groups": [
-                                "best"
-                            ]
-                        }
-                    }
-                ]
-            },
-            "savage:become_self": {
-                "add": {
-                    "component_groups": [
-                        "become_self"
-                    ]
-                }
-            }
-        }
+        "events": {}
     }
 }
