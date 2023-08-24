@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.0",
+    "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "hy:soul_torch_from_copper_stick_soul_soil"

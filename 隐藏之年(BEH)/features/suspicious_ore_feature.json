@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.0",
+    "format_version": "1.20.0",
     "minecraft:ore_feature": {
         "description": {
             "identifier": "hy:suspicious_ore_feature"
