@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.0",
+    "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
             "identifier": "hy:andesite_metal_nugget",
@@ -13,7 +13,7 @@
                 "texture": "hy.andesite_metal_nugget"
             },
             "minecraft:creative_category": {
-                "parent": "items"
+                "category": "items"
             },
             "tag:hy:stone_metal_nuggets":{}
         }
