@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.0",
+    "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "hy:bronze_boots"
@@ -16,6 +16,11 @@
                 "item": "hy:bronze_ingot"
             }
         },
+        "unlock": [
+            {
+                "item": "hy:bronze_ingot"
+            }
+        ],
         "result": {
             "item": "hy:bronze_boots"
         }
