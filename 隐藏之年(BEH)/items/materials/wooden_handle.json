@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "hy:wooden_handle",
@@ -12,10 +12,9 @@
 			"minecraft:icon": {
 				"texture": "hy.wooden_handle"
 			},
-			"minecraft:mining_speed": 1,
 			"minecraft:damage": 2,
 			"minecraft:creative_category": {
-				"parent": "items"
+				"category": "items"
 			}
 		}
 	}
