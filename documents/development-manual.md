@@ -149,7 +149,7 @@ hy:oxidized_item
 - 燃金
 	- 用于合成
 ```
-hy:fuel
+hy:fuel_metal
 ```
 
 - 药物
