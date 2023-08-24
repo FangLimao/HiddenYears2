@@ -1,5 +1,3 @@
-hy.item.oldb=oldb
-
 pack.name=隐藏之年
 pack.description=为你而来的附加包 ｜ 正式版1.13.0 | 函框架0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
 hy.mod.about=§c『隐藏之年』基岩版1.13.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
@@ -41,6 +39,18 @@ hy.message.oxidising.oxidized_knife=你的铜小刀§b『完全氧化』§r
 hy.message.oxidising.exposed_dagger=你的铜匕首变得§b『斑驳』§r
 hy.message.oxidising.weathered_dagger=你的铜匕首变得§b『锈蚀』§r
 hy.message.oxidising.oxidized_dagger=你的铜匕首§b『完全氧化』§r
+hy.message.medicines.1=这是一瓶§b『眼药水』§r
+hy.message.medicines.2=这是一瓶§b『胃药』§r
+hy.message.medicines.3=这是一瓶§b『驱邪药』§r
+hy.message.medicines.4=这是一瓶§b『驱毒药』§r
+hy.message.medicines.5=这是一瓶§b『驱魔药』§r
+hy.message.medicines.6=这是一瓶§b『灵药』§r
+hy.message.medicines.7=这是一瓶§b『枸橼酸铁铵溶液』§r
+hy.message.medicines.8=这是一瓶§b『村庄探索者溶液』§r
+hy.message.medicines.9=这是一瓶§b『海底探索者溶液』§r
+hy.message.medicines.10=这是一瓶§b『新生者溶液』§r
+hy.message.medicines.11=这是一瓶§b『兴奋剂』§r
+hy.message.medicines.12=这是一瓶§b『致盲眼药水』§r
 
 entity.hy:gemstone_trader.name=宝石商人
 item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
