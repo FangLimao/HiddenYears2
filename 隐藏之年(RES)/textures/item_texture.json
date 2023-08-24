@@ -738,28 +738,28 @@
             "textures": "textures/items/materials/awls/bronze_awl"
         },
         "hy.medicines.default": {
-            "textures": "textures/items/medicines/medicine_default"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_default"
         },
         "hy.medicines.eye": {
-            "textures": "textures/items/medicines/medicine_eye"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_eye"
         },
         "hy.medicines.dope": {
-            "textures": "textures/items/medicines/medicine_dope"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_dope"
         },
         "hy.medicines.poison": {
-            "textures": "textures/items/medicines/medicine_poison"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_poison"
         },
         "hy.medicines.newlife": {
-            "textures": "textures/items/medicines/medicine_newlife"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_newlife"
         },
         "hy.medicines.nausea": {
-            "textures": "textures/items/medicines/medicine_nausea"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_nausea"
         },
         "hy.medicines.bandage": {
-            "textures": "textures/items/medicines/bandage"
+            "textures": "textures/items/foods_and_drinks/medicines/bandage"
         },
         "hy.medicines.medicine_pack": {
-            "textures": "textures/items/medicines/medicine_pack"
+            "textures": "textures/items/foods_and_drinks/medicines/medicine_pack"
         },
         "hy.steel_ingot": {
             "textures": "textures/items/materials/ingots/steel_ingot"
@@ -834,7 +834,7 @@
             "textures": "textures/items/tools/weapons/daggers/copper_daggers/oxidized_copper_dagger"
         },
         "hy.copper_apple": {
-            "textures": "textures/items/foods/copper_apple"
+            "textures": "textures/items/foods_and_drinks/copper_apple"
         },
         "hy.brass_ingot": {
             "textures": "textures/items/materials/ingots/brass_ingot"
