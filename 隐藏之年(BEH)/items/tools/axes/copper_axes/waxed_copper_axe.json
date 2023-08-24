@@ -129,14 +129,6 @@
                         }
                     },
                     {
-                        "block": "fletching_table ",
-                        "speed": 4,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
                         "block": "barrel",
                         "speed": 4,
                         "on_dig": {
@@ -170,14 +162,6 @@
                     },
                     {
                         "block": "bookshelf",
-                        "speed": 4,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "banner",
                         "speed": 4,
                         "on_dig": {
                             "event": "hy.on_break_block",

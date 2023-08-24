@@ -20,13 +20,6 @@
                 "value": 8,
                 "slot": "axe"
             },
-            "minecraft:use_on": {
-                "blocks": [
-                    "log",
-                    "log2",
-                    "wood"
-                ]
-            },
             "minecraft:repairable": {
                 "repair_items": [
                     {
@@ -129,14 +122,6 @@
                         }
                     },
                     {
-                        "block": "fletching_table ",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
                         "block": "barrel",
                         "speed": 3,
                         "on_dig": {
@@ -170,14 +155,6 @@
                     },
                     {
                         "block": "bookshelf",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "banner",
                         "speed": 3,
                         "on_dig": {
                             "event": "hy.on_break_block",
