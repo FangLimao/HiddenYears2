@@ -16,7 +16,7 @@
                 "texture": "hy.quartz_fuel_metal"
             },
             "minecraft:creative_category": {
-                "parent": "items"
+                "category": "items"
             },
             "tag:rainy:fuel":{}
         }
