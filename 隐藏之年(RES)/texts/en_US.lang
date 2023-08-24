@@ -1,5 +1,3 @@
-hy.item.oldb=【石头工艺联动】oldb
-
 pack.name=HiddenYears
 pack.description=The Add-on for you ｜ Release1.13.0 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
 hy.mod.about=§c『隐藏之年』基岩版1.13.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
@@ -13,9 +11,7 @@ container.stonecutter_block=cutter
 tile.stonecutter.name=cutter
 tile.stonecutter_block.name=cutter
 
-hy.message.error.100=§c致命错误(100)：缺少前置函数库，请重新下载此附加包。
-
-hy.message.tetanus=你获得了§b『破伤风』§r效果！
+hy.message.tetanus=You got the§b『tetanus』§reffect！
 
 hy.message.oxidising.exposed_sword=你的铜剑变得§b『斑驳』§r
 hy.message.oxidising.weathered_sword=你的铜剑变得§b『锈蚀』§r
@@ -96,16 +92,15 @@ hy.item.oxidized_copper_shovel=氧化的铜锹
 hy.item.weathered_copper_shovel=锈蚀的铜锹
 hy.item.waxed_copper_shovel=涂蜡的铜锹
 
-hy.block.amethyst_essence_ore=紫水晶矿石
-hy.block.deepslate_amethyst_essence_ore=深层紫水晶矿石
-hy.item.amethyst_ingot=紫水晶锭
-hy.item.amethyst_axe=紫水晶斧
-hy.item.amethyst_hammer=紫水晶锤
-hy.item.amethyst_hoe=紫水晶锄
-hy.item.amethyst_pickaxe=紫水晶镐
-hy.item.amethyst_shovel=紫水晶锹
-hy.item.amethyst_sword=紫水晶剑
-hy.item.amethyst_hammer_head=紫水晶锤头
+hy.block.amethyst_essence_ore=amethyst ore
+hy.block.deepslate_amethyst_essence_ore=deepslate amethyst ore
+hy.item.amethyst_ingot=amethyst ingot
+hy.item.amethyst_axe=amethyst axe
+hy.item.amethyst_hammer=amethyst hammer
+hy.item.amethyst_hoe=amethyst hoe
+hy.item.amethyst_pickaxe=amethyst pickaxe
+hy.item.amethyst_shovel=amethyst shovel
+hy.item.amethyst_sword=amethyst sword
 
 hy.item.amethyst_nugget=紫水晶粒
 hy.item.coal_nugget=煤粒
@@ -136,13 +131,6 @@ hy.item.netherite_hammer=下界合金锤
 hy.item.wooden_hammer=木锤
 hy.item.stone_hammer=石锤
 
-hy.item.diamond_hammer_head=钻石锤头
-hy.item.gold_hammer_head=金锤头
-hy.item.iron_hammer_head=铁锤头
-hy.item.netherite_hammer_head=下界合金锤头
-hy.item.wooden_hammer_head=木锤头
-hy.item.stone_hammer_head=石锤头
-
 hy.item.waxed_copper_hammer=涂蜡的铜锤
 hy.item.waxed_amethyst_hammer=涂蜡的紫水晶锤
 hy.item.waxed_diamond_hammer=涂蜡的钻石锤
@@ -161,32 +149,20 @@ hy.item.sharp_netherite_hammer=打磨的下界合金锤
 hy.item.sharp_wooden_hammer=打磨的木锤
 hy.item.sharp_stone_hammer=打磨的石锤
 
-hy.item.amethyst_coal=紫水晶煤炭
-hy.item.copper_coal=铜煤炭
-hy.item.iron_coal=铁煤炭
-hy.item.gold_coal=金煤炭
-hy.item.emerald_coal=绿宝石煤炭
-hy.item.quartz_coal=下界石英煤炭
-hy.item.diamond_coal=钻石煤炭
-hy.item.redstone_coal=红石煤炭
-hy.item.lapis_coal=青金石煤炭
-hy.item.netherite_coal=下界合金煤炭
-hy.item.coal_template=煤炭升级模板
+hy.item.amethyst_coal=amethyst coal
+hy.item.copper_coal=copper coal
+hy.item.iron_coal=iron coal
+hy.item.gold_coal=gold coal
+hy.item.emerald_coal=emerald coal
+hy.item.quartz_coal=quartz coal
+hy.item.diamond_coal=diamond coal
+hy.item.redstone_coal=redstone coal
+hy.item.lapis_coal=lapis coal
+hy.item.netherite_coal=netherite coal
+hy.item.coal_template=coal upgrade template
 
 tile.hy.block.fuel_ore.name=燃料矿石
 tile.hy.block.deepslate_fuel_ore.name=深层燃料矿石
-hy.item.amethyst_fuel=旧版紫水晶燃料
-hy.item.amethyst_fuel=旧版铜燃料
-hy.item.iron_fuel=旧版铁燃料
-hy.item.gold_fuel=旧版金燃料
-hy.item.emerald_fuel=旧版绿宝石燃料
-hy.item.quartz_fuel=旧版下界石英燃料
-hy.item.diamond_fuel=旧版钻石燃料
-hy.item.redstone_fuel=旧版红石燃料
-hy.item.lapis_fuel=旧版青金石燃料
-hy.item.netherite_fuel=旧版下界合金燃料
-hy.item.coal_fuel=旧版煤燃料
-hy.item.empty_fuel=旧版燃料
 
 hy.item.diamond_awl=钻石锥
 hy.item.gold_awl=金锥
@@ -453,7 +429,7 @@ hy.item.bronze_awl=青铜锥
 hy.item.bronze_sword=青铜剑
 hy.block.bronze_block=青铜块
 
-hy.block.lab_table=实验台
+hy.block.lab_table=Lab Table
 hy.item.medicines.1=眼药水
 hy.item.medicines.2=胃药
 hy.item.medicines.3=驱邪药
@@ -469,24 +445,24 @@ hy.item.medicines.12=致盲眼药水
 hy.item.medicines.medicine_pack=医药包
 hy.item.medicines.bandage=绷带
 
-hy.item.steel_ingot=钢锭
-hy.item.steel_nugget=钢粒
-hy.item.steel_dust=钢粉
-hy.item.steel_helmet=钢头盔
-hy.item.steel_chestplate=钢胸甲
-hy.item.steel_leggings=钢护腿
-hy.item.steel_boots=钢靴子
-hy.item.steel_axe=钢斧
-hy.item.steel_hammer=钢锤
-hy.item.steel_hoe=钢锄
-hy.item.steel_pickaxe=钢镐
-hy.item.steel_shovel=钢锹
-hy.item.steel_dagger=钢匕首
-hy.item.steel_knife=钢小刀
-hy.item.steel_hammer_head=钢锤头
-hy.item.steel_awl=钢锥
-hy.item.steel_sword=钢剑
-hy.block.steel_block=钢块
+hy.item.steel_ingot=steel ingot
+hy.item.steel_nugget=steel nugget
+hy.item.steel_dust=steel dust
+hy.item.steel_helmet=steel helmet
+hy.item.steel_chestplate=steel chestplate
+hy.item.steel_leggings=steel leggings
+hy.item.steel_boots=steel boots
+hy.item.steel_axe=steel axe
+hy.item.steel_hammer=steel hammer
+hy.item.steel_hoe=steel hoe
+hy.item.steel_pickaxe=steel pickaxe
+hy.item.steel_shovel=steel shovel
+hy.item.steel_dagger=steel dagger
+hy.item.steel_knife=steel knife
+hy.item.steel_hammer_head=steel hammer head
+hy.item.steel_awl=steel awl
+hy.item.steel_sword=steel sword
+hy.block.steel_block=steel block
 
 hy.item.copper_knife=铜小刀
 hy.item.exposed_copper_knife=斑驳的铜小刀
