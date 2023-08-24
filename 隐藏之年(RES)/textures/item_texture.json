@@ -14,9 +14,6 @@
         "hy.oxidized_copper_hammer": {
             "textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
         },
-        "hy.copper_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/copper_hammer_head"
-        },
         "hy.empty_template": {
             "textures": "textures/items/templates/empty_template"
         },
@@ -85,9 +82,6 @@
         },
         "hy.amethyst_sword": {
             "textures": "textures/items/tools/weapons/swords/amethyst_sword"
-        },
-        "hy.amethyst_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/amethyst_hammer_head"
         },
         "hy.copper_hoe": {
             "textures": "textures/items/tools/hoes/copper_hoes/copper_hoe"
@@ -202,24 +196,6 @@
         },
         "hy.wooden_hammer": {
             "textures": "textures/items/tools/hammers/wooden_hammer"
-        },
-        "hy.diamond_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/diamond_hammer_head"
-        },
-        "hy.gold_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/gold_hammer_head"
-        },
-        "hy.iron_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/iron_hammer_head"
-        },
-        "hy.netherite_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/netherite_hammer_head"
-        },
-        "hy.wooden_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/wooden_hammer_head"
-        },
-        "hy.stone_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/stone_hammer_head"
         },
         "hy.amethyst_coal": {
             "textures": "textures/items/treasures/coals/amethyst_coal"
@@ -671,36 +647,6 @@
         "hy.tuff_metal_nugget": {
             "textures": "textures/items/materials/nuggets/stone_metal_nuggets/tuff_metal_nugget"
         },
-        "hy.andesite_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/andesite_metal_hammer_head"
-        },
-        "hy.basalt_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/basalt_metal_hammer_head"
-        },
-        "hy.blackstone_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/blackstone_metal_hammer_head"
-        },
-        "hy.calcite_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/calcite_metal_hammer_head"
-        },
-        "hy.deepslate_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/deepslate_metal_hammer_head"
-        },
-        "hy.diorite_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/diorite_metal_hammer_head"
-        },
-        "hy.end_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/end_metal_hammer_head"
-        },
-        "hy.granite_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/granite_metal_hammer_head"
-        },
-        "hy.netherrack_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/netherrack_metal_hammer_head"
-        },
-        "hy.tuff_metal_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/tuff_metal_hammer_head"
-        },
         "hy.andesite_metal_awl": {
             "textures": "textures/items/materials/awls/andesite_metal_awl"
         },
@@ -785,9 +731,6 @@
         "hy.bronze_knife": {
             "textures": "textures/items/tools/weapons/knifes/bronze_knife"
         },
-        "hy.bronze_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/bronze_hammer_head"
-        },
         "hy.bronze_axe": {
             "textures": "textures/items/tools/axes/bronze_axe"
         },
@@ -860,9 +803,6 @@
         "hy.steel_knife": {
             "textures": "textures/items/tools/weapons/knifes/steel_knife"
         },
-        "hy.steel_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/steel_hammer_head"
-        },
         "hy.steel_axe": {
             "textures": "textures/items/tools/axes/steel_axe"
         },
@@ -925,9 +865,6 @@
         },
         "hy.brass_knife": {
             "textures": "textures/items/tools/weapons/knifes/brass_knife"
-        },
-        "hy.brass_hammer_head": {
-            "textures": "textures/items/tools/hammers/hammer_heads/brass_hammer_head"
         },
         "hy.brass_axe": {
             "textures": "textures/items/tools/axes/brass_axe"
