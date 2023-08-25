@@ -4,8 +4,7 @@
         "description": {
             "identifier": "hy:diorite_metal_stone",
             "menu_category": {
-                "category": "nature",
-                "is_hidden_in_commands": false
+                "category": "nature"
             }
         },
         "components": {

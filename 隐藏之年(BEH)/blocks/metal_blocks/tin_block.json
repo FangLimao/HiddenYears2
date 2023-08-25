@@ -4,8 +4,7 @@
         "description": {
             "identifier": "hy:tin_block",
             "menu_category": {
-                "category": "construction",
-                "is_hidden_in_commands": false
+                "category": "construction"
             }
         },
         "components": {

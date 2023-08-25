@@ -4,8 +4,7 @@
         "description": {
             "identifier": "hy:lab_table",
             "menu_category": {
-                "category": "items",
-                "is_hidden_in_commands": false
+                "category": "items"
             }
         },
         "components": {

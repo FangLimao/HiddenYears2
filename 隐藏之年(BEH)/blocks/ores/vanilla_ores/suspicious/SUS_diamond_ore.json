@@ -2,31 +2,32 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "hy:andesite_metal_stone",
+            "identifier": "hy:suspicious_diamond_ore",
             "menu_category": {
-                "category": "nature"
+                "category": "nature",
+                "group": "itemGroup.name.ore"
             }
         },
         "components": {
+            "minecraft:display_name": "hy.block.suspicious_diamond_ore",
             "minecraft:loot": "loot_tables/empty.json",
-            "minecraft:display_name": "hy.block.andesite_metal_stone",
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.6
+                "seconds_to_destroy": 0.8
             },
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 6.0
+                "explosion_resistance": 3.0
             },
             "minecraft:map_color": "#707070",
             "minecraft:on_player_destroyed": {
                 "event": "hy.spawn_loot",
                 "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
             },
-            "tag:stone": {}
+            "tag:minecraft:stone_pick_diggable": {}
         },
         "events": {
             "hy.spawn_loot": {
                 "spawn_loot": {
-                    "table": "loot_tables/blocks/metal_blocks/stone_metal_blocks/andesite.json"
+                    "table": "loot_tables/blocks/suspicious_ores/diamond.json"
                 }
             }
         }
