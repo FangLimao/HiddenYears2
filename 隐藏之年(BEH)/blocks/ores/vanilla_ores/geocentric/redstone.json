@@ -6,9 +6,29 @@
             "menu_category": {
                 "group": "itemGroup.name.ore",
                 "category": "nature"
+            },
+            "states": {
+                "hy:lit": [
+                    false,
+                    true
+                ]
             }
         },
         "components": {
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "hy.litless"
+                }
+            },
+            "minecraft:on_fall_on": {
+                "event": "hy.lit"
+            },
+            "minecraft:on_interact": {
+                "event": "hy.lit"
+            },
+            "minecraft:on_step_on": {
+                "event": "hy.lit"
+            },
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:display_name": "hy.block.geocentric_redstone_ore",
             "minecraft:destructible_by_mining": {
@@ -24,7 +44,25 @@
             },
             "tag:minecraft:stone_pick_diggable": {}
         },
+        "permutations": [
+            {
+                "condition": "query.block_property('hy:lit') == true",
+                "components": {
+                    "minecraft:light_emission": 9
+                }
+            }
+        ],
         "events": {
+            "hy.litless": {
+                "set_block_property": {
+                    "hy:lit": false
+                }
+            },
+            "hy.lit": {
+                "set_block_property": {
+                    "hy:lit": true
+                }
+            },
             "hy.spawn_loot": {
                 "spawn_loot": {
                     "table": "loot_tables/blocks/geocentric_ores/redstone.json"
