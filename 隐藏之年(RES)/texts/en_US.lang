@@ -161,8 +161,8 @@ hy.item.lapis_coal=lapis coal
 hy.item.netherite_coal=netherite coal
 hy.item.coal_template=coal upgrade template
 
-tile.hy.block.fuel_ore.name=燃料矿石
-tile.hy.block.deepslate_fuel_ore.name=深层燃料矿石
+tile.hy.block.fuel_ore.name=fuel ore
+tile.hy.block.deepslate_fuel_ore.name=deepslate fuel ore
 
 hy.item.diamond_awl=钻石锥
 hy.item.gold_awl=金锥
@@ -384,31 +384,31 @@ hy.block.geocentric_lapis_ore=地心青金石矿石
 hy.block.geocentric_redstone_ore=地心红石矿石
 hy.block.geocentric_gold_ore=地心金矿石
 
-tile.hy.block.suspicious_coal_ore.name=可疑的煤矿石
-tile.hy.block.suspicious_copper_ore.name=可疑的铜矿石
-tile.hy.block.suspicious_diamond_ore.name=可疑的钻石矿石
-tile.hy.block.suspicious_emerald_ore.name=可疑的绿宝石矿石
-tile.hy.block.suspicious_iron_ore.name=可疑的铁矿石
-tile.hy.block.suspicious_lapis_ore.name=可疑的青金石矿石
-tile.hy.block.suspicious_redstone_ore.name=可疑的红石矿石
-tile.hy.block.suspicious_gold_ore.name=可疑的金矿石
+hy.block.suspicious_coal_ore=suspicious coal ore
+hy.block.suspicious_copper_ore=suspicious copper ore
+hy.block.suspicious_diamond_ore=suspicious diamond ore
+hy.block.suspicious_emerald_ore=suspicious emerald ore
+hy.block.suspicious_iron_ore=suspicious iron ore
+hy.block.suspicious_lapis_ore=suspicious lapis ore
+hy.block.suspicious_redstone_ore=suspicious redstone ore
+hy.block.suspicious_gold_ore=suspicious gold ore
 
-tile.hy.block.deepslate_suspicious_coal_ore.name=可疑的深板岩煤矿石
-tile.hy.block.deepslate_suspicious_copper_ore.name=可疑的深板岩铜矿石
-tile.hy.block.deepslate_suspicious_diamond_ore.name=可疑的深板岩钻石矿石
-tile.hy.block.deepslate_suspicious_emerald_ore.name=可疑的深板岩绿宝石矿石
-tile.hy.block.deepslate_suspicious_iron_ore.name=可疑的深板岩铁矿石
-tile.hy.block.deepslate_suspicious_lapis_ore.name=可疑的深板岩青金石矿石
-tile.hy.block.deepslate_suspicious_redstone_ore.name=可疑的深板岩红石矿石
-tile.hy.block.deepslate_suspicious_gold_ore.name=可疑的深板岩金矿石
+hy.block.deepslate_suspicious_coal_ore=deepslate suspicious coal ore
+hy.block.deepslate_suspicious_copper_ore=deepslate suspicious copper ore
+hy.block.deepslate_suspicious_diamond_ore=deepslate suspicious diamond ore
+hy.block.deepslate_suspicious_emerald_ore=deepslate suspicious emerald ore
+hy.block.deepslate_suspicious_iron_ore=deepslate suspicious iron ore
+hy.block.deepslate_suspicious_lapis_ore=deepslate suspicious lapis ore
+hy.block.deepslate_suspicious_redstone_ore=deepslate suspicious redstone ore
+hy.block.deepslate_suspicious_gold_ore=deepslate suspicious gold ore
 
-hy.item.tin_ingot=锡锭
-hy.item.tin_nugget=锡粒
-hy.item.tin_dust=锡粉
-hy.item.raw_tin=粗锡
-hy.block.tin_ore=锡矿石
-hy.block.deepslate_tin_ore=深层锡矿石
-hy.block.tin_block=锡块
+hy.item.tin_ingot=tin ingot
+hy.item.tin_nugget=tin nugget
+hy.item.tin_dust=tin dust
+hy.item.raw_tin=raw tin
+hy.block.tin_ore=tin ore
+hy.block.deepslate_tin_ore=deepslate tin ore
+hy.block.tin_block=block of tin
 
 hy.item.bronze_ingot=青铜锭
 hy.item.bronze_nugget=青铜粒
