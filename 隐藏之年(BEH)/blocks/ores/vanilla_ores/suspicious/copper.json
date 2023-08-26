@@ -26,9 +26,23 @@
         },
         "events": {
             "hy.spawn_loot": {
-                "spawn_loot": {
-                    "table": "loot_tables/blocks/suspicious_ores/copper.json"
-                }
+                "randomize": [
+                    {
+                        "weight": 3,
+                        "spawn_loot": {
+                            "table": "loot_tables/blocks/suspicious_ores/copper.json"
+                        }
+                    },
+                    {
+                        "weight": 5,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/sus_ore"
+                            ]
+                        }
+                    }
+                ]
             }
         }
     }

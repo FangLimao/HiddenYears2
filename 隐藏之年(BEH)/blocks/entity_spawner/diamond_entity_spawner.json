@@ -1,0 +1,70 @@
+/*{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "states": {
+                "hy:spawn_entity": [
+                    true,
+                    false
+                ]
+            },
+            "identifier": "hy:diamond_entity_spawner",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.ore_entity_spawner"
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('hy:spawn_entity') == true",
+                "components": {}
+            }
+        ],
+        "events": {
+            "cfm:update_rotation": {
+                "set_block_property": {
+                    "cfm:block_rotation": "query.cardinal_facing_2d"
+                }
+            },
+            "hy.summon_spawner": {
+                "sequence": [
+                    {
+                        "condition": "query.block_property('farmersdelight:first_inventory') == true",
+                        "run_command": {
+                            "command": [
+                                "summon hy:e"
+                            ]
+                        }
+                    },
+                    {
+                        "set_block_property": {
+                            "cfm:inventory": true,
+                            "farmersdelight:first_inventory": false
+                        },
+                        "run_command": {
+                            "command": [
+                                "playsound block.barrel.open @a[r=50] ~~~"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "close": {
+                "set_block_property": {
+                    "cfm:inventory": false
+                },
+                "run_command": {
+                    "command": [
+                        "playsound block.barrel.open @a[r=50] ~~~"
+                    ]
+                }
+            }
+        }
+    }
+}*/
