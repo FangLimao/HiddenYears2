@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "hy:deepslate_suspicious_ores/iron"
+		},
+		"count": 2,
+		"replace_rules": [
+			{
+				"places_block": "hy:deepslate_suspicious_iron_ore",
+				"may_replace": [
+					"deepslate_iron_ore"
+				]
+			}
+		]
+	}
+}
