@@ -33,10 +33,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_sword": {},
-            "tag:minecraft:is_tool": {},
-            "tag:hy:is_impart": {},
-            "tag:hy:meme": {}
+            "tag:hy:is_handle": {},
+            "tag:hy:impart": {}
         },
         "events": {
             "hy.on_hurt_entity": {

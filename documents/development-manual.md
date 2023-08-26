@@ -184,9 +184,15 @@ hy:is_hammer
 ```
 
 - 撬棍
-  - 用途挖掘
+  - 用于挖掘
 ```
 hy:is_crowbar
+```
+
+- 手柄
+  - 用于合成
+```
+hy:is_handle
 ```
 
 - `impart`
