@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:suspicious_gold_ore",
 				"may_replace": [
-					"gold_ore"
+					"gold_ore",
+					"hy:shallow_gold_ore"
 				]
 			}
 		]

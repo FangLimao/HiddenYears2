@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:deepslate_suspicious_lapis_ore",
 				"may_replace": [
-					"deepslate_lapis_ore"
+					"deepslate_lapis_ore",
+					"hy:geocentric_lapis_ore"
 				]
 			}
 		]

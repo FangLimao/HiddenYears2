@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:deepslate_suspicious_redstone_ore",
 				"may_replace": [
-					"deepslate_redstone_ore"
+					"deepslate_redstone_ore",
+					"hy:geocentric_redstone_ore"
 				]
 			}
 		]

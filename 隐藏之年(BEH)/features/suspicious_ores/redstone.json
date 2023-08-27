@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:suspicious_redstone_ore",
 				"may_replace": [
-					"redstone_ore"
+					"redstone_ore",
+					"hy:shallow_redstone_ore"
 				]
 			}
 		]

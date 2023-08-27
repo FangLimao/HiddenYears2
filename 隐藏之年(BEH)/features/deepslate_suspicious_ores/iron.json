@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:deepslate_suspicious_iron_ore",
 				"may_replace": [
-					"deepslate_iron_ore"
+					"deepslate_iron_ore",
+					"hy:geocentric_iron_ore"
 				]
 			}
 		]

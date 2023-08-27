@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:suspicious_lapis_ore",
 				"may_replace": [
-					"lapis_ore"
+					"lapis_ore",
+					"hy:shallow_lapis_ore"
 				]
 			}
 		]

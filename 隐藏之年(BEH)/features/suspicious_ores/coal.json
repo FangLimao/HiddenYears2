@@ -9,7 +9,8 @@
 			{
 				"places_block": "hy:suspicious_coal_ore",
 				"may_replace": [
-					"coal_ore"
+					"coal_ore",
+					"hy:shallow_coal_ore"
 				]
 			}
 		]
