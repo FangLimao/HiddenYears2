@@ -11,10 +11,7 @@
             "hy:explode": {
                 "minecraft:explode": {
                     "breaks_blocks": true,
-                    "causes_fire": false,
-                    "destroy_affected_by_griefing": false,
-                    "fire_affected_by_griefing": false,
-                    "fuse_length": 0,
+                    "causes_fire": true,
                     "fuse_lit": false,
                     "max_resistance": 100,
                     "power": 5

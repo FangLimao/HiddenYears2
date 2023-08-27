@@ -2,6 +2,7 @@
 builds
 .git/
 .idea/
+logs/
 
 *.mcpack
 *.mcaddon
