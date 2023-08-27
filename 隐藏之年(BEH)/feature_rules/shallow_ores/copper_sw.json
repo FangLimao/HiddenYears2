@@ -2,8 +2,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "hy:amethyst",
-			"places_feature": "hy:custom_ores/amethyst"
+			"identifier": "hy:copper_sw",
+			"places_feature": "hy:shallow_ores/copper"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",
@@ -37,8 +37,8 @@
 			"y": {
 				"distribution": "uniform",
 				"extent": [
-					-64,
-					128
+					16,
+					256
 				]
 			},
 			"z": {
