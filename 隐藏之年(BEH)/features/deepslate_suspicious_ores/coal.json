@@ -9,8 +9,7 @@
 			{
 				"places_block": "hy:deepslate_suspicious_coal_ore",
 				"may_replace": [
-					"deepslate_coal_ore",
-					"hy:geocentric_coal_ore"
+					"deepslate_coal_ore"
 				]
 			}
 		]
