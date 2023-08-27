@@ -1,22 +1,27 @@
 {
-	"format_version": "1.20.0",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "hy:netherite_hammer"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"ingredients": [
-			{
-				"item": "hy:netherite_hammer_head"
-			},
-			{
-				"item": "hy:wooden_handle"
-			}
-		],
-		"result": {
-			"item": "hy:netherite_hammer"
-		}
-	}
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:netherite_hammer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "netherite_ingot"
+            },
+            "X": {
+                "tag": "hy:is_handle"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            " X "
+        ],
+        "result": {
+            "item": "hy:netherite_hammer"
+        }
+    }
 }

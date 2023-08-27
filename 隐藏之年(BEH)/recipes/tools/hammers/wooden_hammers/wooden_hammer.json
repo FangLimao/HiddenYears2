@@ -2,14 +2,14 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:blackstone_metal_hammer"
+            "identifier": "hy:wooden_hammer"
         },
         "tags": [
             "crafting_table"
         ],
         "key": {
             "#": {
-                "item": "hy:blackstone_metal_ingot"
+                "item": "planks"
             },
             "X": {
                 "tag": "hy:is_handle"
@@ -21,7 +21,7 @@
             " X "
         ],
         "result": {
-            "item": "hy:blackstone_metal_hammer"
+            "item": "hy:wooden_hammer"
         }
     }
 }
