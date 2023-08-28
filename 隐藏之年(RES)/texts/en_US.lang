@@ -1,10 +1,10 @@
 pack.name=HiddenYears
-pack.description=The Add-on for you ｜ Release1.13.0 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.mod.about=§c『隐藏之年』基岩版1.13.0，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=The Add-on for you ｜ Release1.13.1 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+hy.mod.about=§c『隐藏之年』基岩版1.13.1，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载正式版1.13.0
+hy.update.version=§l§b你已成功更新/加载正式版1.13.1
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了『撬棍』
+hy.update.log=§l本次更新重写了地物、调整了部分游戏机制，是一次技术大更新。
 
 container.stonecutter=cutter
 container.stonecutter_block=cutter
