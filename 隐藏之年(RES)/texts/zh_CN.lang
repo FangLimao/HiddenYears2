@@ -6,6 +6,9 @@ hy.update.version=§l§b你已成功更新/加载正式版1.13.1
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
 hy.update.log=§l本次更新重写了地物、调整了部分游戏机制，是一次技术大更新。
 
+hy.ui.open_source.title=开源项目
+hy.ui.open_source.description=本项目使用了下面开源项目的代码/资源，谨此对这些项目的开发者致以崇高的敬意！
+
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
 tile.stonecutter.name=切割机	#
@@ -610,6 +613,9 @@ hy.item.diamond_crowbar=钻石撬棍
 
 hy.item.imitation_coal=仿制煤炭
 hy.item.imitation_charcoal=仿制木炭
+
+sc.item.stone_nugget=石子
+sc.block.crushed_stone=碎石
 
 hy.message.imitation_damage.1=这东西的质量貌似不太好……
 hy.message.imitation_damage.2=这东西仿制的质量太差以至于伤着了自己的主人

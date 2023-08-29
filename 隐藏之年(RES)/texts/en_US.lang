@@ -589,6 +589,9 @@ hy.item.iron_crowbar=iron crowbar
 hy.item.gold_crowbar=gold crowbar
 hy.item.diamond_crowbar=diamond crowbar
 
+sc.item.stone_nugget=stone nugget
+sc.block.crushed_stone=crushed stone
+
 hy.message.imitation_damage.1=这东西的质量貌似不太好……
 hy.message.imitation_damage.2=这东西仿制的质量太差以至于伤着了自己的主人
 
