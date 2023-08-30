@@ -9,7 +9,7 @@
         },
         "components": {
             "minecraft:loot": "loot_tables/blocks/crushed_stone.json",
-            "minecraft:display_name": "hy.block.andesite_metal_stone",
+            "minecraft:display_name": "sc.block.crushed_stone",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.6
             },
