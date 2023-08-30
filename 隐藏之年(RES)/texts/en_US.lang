@@ -1,10 +1,10 @@
 pack.name=HiddenYears
-pack.description=The Add-on for you ｜ Release1.13.1 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.mod.about=§c『隐藏之年』基岩版1.13.1，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=The Add-on for you ｜ Release1.13.2 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+hy.mod.about=§c『隐藏之年』基岩版1.13.2，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
 hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载正式版1.13.1
+hy.update.version=§l§b你已成功更新/加载正式版1.13.2
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新重写了地物、调整了部分游戏机制，是一次技术大更新。
+hy.update.log=§l本次更新加入了石子、碎石。
 
 container.stonecutter=cutter
 container.stonecutter_block=cutter
@@ -102,34 +102,33 @@ hy.item.amethyst_pickaxe=amethyst pickaxe
 hy.item.amethyst_shovel=amethyst shovel
 hy.item.amethyst_sword=amethyst sword
 
-hy.item.amethyst_nugget=紫水晶粒
-hy.item.coal_nugget=煤粒
-hy.item.copper_nugget=铜粒
-hy.item.diamond_nugget=钻石粒
-hy.item.emerald_nugget=绿宝石粒
-hy.item.lapis_nugget=青金石粒
-hy.item.netherite_nugget=下界合金粒
-hy.item.quartz_nugget=下界石英粒
-hy.item.redstone_nugget=红石粒
+hy.item.amethyst_nugget=amethyst nugget
+hy.item.coal_nugget=coal nugget
+hy.item.copper_nugget=copper nugget
+hy.item.diamond_nugget=diamond nugget
+hy.item.emerald_nugget=emerald nugget
+hy.item.lapis_nugget=lapis nugget
+hy.item.netherite_nugget=netherite nugget
+hy.item.quartz_nugget=quartz nugget
+hy.item.redstone_nugget=redstone nugget
 
-hy.item.amethyst_dust=紫水晶粉末
-hy.item.coal_dust=煤粉末
-hy.item.copper_dust=铜粉末
-hy.item.diamond_dust=钻石粉末
-hy.item.emerald_dust=绿宝石粉末
-hy.item.lapis_dust=青金石粉末
-hy.item.netherite_dust=下界合金粉末
-hy.item.quartz_dust=下界石英粉末
-## 哼哼哼——啊啊啊啊啊啊——啊啊啊啊啊啊啊啊——
-hy.item.iron_dust=铁粉末
-hy.item.gold_dust=金粉末
+hy.item.amethyst_dust=amethyst dust
+hy.item.coal_dust=coal dust
+hy.item.copper_dust=copper dust
+hy.item.diamond_dust=diamond dust
+hy.item.emerald_dust=emerald dust
+hy.item.lapis_dust=lapis dust
+hy.item.netherite_dust=netherite dust
+hy.item.quartz_dust=quartz dust
+hy.item.iron_dust=iron dust
+hy.item.gold_dust=gold dust
 
-hy.item.diamond_hammer=钻石锤
-hy.item.gold_hammer=金锤
-hy.item.iron_hammer=铁锤
-hy.item.netherite_hammer=下界合金锤
-hy.item.wooden_hammer=木锤
-hy.item.stone_hammer=石锤
+hy.item.diamond_hammer=diamond hammer
+hy.item.gold_hammer=gold hammer
+hy.item.iron_hammer=iron hammer
+hy.item.netherite_hammer=netherite hammer
+hy.item.wooden_hammer=wooden hammer
+hy.item.stone_hammer=stone hammer
 
 hy.item.waxed_copper_hammer=涂蜡的铜锤
 hy.item.waxed_amethyst_hammer=涂蜡的紫水晶锤
@@ -189,11 +188,11 @@ hy.item.wooden_dagger=木匕首
 hy.item.stone_dagger=石匕首
 hy.item.amethyst_dagger=紫水晶匕首
 
-hy.item.gold_coin=金币
-hy.item.diamond_coin=钻石币
-hy.item.stack_of_gold_coin=金币组
-hy.item.stack_of_diamond_coin=钻石币组
-hy.item.stack_of_copper_coin=铜币组
+hy.item.gold_coin=gold coin
+hy.item.diamond_coin=diamond coin
+hy.item.stack_of_gold_coin=stack of gold coin
+hy.item.stack_of_diamond_coin=stack of diamond coin
+hy.item.stack_of_copper_coin=stack of copper coin
 
 hy.block.fuel_metal_ore=燃金矿石
 hy.block.deepslate_fuel_metal_ore=深层燃金矿石
