@@ -948,7 +948,7 @@
       "textures": "textures/items/tools/crowbars/diamond_crowbar"
     },
     "sc.stone_nugget": {
-      "textures":"textutex/items/materials/nuggets/stone_nugget"
+      "textures":"textures/items/materials/nuggets/stone_nugget"
     }
   }
 }

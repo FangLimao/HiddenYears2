@@ -245,5 +245,9 @@
             "up": "blast_furnace_top",
             "west": "blast_furnace_side"
         }
+    },
+    "sc:crushed_stone": {
+        "sound": "stone",
+        "textures": "stone"
     }
 }
