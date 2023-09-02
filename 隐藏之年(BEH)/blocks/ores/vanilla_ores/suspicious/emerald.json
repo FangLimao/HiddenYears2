@@ -30,7 +30,7 @@
                     {
                         "weight": 8,
                         "spawn_loot": {
-                            "table": "loot_tables/blocks/suspicious_ores/emerald.json"
+                            "table": "loot_tables/blocks/geocentric_ores/emerald.json"
                         }
                     },
                     {
