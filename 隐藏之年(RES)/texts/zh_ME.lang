@@ -1,12 +1,11 @@
 hy.item.oldb=【石头工艺联动】oldb
 
 pack.name=隐藏之年
-pack.description=为你而来的附加包 ｜ 正式版1.13.2 | 函框架0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.mod.about=§c『隐藏之年』基岩版1.13.2，§r§d§l更多信息参见苦力怕论坛（https://klpbbs.com/thread-85797-1-1.html）
+pack.description=为你而来的附加包 ｜ 正式版1.13.3 | 函框架0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
 hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载正式版1.13.2
+hy.update.version=§l§b你已成功更新/加载正式版1.13.3
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了石子、碎石。
+hy.update.log=§l本次更新为可疑的矿石添加了爆炸事件。
 
 container.stonecutter=切割机	#
 container.stonecutter_block=切割机	#
@@ -619,6 +618,18 @@ sc.block.crushed_stone=碎石
 hy.message.imitation_damage.1=这东西的质量貌似不太好……
 hy.message.imitation_damage.2=这东西仿制的质量太差以至于伤着了自己的主人
 
-hy.tips.copper_essence.introduction=『铜晶』的自述
-hy.tips.copper_essence.main=这是一种晶状体。可以用四个它合成『铜之星』
-hy.tips.copper_essence.technology=
+hy.message.sus_ore.1=这个矿石里面藏着虫子！
+hy.message.sus_ore.2=§c§l这个矿石里面埋了核弹！！！
+hy.open_message.sus_ore=有人挖到了一枚埋着核弹的矿石！
+
+hy.tutorial.gets.title=获取方式
+hy.tutorial.usage.title=用途
+
+hy.tutorial.fuel_metals.title=引述之『燃金』
+hy.tutorial.fuel_metals.introduction=那倒不如直接叫做“可燃性金属” ——毅轩氵帖
+hy.tutorial.fuel_metals.index=燃金（fuel metal），是从采集燃金矿石获得的物品，主要用途是作为燃料和合成火把。
+hy.tutorial.fuel_metals.usage.1=燃金可作为燃料使用，也可以用于合成火把及灯笼
+hy.tutorial.fuel_metals.usage.2=普通变种可以熔炼100秒、碳化燃金可以熔炼300秒、矿化燃金可以合成400～5000秒
+hy.tutorial.fuel_metals.gets.1=采集燃金矿石获得8～12本身
+hy.tutorial.fuel_metals.gets.2=矿物与本身在工作台中合成矿化变种
+hy.tutorial.fuel_metals.gets.3=熔炼小麦、马铃薯、毒马铃薯、草、树叶获得碳化变种
