@@ -68,7 +68,7 @@
                     {
                         "weight": 8,
                         "spawn_loot": {
-                            "table": "loot_tables/blocks/suspicious_ores/coal.json"
+                            "table": "loot_tables/blocks/suspicious_ores/redstone.json"
                         }
                     },
                     {
