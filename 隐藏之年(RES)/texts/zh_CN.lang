@@ -3,7 +3,7 @@ pack.description=为你而来的附加包 ｜ 正式版1.13.2 | 函框架0.2.1 [
 hy.update.index=§l§6感谢你选用隐藏之年！
 hy.update.version=§l§b你已成功更新/加载正式版1.13.2
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了石子、碎石。
+hy.update.log=§l本次更新为可疑的矿石添加了爆炸事件。
 
 hy.empty=     
 
@@ -620,6 +620,10 @@ sc.block.crushed_stone=碎石
 
 hy.message.imitation_damage.1=这东西的质量貌似不太好……
 hy.message.imitation_damage.2=这东西仿制的质量太差以至于伤着了自己的主人
+
+hy.message.sus_ore.1=这个矿石里面藏着虫子！
+hy.message.sus_ore.2=§c§l这个矿石里面埋了核弹！！！
+hy.open_message.sus_ore=有人挖到了一枚埋着核弹的矿石！
 
 hy.tutorial.gets.title=获取方式
 hy.tutorial.usage.title=用途
