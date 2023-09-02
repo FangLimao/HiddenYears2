@@ -249,5 +249,9 @@
     "sc:crushed_stone": {
         "sound": "stone",
         "textures": "stone"
+    },
+    "hy:tutorial_stone": {
+        "sound": "stone",
+        "textures": "stone"
     }
 }

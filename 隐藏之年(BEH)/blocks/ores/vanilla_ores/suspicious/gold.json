@@ -26,11 +26,11 @@
         },
         "events": {
             "hy.spawn_loot": {
-                "randomize": [
+                 "randomize": [
                     {
-                        "weight": 3,
+                        "weight": 8,
                         "spawn_loot": {
-                            "table": "loot_tables/blocks/suspicious_ores/gold.json"
+                            "table": "loot_tables/blocks/suspicious_ores/coal.json"
                         }
                     },
                     {
@@ -38,7 +38,16 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function gameplay/items/sus_ore"
+                                "function gameplay/blocks/sus_ores/1"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/blocks/sus_ores/2"
                             ]
                         }
                     }
