@@ -46,7 +46,8 @@
             "minecraft:durability": {
                 "max_durability": 800
             },
-            "tag:dict:armors": {}
+            "tag:dict:armors": {},
+            "tag:dict:armors.chestplate": {}
         }
     }
 }
