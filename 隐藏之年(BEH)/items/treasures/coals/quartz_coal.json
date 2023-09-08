@@ -7,7 +7,7 @@
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.quartz_coal"
+                "value": "hy.item.mineral_coals"
             },
             "minecraft:fuel": {
                 "duration": 600
