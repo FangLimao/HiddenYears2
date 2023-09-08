@@ -3,6 +3,10 @@ builds
 .git/
 .idea/
 logs/
+node_moudles/
+
+package-lock.json
+package.json
 
 *.mcpack
 *.mcaddon
