@@ -289,6 +289,9 @@ hy.body_corrosion_cooldown
 | `dict:armors.chestplate` | 胸甲矿辞 | 1.13.4+可用 |
 | `dict:armors.helmet` | 头盔矿辞 | 1.13.4+可用 |
 | `dict:armors.leggings` | 护腿矿辞 | 1.13.4+可用 |
+| `dict:crops` | 作物矿辞 | 1.13.4+可用 |
+| `dict:crops.apple` | 苹果矿辞 | 1.13.4+可用 |
+| `dict:dusts` | 盔甲矿辞 | 1.13.4+可用 |
 
 ## 附录
 ### 原版挖掘速度表

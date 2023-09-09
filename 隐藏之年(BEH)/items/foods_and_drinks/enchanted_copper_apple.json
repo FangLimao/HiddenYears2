@@ -27,7 +27,9 @@
                     "event": "hy.on_eat",
                     "target": "self"
                 }
-            }
+            },
+            "tag:dict:crops": {},
+            "tag:dict:crops.apple": {}
         },
         "events": {
             "hy.on_eat": {
