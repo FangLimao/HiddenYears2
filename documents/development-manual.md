@@ -338,6 +338,7 @@ hy.body_corrosion_cooldown
 | `dict:ingots.bronze` | 青铜锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.steel` | 钢锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.tin` | 锡锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.stone_metal` | 岩金矿矿辞 | 1.13.4+可用 |
 
 ---
 
