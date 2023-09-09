@@ -18,7 +18,8 @@
             "minecraft:fuel": {
                 "duration": 5
             },
-            "tag:dict:dusts": {}
+            "tag:dict:dusts": {},
+            "tag:dict:dusts.coal": {}
         }
     }
 }

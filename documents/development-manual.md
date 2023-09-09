@@ -298,7 +298,27 @@ hy.body_corrosion_cooldown
 | `dict:crops.apple` | 苹果矿辞 | 1.13.4+可用 |
 
 ### 材料类
+#### 矿粉
+| 名称 | 描述 | 可用性 |
+|--------|--------|--------|
 | `dict:dusts` | 矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.amethyst` | 紫水晶矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.brass` | 黄铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.bronze` | 青铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.coal` | 煤炭矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.copper` | 铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.exposed_copper` | 斑驳的铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.weathered_copper` | 锈蚀的铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.oxidized_copper` | 氧化的铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.diamond` | 钻石矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.emerald` | 绿宝石矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.gold` | 金矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.iron` | 铁矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.lapis` | 青金石矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.netherite` | 下界合金矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.quartz` | 下界石英矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.steel` | 钢矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.tin` | 锡矿粉矿辞 | 1.13.4+可用 |
 
 ## 附录
 ### 原版挖掘速度表
