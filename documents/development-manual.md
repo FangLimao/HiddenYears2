@@ -345,10 +345,20 @@ hy.body_corrosion_cooldown
 |--------|--------|--------|
 | `dict:nuggets` | 矿粒矿辞 | 1.13.4+可用 |
 | `dict:nuggets.amethyst` | 紫水晶粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.gold` | 金粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.iron` | 铁粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.gold` | 金粒矿辞 | 保留矿辞 |
+| `dict:nuggets.iron` | 铁粒矿辞 | 保留矿辞 |
 | `dict:nuggets.brass` | 黄铜粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.brass_raw` | 生黄铜矿辞 | 1.13.4+可用 |
+| `dict:nuggets.coal` | 煤粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.copper` | 铜粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.diamond` | 钻石粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.emerald` | 绿宝石粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.lapis` | 青金石粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.netherite` | 下界合金粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.quartz` | 下界石英粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.redstone` | 红石粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.steel` | 钢粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.stone` | 石粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.tin` | 锡粒矿辞 | 1.13.4+可用 |
 | `dict:nuggets.corrosion(lvX)` | 腐蚀之粒矿辞 | 1.13.4+可用 |
 | `dict:nuggets.bronze` | 青铜粒矿辞 | 1.13.4+可用 |
 | `dict:nuggets.steel` | 钢粒矿辞 | 1.13.4+可用 |

@@ -18,7 +18,8 @@
             "minecraft:fuel": {
                 "duration": 15
             },
-            "tag:dict:nuggets": {}  
+            "tag:dict:nuggets": {},
+            "tag:dict:nuggets.coal": {}    
         }
     }
 }
