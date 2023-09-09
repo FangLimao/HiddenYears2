@@ -1,3 +1,4 @@
+let RainyAPI = new Object;
 let HiddenYears = new Object;
 HiddenYears.expGameplay = new Boolean;
 

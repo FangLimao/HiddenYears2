@@ -340,6 +340,21 @@ hy.body_corrosion_cooldown
 | `dict:ingots.tin` | 锡锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.stone_metal` | 岩金矿矿辞 | 1.13.4+可用 |
 
+#### 矿粒
+| 名称 | 描述 | 可用性 |
+|--------|--------|--------|
+| `dict:nuggets` | 矿粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.amethyst` | 紫水晶粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.gold` | 金粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.iron` | 铁粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.brass` | 黄铜粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.brass_raw` | 生黄铜矿辞 | 1.13.4+可用 |
+| `dict:nuggets.corrosion(lvX)` | 腐蚀之粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.bronze` | 青铜粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.steel` | 钢粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.tin` | 锡粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.stone_metal` | 岩金矿矿辞 | 1.13.4+可用 |
+
 ---
 
 ---

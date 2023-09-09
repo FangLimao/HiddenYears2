@@ -21,7 +21,8 @@
             },
             "minecraft:projectile": {
                 "projectile_entity": "sc:thrown_stone_nugget"
-            }
+            },
+            "tag:dict:nuggets": {}  
         }
     }
 }

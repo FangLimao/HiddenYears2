@@ -14,7 +14,8 @@
             },
             "minecraft:creative_category": {
                 "category": "items"
-            }
+            },
+            "tag:dict:nuggets": {}  
         }
     }
 }
