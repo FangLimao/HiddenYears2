@@ -15,7 +15,7 @@
 			"minecraft:creative_category": {
 				"category": "items"
 			},
-			"tag:hy:stone_metal_ingots":{},
+			"tag:dict:ingots.stone_metal":{},
 			"tag:dict:ingots": {}
 		}
 	}
