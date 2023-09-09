@@ -328,6 +328,9 @@ hy.body_corrosion_cooldown
 | 名称 | 描述 | 可用性 |
 |--------|--------|--------|
 | `dict:ingots` | 矿锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.amethyst` | 紫水晶锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.gold` | 金锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.iron` | 铁锭矿辞 | 1.13.4+可用 |
 
 ## 附录
 ### 原版挖掘速度表
