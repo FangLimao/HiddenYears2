@@ -15,7 +15,9 @@
             "minecraft:creative_category": {
                 "category": "items"
             },
-            "tag:dict:ingots": {}
+            "tag:dict:ingots": {},
+            "tag:dict:ingots.corrosion": {},
+            "tag:dict:ingots.corrosion_lv3": {}
         }
     }
 }

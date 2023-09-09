@@ -5,6 +5,7 @@
 
 ## 目录
 - [内部规范](#内部规范)
+  - [运行逻辑](#运行逻辑)
   - [版本规范](#版本规范)
   - [命令引用](#命令引用)
   - [文件储存与命名规范](#文件储存与命名规范)
@@ -17,7 +18,12 @@
   - [冷却类型](#冷却类型)
   - [方块属性](#方块属性)
   - [本地化](#本地化)
-- [矿物词典](#矿物词典)
+- [矿物辞典](#矿物辞典)
+
+## 运行逻辑
+本附加包依赖于数据驱动接口，其内容大多基于此制作，其中部分依赖命令的内容将会通过函框架实现。
+
+*本附加包不使用`player.json`及带有`-beta`标记的脚本模块*
 
 ## 内部规范
 ### 版本规范
@@ -65,11 +71,6 @@
 - 物品、方块、实体的行为文件使用其ID命名
 - 文件名不可以包含作者名称等附加信息
 - 不可以过长
-
-好的命名示例：`copper_ingot`、`brass_pickaxe`
-
-不好的命名示例：`oldb:lv2stone`、`oooollllllddddddddbbbbbbbbbbbbbbbbbbb:fang_limao`、`zheshiid:shitougongyi`、`kkkkkkkkkaaaaaaaaaaaaasssssssssssstttttttttttnnnnnnnnnnnaaaaaaaaaammmmmmmmmeeeeeeeeeee!!!!!!!!!!!!`
-
 
 ### 打包方式
 为避免在UWP平台上可能的导入失败，应遵循以下打包方式：
@@ -331,6 +332,16 @@ hy.body_corrosion_cooldown
 | `dict:ingots.amethyst` | 紫水晶锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.gold` | 金锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.iron` | 铁锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.brass` | 黄铜锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.brass_raw` | 生黄铜矿辞 | 1.13.4+可用 |
+| `dict:ingots.corrosion(lvX)` | 腐蚀之锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.bronze` | 青铜锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.steel` | 钢锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.tin` | 锡锭矿辞 | 1.13.4+可用 |
+
+---
+
+---
 
 ## 附录
 ### 原版挖掘速度表

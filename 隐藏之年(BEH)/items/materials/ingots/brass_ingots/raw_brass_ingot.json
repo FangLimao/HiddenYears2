@@ -15,7 +15,9 @@
             "minecraft:creative_category": {
                 "category": "items"
             },
-            "tag:dict:ingots": {}
+            "tag:dict:ingots": {},
+            "tag:dict:ingots.brass": {},
+            "tag:dict:ingots.brass_raw": {}
         }
     }
 }
