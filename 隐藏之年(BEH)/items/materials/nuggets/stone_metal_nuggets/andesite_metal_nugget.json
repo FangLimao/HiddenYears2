@@ -15,7 +15,7 @@
             "minecraft:creative_category": {
                 "category": "items"
             },
-            "tag:hy:stone_metal_nuggets":{},
+            "tag:dict:nuggets.stone_metal":{},
             "tag:dict:nuggets": {}            
         }
     }
