@@ -330,8 +330,9 @@ hy.body_corrosion_cooldown
 |--------|--------|--------|
 | `dict:ingots` | 矿锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.amethyst` | 紫水晶锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.gold` | 金锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.iron` | 铁锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.imitation_amethyst` | 仿造紫水晶锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.imitation_gold` | 仿造金锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.imitation_iron` | 仿造铁锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.brass` | 黄铜锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.brass_raw` | 生黄铜矿辞 | 1.13.4+可用 |
 | `dict:ingots.corrosion(lvX)` | 腐蚀之锭矿辞 | 1.13.4+可用 |

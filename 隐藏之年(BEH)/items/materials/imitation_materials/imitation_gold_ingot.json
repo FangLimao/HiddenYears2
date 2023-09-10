@@ -16,7 +16,7 @@
                 "category": "items"
             },
             "tag:dict:ingots": {},
-            "tag:dict:ingots.gold": {}
+            "tag:dict:ingots.imitation_gold": {},
             "tag:dict:materials.imitation": {}
         }
     }
