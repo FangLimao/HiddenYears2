@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:netherite_nugget"
+				"tag": "dict:nuggets.netherite"
 			}
 		},
 		"result": {

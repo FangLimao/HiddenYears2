@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:brass_nugget"
+				"tag": "dict:nuggets.brass"
 			}
 		},
 		"result": {

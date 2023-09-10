@@ -14,9 +14,14 @@
         ],
         "key": {
             "X": {
-                "item": "hy:bronze_ingot"
+                "tag": "dict:ingots.bronze"
             }
         },
+        "unlock": [
+            {
+                "tag": "dict:ingots.bronze"
+            }
+        ],
         "result": {
             "item": "hy:bronze_leggings"
         }

@@ -14,7 +14,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:tin_ingot"
+				"tag": "dict:ingots.tin"
 			}
 		},
 		"result": {

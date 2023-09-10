@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:steel_nugget"
+				"tag": "dict:nuggets.steel"
 			}
 		},
 		"result": {
