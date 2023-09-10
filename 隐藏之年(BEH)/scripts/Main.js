@@ -1,10 +1,19 @@
-let RainyAPI = new Object;
-let HiddenYears = new Object;
-HiddenYears.expGameplay = new Boolean;
-
 import { ActionFormData } from "@minecraft/server-ui";
 import { world } from "@minecraft/server";
 
+// 函框架
+export let RainyAPI = new Object;
+
+RainyAPI.version = new String;
+RainyAPI.versionCode = new Number;
+
+RainyAPI.version = 'Alpha 1.0.0-tes1'
+RainyAPI.versionCode = 0;
+
+HiddenYears = new Object;
+HiddenYears.expGameplay = new Boolean;
+
+// 向导书
 if (HiddenYears.expGameplay === true) {
     let guideBook = new ActionFormData;
     guideBook.title("向导书");
