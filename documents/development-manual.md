@@ -365,6 +365,12 @@ hy.body_corrosion_cooldown
 | `dict:nuggets.tin` | 锡粒矿辞 | 1.13.4+可用 |
 | `dict:nuggets.stone_metal` | 岩金矿矿辞 | 1.13.4+可用 |
 
+#### 生矿
+| 名称 | 描述 | 可用性 |
+|--------|--------|--------|
+| `dict:raw_ores` | 生矿矿辞 | 1.13.4+可用 |
+| `dict:raw_ores.tin` | 生锡矿辞 | 1.13.4+可用 |
+
 ---
 
 ---

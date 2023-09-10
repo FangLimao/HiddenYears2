@@ -14,7 +14,9 @@
             },
             "minecraft:creative_category": {
                 "category": "items"
-            }
+            },
+            "tag:dict:raw_ores": {},
+            "tag:dict:raw_ores.tin": {}
         }
     }
 }
