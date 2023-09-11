@@ -10,11 +10,11 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:copper_dust",
+                "tag": "dict:dusts.copper",
                 "count": 3
             },
             {
-                "item": "hy:tin_dust"
+                "tag": "dict:dusts.tin"
             }
         ],
         "result": {

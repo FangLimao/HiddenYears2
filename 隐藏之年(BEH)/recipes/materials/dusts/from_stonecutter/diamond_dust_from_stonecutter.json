@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:diamond_nugget"
+                "tag": "dict:nuggets.diamond"
             }
         ],
         "result": {

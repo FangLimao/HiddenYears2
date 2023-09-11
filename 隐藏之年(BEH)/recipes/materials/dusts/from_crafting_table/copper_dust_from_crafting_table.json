@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:copper_nugget"
+                "tag": "dict:nuggets.copper"
             }
         ],
         "result": {

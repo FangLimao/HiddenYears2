@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:emerald_nugget"
+                "tag": "dict:nuggets.emerald"
             }
         ],
         "result": {

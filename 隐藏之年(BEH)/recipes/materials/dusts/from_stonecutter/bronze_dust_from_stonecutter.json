@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:bronze_nugget"
+                "tag": "dict:nuggets.bronze"
             }
         ],
         "result": {

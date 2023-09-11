@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:quartz_nugget"
+                "tag": "dict:nuggets.quartz"
             }
         ],
         "result": {
