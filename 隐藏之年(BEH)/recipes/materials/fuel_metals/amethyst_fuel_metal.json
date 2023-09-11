@@ -9,10 +9,10 @@
         ],
         "key": {
             "#": {
-                "item": "hy:fuel_metal"
+                "tag": "dict:fuels.metal"
             },
             "&": {
-                "item": "hy:amethyst_ingot"
+                "tag": "dict:ingots.amethyst"
             }
         },
         "pattern": [

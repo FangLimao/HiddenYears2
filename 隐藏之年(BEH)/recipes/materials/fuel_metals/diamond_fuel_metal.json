@@ -9,7 +9,7 @@
         ],
         "key": {
             "#": {
-                "item": "hy:fuel_metal"
+                "tag": "dict:fuels.metal"
             },
             "&": {
                 "item": "diamond"
