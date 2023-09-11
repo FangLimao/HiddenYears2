@@ -372,6 +372,12 @@ hy.body_corrosion_cooldown
 | `dict:raw_ores` | 生矿矿辞 | 1.13.4+可用 |
 | `dict:raw_ores.tin` | 生锡矿辞 | 1.13.4+可用 |
 
+### 燃料类
+| 名称 | 描述 | 可用性 |
+|--------|--------|--------|
+| `dict:fuels` | 燃料矿辞 | 1.13.4+可用 |
+| `dict:fuels.metal` | 燃金矿辞 | 1.13.4+可用 |
+
 ---
 
 ---
