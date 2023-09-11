@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:steel_nugget",
+                "tag": "dict:nuggets.steel",
                 "count": 9
             }
         ],

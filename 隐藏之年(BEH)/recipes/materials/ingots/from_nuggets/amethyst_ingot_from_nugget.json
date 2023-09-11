@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:amethyst_nugget",
+                "tag": "dict:nuggets.amethyst",
                 "count": 9
             }
         ],

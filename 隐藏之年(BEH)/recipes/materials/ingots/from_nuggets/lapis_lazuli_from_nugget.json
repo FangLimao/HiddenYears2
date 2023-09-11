@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:lapis_nugget",
+                "tag": "dict:nuggets.lapis",
                 "count": 9
             }
         ],

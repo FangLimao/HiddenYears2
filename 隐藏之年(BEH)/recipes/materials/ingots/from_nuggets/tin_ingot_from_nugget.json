@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:tin_nugget",
+                "tag": "dict:nuggets.tin",
                 "count": 9
             }
         ],

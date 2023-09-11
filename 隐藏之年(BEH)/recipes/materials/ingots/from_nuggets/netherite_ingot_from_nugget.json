@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:netherite_nugget",
+                "tag": "dict:nuggets.netherite",
                 "count": 9
             }
         ],

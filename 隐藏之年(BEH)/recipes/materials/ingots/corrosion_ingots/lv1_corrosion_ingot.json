@@ -13,7 +13,7 @@
                 "item": "copper_ingot"
             },
             {
-                "item": "hy:exposed_copper_dust"
+                "tag": "dict:dusts.exposed_copper"
             },
             {
                 "item": "rotten_flesh"

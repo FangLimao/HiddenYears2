@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:redstone_nugget",
+                "tag": "dict:nuggets.redstone",
                 "count": 9
             }
         ],

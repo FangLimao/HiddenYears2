@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:coal_nugget",
+                "tag": "dict:nuggets.coal",
                 "count": 9
             }
         ],
