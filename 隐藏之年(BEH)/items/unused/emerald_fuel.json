@@ -18,7 +18,9 @@
             "minecraft:creative_category": {
                 "parent": "none"
             },
-            "tag:hy:fuel_metal":{}
+            "tag:hy:fuel_metal":{},
+            "tag:dict:fuels": {},
+            "tag:dict:fuels.metal": {}
         }
     }
 }
