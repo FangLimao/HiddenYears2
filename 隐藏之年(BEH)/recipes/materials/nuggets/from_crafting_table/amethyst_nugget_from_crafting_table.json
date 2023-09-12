@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:amethyst_ingot"
+                "tag": "dict:ingots.amethyst"
             }
         ],
         "result": {
