@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:netherite_dust",
+                "tag": "dict:dusts.netherite",
                 "count": 9
             }
         ],

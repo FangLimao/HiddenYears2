@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:lapis_dust",
+                "tag": "dict:dusts.lapis",
                 "count": 9
             }
         ],

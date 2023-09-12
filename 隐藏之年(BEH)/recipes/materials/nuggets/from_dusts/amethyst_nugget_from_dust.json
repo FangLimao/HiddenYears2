@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:amethyst_dust",
+                "tag": "dict:dusts.amethyst",
                 "count": 9
             }
         ],

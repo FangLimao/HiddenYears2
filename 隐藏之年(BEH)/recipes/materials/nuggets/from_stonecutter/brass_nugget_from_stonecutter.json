@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:brass_ingot"
+                "tag": "dict:ingots.brass"
             }
         ],
         "result": {

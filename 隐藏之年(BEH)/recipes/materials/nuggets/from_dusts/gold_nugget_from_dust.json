@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:gold_dust",
+                "tag": "dict:dusts.gold",
                 "count": 9
             }
         ],

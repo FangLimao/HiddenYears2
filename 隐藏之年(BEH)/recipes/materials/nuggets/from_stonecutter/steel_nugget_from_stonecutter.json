@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:steel_ingot"
+                "tag": "dict:ingots.steel"
             }
         ],
         "result": {

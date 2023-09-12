@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:copper_dust",
+                "tag": "dict:dusts.copper",
                 "count": 9
             }
         ],

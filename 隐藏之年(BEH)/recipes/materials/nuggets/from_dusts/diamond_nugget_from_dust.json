@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:diamond_dust",
+                "tag": "dict:dusts.diamond",
                 "count": 9
             }
         ],

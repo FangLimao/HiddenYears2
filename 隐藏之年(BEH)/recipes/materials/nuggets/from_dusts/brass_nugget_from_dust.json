@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:brass_dust",
+                "tag": "dict:dusts.brass",
                 "count": 9
             }
         ],

@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:tin_ingot"
+                "tag": "dict:ingots.tin"
             }
         ],
         "result": {

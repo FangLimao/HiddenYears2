@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:emerald_dust",
+                "tag": "dict:dusts.emerald",
                 "count": 9
             }
         ],
