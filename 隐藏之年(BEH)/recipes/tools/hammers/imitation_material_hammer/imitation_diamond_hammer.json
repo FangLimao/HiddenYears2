@@ -9,7 +9,7 @@
         ],
         "key": {
             "#": {
-                "item": "hy:imitation_diamond"
+                "tag": "dict:materials.imitation_diamond"
             },
             "X": {
                 "tag": "hy:is_handle"

@@ -15,7 +15,7 @@
             }
         ],
         "result": {
-            "item": "hy:steel_ingot"
+            "tag": "dict:ingots.steel"
         }
     }
 }

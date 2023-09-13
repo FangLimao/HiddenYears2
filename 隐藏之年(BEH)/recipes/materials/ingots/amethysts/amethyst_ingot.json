@@ -16,7 +16,7 @@
             }
         ],
         "result": {
-            "item": "hy:amethyst_ingot"
+            "tag": "dict:ingots.amethyst"
         }
     }
 }

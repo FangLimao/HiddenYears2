@@ -15,7 +15,7 @@
                 "item": "hy:coal_template"
             },
             {
-                "item": "hy:amethyst_ingot"
+                "tag": "dict:ingots.amethyst"
             }
         ],
         "result": {

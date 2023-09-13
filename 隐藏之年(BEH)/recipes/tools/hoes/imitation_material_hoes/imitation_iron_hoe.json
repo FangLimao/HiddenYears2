@@ -17,7 +17,7 @@
 				"item": "stick"
 			},
 			"X": {
-				"item": "hy:imitation_iron_ingot"
+				"tag": "dict:ingots.imitation_iron"
 			}
 		},
 		"result": {

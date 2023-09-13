@@ -21,7 +21,7 @@
             "###"
         ],
         "result": {
-            "item": "hy:imitation_diamond",
+            "tag": "dict:materials.imitation_diamond",
             "count": 8
         }
     }
