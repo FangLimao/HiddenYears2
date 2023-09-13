@@ -302,6 +302,7 @@ hy.body_corrosion_cooldown
 | 名称 | 描述 | 可用性 |
 |--------|--------|--------|
 | `dict:materials.imitation` | 仿制材料矿辞 | 1.13.4+可用 |
+| `dict:materials.imitation_diamond` | 仿造钻石矿辞 | 1.13.4+可用 |
 
 #### 矿粉
 | 名称 | 描述 | 可用性 |
@@ -335,7 +336,7 @@ hy.body_corrosion_cooldown
 | `dict:ingots.imitation_iron` | 仿造铁锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.brass` | 黄铜锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.brass_raw` | 生黄铜矿辞 | 1.13.4+可用 |
-| `dict:ingots.corrosion(lvX)` | 腐蚀之锭矿辞 | 1.13.4+可用 |
+| `dict:ingots.corrosion(_lvX)` | 腐蚀之锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.bronze` | 青铜锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.steel` | 钢锭矿辞 | 1.13.4+可用 |
 | `dict:ingots.tin` | 锡锭矿辞 | 1.13.4+可用 |
