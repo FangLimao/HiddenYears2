@@ -15,7 +15,7 @@
             }
         ],
         "result": {
-            "item": "hy:bronze_ingot"
+            "tag": "dict:ingots.bronze"
         }
     }
 }

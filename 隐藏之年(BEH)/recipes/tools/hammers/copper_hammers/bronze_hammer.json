@@ -9,7 +9,7 @@
         ],
         "key": {
             "#": {
-                "item": "hy:bronze_ingot"
+                "tag": "dict:ingots.bronze"
             },
             "X": {
                 "tag": "hy:is_handle"
