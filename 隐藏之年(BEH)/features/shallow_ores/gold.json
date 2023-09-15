@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "hy:shallow_ores/gold"
 		},
-		"count": 8,
+		"count": 6,
 		"replace_rules": [
 			{
 				"places_block": "hy:shallow_gold_ore",

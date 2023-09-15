@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "hy:shallow_ores/copper"
 		},
-		"count": 15,
+		"count": 12,
 		"replace_rules": [
 			{
 				"places_block": "hy:shallow_copper_ore",
