@@ -1,9 +1,9 @@
 pack.name=HiddenYears
 pack.description=The Add-on for you ｜ Release1.13.3 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.update.index=§l§6感谢你选用隐藏之年！
-hy.update.version=§l§b你已成功更新/加载正式版1.13.3
+hy.update.index=§l§6感谢你选用隐藏之年：矿辞与矿物！
+hy.update.version=§l§b你已成功更新/加载正式版1.13.4
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新为可疑的矿石添加了爆炸事件。
+hy.update.log=§l本次更新加入了矿物辞典，并调整了矿石的生成几率
 
 container.stonecutter=cutter
 container.stonecutter_block=cutter
