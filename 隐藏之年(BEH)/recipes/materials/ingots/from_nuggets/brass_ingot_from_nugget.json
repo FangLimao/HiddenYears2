@@ -15,7 +15,7 @@
             }
         ],
         "result": {
-            "tag": "dict:ingots.brass"
+            "item": "hy:brass_ingot"
         }
     }
 }
