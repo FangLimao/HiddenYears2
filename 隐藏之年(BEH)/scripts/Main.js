@@ -10,7 +10,7 @@ RainyAPI.versionCode = new Number;
 RainyAPI.version = 'Alpha 1.0.0-tes1'
 RainyAPI.versionCode = 0;
 
-HiddenYears = new Object;
+export let HiddenYears = new Object;
 HiddenYears.expGameplay = new Boolean;
 
 // 向导书
