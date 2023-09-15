@@ -14,7 +14,7 @@
             }
         ],
         "result": {
-            "tag": "dict:ingots.imitation_amethyst",
+            "item": "imitation_amethyst_ingot",
             "count": 18
         }
     }

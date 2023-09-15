@@ -21,7 +21,7 @@
             "###"
         ],
         "result": {
-            "tag": "dict:ingots.imitation_iron",
+            "item": "hy:imitation_iron_ingot",
             "count": 8
         }
     }
