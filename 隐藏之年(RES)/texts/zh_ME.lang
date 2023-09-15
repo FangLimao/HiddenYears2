@@ -216,8 +216,8 @@ hy.item.stack_of_gold_coin=金币组
 hy.item.stack_of_diamond_coin=钻石币组
 hy.item.stack_of_copper_coin=铜币组
 
-hy.block.fuel_metal_ore=燃金矿石
-hy.block.deepslate_fuel_metal_ore=深层燃金矿石
+hy.block.fuel_metal_ore=镶燃金岩
+hy.block.deepslate_fuel_metal_ore=深层镶燃金岩
 hy.item.amethyst_fuel_metal=晶化燃金
 hy.item.copper_fuel_metal=铜质燃金
 hy.item.iron_fuel_metal=铁质燃金
