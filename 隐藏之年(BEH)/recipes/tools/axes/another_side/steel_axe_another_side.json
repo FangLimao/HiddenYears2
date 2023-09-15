@@ -18,11 +18,10 @@
 			},
 			"X": {
 				"tag": "dict:ingots.steel"
-			
-			
-		},
-		"result": {
-			"item": "hy:steel_axe"
+			},
+			"result": {
+				"item": "hy:steel_axe"
+			}
 		}
 	}
 }
