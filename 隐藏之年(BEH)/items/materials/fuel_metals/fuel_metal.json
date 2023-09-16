@@ -9,8 +9,13 @@
             "minecraft:display_name": {
                 "value": "hy.item.fuel_metal"
             },
-            "minecraft:fuel": {
-                "duration": 200
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation_modifier": 0.8,
+                "using_converts_to": "hy:nightmare_fuel_metal",
+                "on_consume": {
+                    "event": "hy.on_eat"
+                }
             },
             "minecraft:icon": {
                 "texture": "hy.fuel_metal"
@@ -18,9 +23,33 @@
             "minecraft:creative_category": {
                 "category": "items"
             },
-            "tag:hy:fuel_metal":{},
+            "tag:hy:fuel_metal": {},
             "tag:dict:fuels": {},
             "tag:dict:fuels.metal": {}
+        },
+        "events": {
+            "hy.on_eat": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "kill"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/fuel_metals/normal"
+                            ]
+                        }
+                    }
+                ]
+            }
         }
     }
 }
