@@ -2,23 +2,24 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:amethyst_coal",
+            "identifier": "hy:diamond_coal",
             "category": "items"
         },
         "components": {
+            "minecraft:foil": true,
             "minecraft:display_name": {
                 "value": "hy.item.mineral_coals"
             },
             "minecraft:fuel": {
-                "duration": 100
+                "duration": 500
             },
             "minecraft:icon": {
-                "texture": "hy.amethyst_coal"
+                "texture": "coal"
             },
             "minecraft:creative_category": {
                 "parent": "items"
             },
-            "tag:hy:metal_coals":{}
+            "tag:hy:metal_coals": {}
         }
     }
 }

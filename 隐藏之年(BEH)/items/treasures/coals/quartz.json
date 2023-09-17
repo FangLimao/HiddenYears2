@@ -2,23 +2,24 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:emerald_coal",
+            "identifier": "hy:quartz_coal",
             "category": "items"
         },
         "components": {
+            "minecraft:foil": true,
             "minecraft:display_name": {
                 "value": "hy.item.mineral_coals"
             },
             "minecraft:fuel": {
-                "duration": 500
+                "duration": 450
             },
             "minecraft:icon": {
-                "texture": "hy.emerald_coal"
+                "texture": "coal"
             },
             "minecraft:creative_category": {
                 "parent": "items"
             },
-             "tag:hy:metal_coals":{}
+            "tag:hy:metal_coals": {}
         }
     }
 }

@@ -203,6 +203,18 @@ hy:is_crowbar
 hy:is_handle
 ```
 
+- 矿化煤炭
+    - 用于合成
+```
+hy:metal_coals
+```
+
+- 矿化木炭
+    - 用于合成
+```
+hy:metal_charcoals
+```
+
 - `impart`
 	- 保留标签
 ```

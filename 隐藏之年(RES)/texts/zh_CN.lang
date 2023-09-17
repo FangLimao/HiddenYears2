@@ -227,6 +227,7 @@ hy.item.amethyst_fuel_metal=晶化燃金
 hy.item.ore_fuel_metal=矿化燃金
 hy.item.fuel_metal=燃金
 hy.item.crop_fuel_metal=碳化燃金
+hy.item.fuel_metal_stick=燃金棒
 
 hy.item.andesite_metal_ingot=安山岩金锭
 hy.item.basalt_metal_ingot=玄武岩金锭
@@ -617,8 +618,10 @@ hy.message.imitation_damage.2=这东西仿制的质量太差以至于伤着了�
 hy.message.sus_ore.1=这个矿石里面藏着虫子！
 hy.message.sus_ore.2=§c§l这个矿石里面埋了核弹！！！
 hy.open_message.sus_ore=有人挖到了一枚埋着核弹的矿石！
+hy.message.fuel_metal=这个东西是可以吃的吗……
 
 hy.item.mineral_coals=矿化煤炭
+hy.item.mineral_charcoals=矿化木炭
 
 hy.tutorial.gets.title=获取方式
 hy.tutorial.usage.title=用途
