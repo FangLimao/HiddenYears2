@@ -1,9 +1,9 @@
 pack.name=HiddenYears
-pack.description=The Add-on for you ｜ Release1.13.3 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
-hy.update.index=§l§6感谢你选用隐藏之年：矿辞与矿物！
-hy.update.version=§l§b你已成功更新/加载正式版1.13.4
+pack.description=The Add-on for you ｜ Release1.14.0 | RainyAPI 0.2.1 [§l本包需要基岩版1.20.0+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+hy.update.index=§l§6感谢你选用隐藏之年：燃金与煤炭！
+hy.update.version=§l§b你已成功更新/加载正式版1.14.0
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了矿物辞典，并调整了矿石的生成几率
+hy.update.log=§l本次更新加入了矿化煤炭/木炭、魇化燃金，大修燃金，并将其设置为食物
 
 container.stonecutter=cutter
 container.stonecutter_block=cutter
@@ -200,6 +200,7 @@ hy.item.ore_fuel_metal=ore fuel metal
 hy.item.fuel_metal=fuel metal
 hy.item.crop_fuel_metal=fuel metal from crop
 hy.item.fuel_metal_stick=fuel metal stick
+hy.item.nightmare_fuel_metal=nightmare fuel metal
 
 hy.item.andesite_metal_ingot=安山岩金锭
 hy.item.basalt_metal_ingot=玄武岩金锭
