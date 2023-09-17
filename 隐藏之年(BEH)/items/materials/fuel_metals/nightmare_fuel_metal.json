@@ -6,6 +6,7 @@
             "category": "items"
         },
         "components": {
+            "minecraft:use_animation": "eat",
             "minecraft:foil": true,
             "minecraft:display_name": {
                 "value": "hy.item.nightmare_fuel_metal"

@@ -6,6 +6,7 @@
             "category": "items"
         },
         "components": {
+            "minecraft:use_animation": "eat",
             "minecraft:display_name": {
                 "value": "hy.item.fuel_metal"
             },

@@ -3,9 +3,10 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:copper_fuel_metal",
-            "category": "items"
+            "category": "none"
         },
         "components": {
+            "minecraft:use_animation": "eat",
             "minecraft:food": {
                 "nutrition": 8,
                 "saturation_modifier": 0.8,
@@ -20,10 +21,10 @@
                 "duration": 400
             },
             "minecraft:icon": {
-                "texture": "hy.copper_fuel_metal"
+                "texture": "hy.fuel_metal"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "minecraft:foil": true,
             "tag:hy:fuel_metal": {},
