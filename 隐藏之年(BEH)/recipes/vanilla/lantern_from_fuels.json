@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:lantern_from_metal_coals"
+            "identifier": "hy:lantern_from_fuels"
         },
         "tags": [
             "crafting_table"
@@ -17,12 +17,12 @@
                 "item": "iron_nugget"
             },
             "x": {
-                "tag": "hy:metal_coals"
+                "tag": "dict:fuels"
             }
         },
         "result": {
             "item": "lantern",
-            "count": 4
+            "count": 8
         }
     }
 }

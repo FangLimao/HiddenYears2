@@ -2,7 +2,7 @@
 	"format_version": "1.20.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:torch_from_fuel_metals"
+			"identifier": "hy:torch_from_fuels"
 		},
 		"tags": [
 			"crafting_table"
@@ -16,7 +16,7 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "hy:fuel_metal"
+				"tag": "dict:fuels"
 			}
 		},
 		"result": {

@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:soul_torch_from_metal_coals_soul_soil"
+            "identifier": "hy:soul_torch_from_fuels_soul_sand"
         },
         "tags": [
             "crafting_table"
@@ -14,18 +14,18 @@
         ],
         "key": {
             ".": {
-                "tag": "hy:metal_coals"
+                "tag": "dict:fuels"
             },
             "|": {
                 "item": "hy:copper_stick"
             },
             "#": {
-                "item": "soul_soil"
+                "item": "soul_sand"
             }
         },
         "result": {
             "item": "soul_torch",
-            "count": 32
+            "count": 16
         },
         "priority": -1
     }
