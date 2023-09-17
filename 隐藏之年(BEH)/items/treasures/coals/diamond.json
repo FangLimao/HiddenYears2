@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:diamond_coal",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:foil": true,
@@ -17,7 +17,7 @@
                 "texture": "coal"
             },
             "minecraft:creative_category": {
-                "parent": "items"
+                "parent": "none"
             },
             "tag:hy:metal_coals": {}
         }

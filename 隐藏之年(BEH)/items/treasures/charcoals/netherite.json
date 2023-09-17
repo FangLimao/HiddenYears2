@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:netherite_charcoal",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:foil": true,
@@ -17,7 +17,7 @@
                 "texture": "charcoal"
             },
             "minecraft:creative_category": {
-                "parent": "items"
+                "parent": "none"
             },
             "tag:hy:metal_charcoals": {}
         }
