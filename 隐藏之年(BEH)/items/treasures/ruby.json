@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:ruby",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.ruby"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "minecraft:on_use": {
                 "on_use": {
