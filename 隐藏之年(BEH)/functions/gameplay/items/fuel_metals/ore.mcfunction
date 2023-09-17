@@ -1,0 +1,1 @@
+effect @s fatal_poison 40 1

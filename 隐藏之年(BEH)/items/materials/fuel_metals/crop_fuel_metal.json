@@ -2,24 +2,28 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:iron_fuel_metal",
+            "identifier": "hy:crop_fuel_metal",
             "category": "items"
         },
         "components": {
-            "minecraft:display_name": {
-                "value": "hy.item.iron_fuel_metal"
-            },
             "minecraft:fuel": {
-                "duration": 1000
+                "duration": 300
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.crop_fuel_metal"
+            },
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation_modifier": 0.8
             },
             "minecraft:icon": {
-                "texture": "hy.iron_fuel_metal"
+                "texture": "hy.fuel_metal"
             },
             "minecraft:creative_category": {
                 "category": "items"
             },
-             "tag:hy:fuel_metal":{},
-             "tag:dict:fuels": {},
+            "tag:hy:fuel_metal": {},
+            "tag:dict:fuels": {},
             "tag:dict:fuels.metal": {}
         }
     }
