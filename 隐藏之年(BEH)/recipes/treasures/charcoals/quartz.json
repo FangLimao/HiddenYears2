@@ -2,25 +2,21 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:redstone_coal"
+            "identifier": "hy:quartz_charcoal_from_crafting_table"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "coal"
+                "item": "charcoal"
             },
             {
-                "item": "hy:coal_template"
-            },
-            {
-                "item": "redstone"
+                "item": "quartz"
             }
         ],
         "result": {
-            "item": "hy:redstone_coal",
-            "count": 12
+            "item": "hy:quartz_charcoal"
         }
     }
 }

@@ -2,25 +2,21 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:copper_coal"
+            "identifier": "hy:netherite_charcoal_from_crafting_table"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "coal"
+                "item": "charcoal"
             },
             {
-                "item": "hy:coal_template"
-            },
-            {
-                "item": "copper_ingot"
+                "item": "netherite_ingot"
             }
         ],
         "result": {
-            "item": "hy:copper_coal",
-            "count": 12
+            "item": "hy:netherite_charcoal"
         }
     }
 }

@@ -2,25 +2,21 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:amethyst_coal"
+            "identifier": "hy:diamond_charcoal_from_crafting_table"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "coal"
+                "item": "charcoal"
             },
             {
-                "item": "hy:coal_template"
-            },
-            {
-                "tag": "dict:ingots.amethyst"
+                "item": "diamond"
             }
         ],
         "result": {
-            "item": "hy:amethyst_coal",
-            "count": 12
+            "item": "hy:diamond_charcoal"
         }
     }
 }

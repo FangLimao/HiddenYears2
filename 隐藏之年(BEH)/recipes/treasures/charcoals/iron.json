@@ -2,25 +2,21 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:emerald_coal"
+            "identifier": "hy:iron_charcoal_from_crafting_table"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "coal"
+                "item": "charcoal"
             },
             {
-                "item": "hy:coal_template"
-            },
-            {
-                "item": "emerald"
+                "item": "iron_ingot"
             }
         ],
         "result": {
-            "item": "hy:emerald_coal",
-            "count": 12
+            "item": "hy:iron_charcoal"
         }
     }
 }

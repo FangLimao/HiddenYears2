@@ -2,25 +2,21 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:gold_coal"
+            "identifier": "hy:redstone_charcoal_from_crafting_table"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "coal"
+                "item": "charcoal"
             },
             {
-                "item": "hy:coal_template"
-            },
-            {
-                "item": "gold_ingot"
+                "item": "redstone"
             }
         ],
         "result": {
-            "item": "hy:gold_coal",
-            "count": 12
+            "item": "hy:redstone_charcoal"
         }
     }
 }
