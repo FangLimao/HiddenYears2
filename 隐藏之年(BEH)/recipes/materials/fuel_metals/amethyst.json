@@ -1,27 +1,23 @@
 {
     "format_version": "1.20.0",
-    "minecraft:recipe_shaped": {
+    "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "hy:amethyst_fuel_metal"
         },
         "tags": [
             "crafting_table"
         ],
-        "key": {
-            "#": {
+        "priority": 0,
+        "ingredients": [
+            {
                 "tag": "dict:fuels.metal"
             },
-            "&": {
+            {
                 "tag": "dict:ingots.amethyst"
             }
-        },
-        "pattern": [
-            "#&#",
-            "#&#"
         ],
         "result": {
-            "item": "hy:amethyst_fuel_metal",
-            "count": 10
+            "item": "hy:amethyst_fuel_metal"
         }
     }
 }
