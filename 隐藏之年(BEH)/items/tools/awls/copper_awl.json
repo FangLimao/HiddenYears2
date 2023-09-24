@@ -13,7 +13,7 @@
                 "texture": "hy.copper_awl"
             },
             "minecraft:durability": {
-                "max_durability": 16
+                "max_durability": 250
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 5,

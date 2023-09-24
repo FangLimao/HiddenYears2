@@ -13,7 +13,7 @@
                 "texture": "hy.blackstone_metal_awl"
             },
             "minecraft:durability": {
-                "max_durability": 16
+                "max_durability": 225
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 5,

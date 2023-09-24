@@ -13,7 +13,7 @@
                 "texture": "hy.netherite_awl"
             },
             "minecraft:durability": {
-                "max_durability": 16
+                "max_durability": 800
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 5,
