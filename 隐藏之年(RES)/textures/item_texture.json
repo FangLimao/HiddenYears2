@@ -925,6 +925,9 @@
         },
         "hy.fuel_metal_stick": {
             "textures": "textures/items/materials/fuel_metal_stick"
+        },
+        "hy.bark": {
+            "textures": "textures/items/materials/bark"
         }
     }
 }

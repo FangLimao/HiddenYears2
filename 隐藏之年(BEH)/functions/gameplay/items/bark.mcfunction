@@ -1,0 +1,1 @@
+tellraw @s { "rawtext" : [ { "translate" : "hy.message.eat_bark" } ] }

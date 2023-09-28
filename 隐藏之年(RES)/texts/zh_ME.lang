@@ -615,9 +615,12 @@ hy.message.sus_ore.1=这个矿石里面藏着虫子！
 hy.message.sus_ore.2=§c§l这个矿石里面埋了核弹！！！
 hy.open_message.sus_ore=有人挖到了一枚埋着核弹的矿石！
 hy.message.fuel_metal=这个东西是可以吃的吗……
+hy.message.eat_bark=你已经穷到吃树皮了吗……
 
 hy.item.mineral_coals=矿化煤炭
 hy.item.mineral_charcoals=矿化木炭
+
+hy.item.bark=树皮
 
 hy.tutorial.gets.title=获取方式
 hy.tutorial.usage.title=用途
