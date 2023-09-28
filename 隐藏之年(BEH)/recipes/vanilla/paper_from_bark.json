@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:paper_from_bark"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "tag": "dict:materials.bark"
+            }
+        },
+        "unlock": [
+            {
+                "tag": "dict:materials.bark"
+            }
+        ],
+        "result": {
+            "item": "minecraft:paper",
+            "count": 12
+        }
+    }
+}

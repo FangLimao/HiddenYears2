@@ -308,6 +308,7 @@ hy.body_corrosion_cooldown
 |--------|--------|--------|
 | `dict:materials.imitation` | 仿制材料矿辞 | 1.13.4+可用 |
 | `dict:materials.imitation_diamond` | 仿造钻石矿辞 | 1.13.4+可用 |
+| `dict:materials.bark` | 树皮材料矿辞 | 1.14.1+可用 |
 
 #### 矿粉
 | 名称 | 描述 | 可用性 |

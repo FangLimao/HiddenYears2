@@ -28,7 +28,8 @@
                     "event": "hy.on_eat",
                     "target": "self"
                 }
-            }
+            },
+            "tag:dict:materials.bark": {}
         },
         "events": {
             "hy.on_eat": {
