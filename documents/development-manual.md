@@ -287,7 +287,7 @@ hy.body_corrosion_cooldown
 
 已注册到矿物辞典的物品将能够代替其它拥有相同矿物词典名的物品。这样就可以使用以上任一物品合成相同的结果。
 
-矿物辞典本质上是添加至物品/方块中的标签，以`dict`为命名空间。
+矿物辞典本质上是添加至物品/方块中的标签，以`dict`为命名空间，目前仅覆盖模组内物品，原版方块/物品暂未适配。
 ### 盔甲类
 | 名称 | 描述 | 可用性 |
 |--------|--------|--------|
@@ -308,7 +308,12 @@ hy.body_corrosion_cooldown
 |--------|--------|--------|
 | `dict:materials.imitation` | 仿制材料矿辞 | 1.13.4+可用 |
 | `dict:materials.imitation_diamond` | 仿造钻石矿辞 | 1.13.4+可用 |
-| `dict:materials.bark` | 树皮材料矿辞 | 1.14.1+可用 |
+| `dict:materials.bark` | 树皮矿辞 | 1.14.1+可用 |
+| `dict:materials.leather` | 皮革矿辞 | 1.15.0+可用 |
+| `dict:materials.leather.large` | 大块皮革矿辞 | 1.15.0+可用 |
+| `dict:materials.leather.large_raw` | 大块生皮革矿辞 | 1.15.0+可用 |
+| `dict:materials.leather.small` | 小块皮革矿辞 | 1.15.0+可用 |
+| `dict:materials.leather.small_raw` | 小块生皮革矿辞 | 1.15.0+可用 |
 
 #### 矿粉
 | 名称 | 描述 | 可用性 |
