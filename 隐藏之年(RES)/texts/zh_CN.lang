@@ -614,6 +614,8 @@ sc.item.stone_nugget=石子
 sc.block.crushed_stone=碎石
 
 hy.item.bark=树皮
+item.leather.name=大块皮革
+item.rabbit_hide.name=小块皮革
 
 hy.message.imitation_damage.1=这东西的质量貌似不太好……
 hy.message.imitation_damage.2=这东西仿制的质量太差以至于伤着了自己的主人

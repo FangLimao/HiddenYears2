@@ -19,7 +19,7 @@
         "version": [
             1,
             14,
-            0
+            1
         ],
         "pack_scope": "world"
     },
@@ -30,7 +30,7 @@
             "version": [
                 1,
                 14,
-                0
+                1
             ]
         },
         {
@@ -80,12 +80,12 @@
             "version": [
                 1,
                 14,
-                0
+                1
             ]
         },
         {
             "module_name": "@minecraft/server",
-            "version": "1.6.0-beta"
+            "version": "1.7.0-beta"
         },
         {
             "module_name": "@minecraft/server-ui",

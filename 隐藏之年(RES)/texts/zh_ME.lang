@@ -621,6 +621,8 @@ hy.item.mineral_coals=矿化煤炭
 hy.item.mineral_charcoals=矿化木炭
 
 hy.item.bark=树皮
+item.leather.name=大块皮革
+item.rabbit_hide.name=小块皮革	
 
 hy.tutorial.gets.title=获取方式
 hy.tutorial.usage.title=用途
