@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "hy:suspicious_ores/emerald"
+		},
+		"count": 2,
+		"replace_rules": [
+			{
+				"places_block": "hy:suspicious_emerald_ore",
+				"may_replace": [
+					"emerald_ore",
+					"hy:shallow_emerald_ore"
+				]
+			}
+		]
+	}
+}
