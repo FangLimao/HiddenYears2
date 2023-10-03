@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:iron_bone"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "bone"
+            },
+            "X": {
+                "item": "iron_ingot"
+            }
+        },
+        "pattern": [
+            "X",
+            "#",
+            "X"
+        ],
+        "result": {
+            "item": "hy:iron_bone"
+        }
+    }
+}
