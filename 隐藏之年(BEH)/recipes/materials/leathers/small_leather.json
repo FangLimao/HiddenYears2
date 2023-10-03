@@ -2,7 +2,7 @@
 	"format_version": "1.20.0",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "hy:large_leather"
+			"identifier": "hy:small_leather"
 		},
 		"tags": [
 			"furnace",
