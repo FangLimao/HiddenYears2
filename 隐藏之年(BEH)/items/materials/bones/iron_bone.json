@@ -48,7 +48,8 @@
                     "target": "self"
                 }
             },
-            "tag:minecraft:is_tool": {}
+            "tag:minecraft:is_tool": {},
+            "tag:dict:materials.bone":{}
         },
         "events": {
             "hy.on_hurt_entity": {
