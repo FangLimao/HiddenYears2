@@ -16,7 +16,7 @@
             "minecraft:creative_category": {
                 "category": "items"
             },
-            "minecraft:hover_text_color": "rare"
+            "minecraft:hover_text_color": "yellow"
         }
     }
 }
