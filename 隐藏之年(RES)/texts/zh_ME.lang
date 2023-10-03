@@ -624,9 +624,9 @@ hy.item.bark=树皮
 item.leather.name=大块皮革
 item.rabbit_hide.name=小块皮革
 hy.item.enchanted_bone=附魔骨头
-hy.item.diamond_fly_bone=钻石飞骨
-hy.item.gold_fly_bone=金飞骨
-hy.item.iron_fly_bone=铁飞骨
+hy.item.diamond_bone=钻石骨棒
+hy.item.gold_bone=金骨棒
+hy.item.iron_bone=铁骨棒
 hy.item.raw_large_leather=大块生皮革
 hy.item.raw_small_leather=小块生皮革
 
