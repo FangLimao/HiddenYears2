@@ -64,8 +64,8 @@
 
 - **Entities**（实体），存储实体类战利品表
 - **Blocks**（方块），存储方块类战利品表
-- **`Gameplay`**（游戏玩法），存储游戏玩法类战利品表
-- **`Reuses`**（复用），存储可复用的战利品表，其将会以 `type:loot_table` 的方式被其他战利品表引用 *[1.15.0新增]*
+- **Gameplay**（游戏玩法），存储游戏玩法类战利品表
+- **Reuses**（复用），存储可复用的战利品表，其将会以 `type:loot_table` 的方式被其他战利品表引用 *[1.15.0新增]*
 
 #### 文件命名规范
 - 物品、方块、实体的行为文件使用其ID命名
@@ -77,8 +77,6 @@
 1. 将行为包打包成 `.mcpack` 文件
 2. 将资源包打包为 `.mcpack` 文件
 3. 将行为包、资源包的 `.mcpack` 文件打包成 `.mcaddon` 文件
-
-## 插件开发
 
 ## 开放接口
 ### 函框架API
@@ -130,7 +128,8 @@
 - 描述：释放『身心腐蚀』状态效果集
 - 调用方法：
 	- `/function api/body_corrosion.effect/v1.1/lv1`（释放身心腐蚀I）
-	- `/function api/body_corrosion.effect/v1.1/lv2`（释放身心腐蚀II）	- `/function api/body_corrosion.effect/v1.1/lv3`（释放身心腐蚀III）
+	- `/function api/body_corrosion.effect/v1.1/lv2`（释放身心腐蚀II）	
+    - `/function api/body_corrosion.effect/v1.1/lv3`（释放身心腐蚀III）
 	
 ### 函框架库
 #### `hy.tutorial`
@@ -215,7 +214,7 @@ hy:metal_coals
 hy:metal_charcoals
 ```
 
-- `impart`
+- 银趴
 	- 保留标签
 ```
 hy:is_impart
@@ -285,8 +284,8 @@ hy.body_corrosion_cooldown
 
 ### 本地化
 #### 特殊本地化字符串
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
+| 名称       | 描述     | 可用性      |
+| ---------- | -------- | ----------- |
 | `hy.empty` | 输出空行 | 1.13.3+可用 |
 
 ## 矿物辞典
@@ -296,169 +295,169 @@ hy.body_corrosion_cooldown
 
 矿物辞典本质上是添加至物品/方块中的标签，以`dict`为命名空间，目前仅覆盖模组内物品，原版方块/物品暂未适配。
 ### 盔甲类
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:armors` | 盔甲矿辞 | 1.13.4+可用 |
-| `dict:armors.boots` | 靴子矿辞 | 1.13.4+可用 |
+| 名称                     | 描述     | 可用性      |
+| ------------------------ | -------- | ----------- |
+| `dict:armors`            | 盔甲矿辞 | 1.13.4+可用 |
+| `dict:armors.boots`      | 靴子矿辞 | 1.13.4+可用 |
 | `dict:armors.chestplate` | 胸甲矿辞 | 1.13.4+可用 |
-| `dict:armors.helmet` | 头盔矿辞 | 1.13.4+可用 |
-| `dict:armors.leggings` | 护腿矿辞 | 1.13.4+可用 |
+| `dict:armors.helmet`     | 头盔矿辞 | 1.13.4+可用 |
+| `dict:armors.leggings`   | 护腿矿辞 | 1.13.4+可用 |
 
 ### 作物类
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:crops` | 作物矿辞 | 1.13.4+可用 |
+| 名称               | 描述     | 可用性      |
+| ------------------ | -------- | ----------- |
+| `dict:crops`       | 作物矿辞 | 1.13.4+可用 |
 | `dict:crops.apple` | 苹果矿辞 | 1.13.4+可用 |
 
 ### 材料类
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:materials.imitation` | 仿制材料矿辞 | 1.13.4+可用 |
-| `dict:materials.imitation_diamond` | 仿造钻石矿辞 | 1.13.4+可用 |
-| `dict:materials.bark` | 树皮矿辞 | 1.14.1+可用 |
-| `dict:materials.leather` | 皮革矿辞 | 1.15.0+可用 |
-| `dict:materials.leather.large` | 大块皮革矿辞 | 1.15.0+可用 |
+| 名称                               | 描述           | 可用性      |
+| ---------------------------------- | -------------- | ----------- |
+| `dict:materials.imitation`         | 仿制材料矿辞   | 1.13.4+可用 |
+| `dict:materials.imitation_diamond` | 仿造钻石矿辞   | 1.13.4+可用 |
+| `dict:materials.bark`              | 树皮矿辞       | 1.14.1+可用 |
+| `dict:materials.leather`           | 皮革矿辞       | 1.15.0+可用 |
+| `dict:materials.leather.large`     | 大块皮革矿辞   | 1.15.0+可用 |
 | `dict:materials.leather.large_raw` | 大块生皮革矿辞 | 1.15.0+可用 |
-| `dict:materials.leather.small` | 小块皮革矿辞 | 1.15.0+可用 |
+| `dict:materials.leather.small`     | 小块皮革矿辞   | 1.15.0+可用 |
 | `dict:materials.leather.small_raw` | 小块生皮革矿辞 | 1.15.0+可用 |
+| `dict:materials.bone`              | 骨头矿辞       | 1.15.0+可用 |
 
 #### 矿粉
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:dusts` | 矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.amethyst` | 紫水晶矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.brass` | 黄铜矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.bronze` | 青铜矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.coal` | 煤炭矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.copper` | 铜矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.exposed_copper` | 斑驳的铜矿粉矿辞 | 1.13.4+可用 |
+| 名称                          | 描述             | 可用性      |
+| ----------------------------- | ---------------- | ----------- |
+| `dict:dusts`                  | 矿粉矿辞         | 1.13.4+可用 |
+| `dict:dusts.amethyst`         | 紫水晶矿粉矿辞   | 1.13.4+可用 |
+| `dict:dusts.brass`            | 黄铜矿粉矿辞     | 1.13.4+可用 |
+| `dict:dusts.bronze`           | 青铜矿粉矿辞     | 1.13.4+可用 |
+| `dict:dusts.coal`             | 煤炭矿粉矿辞     | 1.13.4+可用 |
+| `dict:dusts.copper`           | 铜矿粉矿辞       | 1.13.4+可用 |
+| `dict:dusts.exposed_copper`   | 斑驳的铜矿粉矿辞 | 1.13.4+可用 |
 | `dict:dusts.weathered_copper` | 锈蚀的铜矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.oxidized_copper` | 氧化的铜矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.diamond` | 钻石矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.emerald` | 绿宝石矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.gold` | 金矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.iron` | 铁矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.lapis` | 青金石矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.netherite` | 下界合金矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.quartz` | 下界石英矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.steel` | 钢矿粉矿辞 | 1.13.4+可用 |
-| `dict:dusts.tin` | 锡矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.oxidized_copper`  | 氧化的铜矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.diamond`          | 钻石矿粉矿辞     | 1.13.4+可用 |
+| `dict:dusts.emerald`          | 绿宝石矿粉矿辞   | 1.13.4+可用 |
+| `dict:dusts.gold`             | 金矿粉矿辞       | 1.13.4+可用 |
+| `dict:dusts.iron`             | 铁矿粉矿辞       | 1.13.4+可用 |
+| `dict:dusts.lapis`            | 青金石矿粉矿辞   | 1.13.4+可用 |
+| `dict:dusts.netherite`        | 下界合金矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.quartz`           | 下界石英矿粉矿辞 | 1.13.4+可用 |
+| `dict:dusts.steel`            | 钢矿粉矿辞       | 1.13.4+可用 |
+| `dict:dusts.tin`              | 锡矿粉矿辞       | 1.13.4+可用 |
 
 #### 矿锭
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:ingots` | 矿锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.amethyst` | 紫水晶锭矿辞 | 1.13.4+可用 |
+| 名称                             | 描述             | 可用性      |
+| -------------------------------- | ---------------- | ----------- |
+| `dict:ingots`                    | 矿锭矿辞         | 1.13.4+可用 |
+| `dict:ingots.amethyst`           | 紫水晶锭矿辞     | 1.13.4+可用 |
 | `dict:ingots.imitation_amethyst` | 仿造紫水晶锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.imitation_gold` | 仿造金锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.imitation_iron` | 仿造铁锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.brass` | 黄铜锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.brass_raw` | 生黄铜矿辞 | 1.13.4+可用 |
-| `dict:ingots.corrosion(_lvX)` | 腐蚀之锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.bronze` | 青铜锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.steel` | 钢锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.tin` | 锡锭矿辞 | 1.13.4+可用 |
-| `dict:ingots.stone_metal` | 岩金矿矿辞 | 1.13.4+可用 |
+| `dict:ingots.imitation_gold`     | 仿造金锭矿辞     | 1.13.4+可用 |
+| `dict:ingots.imitation_iron`     | 仿造铁锭矿辞     | 1.13.4+可用 |
+| `dict:ingots.brass`              | 黄铜锭矿辞       | 1.13.4+可用 |
+| `dict:ingots.brass_raw`          | 生黄铜矿辞       | 1.13.4+可用 |
+| `dict:ingots.corrosion(_lvX)`    | 腐蚀之锭矿辞     | 1.13.4+可用 |
+| `dict:ingots.bronze`             | 青铜锭矿辞       | 1.13.4+可用 |
+| `dict:ingots.steel`              | 钢锭矿辞         | 1.13.4+可用 |
+| `dict:ingots.tin`                | 锡锭矿辞         | 1.13.4+可用 |
+| `dict:ingots.stone_metal`        | 岩金矿矿辞       | 1.13.4+可用 |
 
 #### 矿粒
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:nuggets` | 矿粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.amethyst` | 紫水晶粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.gold` | 金粒矿辞 | 保留矿辞 |
-| `dict:nuggets.iron` | 铁粒矿辞 | 保留矿辞 |
-| `dict:nuggets.brass` | 黄铜粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.coal` | 煤粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.copper` | 铜粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.diamond` | 钻石粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.emerald` | 绿宝石粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.lapis` | 青金石粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.netherite` | 下界合金粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.quartz` | 下界石英粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.redstone` | 红石粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.steel` | 钢粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.stone` | 石粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.tin` | 锡粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.corrosion(lvX)` | 腐蚀之粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.bronze` | 青铜粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.steel` | 钢粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.tin` | 锡粒矿辞 | 1.13.4+可用 |
-| `dict:nuggets.stone_metal` | 岩金矿矿辞 | 1.13.4+可用 |
+| 名称                          | 描述           | 可用性      |
+| ----------------------------- | -------------- | ----------- |
+| `dict:nuggets`                | 矿粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.amethyst`       | 紫水晶粒矿辞   | 1.13.4+可用 |
+| `dict:nuggets.gold`           | 金粒矿辞       | 保留矿辞    |
+| `dict:nuggets.iron`           | 铁粒矿辞       | 保留矿辞    |
+| `dict:nuggets.brass`          | 黄铜粒矿辞     | 1.13.4+可用 |
+| `dict:nuggets.coal`           | 煤粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.copper`         | 铜粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.diamond`        | 钻石粒矿辞     | 1.13.4+可用 |
+| `dict:nuggets.emerald`        | 绿宝石粒矿辞   | 1.13.4+可用 |
+| `dict:nuggets.lapis`          | 青金石粒矿辞   | 1.13.4+可用 |
+| `dict:nuggets.netherite`      | 下界合金粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.quartz`         | 下界石英粒矿辞 | 1.13.4+可用 |
+| `dict:nuggets.redstone`       | 红石粒矿辞     | 1.13.4+可用 |
+| `dict:nuggets.steel`          | 钢粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.stone`          | 石粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.tin`            | 锡粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.corrosion(lvX)` | 腐蚀之粒矿辞   | 1.13.4+可用 |
+| `dict:nuggets.bronze`         | 青铜粒矿辞     | 1.13.4+可用 |
+| `dict:nuggets.steel`          | 钢粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.tin`            | 锡粒矿辞       | 1.13.4+可用 |
+| `dict:nuggets.stone_metal`    | 岩金矿矿辞     | 1.13.4+可用 |
 
 #### 生矿
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:raw_ores` | 生矿矿辞 | 1.13.4+可用 |
+| 名称                | 描述     | 可用性      |
+| ------------------- | -------- | ----------- |
+| `dict:raw_ores`     | 生矿矿辞 | 1.13.4+可用 |
 | `dict:raw_ores.tin` | 生锡矿辞 | 1.13.4+可用 |
 
 ### 燃料类
-| 名称 | 描述 | 可用性 |
-|--------|--------|--------|
-| `dict:fuels` | 燃料矿辞 | 1.13.4+可用 |
+| 名称               | 描述     | 可用性      |
+| ------------------ | -------- | ----------- |
+| `dict:fuels`       | 燃料矿辞 | 1.13.4+可用 |
 | `dict:fuels.metal` | 燃金矿辞 | 1.13.4+可用 |
-
----
 
 ---
 
 ## 附录
 ### 原版挖掘速度表
-> 本文档挖掘速度指`minecraft:digger`中定义的`speed`值
+> 本文档挖掘速度指 `minecraft:digger` 组件中定义的 `speed` 值
 
-| 值 | 描述 |
-| -------- | -------- |
-| `0` | 无法挖掘 |
-| `2` | 木工具挖掘速度 | 
-| `3` | 石工具挖掘速度 |   
-| `6` | 钻石工具挖掘速度 | 
-| `7` | 下界合金工具挖掘速度 | 
-| `8` | 金工具挖掘速度 | 
+| 值  | 描述                 |
+| --- | -------------------- |
+| 0   | 无法挖掘             |
+| 2   | 木工具挖掘速度       |
+| 3   | 石工具挖掘速度       |
+| 6   | 钻石工具挖掘速度     |
+| 7   | 下界合金工具挖掘速度 |
+| 8   | 金工具挖掘速度       |
 
 ### 原版道具耐久表
 
-| 道具 | 耐久 | 其他 |
-| -------- | -------- | -------- |
-| 木 | 59 |  |
-| 石 | 131 |  |
-| 铁 | 250 |  |
-| 金 | 32 |  |
-| 钻石 | 1561 |  |
-| 下界合金 | 2031 |  |
+| 道具     | 耐久 | 其他 |
+| -------- | ---- | ---- |
+| 木       | 59   |      |
+| 石       | 131  |      |
+| 铁       | 250  |      |
+| 金       | 32   |      |
+| 钻石     | 1561 |      |
+| 下界合金 | 2031 |      |
 
 ### 原版伤害来源
-| ID | 描述 |
-| -------- | -------- |
-| all | 所有 |  
-| anvil | 铁砧 |  
-| block_explosion |  |  
-| charging |  |  
-| contact |  |  
-| drowning |  | 
-| entity_attack	||
-| entity_explosion	||
-|fall	||
-|falling_block	||
-|fire	||
-|fire_tick	||
-|fireworks	||
-|fly_into_wall	||
-|freezing	||
-|lava	||
-|lightning	||
-|magic	||
-|magma	||
-|none	||
-|override	||
-|piston	||
-|projectile	||
-|stalactite	||
-|stalagmite	||
-|starve	||
-|suffocation	||
-|suicide	||
-|temperature	||
-|thorns	||
-|void	||
-|wither ||
+| ID               | 描述     |
+| ---------------- | -------- |
+| all              | 所有     |
+| anvil            | 铁砧     |
+| block_explosion  | 方块爆炸 |
+| charging         |          |
+| contact          |          |
+| drowning         |          |
+| entity_attack    |          |
+| entity_explosion |          |
+| fall             |          |
+| falling_block    |          |
+| fire             |          |
+| fire_tick        |          |
+| fireworks        |          |
+| fly_into_wall    |          |
+| freezing         |          |
+| lava             |          |
+| lightning        |          |
+| magic            |          |
+| magma            |          |
+| none             |          |
+| override         |          |
+| piston           |          |
+| projectile       |          |
+| stalactite       |          |
+| stalagmite       |          |
+| starve           |          |
+| suffocation      |          |
+| suicide          |          |
+| temperature      |          |
+| thorns           |          |
+| void             |          |
+| wither           |          |
 
 ### 原版道具伤害表
+> WIP
