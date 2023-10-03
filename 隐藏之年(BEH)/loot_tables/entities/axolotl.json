@@ -14,7 +14,7 @@
                                 "min": 2,
                                 "max": 3
                             }
-                        },                    
+                        },
                         {
                             "function": "looting_enchant",
                             "count": {
@@ -23,6 +23,16 @@
                             }
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/reuses/lb_mob.json",
+                    "weight": 1
                 }
             ]
         }
