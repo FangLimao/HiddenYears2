@@ -928,6 +928,15 @@
         },
         "hy.bark": {
             "textures": "textures/items/materials/bark"
+        },
+        "hy.diamond_bone": {
+            "textures": "textures/items/materials/bones/diamond_bone"
+        },
+        "hy.gold_bone": {
+            "textures": "textures/items/materials/bones/gold_bone"
+        },
+        "hy.iron_bone": {
+            "textures": "textures/items/materials/bones/iron_bone"
         }
     }
 }
