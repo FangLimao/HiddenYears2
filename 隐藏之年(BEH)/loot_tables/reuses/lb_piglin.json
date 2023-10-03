@@ -4,25 +4,22 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
-                    "name": "loot_tables/reuses/lb_piglin.json",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
                     "type": "item",
-                    "name": "minecraft:rotten_flesh",
+                    "name": "hy:raw_small_leather",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 3,
-                                "max": 4
+                                "min": 0,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
                             }
                         }
                     ]
@@ -34,14 +31,14 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:gold_ingot",
+                    "name": "minecraft:bone",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 1
+                                "min": 0,
+                                "max": 4
                             }
                         },
                         {
