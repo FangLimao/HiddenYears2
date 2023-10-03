@@ -5,14 +5,14 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:rotten_flesh",
+                    "name": "minecraft:arrow",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 3
+                                "min": 0,
+                                "max": 2
                             }
                         },
                         {
@@ -37,17 +37,13 @@
             ]
         },
         {
-            "conditions": [
-                {
-                    "condition": "killed_by_player_or_pets"
-                }
-            ],
             "rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:gold_ingot",
+                    "name": "minecraft:arrow",
                     "weight": 1,
+                    "auxVal": 19,
                     "functions": [
                         {
                             "function": "set_count",
@@ -55,8 +51,25 @@
                                 "min": 0,
                                 "max": 1
                             }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 1
+                        },
+                        {
+                            "function": "minecraft:set_data",
+                            "data": 19
                         }
                     ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
                 }
             ]
         }
