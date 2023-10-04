@@ -9,9 +9,12 @@ from "@minecraft/server";
 
 // 函框架
 export let RainyAPI = new Object;
+export let HiddenYears = new Object;
 
 RainyAPI.version = new String;
 RainyAPI.versionCode = new Number;
+HiddenYears.version = new String;
+HiddenYears.versionCode = new Number;
 
 RainyAPI.version = 'Alpha 1.0.0-tes1';
 RainyAPI.versionCode = 0;

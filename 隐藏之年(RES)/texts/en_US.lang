@@ -1,9 +1,11 @@
 pack.name=HiddenYears
-pack.description=The Add-on for you ｜ Hotfix1.14.2 | RainyAPI 0.2.1 [§lNeed Bedrock 1.20.0+ and enable§6 Holiday Creator Features,Custom Biomes,Upcoming Creator Features§r experimental gameplays]
-hy.update.index=§l§6感谢你选用隐藏之年：木与锥！
-hy.update.version=§l§b你已成功更新/加载热修复1.14.2
+pack.description=The Add-on for you ｜ Hotfix1.15.0 | RainyAPI 0.2.1 [§lNeed Bedrock 1.20.0+ and enable§6 Holiday Creator Features,Custom Biomes,Upcoming Creator Features§r experimental gameplays]
+hy.update.index=§l§6感谢你选用隐藏之年：皮与骨！
+hy.update.version=§l§b你已成功更新/加载正式版1.15.0
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新修复了1.20.30+的地物问题（需加载隐藏之年：地物修复包）
+hy.update.log=§l本次更新加入了生皮革、骨棒等特性。
+
+hy.empty= 
 
 container.stonecutter=cutter
 container.stonecutter_block=cutter
