@@ -9,6 +9,9 @@
         },
         "component_groups": {},
         "components": {
+            "minecraft:loot": {
+                "table": "loot_tables/entities/bat.json"
+            },
             "minecraft:is_hidden_when_invisible": {},
             "minecraft:type_family": {
                 "family": [
@@ -70,10 +73,8 @@
             },
             "minecraft:can_fly": {},
             "minecraft:health": {
-                "value": {
-                    "range_min": 6,
-                    "range_max": 8
-                }
+                "value": 6,
+                "max": 6
             },
             "minecraft:nameable": {},
             "minecraft:physics": {},
