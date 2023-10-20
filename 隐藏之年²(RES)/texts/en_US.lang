@@ -1,43 +1,22 @@
 pack.name=HiddenYears
 pack.description=The Add-on for you ｜ Release1.15.1 | Only support Chinese/English(WIP) [§lNeed Bedrock 1.20.0+ and enable§6 Holiday Creator Features,Custom Biomes,Upcoming Creator Features§r experimental gameplays]
-hy.update.index=§l§6感谢你选用隐藏之年：皮与骨！
-hy.update.version=§l§b你已成功更新/加载正式版1.15.0
-hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了生皮革、骨棒等特性。
+hy.update.index=§l§6Thanks for playing HiddenYears²
+hy.update.version=§l§bYou loaded HiddenYears² Snapshot 2.0.0.2
+hy.update.bbs=§7§oThis Add-on is made by CTN Studios,and open source according to the MIT LICENSE.
+hy.update.log=§lYou can view Mcpedl page to know what's new.
 
 hy.empty= 
 
-container.stonecutter=cutter
-container.stonecutter_block=cutter
-tile.stonecutter.name=cutter
-tile.stonecutter_block.name=cutter
+container.stonecutter=Cutter
+container.stonecutter_block=Cutter
+tile.stonecutter.name=Cutter
+tile.stonecutter_block.name=Cutter
 
-hy.message.tetanus=You got the§b『tetanus』§reffect！
+hy.message.tetanus=You got the §b『tetanus』§reffect！
 
-hy.message.oxidising.exposed_sword=Your copper sword became §b『exposed』§r
-hy.message.oxidising.weathered_sword=Your copper sword became §b『weathered』§r
-hy.message.oxidising.oxidized_sword=Your copper sword became §b『oxidized』§r
-hy.message.oxidising.exposed_pickaxe=你的铜镐变得§b『斑驳』§r
-hy.message.oxidising.weathered_pickaxe=你的铜镐变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_pickaxe=你的铜镐§b『完全氧化』§r
-hy.message.oxidising.exposed_hoe=你的铜锄变得§b『斑驳』§r
-hy.message.oxidising.weathered_hoe=你的铜锄变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_hoe=你的铜锄§b『完全氧化』§r
-hy.message.oxidising.exposed_hammer=你的铜锤变得§b『斑驳』§r
-hy.message.oxidising.weathered_hammer=你的铜锤变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_hammer=你的铜锤§b『完全氧化』§r
-hy.message.oxidising.exposed_axe=你的铜斧变得§b『斑驳』§r
-hy.message.oxidising.weathered_axe=你的铜斧变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_axe=你的铜斧§b『完全氧化』§r
-hy.message.oxidising.exposed_shovel=你的铜锹变得§b『斑驳』§r
-hy.message.oxidising.weathered_shovel=你的铜锹变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_shovel=你的铜锹§b『完全氧化』§r
-hy.message.oxidising.exposed_knife=你的铜小刀变得§b『斑驳』§r
-hy.message.oxidising.weathered_knife=你的铜小刀变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_knife=你的铜小刀§b『完全氧化』§r
-hy.message.oxidising.exposed_dagger=你的铜匕首变得§b『斑驳』§r
-hy.message.oxidising.weathered_dagger=你的铜匕首变得§b『锈蚀』§r
-hy.message.oxidising.oxidized_dagger=你的铜匕首§b『完全氧化』§r
+hy.message.oxidising.exposed=This tool became §b『exposed』§r.
+hy.message.oxidising.weathered=This tool became §b『weathered』§r.
+hy.message.oxidising.oxidized=此This tool is §b『oxidized』§r.
 hy.message.medicines.1=这是一瓶§b『眼药水』§r
 hy.message.medicines.2=这是一瓶§b『胃药』§r
 hy.message.medicines.3=这是一瓶§b『驱邪药』§r
