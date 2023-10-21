@@ -16,7 +16,6 @@ tile.stonecutter.name=切割機	#
 tile.stonecutter_block.name=切割機	#
 
 hy.message.tetanus=你獲得了§b『破傷風』§r效果！
-
 hy.message.oxidising.exposed=此工具变得§b『斑驳』§r
 hy.message.oxidising.weathered=此工具变得§b『锈蚀』§r
 hy.message.oxidising.oxidized=此工具已经§b『完全氧化』§r
@@ -321,15 +320,6 @@ hy.block.shallow_iron_ore=浅层铁矿石
 hy.block.shallow_lapis_ore=浅层青金石矿石
 hy.block.shallow_redstone_ore=浅层红石矿石
 hy.block.shallow_gold_ore=浅层金矿石
-
-tile.hy.block.deep_coal_ore.name=深层煤矿石
-tile.hy.block.deep_copper_ore.name=深层铜矿石
-tile.hy.block.deep_diamond_ore.name=深层钻石矿石
-tile.hy.block.deep_emerald_ore.name=深层绿宝石矿石
-tile.hy.block.deep_iron_ore.name=深层铁矿石
-tile.hy.block.deep_lapis_ore.name=深层青金石矿石
-tile.hy.block.deep_redstone_ore.name=深层红石矿石
-tile.hy.block.deep_gold_ore.name=深层金矿石
 
 hy.block.geocentric_coal_ore=地心煤矿石
 hy.block.geocentric_copper_ore=地心铜矿石

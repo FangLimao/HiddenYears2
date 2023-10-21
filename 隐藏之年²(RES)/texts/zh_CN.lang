@@ -18,7 +18,6 @@ tile.stonecutter_block.name=切割机	#
 hy.message.error.100=§c致命错误(100)：缺少前置函数库，请重新下载此附加包。
 
 hy.message.tetanus=你获得了§b『破伤风』§r效果！
-
 hy.message.oxidising.exposed=此工具变得§b『斑驳』§r
 hy.message.oxidising.weathered=此工具变得§b『锈蚀』§r
 hy.message.oxidising.oxidized=此工具已经§b『完全氧化』§r
@@ -131,7 +130,6 @@ hy.item.diamond_coal=钻石煤炭
 hy.item.redstone_coal=红石煤炭
 hy.item.lapis_coal=青金石煤炭
 hy.item.netherite_coal=下界合金煤炭
-hy.item.coal_template=煤炭升级模板
 
 tile.hy.block.fuel_ore.name=燃料矿石
 tile.hy.block.deepslate_fuel_ore.name=深层燃料矿石
@@ -323,15 +321,6 @@ hy.block.shallow_iron_ore=浅层铁矿石
 hy.block.shallow_lapis_ore=浅层青金石矿石
 hy.block.shallow_redstone_ore=浅层红石矿石
 hy.block.shallow_gold_ore=浅层金矿石
-
-tile.hy.block.deep_coal_ore.name=深层煤矿石
-tile.hy.block.deep_copper_ore.name=深层铜矿石
-tile.hy.block.deep_diamond_ore.name=深层钻石矿石
-tile.hy.block.deep_emerald_ore.name=深层绿宝石矿石
-tile.hy.block.deep_iron_ore.name=深层铁矿石
-tile.hy.block.deep_lapis_ore.name=深层青金石矿石
-tile.hy.block.deep_redstone_ore.name=深层红石矿石
-tile.hy.block.deep_gold_ore.name=深层金矿石
 
 hy.block.geocentric_coal_ore=地心煤矿石
 hy.block.geocentric_copper_ore=地心铜矿石
