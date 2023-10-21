@@ -33,6 +33,14 @@
                         }
                     },
                     {
+                        "block": "moss_carpet",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
                         "block": "bamboo",
                         "speed": 60,
                         "on_dig": {
