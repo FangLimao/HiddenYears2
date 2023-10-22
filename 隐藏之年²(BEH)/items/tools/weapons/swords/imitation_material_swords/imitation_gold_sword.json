@@ -173,7 +173,7 @@
             },
             "minecraft:weapon": {
                 "on_hurt_entity": {
-                    "event": "hy.on_hurt_entity",
+                    "event": "hy.on_break_block",
                     "target": "self"
                 }
             },
@@ -181,52 +181,6 @@
             "tag:minecraft:is_tool": {}
         },
         "events": {
-            "hy.on_hurt_entity": {
-                "randomize": [
-                    {
-                        "weight": 2,
-                        "damage": {
-                            "amount": 1,
-                            "target": "self",
-                            "type": "magic"
-                        }
-                    },
-                    {
-                        "weight": 5,
-                        "damage": {
-                            "amount": 10,
-                            "type": "magic",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "weight": 10,
-                        "damage": {
-                            "amount": 15,
-                            "type": "magic",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "weight": 3,
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function gameplay/items/imitation_damage/1"
-                            ]
-                        }
-                    },
-                    {
-                        "weight": 2,
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function gameplay/items/imitation_damage/2"
-                            ]
-                        }
-                    }
-                ]
-            },
             "hy.on_break_block": {
                 "randomize": [
                     {
