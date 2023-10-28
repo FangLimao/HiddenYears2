@@ -937,6 +937,15 @@
         },
         "hy.iron_bone": {
             "textures": "textures/items/materials/bones/iron_bone"
+        },
+        "hy.copper_badge": {
+            "textures": "textures/items/treasures/badges/copper_badge"
+        },
+        "hy.diamond_badge": {
+            "textures": "textures/items/treasures/badges/diamond_badge"
+        },
+        "hy.golden_badge": {
+            "textures": "textures/items/treasures/badges/golden_badge"
         }
     }
 }
