@@ -2,7 +2,7 @@
 [![pCrHGWt.png](https://s1.ax1x.com/2023/07/03/pCrHGWt.png)](https://imgse.com/i/pCrHGWt)
 
 | 最新版本 | 发布时间 |
-|---|---|---|
+|---|---|
 | 1.3.2 | 2023.7.5 | 
 **请尽快更新！**
 > 这是我们的新版README

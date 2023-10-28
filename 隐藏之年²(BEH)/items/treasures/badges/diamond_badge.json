@@ -1,0 +1,54 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:diamond_badge",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.diamond_badge"
+            },
+            "minecraft:durability": {
+                "max_durability": 3
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:display_name": {
+                "value": "hy.item.diamond_badge"
+            },
+            "minecraft:creative_category": {
+                "category": "equipment"
+            },
+            "minecraft:cooldown": {
+                "category": "hy.badge_cooldown",
+                "duration": 20
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "hy.on_use",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "hy.on_use": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 1
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/medicines/bandage"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

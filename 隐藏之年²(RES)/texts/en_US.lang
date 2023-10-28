@@ -509,3 +509,6 @@ hy.message.eat_bark=Are you already poor enough to eat the bark?
 
 hy.item.mineral_coals=Mineral Coal
 hy.item.mineral_charcoals=Mineral Charcoal
+hy.item.diamond_badge=Diamond Badge
+hy.item.golden_badge=Golden Badge
+hy.item.copper_badge=Copper Badge

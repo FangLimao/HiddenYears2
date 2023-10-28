@@ -533,3 +533,6 @@ hy.message.eat_bark=你已经穷到吃树皮了吗……
 
 hy.item.mineral_coals=矿化煤炭
 hy.item.mineral_charcoals=矿化木炭
+hy.item.diamond_badge=钻石徽章
+hy.item.golden_badge=金徽章
+hy.item.copper_badge=铜徽章
