@@ -18,8 +18,8 @@
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 2
+                                "min": 2,
+                                "max": 3
                             }
                         }
                     ]
