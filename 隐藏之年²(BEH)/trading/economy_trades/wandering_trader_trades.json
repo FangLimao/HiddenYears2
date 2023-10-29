@@ -3,7 +3,7 @@
         {
             "groups": [
                 {
-                    "num_to_select": 7,
+                    "num_to_select": 5,
                     "trades": [
                         {
                             "wants": [
@@ -147,6 +147,65 @@
                             ],
                             "trader_exp": 2,
                             "max_uses": 16,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:diamond_badge",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "diamond_block",
+                                    "quantity": 9
+                                }
+                            ],
+                            "trader_exp": 15,
+                            "max_uses": 2,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:golden_badge",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "gold_block",
+                                    "quantity": 9
+                                }
+                            ],
+                            "trader_exp": 14,
+                            "max_uses": 2,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "hy:copper_badge",
+                                    "quantity": 1,
+                                    "price_multiplier": 0.05
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "copper_block",
+                                    "quantity": 9
+                                }
+                            ],
+                            "trader_exp": 12,
+                            "max_uses": 2,
                             "reward_exp": true
                         }
                     ]
