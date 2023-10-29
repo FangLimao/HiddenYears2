@@ -25,6 +25,16 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/reuses/be_undead.json",
+                    "weight": 1
+                }
+            ]
         }
     ]
 }
