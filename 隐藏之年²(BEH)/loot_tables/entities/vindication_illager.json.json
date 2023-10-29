@@ -49,6 +49,16 @@
                     "weight": 1
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "loot_tables/reuses/be_ill.json",
+                    "weight": 1
+                }
+            ]
         }
     ]
 }
