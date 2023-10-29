@@ -28,7 +28,8 @@
                     "event": "hy.on_use",
                     "target": "self"
                 }
-            }
+            },
+            "minecraft:hover_text_color": "light_purple"
         },
         "events": {
             "hy.on_use": {
