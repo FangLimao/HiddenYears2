@@ -10,7 +10,7 @@
                 "texture": "hy.copper_badge"
             },
             "minecraft:durability": {
-                "max_durability": 3
+                "max_durability": 1
             },
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
@@ -21,7 +21,7 @@
             },
             "minecraft:cooldown": {
                 "category": "hy.badge_cooldown",
-                "duration": 20
+                "duration": 90
             },
             "minecraft:on_use": {
                 "on_use": {
@@ -43,7 +43,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function gameplay/items/medicines/bandage"
+                                "function api/gby.effect/copper"
                             ]
                         }
                     }

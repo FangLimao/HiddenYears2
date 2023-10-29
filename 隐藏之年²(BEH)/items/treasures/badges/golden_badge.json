@@ -21,7 +21,7 @@
             },
             "minecraft:cooldown": {
                 "category": "hy.badge_cooldown",
-                "duration": 20
+                "duration": 100
             },
             "minecraft:on_use": {
                 "on_use": {
@@ -43,7 +43,7 @@
                         "run_command": {
                             "target": "self",
                             "command": [
-                                "function gameplay/items/medicines/bandage"
+                                "function api/gby.effect/golden"
                             ]
                         }
                     }
