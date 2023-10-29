@@ -35,7 +35,7 @@
                 15,
                 2
             ]
-        },
+        }/*,
         {
             "uuid": "282a17d7-36e1-4936-9726-d8a83bc7ec4c",
             "version": [
@@ -46,7 +46,7 @@
             "type": "script",
             "language": "javascript",
             "entry": "scripts/Main.js"
-        }
+        }*/
     ],
     "capabilities": [
         "script_eval"
@@ -85,14 +85,14 @@
                 15,
                 2
             ]
-        },
+        }/*,
         {
             "module_name": "@minecraft/server",
-            "version": "1.2.0"
+            "version": "1.7.0-beta"
         },
         {
             "module_name": "@minecraft/server-ui",
-            "version": "1.0.0"
-        }
+            "version": "1.2.0-beta"
+        }*/
     ]
 }
