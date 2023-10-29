@@ -22,7 +22,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 0,
-                                "max": 3
+                                "max": 2
                             }
                         },
                         {
@@ -60,14 +60,14 @@
                             "function": "set_count",
                             "count": {
                                 "min": 0,
-                                "max": 2
+                                "max": 1
                             }
                         },
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 2
+                                "min": 2,
+                                "max": 3
                             }
                         }
                     ]

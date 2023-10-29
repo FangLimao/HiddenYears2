@@ -18,8 +18,8 @@
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 2,
-                                "max": 3
+                                "min": 0,
+                                "max": 2
                             }
                         }
                     ]
@@ -66,6 +66,10 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 10
                 }
             ]
         },
@@ -114,6 +118,10 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 5
                 }
             ]
         }

@@ -11,8 +11,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 7,
-                                "max": 10
+                                "min": 2,
+                                "max": 5
                             }
                         },
                         {
@@ -45,6 +45,10 @@
                     "type": "item",
                     "name": "minecraft:warped_fungus",
                     "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 5
                 }
             ]
         },
