@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:record_cat"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "hy:disc_fragment_cat"
+            }
+        },
+        "unlock": [
+            {
+                "item": "hy:disc_fragment_cat"
+            }
+        ],
+        "result": {
+            "item": "record_cat",
+            "count": 1
+        },
+        "priority": 1
+    }
+}
