@@ -12,6 +12,7 @@
 			"minecraft:icon": {
 				"texture": "hy.disc_fragment"
 			},
+			"minecraft:hover_text_color": "yellow",
 			"minecraft:creative_category": {
 				"parent": "items"
 			}
