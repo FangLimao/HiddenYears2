@@ -946,6 +946,9 @@
         },
         "hy.golden_badge": {
             "textures": "textures/items/treasures/badges/golden_badge"
+        },
+        "hy.disc_fragment": {
+            "textures": "textures/items/treasures/disc_fragment"
         }
     }
 }

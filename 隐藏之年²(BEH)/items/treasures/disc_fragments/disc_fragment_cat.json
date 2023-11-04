@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:disc_fragment_cat",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "hy.item.disc_fragment.cat"
+			},
+			"minecraft:icon": {
+				"texture": "hy.disc_fragment"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		}
+	}
+}
