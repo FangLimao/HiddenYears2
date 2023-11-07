@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:copper_horn"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XAX",
+            " X "
+        ],
+        "key": {
+            "X": {
+                "item": "copper_ingot"
+            },
+            "A": {
+                "item": "goat_horn"
+            }
+        },
+        "result": {
+            "item": "hy:copper_horn"
+        }
+    }
+}

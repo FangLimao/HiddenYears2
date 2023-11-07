@@ -949,6 +949,9 @@
         },
         "hy.disc_fragment": {
             "textures": "textures/items/treasures/disc_fragment"
+        },
+         "hy.copper_horn": {
+            "textures": "textures/items/treasures/copper_horn"
         }
     }
 }

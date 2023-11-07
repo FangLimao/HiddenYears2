@@ -21,8 +21,8 @@
         "uuid": "e1b2000f-c88c-46ed-a9cd-3f0b06130a1f",
         "version": [
             1,
-            15,
-            3
+            16,
+            0
         ],
         "pack_scope": "world"
     },
@@ -35,18 +35,18 @@
                 15,
                 3
             ]
-        }/*,
+        },
         {
             "uuid": "282a17d7-36e1-4936-9726-d8a83bc7ec4c",
             "version": [
                 0,
-                3,
+                1,
                 0
             ],
             "type": "script",
             "language": "javascript",
             "entry": "scripts/Main.js"
-        }*/
+        }
     ],
     "capabilities": [
         "script_eval"
@@ -85,7 +85,7 @@
                 15,
                 3
             ]
-        }/*,
+        },
         {
             "module_name": "@minecraft/server",
             "version": "1.7.0-beta"
@@ -93,6 +93,6 @@
         {
             "module_name": "@minecraft/server-ui",
             "version": "1.2.0-beta"
-        }*/
+        }
     ]
 }
