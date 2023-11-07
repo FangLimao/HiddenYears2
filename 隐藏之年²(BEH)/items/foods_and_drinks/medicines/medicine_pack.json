@@ -20,7 +20,7 @@
                 "category": "equipment"
             },
             "minecraft:cooldown": {
-                "category": "hy.medicine_pack_cooldown",
+                "category": "hy.medicine_pack",
                 "duration": 30
             },
             "minecraft:on_use": {
