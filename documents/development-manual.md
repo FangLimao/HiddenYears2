@@ -279,7 +279,7 @@ hy.medicine_pack_cooldown
 
 - 身心腐蚀
 ```
-hy.body_corrosion_cooldown
+hy.body_corrosion
 ```
 
 - 铜制号角

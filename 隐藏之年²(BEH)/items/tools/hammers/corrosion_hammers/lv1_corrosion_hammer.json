@@ -14,7 +14,7 @@
                 }
             },
             "minecraft:cooldown": {
-                "category": "hy.body_corrosion_cooldown",
+                "category": "hy.body_corrosion",
                 "duration": 25
             },
             "minecraft:display_name": {
