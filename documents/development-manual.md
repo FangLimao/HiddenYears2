@@ -282,6 +282,11 @@ hy.medicine_pack_cooldown
 hy.body_corrosion_cooldown
 ```
 
+- 铜制号角
+```
+hy.copper_horn
+```
+
 ### 本地化
 #### 特殊本地化字符串
 | 名称       | 描述     | 可用性      |
