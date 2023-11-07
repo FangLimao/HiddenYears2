@@ -20,7 +20,7 @@
                 "category": "equipment"
             },
             "minecraft:cooldown": {
-                "category": "hy.bandage_cooldown",
+                "category": "hy.bandage",
                 "duration": 20
             },
             "minecraft:on_use": {
