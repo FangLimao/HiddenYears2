@@ -106,9 +106,11 @@
       "minecraft:nameable": {
       },
       "minecraft:health": {
-        "value": 4,
-        "max": 4
-      },
+                "value": {
+                    "range_min": 4,
+                    "range_max": 8
+                }
+            },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
