@@ -952,6 +952,18 @@
         },
          "hy.copper_horn": {
             "textures": "textures/items/treasures/copper_horn"
+        },
+        "hy.copper_helmet": {
+            "textures": "textures/items/armors/copper_armors/copper_helmet"
+        },
+        "hy.copper_chestplate": {
+            "textures": "textures/items/armors/copper_armors/copper_chestplate"
+        },
+        "hy.copper_leggings": {
+            "textures": "textures/items/armors/copper_armors/copper_leggings"
+        },
+        "hy.copper_boots": {
+            "textures": "textures/items/armors/copper_armors/copper_boots"
         }
     }
 }

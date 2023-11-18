@@ -542,3 +542,8 @@ hy.item.disc_fragment.far=唱片殘片 - Far
 hy.item.disc_fragment.mall=唱片殘片 - Mall
 hy.item.disc_fragment.mllohi=唱片殘片 - Mllohi
 hy.item.copper_horn=鍍銅號角
+
+hy.item.copper_helmet=銅頭盔
+hy.item.copper_chestplate=銅胸甲
+hy.item.copper_leggings=銅護腿
+hy.item.copper_boots=銅靴子
