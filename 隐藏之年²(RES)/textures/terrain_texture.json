@@ -1,7 +1,7 @@
 {
     "num_mip_levels": 4,
     "padding": 8,
-    "resource_pack_name": "隐藏之年",
+    "resource_pack_name": "隐藏之年²",
     "texture_name": "atlas.terrain",
     "texture_data": {
         "hy.copper_essence_ore": {
@@ -15,12 +15,6 @@
         },
         "hy.deepslate_amethyst_essence_ore": {
             "textures": "textures/blocks/ores/essences/deepslate_amethyst_essence_ore"
-        },
-        "hy.legacy_fuel_ore": {
-            "textures": "textures/blocks/ores/fuel_ore"
-        },
-        "hy.legacy_deepslate_fuel_ore": {
-            "textures": "textures/blocks/ores/deepslate_fuel_ore"
         },
         "hy.fuel_metal_ore": {
             "textures": "textures/blocks/ores/fuel_metal_ore"
@@ -102,9 +96,6 @@
         },
         "hy.lab_table.bottom": {
             "textures": "textures/blocks/machines/lab_tables/lab_table_bottom"
-        },
-        "hy.deepslate_ruby_ore": {
-            "textures": "textures/blocks/ores/deepslate_ruby_ore"
         }
     }
 }

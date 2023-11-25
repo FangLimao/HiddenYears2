@@ -1,5 +1,5 @@
 {
-    "resource_pack_name": "隐藏之年",
+    "resource_pack_name": "隐藏之年²",
     "texture_name": "atlas.items",
     "texture_data": {
         "hy.copper_hammer": {
@@ -13,9 +13,6 @@
         },
         "hy.oxidized_copper_hammer": {
             "textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
-        },
-        "hy.empty_template": {
-            "textures": "textures/items/templates/empty_template"
         },
         "hy.copper_hammer_template": {
             "textures": "textures/items/templates/tools/hammers/copper_hammers/hammer_template"
@@ -94,9 +91,6 @@
         },
         "hy.oxidized_copper_hoe": {
             "textures": "textures/items/tools/hoes/copper_hoes/oxidized_exposed_copper_hoe"
-        },
-        "hy.debug": {
-            "textures": "textures/items/debug"
         },
         "hy.copper_sword": {
             "textures": "textures/items/tools/weapons/swords/copper_swords/copper_sword"
@@ -197,39 +191,6 @@
         "hy.wooden_hammer": {
             "textures": "textures/items/tools/hammers/wooden_hammer"
         },
-        "hy.amethyst_coal": {
-            "textures": "textures/items/treasures/coals/amethyst_coal"
-        },
-        "hy.copper_coal": {
-            "textures": "textures/items/treasures/coals/copper_coal"
-        },
-        "hy.iron_coal": {
-            "textures": "textures/items/treasures/coals/iron_coal"
-        },
-        "hy.gold_coal": {
-            "textures": "textures/items/treasures/coals/gold_coal"
-        },
-        "hy.emerald_coal": {
-            "textures": "textures/items/treasures/coals/emerald_coal"
-        },
-        "hy.quartz_coal": {
-            "textures": "textures/items/treasures/coals/quartz_coal"
-        },
-        "hy.diamond_coal": {
-            "textures": "textures/items/treasures/coals/diamond_coal"
-        },
-        "hy.redstone_coal": {
-            "textures": "textures/items/treasures/coals/redstone_coal"
-        },
-        "hy.lapis_coal": {
-            "textures": "textures/items/treasures/coals/lapis_coal"
-        },
-        "hy.netherite_coal": {
-            "textures": "textures/items/treasures/coals/netherite_coal"
-        },
-        "hy.coal_template": {
-            "textures": "textures/items/treasures/templates/coal_template"
-        },
         "hy.amethyst_knife": {
             "textures": "textures/items/tools/weapons/knifes/amethyst_knife"
         },
@@ -316,9 +277,6 @@
         },
         "hy.fuel_metal": {
             "textures": "textures/items/materials/fuel_metals/fuel"
-        },
-        "hy.amethyst_fuel_metal": {
-            "textures": "textures/items/materials/fuel_metals/amethyst_fuel"
         },
         "hy.andesite_metal_ingot": {
             "textures": "textures/items/materials/ingots/andesite_metal_ingot"
@@ -924,7 +882,7 @@
             "textures": "textures/items/materials/nuggets/stone_nugget"
         },
         "hy.fuel_metal_stick": {
-            "textures": "textures/items/materials/fuel_metal_stick"
+            "textures": "textures/items/materials/fuel_metals/fuel_metal_stick"
         },
         "hy.bark": {
             "textures": "textures/items/materials/bark"
