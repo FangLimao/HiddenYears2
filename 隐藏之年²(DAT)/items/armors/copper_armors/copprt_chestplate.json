@@ -6,9 +6,6 @@
             "category": "equipment"
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.chestplate"
-            },
             "minecraft:icon": {
                 "texture": "hy.copper_chestplate"
             },
