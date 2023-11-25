@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:enchanted_bone",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:foil": true,
@@ -14,7 +14,7 @@
                 "value": "hy.item.enchanted_bone"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "minecraft:hover_text_color": "yellow"
         }

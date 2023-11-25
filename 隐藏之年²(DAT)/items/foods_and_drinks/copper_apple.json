@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:copper_apple",
-            "category": "nature"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.copper_apple"
             },
             "minecraft:creative_category": {
-                "category": "nature",
+                "category": "none",
                 "parent": "itemGroup.name.crop"
             },
             "minecraft:use_animation": "eat",

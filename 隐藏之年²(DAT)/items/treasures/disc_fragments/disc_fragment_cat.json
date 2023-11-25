@@ -3,7 +3,7 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "hy:disc_fragment_cat",
-			"category": "items"
+			"category": "none"
 		},
 		"components": {
 			"minecraft:display_name": {

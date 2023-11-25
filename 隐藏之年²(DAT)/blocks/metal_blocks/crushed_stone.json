@@ -4,7 +4,7 @@
         "description": {
             "identifier": "sc:crushed_stone",
             "menu_category": {
-                "category": "nature"
+                "category": "none"
             }
         },
         "components": {

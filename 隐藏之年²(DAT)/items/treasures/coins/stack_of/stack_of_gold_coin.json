@@ -3,7 +3,7 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "hy:stack_of_gold_coin",
-			"category": "items"
+			"category": "none"
 		},
 		"components": {
 			"minecraft:display_name": {

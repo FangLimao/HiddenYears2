@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:copper_essence",
-            "category": "nature"
+            "category": "none"
         },
         "components": {
             "minecraft:display_name": {

@@ -3,7 +3,7 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "hy:stack_of_diamond_coin",
-			"category": "items"
+			"category": "none"
 		},
 		"components": {
 			"minecraft:display_name": {

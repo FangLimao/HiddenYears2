@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:enchanted_copper_apple",
-            "category": "nature"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -14,7 +14,7 @@
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.crop",
-                "category": "nature"
+                "category": "none"
             },
             "minecraft:use_animation": "eat",
             "minecraft:foil": true,

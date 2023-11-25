@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:lapis_dust",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:display_name": {
@@ -13,7 +13,7 @@
                 "texture": "hy.lapis_dust"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:dict:dusts": {},
             "tag:dict:dusts.lapis": {}

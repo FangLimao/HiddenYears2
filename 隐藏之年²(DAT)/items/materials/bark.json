@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:bark",
-            "category": "nature"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.bark"
             },
             "minecraft:creative_category": {
-                "category": "nature"
+                "category": "none"
             },
             "minecraft:fuel": {
                 "duration": 24

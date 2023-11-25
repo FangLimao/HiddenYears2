@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:raw_tin",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.raw_tin"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:dict:raw_ores": {},
             "tag:dict:raw_ores.tin": {}

@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:fuel_metal_stick",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:use_animation": "eat",
@@ -26,7 +26,7 @@
                 "texture": "hy.fuel_metal_stick"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:hy:fuel_metal": {},
             "tag:dict:fuels": {},

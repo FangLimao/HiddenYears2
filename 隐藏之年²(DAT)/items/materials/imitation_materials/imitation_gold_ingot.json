@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:imitation_gold_ingot",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.imitation_gold_ingot"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:dict:ingots": {},
             "tag:dict:ingots.imitation_gold": {},

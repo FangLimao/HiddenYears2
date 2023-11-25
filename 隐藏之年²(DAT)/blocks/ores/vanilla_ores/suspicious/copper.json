@@ -4,7 +4,7 @@
         "description": {
             "identifier": "hy:suspicious_copper_ore",
             "menu_category": {
-                "category": "nature",
+                "category": "none",
                 "group": "itemGroup.name.ore"
             }
         },

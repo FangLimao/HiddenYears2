@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:amethyst_charcoal",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:foil": true,

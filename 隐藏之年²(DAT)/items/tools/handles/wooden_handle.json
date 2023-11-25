@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:wooden_handle",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:display_name": {
@@ -14,7 +14,7 @@
             },
             "minecraft:damage": 2,
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:hy:is_handle": {}
         }

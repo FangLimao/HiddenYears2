@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:imitation_charcoal",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.imitation_charcoal"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "minecraft:fuel": {
                 "duration": 10

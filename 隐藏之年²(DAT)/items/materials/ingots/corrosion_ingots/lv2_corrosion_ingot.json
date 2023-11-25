@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:lv2_corrosion_ingot",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.lv2_corrosion_ingot"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:dict:ingots": {},
             "tag:dict:ingots.corrosion": {},

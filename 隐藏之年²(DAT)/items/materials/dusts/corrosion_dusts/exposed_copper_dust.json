@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "hy:exposed_copper_dust",
-            "category": "items"
+            "category": "none"
         },
         "components": {
             "minecraft:icon": {
@@ -13,7 +13,7 @@
                 "value": "hy.item.exposed_copper_dust"
             },
             "minecraft:creative_category": {
-                "category": "items"
+                "category": "none"
             },
             "tag:dict:dusts": {},
             "tag:dict:dusts.exposed_copper": {}
