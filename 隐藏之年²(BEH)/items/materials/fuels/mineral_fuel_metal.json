@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:diamond_fuel_metal",
+            "identifier": "hy:mineral_fuel_metal",
             "category": "items"
         },
         "components": {
@@ -16,10 +16,10 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "hy.item.ore_fuel_metal"
+                "value": "hy.item.mineral_fuel_metal"
             },
             "minecraft:fuel": {
-                "duration": 1500
+                "duration": 1000
             },
             "minecraft:icon": {
                 "texture": "hy.fuel_metal"

@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:copper_coal",
+            "identifier": "hy:mineral_coal",
             "category": "none"
         },
         "components": {
@@ -11,13 +11,13 @@
                 "value": "hy.item.mineral_coals"
             },
             "minecraft:fuel": {
-                "duration": 150
+                "duration": 900
             },
             "minecraft:icon": {
                 "texture": "coal"
             },
             "minecraft:creative_category": {
-                "parent": "none"
+                "parent": "items"
             },
             "tag:dict:fuels": {},
             "tag:hy:metal_coals": {}
