@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:steel_nugget_from_stonecutter"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "tag": "dict:ingots.steel"
+            }
+        ],
+        "result": {
+            "item": "hy:steel_nugget",
+            "count": 12
+        }
+    }
+}

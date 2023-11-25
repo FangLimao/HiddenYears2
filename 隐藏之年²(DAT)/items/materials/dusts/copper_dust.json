@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:copper_dust",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.copper_dust"
+            },
+            "minecraft:icon": {
+                "texture": "hy.copper_dust"
+            },
+            "minecraft:creative_category": {
+                "category": "items"
+            },
+            "tag:dict:dusts": {},
+            "tag:dict:dusts.copper": {}
+        }
+    }
+}

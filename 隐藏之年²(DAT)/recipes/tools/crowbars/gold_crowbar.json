@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:gold_crowbar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "gold_ingot"
+			},
+			"X": {
+				"item": "gold_nugget"
+			}
+		},
+		"result": {
+			"item": "hy:gold_crowbar"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:nightmare_fuel_metal",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.4,
+            "minecraft:foil": true,
+            "minecraft:display_name": {
+                "value": "hy.item.nightmare_fuel_metal"
+            },
+            "minecraft:food": {
+                "nutrition": 20,
+                "saturation_modifier": 0.8,
+                "using_converts_to": "hy:nightmare_fuel_metal",
+                "on_consume": {
+                    "event": "hy.on_eat"
+                }
+            },
+            "minecraft:icon": {
+                "texture": "hy.fuel_metal"
+            },
+            "minecraft:creative_category": {
+                "category": "items"
+            },
+            "tag:hy:fuel_metal": {},
+            "tag:dict:fuels": {},
+            "tag:dict:fuels.metal": {}
+        },
+        "events": {
+            "hy.on_eat": {
+                "run_command": {
+                    "target": "self",
+                    "command": [
+                        "function gameplay/items/fuel_metals/nightmare"
+                    ]
+                }
+            }
+        }
+    }
+}

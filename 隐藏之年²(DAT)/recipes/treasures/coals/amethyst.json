@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:amethyst_coal_from_crafting_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "coal"
+            },
+            {
+                "tag": "dict:ingots.amethyst"
+            }
+        ],
+        "result": {
+            "item": "hy:amethyst_coal"
+        }
+    }
+}

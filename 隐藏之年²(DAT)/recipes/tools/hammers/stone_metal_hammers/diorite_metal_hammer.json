@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:diorite_metal_hammer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "hy:diorite_metal_ingot"
+            },
+            "X": {
+                "tag": "hy:is_handle"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            " X "
+        ],
+        "result": {
+            "item": "hy:diorite_metal_hammer"
+        }
+    }
+}

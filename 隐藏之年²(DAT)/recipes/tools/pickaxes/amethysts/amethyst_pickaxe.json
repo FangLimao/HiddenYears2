@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:amethyst_pickaxe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "stick"
+			},
+			"X": {
+				"tag": "dict:ingots.amethyst"
+			}
+		},
+		"result": {
+			"item": "hy:amethyst_pickaxe"
+		}
+	}
+}

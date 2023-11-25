@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:medicine_pack"
+        },
+        "tags": [
+            "crafting_table",
+            "medicine_table"
+        ],
+        "pattern": [
+            "XXX",
+            "XSX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "paper"
+            },
+            "S": {
+                "tag": "hy:medicine_poison"
+            }
+        },
+        "result": {
+            "item": "hy:medicine_pack"
+        }
+    }
+}

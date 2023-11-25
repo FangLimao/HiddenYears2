@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:record_mllohi"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "hy:disc_fragment_mllohi"
+            }
+        },
+        "unlock": [
+            {
+                "item": "hy:disc_fragment_mllohi"
+            }
+        ],
+        "result": {
+            "item": "record_mllohi",
+            "count": 1
+        },
+        "priority": 1
+    }
+}

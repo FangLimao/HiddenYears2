@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:copper_apple",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.copper_apple"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.copper_apple"
+            },
+            "minecraft:creative_category": {
+                "category": "nature",
+                "parent": "itemGroup.name.crop"
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.4,
+            "minecraft:food": {
+                "nutrition": 20,
+                "can_always_eat": true,
+                "saturation_modifier": 0.6
+            },
+            "minecraft:hover_text_color": "aqua",
+            "tag:dict:crops": {},
+            "tag:dict:crops.apple": {}
+        },
+        "events": {}
+    }
+}

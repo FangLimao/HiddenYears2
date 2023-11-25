@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:bronze_awl"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"tag": "dict:nuggets.bronze"
+			}
+		},
+		"result": {
+			"item": "hy:bronze_awl"
+		}
+	}
+}

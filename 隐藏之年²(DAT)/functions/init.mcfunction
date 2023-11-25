@@ -1,0 +1,1 @@
+execute as @a unless score @s test = @s test run say "分数已重置"

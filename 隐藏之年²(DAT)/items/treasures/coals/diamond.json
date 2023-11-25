@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:diamond_coal",
+            "category": "none"
+        },
+        "components": {
+            "minecraft:foil": true,
+            "minecraft:display_name": {
+                "value": "hy.item.mineral_coals"
+            },
+            "minecraft:fuel": {
+                "duration": 500
+            },
+            "minecraft:icon": {
+                "texture": "coal"
+            },
+            "minecraft:creative_category": {
+                "parent": "none"
+            },
+            "tag:dict:fuels": {},
+            "tag:hy:metal_coals": {}
+        }
+    }
+}

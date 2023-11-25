@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "hy:fuel_metal_block",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "tnt",
+                    "inanimate",
+                    "blocks"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.01,
+                "height": 0.01
+            },
+            "minecraft:explode": {
+                "fuse_length": 0,
+                "fuse_lit": true,
+                "power": 10,
+                "causes_fire": false
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {
+                "default_values": {
+                    "max_optimized_distance": 80.0,
+                    "max_dropped_ticks": 5,
+                    "use_motion_prediction_hints": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:imitation_charcoal_from_brown_dye"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "brown_dye",
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": "hy:imitation_charcoal"
+        }
+    }
+}

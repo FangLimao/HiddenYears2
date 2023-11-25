@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:lab_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "iron_nugget"
+            },
+            "X": {
+                "item": "crafting_table"
+            }
+        },
+        "pattern": [
+            "###",
+            "#X#",
+            "###"
+        ],
+        "result": {
+            "item": "hy:lab_table"
+        }
+    }
+}

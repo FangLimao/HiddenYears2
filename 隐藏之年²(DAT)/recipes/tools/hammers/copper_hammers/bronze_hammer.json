@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:bronze_hammer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "tag": "dict:ingots.bronze"
+            },
+            "X": {
+                "tag": "hy:is_handle"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            " X "
+        ],
+        "result": {
+            "item": "hy:bronze_hammer"
+        }
+    }
+}

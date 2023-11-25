@@ -1,0 +1,242 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:weathered_copper_dagger",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.weathered_copper_dagger"
+            },
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:durability": {
+                "max_durability": 6
+            },
+            "minecraft:damage": 8,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "on_dig": {
+                    "event": "hy.on_break_block",
+                    "target": "self"
+                },
+                "destroy_speeds": [
+                    {
+                        "block": "web",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bamboo",
+                        "speed": 60,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "cocoa",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "glow_lichen",
+                        "speed": 60,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "azalea_leaves_flowered",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "azalea_leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "leaves2",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "mangrove_leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "cherry_leaves",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "melon_block",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "vine",
+                        "speed": 30,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "pumpkin",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 5,
+                "slot": "sword"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": {
+                "texture": "hy.weathered_copper_dagger"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "copper_ingot"
+                        ],
+                        "repair_amount": 40
+                    },
+                    {
+                        "items": [
+                            "hy:copper_dagger"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:waxed_copper_dagger"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:exposed_copper_dagger"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:weathered_copper_dagger"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:oxidized_copper_dagger"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hy.on_hurt_entity",
+                    "target": "self"
+                }
+            },
+            "tag:minecraft:is_tool": {},
+            "tag:hy:weathered_item": {}
+        },
+        "events": {
+            "hy.on_hurt_entity": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 1,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function api/tetanus.effect/v1.0/radius4/lv2"
+                            ]
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/item_oxidising/daggers/oxidized_dagger"
+                            ]
+                        },
+                        "condition": "query.remaining_durability==0"
+                    }
+                ]
+            },
+            "hy.on_break_block": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 2,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/item_oxidising/daggers/oxidized_dagger"
+                            ]
+                        },
+                        "condition": "query.remaining_durability==0"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:medicine_pack",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.medicines.medicine_pack"
+            },
+            "minecraft:durability": {
+                "max_durability": 5
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:display_name": {
+                "value": "hy.item.medicines.medicine_pack"
+            },
+            "minecraft:creative_category": {
+                "category": "equipment"
+            },
+            "minecraft:cooldown": {
+                "category": "hy.medicine_pack",
+                "duration": 30
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "hy.on_use",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "hy.on_use": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 1
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/medicines/medicine_pack"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

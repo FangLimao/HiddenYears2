@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:bronze_chestplate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X X",
+            "XXX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "tag": "dict:ingots.bronze"
+            }
+        },
+        "unlock": [
+            {
+                "tag": "dict:ingots.bronze"
+            }
+        ],
+        "result": {
+            "item": "hy:bronze_chestplate"
+        }
+    }
+}

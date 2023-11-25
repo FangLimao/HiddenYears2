@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:coal_nugget_from_dust"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "tag": "dict:dusts.coal",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "hy:coal_nugget"
+        }
+    }
+}

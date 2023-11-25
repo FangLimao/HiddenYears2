@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "hy:shallow_gold_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "hy:shallow_gold_ore",
+		"output": "gold_ingot"
+	}
+}

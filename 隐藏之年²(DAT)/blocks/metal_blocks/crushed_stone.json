@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sc:crushed_stone",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/crushed_stone.json",
+            "minecraft:display_name": "sc.block.crushed_stone",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.6
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6.0
+            },
+            "minecraft:map_color": "#707070",
+            "tag:stone": {}
+        }
+    }
+}

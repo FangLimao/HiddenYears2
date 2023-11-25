@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:diamond_nugget_from_dust"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "tag": "dict:dusts.diamond",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "hy:diamond_nugget"
+        }
+    }
+}

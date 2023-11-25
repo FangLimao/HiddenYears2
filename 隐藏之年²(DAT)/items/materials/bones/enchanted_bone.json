@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:enchanted_bone",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:foil": true,
+            "minecraft:icon": {
+                "texture": "bone"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.enchanted_bone"
+            },
+            "minecraft:creative_category": {
+                "category": "items"
+            },
+            "minecraft:hover_text_color": "yellow"
+        }
+    }
+}

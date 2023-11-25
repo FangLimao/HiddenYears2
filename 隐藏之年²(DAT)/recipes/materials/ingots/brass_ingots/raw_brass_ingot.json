@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:raw_brass_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "iron_nugget"
+            },
+            "&": {
+                "item": "copper_ingot"
+            }
+        },
+        "pattern": [
+            "###",
+            "#&#",
+            "###"
+        ],
+        "result": {
+            "item": "hy:raw_brass_ingot"
+        }
+    }
+}

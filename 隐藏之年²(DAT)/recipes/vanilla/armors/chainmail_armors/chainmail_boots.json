@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "chainmail_boots"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X X",
+            "X X"
+        ],
+        "key": {
+            "X": {
+                "tag": "dict:nuggets.stone_metal"
+            }
+        },
+        "result": {
+            "item": "chainmail_boots"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hy:stack_of_gold_coin",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "hy.item.stack_of_gold_coin"
+			},
+			"minecraft:icon": {
+				"texture": "hy.stack_of_gold_coin"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hy:chainmail_helmet"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX",
+            "X X"
+        ],
+        "key": {
+            "X": {
+                "tag": "dict:nuggets.stone_metal"
+            }
+        },
+        "result": {
+            "item": "chainmail_helmet"
+        }
+    }
+}

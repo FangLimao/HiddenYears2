@@ -1,0 +1,391 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "category": "equipment",
+            "identifier": "hy:copper_pickaxe"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "hy.item.copper_pickaxe"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.pickaxe"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:durability": {
+                "max_durability": 100
+            },
+            "minecraft:icon": {
+                "texture": "hy.copper_pickaxe"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "hy:copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "copper_ingot"
+                        ],
+                        "repair_amount": 40
+                    },
+                    {
+                        "items": [
+                            "hy:waxed_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:exposed_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:weathered_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    },
+                    {
+                        "items": [
+                            "hy:oxidized_copper_pickaxe"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 3,
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "pickaxe"
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable')"
+                        },
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "ice",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "sandstone",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "netherite_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "crying_obsidian",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "respawn_anchor",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "ancient_debris",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "ender_chest",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "anvil",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "coal_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "diamond_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "emerald_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "redstone_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "enchanting_table",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "diamond_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "iron_trapdoor",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "mob_spawner",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bell",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "dispenser",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "dropper",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "observer",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "furnace",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lit_furnace",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "blast_furnace",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "smoker",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "stonecutter_block",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lodestone",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "lantern",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "soul_lantern",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "conduit",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "hopper",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "hopper",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "bed",
+                        "speed": 3,
+                        "on_dig": {
+                            "event": "hy.on_break_block",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hy.on_hurt_entity",
+                    "target": "self"
+                }
+            },
+            "tag:minecraft:is_pickaxe": {}
+        },
+        "events": {
+            "hy.on_break_block": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 1,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/item_oxidising/pickaxes/exposed_pickaxe"
+                            ]
+                        },
+                        "condition": "query.remaining_durability==0"
+                    }
+                ]
+            },
+            "hy.on_hurt_entity": {
+                "sequence": [
+                    {
+                        "damage": {
+                            "type": "magic",
+                            "amount": 2,
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "target": "self",
+                            "command": [
+                                "function gameplay/items/item_oxidising/pickaxes/exposed_pickaxe"
+                            ]
+                        },
+                        "condition": "query.remaining_durability==0"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:emerald_charcoal",
+            "category": "none"
+        },
+        "components": {
+            "minecraft:foil": true,
+            "minecraft:display_name": {
+                "value": "hy.item.mineral_charcoals"
+            },
+            "minecraft:fuel": {
+                "duration": 650
+            },
+            "minecraft:icon": {
+                "texture": "charcoal"
+            },
+            "minecraft:creative_category": {
+                "parent": "none"
+            },
+            "tag:dict:fuels": {},
+            "tag:hy:metal_charcoals": {}
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hy:waxed_iron_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hy:iron_hammer"
+			},
+			{
+				"item": "honeycomb"
+			}
+		],
+		"result": {
+			"item": "hy:waxed_iron_hammer"
+		}
+	}
+}

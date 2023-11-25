@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:torch_from_copper_stick"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "hy:copper_stick"
+			},
+			"X": {
+				"tag": "minecraft:coals"
+			}
+		},
+		"result": {
+			"item": "torch",
+			"count": 16
+		},
+		"priority": -1
+	}
+}

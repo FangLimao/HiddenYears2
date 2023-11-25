@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:netherite_nugget_from_dust"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "tag": "dict:dusts.netherite",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "hy:netherite_nugget"
+        }
+    }
+}

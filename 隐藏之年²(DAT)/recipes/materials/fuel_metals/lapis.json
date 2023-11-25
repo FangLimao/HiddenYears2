@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:lapis_fuel_metal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "tag": "dict:fuels.metal"
+            },
+            {
+                "item": "lapis_lazuli"
+            }
+        ],
+        "result": {
+            "item": "hy:lapis_fuel_metal"
+        }
+    }
+}

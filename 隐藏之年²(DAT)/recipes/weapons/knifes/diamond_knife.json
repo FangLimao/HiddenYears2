@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hy:diamond_knife"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "priority": 0,
+        "ingredients": [
+            {
+                "item": "hy:diamond_awl"
+            },
+            {
+                "item": "stick"
+            }
+        ],
+        "result": {
+            "item": "hy:diamond_knife"
+        }
+    }
+}

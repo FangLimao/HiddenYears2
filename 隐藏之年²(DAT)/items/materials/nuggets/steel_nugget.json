@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy:steel_nugget",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hy.steel_nugget"
+            },
+            "minecraft:display_name": {
+                "value": "hy.item.steel_nugget"
+            },
+            "minecraft:creative_category": {
+                "category": "items"
+            },
+            "tag:dict:nuggets": {},
+            "tag:dict:nuggets.steel": {}    
+        }
+    }
+}

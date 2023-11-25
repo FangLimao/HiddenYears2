@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hy:calcite_metal_hoe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XX",
+			" #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "stick"
+			},
+			"X": {
+				"item": "hy:calcite_metal_ingot"
+			}
+		},
+		"result": {
+			"item": "hy:calcite_metal_hoe"
+		}
+	}
+}
