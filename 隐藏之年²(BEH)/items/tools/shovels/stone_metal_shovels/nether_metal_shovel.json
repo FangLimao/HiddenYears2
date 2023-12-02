@@ -2,12 +2,12 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:netherrack_metal_shovel",
+            "identifier": "hy:nether_metal_shovel",
             "category": "equipment"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.netherrack_metal_shovel"
+                "value": "hy.item.nether_metal_shovel"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:hand_equipped": true,
@@ -24,13 +24,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "hy:netherrack_metal_ingot"
+                            "hy:nether_metal_ingot"
                         ],
                         "repair_amount": 50
                     },
                     {
                         "items": [
-                            "hy:netherrack_metal_shovel"
+                            "hy:nether_metal_shovel"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }
@@ -68,7 +68,7 @@
                 ]
             },
             "minecraft:icon": {
-                "texture": "hy.netherrack_metal_shovel"
+                "texture": "hy.nether_metal_shovel"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.shovel"

@@ -3,11 +3,11 @@
     "minecraft:item": {
         "description": {
             "category": "equipment",
-            "identifier": "hy:deepslate_metal_hammer"
+            "identifier": "hy:over_metal_hammer"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.deepslate_metal_hammer"
+                "value": "hy.item.over_metal_hammer"
             },
             "minecraft:creative_category": {
                 "parent": "equipment"
@@ -18,7 +18,7 @@
                 "max_durability": 500
             },
             "minecraft:icon": {
-                "texture": "hy.deepslate_metal_hammer"
+                "texture": "hy.over_metal_hammer"
             },
             "minecraft:mining_speed": 1,
             "minecraft:damage": 9,

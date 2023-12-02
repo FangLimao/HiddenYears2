@@ -3,11 +3,11 @@
 	"minecraft:item": {
 		"description": {
 			"category": "equipment",
-			"identifier": "hy:netherrack_metal_pickaxe"
+			"identifier": "hy:nether_metal_pickaxe"
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "hy.item.netherrack_metal_pickaxe"
+				"value": "hy.item.nether_metal_pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"
@@ -18,19 +18,19 @@
 				"max_durability": 250
 			},
 			"minecraft:icon": {
-				"texture": "hy.netherrack_metal_pickaxe"
+				"texture": "hy.nether_metal_pickaxe"
 			},
 			"minecraft:repairable": {
 				"repair_items": [
 					{
 						"items": [
-							"hy:netherrack_metal_pickaxe"
+							"hy:nether_metal_pickaxe"
 						],
 						"repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
 					},
 					{
 						"items": [
-							"hy:netherrack_metal_ingot"
+							"hy:nether_metal_ingot"
 						],
 						"repair_amount": 50
 					}

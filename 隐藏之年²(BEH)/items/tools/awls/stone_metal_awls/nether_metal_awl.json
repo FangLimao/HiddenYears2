@@ -2,15 +2,15 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "hy:netherrack_metal_awl",
+            "identifier": "hy:nether_metal_awl",
             "category": "items"
         },
         "components": {
             "minecraft:display_name": {
-                "value": "hy.item.netherrack_metal_awl"
+                "value": "hy.item.nether_metal_awl"
             },
             "minecraft:icon": {
-                "texture": "hy.netherrack_metal_awl"
+                "texture": "hy.nether_metal_awl"
             },
             "minecraft:durability": {
                 "max_durability": 226
