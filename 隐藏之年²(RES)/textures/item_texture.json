@@ -368,35 +368,14 @@
         "hy.nether_metal_nugget": {
             "textures": "textures/items/materials/nuggets/stone_metal_nuggets/nether_metal_nugget"
         },
-        "hy.andesite_metal_awl": {
-            "textures": "textures/items/materials/awls/andesite_metal_awl"
-        },
-        "hy.basalt_metal_awl": {
-            "textures": "textures/items/materials/awls/basalt_metal_awl"
-        },
-        "hy.blackstone_metal_awl": {
-            "textures": "textures/items/materials/awls/blackstone_metal_awl"
-        },
-        "hy.calcite_metal_awl": {
-            "textures": "textures/items/materials/awls/calcite_metal_awl"
-        },
         "hy.over_metal_awl": {
             "textures": "textures/items/materials/awls/over_metal_awl"
-        },
-        "hy.diorite_metal_awl": {
-            "textures": "textures/items/materials/awls/diorite_metal_awl"
         },
         "hy.end_metal_awl": {
             "textures": "textures/items/materials/awls/end_metal_awl"
         },
-        "hy.granite_metal_awl": {
-            "textures": "textures/items/materials/awls/granite_metal_awl"
-        },
         "hy.nether_metal_awl": {
             "textures": "textures/items/materials/awls/nether_metal_awl"
-        },
-        "hy.tuff_metal_awl": {
-            "textures": "textures/items/materials/awls/tuff_metal_awl"
         },
         "hy.tin_ingot": {
             "textures": "textures/items/materials/ingots/tin_ingot"
@@ -698,7 +677,7 @@
         "hy.disc_fragment": {
             "textures": "textures/items/treasures/disc_fragment"
         },
-         "hy.copper_horn": {
+        "hy.copper_horn": {
             "textures": "textures/items/treasures/copper_horn"
         },
         "hy.copper_helmet": {
