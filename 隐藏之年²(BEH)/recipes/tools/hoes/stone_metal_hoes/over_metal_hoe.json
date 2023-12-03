@@ -2,13 +2,13 @@
 	"format_version": "1.20.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:andesite_metal_pickaxe"
+			"identifier": "hy:over_metal_hoe"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"pattern": [
-			"XXX",
+			"XX",
 			" #",
 			" #"
 		],
@@ -17,11 +17,11 @@
 				"item": "stick"
 			},
 			"X": {
-				"item": "hy:andesite_metal_ingot"
+				"item": "hy:over_metal_ingot"
 			}
 		},
 		"result": {
-			"item": "hy:andesite_metal_pickaxe"
+			"item": "hy:over_metal_hoe"
 		}
 	}
 }

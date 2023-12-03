@@ -2,14 +2,14 @@
 	"format_version": "1.20.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:calcite_metal_sword"
+			"identifier": "hy:over_metal_shovel"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"pattern": [
 			"X",
-			"X",
+			"#",
 			"#"
 		],
 		"key": {
@@ -17,11 +17,11 @@
 				"item": "stick"
 			},
 			"X": {
-				"item": "hy:calcite_metal_ingot"
+				"item": "hy:over_metal_ingot"
 			}
 		},
 		"result": {
-			"item": "hy:calcite_metal_sword"
+			"item": "hy:over_metal_shovel"
 		}
 	}
 }

@@ -2,26 +2,26 @@
 	"format_version": "1.20.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:tuff_metal_shovel"
+			"identifier": "hy:nether_metal_hoe"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"pattern": [
-			"X",
-			"#",
-			"#"
+			"XX",
+			" #",
+			" #"
 		],
 		"key": {
 			"#": {
 				"item": "stick"
 			},
 			"X": {
-				"item": "hy:tuff_metal_ingot"
+				"item": "hy:nether_metal_ingot"
 			}
 		},
 		"result": {
-			"item": "hy:tuff_metal_shovel"
+			"item": "hy:nether_metal_hoe"
 		}
 	}
 }

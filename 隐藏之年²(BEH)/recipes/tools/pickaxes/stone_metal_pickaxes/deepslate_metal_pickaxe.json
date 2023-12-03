@@ -2,7 +2,7 @@
 	"format_version": "1.20.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:deepslate_metal_pickaxe"
+			"identifier": "hy:over_metal_pickaxe"
 		},
 		"tags": [
 			"crafting_table"
@@ -17,11 +17,11 @@
 				"item": "stick"
 			},
 			"X": {
-				"item": "hy:deepslate_metal_ingot"
+				"item": "hy:over_metal_ingot"
 			}
 		},
 		"result": {
-			"item": "hy:deepslate_metal_pickaxe"
+			"item": "hy:over_metal_pickaxe"
 		}
 	}
 }
