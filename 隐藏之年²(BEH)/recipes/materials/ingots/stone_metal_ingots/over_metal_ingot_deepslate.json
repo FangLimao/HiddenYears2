@@ -2,14 +2,14 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:blackstone_metal_ingot_polished"
+            "identifier": "hy:over_metal_ingot_deepslate"
         },
         "tags": [
             "crafting_table"
         ],
         "key": {
             "#": {
-                "item": "polished_blackstone"
+                "item": "deepslate"
             }
         },
         "pattern": [
@@ -18,8 +18,8 @@
             "###"
         ],
         "result": {
-            "item": "hy:blackstone_metal_ingot",
-            "count": 6
+            "item": "hy:over_metal_ingot",
+            "count": 4
         }
     }
 }

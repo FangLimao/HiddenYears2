@@ -2,14 +2,14 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:basalt_metal_ingot_smooth"
+            "identifier": "hy:over_metal_ingot_calcite"
         },
         "tags": [
             "crafting_table"
         ],
         "key": {
             "#": {
-                "item": "smooth_basalt"
+                "item": "calcite"
             }
         },
         "pattern": [
@@ -18,8 +18,8 @@
             "###"
         ],
         "result": {
-            "item": "hy:basalt_metal_ingot",
-            "count": 6
+            "item": "hy:over_metal_ingot",
+            "count": 4
         }
     }
 }

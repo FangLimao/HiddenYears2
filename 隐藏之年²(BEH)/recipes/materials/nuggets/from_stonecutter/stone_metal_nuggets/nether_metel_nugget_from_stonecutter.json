@@ -2,20 +2,20 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:netherrack_metal_ingot_from_nugget"
+            "identifier": "hy:nether_metal_nugget_from_stonecutter"
         },
         "tags": [
-            "crafting_table"
+            "stonecutter"
         ],
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:netherrack_metal_nugget",
-                "count": 9
+                "item": "hy:nether_metal_ingot"
             }
         ],
         "result": {
-            "item": "hy:netherrack_metal_ingot"
+            "item": "hy:nether_metal_nugget",
+            "count": 12
         }
     }
 }

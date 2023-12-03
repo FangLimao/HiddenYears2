@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:diorite_metal_ingot_from_nugget"
+            "identifier": "hy:over_metal_ingot_from_nugget"
         },
         "tags": [
             "crafting_table"
@@ -10,12 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:diorite_metal_nugget",
+                "item": "hy:over_metal_nugget",
                 "count": 9
             }
         ],
         "result": {
-            "item": "hy:diorite_metal_ingot"
+            "item": "hy:over_metal_ingot"
         }
     }
 }

@@ -2,14 +2,14 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:blackstone_metal_ingot"
+            "identifier": "hy:nether_metal_ingot"
         },
         "tags": [
             "crafting_table"
         ],
         "key": {
             "#": {
-                "item": "blackstone"
+                "item": "netherrack"
             }
         },
         "pattern": [
@@ -18,7 +18,7 @@
             "###"
         ],
         "result": {
-            "item": "hy:blackstone_metal_ingot",
+            "item": "hy:nether_metal_ingot",
             "count": 4
         }
     }

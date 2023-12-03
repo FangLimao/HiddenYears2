@@ -2,15 +2,14 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:andesite_metal_ingot"
+            "identifier": "hy:over_metal_ingot_1"
         },
         "tags": [
             "crafting_table"
         ],
         "key": {
             "#": {
-                "item": "stone",
-                "data": 5
+                "item": "basalt"
             }
         },
         "pattern": [
@@ -19,7 +18,7 @@
             "###"
         ],
         "result": {
-            "item": "hy:andesite_metal_ingot",
+            "item": "hy:over_metal_ingot",
             "count": 4
         }
     }

@@ -2,14 +2,14 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:blackstone_metal_ingot_gilded"
+            "identifier": "hy:over_metal_ingot_tuff"
         },
         "tags": [
             "crafting_table"
         ],
         "key": {
             "#": {
-                "item": "gilded_blackstone"
+                "item": "tuff"
             }
         },
         "pattern": [
@@ -18,8 +18,8 @@
             "###"
         ],
         "result": {
-            "item": "hy:blackstone_metal_ingot",
-            "count": 16
+            "item": "hy:over_metal_ingot",
+            "count": 4
         }
     }
 }

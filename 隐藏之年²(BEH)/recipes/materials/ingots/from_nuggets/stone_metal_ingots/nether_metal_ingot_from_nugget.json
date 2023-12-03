@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:basalt_metal_ingot_from_nugget"
+            "identifier": "hy:nether_metal_ingot_from_nugget"
         },
         "tags": [
             "crafting_table"
@@ -10,12 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:basalt_metal_nugget",
+                "item": "hy:nether_metal_nugget",
                 "count": 9
             }
         ],
         "result": {
-            "item": "hy:basalt_metal_ingot"
+            "item": "hy:nether_metal_ingot"
         }
     }
 }
