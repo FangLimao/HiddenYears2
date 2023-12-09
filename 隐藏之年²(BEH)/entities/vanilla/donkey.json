@@ -500,6 +500,14 @@
                     {
                         "item": "appleEnchanted",
                         "heal_amount": 10
+                    },
+                    {
+                        "item": "hy:copper_apple",
+                        "heal_amount": 10
+                    },
+                    {
+                        "item": "hy:enchanted_copper_apple",
+                        "heal_amount": 10
                     }
                 ]
             },

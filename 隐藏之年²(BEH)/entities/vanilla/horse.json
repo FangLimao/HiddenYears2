@@ -536,6 +536,14 @@
           {
             "item": "appleEnchanted",
             "heal_amount": 10
+          },
+          {
+            "item": "hy:copper_apple",
+            "heal_amount": 10
+          },
+          {
+            "item": "hy:enchanted_copper_apple",
+            "heal_amount": 10
           }
         ]
       },
@@ -555,7 +563,9 @@
         "items": [
           "golden_apple",
           "appleEnchanted",
-          "golden_carrot"
+          "golden_carrot",
+          "hy:copper_apple",
+          "hy:enchanted_copper_apple"
         ]
       },
       "minecraft:behavior.random_stroll": {
