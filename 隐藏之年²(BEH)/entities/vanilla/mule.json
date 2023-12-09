@@ -127,6 +127,14 @@
             {
               "item": "appleEnchanted",
               "temper_mod": 10
+            },
+            {
+              "item": "hy:copper_apple",
+              "temper_mod": 10
+            },
+            {
+              "item": "hy:enchanted_copper_apple",
+              "temper_mod": 10
             }
           ],
           "auto_reject_items": [
