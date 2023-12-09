@@ -34,11 +34,11 @@
         },
         "events": {
             "hy.on_eat": {
-                "add_mob_effect": {
-                    "amplifier": 0,
-                    "duration": 5,
-                    "effect": "saturation",
-                    "target": "self"
+                "run_command": {
+                    "target": "self",
+                    "command": [
+                        "function gameplay/items/copper_apple/enchanted"
+                    ]
                 }
             }
         }
