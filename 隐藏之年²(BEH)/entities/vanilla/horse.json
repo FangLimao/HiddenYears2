@@ -46,6 +46,14 @@
             {
               "item": "appleEnchanted",
               "growth": 0.2
+            },
+            {
+              "item": "hy:copper_apple",
+              "growth": 0.2
+            },
+            {
+              "item": "hy:enchanted_copper_apple",
+              "growth": 0.2
             }
           ],
           "grow_up": {
