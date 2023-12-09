@@ -332,7 +332,9 @@
           "breed_items": [
             "golden_carrot",
             "golden_apple",
-            "appleEnchanted"
+            "appleEnchanted",
+            "hy:copper_apple",
+            "hy:enchanted_copper_apple"
           ],
           "mutation_factor": {
             "extra_variant": 0.2, // 1/5

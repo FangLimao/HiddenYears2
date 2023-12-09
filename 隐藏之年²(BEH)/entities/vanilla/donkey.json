@@ -270,7 +270,9 @@
                     "breed_items": [
                         "golden_carrot",
                         "golden_apple",
-                        "appleEnchanted"
+                        "appleEnchanted",
+                        "hy:copper_apple",
+                        "hy:enchanted_copper_apple"
                     ]
                 },
                 "minecraft:behavior.tempt": {
@@ -286,7 +288,9 @@
                         "hay_block",
                         "sugar",
                         "bread",
-                        "wheat"
+                        "wheat",
+                        "hy:copper_apple",
+                        "hy:enchanted_copper_apple"
                     ]
                 }
             },
