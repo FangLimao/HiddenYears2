@@ -1,1 +1,0 @@
-effect @s health_boost 900 4
