@@ -35,17 +35,6 @@
                 16,
                 4
             ]
-        },
-        {
-            "uuid": "282a17d7-36e1-4936-9726-d8a83bc7ec4c",
-            "version": [
-                0,
-                1,
-                0
-            ],
-            "type": "script",
-            "language": "javascript",
-            "entry": "scripts/Main.js"
         }
     ],
     "capabilities": [
@@ -85,14 +74,6 @@
                 16,
                 4
             ]
-        },
-        {
-            "module_name": "@minecraft/server",
-            "version": "1.7.0-beta"
-        },
-        {
-            "module_name": "@minecraft/server-ui",
-            "version": "1.2.0-beta"
         }
     ]
 }
