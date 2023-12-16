@@ -13,13 +13,21 @@
 			"#"
 		],
 		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"tag": "dict:ingots.amethyst"
-			}
-		},
+            "#": {
+                "item": "stick"
+            },
+            "X": {
+                "item": "hy:amethyst_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "stick"
+            },
+            {
+                "item": "hy:amethyst_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:amethyst_shovel"
 		}

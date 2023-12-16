@@ -9,12 +9,17 @@
         ],
         "key": {
             "#": {
-                "tag": "dict:ingots.amethyst"
+                "tag": "hy.is_handle"
             },
             "X": {
-                "tag": "hy:is_handle"
+                "item": "hy:amethyst_ingot"
             }
         },
+        "unlock": [
+            {
+                "item": "hy:amethyst_ingot"
+            }
+        ],
         "pattern": [
             "###",
             "###",

@@ -1,27 +1,35 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "amethyst_axe"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"XX",
-			"X#",
-			" #"
-		],
-		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"tag": "dict:ingots.amethyst"
-			}
-		},
-		"result": {
-			"item": "hy:amethyst_axe"
-		}
-	}
+    "format_version": "1.20.11",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "amethyst_axe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XX",
+            "X#",
+            " #"
+        ],
+        "key": {
+            "#": {
+                "item": "stick"
+            },
+            "X": {
+                "item": "hy:amethyst_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "stick"
+            },
+            {
+                "item": "hy:amethyst_ingot"
+            }
+        ],
+        "result": {
+            "item": "hy:amethyst_axe"
+        }
+    }
 }

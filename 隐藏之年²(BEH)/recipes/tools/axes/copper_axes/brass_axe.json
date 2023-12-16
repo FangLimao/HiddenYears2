@@ -17,9 +17,14 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "dict:ingots.brass"
+				"item": "hy:brass_ingot"
 			}
 		},
+		"unlock": [
+            {
+               "item": "hy:brass_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:brass_axe"
 		}
