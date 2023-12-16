@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.netherite",
+                "item": "hy:netherite_nugget",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:netherite_nugget"
             }
         ],
         "result": {

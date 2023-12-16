@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.quartz",
+                "item": "hy:quartz_nugget",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:quartz_nugget"
             }
         ],
         "result": {

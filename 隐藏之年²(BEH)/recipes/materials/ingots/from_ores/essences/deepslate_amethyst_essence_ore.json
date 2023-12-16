@@ -8,6 +8,11 @@
 			"furnace",
 			"blast_furnace"
 		],
+		"unlock": [
+            {
+                "item": "hy:deepslate_amethyst_essence_ore"
+            }
+        ],
 		"input": "hy:deepslate_amethyst_essence_ore",
 		"output": "hy:amethyst_ingot"
 	}
