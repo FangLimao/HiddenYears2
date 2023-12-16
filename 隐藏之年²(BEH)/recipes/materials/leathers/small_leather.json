@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.0",
+	"format_version": "1.20.11",
 	"minecraft:recipe_furnace": {
 		"description": {
 			"identifier": "hy:small_leather"

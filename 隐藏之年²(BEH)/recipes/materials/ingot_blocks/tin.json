@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.0",
+	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "hy:tin_block"

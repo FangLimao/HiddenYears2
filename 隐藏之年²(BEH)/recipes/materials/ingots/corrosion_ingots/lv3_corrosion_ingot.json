@@ -1,5 +1,5 @@
 {
-    "format_version": "1.20.0",
+    "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "hy:lv3_corrosion_ingot"
