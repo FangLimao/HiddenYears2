@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "calcite_metal_awl"
+			"identifier": "over_metal_awl"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,11 +13,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:calcite_metal_nugget"
+				"item": "hy:over_metal_nugget"
 			}
 		},
 		"result": {
-			"item": "hy:calcite_metal_awl"
+			"item": "hy:iver_metal_awl"
 		}
 	}
 }

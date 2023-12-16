@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "netherrack_metal_awl"
+			"identifier": "nether_metal_awl"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,11 +13,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "hy:netherrack_metal_nugget"
+				"item": "hy:nether_metal_nugget"
 			}
 		},
 		"result": {
-			"item": "hy:netherrack_metal_awl"
+			"item": "hy:nether_metal_awl"
 		}
 	}
 }

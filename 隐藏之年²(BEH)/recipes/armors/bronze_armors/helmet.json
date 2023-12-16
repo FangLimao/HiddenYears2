@@ -13,12 +13,12 @@
         ],
         "key": {
             "X": {
-                "tag": "dict:ingots.bronze"
+                "item": "hy:bronze_ingot"
             }
         },
         "unlock": [
             {
-                "tag": "dict:ingots.bronze"
+                "item": "hy:bronze_ingot"
             }
         ],
         "result": {

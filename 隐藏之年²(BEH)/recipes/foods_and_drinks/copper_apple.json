@@ -20,6 +20,14 @@
                 "item": "apple"
             }
         },
+        "unlock": [
+            {
+                "item": "copper_ingot"
+            },
+            {
+                "item": "apple"
+            }
+        ],
         "result": {
             "item": "hy:copper_apple"
         }
