@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:bronze_dagger"
+            "identifier": "bronze_dagger"
         },
         "tags": [
             "crafting_table"

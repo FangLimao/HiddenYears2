@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:bronze_nugget_from_dust"
+            "identifier": "bronze_nugget_from_dust"
         },
         "tags": [
             "crafting_table"

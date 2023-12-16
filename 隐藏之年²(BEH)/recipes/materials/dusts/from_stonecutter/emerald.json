@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:emerald_dust_from_stonecutter"
+            "identifier": "emerald_dust_from_stonecutter"
         },
         "tags": [
             "stonecutter"

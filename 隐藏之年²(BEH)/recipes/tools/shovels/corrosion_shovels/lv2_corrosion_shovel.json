@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:lv2_corrosion_shovel"
+            "identifier": "lv2_corrosion_shovel"
         },
         "tags": [
             "crafting_table"

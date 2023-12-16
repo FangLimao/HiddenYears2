@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:lv1_corrosion_ingot"
+            "identifier": "lv1_corrosion_ingot"
         },
         "tags": [
             "crafting_table"

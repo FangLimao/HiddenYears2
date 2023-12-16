@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:fuel_metal_stick"
+			"identifier": "fuel_metal_stick"
 		},
 		"tags": [
 			"crafting_table"

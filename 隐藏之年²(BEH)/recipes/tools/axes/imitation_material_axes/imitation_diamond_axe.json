@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:imitation_diamond_axe"
+			"identifier": "imitation_diamond_axe"
 		},
 		"tags": [
 			"crafting_table"

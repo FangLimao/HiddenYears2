@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:stone_nugget_from_stonecutter"
+            "identifier": "stone_nugget_from_stonecutter"
         },
         "tags": [
             "stonecutter"

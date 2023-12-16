@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:iron_awl"
+			"identifier": "iron_awl"
 		},
 		"tags": [
 			"crafting_table"

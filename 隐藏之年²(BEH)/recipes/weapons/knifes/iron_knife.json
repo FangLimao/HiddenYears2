@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:iron_knife"
+            "identifier": "iron_knife"
         },
         "tags": [
             "crafting_table"

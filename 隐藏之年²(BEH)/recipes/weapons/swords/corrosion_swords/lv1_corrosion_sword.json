@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:lv1_corrosion_sword"
+            "identifier": "lv1_corrosion_sword"
         },
         "tags": [
             "crafting_table"

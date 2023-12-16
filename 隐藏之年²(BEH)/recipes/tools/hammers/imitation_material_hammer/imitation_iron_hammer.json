@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:imitation_iron_hammer"
+            "identifier": "imitation_iron_hammer"
         },
         "tags": [
             "crafting_table"

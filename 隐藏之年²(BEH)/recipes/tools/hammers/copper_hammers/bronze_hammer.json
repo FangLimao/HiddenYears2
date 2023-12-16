@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:bronze_hammer"
+            "identifier": "bronze_hammer"
         },
         "tags": [
             "crafting_table"

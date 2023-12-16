@@ -2,7 +2,7 @@
     "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:record_chirp"
+            "identifier": "record_chirp"
         },
         "tags": [
             "crafting_table"

@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:imitation_charcoal_from_brown_dye"
+            "identifier": "imitation_charcoal_from_brown_dye"
         },
         "tags": [
             "crafting_table"

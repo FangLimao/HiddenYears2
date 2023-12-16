@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:iron_bone"
+            "identifier": "iron_bone"
         },
         "tags": [
             "crafting_table"

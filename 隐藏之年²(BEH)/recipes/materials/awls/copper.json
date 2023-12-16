@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:copper_awl"
+			"identifier": "copper_awl"
 		},
 		"tags": [
 			"crafting_table"

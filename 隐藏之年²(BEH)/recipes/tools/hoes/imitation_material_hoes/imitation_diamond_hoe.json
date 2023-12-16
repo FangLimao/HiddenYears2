@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:imitation_diamond_hoe"
+			"identifier": "imitation_diamond_hoe"
 		},
 		"tags": [
 			"crafting_table"

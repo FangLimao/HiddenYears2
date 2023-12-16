@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:nether_metal_hammer"
+            "identifier": "nether_metal_hammer"
         },
         "tags": [
             "crafting_table"

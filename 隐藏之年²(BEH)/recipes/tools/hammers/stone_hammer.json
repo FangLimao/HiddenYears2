@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:stone_hammer"
+            "identifier": "stone_hammer"
         },
         "tags": [
             "crafting_table"

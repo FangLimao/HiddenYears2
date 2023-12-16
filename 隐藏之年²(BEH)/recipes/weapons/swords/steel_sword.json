@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:steel_sword"
+            "identifier": "steel_sword"
         },
         "tags": [
             "crafting_table"

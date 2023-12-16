@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "hy:copper_essence_ore"
+			"identifier": "copper_essence_ore"
 		},
 		"tags": [
 			"furnace",

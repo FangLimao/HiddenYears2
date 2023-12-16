@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:amethyst_pickaxe"
+			"identifier": "amethyst_pickaxe"
 		},
 		"tags": [
 			"crafting_table"

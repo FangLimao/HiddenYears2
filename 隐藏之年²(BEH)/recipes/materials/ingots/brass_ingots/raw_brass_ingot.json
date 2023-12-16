@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:raw_brass_ingot"
+            "identifier": "raw_brass_ingot"
         },
         "tags": [
             "crafting_table"

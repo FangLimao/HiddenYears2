@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "hy:shallow_redstone_ore"
+			"identifier": "shallow_redstone_ore"
 		},
 		"tags": [
 			"furnace",

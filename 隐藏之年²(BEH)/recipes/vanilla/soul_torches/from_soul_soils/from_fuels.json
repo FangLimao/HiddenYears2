@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:soul_torch_from_fuels_soul_soil"
+            "identifier": "soul_torch_from_fuels_soul_soil"
         },
         "tags": [
             "crafting_table"

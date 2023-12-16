@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "hy:tin_ingot_from_raw_tin"
+			"identifier": "tin_ingot_from_raw_tin"
 		},
 		"tags": [
 			"furnace",

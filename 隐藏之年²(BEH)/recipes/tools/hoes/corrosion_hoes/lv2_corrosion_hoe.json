@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:lv2_corrosion_hoe"
+			"identifier": "lv2_corrosion_hoe"
 		},
 		"tags": [
 			"crafting_table"

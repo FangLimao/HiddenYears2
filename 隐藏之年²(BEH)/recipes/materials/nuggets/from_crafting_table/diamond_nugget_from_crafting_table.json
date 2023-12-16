@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:diamond_nugget_from_crafting_table"
+            "identifier": "diamond_nugget_from_crafting_table"
         },
         "tags": [
             "crafting_table"

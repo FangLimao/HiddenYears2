@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "hy:shallow_coal_ore"
+			"identifier": "shallow_coal_ore"
 		},
 		"tags": [
 			"furnace",

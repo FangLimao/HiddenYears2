@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:chainmail_helmet"
+            "identifier": "chainmail_helmet"
         },
         "tags": [
             "crafting_table"

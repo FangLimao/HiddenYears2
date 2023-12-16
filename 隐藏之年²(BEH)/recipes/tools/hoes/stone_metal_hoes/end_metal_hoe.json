@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:end_metal_hoe"
+			"identifier": "end_metal_hoe"
 		},
 		"tags": [
 			"crafting_table"

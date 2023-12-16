@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:blackstone_metal_awl"
+			"identifier": "blackstone_metal_awl"
 		},
 		"tags": [
 			"crafting_table"

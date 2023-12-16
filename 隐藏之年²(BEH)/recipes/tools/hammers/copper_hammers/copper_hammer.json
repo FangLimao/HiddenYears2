@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:copper_hammer"
+            "identifier": "copper_hammer"
         },
         "tags": [
             "crafting_table"

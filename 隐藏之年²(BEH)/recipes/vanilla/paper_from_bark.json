@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:paper_from_bark"
+            "identifier": "paper_from_bark"
         },
         "tags": [
             "crafting_table"

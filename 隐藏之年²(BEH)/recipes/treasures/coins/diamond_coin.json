@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:diamond_coin"
+			"identifier": "diamond_coin"
 		},
 		"tags": [
 			"crafting_table"

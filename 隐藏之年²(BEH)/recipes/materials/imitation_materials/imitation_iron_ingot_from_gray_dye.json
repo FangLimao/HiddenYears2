@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:imitation_iron_ingot_from_gray_dye"
+            "identifier": "imitation_iron_ingot_from_gray_dye"
         },
         "tags": [
             "crafting_table"

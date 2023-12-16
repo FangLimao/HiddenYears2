@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:imitation_gold_shovel"
+			"identifier": "imitation_gold_shovel"
 		},
 		"tags": [
 			"crafting_table"

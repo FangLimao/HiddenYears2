@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:chainmail_chestplate"
+            "identifier": "chainmail_chestplate"
         },
         "tags": [
             "crafting_table"

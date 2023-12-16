@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "hy:disc_fragment_blocks"
+			"identifier": "disc_fragment_blocks"
 		},
 		"tags": [
 			"crafting_table"

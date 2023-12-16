@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:nether_metal_ingot"
+            "identifier": "nether_metal_ingot"
         },
         "tags": [
             "crafting_table"

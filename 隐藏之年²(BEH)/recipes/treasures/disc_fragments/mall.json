@@ -2,7 +2,7 @@
     "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:record_mall"
+            "identifier": "record_mall"
         },
         "tags": [
             "crafting_table"

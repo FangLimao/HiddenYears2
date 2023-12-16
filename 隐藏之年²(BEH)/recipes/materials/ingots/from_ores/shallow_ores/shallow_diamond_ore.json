@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "hy:shallow_diamond_ore"
+			"identifier": "shallow_diamond_ore"
 		},
 		"tags": [
 			"furnace",

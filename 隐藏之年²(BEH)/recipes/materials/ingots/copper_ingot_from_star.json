@@ -2,7 +2,7 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "hy:copper_ingot_from_star"
+			"identifier": "copper_ingot_from_star"
 		},
 		"tags": [
 			"crafting_table"

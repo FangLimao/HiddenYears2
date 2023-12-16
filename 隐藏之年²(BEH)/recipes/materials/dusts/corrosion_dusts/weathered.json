@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hy:weathered_copper_dust"
+            "identifier": "weathered_copper_dust"
         },
         "tags": [
             "crafting_table"

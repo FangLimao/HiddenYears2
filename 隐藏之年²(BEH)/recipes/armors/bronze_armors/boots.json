@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hy:bronze_boots"
+            "identifier": "bronze_boots"
         },
         "tags": [
             "crafting_table"
