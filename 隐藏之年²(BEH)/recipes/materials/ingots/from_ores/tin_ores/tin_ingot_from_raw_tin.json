@@ -8,6 +8,11 @@
 			"furnace",
 			"blast_furnace"
 		],
+		"unlock": [
+            {
+                "item": "hy:raw_tin"
+            }
+        ],
 		"input": "hy:raw_tin",
 		"output": "hy:tin_ingot"
 	}
