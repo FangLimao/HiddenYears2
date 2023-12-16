@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:ingots.steel"
+                "item": "hy:steel_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:steel_ingot"
             }
         ],
         "result": {

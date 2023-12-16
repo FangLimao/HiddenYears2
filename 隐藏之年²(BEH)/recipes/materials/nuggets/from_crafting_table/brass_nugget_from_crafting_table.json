@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:ingots.brass"
+                "item": "hy:brass_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:brass_ingot"
             }
         ],
         "result": {

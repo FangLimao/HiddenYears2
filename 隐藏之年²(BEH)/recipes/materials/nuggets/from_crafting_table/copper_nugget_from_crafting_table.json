@@ -13,6 +13,11 @@
                 "item": "copper_ingot"
             }
         ],
+        "unlock": [
+            {
+                "item": "copper_ingot"
+            }
+        ],
         "result": {
             "item": "hy:copper_nugget",
             "count": 9

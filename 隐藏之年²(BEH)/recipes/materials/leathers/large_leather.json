@@ -10,6 +10,11 @@
 			"campfire",
 			"soul_campfire"
 		],
+		"unlock": [
+            {
+                "item": "hy:raw_large_leather"
+            }
+        ],
 		"input": "hy:raw_large_leather",
 		"output": "leather"
 	}

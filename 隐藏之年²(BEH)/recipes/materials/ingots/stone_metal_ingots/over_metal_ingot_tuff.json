@@ -12,6 +12,11 @@
                 "item": "tuff"
             }
         },
+        "unlock": [
+            {
+                "item": "tuff"
+            }
+        ],
         "pattern": [
             "###",
             "###",

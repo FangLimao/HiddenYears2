@@ -12,6 +12,11 @@
                 "item": "netherrack"
             }
         },
+        "unlock": [
+            {
+                "item": "netherrack"
+            }
+        ],
         "pattern": [
             "###",
             "###",

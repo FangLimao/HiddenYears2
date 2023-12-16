@@ -12,6 +12,11 @@
                 "item": "deepslate"
             }
         },
+        "unlock": [
+            {
+                "item": "deepslate"
+            }
+        ],
         "pattern": [
             "###",
             "###",

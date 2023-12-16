@@ -13,6 +13,11 @@
                 "item": "lapis_lazuli"
             }
         ],
+        "unlock": [
+            {
+                "item": "lapis_lazuli"
+            }
+        ],
         "result": {
             "item": "hy:lapis_nugget",
             "count": 9

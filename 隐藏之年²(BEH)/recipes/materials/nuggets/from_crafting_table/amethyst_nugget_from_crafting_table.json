@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:ingots.amethyst"
+                "item": "hy:amethyst_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:amethyst_ingot"
             }
         ],
         "result": {

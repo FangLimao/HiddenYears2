@@ -13,6 +13,11 @@
                 "item": "coal"
             }
         ],
+        "unlock": [
+            {
+                "item": "coal"
+            }
+        ],
         "result": {
             "item": "hy:coal_nugget",
             "count": 9

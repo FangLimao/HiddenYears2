@@ -12,6 +12,11 @@
                 "item": "cobbled_deepslate"
             }
         },
+        "unlock": [
+            {
+                "item": "cobbled_deepslate"
+            }
+        ],
         "pattern": [
             "###",
             "###",

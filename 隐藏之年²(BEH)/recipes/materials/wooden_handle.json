@@ -12,6 +12,11 @@
 				"item": "stick"
 			}
 		},
+		"ingredients": [
+			{
+				"item": "stick"
+			}
+		],
 		"pattern": [
 			"#",
 			"#"

@@ -13,6 +13,11 @@
                 "item": "quartz"
             }
         ],
+        "unlock": [
+            {
+                "item": "quartz"
+            }
+        ],
         "result": {
             "item": "hy:quartz_nugget",
             "count": 9

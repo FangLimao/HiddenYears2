@@ -15,6 +15,14 @@
 				"item": "stick"
 			}
 		],
+		"unlock": [
+			{
+				"item": "copper_ingot"
+			},
+			{
+				"item": "stick"
+			}
+		],
 		"result": {
 			"item": "hy:copper_stick"
 		}

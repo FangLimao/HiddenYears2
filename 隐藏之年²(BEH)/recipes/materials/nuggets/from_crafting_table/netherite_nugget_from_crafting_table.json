@@ -13,6 +13,11 @@
                 "item": "netherite_ingot"
             }
         ],
+        "unlock": [
+            {
+                "item": "netherite_ingot"
+            }
+        ],
         "result": {
             "item": "hy:netherite_nugget",
             "count": 9

@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:dusts.iron",
+                "item": "hy:iron_dust",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:iron_dust"
             }
         ],
         "result": {

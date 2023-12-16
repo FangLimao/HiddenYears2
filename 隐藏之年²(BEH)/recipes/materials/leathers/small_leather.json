@@ -10,6 +10,11 @@
 			"campfire",
 			"soul_campfire"
 		],
+		"unlock": [
+            {
+                "item": "hy:raw_small_leather"
+            }
+        ],
 		"input": "hy:raw_small_leather",
 		"output": "rabbit_hide"
 	}

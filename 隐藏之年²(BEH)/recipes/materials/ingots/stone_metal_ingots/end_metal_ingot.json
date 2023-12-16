@@ -12,6 +12,11 @@
                 "item": "end_stone"
             }
         },
+        "unlock": [
+            {
+                "item": "end_stone"
+            }
+        ],
         "pattern": [
             "###",
             "###",

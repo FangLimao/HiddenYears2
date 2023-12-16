@@ -12,6 +12,11 @@
                 "item": "blackstone"
             }
         },
+        "unlock": [
+            {
+                "item": "blackstone"
+            }
+        ],
         "pattern": [
             "###",
             "###",

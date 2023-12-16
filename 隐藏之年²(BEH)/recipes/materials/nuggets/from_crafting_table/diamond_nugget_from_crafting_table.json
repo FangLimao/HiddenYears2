@@ -13,6 +13,11 @@
                 "item": "diamond"
             }
         ],
+        "unlock": [
+            {
+                "item": "diamond"
+            }
+        ],
         "result": {
             "item": "hy:diamond_nugget",
             "count": 9

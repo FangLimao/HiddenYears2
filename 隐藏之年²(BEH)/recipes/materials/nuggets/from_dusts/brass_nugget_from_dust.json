@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:dusts.brass",
+                "item": "hy:brass_dust",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:brass_dust"
             }
         ],
         "result": {

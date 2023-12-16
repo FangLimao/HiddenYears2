@@ -12,6 +12,11 @@
                 "item": "stone"
             }
         },
+        "unlock": [
+            {
+                "item": "stone"
+            }
+        ],
         "pattern": [
             "###",
             "###",

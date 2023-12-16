@@ -12,6 +12,11 @@
                 "item": "basalt"
             }
         },
+        "unlock": [
+            {
+                "item": "basalt"
+            }
+        ],
         "pattern": [
             "###",
             "###",

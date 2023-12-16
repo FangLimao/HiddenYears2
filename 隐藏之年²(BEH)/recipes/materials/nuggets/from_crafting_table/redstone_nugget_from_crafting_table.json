@@ -13,6 +13,11 @@
                 "item": "redstone"
             }
         ],
+        "unlock": [
+            {
+                "item": "redstone"
+            }
+        ],
         "result": {
             "item": "hy:redstone_nugget",
             "count": 9

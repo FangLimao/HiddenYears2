@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:dusts.netherite",
+                "item": "hy:netherite_dust",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:netherite_dust"
             }
         ],
         "result": {

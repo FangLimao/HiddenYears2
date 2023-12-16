@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:dusts.lapis",
+                "item": "hy:lapis_dust",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:lapis_dust"
             }
         ],
         "result": {

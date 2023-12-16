@@ -12,6 +12,11 @@
                 "item": "calcite"
             }
         },
+        "unlock": [
+            {
+                "item": "calcite"
+            }
+        ],
         "pattern": [
             "###",
             "###",

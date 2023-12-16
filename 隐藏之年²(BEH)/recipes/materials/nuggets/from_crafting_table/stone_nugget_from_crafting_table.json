@@ -13,6 +13,11 @@
                 "item": "cobblestone"
             }
         ],
+        "unlock": [
+            {
+                "item": "cobblestone"
+            }
+        ],
         "result": {
             "item": "sc:stone_nugget",
             "count": 9

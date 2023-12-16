@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:ingots.tin"
+                "item": "hy:tin_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:tin_ingot"
             }
         ],
         "result": {

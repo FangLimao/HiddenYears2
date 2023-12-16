@@ -13,6 +13,11 @@
                 "item": "hy:over_metal_ingot"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:over_metal_ingot"
+            }
+        ],
         "result": {
             "item": "hy:over_metal_nugget",
             "count": 9

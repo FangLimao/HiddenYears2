@@ -10,8 +10,13 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:dusts.quartz",
+                "item": "hy:quartz_dust",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:quartz_dust"
             }
         ],
         "result": {
