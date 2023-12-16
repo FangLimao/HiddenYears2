@@ -14,9 +14,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:ingots.tin"
+				"item": "hy:tin_ingot"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:tin_ingot"
+			}
+		],
 		"result": {
 			"item": "hy:tin_block"
 		}
