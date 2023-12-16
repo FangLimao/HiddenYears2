@@ -13,7 +13,18 @@
                 "item": "copper_ingot"
             },
             {
-                "tag": "dict:dusts.weathered_copper"
+                "item": "hy:weathered_copper_dust"
+            },
+            {
+                "item": "rotten_flesh"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "copper_ingot"
+            },
+            {
+                "item": "hy:weathered_copper_dust"
             },
             {
                 "item": "rotten_flesh"

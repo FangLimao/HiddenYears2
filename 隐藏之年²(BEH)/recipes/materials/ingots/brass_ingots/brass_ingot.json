@@ -8,6 +8,11 @@
             "furnace",
             "blast_furnace"
         ],
+        "unlock": [
+			{
+				"item": "hy:raw_brass_ingot"
+			}
+		],
         "input": "hy:raw_brass_ingot",
         "output": "hy:brass_ingot"
     }
