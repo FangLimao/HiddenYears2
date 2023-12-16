@@ -15,6 +15,14 @@
                 "item": "egg"
             }
         },
+        "unlock": [
+            {
+                "item": "light_blue_dye"
+            },
+            {
+                "item": "egg"
+            }
+        ],
         "pattern": [
             "###",
             "#&#",

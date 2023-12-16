@@ -10,10 +10,18 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:fuels.metal"
+                "item": "hy:fuel_metal"
             },
             {
-                "tag": "dict:ingots.amethyst"
+                "item": "hy:amethyst_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:fuel_metal"
+            },
+            {
+                "item": "hy:amethyst_ingot"
             }
         ],
         "result": {

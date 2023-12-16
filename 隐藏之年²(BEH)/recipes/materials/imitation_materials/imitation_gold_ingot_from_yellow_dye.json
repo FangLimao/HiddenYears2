@@ -15,6 +15,14 @@
                 "item": "copper_ingot"
             }
         },
+        "unlock": [
+            {
+                "item": "yellow_dye"
+            },
+            {
+                "item": "copper_ingot"
+            }
+        ],
         "pattern": [
             "###",
             "#&#",

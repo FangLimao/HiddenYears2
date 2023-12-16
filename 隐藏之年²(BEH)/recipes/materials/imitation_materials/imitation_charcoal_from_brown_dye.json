@@ -10,8 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "brown_dye",
-                "count": 1
+                "item": "brown_dye"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "brown_dye"
             }
         ],
         "result": {

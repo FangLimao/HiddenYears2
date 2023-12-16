@@ -9,12 +9,20 @@
         ],
         "key": {
             "#": {
-                "item": "light_blue_dye"
+                "item": "cyan_dye"
             },
             "&": {
                 "item": "egg"
             }
         },
+        "unlock": [
+            {
+                "item": "cyan_dye"
+            },
+            {
+                "item": "egg"
+            }
+        ],
         "pattern": [
             "###",
             "#&#",

@@ -10,7 +10,15 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:fuels.metal"
+                "item": "hy:fuel_metal"
+            },
+            {
+                "item": "gold_ingot"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:fuel_metal"
             },
             {
                 "item": "gold_ingot"

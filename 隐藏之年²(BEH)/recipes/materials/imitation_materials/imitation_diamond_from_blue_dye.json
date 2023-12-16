@@ -20,6 +20,14 @@
             "#&#",
             "###"
         ],
+        "unlock": [
+            {
+                "item": "blue_dye"
+            },
+            {
+                "item": "egg"
+            }
+        ],
         "result": {
             "item": "hy:imitation_diamond",
             "count": 8

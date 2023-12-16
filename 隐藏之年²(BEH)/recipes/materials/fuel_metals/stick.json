@@ -9,9 +9,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:fuels.metal"
+				"item": "hy:fuel_metal"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:fuel_metal"
+			}
+		],
 		"pattern": [
 			"#",
 			"#"
