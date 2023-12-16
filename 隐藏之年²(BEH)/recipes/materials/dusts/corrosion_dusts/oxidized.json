@@ -13,6 +13,11 @@
                 "tag": "hy:oxidized_item"
             }
         ],
+        "unlock": [
+            {
+                "tag": "hy:oxidized_item"
+            }
+        ],
         "result": {
             "item": "hy:oxidized_copper_dust",
             "count": 12

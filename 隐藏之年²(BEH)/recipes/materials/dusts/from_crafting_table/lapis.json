@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.lapis"
+                "item": "hy:lapis_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:lapis_nugget"
             }
         ],
         "result": {

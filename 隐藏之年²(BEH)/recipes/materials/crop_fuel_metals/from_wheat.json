@@ -8,6 +8,11 @@
             "furnace",
             "blast_furnace"
         ],
+        "unlock": [
+            {
+                "item": "wheat"
+            }
+        ],
         "input": "wheat",
         "output": "hy:crop_fuel_metal"
     }

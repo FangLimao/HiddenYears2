@@ -13,9 +13,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:nuggets.diamond"
+				"item": "hy:diamond_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:diamond_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:diamond_awl"
 		}

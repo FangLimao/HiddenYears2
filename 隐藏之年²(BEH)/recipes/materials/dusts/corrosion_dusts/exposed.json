@@ -13,6 +13,11 @@
                 "tag": "hy:exposed_item"
             }
         ],
+        "unlock": [
+            {
+                "tag": "hy:exposed_item"
+            }
+        ],
         "result": {
             "item": "hy:exposed_copper_dust",
             "count": 12

@@ -13,9 +13,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:nuggets.amethyst"
+				"item": "hy:amethyst_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:amethyst_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:amethyst_awl"
 		}

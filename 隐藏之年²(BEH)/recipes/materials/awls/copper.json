@@ -13,9 +13,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:nuggets.copper"
+				"item": "hy:copper_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:copper_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:copper_awl"
 		}

@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.tin"
+                "item": "hy:tin_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:tin_nugget"
             }
         ],
         "result": {

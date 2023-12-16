@@ -16,6 +16,11 @@
 				"item": "stone_button"
 			}
 		},
+		"unlock": [
+			{
+				"item": "stone_button"
+			}
+		],
 		"result": {
 			"item": "hy:stone_awl"
 		}

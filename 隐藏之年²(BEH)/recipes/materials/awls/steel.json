@@ -13,9 +13,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:nuggets.steel"
+				"item": "hy:steel_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:steel_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:steel_awl"
 		}

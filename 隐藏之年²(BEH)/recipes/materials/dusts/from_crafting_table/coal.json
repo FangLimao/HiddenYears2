@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.coal"
+                "item": "hy:coal_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:coal_nugget"
             }
         ],
         "result": {

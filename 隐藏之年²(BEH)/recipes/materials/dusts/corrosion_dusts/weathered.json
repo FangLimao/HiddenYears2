@@ -13,6 +13,11 @@
                 "tag": "hy:weathered_item"
             }
         ],
+        "unlock": [
+            {
+                "tag": "hy:weathered_item"
+            }
+        ],
         "result": {
             "item": "hy:weathered_copper_dust",
             "count": 12

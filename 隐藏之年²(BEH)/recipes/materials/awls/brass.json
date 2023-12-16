@@ -13,9 +13,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:nuggets.brass"
+				"item": "hy:brass_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:brass_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:brass_awl"
 		}

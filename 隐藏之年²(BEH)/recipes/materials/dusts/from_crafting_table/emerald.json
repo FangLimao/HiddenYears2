@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.emerald"
+                "item": "hy:emerald_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:emerald_nugget"
             }
         ],
         "result": {

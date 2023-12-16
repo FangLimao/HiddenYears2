@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.copper"
+                "item": "hy:copper_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:copper_nugget"
             }
         ],
         "result": {

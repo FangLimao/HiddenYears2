@@ -16,6 +16,11 @@
 				"item": "iron_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "iron_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:iron_awl"
 		}

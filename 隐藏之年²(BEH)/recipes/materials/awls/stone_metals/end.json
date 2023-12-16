@@ -16,6 +16,11 @@
 				"item": "hy:end_metal_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:end_metal_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:end_metal_awl"
 		}

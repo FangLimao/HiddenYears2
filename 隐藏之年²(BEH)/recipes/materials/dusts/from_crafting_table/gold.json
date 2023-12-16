@@ -13,6 +13,11 @@
                 "item": "gold_nugget"
             }
         ],
+        "unlock": [
+            {
+                "item": "gold_nugget"
+            }
+        ],
         "result": {
             "item": "hy:gold_dust",
             "count": 9

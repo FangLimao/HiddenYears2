@@ -13,9 +13,14 @@
 		],
 		"key": {
 			"#": {
-				"tag": "dict:nuggets.netherite"
+				"item": "hy:netherite_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:netherite_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:netherite_awl"
 		}

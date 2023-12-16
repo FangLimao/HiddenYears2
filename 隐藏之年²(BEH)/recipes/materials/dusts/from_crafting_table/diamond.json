@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.diamond"
+                "item": "hy:diamond_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:diamond_nugget"
             }
         ],
         "result": {

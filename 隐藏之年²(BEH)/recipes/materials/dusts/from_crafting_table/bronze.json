@@ -10,7 +10,12 @@
         "priority": 0,
         "ingredients": [
             {
-                "tag": "dict:nuggets.bronze"
+                "item": "hy:bronze_nugget"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "hy:bronze_nugget"
             }
         ],
         "result": {

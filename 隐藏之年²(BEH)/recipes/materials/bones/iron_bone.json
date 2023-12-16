@@ -15,6 +15,11 @@
                 "item": "iron_ingot"
             }
         },
+        "unlock": [
+            {
+                "item": "bone"
+            }
+        ],
         "pattern": [
             "X",
             "#",

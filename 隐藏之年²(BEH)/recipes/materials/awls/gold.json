@@ -16,6 +16,11 @@
 				"item": "gold_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "gold_nugget"
+			}
+		],
 		"result": {
 			"item": "hy:gold_awl"
 		}

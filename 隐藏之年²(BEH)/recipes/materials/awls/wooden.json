@@ -16,6 +16,11 @@
 				"item": "wooden_button"
 			}
 		},
+		"unlock": [
+			{
+				"item": "wooden_button"
+			}
+		],
 		"result": {
 			"item": "hy:wooden_awl"
 		}
