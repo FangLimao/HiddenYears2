@@ -1,27 +1,32 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "imitation_diamond_shovel"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"X",
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"tag": "dict:materials.imitation_diamond"
-			}
-		},
-		"result": {
-			"item": "hy:imitation_diamond_shovel"
-		}
-	}
+    "format_version": "1.20.11",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "imitation_diamond_shovel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "stick"
+            },
+            "X": {
+                "item": "hy:imitation_diamond"
+            }
+        },
+        "unlock": [
+            {
+                "item": "hy:imitation_diamond"
+            }
+        ],
+        "result": {
+            "item": "hy:imitation_diamond_shovel"
+        }
+    }
 }

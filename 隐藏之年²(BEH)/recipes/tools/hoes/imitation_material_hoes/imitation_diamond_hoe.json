@@ -13,13 +13,18 @@
 			" #"
 		],
 		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"tag": "dict:materials.imitation_diamond"
-			}
-		},
+            "#": {
+                "item": "stick"
+            },
+            "X": {
+                "item": "hy:imitation_diamond"
+            }
+        },
+        "unlock": [
+            {
+                "item": "hy:imitation_diamond"
+            }
+        ],
 		"result": {
 			"item": "hy:imitation_diamond_hoe"
 		}

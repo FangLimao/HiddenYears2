@@ -17,9 +17,14 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "dict:ingots.imitation_amethyst"
+				"item": "hy:imitation_amethyst_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "hy:imitation_amethyst_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:imitation_amethyst_shovel"
 		}
