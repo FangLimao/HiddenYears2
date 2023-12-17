@@ -17,6 +17,14 @@
                 "tag": "hy:tin_dust"
             }
         ],
+        "unlock": [
+            {
+                "tag": "hy:copper_dust"
+            },
+            {
+                "tag": "hy:tin_dust"
+            }
+        ],
         "result": {
             "item": "hy:bronze_dust",
             "count": 4

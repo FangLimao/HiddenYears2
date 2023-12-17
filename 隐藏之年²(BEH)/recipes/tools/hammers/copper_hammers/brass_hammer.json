@@ -9,7 +9,7 @@
         ],
         "key": {
 			"X": {
-				"tag": "hy.is_handle"
+				"tag": "hy:is_handle"
 			},
 			"#": {
 				"item": "hy:brass_ingot"

@@ -9,7 +9,7 @@
         ],
         "key": {
             "#": {
-                "tag": "hy.is_handle"
+                "tag": "hy:is_handle"
             },
             "X": {
                 "item": "hy:amethyst_ingot"
@@ -20,7 +20,7 @@
                 "item": "hy:amethyst_ingot"
             },
             {
-                "tag": "hy.is_handle"
+                "tag": "hy:is_handle"
             }
         ],
         "pattern": [

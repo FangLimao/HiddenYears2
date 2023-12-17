@@ -10,7 +10,7 @@
         "priority": 0,
         "ingredients": [
             {
-                "item": "hy:emerald_dust
+                "item": "hy:emerald_dust",
                 "count": 9
             }
         ],

@@ -2,7 +2,7 @@
     "format_version": "1.20.11",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "record_mllohi"
+            "identifier": "record_mellohi"
         },
         "tags": [
             "crafting_table"
@@ -23,7 +23,7 @@
             }
         ],
         "result": {
-            "item": "record_mllohi",
+            "item": "record_mellohi",
             "count": 1
         },
         "priority": 1

@@ -12,6 +12,11 @@
                 "tag": "dict:materials.bone"
             }
         ],
+        "unlock": [
+            {
+                "tag": "dict:materials.bone"
+            }
+        ],
         "result": {
             "item": "bone_meal",
             "count": 24

@@ -12,7 +12,7 @@
 				"item": "hy:bronze_ingot"
 			},
 			"X": {
-				"tag": "hy.is_handle"
+				"tag": "hy:is_handle"
 			}
 		},
 		"unlock": [

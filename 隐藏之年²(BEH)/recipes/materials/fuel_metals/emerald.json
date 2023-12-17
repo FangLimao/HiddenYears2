@@ -13,7 +13,7 @@
                 "item": "hy:fuel_metal"
             },
             {
-                "item": "hy:emerald_ingot"
+                "item": "emerald"
             }
         ],
         "unlock": [
@@ -21,7 +21,7 @@
                 "item": "hy:fuel_metal"
             },
             {
-                "item": "hy:emerald_ingot"
+                "item": "emerald"
             }
         ],
         "result": {
