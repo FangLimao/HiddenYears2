@@ -2,31 +2,31 @@
 	"format_version": "1.20.11",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "copper_hoe"
+			"identifier": "lv3_corrosion_pickaxe"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"pattern": [
-			"XX",
-			" #",
-			" #"
+			"XXX",
+			" # ",
+			" # "
 		],
 		"key": {
 			"#": {
 				"item": "stick"
 			},
 			"X": {
-				"item": "copper_ingot"
+				"item": "hy:lv3_corrosion_ingot"
 			}
 		},
 		"unlock": [
             {
-                "item": "copper_ingot"
+                "item": "hy:lv3_corrosion_ingot"
             }
         ],
 		"result": {
-			"item": "hy:copper_hoe"
+			"item": "hy:lv3_corrosion_pickaxe"
 		}
 	}
 }

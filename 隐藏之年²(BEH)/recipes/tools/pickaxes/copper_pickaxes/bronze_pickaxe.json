@@ -17,9 +17,14 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "dict:ingots.bronze"
+				"item": "hy:bronze_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "hy:bronze_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:bronze_pickaxe"
 		}

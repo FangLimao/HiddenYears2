@@ -18,6 +18,9 @@
         "unlock": [
             {
                 "item": "hy:amethyst_ingot"
+            },
+            {
+                "tag": "hy.is_handle"
             }
         ],
         "pattern": [

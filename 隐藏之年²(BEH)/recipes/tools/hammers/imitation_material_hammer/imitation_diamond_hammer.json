@@ -9,12 +9,20 @@
         ],
         "key": {
             "#": {
-                "tag": "dict:materials.imitation_diamond"
+                "item": "hy:imitation_diamond"
             },
             "X": {
                 "tag": "hy:is_handle"
             }
         },
+         "unlock": [
+            {
+                "item": "hy:imitation_diamond"
+            },
+            {
+                "tag": "hy:is_handle"
+            }
+        ],
         "pattern": [
             "###",
             "###",

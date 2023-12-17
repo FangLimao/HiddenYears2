@@ -9,12 +9,20 @@
         ],
         "key": {
             "#": {
-                "tag": "dict:ingots.steel"
+                "item": "hy:steel_ingot"
             },
             "X": {
                 "tag": "hy:is_handle"
             }
         },
+        "unlock": [
+            {
+                "item": "hy:steel_ingot"
+            },
+            {
+                "tag": "hy:is_handle"
+            }
+        ],
         "pattern": [
             "###",
             "###",

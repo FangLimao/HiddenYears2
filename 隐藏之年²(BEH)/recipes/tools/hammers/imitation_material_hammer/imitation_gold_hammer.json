@@ -9,12 +9,20 @@
         ],
         "key": {
             "#": {
-                "tag": "dict:ingots.imitation_gold"
+                "item": "hy:imitation_gold_ingot"
             },
             "X": {
                 "tag": "hy:is_handle"
             }
         },
+         "unlock": [
+            {
+                "item": "hy:imitation_gold_ingot"
+            },
+            {
+                "tag": "hy:is_handle"
+            }
+        ],
         "pattern": [
             "###",
             "###",

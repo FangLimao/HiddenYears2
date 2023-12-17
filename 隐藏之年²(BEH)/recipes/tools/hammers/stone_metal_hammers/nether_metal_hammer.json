@@ -15,6 +15,14 @@
                 "tag": "hy:is_handle"
             }
         },
+        "unlock": [
+            {
+                "item": "hy:nether_metal_ingot"
+            },
+            {
+                "tag": "hy:is_handle"
+            }
+        ],
         "pattern": [
             "###",
             "###",
