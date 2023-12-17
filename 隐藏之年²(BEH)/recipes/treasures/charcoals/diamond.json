@@ -15,6 +15,14 @@
                 "item": "diamond"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "diamond"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

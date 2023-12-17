@@ -15,6 +15,14 @@
                 "item": "copper_ingot"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "copper_ingot"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

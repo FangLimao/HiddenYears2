@@ -15,6 +15,14 @@
                 "item": "emerald"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "emerald"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

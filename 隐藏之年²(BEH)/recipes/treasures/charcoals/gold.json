@@ -15,6 +15,14 @@
                 "item": "gold_ingot"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "gold_ingot"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

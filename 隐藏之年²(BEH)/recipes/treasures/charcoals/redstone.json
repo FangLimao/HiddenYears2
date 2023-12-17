@@ -15,6 +15,14 @@
                 "item": "redstone"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "redstone"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

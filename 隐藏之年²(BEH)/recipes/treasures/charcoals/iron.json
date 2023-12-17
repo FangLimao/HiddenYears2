@@ -15,6 +15,14 @@
                 "item": "iron_ingot"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "iron_ingot"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

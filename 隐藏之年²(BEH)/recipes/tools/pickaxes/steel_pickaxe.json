@@ -17,9 +17,14 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "dict:ingots.steel"
+				"item": "hy:steel_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "hy:steel_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:steel_pickaxe"
 		}

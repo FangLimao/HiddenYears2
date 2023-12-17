@@ -13,6 +13,11 @@
 				"count": 9
 			}
 		],
+		"unlock": [
+			{
+				"item": "copper_block"
+			}
+		],
 		"result": {
 			"item": "hy:copper_badge"
 		}

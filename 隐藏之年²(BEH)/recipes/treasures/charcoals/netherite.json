@@ -15,6 +15,14 @@
                 "item": "netherite_ingot"
             }
         ],
+        "ingredients": [
+            {
+                "item": "charcoal"
+            },
+            {
+                "item": "netherite_ingot"
+            }
+        ],
         "result": {
             "item": "hy:mineral_charcoal"
         }

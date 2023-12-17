@@ -20,6 +20,11 @@
 				"item": "hy:end_metal_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "hy:end_metal_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:end_metal_shovel"
 		}

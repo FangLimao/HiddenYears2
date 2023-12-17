@@ -13,6 +13,11 @@
 				"count": 9
 			}
 		],
+		"unlock": [
+			{
+				"item": "gold_block"
+			}
+		],
 		"result": {
 			"item": "hy:golden_badge"
 		}

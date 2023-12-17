@@ -13,6 +13,11 @@
 				"count": 9
 			}
 		],
+		"unlock": [
+			{
+				"item": "diamond_block"
+			}
+		],
 		"result": {
 			"item": "hy:diamond_badge"
 		}
