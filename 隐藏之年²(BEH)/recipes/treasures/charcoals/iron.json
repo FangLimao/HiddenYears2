@@ -15,7 +15,7 @@
                 "item": "iron_ingot"
             }
         ],
-        "ingredients": [
+        "unlock": [
             {
                 "item": "charcoal"
             },

@@ -12,6 +12,11 @@
 				"item": "hy:copper_coin"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:copper_coin"
+			}
+		],
 		"pattern": [
 			"###",
 			"###",

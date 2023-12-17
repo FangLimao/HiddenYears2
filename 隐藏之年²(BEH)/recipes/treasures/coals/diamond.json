@@ -15,6 +15,14 @@
                 "item": "diamond"
             }
         ],
+        "unlock": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "diamond"
+            }
+        ],
         "result": {
             "item": "hy:mineral_coal"
         }

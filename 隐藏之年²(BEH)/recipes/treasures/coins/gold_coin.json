@@ -12,6 +12,11 @@
 				"item": "gold_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "gold_ingot"
+            }
+        ],
 		"pattern": [
 			"###",
 			"# #",

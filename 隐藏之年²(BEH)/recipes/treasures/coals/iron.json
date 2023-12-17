@@ -15,6 +15,14 @@
                 "item": "iron_ingot"
             }
         ],
+        "unlock": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "iron_ingot"
+            }
+        ],
         "result": {
             "item": "hy:mineral_coal"
         }

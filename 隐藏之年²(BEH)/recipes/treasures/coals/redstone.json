@@ -15,6 +15,14 @@
                 "item": "redstone"
             }
         ],
+        "unlock": [
+            {
+                "item": "coal"
+            },
+            {
+                "item": "redstone"
+            }
+        ],
         "result": {
            "item": "hy:mineral_coal"
         }

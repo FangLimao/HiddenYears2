@@ -13,6 +13,11 @@
 				"count": 4
 			}
 		],
+		"unlock": [
+			{
+				"item": "hy:copper_essence"
+			}
+		],
 		"result": {
 			"item": "hy:copper_star"
 		}

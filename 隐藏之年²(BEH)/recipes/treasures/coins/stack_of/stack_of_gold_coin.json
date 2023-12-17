@@ -12,6 +12,11 @@
 				"item": "hy:gold_coin"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:gold_coin"
+			}
+		],
 		"pattern": [
 			"###",
 			"###",

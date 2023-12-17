@@ -15,7 +15,7 @@
                 "item": "copper_ingot"
             }
         ],
-        "ingredients": [
+        "unlock": [
             {
                 "item": "charcoal"
             },

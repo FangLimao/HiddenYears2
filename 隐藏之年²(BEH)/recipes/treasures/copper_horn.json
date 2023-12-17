@@ -19,6 +19,14 @@
                 "item": "goat_horn"
             }
         },
+        "unlock": [
+			{
+				"item": "copper_ingot"
+			},
+			{
+                "item": "goat_horn"
+            }
+		],
         "result": {
             "item": "hy:copper_horn"
         }

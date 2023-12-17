@@ -12,6 +12,11 @@
 				"item": "copper_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "copper_ingot"
+            }
+        ],
 		"pattern": [
 			"###",
 			"# #",

@@ -12,6 +12,11 @@
 				"item": "diamond"
 			}
 		},
+		"unlock": [
+            {
+                "item": "diamond"
+            }
+        ],
 		"pattern": [
 			"###",
 			"# #",

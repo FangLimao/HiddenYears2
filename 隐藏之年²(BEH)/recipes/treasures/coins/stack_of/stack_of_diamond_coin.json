@@ -12,6 +12,11 @@
 				"item": "hy:diamond_coin"
 			}
 		},
+		"unlock": [
+			{
+				"item": "hy:diamond_coin"
+			}
+		],
 		"pattern": [
 			"###",
 			"###",

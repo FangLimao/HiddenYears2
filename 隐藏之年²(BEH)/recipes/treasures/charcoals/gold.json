@@ -15,7 +15,7 @@
                 "item": "gold_ingot"
             }
         ],
-        "ingredients": [
+        "unlock": [
             {
                 "item": "charcoal"
             },
