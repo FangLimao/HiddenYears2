@@ -16,6 +16,14 @@
                 "item": "flint"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:stone_knife"
+            },
+            {
+                "item": "flint"
+            }
+        ],
         "result": {
             "item": "hy:stone_dagger"
         }

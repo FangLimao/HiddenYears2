@@ -16,6 +16,14 @@
                 "item": "stick"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:over_metal_awl"
+            },
+            {
+                "item": "stick"
+            }
+        ],
         "result": {
             "item": "hy:over_metal_knife"
         }

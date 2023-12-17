@@ -16,6 +16,14 @@
                 "item": "flint"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:amethyst_knife"
+            },
+            {
+                "item": "flint"
+            }
+        ],
         "result": {
             "item": "hy:amethyst_dagger"
         }

@@ -17,9 +17,14 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "dict:ingots.imitation_iron"
+				"item": "hy:imitation_iron_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "hy:imitation_iron_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:imitation_iron_sword"
 		}

@@ -16,10 +16,14 @@
 				"item": "iron_nugget"
 			}
 		},
+		"unlock": [
+			{
+				"item": "iron_nugget"
+			}
+		],
 		"result": {
 			"item": "flint",
 			"count": 16
-		},
-		"priority": -1
+		}
 	}
 }

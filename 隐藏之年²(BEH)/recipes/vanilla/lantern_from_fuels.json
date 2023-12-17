@@ -20,6 +20,14 @@
                 "tag": "dict:fuels"
             }
         },
+        "unlock": [
+            {
+                "tag": "dict:fuels"
+            },
+            {
+                "item": "iron_nugget"
+            }
+        ],
         "result": {
             "item": "lantern",
             "count": 8

@@ -16,6 +16,14 @@
                 "item": "flint"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:over_metal_knife"
+            },
+            {
+                "item": "flint"
+            }
+        ],
         "result": {
             "item": "hy:over_metal_dagger"
         }

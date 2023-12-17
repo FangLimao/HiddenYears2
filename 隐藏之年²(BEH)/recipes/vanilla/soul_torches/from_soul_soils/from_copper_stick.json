@@ -23,6 +23,17 @@
                 "item": "soul_soil"
             }
         },
+        "unlock": [
+            {
+                "tag": "minecraft:coals"
+            },
+            {
+                "item": "hy:copper_stick"
+            },
+            {
+                "item": "soul_soil"
+            }
+        ],
         "result": {
             "item": "soul_torch",
             "count": 16

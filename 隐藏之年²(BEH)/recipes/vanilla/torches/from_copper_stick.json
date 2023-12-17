@@ -19,6 +19,14 @@
 				"tag": "minecraft:coals"
 			}
 		},
+		"unlock": [
+            {
+                "tag": "minecraft:coals"
+            },
+            {
+                "item": "hy:copper_stick"
+            }
+        ],
 		"result": {
 			"item": "torch",
 			"count": 16

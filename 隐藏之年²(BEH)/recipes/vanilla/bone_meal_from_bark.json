@@ -10,12 +10,12 @@
         "group": "bonemeal",
         "ingredients": [
             {
-                "tag": "dict:materials.bark"
+                "item": "hy:bark"
             }
         ],
         "unlock": [
             {
-                "tag": "dict:materials.bark"
+                "item": "hy:bark"
             }
         ],
         "result": {

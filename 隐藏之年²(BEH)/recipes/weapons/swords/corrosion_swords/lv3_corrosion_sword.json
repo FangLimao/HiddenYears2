@@ -20,6 +20,11 @@
                 "item": "hy:lv3_corrosion_ingot"
             }
         },
+        "unlock": [
+            {
+                "item": "hy:lv3_corrosion_ingot"
+            }
+        ],
         "result": {
             "item": "hy:lv3_corrosion_sword"
         }

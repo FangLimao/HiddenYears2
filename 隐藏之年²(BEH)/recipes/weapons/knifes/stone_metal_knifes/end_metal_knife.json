@@ -16,6 +16,14 @@
                 "item": "stick"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:end_metal_awl"
+            },
+            {
+                "item": "stick"
+            }
+        ],
         "result": {
             "item": "hy:end_metal_knife"
         }

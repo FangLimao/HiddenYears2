@@ -16,6 +16,14 @@
                 "item": "stick"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:copper_awl"
+            },
+            {
+                "item": "stick"
+            }
+        ],
         "result": {
             "item": "hy:copper_knife"
         }

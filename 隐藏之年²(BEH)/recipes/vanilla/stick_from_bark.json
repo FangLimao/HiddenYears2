@@ -13,12 +13,12 @@
         ],
         "key": {
             "A": {
-                "tag": "dict:materials.bark"
+                "item": "hy:bark"
             }
         },
         "unlock": [
           {
-            "tag": "dict:materials.bark"
+            "item": "hy:bark"
           }
         ],
         "result": {

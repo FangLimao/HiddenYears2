@@ -16,6 +16,14 @@
                 "item": "flint"
             }
         ],
+        "unlock": [
+            {
+                "item": "hy:netherite_knife"
+            },
+            {
+                "item": "flint"
+            }
+        ],
         "result": {
             "item": "hy:netherite_dagger"
         }

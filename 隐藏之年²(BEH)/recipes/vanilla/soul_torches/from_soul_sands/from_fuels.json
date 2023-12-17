@@ -23,6 +23,17 @@
                 "item": "soul_sand"
             }
         },
+        "unlock": [
+            {
+                "tag": "dict:fuels"
+            },
+            {
+                "item": "hy:copper_stick"
+            },
+            {
+                "item": "soul_sand"
+            }
+        ],
         "result": {
             "item": "soul_torch",
             "count": 16

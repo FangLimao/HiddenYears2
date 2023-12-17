@@ -13,13 +13,18 @@
             "#"
         ],
         "key": {
-            "#": {
-                "item": "stick"
-            },
-            "X": {
-                "tag": "dict:ingots.bronze"
+			"#": {
+				"item": "stick"
+			},
+			"X": {
+				"item": "hy:bronze_ingot"
+			}
+		},
+		"unlock": [
+            {
+                "item": "hy:bronze_ingot"
             }
-        },
+        ],
         "result": {
             "item": "hy:bronze_sword"
         }
