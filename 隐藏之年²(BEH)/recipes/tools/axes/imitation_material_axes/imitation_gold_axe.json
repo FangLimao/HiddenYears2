@@ -17,9 +17,14 @@
 				"item": "stick"
 			},
 			"X": {
-				"tag": "dict:ingots.imitation_gold"
+				"item": "hy:imitation_gold_ingot"
 			}
 		},
+		"unlock": [
+            {
+                "item": "hy:imitation_gold_ingot"
+            }
+        ],
 		"result": {
 			"item": "hy:imitation_gold_axe"
 		}

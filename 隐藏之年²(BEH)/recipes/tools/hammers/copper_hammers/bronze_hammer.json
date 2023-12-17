@@ -7,14 +7,19 @@
         "tags": [
             "crafting_table"
         ],
-        "key": {
-            "#": {
-                "tag": "dict:ingots.bronze"
-            },
-            "X": {
-                "tag": "hy:is_handle"
+       "key": {
+			"#": {
+				"item": "hy:bronze_ingot"
+			},
+			"X": {
+				"tag": "hy.is_handle"
+			}
+		},
+		"unlock": [
+            {
+                "item": "hy:bronze_ingot"
             }
-        },
+        ],
         "pattern": [
             "###",
             "###",

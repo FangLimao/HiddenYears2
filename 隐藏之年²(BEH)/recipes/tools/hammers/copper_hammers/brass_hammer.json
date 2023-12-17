@@ -8,13 +8,18 @@
             "crafting_table"
         ],
         "key": {
-            "#": {
-                "tag": "dict:ingots.brass"
-            },
-            "X": {
-                "tag": "hy:is_handle"
+			"X": {
+				"tag": "hy.is_handle"
+			},
+			"#": {
+				"item": "hy:brass_ingot"
+			}
+		},
+		"unlock": [
+            {
+               "item": "hy:brass_ingot"
             }
-        },
+        ],
         "pattern": [
             "###",
             "###",

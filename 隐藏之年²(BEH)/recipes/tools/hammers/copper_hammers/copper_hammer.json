@@ -8,13 +8,18 @@
             "crafting_table"
         ],
         "key": {
-            "#": {
+			"#": {
+				"item": "copper_ingot"
+			},
+			"X": {
+				"tag": "hy.is_handle"
+			}
+		},
+		"unlock": [
+            {
                 "item": "copper_ingot"
-            },
-            "X": {
-                "tag": "hy:is_handle"
             }
-        },
+        ],
         "pattern": [
             "###",
             "###",

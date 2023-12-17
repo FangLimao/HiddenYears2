@@ -9,7 +9,7 @@
         ],
         "key": {
             "#": {
-                "tag": "dict:ingots.imitation_amethyst"
+                "item": "hy:imitation_amethyst_ingot"
             },
             "X": {
                 "tag": "hy:is_handle"

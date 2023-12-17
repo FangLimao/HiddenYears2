@@ -20,6 +20,14 @@
 				"item": "iron_nugget"
 			}
 		},
+		"unlock": [
+            {
+                "item": "iron_ingot"
+            },
+            {
+                "item": "hy:iron_nugget"
+            }
+        ],
 		"result": {
 			"item": "hy:iron_crowbar"
 		}

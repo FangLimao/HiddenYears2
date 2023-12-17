@@ -20,6 +20,14 @@
 				"item": "gold_nugget"
 			}
 		},
+		"unlock": [
+            {
+                "item": "gold_ingot"
+            },
+            {
+                "item": "hy:gold_nugget"
+            }
+        ],
 		"result": {
 			"item": "hy:gold_crowbar"
 		}
