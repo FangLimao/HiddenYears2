@@ -1,31 +1,25 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "record_chirp"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "AAA",
-            "AAA",
-            "AAA"
-        ],
-        "key": {
-            "A": {
-                "item": "hy:disc_fragment_chirp"
-            }
-        },
-        "unlock": [
-            {
-                "item": "hy:disc_fragment_chirp"
-            }
-        ],
-        "result": {
-            "item": "record_chirp",
-            "count": 1
-        },
-        "priority": 1
-    }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "record_chirp"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["AAA", "AAA", "AAA"],
+    "key": {
+      "A": {
+        "item": "hy:disc_fragment_chirp"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:disc_fragment_chirp"
+      }
+    ],
+    "result": {
+      "item": "record_chirp",
+      "count": 1
+    },
+    "priority": 1
+  }
 }

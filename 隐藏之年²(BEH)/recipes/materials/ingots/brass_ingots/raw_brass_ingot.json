@@ -1,35 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "raw_brass_ingot"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "iron_nugget"
-            },
-            "&": {
-                "item": "copper_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "iron_nugget"
-            },
-            {
-                "item": "copper_ingot"
-            }
-        ],
-        "pattern": [
-            "###",
-            "#&#",
-            "###"
-        ],
-        "result": {
-            "item": "hy:raw_brass_ingot"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "raw_brass_ingot"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "iron_nugget"
+      },
+      "&": {
+        "item": "copper_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "iron_nugget"
+      },
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "pattern": ["###", "#&#", "###"],
+    "result": {
+      "item": "hy:raw_brass_ingot"
     }
+  }
 }

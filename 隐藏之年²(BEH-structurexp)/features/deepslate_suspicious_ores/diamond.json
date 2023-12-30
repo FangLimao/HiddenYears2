@@ -1,18 +1,15 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:ore_feature": {
-		"description": {
-			"identifier": "hy:deepslate_suspicious_ores/diamond"
-		},
-		"count": 2,
-		"replace_rules": [
-			{
-				"places_block": "hy:deepslate_suspicious_diamond_ore",
-				"may_replace": [
-					"deepslate_diamond_ore",
-					"hy:geocentric_diamond_ore"
-				]
-			}
-		]
-	}
+  "format_version": "1.20.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:deepslate_suspicious_ores/diamond"
+    },
+    "count": 2,
+    "replace_rules": [
+      {
+        "places_block": "hy:deepslate_suspicious_diamond_ore",
+        "may_replace": ["deepslate_diamond_ore", "hy:geocentric_diamond_ore"]
+      }
+    ]
+  }
 }

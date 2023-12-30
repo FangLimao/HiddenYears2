@@ -1,23 +1,23 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "hy:lv3_corrosion_ingot",
-            "category": "items"
-        },
-        "components": {
-            "minecraft:icon": {
-                "texture": "hy.lv3_corrosion_ingot"
-            },
-            "minecraft:display_name": {
-                "value": "hy.item.lv3_corrosion_ingot"
-            },
-            "minecraft:creative_category": {
-                "category": "items"
-            },
-            "tag:dict:ingots": {},
-            "tag:dict:ingots.corrosion": {},
-            "tag:dict:ingots.corrosion_lv3": {}
-        }
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:lv3_corrosion_ingot",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hy.lv3_corrosion_ingot"
+      },
+      "minecraft:display_name": {
+        "value": "hy.item.lv3_corrosion_ingot"
+      },
+      "minecraft:creative_category": {
+        "category": "items"
+      },
+      "tag:dict:ingots": {},
+      "tag:dict:ingots.corrosion": {},
+      "tag:dict:ingots.corrosion_lv3": {}
     }
+  }
 }

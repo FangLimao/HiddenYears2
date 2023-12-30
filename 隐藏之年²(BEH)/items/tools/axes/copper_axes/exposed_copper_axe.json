@@ -1,290 +1,270 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "hy:exposed_copper_axe",
-            "category": "equipment"
-        },
-        "components": {
-            "minecraft:display_name": {
-                "value": "hy.item.exposed_copper_axe"
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:exposed_copper_axe",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "hy.item.exposed_copper_axe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 50
+      },
+      "minecraft:mining_speed": 1,
+      "minecraft:damage": 4,
+      "minecraft:enchantable": {
+        "value": 8,
+        "slot": "axe"
+      },
+      "minecraft:use_on": {
+        "blocks": ["log", "log2", "wood"]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["hy:copper_axe"],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          },
+          {
+            "items": ["copper_ingot"],
+            "repair_amount": 40
+          },
+          {
+            "items": ["hy:waxed_copper_axe"],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          },
+          {
+            "items": ["hy:exposed_copper_axe"],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          },
+          {
+            "items": ["hy:weathered_copper_axe"],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          },
+          {
+            "items": ["hy:oxidized_copper_axe"],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('wood', 'pumpkin', 'plant')"
             },
-            "minecraft:max_stack_size": 1,
-            "minecraft:hand_equipped": true,
-            "minecraft:durability": {
-                "max_durability": 50
-            },
-            "minecraft:mining_speed": 1,
-            "minecraft:damage": 4,
-            "minecraft:enchantable": {
-                "value": 8,
-                "slot": "axe"
-            },
-            "minecraft:use_on": {
-                "blocks": [
-                    "log",
-                    "log2",
-                    "wood"
-                ]
-            },
-            "minecraft:repairable": {
-                "repair_items": [
-                    {
-                        "items": [
-                            "hy:copper_axe"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "copper_ingot"
-                        ],
-                        "repair_amount": 40
-                    },
-                    {
-                        "items": [
-                            "hy:waxed_copper_axe"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "hy:exposed_copper_axe"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "hy:weathered_copper_axe"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    },
-                    {
-                        "items": [
-                            "hy:oxidized_copper_axe"
-                        ],
-                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-                    }
-                ]
-            },
-            "minecraft:digger": {
-                "use_efficiency": true,
-                "destroy_speeds": [
-                    {
-                        "block": {
-                            "tags": "query.any_tag('wood', 'pumpkin', 'plant')"
-                        },
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "chest",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "trapped_chest",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "lectern",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "smithing_table",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "loom",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "cartography_table",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "barrel",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "jukebox",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "campfire",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "soul_campfire",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "bookshelf",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "noteblock",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "beehive",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "bee_nest",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "daylight_detector",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "block": "melon_block",
-                        "speed": 3,
-                        "on_dig": {
-                            "event": "hy.on_break_block",
-                            "target": "self"
-                        }
-                    }
-                ]
-            },
-            "minecraft:icon": {
-                "texture": "hy.exposed_copper_axe"
-            },
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.axe"
-            },
-            "minecraft:weapon": {
-                "on_hurt_entity": {
-                    "event": "hy.on_hurt_entity",
-                    "target": "self"
-                }
-            },
-            "tag:minecraft:is_axe": {},
-            "tag:hy:exposed_item": {}
-        },
-        "events": {
-            "hy.on_break_block": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 1,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function gameplay/items/item_oxidising/axes/weathered_axe"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
-                    }
-                ]
-            },
-            "hy.on_hurt_entity": {
-                "sequence": [
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function api/tetanus.effect/v1.0/radius4/lv1"
-                            ]
-                        }
-                    },
-                    {
-                        "damage": {
-                            "type": "durability",
-                            "target": "self",
-                            "amount": 2
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "target": "self",
-                            "command": [
-                                "function gameplay/items/item_oxidising/axes/weathered_axe"
-                            ]
-                        },
-                        "condition": "query.remaining_durability==0"
-                    }
-                ]
-            },
-            "on_tool_used": {
-                "damage": {
-                    "type": "magic",
-                    "amount": 1
-                },
-                "run_command": {
-                    "command": [
-                        "playsound use.wood @a ~ ~ ~ 1.0 1.0"
-                    ]
-                }
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
             }
+          },
+          {
+            "block": "chest",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "trapped_chest",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "lectern",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "smithing_table",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "loom",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "cartography_table",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "barrel",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "jukebox",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "campfire",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "soul_campfire",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bookshelf",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "noteblock",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "beehive",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bee_nest",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "daylight_detector",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "melon_block",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "minecraft:icon": {
+        "texture": "hy.exposed_copper_axe"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.axe"
+      },
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "hy.on_hurt_entity",
+          "target": "self"
         }
+      },
+      "tag:minecraft:is_axe": {},
+      "tag:hy:exposed_item": {}
+    },
+    "events": {
+      "hy.on_break_block": {
+        "sequence": [
+          {
+            "damage": {
+              "type": "magic",
+              "amount": 1,
+              "target": "self"
+            }
+          },
+          {
+            "run_command": {
+              "target": "self",
+              "command": [
+                "function gameplay/items/item_oxidising/axes/weathered_axe"
+              ]
+            },
+            "condition": "query.remaining_durability==0"
+          }
+        ]
+      },
+      "hy.on_hurt_entity": {
+        "sequence": [
+          {
+            "run_command": {
+              "target": "self",
+              "command": ["function api/tetanus.effect/v1.0/radius4/lv1"]
+            }
+          },
+          {
+            "damage": {
+              "type": "durability",
+              "target": "self",
+              "amount": 2
+            }
+          },
+          {
+            "run_command": {
+              "target": "self",
+              "command": [
+                "function gameplay/items/item_oxidising/axes/weathered_axe"
+              ]
+            },
+            "condition": "query.remaining_durability==0"
+          }
+        ]
+      },
+      "on_tool_used": {
+        "damage": {
+          "type": "magic",
+          "amount": 1
+        },
+        "run_command": {
+          "command": ["playsound use.wood @a ~ ~ ~ 1.0 1.0"]
+        }
+      }
     }
+  }
 }

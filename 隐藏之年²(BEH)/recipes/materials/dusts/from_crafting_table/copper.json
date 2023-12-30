@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "copper_dust_from_crafting_table"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:copper_nugget"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:copper_nugget"
-            }
-        ],
-        "result": {
-            "item": "hy:copper_dust",
-            "count": 9
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "copper_dust_from_crafting_table"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:copper_nugget"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:copper_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_dust",
+      "count": 9
     }
+  }
 }

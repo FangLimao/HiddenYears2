@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "coal_nugget_from_crafting_table"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "coal"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "coal"
-            }
-        ],
-        "result": {
-            "item": "hy:coal_nugget",
-            "count": 9
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "coal_nugget_from_crafting_table"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "coal"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "coal"
+      }
+    ],
+    "result": {
+      "item": "hy:coal_nugget",
+      "count": 9
     }
+  }
 }

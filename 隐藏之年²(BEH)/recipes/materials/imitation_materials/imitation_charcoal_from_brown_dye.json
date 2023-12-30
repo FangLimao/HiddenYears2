@@ -1,25 +1,23 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "imitation_charcoal_from_brown_dye"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "brown_dye"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "brown_dye"
-            }
-        ],
-        "result": {
-            "item": "hy:imitation_charcoal"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "imitation_charcoal_from_brown_dye"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "brown_dye"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "brown_dye"
+      }
+    ],
+    "result": {
+      "item": "hy:imitation_charcoal"
     }
+  }
 }

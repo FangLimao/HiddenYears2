@@ -1,19 +1,16 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_furnace": {
-        "description": {
-            "identifier": "crop_fuel_metal_from_carrot"
-        },
-        "tags": [
-            "furnace",
-            "blast_furnace"
-        ],
-        "unlock": [
-            {
-                "item": "carrot"
-            }
-        ],
-        "input": "carrot",
-        "output": "hy:crop_fuel_metal"
-    }
+  "format_version": "1.20.11",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "crop_fuel_metal_from_carrot"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "carrot"
+      }
+    ],
+    "input": "carrot",
+    "output": "hy:crop_fuel_metal"
+  }
 }

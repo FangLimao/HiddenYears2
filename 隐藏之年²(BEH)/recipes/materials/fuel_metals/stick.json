@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "fuel_metal_stick"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"key": {
-			"#": {
-				"item": "hy:fuel_metal"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:fuel_metal"
-			}
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"result": {
-			"item": "hy:fuel_metal_stick"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fuel_metal_stick"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "hy:fuel_metal"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:fuel_metal"
+      }
+    ],
+    "pattern": ["#", "#"],
+    "result": {
+      "item": "hy:fuel_metal_stick"
+    }
+  }
 }

@@ -1,19 +1,19 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:ore_feature": {
-        "description": {
-            "identifier": "hy:geocentric_ores/emerald"
-        },
-        "count": 5,
-        "replace_rules": [
-            {
-                "places_block": "hy:geocentric_emerald_ore",
-                "may_replace": [
-                    "deepslate_emerald_ore",
-                    "shallow_emerald_ore",
-                    "deepslate"
-                ]
-            }
+  "format_version": "1.20.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:geocentric_ores/emerald"
+    },
+    "count": 5,
+    "replace_rules": [
+      {
+        "places_block": "hy:geocentric_emerald_ore",
+        "may_replace": [
+          "deepslate_emerald_ore",
+          "shallow_emerald_ore",
+          "deepslate"
         ]
-    }
+      }
+    ]
+  }
 }

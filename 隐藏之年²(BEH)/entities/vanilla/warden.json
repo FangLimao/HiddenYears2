@@ -45,26 +45,34 @@
         "angry_boost": 20,
         "anger_decrement_interval": 1.0,
         "default_annoyingness": 35,
-        "default_projectile_annoyingness":  10,
+        "default_projectile_annoyingness": 10,
         "on_increase_sounds": [
-          { "sound": "listening_angry", "condition" : "query.anger_level(this) >= 40" },
-          { "sound": "listening", "condition" : "query.anger_level(this) >= 0" }
+          {
+            "sound": "listening_angry",
+            "condition": "query.anger_level(this) >= 40"
+          },
+          { "sound": "listening", "condition": "query.anger_level(this) >= 0" }
         ],
         "nuisance_filter": {
           "all_of": [
-            { "test": "is_family", "subject": "other", "operator": "not", "value": "warden" },
-            { "test": "is_family", "subject": "other", "operator": "not", "value": "inanimate" }
+            {
+              "test": "is_family",
+              "subject": "other",
+              "operator": "not",
+              "value": "warden"
+            },
+            {
+              "test": "is_family",
+              "subject": "other",
+              "operator": "not",
+              "value": "inanimate"
+            }
           ]
         }
       },
-      "minecraft:is_hidden_when_invisible": {
-      },
+      "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": [
-          "warden",
-          "monster",
-          "mob"
-        ]
+        "family": ["warden", "monster", "mob"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -84,12 +92,12 @@
         "event_name": "ambient",
         "event_names": [
           {
-            "event_name" : "angry",
-            "condition" : "query.anger_level(this) >= 80"
+            "event_name": "angry",
+            "condition": "query.anger_level(this) >= 80"
           },
           {
-            "event_name" : "agitated",
-            "condition" : "query.anger_level(this) >= 40"
+            "event_name": "agitated",
+            "condition": "query.anger_level(this) >= 40"
           }
         ]
       },
@@ -160,9 +168,9 @@
         "priority": 6,
         "duration": 4.16,
         "sniffing_radius": 24.0,
-        "suspicion_radius_horizontal" : 6.0,
+        "suspicion_radius_horizontal": 6.0,
         "suspicion_radius_vertical": 20.0,
-        "cooldown_range": [ 5.0, 10.0 ]
+        "cooldown_range": [5.0, 10.0]
       },
       "minecraft:behavior.random_stroll": {
         "priority": 9,
@@ -180,7 +188,12 @@
         "entity_filter": {
           "all_of": [
             { "test": "is_family", "subject": "other", "value": "player" },
-            { "operator": "not", "test": "has_ability", "subject" : "other", "value" : "invulnerable" }
+            {
+              "operator": "not",
+              "test": "has_ability",
+              "subject": "other",
+              "value": "invulnerable"
+            }
           ]
         }
       },
@@ -194,35 +207,25 @@
     "events": {
       "minecraft:spawn_emerging": {
         "add": {
-          "component_groups": [
-            "emerging"
-          ]
+          "component_groups": ["emerging"]
         }
       },
       "minecraft:emerged": {
         "add": {
-          "component_groups": [
-            "pushable"
-          ]
+          "component_groups": ["pushable"]
         },
         "remove": {
-          "component_groups": [
-            "emerging"
-          ]
+          "component_groups": ["emerging"]
         }
       },
       "minecraft:entity_spawned": {
         "add": {
-          "component_groups": [
-            "pushable"
-          ]
+          "component_groups": ["pushable"]
         }
       },
       "on_digging_event": {
         "remove": {
-          "component_groups": [
-            "pushable"
-          ]
+          "component_groups": ["pushable"]
         }
       }
     }

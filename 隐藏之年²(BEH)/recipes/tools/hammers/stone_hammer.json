@@ -1,35 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "stone_hammer"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "stone"
-            },
-            "X": {
-                "tag": "hy:is_handle"
-            }
-        },
-        "unlock": [
-            {
-                "item": "stone"
-            },
-            {
-                "tag": "hy:is_handle"
-            }
-        ],
-        "pattern": [
-            "###",
-            "###",
-            " X "
-        ],
-        "result": {
-            "item": "hy:stone_hammer"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stone_hammer"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "stone"
+      },
+      "X": {
+        "tag": "hy:is_handle"
+      }
+    },
+    "unlock": [
+      {
+        "item": "stone"
+      },
+      {
+        "tag": "hy:is_handle"
+      }
+    ],
+    "pattern": ["###", "###", " X "],
+    "result": {
+      "item": "hy:stone_hammer"
     }
+  }
 }

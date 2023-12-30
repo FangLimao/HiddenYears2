@@ -1,30 +1,28 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "gold_coal_from_crafting_table"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "ingredients": [
-            {
-                "item": "coal"
-            },
-            {
-                "item": "gold_ingot"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "coal"
-            },
-            {
-                "item": "gold_ingot"
-            }
-        ],
-        "result": {
-            "item": "hy:mineral_coal"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "gold_coal_from_crafting_table"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "coal"
+      },
+      {
+        "item": "gold_ingot"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "coal"
+      },
+      {
+        "item": "gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:mineral_coal"
     }
+  }
 }

@@ -1,31 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "steel_knife"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:steel_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:steel_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "result": {
-            "item": "hy:steel_knife"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "steel_knife"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:steel_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:steel_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "result": {
+      "item": "hy:steel_knife"
     }
+  }
 }

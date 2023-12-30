@@ -1,31 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "brass_knife"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:brass_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:brass_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "result": {
-            "item": "hy:brass_knife"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "brass_knife"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:brass_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:brass_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "result": {
+      "item": "hy:brass_knife"
     }
+  }
 }

@@ -1,31 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "end_metal_knife"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:end_metal_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:end_metal_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "result": {
-            "item": "hy:end_metal_knife"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "end_metal_knife"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:end_metal_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:end_metal_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "result": {
+      "item": "hy:end_metal_knife"
     }
+  }
 }

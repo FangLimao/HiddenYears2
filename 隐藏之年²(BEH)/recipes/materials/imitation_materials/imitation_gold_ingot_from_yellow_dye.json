@@ -1,36 +1,30 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "imitation_gold_ingot_from_yellow_dye"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "yellow_dye"
-            },
-            "&": {
-                "item": "copper_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "yellow_dye"
-            },
-            {
-                "item": "copper_ingot"
-            }
-        ],
-        "pattern": [
-            "###",
-            "#&#",
-            "###"
-        ],
-        "result": {
-            "item": "hy:imitation_gold_ingot",
-            "count": 8
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "imitation_gold_ingot_from_yellow_dye"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "yellow_dye"
+      },
+      "&": {
+        "item": "copper_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "yellow_dye"
+      },
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "pattern": ["###", "#&#", "###"],
+    "result": {
+      "item": "hy:imitation_gold_ingot",
+      "count": 8
     }
+  }
 }

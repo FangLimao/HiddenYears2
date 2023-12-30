@@ -1,36 +1,31 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "torch_from_copper_stick"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"X",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "hy:copper_stick"
-			},
-			"X": {
-				"tag": "minecraft:coals"
-			}
-		},
-		"unlock": [
-            {
-                "tag": "minecraft:coals"
-            },
-            {
-                "item": "hy:copper_stick"
-            }
-        ],
-		"result": {
-			"item": "torch",
-			"count": 16
-		},
-		"priority": -1
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "torch_from_copper_stick"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["X", "#"],
+    "key": {
+      "#": {
+        "item": "hy:copper_stick"
+      },
+      "X": {
+        "tag": "minecraft:coals"
+      }
+    },
+    "unlock": [
+      {
+        "tag": "minecraft:coals"
+      },
+      {
+        "item": "hy:copper_stick"
+      }
+    ],
+    "result": {
+      "item": "torch",
+      "count": 16
+    },
+    "priority": -1
+  }
 }

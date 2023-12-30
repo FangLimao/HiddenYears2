@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "steel_awl"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "hy:steel_nugget"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:steel_nugget"
-			}
-		],
-		"result": {
-			"item": "hy:steel_awl"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "steel_awl"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["#", "#"],
+    "key": {
+      "#": {
+        "item": "hy:steel_nugget"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:steel_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:steel_awl"
+    }
+  }
 }

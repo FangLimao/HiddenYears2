@@ -1,32 +1,26 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "copper_hammer"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-			"#": {
-				"item": "copper_ingot"
-			},
-			"X": {
-				"tag": "hy:is_handle"
-			}
-		},
-		"unlock": [
-            {
-                "item": "copper_ingot"
-            }
-        ],
-        "pattern": [
-            "###",
-            "###",
-            " X "
-        ],
-        "result": {
-            "item": "hy:copper_hammer"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "copper_hammer"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "copper_ingot"
+      },
+      "X": {
+        "tag": "hy:is_handle"
+      }
+    },
+    "unlock": [
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "pattern": ["###", "###", " X "],
+    "result": {
+      "item": "hy:copper_hammer"
     }
+  }
 }

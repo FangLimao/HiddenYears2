@@ -1,19 +1,19 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:ore_feature": {
-        "description": {
-            "identifier": "hy:geocentric_ores/copper"
-        },
-        "count": 5,
-        "replace_rules": [
-            {
-                "places_block": "hy:geocentric_copper_ore",
-                "may_replace": [
-                    "deepslate_copper_ore",
-                    "shallow_copper_ore",
-                    "deepslate"
-                ]
-            }
+  "format_version": "1.20.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:geocentric_ores/copper"
+    },
+    "count": 5,
+    "replace_rules": [
+      {
+        "places_block": "hy:geocentric_copper_ore",
+        "may_replace": [
+          "deepslate_copper_ore",
+          "shallow_copper_ore",
+          "deepslate"
         ]
-    }
+      }
+    ]
+  }
 }

@@ -16,7 +16,7 @@
         }
       },
       "minecraft:type_family": {
-        "family": [ "npc", "mob" ]
+        "family": ["npc", "mob"]
       },
       "minecraft:fire_immune": true,
       "minecraft:movement": {
@@ -34,8 +34,7 @@
         "look_distance": 6.0,
         "probability": 0.02
       },
-      "minecraft:persistent": {
-      },
+      "minecraft:persistent": {},
       "minecraft:npc": {
         "npc_data": {
           "portrait_offsets": {
@@ -234,8 +233,7 @@
         "always_show": false,
         "allow_name_tag_renaming": false
       },
-      "minecraft:physics": {
-      }
+      "minecraft:physics": {}
     }
   }
 }

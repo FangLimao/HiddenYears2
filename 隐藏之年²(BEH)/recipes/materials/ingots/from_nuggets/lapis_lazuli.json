@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "lapis_lazuli_from_nugget"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:lapis_nugget",
-                "count": 9
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:lapis_nugget"
-            }
-        ],
-        "result": {
-            "item": "lapis_lazuli"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "lapis_lazuli_from_nugget"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:lapis_nugget",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:lapis_nugget"
+      }
+    ],
+    "result": {
+      "item": "lapis_lazuli"
     }
+  }
 }

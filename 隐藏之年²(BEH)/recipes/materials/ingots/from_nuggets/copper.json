@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "copper_ingot_from_nugget"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:copper_nugget",
-                "count": 9
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:copper_nugget"
-            }
-        ],
-        "result": {
-            "item": "copper_ingot"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "copper_ingot_from_nugget"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:copper_nugget",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:copper_nugget"
+      }
+    ],
+    "result": {
+      "item": "copper_ingot"
     }
+  }
 }

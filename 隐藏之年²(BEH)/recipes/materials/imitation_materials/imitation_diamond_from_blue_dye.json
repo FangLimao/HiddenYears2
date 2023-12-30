@@ -1,36 +1,30 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "imitation_diamond_from_blue_dye"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "blue_dye"
-            },
-            "&": {
-                "item": "egg"
-            }
-        },
-        "pattern": [
-            "###",
-            "#&#",
-            "###"
-        ],
-        "unlock": [
-            {
-                "item": "blue_dye"
-            },
-            {
-                "item": "egg"
-            }
-        ],
-        "result": {
-            "item": "hy:imitation_diamond",
-            "count": 8
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "imitation_diamond_from_blue_dye"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "blue_dye"
+      },
+      "&": {
+        "item": "egg"
+      }
+    },
+    "pattern": ["###", "#&#", "###"],
+    "unlock": [
+      {
+        "item": "blue_dye"
+      },
+      {
+        "item": "egg"
+      }
+    ],
+    "result": {
+      "item": "hy:imitation_diamond",
+      "count": 8
     }
+  }
 }

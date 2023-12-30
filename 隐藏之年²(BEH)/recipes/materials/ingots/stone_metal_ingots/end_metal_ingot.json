@@ -1,30 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "end_metal_ingot"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "end_stone"
-            }
-        },
-        "unlock": [
-            {
-                "item": "end_stone"
-            }
-        ],
-        "pattern": [
-            "###",
-            "###",
-            "###"
-        ],
-        "result": {
-            "item": "hy:end_metal_ingot",
-            "count": 4
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "end_metal_ingot"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "end_stone"
+      }
+    },
+    "unlock": [
+      {
+        "item": "end_stone"
+      }
+    ],
+    "pattern": ["###", "###", "###"],
+    "result": {
+      "item": "hy:end_metal_ingot",
+      "count": 4
     }
+  }
 }

@@ -35,15 +35,9 @@
         },
         "minecraft:rideable": {
           "seat_count": 1,
-          "family_types": [
-            "zombie"
-          ],
+          "family_types": ["zombie"],
           "seats": {
-            "position": [
-              0.0,
-              1.1,
-              -0.35
-            ]
+            "position": [0.0, 1.1, -0.35]
           }
         },
         "minecraft:behavior.mount_pathing": {
@@ -85,10 +79,7 @@
             "block_assist_chance": 0.01,
             "block_radius": 4,
             "block_chance": 0.3,
-            "block_types": [
-              "minecraft:bed",
-              "minecraft:iron_bars"
-            ]
+            "block_types": ["minecraft:bed", "minecraft:iron_bars"]
           }
         },
         "minecraft:spell_effects": {
@@ -602,9 +593,7 @@
         "speed_multiplier": 1.0,
         "pickup_based_on_chance": false,
         "can_pickup_any_item": true,
-        "excluded_items": [
-          "minecraft:glow_ink_sac"
-        ]
+        "excluded_items": ["minecraft:glow_ink_sac"]
       },
       "minecraft:behavior.random_stroll": {
         "priority": 9,
@@ -697,9 +686,7 @@
       "villager_converted": {
         "remove": {},
         "add": {
-          "component_groups": [
-            "to_villager"
-          ]
+          "component_groups": ["to_villager"]
         }
       },
       "minecraft:entity_spawned": {
@@ -715,28 +702,21 @@
                 "weight": 9500,
                 "remove": {},
                 "add": {
-                  "component_groups": [
-                    "adult"
-                  ]
+                  "component_groups": ["adult"]
                 }
               },
               {
                 "weight": 425,
                 "remove": {},
                 "add": {
-                  "component_groups": [
-                    "baby"
-                  ]
+                  "component_groups": ["baby"]
                 }
               },
               {
                 "weight": 75,
                 "remove": {},
                 "add": {
-                  "component_groups": [
-                    "baby",
-                    "jockey"
-                  ]
+                  "component_groups": ["baby", "jockey"]
                 }
               }
             ]
@@ -751,97 +731,73 @@
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "farmer"
-                  ]
+                  "component_groups": ["farmer"]
                 }
               },
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "fisherman"
-                  ]
+                  "component_groups": ["fisherman"]
                 }
               },
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "shepherd"
-                  ]
+                  "component_groups": ["shepherd"]
                 }
               },
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "fletcher"
-                  ]
+                  "component_groups": ["fletcher"]
                 }
               },
               {
                 "weight": 20,
                 "add": {
-                  "component_groups": [
-                    "librarian"
-                  ]
+                  "component_groups": ["librarian"]
                 }
               },
               {
                 "weight": 20,
                 "add": {
-                  "component_groups": [
-                    "cartographer"
-                  ]
+                  "component_groups": ["cartographer"]
                 }
               },
               {
                 "weight": 20,
                 "add": {
-                  "component_groups": [
-                    "cleric"
-                  ]
+                  "component_groups": ["cleric"]
                 }
               },
               {
                 "weight": 6,
                 "add": {
-                  "component_groups": [
-                    "armorer"
-                  ]
+                  "component_groups": ["armorer"]
                 }
               },
               {
                 "weight": 6,
                 "add": {
-                  "component_groups": [
-                    "weaponsmith"
-                  ]
+                  "component_groups": ["weaponsmith"]
                 }
               },
               {
                 "weight": 6,
                 "add": {
-                  "component_groups": [
-                    "toolsmith"
-                  ]
+                  "component_groups": ["toolsmith"]
                 }
               },
               {
                 "weight": 10,
                 "add": {
-                  "component_groups": [
-                    "butcher"
-                  ]
+                  "component_groups": ["butcher"]
                 }
               },
               {
                 "weight": 10,
                 "add": {
-                  "component_groups": [
-                    "leatherworker"
-                  ]
+                  "component_groups": ["leatherworker"]
                 }
               }
             ]
@@ -851,9 +807,7 @@
               {
                 "weight": 10,
                 "add": {
-                  "component_groups": [
-                    "can_break_doors"
-                  ]
+                  "component_groups": ["can_break_doors"]
                 }
               },
               {
@@ -878,9 +832,7 @@
               "value": "minecraft:is_baby"
             },
             "add": {
-              "component_groups": [
-                "baby"
-              ]
+              "component_groups": ["baby"]
             }
           },
           // Transform adult villager to adult zombie
@@ -892,9 +844,7 @@
               "value": "minecraft:is_baby"
             },
             "add": {
-              "component_groups": [
-                "adult"
-              ]
+              "component_groups": ["adult"]
             }
           },
           // Transform farmer zombie to farmer villager
@@ -905,9 +855,7 @@
               "value": "farmer"
             },
             "add": {
-              "component_groups": [
-                "farmer"
-              ]
+              "component_groups": ["farmer"]
             }
           },
           // Transform fisherman zombie to fisherman villager
@@ -918,9 +866,7 @@
               "value": "fisherman"
             },
             "add": {
-              "component_groups": [
-                "fisherman"
-              ]
+              "component_groups": ["fisherman"]
             }
           },
           // Transform shepherd zombie to shepherd villager
@@ -931,9 +877,7 @@
               "value": "shepherd"
             },
             "add": {
-              "component_groups": [
-                "shepherd"
-              ]
+              "component_groups": ["shepherd"]
             }
           },
           // Transform fletcher zombie to fletcher villager
@@ -944,9 +888,7 @@
               "value": "fletcher"
             },
             "add": {
-              "component_groups": [
-                "fletcher"
-              ]
+              "component_groups": ["fletcher"]
             }
           },
           // Transform librarian zombie to librarian villager
@@ -957,9 +899,7 @@
               "value": "librarian"
             },
             "add": {
-              "component_groups": [
-                "librarian"
-              ]
+              "component_groups": ["librarian"]
             }
           },
           // Transform cartographer zombie to cartographer villager
@@ -970,9 +910,7 @@
               "value": "cartographer"
             },
             "add": {
-              "component_groups": [
-                "cartographer"
-              ]
+              "component_groups": ["cartographer"]
             }
           },
           // Transform cleric zombie to cleric villager
@@ -983,9 +921,7 @@
               "value": "cleric"
             },
             "add": {
-              "component_groups": [
-                "cleric"
-              ]
+              "component_groups": ["cleric"]
             }
           },
           // Transform armorer zombie to armorer villager
@@ -996,9 +932,7 @@
               "value": "armorer"
             },
             "add": {
-              "component_groups": [
-                "armorer"
-              ]
+              "component_groups": ["armorer"]
             }
           },
           // Transform weaponsmith zombie to weaponsmith villager
@@ -1009,9 +943,7 @@
               "value": "weaponsmith"
             },
             "add": {
-              "component_groups": [
-                "weaponsmith"
-              ]
+              "component_groups": ["weaponsmith"]
             }
           },
           // Transform toolsmith zombie to toolsmith villager
@@ -1022,9 +954,7 @@
               "value": "toolsmith"
             },
             "add": {
-              "component_groups": [
-                "toolsmith"
-              ]
+              "component_groups": ["toolsmith"]
             }
           },
           // Transform butcher zombie to butcher villager
@@ -1035,9 +965,7 @@
               "value": "butcher"
             },
             "add": {
-              "component_groups": [
-                "butcher"
-              ]
+              "component_groups": ["butcher"]
             }
           },
           // Transform leatherworker zombie to leatherworker villager
@@ -1048,18 +976,14 @@
               "value": "leatherworker"
             },
             "add": {
-              "component_groups": [
-                "leatherworker"
-              ]
+              "component_groups": ["leatherworker"]
             }
           }
         ]
       },
       "minecraft:become_cleric": {
         "add": {
-          "component_groups": [
-            "cleric"
-          ]
+          "component_groups": ["cleric"]
         }
       },
       "from_village": {
@@ -1075,28 +999,21 @@
                 "weight": 9500,
                 "remove": {},
                 "add": {
-                  "component_groups": [
-                    "adult"
-                  ]
+                  "component_groups": ["adult"]
                 }
               },
               {
                 "weight": 425,
                 "remove": {},
                 "add": {
-                  "component_groups": [
-                    "baby"
-                  ]
+                  "component_groups": ["baby"]
                 }
               },
               {
                 "weight": 75,
                 "remove": {},
                 "add": {
-                  "component_groups": [
-                    "baby",
-                    "jockey"
-                  ]
+                  "component_groups": ["baby", "jockey"]
                 }
               }
             ]
@@ -1111,106 +1028,80 @@
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "farmer"
-                  ]
+                  "component_groups": ["farmer"]
                 }
               },
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "fisherman"
-                  ]
+                  "component_groups": ["fisherman"]
                 }
               },
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "shepherd"
-                  ]
+                  "component_groups": ["shepherd"]
                 }
               },
               {
                 "weight": 5,
                 "add": {
-                  "component_groups": [
-                    "fletcher"
-                  ]
+                  "component_groups": ["fletcher"]
                 }
               },
               {
                 "weight": 20,
                 "add": {
-                  "component_groups": [
-                    "librarian"
-                  ]
+                  "component_groups": ["librarian"]
                 }
               },
               {
                 "weight": 20,
                 "add": {
-                  "component_groups": [
-                    "cartographer"
-                  ]
+                  "component_groups": ["cartographer"]
                 }
               },
               {
                 "weight": 20,
                 "add": {
-                  "component_groups": [
-                    "cleric"
-                  ]
+                  "component_groups": ["cleric"]
                 }
               },
               {
                 "weight": 6,
                 "add": {
-                  "component_groups": [
-                    "armorer"
-                  ]
+                  "component_groups": ["armorer"]
                 }
               },
               {
                 "weight": 6,
                 "add": {
-                  "component_groups": [
-                    "weaponsmith"
-                  ]
+                  "component_groups": ["weaponsmith"]
                 }
               },
               {
                 "weight": 6,
                 "add": {
-                  "component_groups": [
-                    "toolsmith"
-                  ]
+                  "component_groups": ["toolsmith"]
                 }
               },
               {
                 "weight": 10,
                 "add": {
-                  "component_groups": [
-                    "butcher"
-                  ]
+                  "component_groups": ["butcher"]
                 }
               },
               {
                 "weight": 10,
                 "add": {
-                  "component_groups": [
-                    "leatherworker"
-                  ]
+                  "component_groups": ["leatherworker"]
                 }
               }
             ]
           },
           {
             "add": {
-              "component_groups": [
-                "from_abandoned_village"
-              ]
+              "component_groups": ["from_abandoned_village"]
             }
           }
         ]

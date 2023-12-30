@@ -1,19 +1,16 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_furnace": {
-		"description": {
-			"identifier": "steel_ingot_from_iron_ingot"
-		},
-		"tags": [
-			"furnace",
-			"blast_furnace"
-		],
-		"unlock": [
-            {
-                "item": "iron_ingot"
-            }
-        ],
-		"input": "iron_ingot",
-		"output": "hy:steel_ingot"
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "steel_ingot_from_iron_ingot"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "iron_ingot"
+      }
+    ],
+    "input": "iron_ingot",
+    "output": "hy:steel_ingot"
+  }
 }

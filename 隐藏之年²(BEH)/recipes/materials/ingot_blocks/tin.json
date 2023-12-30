@@ -1,29 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "tin_block"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"###",
-			"###",
-			"###"
-		],
-		"key": {
-			"#": {
-				"item": "hy:tin_ingot"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:tin_ingot"
-			}
-		],
-		"result": {
-			"item": "hy:tin_block"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "tin_block"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "###", "###"],
+    "key": {
+      "#": {
+        "item": "hy:tin_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:tin_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:tin_block"
+    }
+  }
 }

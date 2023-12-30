@@ -1,25 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "copper_star"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"ingredients": [
-			{
-				"item": "hy:copper_essence",
-				"count": 4
-			}
-		],
-		"unlock": [
-			{
-				"item": "hy:copper_essence"
-			}
-		],
-		"result": {
-			"item": "hy:copper_star"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "copper_star"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "hy:copper_essence",
+        "count": 4
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:copper_essence"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_star"
+    }
+  }
 }

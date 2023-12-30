@@ -1,32 +1,26 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "copper_hoe"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"XX",
-			" #",
-			" #"
-		],
-		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"item": "copper_ingot"
-			}
-		},
-		"unlock": [
-            {
-                "item": "copper_ingot"
-            }
-        ],
-		"result": {
-			"item": "hy:copper_hoe"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "copper_hoe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XX", " #", " #"],
+    "key": {
+      "#": {
+        "item": "stick"
+      },
+      "X": {
+        "item": "copper_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_hoe"
+    }
+  }
 }

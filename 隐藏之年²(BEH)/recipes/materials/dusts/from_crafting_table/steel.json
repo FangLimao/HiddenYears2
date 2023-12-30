@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "steel_dust_from_crafting_table"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:steel_nugget"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:steel_nugget"
-            }
-        ],
-        "result": {
-            "item": "hy:steel_dust",
-            "count": 9
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "steel_dust_from_crafting_table"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:steel_nugget"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:steel_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:steel_dust",
+      "count": 9
     }
+  }
 }

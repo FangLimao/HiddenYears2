@@ -1,32 +1,26 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "brass_hammer"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-			"X": {
-				"tag": "hy:is_handle"
-			},
-			"#": {
-				"item": "hy:brass_ingot"
-			}
-		},
-		"unlock": [
-            {
-               "item": "hy:brass_ingot"
-            }
-        ],
-        "pattern": [
-            "###",
-            "###",
-            " X "
-        ],
-        "result": {
-            "item": "hy:brass_hammer"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brass_hammer"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "X": {
+        "tag": "hy:is_handle"
+      },
+      "#": {
+        "item": "hy:brass_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:brass_ingot"
+      }
+    ],
+    "pattern": ["###", "###", " X "],
+    "result": {
+      "item": "hy:brass_hammer"
     }
+  }
 }

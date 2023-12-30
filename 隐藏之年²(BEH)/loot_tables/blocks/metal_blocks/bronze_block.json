@@ -1,13 +1,13 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "hy:bronze_block"
-                }
-            ]
+          "type": "item",
+          "name": "hy:bronze_block"
         }
-    ]
+      ]
+    }
+  ]
 }

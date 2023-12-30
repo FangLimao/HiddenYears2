@@ -1,32 +1,26 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "imitation_iron_sword"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"X",
-			"X",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"item": "hy:imitation_iron_ingot"
-			}
-		},
-		"unlock": [
-            {
-                "item": "hy:imitation_iron_ingot"
-            }
-        ],
-		"result": {
-			"item": "hy:imitation_iron_sword"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "imitation_iron_sword"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["X", "X", "#"],
+    "key": {
+      "#": {
+        "item": "stick"
+      },
+      "X": {
+        "item": "hy:imitation_iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:imitation_iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:imitation_iron_sword"
+    }
+  }
 }

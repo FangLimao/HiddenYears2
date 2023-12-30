@@ -1,30 +1,28 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "redstone_coal_from_crafting_table"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "ingredients": [
-            {
-                "item": "coal"
-            },
-            {
-                "item": "redstone"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "coal"
-            },
-            {
-                "item": "redstone"
-            }
-        ],
-        "result": {
-           "item": "hy:mineral_coal"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "redstone_coal_from_crafting_table"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "coal"
+      },
+      {
+        "item": "redstone"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "coal"
+      },
+      {
+        "item": "redstone"
+      }
+    ],
+    "result": {
+      "item": "hy:mineral_coal"
     }
+  }
 }

@@ -1,257 +1,253 @@
 {
-    "format_version": [
-        1,
-        17,
-        0
-    ],
-    "hy:copper_essence_ore": {
-        "sound": "stone",
-        "textures": "hy.copper_essence_ore"
-    },
-    "hy:deepslate_copper_essence_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deepslate_copper_essence_ore"
-    },
-    "hy:amethyst_essence_ore": {
-        "sound": "stone",
-        "textures": "hy.amethyst_essence_ore"
-    },
-    "hy:deepslate_amethyst_essence_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deepslate_amethyst_essence_ore"
-    },
-    "hy:fuel_ore": {
-        "sound": "stone",
-        "textures": "hy.legacy_fuel_ore"
-    },
-    "hy:deepslate_fuel_ore": {
-        "sound": "deepslate",
-        "textures": "hy.legacy_deepslate_fuel_ore"
-    },
-    "hy:fuel_metal_ore": {
-        "sound": "stone",
-        "textures": "hy.fuel_metal_ore"
-    },
-    "hy:deepslate_fuel_metal_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deepslate_fuel_metal_ore"
-    },
-    "hy:andesite_metal_stone": {
-        "sound": "stone",
-        "textures": "andesite"
-    },
-    "hy:diorite_metal_stone": {
-        "sound": "stone",
-        "textures": "diorite"
-    },
-    "hy:granite_metal_stone": {
-        "sound": "stone",
-        "textures": "granite"
-    },
-    "hy:shallow_gold_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_gold_ore"
-    },
-    "hy:shallow_coal_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_coal_ore"
-    },
-    "hy:shallow_copper_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_copper_ore"
-    },
-    "hy:shallow_diamond_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_diamond_ore"
-    },
-    "hy:shallow_emerald_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_emerald_ore"
-    },
-    "hy:shallow_iron_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_iron_ore"
-    },
-    "hy:shallow_lapis_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_lapis_ore"
-    },
-    "hy:shallow_redstone_ore": {
-        "sound": "stone",
-        "textures": "hy.shallow_redstone_ore"
-    },
-    "hy:suspicious_gold_ore": {
-        "sound": "stone",
-        "textures": "gold_ore"
-    },
-    "hy:suspicious_coal_ore": {
-        "sound": "stone",
-        "textures": "coal_ore"
-    },
-    "hy:suspicious_copper_ore": {
-        "sound": "stone",
-        "textures": "copper_ore"
-    },
-    "hy:suspicious_diamond_ore": {
-        "sound": "stone",
-        "textures": "diamond_ore"
-    },
-    "hy:suspicious_emerald_ore": {
-        "sound": "stone",
-        "textures": "emerald_ore"
-    },
-    "hy:suspicious_iron_ore": {
-        "sound": "stone",
-        "textures": "iron_ore"
-    },
-    "hy:suspicious_lapis_ore": {
-        "sound": "stone",
-        "textures": "lapis_ore"
-    },
-    "hy:suspicious_redstone_ore": {
-        "sound": "stone",
-        "textures": "redstone_ore"
-    },
-    "hy:deepslate_suspicious_gold_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_gold_ore"
-    },
-    "hy:deepslate_suspicious_coal_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_coal_ore"
-    },
-    "hy:deepslate_suspicious_copper_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_copper_ore"
-    },
-    "hy:deepslate_suspicious_diamond_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_diamond_ore"
-    },
-    "hy:deepslate_suspicious_emerald_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_emerald_ore"
-    },
-    "hy:deepslate_suspicious_iron_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_iron_ore"
-    },
-    "hy:deepslate_suspicious_lapis_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_lapis_ore"
-    },
-    "hy:deepslate_suspicious_redstone_ore": {
-        "sound": "deepslate",
-        "textures": "deepslate_redstone_ore"
-    },
-    "hy:deep_gold_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_gold_ore"
-    },
-    "hy:deep_coal_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_coal_ore"
-    },
-    "hy:deep_copper_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_copper_ore"
-    },
-    "hy:deep_diamond_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_diamond_ore"
-    },
-    "hy:deep_emerald_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_emerald_ore"
-    },
-    "hy:deep_iron_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_iron_ore"
-    },
-    "hy:deep_lapis_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_lapis_ore"
-    },
-    "hy:deep_redstone_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_redstone_ore"
-    },
-    "hy:geocentric_gold_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_gold_ore"
-    },
-    "hy:geocentric_coal_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_coal_ore"
-    },
-    "hy:geocentric_copper_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_copper_ore"
-    },
-    "hy:geocentric_diamond_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_diamond_ore"
-    },
-    "hy:geocentric_emerald_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_emerald_ore"
-    },
-    "hy:geocentric_iron_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_iron_ore"
-    },
-    "hy:geocentric_lapis_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_lapis_ore"
-    },
-    "hy:geocentric_redstone_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deep_redstone_ore"
-    },
-    "hy:tin_ore": {
-        "sound": "stone",
-        "textures": "hy.tin_ore"
-    },
-    "hy:deepslate_tin_ore": {
-        "sound": "deepslate",
-        "textures": "hy.deepslate_tin_ore"
-    },
-    "hy:tin_block": {
-        "sound": "metal",
-        "textures": "hy.tin_block"
-    },
-    "hy:bronze_block": {
-        "sound": "metal",
-        "textures": "hy.bronze_block"
-    },
-    "hy:lab_table": {
-        "sound": "metal",
-        "textures": {
-            "up": "hy.lab_table.top",
-            "down": "hy.lab_table.bottom",
-            "north": "hy.lab_table.side_1",
-            "south": "hy.lab_table.side_2",
-            "west": "hy.lab_table.side_3",
-            "east": "hy.lab_table.front"
-        }
-    },
-    "hy:steel_furnace": {
-        "sound": "stone",
-        "textures": {
-            "down": "blast_furnace_top",
-            "east": "blast_furnace_side",
-            "north": "blast_furnace_side",
-            "south": "blast_furnace_front_off",
-            "up": "blast_furnace_top",
-            "west": "blast_furnace_side"
-        }
-    },
-    "sc:crushed_stone": {
-        "sound": "stone",
-        "textures": "stone"
-    },
-    "hy:tutorial_stone": {
-        "sound": "stone",
-        "textures": "stone"
+  "format_version": [1, 17, 0],
+  "hy:copper_essence_ore": {
+    "sound": "stone",
+    "textures": "hy.copper_essence_ore"
+  },
+  "hy:deepslate_copper_essence_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deepslate_copper_essence_ore"
+  },
+  "hy:amethyst_essence_ore": {
+    "sound": "stone",
+    "textures": "hy.amethyst_essence_ore"
+  },
+  "hy:deepslate_amethyst_essence_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deepslate_amethyst_essence_ore"
+  },
+  "hy:fuel_ore": {
+    "sound": "stone",
+    "textures": "hy.legacy_fuel_ore"
+  },
+  "hy:deepslate_fuel_ore": {
+    "sound": "deepslate",
+    "textures": "hy.legacy_deepslate_fuel_ore"
+  },
+  "hy:fuel_metal_ore": {
+    "sound": "stone",
+    "textures": "hy.fuel_metal_ore"
+  },
+  "hy:deepslate_fuel_metal_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deepslate_fuel_metal_ore"
+  },
+  "hy:andesite_metal_stone": {
+    "sound": "stone",
+    "textures": "andesite"
+  },
+  "hy:diorite_metal_stone": {
+    "sound": "stone",
+    "textures": "diorite"
+  },
+  "hy:granite_metal_stone": {
+    "sound": "stone",
+    "textures": "granite"
+  },
+  "hy:shallow_gold_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_gold_ore"
+  },
+  "hy:shallow_coal_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_coal_ore"
+  },
+  "hy:shallow_copper_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_copper_ore"
+  },
+  "hy:shallow_diamond_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_diamond_ore"
+  },
+  "hy:shallow_emerald_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_emerald_ore"
+  },
+  "hy:shallow_iron_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_iron_ore"
+  },
+  "hy:shallow_lapis_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_lapis_ore"
+  },
+  "hy:shallow_redstone_ore": {
+    "sound": "stone",
+    "textures": "hy.shallow_redstone_ore"
+  },
+  "hy:suspicious_gold_ore": {
+    "sound": "stone",
+    "textures": "gold_ore"
+  },
+  "hy:suspicious_coal_ore": {
+    "sound": "stone",
+    "textures": "coal_ore"
+  },
+  "hy:suspicious_copper_ore": {
+    "sound": "stone",
+    "textures": "copper_ore"
+  },
+  "hy:suspicious_diamond_ore": {
+    "sound": "stone",
+    "textures": "diamond_ore"
+  },
+  "hy:suspicious_emerald_ore": {
+    "sound": "stone",
+    "textures": "emerald_ore"
+  },
+  "hy:suspicious_iron_ore": {
+    "sound": "stone",
+    "textures": "iron_ore"
+  },
+  "hy:suspicious_lapis_ore": {
+    "sound": "stone",
+    "textures": "lapis_ore"
+  },
+  "hy:suspicious_redstone_ore": {
+    "sound": "stone",
+    "textures": "redstone_ore"
+  },
+  "hy:deepslate_suspicious_gold_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_gold_ore"
+  },
+  "hy:deepslate_suspicious_coal_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_coal_ore"
+  },
+  "hy:deepslate_suspicious_copper_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_copper_ore"
+  },
+  "hy:deepslate_suspicious_diamond_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_diamond_ore"
+  },
+  "hy:deepslate_suspicious_emerald_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_emerald_ore"
+  },
+  "hy:deepslate_suspicious_iron_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_iron_ore"
+  },
+  "hy:deepslate_suspicious_lapis_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_lapis_ore"
+  },
+  "hy:deepslate_suspicious_redstone_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_redstone_ore"
+  },
+  "hy:deep_gold_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_gold_ore"
+  },
+  "hy:deep_coal_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_coal_ore"
+  },
+  "hy:deep_copper_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_copper_ore"
+  },
+  "hy:deep_diamond_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_diamond_ore"
+  },
+  "hy:deep_emerald_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_emerald_ore"
+  },
+  "hy:deep_iron_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_iron_ore"
+  },
+  "hy:deep_lapis_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_lapis_ore"
+  },
+  "hy:deep_redstone_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_redstone_ore"
+  },
+  "hy:geocentric_gold_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_gold_ore"
+  },
+  "hy:geocentric_coal_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_coal_ore"
+  },
+  "hy:geocentric_copper_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_copper_ore"
+  },
+  "hy:geocentric_diamond_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_diamond_ore"
+  },
+  "hy:geocentric_emerald_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_emerald_ore"
+  },
+  "hy:geocentric_iron_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_iron_ore"
+  },
+  "hy:geocentric_lapis_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_lapis_ore"
+  },
+  "hy:geocentric_redstone_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deep_redstone_ore"
+  },
+  "hy:tin_ore": {
+    "sound": "stone",
+    "textures": "hy.tin_ore"
+  },
+  "hy:deepslate_tin_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deepslate_tin_ore"
+  },
+  "hy:tin_block": {
+    "sound": "metal",
+    "textures": "hy.tin_block"
+  },
+  "hy:bronze_block": {
+    "sound": "metal",
+    "textures": "hy.bronze_block"
+  },
+  "hy:lab_table": {
+    "sound": "metal",
+    "textures": {
+      "up": "hy.lab_table.top",
+      "down": "hy.lab_table.bottom",
+      "north": "hy.lab_table.side_1",
+      "south": "hy.lab_table.side_2",
+      "west": "hy.lab_table.side_3",
+      "east": "hy.lab_table.front"
     }
+  },
+  "hy:steel_furnace": {
+    "sound": "stone",
+    "textures": {
+      "down": "blast_furnace_top",
+      "east": "blast_furnace_side",
+      "north": "blast_furnace_side",
+      "south": "blast_furnace_front_off",
+      "up": "blast_furnace_top",
+      "west": "blast_furnace_side"
+    }
+  },
+  "sc:crushed_stone": {
+    "sound": "stone",
+    "textures": "stone"
+  },
+  "hy:tutorial_stone": {
+    "sound": "stone",
+    "textures": "stone"
+  }
 }

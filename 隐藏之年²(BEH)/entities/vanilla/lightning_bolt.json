@@ -8,12 +8,11 @@
       "is_experimental": false
     },
 
-    "component_groups": {
-    },
+    "component_groups": {},
 
     "components": {
       "minecraft:type_family": {
-        "family":["lightning"]          
+        "family": ["lightning"]
       },
       "minecraft:conditional_bandwidth_optimization": {
         "default_values": {
@@ -24,7 +23,6 @@
       }
     },
 
-    "events": {
-    }
+    "events": {}
   }
 }

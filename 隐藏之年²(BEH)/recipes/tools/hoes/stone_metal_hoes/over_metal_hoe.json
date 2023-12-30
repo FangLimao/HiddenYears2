@@ -1,32 +1,26 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "over_metal_hoe"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"XX",
-			" #",
-			" #"
-		],
-		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"item": "hy:over_metal_ingot"
-			}
-		},
-		"unlock": [
-            {
-                "item": "hy:over_metal_ingot"
-            }
-        ],
-		"result": {
-			"item": "hy:over_metal_hoe"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "over_metal_hoe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XX", " #", " #"],
+    "key": {
+      "#": {
+        "item": "stick"
+      },
+      "X": {
+        "item": "hy:over_metal_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:over_metal_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:over_metal_hoe"
+    }
+  }
 }

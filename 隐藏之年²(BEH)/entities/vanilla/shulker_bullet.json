@@ -27,8 +27,7 @@
             "durationhard": 200,
             "amplifier": 0
           },
-          "remove_on_hit": {
-          },
+          "remove_on_hit": {},
           "particle_on_hit": {
             "particle_type": "largeexplode",
             "on_other_hit": true
@@ -42,7 +41,7 @@
         "uncertainty_base": 16,
         "uncertainty_multiplier": 4,
         "anchor": 1,
-        "offset": [ 0, -0.1, 0 ],
+        "offset": [0, -0.1, 0],
         "homing": true
       },
       "minecraft:physics": {

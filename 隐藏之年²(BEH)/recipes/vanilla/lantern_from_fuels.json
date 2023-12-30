@@ -1,36 +1,30 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "lantern_from_fuels"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "###",
-            "#x#",
-            "###"
-        ],
-        "key": {
-            "#": {
-                "item": "iron_nugget"
-            },
-            "x": {
-                "tag": "dict:fuels"
-            }
-        },
-        "unlock": [
-            {
-                "tag": "dict:fuels"
-            },
-            {
-                "item": "iron_nugget"
-            }
-        ],
-        "result": {
-            "item": "lantern",
-            "count": 8
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lantern_from_fuels"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "#x#", "###"],
+    "key": {
+      "#": {
+        "item": "iron_nugget"
+      },
+      "x": {
+        "tag": "dict:fuels"
+      }
+    },
+    "unlock": [
+      {
+        "tag": "dict:fuels"
+      },
+      {
+        "item": "iron_nugget"
+      }
+    ],
+    "result": {
+      "item": "lantern",
+      "count": 8
     }
+  }
 }

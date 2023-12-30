@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "gold_awl"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "gold_nugget"
-			}
-		},
-		"unlock": [
-			{
-				"item": "gold_nugget"
-			}
-		],
-		"result": {
-			"item": "hy:gold_awl"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gold_awl"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["#", "#"],
+    "key": {
+      "#": {
+        "item": "gold_nugget"
+      }
+    },
+    "unlock": [
+      {
+        "item": "gold_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:gold_awl"
+    }
+  }
 }

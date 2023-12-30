@@ -11,8 +11,8 @@
       "minecraft:no_spawn": {
         "minecraft:projectile": {
           "on_hit": {
-            "teleport_owner": { },
-            "remove_on_hit": { }
+            "teleport_owner": {},
+            "remove_on_hit": {}
           },
           "power": 1.5,
           "gravity": 0.025,
@@ -30,13 +30,13 @@
       },
       "minecraft:projectile": {
         "on_hit": {
-          "teleport_owner": { },
+          "teleport_owner": {},
           "spawn_chance": {
             "first_spawn_percent_chance": 5.0,
             "first_spawn_count": 1,
             "spawn_definition": "minecraft:endermite"
           },
-          "remove_on_hit": { }
+          "remove_on_hit": {}
         },
         "power": 1.5,
         "gravity": 0.025,
@@ -44,8 +44,7 @@
         "inertia": 1,
         "liquid_inertia": 1
       },
-	    "minecraft:physics": {
-      },
+      "minecraft:physics": {},
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
@@ -63,9 +62,13 @@
       "minecraft:entity_spawned": {
         "sequence": [
           {
-            "filters": {"test": "is_game_rule", "domain": "domobspawning", "value": false},
+            "filters": {
+              "test": "is_game_rule",
+              "domain": "domobspawning",
+              "value": false
+            },
             "add": {
-              "component_groups": [ "minecraft:no_spawn" ]
+              "component_groups": ["minecraft:no_spawn"]
             }
           }
         ]

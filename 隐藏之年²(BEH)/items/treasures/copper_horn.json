@@ -1,65 +1,61 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:item": {
-        "description": {
-            "category": "equipment",
-            "identifier": "hy:copper_horn"
-        },
-        "components": {
-            "minecraft:cooldown": {
-                "category": "hy.copper_horn",
-                "duration": 25
-            },
-            "minecraft:display_name": {
-                "value": "hy.item.copper_horn"
-            },
-            "minecraft:creative_category": {
-                "parent": "equipment"
-            },
-            "minecraft:max_stack_size": 1,
-            "minecraft:durability": {
-                "max_durability": 50
-            },
-            "minecraft:icon": {
-                "texture": "hy.copper_horn"
-            },
-            "minecraft:on_use": {
-                "on_use": {
-                    "event": "hy.on_use",
-                    "target": "self"
-                }
-            }
-        },
-        "events": {
-            "hy.on_use": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "magic",
-                            "amount": 1,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "command": [
-                                "function gameplay/items/copper_horn/sneak"
-                            ],
-                            "target": "self"
-                        },
-                        "condition": "query.is_sneaking==1.0"
-                    },
-                    {
-                        "run_command": {
-                            "command": [
-                                "function gameplay/items/copper_horn/walk"
-                            ],
-                            "target": "self"
-                        },
-                        "condition": "query.is_sneaking==0.0"
-                    }
-                ]
-            }
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "hy:copper_horn"
+    },
+    "components": {
+      "minecraft:cooldown": {
+        "category": "hy.copper_horn",
+        "duration": 25
+      },
+      "minecraft:display_name": {
+        "value": "hy.item.copper_horn"
+      },
+      "minecraft:creative_category": {
+        "parent": "equipment"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 50
+      },
+      "minecraft:icon": {
+        "texture": "hy.copper_horn"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "hy.on_use",
+          "target": "self"
         }
+      }
+    },
+    "events": {
+      "hy.on_use": {
+        "sequence": [
+          {
+            "damage": {
+              "type": "magic",
+              "amount": 1,
+              "target": "self"
+            }
+          },
+          {
+            "run_command": {
+              "command": ["function gameplay/items/copper_horn/sneak"],
+              "target": "self"
+            },
+            "condition": "query.is_sneaking==1.0"
+          },
+          {
+            "run_command": {
+              "command": ["function gameplay/items/copper_horn/walk"],
+              "target": "self"
+            },
+            "condition": "query.is_sneaking==0.0"
+          }
+        ]
+      }
     }
+  }
 }

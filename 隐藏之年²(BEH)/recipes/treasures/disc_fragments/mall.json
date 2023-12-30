@@ -1,31 +1,25 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "record_mall"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "AAA",
-            "AAA",
-            "AAA"
-        ],
-        "key": {
-            "A": {
-                "item": "hy:disc_fragment_mall"
-            }
-        },
-        "unlock": [
-            {
-                "item": "hy:disc_fragment_mall"
-            }
-        ],
-        "result": {
-            "item": "record_mall",
-            "count": 1
-        },
-        "priority": 1
-    }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "record_mall"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["AAA", "AAA", "AAA"],
+    "key": {
+      "A": {
+        "item": "hy:disc_fragment_mall"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:disc_fragment_mall"
+      }
+    ],
+    "result": {
+      "item": "record_mall",
+      "count": 1
+    },
+    "priority": 1
+  }
 }

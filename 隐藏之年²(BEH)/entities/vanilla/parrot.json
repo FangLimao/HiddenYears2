@@ -36,7 +36,7 @@
 
       "minecraft:parrot_wild": {
         "minecraft:type_family": {
-          "family": [ "parrot_wild", "mob" ]
+          "family": ["parrot_wild", "mob"]
         },
         "minecraft:tameable": {
           "probability": 0.33,
@@ -72,18 +72,16 @@
 
       "minecraft:parrot_tame": {
         "minecraft:type_family": {
-          "family": [ "parrot_tame", "mob" ]
+          "family": ["parrot_tame", "mob"]
         },
-        "minecraft:is_tamed": {
-        },
+        "minecraft:is_tamed": {},
         "minecraft:behavior.follow_owner": {
           "priority": 2,
           "speed_multiplier": 1.0,
           "start_distance": 5,
           "stop_distance": 1
         },
-        "minecraft:sittable": {
-        },
+        "minecraft:sittable": {},
         "minecraft:behavior.stay_while_sitting": {
           "priority": 1
         },
@@ -149,8 +147,7 @@
     },
 
     "components": {
-      "minecraft:is_hidden_when_invisible": {
-      },
+      "minecraft:is_hidden_when_invisible": {},
       "minecraft:breathable": {
         "total_supply": 15,
         "suffocate_time": 0
@@ -159,8 +156,7 @@
         "width": 0.5,
         "height": 1
       },
-      "minecraft:nameable": {
-      },
+      "minecraft:nameable": {},
       "minecraft:health": {
         "value": 6,
         "max": 6
@@ -188,18 +184,14 @@
           "deals_damage": false
         }
       },
-      "minecraft:jump.static": {
-      },
-      "minecraft:can_fly": {
-      },
+      "minecraft:jump.static": {},
+      "minecraft:can_fly": {},
       "minecraft:navigation.fly": {
         "can_path_over_water": true,
         "can_path_from_air": true
       },
-      "minecraft:movement.fly": {
-      },
-      "minecraft:physics": {
-      },
+      "minecraft:movement.fly": {},
+      "minecraft:physics": {},
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
@@ -214,8 +206,7 @@
         "priority": 0,
         "speed_multiplier": 1.25
       },
-      "minecraft:conditional_bandwidth_optimization": {
-      },
+      "minecraft:conditional_bandwidth_optimization": {},
       "minecraft:game_event_movement_tracking": {
         "emit_flap": true
       },
@@ -246,8 +237,7 @@
         "hard_distance": 6.0,
         "max_distance": 10.0
       },
-      "minecraft:balloonable": {
-      }
+      "minecraft:balloonable": {}
     },
 
     "events": {
@@ -312,38 +302,26 @@
       },
       "minecraft:on_tame": {
         "remove": {
-          "component_groups": [
-            "minecraft:parrot_wild"
-          ]
+          "component_groups": ["minecraft:parrot_wild"]
         },
         "add": {
-          "component_groups": [
-            "minecraft:parrot_tame"
-          ]
+          "component_groups": ["minecraft:parrot_tame"]
         }
       },
       "minecraft:on_riding_player": {
         "remove": {
-          "component_groups": [
-            "minecraft:parrot_not_riding_player"
-          ]
+          "component_groups": ["minecraft:parrot_not_riding_player"]
         },
         "add": {
-          "component_groups": [
-            "minecraft:parrot_riding_player"
-          ]
+          "component_groups": ["minecraft:parrot_riding_player"]
         }
       },
       "minecraft:on_not_riding_player": {
         "remove": {
-          "component_groups": [
-            "minecraft:parrot_riding_player"
-          ]
+          "component_groups": ["minecraft:parrot_riding_player"]
         },
         "add": {
-          "component_groups": [
-            "minecraft:parrot_not_riding_player"
-          ]
+          "component_groups": ["minecraft:parrot_not_riding_player"]
         }
       }
     }

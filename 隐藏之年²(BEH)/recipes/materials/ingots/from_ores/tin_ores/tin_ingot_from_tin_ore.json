@@ -1,19 +1,16 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_furnace": {
-		"description": {
-			"identifier": "tin_ingot_from_tin_ore"
-		},
-		"tags": [
-			"furnace",
-			"blast_furnace"
-		],
-		"unlock": [
-            {
-                "item": "hy:tin_ore"
-            }
-        ],
-		"input": "hy:tin_ore",
-		"output": "hy:tin_ingot"
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "tin_ingot_from_tin_ore"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "hy:tin_ore"
+      }
+    ],
+    "input": "hy:tin_ore",
+    "output": "hy:tin_ingot"
+  }
 }

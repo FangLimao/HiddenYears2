@@ -1,35 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "gold_hammer"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "gold_ingot"
-            },
-            "X": {
-                "tag": "hy:is_handle"
-            }
-        },
-        "unlock": [
-            {
-                "item": "gold_ingot"
-            },
-            {
-                "tag": "hy:is_handle"
-            }
-        ],
-        "pattern": [
-            "###",
-            "###",
-            " X "
-        ],
-        "result": {
-            "item": "hy:gold_hammer"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gold_hammer"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "gold_ingot"
+      },
+      "X": {
+        "tag": "hy:is_handle"
+      }
+    },
+    "unlock": [
+      {
+        "item": "gold_ingot"
+      },
+      {
+        "tag": "hy:is_handle"
+      }
+    ],
+    "pattern": ["###", "###", " X "],
+    "result": {
+      "item": "hy:gold_hammer"
     }
+  }
 }

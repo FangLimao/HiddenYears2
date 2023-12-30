@@ -1,696 +1,696 @@
 {
-    "resource_pack_name": "隐藏之年²",
-    "texture_name": "atlas.items",
-    "texture_data": {
-        "hy.copper_hammer": {
-            "textures": "textures/items/tools/hammers/copper_hammers/copper_hammer"
-        },
-        "hy.exposed_copper_hammer": {
-            "textures": "textures/items/tools/hammers/copper_hammers/exposed_copper_hammer"
-        },
-        "hy.weathered_copper_hammer": {
-            "textures": "textures/items/tools/hammers/copper_hammers/weathered_copper_hammer"
-        },
-        "hy.oxidized_copper_hammer": {
-            "textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
-        },
-        "hy.copper_hammer_template": {
-            "textures": "textures/items/templates/tools/hammers/copper_hammers/hammer_template"
-        },
-        "hy.wooden_handle": {
-            "textures": "textures/items/materials/handles/wooden_handle"
-        },
-        "hy.copper_coin": {
-            "textures": "textures/items/treasures/coins/copper_coin"
-        },
-        "hy.gemstone_trader_egg": {
-            "textures": "textures/items/traders/egg_gemstone_trader"
-        },
-        "hy.copper_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/copper_pickaxes/copper_pickaxe"
-        },
-        "hy.exposed_copper_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/copper_pickaxes/exposed_copper_pickaxe"
-        },
-        "hy.weathered_copper_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/copper_pickaxes/weathered_copper_pickaxe"
-        },
-        "hy.oxidized_copper_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/copper_pickaxes/oxidized_copper_pickaxe"
-        },
-        "hy.copper_essence": {
-            "textures": "textures/items/treasures/essences/copper_essence"
-        },
-        "hy.copper_star": {
-            "textures": "textures/items/treasures/stars/copper_star"
-        },
-        "hy.copper_axe": {
-            "textures": "textures/items/tools/axes/copper_axes/copper_axe"
-        },
-        "hy.exposed_copper_axe": {
-            "textures": "textures/items/tools/axes/copper_axes/exposed_copper_axe"
-        },
-        "hy.weathered_copper_axe": {
-            "textures": "textures/items/tools/axes/copper_axes/weathered_copper_axe"
-        },
-        "hy.oxidized_copper_axe": {
-            "textures": "textures/items/tools/axes/copper_axes/oxidized_copper_axe"
-        },
-        "hy.copper_stick": {
-            "textures": "textures/items/materials/copper_stick"
-        },
-        "hy.amethyst_axe": {
-            "textures": "textures/items/tools/axes/amethyst_axe"
-        },
-        "hy.amethyst_hammer": {
-            "textures": "textures/items/tools/hammers/amethyst_hammer"
-        },
-        "hy.amethyst_hoe": {
-            "textures": "textures/items/tools/hoes/amethyst_hoe"
-        },
-        "hy.amethyst_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/amethyst_pickaxe"
-        },
-        "hy.amethyst_shovel": {
-            "textures": "textures/items/tools/shovels/amethyst_shovel"
-        },
-        "hy.amethyst_ingot": {
-            "textures": "textures/items/materials/ingots/amethyst_ingot"
-        },
-        "hy.amethyst_sword": {
-            "textures": "textures/items/tools/weapons/swords/amethyst_sword"
-        },
-        "hy.copper_hoe": {
-            "textures": "textures/items/tools/hoes/copper_hoes/copper_hoe"
-        },
-        "hy.exposed_copper_hoe": {
-            "textures": "textures/items/tools/hoes/copper_hoes/exposed_copper_hoe"
-        },
-        "hy.weathered_copper_hoe": {
-            "textures": "textures/items/tools/hoes/copper_hoes/weathered_exposed_copper_hoe"
-        },
-        "hy.oxidized_copper_hoe": {
-            "textures": "textures/items/tools/hoes/copper_hoes/oxidized_exposed_copper_hoe"
-        },
-        "hy.copper_sword": {
-            "textures": "textures/items/tools/weapons/swords/copper_swords/copper_sword"
-        },
-        "hy.exposed_copper_sword": {
-            "textures": "textures/items/tools/weapons/swords/copper_swords/exposed_copper_sword"
-        },
-        "hy.weathered_copper_sword": {
-            "textures": "textures/items/tools/weapons/swords/copper_swords/weathered_copper_sword"
-        },
-        "hy.oxidized_copper_sword": {
-            "textures": "textures/items/tools/weapons/swords/copper_swords/oxidized_copper_sword"
-        },
-        "hy.copper_shovel": {
-            "textures": "textures/items/tools/shovels/copper_shovels/copper_shovel"
-        },
-        "hy.exposed_copper_shovel": {
-            "textures": "textures/items/tools/shovels/copper_shovels/exposed_copper_shovel"
-        },
-        "hy.weathered_copper_shovel": {
-            "textures": "textures/items/tools/shovels/copper_shovels/weathered_copper_shovel"
-        },
-        "hy.oxidized_copper_shovel": {
-            "textures": "textures/items/tools/shovels/copper_shovels/oxidized_copper_shovel"
-        },
-        "hy.amethyst_nugget": {
-            "textures": "textures/items/materials/nuggets/amethyst_nugget"
-        },
-        "hy.coal_nugget": {
-            "textures": "textures/items/materials/nuggets/coal_nugget"
-        },
-        "hy.copper_nugget": {
-            "textures": "textures/items/materials/nuggets/copper_nugget"
-        },
-        "hy.diamond_nugget": {
-            "textures": "textures/items/materials/nuggets/diamond_nugget"
-        },
-        "hy.emerald_nugget": {
-            "textures": "textures/items/materials/nuggets/emerald_nugget"
-        },
-        "hy.lapis_nugget": {
-            "textures": "textures/items/materials/nuggets/lapis_nugget"
-        },
-        "hy.netherite_nugget": {
-            "textures": "textures/items/materials/nuggets/netherite_nugget"
-        },
-        "hy.quartz_nugget": {
-            "textures": "textures/items/materials/nuggets/quartz_nugget"
-        },
-        "hy.redstone_nugget": {
-            "textures": "textures/items/materials/nuggets/redstone_nugget"
-        },
-        "hy.amethyst_dust": {
-            "textures": "textures/items/materials/dusts/amethyst_dust"
-        },
-        "hy.coal_dust": {
-            "textures": "textures/items/materials/dusts/coal_dust"
-        },
-        "hy.copper_dust": {
-            "textures": "textures/items/materials/dusts/copper_dust"
-        },
-        "hy.diamond_dust": {
-            "textures": "textures/items/materials/dusts/diamond_dust"
-        },
-        "hy.emerald_dust": {
-            "textures": "textures/items/materials/dusts/emerald_dust"
-        },
-        "hy.lapis_dust": {
-            "textures": "textures/items/materials/dusts/lapis_dust"
-        },
-        "hy.netherite_dust": {
-            "textures": "textures/items/materials/dusts/netherite_dust"
-        },
-        "hy.quartz_dust": {
-            "textures": "textures/items/materials/dusts/quartz_dust"
-        },
-        "hy.iron_dust": {
-            "textures": "textures/items/materials/dusts/iron_dust"
-        },
-        "hy.gold_dust": {
-            "textures": "textures/items/materials/dusts/gold_dust"
-        },
-        "hy.netherite_hammer": {
-            "textures": "textures/items/tools/hammers/metal_hammers/netherite_hammer"
-        },
-        "hy.diamond_hammer": {
-            "textures": "textures/items/tools/hammers/metal_hammers/diamond_hammer"
-        },
-        "hy.iron_hammer": {
-            "textures": "textures/items/tools/hammers/metal_hammers/iron_hammer"
-        },
-        "hy.gold_hammer": {
-            "textures": "textures/items/tools/hammers/metal_hammers/gold_hammer"
-        },
-        "hy.stone_hammer": {
-            "textures": "textures/items/tools/hammers/stone_hammer"
-        },
-        "hy.wooden_hammer": {
-            "textures": "textures/items/tools/hammers/wooden_hammer"
-        },
-        "hy.amethyst_knife": {
-            "textures": "textures/items/tools/weapons/knifes/amethyst_knife"
-        },
-        "hy.iron_knife": {
-            "textures": "textures/items/tools/weapons/knifes/iron_knife"
-        },
-        "hy.gold_knife": {
-            "textures": "textures/items/tools/weapons/knifes/gold_knife"
-        },
-        "hy.diamond_knife": {
-            "textures": "textures/items/tools/weapons/knifes/diamond_knife"
-        },
-        "hy.netherite_knife": {
-            "textures": "textures/items/tools/weapons/knifes/netherite_knife"
-        },
-        "hy.stone_knife": {
-            "textures": "textures/items/tools/weapons/knifes/stone_knife"
-        },
-        "hy.wooden_knife": {
-            "textures": "textures/items/tools/weapons/knifes/wooden_knife"
-        },
-        "hy.amethyst_awl": {
-            "textures": "textures/items/materials/awls/amethyst_awl"
-        },
-        "hy.copper_awl": {
-            "textures": "textures/items/materials/awls/copper_awl"
-        },
-        "hy.iron_awl": {
-            "textures": "textures/items/materials/awls/iron_awl"
-        },
-        "hy.gold_awl": {
-            "textures": "textures/items/materials/awls/gold_awl"
-        },
-        "hy.diamond_awl": {
-            "textures": "textures/items/materials/awls/diamond_awl"
-        },
-        "hy.netherite_awl": {
-            "textures": "textures/items/materials/awls/netherite_awl"
-        },
-        "hy.stone_awl": {
-            "textures": "textures/items/materials/awls/stone_awl"
-        },
-        "hy.wooden_awl": {
-            "textures": "textures/items/materials/awls/wooden_awl"
-        },
-        "hy.amethyst_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/amethyst_dagger"
-        },
-        "hy.copper_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/copper_daggers/copper_dagger"
-        },
-        "hy.iron_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/iron_dagger"
-        },
-        "hy.gold_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/gold_dagger"
-        },
-        "hy.diamond_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/diamond_dagger"
-        },
-        "hy.netherite_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/netherite_dagger"
-        },
-        "hy.stone_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/stone_dagger"
-        },
-        "hy.wooden_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/wooden_dagger"
-        },
-        "hy.gold_coin": {
-            "textures": "textures/items/treasures/coins/gold_coin"
-        },
-        "hy.diamond_coin": {
-            "textures": "textures/items/treasures/coins/diamond_coin"
-        },
-        "hy.stack_of_gold_coin": {
-            "textures": "textures/items/treasures/coins/stack_of_gold_coin"
-        },
-        "hy.stack_of_diamond_coin": {
-            "textures": "textures/items/treasures/coins/stack_of_diamond_coin"
-        },
-        "hy.stack_of_copper_coin": {
-            "textures": "textures/items/treasures/coins/stack_of_copper_coin"
-        },
-        "hy.fuel_metal": {
-            "textures": "textures/items/materials/fuel_metals/fuel"
-        },
-        "hy.over_metal_ingot": {
-            "textures": "textures/items/materials/ingots/stone_metal_ingots/over_metal_ingot"
-        },
-        "hy.end_metal_ingot": {
-            "textures": "textures/items/materials/ingots/stone_metal_ingots/end_metal_ingot"
-        },
-        "hy.nether_metal_ingot": {
-            "textures": "textures/items/materials/ingots/stone_metal_ingots/nether_metal_ingot"
-        },
-        "hy.end_metal_axe": {
-            "textures": "textures/items/tools/axes/stone_metal_axes/end_metal_axe"
-        },
-        "hy.end_metal_hammer": {
-            "textures": "textures/items/tools/hammers/stone_metal_hammers/end_metal_hammer"
-        },
-        "hy.end_metal_hoe": {
-            "textures": "textures/items/tools/hoes/stone_metal_hoes/end_metal_hoe"
-        },
-        "hy.end_metal_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/end_metal_pickaxe"
-        },
-        "hy.end_metal_shovel": {
-            "textures": "textures/items/tools/shovels/stone_metal_shovels/end_metal_shovel"
-        },
-        "hy.end_metal_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/end_metal_dagger"
-        },
-        "hy.end_metal_knife": {
-            "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/end_metal_knife"
-        },
-        "hy.end_metal_sword": {
-            "textures": "textures/items/tools/weapons/swords/stone_metal_swords/end_metal_sword"
-        },
-        "hy.over_metal_axe": {
-            "textures": "textures/items/tools/axes/stone_metal_axes/over_metal_axe"
-        },
-        "hy.over_metal_hammer": {
-            "textures": "textures/items/tools/hammers/stone_metal_hammers/over_metal_hammer"
-        },
-        "hy.over_metal_hoe": {
-            "textures": "textures/items/tools/hoes/stone_metal_hoes/over_metal_hoe"
-        },
-        "hy.over_metal_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/over_metal_pickaxe"
-        },
-        "hy.over_metal_shovel": {
-            "textures": "textures/items/tools/shovels/stone_metal_shovels/over_metal_shovel"
-        },
-        "hy.over_metal_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/over_metal_dagger"
-        },
-        "hy.over_metal_knife": {
-            "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/over_metal_knife"
-        },
-        "hy.over_metal_sword": {
-            "textures": "textures/items/tools/weapons/swords/stone_metal_swords/over_metal_sword"
-        },
-        "hy.nether_metal_axe": {
-            "textures": "textures/items/tools/axes/stone_metal_axes/nether_metal_axe"
-        },
-        "hy.nether_metal_hammer": {
-            "textures": "textures/items/tools/hammers/stone_metal_hammers/nether_metal_hammer"
-        },
-        "hy.nether_metal_hoe": {
-            "textures": "textures/items/tools/hoes/stone_metal_hoes/nether_metal_hoe"
-        },
-        "hy.nether_metal_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/nether_metal_pickaxe"
-        },
-        "hy.nether_metal_shovel": {
-            "textures": "textures/items/tools/shovels/stone_metal_shovels/nether_metal_shovel"
-        },
-        "hy.nether_metal_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/nether_metal_dagger"
-        },
-        "hy.nether_metal_knife": {
-            "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/nether_metal_knife"
-        },
-        "hy.nether_metal_sword": {
-            "textures": "textures/items/tools/weapons/swords/stone_metal_swords/nether_metal_sword"
-        },
-        "hy.over_metal_nugget": {
-            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/over_metal_nugget"
-        },
-        "hy.end_metal_nugget": {
-            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/end_metal_nugget"
-        },
-        "hy.nether_metal_nugget": {
-            "textures": "textures/items/materials/nuggets/stone_metal_nuggets/nether_metal_nugget"
-        },
-        "hy.over_metal_awl": {
-            "textures": "textures/items/materials/awls/over_metal_awl"
-        },
-        "hy.end_metal_awl": {
-            "textures": "textures/items/materials/awls/end_metal_awl"
-        },
-        "hy.nether_metal_awl": {
-            "textures": "textures/items/materials/awls/nether_metal_awl"
-        },
-        "hy.tin_ingot": {
-            "textures": "textures/items/materials/ingots/tin_ingot"
-        },
-        "hy.tin_dust": {
-            "textures": "textures/items/materials/dusts/tin_dust"
-        },
-        "hy.tin_nugget": {
-            "textures": "textures/items/materials/nuggets/tin_nugget"
-        },
-        "hy.raw_tin": {
-            "textures": "textures/items/materials/raw_ores/raw_tin"
-        },
-        "hy.bronze_ingot": {
-            "textures": "textures/items/materials/ingots/bronze_ingot"
-        },
-        "hy.bronze_dust": {
-            "textures": "textures/items/materials/dusts/bronze_dust"
-        },
-        "hy.bronze_nugget": {
-            "textures": "textures/items/materials/nuggets/bronze_nugget"
-        },
-        "hy.bronze_helmet": {
-            "textures": "textures/items/armors/bronze_armors/bronze_helmet"
-        },
-        "hy.bronze_chestplate": {
-            "textures": "textures/items/armors/bronze_armors/bronze_chestplate"
-        },
-        "hy.bronze_leggings": {
-            "textures": "textures/items/armors/bronze_armors/bronze_leggings"
-        },
-        "hy.bronze_boots": {
-            "textures": "textures/items/armors/bronze_armors/bronze_boots"
-        },
-        "hy.bronze_hammer": {
-            "textures": "textures/items/tools/hammers/bronze_hammer"
-        },
-        "hy.bronze_hoe": {
-            "textures": "textures/items/tools/hoes/bronze_hoe"
-        },
-        "hy.bronze_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/bronze_pickaxe"
-        },
-        "hy.bronze_shovel": {
-            "textures": "textures/items/tools/shovels/bronze_shovel"
-        },
-        "hy.bronze_sword": {
-            "textures": "textures/items/tools/weapons/swords/bronze_sword"
-        },
-        "hy.bronze_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/bronze_dagger"
-        },
-        "hy.bronze_knife": {
-            "textures": "textures/items/tools/weapons/knifes/bronze_knife"
-        },
-        "hy.bronze_axe": {
-            "textures": "textures/items/tools/axes/bronze_axe"
-        },
-        "hy.bronze_awl": {
-            "textures": "textures/items/materials/awls/bronze_awl"
-        },
-        "hy.medicines.default": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_default"
-        },
-        "hy.medicines.eye": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_eye"
-        },
-        "hy.medicines.dope": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_dope"
-        },
-        "hy.medicines.poison": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_poison"
-        },
-        "hy.medicines.newlife": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_newlife"
-        },
-        "hy.medicines.nausea": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_nausea"
-        },
-        "hy.medicines.bandage": {
-            "textures": "textures/items/foods_and_drinks/medicines/bandage"
-        },
-        "hy.medicines.medicine_pack": {
-            "textures": "textures/items/foods_and_drinks/medicines/medicine_pack"
-        },
-        "hy.steel_ingot": {
-            "textures": "textures/items/materials/ingots/steel_ingot"
-        },
-        "hy.steel_dust": {
-            "textures": "textures/items/materials/dusts/steel_dust"
-        },
-        "hy.steel_nugget": {
-            "textures": "textures/items/materials/nuggets/steel_nugget"
-        },
-        "hy.steel_helmet": {
-            "textures": "textures/items/armors/steel_armors/steel_helmet"
-        },
-        "hy.steel_chestplate": {
-            "textures": "textures/items/armors/steel_armors/steel_chestplate"
-        },
-        "hy.steel_leggings": {
-            "textures": "textures/items/armors/steel_armors/steel_leggings"
-        },
-        "hy.steel_boots": {
-            "textures": "textures/items/armors/steel_armors/steel_boots"
-        },
-        "hy.steel_hammer": {
-            "textures": "textures/items/tools/hammers/steel_hammer"
-        },
-        "hy.steel_hoe": {
-            "textures": "textures/items/tools/hoes/steel_hoe"
-        },
-        "hy.steel_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/steel_pickaxe"
-        },
-        "hy.steel_shovel": {
-            "textures": "textures/items/tools/shovels/steel_shovel"
-        },
-        "hy.steel_sword": {
-            "textures": "textures/items/tools/weapons/swords/steel_sword"
-        },
-        "hy.steel_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/steel_dagger"
-        },
-        "hy.steel_knife": {
-            "textures": "textures/items/tools/weapons/knifes/steel_knife"
-        },
-        "hy.steel_axe": {
-            "textures": "textures/items/tools/axes/steel_axe"
-        },
-        "hy.steel_awl": {
-            "textures": "textures/items/materials/awls/steel_awl"
-        },
-        "hy.raw_steel": {
-            "textures": "textures/items/materials/raw_ores/raw_steel"
-        },
-        "hy.copper_knife": {
-            "textures": "textures/items/tools/weapons/knifes/copper_knifes/copper_knife"
-        },
-        "hy.exposed_copper_knife": {
-            "textures": "textures/items/tools/weapons/knifes/copper_knifes/exposed_copper_knife"
-        },
-        "hy.weathered_copper_knife": {
-            "textures": "textures/items/tools/weapons/knifes/copper_knifes/weathered_copper_knife"
-        },
-        "hy.oxidized_copper_knife": {
-            "textures": "textures/items/tools/weapons/knifes/copper_knifes/oxidized_copper_knife"
-        },
-        "hy.exposed_copper_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/copper_daggers/exposed_copper_dagger"
-        },
-        "hy.weathered_copper_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/copper_daggers/weathered_copper_dagger"
-        },
-        "hy.oxidized_copper_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/copper_daggers/oxidized_copper_dagger"
-        },
-        "hy.copper_apple": {
-            "textures": "textures/items/foods_and_drinks/copper_apple"
-        },
-        "hy.brass_ingot": {
-            "textures": "textures/items/materials/ingots/brass_ingot"
-        },
-        "hy.brass_dust": {
-            "textures": "textures/items/materials/dusts/brass_dust"
-        },
-        "hy.brass_nugget": {
-            "textures": "textures/items/materials/nuggets/brass_nugget"
-        },
-        "hy.brass_hammer": {
-            "textures": "textures/items/tools/hammers/brass_hammer"
-        },
-        "hy.brass_hoe": {
-            "textures": "textures/items/tools/hoes/brass_hoe"
-        },
-        "hy.brass_pickaxe": {
-            "textures": "textures/items/tools/pickaxes/brass_pickaxe"
-        },
-        "hy.brass_shovel": {
-            "textures": "textures/items/tools/shovels/brass_shovel"
-        },
-        "hy.brass_sword": {
-            "textures": "textures/items/tools/weapons/swords/brass_sword"
-        },
-        "hy.brass_dagger": {
-            "textures": "textures/items/tools/weapons/daggers/brass_dagger"
-        },
-        "hy.brass_knife": {
-            "textures": "textures/items/tools/weapons/knifes/brass_knife"
-        },
-        "hy.brass_axe": {
-            "textures": "textures/items/tools/axes/brass_axe"
-        },
-        "hy.brass_awl": {
-            "textures": "textures/items/materials/awls/brass_awl"
-        },
-        "hy.raw_brass_ingot": {
-            "textures": "textures/items/materials/ingots/raw_brass_ingot"
-        },
-        "mc.diamond_axe": {
-            "textures": "textures/items/diamond_axe"
-        },
-        "mc.iron_axe": {
-            "textures": "textures/items/iron_axe"
-        },
-        "mc.gold_axe": {
-            "textures": "textures/items/gold_axe"
-        },
-        "mc.diamond_hoe": {
-            "textures": "textures/items/diamond_hoe"
-        },
-        "mc.iron_hoe": {
-            "textures": "textures/items/iron_hoe"
-        },
-        "mc.gold_hoe": {
-            "textures": "textures/items/gold_hoe"
-        },
-        "mc.diamond_pickaxe": {
-            "textures": "textures/items/diamond_pickaxe"
-        },
-        "mc.iron_pickaxe": {
-            "textures": "textures/items/iron_pickaxe"
-        },
-        "mc.gold_pickaxe": {
-            "textures": "textures/items/gold_pickaxe"
-        },
-        "mc.diamond_shovel": {
-            "textures": "textures/items/diamond_shovel"
-        },
-        "mc.iron_shovel": {
-            "textures": "textures/items/iron_shovel"
-        },
-        "mc.gold_shovel": {
-            "textures": "textures/items/gold_shovel"
-        },
-        "mc.diamond_sword": {
-            "textures": "textures/items/diamond_sword"
-        },
-        "mc.iron_sword": {
-            "textures": "textures/items/iron_sword"
-        },
-        "mc.gold_sword": {
-            "textures": "textures/items/gold_sword"
-        },
-        "hy.lv1_corrosion_ingot": {
-            "textures": "textures/items/materials/ingots/corrosion_ingots/lv1_corrosion_ingot"
-        },
-        "hy.lv2_corrosion_ingot": {
-            "textures": "textures/items/materials/ingots/corrosion_ingots/lv2_corrosion_ingot"
-        },
-        "hy.lv3_corrosion_ingot": {
-            "textures": "textures/items/materials/ingots/corrosion_ingots/lv3_corrosion_ingot"
-        },
-        "hy.exposed_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/exposed_copper_dust"
-        },
-        "hy.weathered_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/weathered_copper_dust"
-        },
-        "hy.oxidized_copper_dust": {
-            "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_copper_dust"
-        },
-        "hy.iron_crowbar": {
-            "textures": "textures/items/tools/crowbars/iron_crowbar"
-        },
-        "hy.gold_crowbar": {
-            "textures": "textures/items/tools/crowbars/gold_crowbar"
-        },
-        "hy.diamond_crowbar": {
-            "textures": "textures/items/tools/crowbars/diamond_crowbar"
-        },
-        "sc.stone_nugget": {
-            "textures": "textures/items/materials/nuggets/stone_nugget"
-        },
-        "hy.fuel_metal_stick": {
-            "textures": "textures/items/materials/fuel_metals/fuel_metal_stick"
-        },
-        "hy.bark": {
-            "textures": "textures/items/materials/bark"
-        },
-        "hy.diamond_bone": {
-            "textures": "textures/items/materials/bones/diamond_bone"
-        },
-        "hy.gold_bone": {
-            "textures": "textures/items/materials/bones/gold_bone"
-        },
-        "hy.iron_bone": {
-            "textures": "textures/items/materials/bones/iron_bone"
-        },
-        "hy.copper_badge": {
-            "textures": "textures/items/treasures/badges/copper_badge"
-        },
-        "hy.diamond_badge": {
-            "textures": "textures/items/treasures/badges/diamond_badge"
-        },
-        "hy.golden_badge": {
-            "textures": "textures/items/treasures/badges/golden_badge"
-        },
-        "hy.disc_fragment": {
-            "textures": "textures/items/treasures/disc_fragment"
-        },
-        "hy.copper_horn": {
-            "textures": "textures/items/treasures/copper_horn"
-        },
-        "hy.copper_helmet": {
-            "textures": "textures/items/armors/copper_armors/copper_helmet"
-        },
-        "hy.copper_chestplate": {
-            "textures": "textures/items/armors/copper_armors/copper_chestplate"
-        },
-        "hy.copper_leggings": {
-            "textures": "textures/items/armors/copper_armors/copper_leggings"
-        },
-        "hy.copper_boots": {
-            "textures": "textures/items/armors/copper_armors/copper_boots"
-        }
+  "resource_pack_name": "隐藏之年²",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "hy.copper_hammer": {
+      "textures": "textures/items/tools/hammers/copper_hammers/copper_hammer"
+    },
+    "hy.exposed_copper_hammer": {
+      "textures": "textures/items/tools/hammers/copper_hammers/exposed_copper_hammer"
+    },
+    "hy.weathered_copper_hammer": {
+      "textures": "textures/items/tools/hammers/copper_hammers/weathered_copper_hammer"
+    },
+    "hy.oxidized_copper_hammer": {
+      "textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
+    },
+    "hy.copper_hammer_template": {
+      "textures": "textures/items/templates/tools/hammers/copper_hammers/hammer_template"
+    },
+    "hy.wooden_handle": {
+      "textures": "textures/items/materials/handles/wooden_handle"
+    },
+    "hy.copper_coin": {
+      "textures": "textures/items/treasures/coins/copper_coin"
+    },
+    "hy.gemstone_trader_egg": {
+      "textures": "textures/items/traders/egg_gemstone_trader"
+    },
+    "hy.copper_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/copper_pickaxes/copper_pickaxe"
+    },
+    "hy.exposed_copper_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/copper_pickaxes/exposed_copper_pickaxe"
+    },
+    "hy.weathered_copper_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/copper_pickaxes/weathered_copper_pickaxe"
+    },
+    "hy.oxidized_copper_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/copper_pickaxes/oxidized_copper_pickaxe"
+    },
+    "hy.copper_essence": {
+      "textures": "textures/items/treasures/essences/copper_essence"
+    },
+    "hy.copper_star": {
+      "textures": "textures/items/treasures/stars/copper_star"
+    },
+    "hy.copper_axe": {
+      "textures": "textures/items/tools/axes/copper_axes/copper_axe"
+    },
+    "hy.exposed_copper_axe": {
+      "textures": "textures/items/tools/axes/copper_axes/exposed_copper_axe"
+    },
+    "hy.weathered_copper_axe": {
+      "textures": "textures/items/tools/axes/copper_axes/weathered_copper_axe"
+    },
+    "hy.oxidized_copper_axe": {
+      "textures": "textures/items/tools/axes/copper_axes/oxidized_copper_axe"
+    },
+    "hy.copper_stick": {
+      "textures": "textures/items/materials/copper_stick"
+    },
+    "hy.amethyst_axe": {
+      "textures": "textures/items/tools/axes/amethyst_axe"
+    },
+    "hy.amethyst_hammer": {
+      "textures": "textures/items/tools/hammers/amethyst_hammer"
+    },
+    "hy.amethyst_hoe": {
+      "textures": "textures/items/tools/hoes/amethyst_hoe"
+    },
+    "hy.amethyst_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/amethyst_pickaxe"
+    },
+    "hy.amethyst_shovel": {
+      "textures": "textures/items/tools/shovels/amethyst_shovel"
+    },
+    "hy.amethyst_ingot": {
+      "textures": "textures/items/materials/ingots/amethyst_ingot"
+    },
+    "hy.amethyst_sword": {
+      "textures": "textures/items/tools/weapons/swords/amethyst_sword"
+    },
+    "hy.copper_hoe": {
+      "textures": "textures/items/tools/hoes/copper_hoes/copper_hoe"
+    },
+    "hy.exposed_copper_hoe": {
+      "textures": "textures/items/tools/hoes/copper_hoes/exposed_copper_hoe"
+    },
+    "hy.weathered_copper_hoe": {
+      "textures": "textures/items/tools/hoes/copper_hoes/weathered_exposed_copper_hoe"
+    },
+    "hy.oxidized_copper_hoe": {
+      "textures": "textures/items/tools/hoes/copper_hoes/oxidized_exposed_copper_hoe"
+    },
+    "hy.copper_sword": {
+      "textures": "textures/items/tools/weapons/swords/copper_swords/copper_sword"
+    },
+    "hy.exposed_copper_sword": {
+      "textures": "textures/items/tools/weapons/swords/copper_swords/exposed_copper_sword"
+    },
+    "hy.weathered_copper_sword": {
+      "textures": "textures/items/tools/weapons/swords/copper_swords/weathered_copper_sword"
+    },
+    "hy.oxidized_copper_sword": {
+      "textures": "textures/items/tools/weapons/swords/copper_swords/oxidized_copper_sword"
+    },
+    "hy.copper_shovel": {
+      "textures": "textures/items/tools/shovels/copper_shovels/copper_shovel"
+    },
+    "hy.exposed_copper_shovel": {
+      "textures": "textures/items/tools/shovels/copper_shovels/exposed_copper_shovel"
+    },
+    "hy.weathered_copper_shovel": {
+      "textures": "textures/items/tools/shovels/copper_shovels/weathered_copper_shovel"
+    },
+    "hy.oxidized_copper_shovel": {
+      "textures": "textures/items/tools/shovels/copper_shovels/oxidized_copper_shovel"
+    },
+    "hy.amethyst_nugget": {
+      "textures": "textures/items/materials/nuggets/amethyst_nugget"
+    },
+    "hy.coal_nugget": {
+      "textures": "textures/items/materials/nuggets/coal_nugget"
+    },
+    "hy.copper_nugget": {
+      "textures": "textures/items/materials/nuggets/copper_nugget"
+    },
+    "hy.diamond_nugget": {
+      "textures": "textures/items/materials/nuggets/diamond_nugget"
+    },
+    "hy.emerald_nugget": {
+      "textures": "textures/items/materials/nuggets/emerald_nugget"
+    },
+    "hy.lapis_nugget": {
+      "textures": "textures/items/materials/nuggets/lapis_nugget"
+    },
+    "hy.netherite_nugget": {
+      "textures": "textures/items/materials/nuggets/netherite_nugget"
+    },
+    "hy.quartz_nugget": {
+      "textures": "textures/items/materials/nuggets/quartz_nugget"
+    },
+    "hy.redstone_nugget": {
+      "textures": "textures/items/materials/nuggets/redstone_nugget"
+    },
+    "hy.amethyst_dust": {
+      "textures": "textures/items/materials/dusts/amethyst_dust"
+    },
+    "hy.coal_dust": {
+      "textures": "textures/items/materials/dusts/coal_dust"
+    },
+    "hy.copper_dust": {
+      "textures": "textures/items/materials/dusts/copper_dust"
+    },
+    "hy.diamond_dust": {
+      "textures": "textures/items/materials/dusts/diamond_dust"
+    },
+    "hy.emerald_dust": {
+      "textures": "textures/items/materials/dusts/emerald_dust"
+    },
+    "hy.lapis_dust": {
+      "textures": "textures/items/materials/dusts/lapis_dust"
+    },
+    "hy.netherite_dust": {
+      "textures": "textures/items/materials/dusts/netherite_dust"
+    },
+    "hy.quartz_dust": {
+      "textures": "textures/items/materials/dusts/quartz_dust"
+    },
+    "hy.iron_dust": {
+      "textures": "textures/items/materials/dusts/iron_dust"
+    },
+    "hy.gold_dust": {
+      "textures": "textures/items/materials/dusts/gold_dust"
+    },
+    "hy.netherite_hammer": {
+      "textures": "textures/items/tools/hammers/metal_hammers/netherite_hammer"
+    },
+    "hy.diamond_hammer": {
+      "textures": "textures/items/tools/hammers/metal_hammers/diamond_hammer"
+    },
+    "hy.iron_hammer": {
+      "textures": "textures/items/tools/hammers/metal_hammers/iron_hammer"
+    },
+    "hy.gold_hammer": {
+      "textures": "textures/items/tools/hammers/metal_hammers/gold_hammer"
+    },
+    "hy.stone_hammer": {
+      "textures": "textures/items/tools/hammers/stone_hammer"
+    },
+    "hy.wooden_hammer": {
+      "textures": "textures/items/tools/hammers/wooden_hammer"
+    },
+    "hy.amethyst_knife": {
+      "textures": "textures/items/tools/weapons/knifes/amethyst_knife"
+    },
+    "hy.iron_knife": {
+      "textures": "textures/items/tools/weapons/knifes/iron_knife"
+    },
+    "hy.gold_knife": {
+      "textures": "textures/items/tools/weapons/knifes/gold_knife"
+    },
+    "hy.diamond_knife": {
+      "textures": "textures/items/tools/weapons/knifes/diamond_knife"
+    },
+    "hy.netherite_knife": {
+      "textures": "textures/items/tools/weapons/knifes/netherite_knife"
+    },
+    "hy.stone_knife": {
+      "textures": "textures/items/tools/weapons/knifes/stone_knife"
+    },
+    "hy.wooden_knife": {
+      "textures": "textures/items/tools/weapons/knifes/wooden_knife"
+    },
+    "hy.amethyst_awl": {
+      "textures": "textures/items/materials/awls/amethyst_awl"
+    },
+    "hy.copper_awl": {
+      "textures": "textures/items/materials/awls/copper_awl"
+    },
+    "hy.iron_awl": {
+      "textures": "textures/items/materials/awls/iron_awl"
+    },
+    "hy.gold_awl": {
+      "textures": "textures/items/materials/awls/gold_awl"
+    },
+    "hy.diamond_awl": {
+      "textures": "textures/items/materials/awls/diamond_awl"
+    },
+    "hy.netherite_awl": {
+      "textures": "textures/items/materials/awls/netherite_awl"
+    },
+    "hy.stone_awl": {
+      "textures": "textures/items/materials/awls/stone_awl"
+    },
+    "hy.wooden_awl": {
+      "textures": "textures/items/materials/awls/wooden_awl"
+    },
+    "hy.amethyst_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/amethyst_dagger"
+    },
+    "hy.copper_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/copper_daggers/copper_dagger"
+    },
+    "hy.iron_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/iron_dagger"
+    },
+    "hy.gold_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/gold_dagger"
+    },
+    "hy.diamond_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/diamond_dagger"
+    },
+    "hy.netherite_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/netherite_dagger"
+    },
+    "hy.stone_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/stone_dagger"
+    },
+    "hy.wooden_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/wooden_dagger"
+    },
+    "hy.gold_coin": {
+      "textures": "textures/items/treasures/coins/gold_coin"
+    },
+    "hy.diamond_coin": {
+      "textures": "textures/items/treasures/coins/diamond_coin"
+    },
+    "hy.stack_of_gold_coin": {
+      "textures": "textures/items/treasures/coins/stack_of_gold_coin"
+    },
+    "hy.stack_of_diamond_coin": {
+      "textures": "textures/items/treasures/coins/stack_of_diamond_coin"
+    },
+    "hy.stack_of_copper_coin": {
+      "textures": "textures/items/treasures/coins/stack_of_copper_coin"
+    },
+    "hy.fuel_metal": {
+      "textures": "textures/items/materials/fuel_metals/fuel"
+    },
+    "hy.over_metal_ingot": {
+      "textures": "textures/items/materials/ingots/stone_metal_ingots/over_metal_ingot"
+    },
+    "hy.end_metal_ingot": {
+      "textures": "textures/items/materials/ingots/stone_metal_ingots/end_metal_ingot"
+    },
+    "hy.nether_metal_ingot": {
+      "textures": "textures/items/materials/ingots/stone_metal_ingots/nether_metal_ingot"
+    },
+    "hy.end_metal_axe": {
+      "textures": "textures/items/tools/axes/stone_metal_axes/end_metal_axe"
+    },
+    "hy.end_metal_hammer": {
+      "textures": "textures/items/tools/hammers/stone_metal_hammers/end_metal_hammer"
+    },
+    "hy.end_metal_hoe": {
+      "textures": "textures/items/tools/hoes/stone_metal_hoes/end_metal_hoe"
+    },
+    "hy.end_metal_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/end_metal_pickaxe"
+    },
+    "hy.end_metal_shovel": {
+      "textures": "textures/items/tools/shovels/stone_metal_shovels/end_metal_shovel"
+    },
+    "hy.end_metal_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/end_metal_dagger"
+    },
+    "hy.end_metal_knife": {
+      "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/end_metal_knife"
+    },
+    "hy.end_metal_sword": {
+      "textures": "textures/items/tools/weapons/swords/stone_metal_swords/end_metal_sword"
+    },
+    "hy.over_metal_axe": {
+      "textures": "textures/items/tools/axes/stone_metal_axes/over_metal_axe"
+    },
+    "hy.over_metal_hammer": {
+      "textures": "textures/items/tools/hammers/stone_metal_hammers/over_metal_hammer"
+    },
+    "hy.over_metal_hoe": {
+      "textures": "textures/items/tools/hoes/stone_metal_hoes/over_metal_hoe"
+    },
+    "hy.over_metal_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/over_metal_pickaxe"
+    },
+    "hy.over_metal_shovel": {
+      "textures": "textures/items/tools/shovels/stone_metal_shovels/over_metal_shovel"
+    },
+    "hy.over_metal_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/over_metal_dagger"
+    },
+    "hy.over_metal_knife": {
+      "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/over_metal_knife"
+    },
+    "hy.over_metal_sword": {
+      "textures": "textures/items/tools/weapons/swords/stone_metal_swords/over_metal_sword"
+    },
+    "hy.nether_metal_axe": {
+      "textures": "textures/items/tools/axes/stone_metal_axes/nether_metal_axe"
+    },
+    "hy.nether_metal_hammer": {
+      "textures": "textures/items/tools/hammers/stone_metal_hammers/nether_metal_hammer"
+    },
+    "hy.nether_metal_hoe": {
+      "textures": "textures/items/tools/hoes/stone_metal_hoes/nether_metal_hoe"
+    },
+    "hy.nether_metal_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/stone_metal_pickaxes/nether_metal_pickaxe"
+    },
+    "hy.nether_metal_shovel": {
+      "textures": "textures/items/tools/shovels/stone_metal_shovels/nether_metal_shovel"
+    },
+    "hy.nether_metal_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/stone_metal_daggers/nether_metal_dagger"
+    },
+    "hy.nether_metal_knife": {
+      "textures": "textures/items/tools/weapons/knifes/stone_metal_knifes/nether_metal_knife"
+    },
+    "hy.nether_metal_sword": {
+      "textures": "textures/items/tools/weapons/swords/stone_metal_swords/nether_metal_sword"
+    },
+    "hy.over_metal_nugget": {
+      "textures": "textures/items/materials/nuggets/stone_metal_nuggets/over_metal_nugget"
+    },
+    "hy.end_metal_nugget": {
+      "textures": "textures/items/materials/nuggets/stone_metal_nuggets/end_metal_nugget"
+    },
+    "hy.nether_metal_nugget": {
+      "textures": "textures/items/materials/nuggets/stone_metal_nuggets/nether_metal_nugget"
+    },
+    "hy.over_metal_awl": {
+      "textures": "textures/items/materials/awls/over_metal_awl"
+    },
+    "hy.end_metal_awl": {
+      "textures": "textures/items/materials/awls/end_metal_awl"
+    },
+    "hy.nether_metal_awl": {
+      "textures": "textures/items/materials/awls/nether_metal_awl"
+    },
+    "hy.tin_ingot": {
+      "textures": "textures/items/materials/ingots/tin_ingot"
+    },
+    "hy.tin_dust": {
+      "textures": "textures/items/materials/dusts/tin_dust"
+    },
+    "hy.tin_nugget": {
+      "textures": "textures/items/materials/nuggets/tin_nugget"
+    },
+    "hy.raw_tin": {
+      "textures": "textures/items/materials/raw_ores/raw_tin"
+    },
+    "hy.bronze_ingot": {
+      "textures": "textures/items/materials/ingots/bronze_ingot"
+    },
+    "hy.bronze_dust": {
+      "textures": "textures/items/materials/dusts/bronze_dust"
+    },
+    "hy.bronze_nugget": {
+      "textures": "textures/items/materials/nuggets/bronze_nugget"
+    },
+    "hy.bronze_helmet": {
+      "textures": "textures/items/armors/bronze_armors/bronze_helmet"
+    },
+    "hy.bronze_chestplate": {
+      "textures": "textures/items/armors/bronze_armors/bronze_chestplate"
+    },
+    "hy.bronze_leggings": {
+      "textures": "textures/items/armors/bronze_armors/bronze_leggings"
+    },
+    "hy.bronze_boots": {
+      "textures": "textures/items/armors/bronze_armors/bronze_boots"
+    },
+    "hy.bronze_hammer": {
+      "textures": "textures/items/tools/hammers/bronze_hammer"
+    },
+    "hy.bronze_hoe": {
+      "textures": "textures/items/tools/hoes/bronze_hoe"
+    },
+    "hy.bronze_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/bronze_pickaxe"
+    },
+    "hy.bronze_shovel": {
+      "textures": "textures/items/tools/shovels/bronze_shovel"
+    },
+    "hy.bronze_sword": {
+      "textures": "textures/items/tools/weapons/swords/bronze_sword"
+    },
+    "hy.bronze_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/bronze_dagger"
+    },
+    "hy.bronze_knife": {
+      "textures": "textures/items/tools/weapons/knifes/bronze_knife"
+    },
+    "hy.bronze_axe": {
+      "textures": "textures/items/tools/axes/bronze_axe"
+    },
+    "hy.bronze_awl": {
+      "textures": "textures/items/materials/awls/bronze_awl"
+    },
+    "hy.medicines.default": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_default"
+    },
+    "hy.medicines.eye": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_eye"
+    },
+    "hy.medicines.dope": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_dope"
+    },
+    "hy.medicines.poison": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_poison"
+    },
+    "hy.medicines.newlife": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_newlife"
+    },
+    "hy.medicines.nausea": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_nausea"
+    },
+    "hy.medicines.bandage": {
+      "textures": "textures/items/foods_and_drinks/medicines/bandage"
+    },
+    "hy.medicines.medicine_pack": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_pack"
+    },
+    "hy.steel_ingot": {
+      "textures": "textures/items/materials/ingots/steel_ingot"
+    },
+    "hy.steel_dust": {
+      "textures": "textures/items/materials/dusts/steel_dust"
+    },
+    "hy.steel_nugget": {
+      "textures": "textures/items/materials/nuggets/steel_nugget"
+    },
+    "hy.steel_helmet": {
+      "textures": "textures/items/armors/steel_armors/steel_helmet"
+    },
+    "hy.steel_chestplate": {
+      "textures": "textures/items/armors/steel_armors/steel_chestplate"
+    },
+    "hy.steel_leggings": {
+      "textures": "textures/items/armors/steel_armors/steel_leggings"
+    },
+    "hy.steel_boots": {
+      "textures": "textures/items/armors/steel_armors/steel_boots"
+    },
+    "hy.steel_hammer": {
+      "textures": "textures/items/tools/hammers/steel_hammer"
+    },
+    "hy.steel_hoe": {
+      "textures": "textures/items/tools/hoes/steel_hoe"
+    },
+    "hy.steel_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/steel_pickaxe"
+    },
+    "hy.steel_shovel": {
+      "textures": "textures/items/tools/shovels/steel_shovel"
+    },
+    "hy.steel_sword": {
+      "textures": "textures/items/tools/weapons/swords/steel_sword"
+    },
+    "hy.steel_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/steel_dagger"
+    },
+    "hy.steel_knife": {
+      "textures": "textures/items/tools/weapons/knifes/steel_knife"
+    },
+    "hy.steel_axe": {
+      "textures": "textures/items/tools/axes/steel_axe"
+    },
+    "hy.steel_awl": {
+      "textures": "textures/items/materials/awls/steel_awl"
+    },
+    "hy.raw_steel": {
+      "textures": "textures/items/materials/raw_ores/raw_steel"
+    },
+    "hy.copper_knife": {
+      "textures": "textures/items/tools/weapons/knifes/copper_knifes/copper_knife"
+    },
+    "hy.exposed_copper_knife": {
+      "textures": "textures/items/tools/weapons/knifes/copper_knifes/exposed_copper_knife"
+    },
+    "hy.weathered_copper_knife": {
+      "textures": "textures/items/tools/weapons/knifes/copper_knifes/weathered_copper_knife"
+    },
+    "hy.oxidized_copper_knife": {
+      "textures": "textures/items/tools/weapons/knifes/copper_knifes/oxidized_copper_knife"
+    },
+    "hy.exposed_copper_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/copper_daggers/exposed_copper_dagger"
+    },
+    "hy.weathered_copper_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/copper_daggers/weathered_copper_dagger"
+    },
+    "hy.oxidized_copper_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/copper_daggers/oxidized_copper_dagger"
+    },
+    "hy.copper_apple": {
+      "textures": "textures/items/foods_and_drinks/copper_apple"
+    },
+    "hy.brass_ingot": {
+      "textures": "textures/items/materials/ingots/brass_ingot"
+    },
+    "hy.brass_dust": {
+      "textures": "textures/items/materials/dusts/brass_dust"
+    },
+    "hy.brass_nugget": {
+      "textures": "textures/items/materials/nuggets/brass_nugget"
+    },
+    "hy.brass_hammer": {
+      "textures": "textures/items/tools/hammers/brass_hammer"
+    },
+    "hy.brass_hoe": {
+      "textures": "textures/items/tools/hoes/brass_hoe"
+    },
+    "hy.brass_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/brass_pickaxe"
+    },
+    "hy.brass_shovel": {
+      "textures": "textures/items/tools/shovels/brass_shovel"
+    },
+    "hy.brass_sword": {
+      "textures": "textures/items/tools/weapons/swords/brass_sword"
+    },
+    "hy.brass_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/brass_dagger"
+    },
+    "hy.brass_knife": {
+      "textures": "textures/items/tools/weapons/knifes/brass_knife"
+    },
+    "hy.brass_axe": {
+      "textures": "textures/items/tools/axes/brass_axe"
+    },
+    "hy.brass_awl": {
+      "textures": "textures/items/materials/awls/brass_awl"
+    },
+    "hy.raw_brass_ingot": {
+      "textures": "textures/items/materials/ingots/raw_brass_ingot"
+    },
+    "mc.diamond_axe": {
+      "textures": "textures/items/diamond_axe"
+    },
+    "mc.iron_axe": {
+      "textures": "textures/items/iron_axe"
+    },
+    "mc.gold_axe": {
+      "textures": "textures/items/gold_axe"
+    },
+    "mc.diamond_hoe": {
+      "textures": "textures/items/diamond_hoe"
+    },
+    "mc.iron_hoe": {
+      "textures": "textures/items/iron_hoe"
+    },
+    "mc.gold_hoe": {
+      "textures": "textures/items/gold_hoe"
+    },
+    "mc.diamond_pickaxe": {
+      "textures": "textures/items/diamond_pickaxe"
+    },
+    "mc.iron_pickaxe": {
+      "textures": "textures/items/iron_pickaxe"
+    },
+    "mc.gold_pickaxe": {
+      "textures": "textures/items/gold_pickaxe"
+    },
+    "mc.diamond_shovel": {
+      "textures": "textures/items/diamond_shovel"
+    },
+    "mc.iron_shovel": {
+      "textures": "textures/items/iron_shovel"
+    },
+    "mc.gold_shovel": {
+      "textures": "textures/items/gold_shovel"
+    },
+    "mc.diamond_sword": {
+      "textures": "textures/items/diamond_sword"
+    },
+    "mc.iron_sword": {
+      "textures": "textures/items/iron_sword"
+    },
+    "mc.gold_sword": {
+      "textures": "textures/items/gold_sword"
+    },
+    "hy.lv1_corrosion_ingot": {
+      "textures": "textures/items/materials/ingots/corrosion_ingots/lv1_corrosion_ingot"
+    },
+    "hy.lv2_corrosion_ingot": {
+      "textures": "textures/items/materials/ingots/corrosion_ingots/lv2_corrosion_ingot"
+    },
+    "hy.lv3_corrosion_ingot": {
+      "textures": "textures/items/materials/ingots/corrosion_ingots/lv3_corrosion_ingot"
+    },
+    "hy.exposed_copper_dust": {
+      "textures": "textures/items/materials/dusts/corrosion_dusts/exposed_copper_dust"
+    },
+    "hy.weathered_copper_dust": {
+      "textures": "textures/items/materials/dusts/corrosion_dusts/weathered_copper_dust"
+    },
+    "hy.oxidized_copper_dust": {
+      "textures": "textures/items/materials/dusts/corrosion_dusts/oxidized_copper_dust"
+    },
+    "hy.iron_crowbar": {
+      "textures": "textures/items/tools/crowbars/iron_crowbar"
+    },
+    "hy.gold_crowbar": {
+      "textures": "textures/items/tools/crowbars/gold_crowbar"
+    },
+    "hy.diamond_crowbar": {
+      "textures": "textures/items/tools/crowbars/diamond_crowbar"
+    },
+    "sc.stone_nugget": {
+      "textures": "textures/items/materials/nuggets/stone_nugget"
+    },
+    "hy.fuel_metal_stick": {
+      "textures": "textures/items/materials/fuel_metals/fuel_metal_stick"
+    },
+    "hy.bark": {
+      "textures": "textures/items/materials/bark"
+    },
+    "hy.diamond_bone": {
+      "textures": "textures/items/materials/bones/diamond_bone"
+    },
+    "hy.gold_bone": {
+      "textures": "textures/items/materials/bones/gold_bone"
+    },
+    "hy.iron_bone": {
+      "textures": "textures/items/materials/bones/iron_bone"
+    },
+    "hy.copper_badge": {
+      "textures": "textures/items/treasures/badges/copper_badge"
+    },
+    "hy.diamond_badge": {
+      "textures": "textures/items/treasures/badges/diamond_badge"
+    },
+    "hy.golden_badge": {
+      "textures": "textures/items/treasures/badges/golden_badge"
+    },
+    "hy.disc_fragment": {
+      "textures": "textures/items/treasures/disc_fragment"
+    },
+    "hy.copper_horn": {
+      "textures": "textures/items/treasures/copper_horn"
+    },
+    "hy.copper_helmet": {
+      "textures": "textures/items/armors/copper_armors/copper_helmet"
+    },
+    "hy.copper_chestplate": {
+      "textures": "textures/items/armors/copper_armors/copper_chestplate"
+    },
+    "hy.copper_leggings": {
+      "textures": "textures/items/armors/copper_armors/copper_leggings"
+    },
+    "hy.copper_boots": {
+      "textures": "textures/items/armors/copper_armors/copper_boots"
     }
+  }
 }

@@ -1,23 +1,23 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "hy:imitation_gold_ingot",
-            "category": "items"
-        },
-        "components": {
-            "minecraft:icon": {
-                "texture": "gold_ingot"
-            },
-            "minecraft:display_name": {
-                "value": "hy.item.imitation_gold_ingot"
-            },
-            "minecraft:creative_category": {
-                "category": "items"
-            },
-            "tag:dict:ingots": {},
-            "tag:dict:ingots.imitation_gold": {},
-            "tag:dict:materials.imitation": {}
-        }
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:imitation_gold_ingot",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "gold_ingot"
+      },
+      "minecraft:display_name": {
+        "value": "hy.item.imitation_gold_ingot"
+      },
+      "minecraft:creative_category": {
+        "category": "items"
+      },
+      "tag:dict:ingots": {},
+      "tag:dict:ingots.imitation_gold": {},
+      "tag:dict:materials.imitation": {}
     }
+  }
 }

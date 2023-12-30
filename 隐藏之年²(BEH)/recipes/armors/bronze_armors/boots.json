@@ -1,28 +1,23 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "bronze_boots"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "X X",
-            "X X"
-        ],
-        "key": {
-            "X": {
-                "item": "hy:bronze_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "hy:bronze_ingot"
-            }
-        ],
-        "result": {
-            "item": "hy:bronze_boots"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bronze_boots"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["X X", "X X"],
+    "key": {
+      "X": {
+        "item": "hy:bronze_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:bronze_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:bronze_boots"
     }
+  }
 }

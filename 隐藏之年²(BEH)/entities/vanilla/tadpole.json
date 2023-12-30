@@ -1,25 +1,24 @@
 {
-	"format_version": "1.16.0",
-	"minecraft:entity": {
-		"description": {
-			"identifier": "minecraft:tadpole",
-			"is_spawnable": true,
-			"is_summonable": true,
-			"is_experimental": false
-		},
-		"component_groups": {
-			"grow_up": {
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:tadpole",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "grow_up": {
         "minecraft:transformation": {
           "into": "minecraft:frog",
           "transformation_sound": "convert_to_frog"
         }
-			}
-		},
+      }
+    },
     "components": {
-      "minecraft:is_hidden_when_invisible": {
-      },
+      "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": [ "tadpole", "mob" ]
+        "family": ["tadpole", "mob"]
       },
       "minecraft:collision_box": {
         "width": 0.8,
@@ -32,8 +31,7 @@
         "breathes_air": false,
         "generates_bubbles": false
       },
-      "minecraft:nameable": {
-      },
+      "minecraft:nameable": {},
       "minecraft:health": {
         "value": 6
       },
@@ -58,7 +56,8 @@
         "can_sink": false,
         "avoid_damage_blocks": true
       },
-      "minecraft:movement.sway": { //This is needed to allow the tadpole to swim
+      "minecraft:movement.sway": {
+        //This is needed to allow the tadpole to swim
         "sway_amplitude": 0.0
       },
       "minecraft:movement": {
@@ -67,18 +66,15 @@
       "minecraft:underwater_movement": {
         "value": 0.1
       },
-      "minecraft:physics": {
-      },
-      "minecraft:pushable": {
-      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {},
       "minecraft:despawn": {
         "despawn_from_distance": {}
       },
-      "minecraft:is_baby": {
-      },
+      "minecraft:is_baby": {},
       "minecraft:ageable": {
         "duration": 1200,
-        "feed_items": [ "slime_ball" ],
+        "feed_items": ["slime_ball"],
         "grow_up": {
           "event": "ageable_grow_up",
           "target": "self"
@@ -92,7 +88,7 @@
         "priority": 5,
         "speed_multiplier": 1.25,
         "can_tempt_vertically": true,
-        "items": [ "slime_ball" ]
+        "items": ["slime_ball"]
       },
       "minecraft:behavior.random_swim": {
         "priority": 2,
@@ -104,16 +100,16 @@
         "probability": 0.02
       }
     },
-		"events": {
-			"ageable_grow_up": {
-				"sequence": [
-					{
-						"add": {
-							"component_groups": [ "grow_up" ]
-						}
-					}
-				]
-			}
-		}
-	}
+    "events": {
+      "ageable_grow_up": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": ["grow_up"]
+            }
+          }
+        ]
+      }
+    }
+  }
 }

@@ -1,19 +1,16 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_furnace": {
-		"description": {
-			"identifier": "copper_essence_ore"
-		},
-		"tags": [
-			"furnace",
-			"blast_furnace"
-		],
-		"unlock": [
-            {
-                "item": "hy:copper_essence_ore"
-            }
-        ],
-		"input": "hy:copper_essence_ore",
-		"output": "hy:copper_essence"
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "copper_essence_ore"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "hy:copper_essence_ore"
+      }
+    ],
+    "input": "hy:copper_essence_ore",
+    "output": "hy:copper_essence"
+  }
 }

@@ -1,28 +1,23 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "coppper_helmet"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "XXX",
-            "X X"
-        ],
-        "key": {
-            "X": {
-                "item": "copper_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "copper_ingot"
-            }
-        ],
-        "result": {
-            "item": "hy:copper_helmet"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "coppper_helmet"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "X X"],
+    "key": {
+      "X": {
+        "item": "copper_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_helmet"
     }
+  }
 }

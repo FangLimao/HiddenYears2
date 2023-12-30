@@ -1,43 +1,37 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "soul_torch_from_fuels_soul_soil"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            ".",
-            "|",
-            "#"
-        ],
-        "key": {
-            ".": {
-                "tag": "dict:fuels"
-            },
-            "|": {
-                "item": "hy:copper_stick"
-            },
-            "#": {
-                "item": "soul_soil"
-            }
-        },
-        "unlock": [
-            {
-                "tag": "dict:fuels"
-            },
-            {
-                "item": "hy:copper_stick"
-            },
-            {
-                "item": "soul_soil"
-            }
-        ],
-        "result": {
-            "item": "soul_torch",
-            "count": 16
-        },
-        "priority": -1
-    }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "soul_torch_from_fuels_soul_soil"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [".", "|", "#"],
+    "key": {
+      ".": {
+        "tag": "dict:fuels"
+      },
+      "|": {
+        "item": "hy:copper_stick"
+      },
+      "#": {
+        "item": "soul_soil"
+      }
+    },
+    "unlock": [
+      {
+        "tag": "dict:fuels"
+      },
+      {
+        "item": "hy:copper_stick"
+      },
+      {
+        "item": "soul_soil"
+      }
+    ],
+    "result": {
+      "item": "soul_torch",
+      "count": 16
+    },
+    "priority": -1
+  }
 }

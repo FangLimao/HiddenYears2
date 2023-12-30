@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "tin_nugget_from_dust"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:tin_dust",
-                "count": 9
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:tin_dust"
-            }
-        ],
-        "result": {
-            "item": "hy:tin_nugget"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "tin_nugget_from_dust"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:tin_dust",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:tin_dust"
+      }
+    ],
+    "result": {
+      "item": "hy:tin_nugget"
     }
+  }
 }

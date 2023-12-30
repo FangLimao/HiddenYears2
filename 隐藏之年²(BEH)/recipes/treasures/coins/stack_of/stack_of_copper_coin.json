@@ -1,30 +1,24 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "stack_of_copper_coin"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"key": {
-			"#": {
-				"item": "hy:copper_coin"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:copper_coin"
-			}
-		],
-		"pattern": [
-			"###",
-			"###",
-			"###"
-		],
-		"result": {
-			"item": "hy:stack_of_copper_coin",
-			"count": 1
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stack_of_copper_coin"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "hy:copper_coin"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:copper_coin"
+      }
+    ],
+    "pattern": ["###", "###", "###"],
+    "result": {
+      "item": "hy:stack_of_copper_coin",
+      "count": 1
+    }
+  }
 }

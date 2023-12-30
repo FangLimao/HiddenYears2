@@ -1,31 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "copper_fuel_metal"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:fuel_metal"
-            },
-            {
-                "item": "copper_ingot"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:fuel_metal"
-            },
-            {
-                "item": "copper_ingot"
-            }
-        ],
-        "result": {
-            "item": "hy:mineral_fuel_metal"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "copper_fuel_metal"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:fuel_metal"
+      },
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:fuel_metal"
+      },
+      {
+        "item": "copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:mineral_fuel_metal"
     }
+  }
 }

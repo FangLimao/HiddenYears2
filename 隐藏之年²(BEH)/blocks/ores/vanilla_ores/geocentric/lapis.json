@@ -1,35 +1,35 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:block": {
-        "description": {
-            "identifier": "hy:geocentric_lapis_ore",
-            "menu_category": {
-                "group": "itemGroup.name.ore",
-                "category": "nature"
-            }
-        },
-        "components": {
-            "minecraft:loot": "loot_tables/empty.json",
-            "minecraft:display_name": "hy.block.geocentric_lapis_ore",
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.8
-            },
-            "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 3.0
-            },
-            "minecraft:map_color": "#565656",
-            "minecraft:on_player_destroyed": {
-                "event": "hy.spawn_loot",
-                "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
-            },
-            "tag:minecraft:stone_pick_diggable": {}
-        },
-        "events": {
-            "hy.spawn_loot": {
-                "spawn_loot": {
-                    "table": "loot_tables/blocks/geocentric_ores/lapis.json"
-                }
-            }
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hy:geocentric_lapis_ore",
+      "menu_category": {
+        "group": "itemGroup.name.ore",
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:display_name": "hy.block.geocentric_lapis_ore",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:map_color": "#565656",
+      "minecraft:on_player_destroyed": {
+        "event": "hy.spawn_loot",
+        "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
+      },
+      "tag:minecraft:stone_pick_diggable": {}
+    },
+    "events": {
+      "hy.spawn_loot": {
+        "spawn_loot": {
+          "table": "loot_tables/blocks/geocentric_ores/lapis.json"
         }
+      }
     }
+  }
 }

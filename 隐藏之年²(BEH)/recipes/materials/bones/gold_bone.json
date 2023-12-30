@@ -1,32 +1,26 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "gold_bone"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "key": {
-            "#": {
-                "item": "bone"
-            },
-            "X": {
-                "item": "gold_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "bone"
-            }
-        ],
-        "pattern": [
-            "X",
-            "#",
-            "X"
-        ],
-        "result": {
-            "item": "hy:gold_bone"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gold_bone"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "bone"
+      },
+      "X": {
+        "item": "gold_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "bone"
+      }
+    ],
+    "pattern": ["X", "#", "X"],
+    "result": {
+      "item": "hy:gold_bone"
     }
+  }
 }

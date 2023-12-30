@@ -1,19 +1,16 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_furnace": {
-		"description": {
-			"identifier": "deepslate_amethyst_essence_ore"
-		},
-		"tags": [
-			"furnace",
-			"blast_furnace"
-		],
-		"unlock": [
-            {
-                "item": "hy:deepslate_amethyst_essence_ore"
-            }
-        ],
-		"input": "hy:deepslate_amethyst_essence_ore",
-		"output": "hy:amethyst_ingot"
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "deepslate_amethyst_essence_ore"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "hy:deepslate_amethyst_essence_ore"
+      }
+    ],
+    "input": "hy:deepslate_amethyst_essence_ore",
+    "output": "hy:amethyst_ingot"
+  }
 }

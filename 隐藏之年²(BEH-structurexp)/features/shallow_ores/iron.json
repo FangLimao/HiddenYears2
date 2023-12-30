@@ -1,17 +1,15 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:ore_feature": {
-		"description": {
-			"identifier": "hy:shallow_ores/iron"
-		},
-		"count": 12,
-		"replace_rules": [
-			{
-				"places_block": "hy:shallow_iron_ore",
-				"may_replace": [
-					"stone"
-				]
-			}
-		]
-	}
+  "format_version": "1.20.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:shallow_ores/iron"
+    },
+    "count": 12,
+    "replace_rules": [
+      {
+        "places_block": "hy:shallow_iron_ore",
+        "may_replace": ["stone"]
+      }
+    ]
+  }
 }

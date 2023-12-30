@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "netherite_awl"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "hy:netherite_nugget"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:netherite_nugget"
-			}
-		],
-		"result": {
-			"item": "hy:netherite_awl"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "netherite_awl"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["#", "#"],
+    "key": {
+      "#": {
+        "item": "hy:netherite_nugget"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:netherite_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:netherite_awl"
+    }
+  }
 }

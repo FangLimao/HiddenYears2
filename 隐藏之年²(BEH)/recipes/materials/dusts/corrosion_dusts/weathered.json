@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "weathered_copper_dust"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "tag": "hy:weathered_item"
-            }
-        ],
-        "unlock": [
-            {
-                "tag": "hy:weathered_item"
-            }
-        ],
-        "result": {
-            "item": "hy:weathered_copper_dust",
-            "count": 12
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "weathered_copper_dust"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "tag": "hy:weathered_item"
+      }
+    ],
+    "unlock": [
+      {
+        "tag": "hy:weathered_item"
+      }
+    ],
+    "result": {
+      "item": "hy:weathered_copper_dust",
+      "count": 12
     }
+  }
 }

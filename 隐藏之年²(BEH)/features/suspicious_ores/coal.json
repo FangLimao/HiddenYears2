@@ -1,18 +1,15 @@
 {
-	"format_version": "1.20.0",
-	"minecraft:ore_feature": {
-		"description": {
-			"identifier": "hy:suspicious_ores/coal"
-		},
-		"count": 2,
-		"replace_rules": [
-			{
-				"places_block": "hy:suspicious_coal_ore",
-				"may_replace": [
-					"coal_ore",
-					"hy:shallow_coal_ore"
-				]
-			}
-		]
-	}
+  "format_version": "1.20.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:suspicious_ores/coal"
+    },
+    "count": 2,
+    "replace_rules": [
+      {
+        "places_block": "hy:suspicious_coal_ore",
+        "may_replace": ["coal_ore", "hy:shallow_coal_ore"]
+      }
+    ]
+  }
 }

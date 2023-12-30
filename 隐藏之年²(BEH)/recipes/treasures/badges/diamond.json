@@ -1,25 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shapeless": {
-		"description": {
-			"identifier": "diamond_badge"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"ingredients": [
-			{
-				"item": "diamond_block",
-				"count": 9
-			}
-		],
-		"unlock": [
-			{
-				"item": "diamond_block"
-			}
-		],
-		"result": {
-			"item": "hy:diamond_badge"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "diamond_badge"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "diamond_block",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "diamond_block"
+      }
+    ],
+    "result": {
+      "item": "hy:diamond_badge"
+    }
+  }
 }

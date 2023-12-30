@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "end_metal_nugget_from_crafting_table"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:end_metal_ingot"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:end_metal_ingot"
-            }
-        ],
-        "result": {
-            "item": "hy:end_metal_nugget",
-            "count": 9
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "end_metal_nugget_from_crafting_table"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:end_metal_ingot"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:end_metal_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:end_metal_nugget",
+      "count": 9
     }
+  }
 }

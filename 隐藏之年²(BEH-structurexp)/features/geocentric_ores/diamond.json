@@ -1,19 +1,19 @@
 {
-    "format_version": "1.20.30",
-    "minecraft:ore_feature": {
-        "description": {
-            "identifier": "hy:geocentric_ores/diamond"
-        },
-        "count": 5,
-        "replace_rules": [
-            {
-                "places_block": "hy:geocentric_diamond_ore",
-                "may_replace": [
-                    "deepslate_diamond_ore",
-                    "shallow_diamond_ore",
-                    "deepslate"
-                ]
-            }
+  "format_version": "1.20.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:geocentric_ores/diamond"
+    },
+    "count": 5,
+    "replace_rules": [
+      {
+        "places_block": "hy:geocentric_diamond_ore",
+        "may_replace": [
+          "deepslate_diamond_ore",
+          "shallow_diamond_ore",
+          "deepslate"
         ]
-    }
+      }
+    ]
+  }
 }

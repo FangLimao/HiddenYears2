@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "amethyst_awl"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "hy:amethyst_nugget"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:amethyst_nugget"
-			}
-		],
-		"result": {
-			"item": "hy:amethyst_awl"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amethyst_awl"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["#", "#"],
+    "key": {
+      "#": {
+        "item": "hy:amethyst_nugget"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:amethyst_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:amethyst_awl"
+    }
+  }
 }

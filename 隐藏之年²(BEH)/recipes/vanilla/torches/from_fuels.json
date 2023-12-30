@@ -1,36 +1,31 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "torch_from_fuels"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"X",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "stick"
-			},
-			"X": {
-				"tag": "dict:fuels"
-			}
-		},
-		"unlock": [
-            {
-                "tag": "dict:fuels"
-            },
-            {
-                "item": "hy:copper_stick"
-            }
-        ],
-		"result": {
-			"item": "torch",
-			"count": 16
-		},
-		"priority": -1
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "torch_from_fuels"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["X", "#"],
+    "key": {
+      "#": {
+        "item": "stick"
+      },
+      "X": {
+        "tag": "dict:fuels"
+      }
+    },
+    "unlock": [
+      {
+        "tag": "dict:fuels"
+      },
+      {
+        "item": "hy:copper_stick"
+      }
+    ],
+    "result": {
+      "item": "torch",
+      "count": 16
+    },
+    "priority": -1
+  }
 }

@@ -1,19 +1,16 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_furnace": {
-        "description": {
-            "identifier": "brass_ingot"
-        },
-        "tags": [
-            "furnace",
-            "blast_furnace"
-        ],
-        "unlock": [
-			{
-				"item": "hy:raw_brass_ingot"
-			}
-		],
-        "input": "hy:raw_brass_ingot",
-        "output": "hy:brass_ingot"
-    }
+  "format_version": "1.20.11",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "brass_ingot"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "hy:raw_brass_ingot"
+      }
+    ],
+    "input": "hy:raw_brass_ingot",
+    "output": "hy:brass_ingot"
+  }
 }

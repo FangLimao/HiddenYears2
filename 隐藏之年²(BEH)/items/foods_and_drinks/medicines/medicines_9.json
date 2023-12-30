@@ -1,43 +1,41 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "hy:medicine_9",
-            "category": "equipment"
-        },
-        "components": {
-            "minecraft:icon": {
-                "texture": "hy.medicines.default"
-            },
-            "minecraft:display_name": {
-                "value": "hy.item.medicines.9"
-            },
-            "minecraft:creative_category": {
-                "category": "equipment"
-            },
-            "minecraft:use_animation": "drink",
-            "minecraft:use_duration": 1.5,
-            "minecraft:food": {
-                "nutrition": 2,
-                "can_always_eat": true,
-                "saturation_modifier": 1.0,
-                "using_converts_to": "glass_bottle",
-                "on_consume": {
-                    "event": "hy.on_drink",
-                    "target": "self"
-                }
-            },
-            "tag:hy:medicine_poison":{}
-        },
-        "events": {
-            "hy.on_drink": {
-                "run_command": {
-                    "target": "self",
-                    "command": [
-                        "function gameplay/items/medicines/9"
-                    ]
-                }
-            }
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:medicine_9",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hy.medicines.default"
+      },
+      "minecraft:display_name": {
+        "value": "hy.item.medicines.9"
+      },
+      "minecraft:creative_category": {
+        "category": "equipment"
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_duration": 1.5,
+      "minecraft:food": {
+        "nutrition": 2,
+        "can_always_eat": true,
+        "saturation_modifier": 1.0,
+        "using_converts_to": "glass_bottle",
+        "on_consume": {
+          "event": "hy.on_drink",
+          "target": "self"
         }
+      },
+      "tag:hy:medicine_poison": {}
+    },
+    "events": {
+      "hy.on_drink": {
+        "run_command": {
+          "target": "self",
+          "command": ["function gameplay/items/medicines/9"]
+        }
+      }
     }
+  }
 }

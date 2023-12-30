@@ -1,35 +1,29 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "amethyst_hoe"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"XX",
-			" #",
-			" #"
-		],
-		"key": {
-            "#": {
-                "item": "stick"
-            },
-            "X": {
-                "item": "hy:amethyst_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "stick"
-            },
-            {
-                "item": "hy:amethyst_ingot"
-            }
-        ],
-		"result": {
-			"item": "hy:amethyst_hoe"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amethyst_hoe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XX", " #", " #"],
+    "key": {
+      "#": {
+        "item": "stick"
+      },
+      "X": {
+        "item": "hy:amethyst_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "stick"
+      },
+      {
+        "item": "hy:amethyst_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:amethyst_hoe"
+    }
+  }
 }

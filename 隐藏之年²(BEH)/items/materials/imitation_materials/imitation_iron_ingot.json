@@ -1,23 +1,23 @@
 {
-    "format_version": "1.20.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "hy:imitation_iron_ingot",
-            "category": "items"
-        },
-        "components": {
-            "minecraft:icon": {
-                "texture": "iron_ingot"
-            },
-            "minecraft:display_name": {
-                "value": "hy.item.imitation_iron_ingot"
-            },
-            "minecraft:creative_category": {
-                "category": "items"
-            },
-            "tag:dict:ingots": {},
-            "tag:dict:ingots.imitation_iron": {},
-            "tag:dict:materials.imitation": {}
-        }
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:imitation_iron_ingot",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "iron_ingot"
+      },
+      "minecraft:display_name": {
+        "value": "hy.item.imitation_iron_ingot"
+      },
+      "minecraft:creative_category": {
+        "category": "items"
+      },
+      "tag:dict:ingots": {},
+      "tag:dict:ingots.imitation_iron": {},
+      "tag:dict:materials.imitation": {}
     }
+  }
 }

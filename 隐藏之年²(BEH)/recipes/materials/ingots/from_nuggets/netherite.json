@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "netherite_ingot_from_nugget"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:netherite_nugget",
-                "count": 9
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:netherite_nugget"
-            }
-        ],
-        "result": {
-            "item": "netherite_ingot"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "netherite_ingot_from_nugget"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:netherite_nugget",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:netherite_nugget"
+      }
+    ],
+    "result": {
+      "item": "netherite_ingot"
     }
+  }
 }

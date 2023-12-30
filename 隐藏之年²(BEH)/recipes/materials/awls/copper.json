@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "copper_awl"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "hy:copper_nugget"
-			}
-		},
-		"unlock": [
-			{
-				"item": "hy:copper_nugget"
-			}
-		],
-		"result": {
-			"item": "hy:copper_awl"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "copper_awl"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["#", "#"],
+    "key": {
+      "#": {
+        "item": "hy:copper_nugget"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:copper_nugget"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_awl"
+    }
+  }
 }

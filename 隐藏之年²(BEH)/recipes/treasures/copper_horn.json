@@ -1,34 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "copper_horn"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "XAX",
-            " X "
-        ],
-        "key": {
-            "X": {
-                "item": "copper_ingot"
-            },
-            "A": {
-                "item": "goat_horn"
-            }
-        },
-        "unlock": [
-			{
-				"item": "copper_ingot"
-			},
-			{
-                "item": "goat_horn"
-            }
-		],
-        "result": {
-            "item": "hy:copper_horn"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "copper_horn"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XAX", " X "],
+    "key": {
+      "X": {
+        "item": "copper_ingot"
+      },
+      "A": {
+        "item": "goat_horn"
+      }
+    },
+    "unlock": [
+      {
+        "item": "copper_ingot"
+      },
+      {
+        "item": "goat_horn"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_horn"
     }
+  }
 }

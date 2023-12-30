@@ -1,28 +1,23 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "stone_awl"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"#",
-			"#"
-		],
-		"key": {
-			"#": {
-				"item": "stone_button"
-			}
-		},
-		"unlock": [
-			{
-				"item": "stone_button"
-			}
-		],
-		"result": {
-			"item": "hy:stone_awl"
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stone_awl"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["#", "#"],
+    "key": {
+      "#": {
+        "item": "stone_button"
+      }
+    },
+    "unlock": [
+      {
+        "item": "stone_button"
+      }
+    ],
+    "result": {
+      "item": "hy:stone_awl"
+    }
+  }
 }

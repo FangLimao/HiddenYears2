@@ -1,26 +1,24 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "bronze_nugget_from_dust"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:bronze_dust",
-                "count": 9
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:bronze_dust"
-            }
-        ],
-        "result": {
-            "item": "hy:bronze_nugget"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bronze_nugget_from_dust"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:bronze_dust",
+        "count": 9
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:bronze_dust"
+      }
+    ],
+    "result": {
+      "item": "hy:bronze_nugget"
     }
+  }
 }

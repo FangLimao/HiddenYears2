@@ -1,30 +1,24 @@
 {
-	"format_version": "1.20.11",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "diamond_coin"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"key": {
-			"#": {
-				"item": "diamond"
-			}
-		},
-		"unlock": [
-            {
-                "item": "diamond"
-            }
-        ],
-		"pattern": [
-			"###",
-			"# #",
-			"###"
-		],
-		"result": {
-			"item": "hy:diamond_coin",
-			"count": 15
-		}
-	}
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diamond_coin"
+    },
+    "tags": ["crafting_table"],
+    "key": {
+      "#": {
+        "item": "diamond"
+      }
+    },
+    "unlock": [
+      {
+        "item": "diamond"
+      }
+    ],
+    "pattern": ["###", "# #", "###"],
+    "result": {
+      "item": "hy:diamond_coin",
+      "count": 15
+    }
+  }
 }

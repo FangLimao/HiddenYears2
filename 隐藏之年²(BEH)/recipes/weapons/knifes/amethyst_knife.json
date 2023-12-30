@@ -1,31 +1,29 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "amethyst_knife"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "priority": 0,
-        "ingredients": [
-            {
-                "item": "hy:amethyst_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "unlock": [
-            {
-                "item": "hy:amethyst_awl"
-            },
-            {
-                "item": "stick"
-            }
-        ],
-        "result": {
-            "item": "hy:amethyst_knife"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "amethyst_knife"
+    },
+    "tags": ["crafting_table"],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "hy:amethyst_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:amethyst_awl"
+      },
+      {
+        "item": "stick"
+      }
+    ],
+    "result": {
+      "item": "hy:amethyst_knife"
     }
+  }
 }

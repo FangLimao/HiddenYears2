@@ -1,29 +1,23 @@
 {
-    "format_version": "1.20.11",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "bronze_leggings"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "XXX",
-            "X X",
-            "X X"
-        ],
-        "key": {
-            "X": {
-                "item": "hy:bronze_ingot"
-            }
-        },
-        "unlock": [
-            {
-                "item": "hy:bronze_ingot"
-            }
-        ],
-        "result": {
-            "item": "hy:bronze_leggings"
-        }
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bronze_leggings"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "X X", "X X"],
+    "key": {
+      "X": {
+        "item": "hy:bronze_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:bronze_ingot"
+      }
+    ],
+    "result": {
+      "item": "hy:bronze_leggings"
     }
+  }
 }
