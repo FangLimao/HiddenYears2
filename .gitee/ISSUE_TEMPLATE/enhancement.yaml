@@ -10,7 +10,7 @@ body:
     attributes:
       label: 检查项
       options:
-        - label: 我已经搜索过现有的问题 (https://gitee.com/FangLimao/HiddenYears2/issues)，这个问题尚未反馈。
+        - label: 我已经搜索过[现有的问题](https://gitee.com/FangLimao/HiddenYears2/issues)，这个问题尚未反馈。
           required: true
         - label: 我已使用最新版本的[隐藏之年²](https://gitee.com/FangLimao/HiddenYears2/releases)。
           required: true
