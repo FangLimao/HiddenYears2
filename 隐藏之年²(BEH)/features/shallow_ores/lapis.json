@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.20.30",
   "minecraft:ore_feature": {
     "description": {
       "identifier": "hy:shallow_ores/lapis"
