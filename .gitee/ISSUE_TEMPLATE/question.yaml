@@ -1,0 +1,31 @@
+name: 提出问题
+description: 提出一个问题
+title: "[Question]: "
+labels: ["question"]
+assignees:
+  - FangliMao
+body:
+  - type: checkboxes
+    attributes:
+      label: 检查项
+      options:
+        - label: 我已经搜索过现有的问题 (https://gitee.com/FangLimao/HiddenYears2/issues)，这个问题尚未反馈。
+          required: true
+        - label: 我已使用最新版本的[隐藏之年](https://gitee.com/FangLimao/HiddenYears2/releases)。
+          required: true
+  - type: textarea
+    attributes:
+      label: 问题
+      description: 请告诉我们你的问题
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 截图或视频
+      description: 可以在这里上传截图或视频
+      placeholder: |
+        [在这里上传图片/视频]
