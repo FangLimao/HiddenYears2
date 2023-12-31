@@ -24,7 +24,7 @@
       "type": "script",
       "uuid": "8182c0e7-0013-1234-852e-95dec34c1145",
       "version": "1.0.0-alpha.1",
-      "entry": "scripts/main.js"
+      "entry": "scripts/Main.js"
     }
   ],
   "settings": [
