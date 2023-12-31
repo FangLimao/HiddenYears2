@@ -1,17 +1,18 @@
 import { world } from "@minecraft/server";
+
 world.afterEvents.itemUse.subscribe((use) => {
   const player = use.source;
   const itemId = use.itemStack.typeId;
   switch (itemId) {
-    case "hy:amethyst_sword":
-      player.addEffect("poison", 15, { amplifier: 1 });
-      break;
     case "hy:copper_badge":
-      player.runCommandAsync("function api/gby.effect/copper");
+      player.addEffect("health_boost", 300, { amplifier: 2 });
+      break;
     case "hy:diamond_badge":
-      player.runCommandAsync("function api/gby.effect/diamond");
-    case "hy:gold_badge":
-      player.runCommandAsync("function api/gby.effect/gold");
+      player.addEffect("health_boost", 900, { amplifier: 4 });
+      break;
+    case "hy:golden_badge":
+      player.addEffect("health_boost", 600, { amplifier: 4 });
+      break;
     default:
       break;
   }
