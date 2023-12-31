@@ -1,9 +1,10 @@
 import { world } from "@minecraft/server";
 world.afterEvents.itemUse.subscribe((use) => {
   const player = use.source;
-  switch (use.itemStack.typeId) {
+  const itemId = use.itemStack.typeId;
+  switch (itemId) {
     case "hy:amethyst_sword":
-      player.runCommandAsync("say 你好");
+      player.addEffect("poison", 15, { amplifier: 1 });
       break;
   }
 });
