@@ -13,11 +13,18 @@
     "version": "2.0.0-alpha",
     "pack_scope": "world"
   },
+  "capabilities": ["script_eval"],
   "modules": [
     {
       "type": "data",
       "uuid": "553b40a9-116e-44bf-ae36-704a730b1ca2",
       "version": "2.0.0-alpha"
+    },
+    {
+      "type": "script",
+      "uuid": "8182c0e7-0013-1234-852e-95dec34c1145",
+      "version": "1.0.0-alpha.1",
+      "entry": "scripts/main.js"
     }
   ],
   "settings": [
@@ -50,6 +57,14 @@
     {
       "uuid": "b16bb643-fe64-43a2-8423-820a57145c4d",
       "version": "2.0.0-alpha"
+    },
+    {
+      "module_name": "@minecraft/server-gametest",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
     }
   ]
 }
