@@ -39,12 +39,6 @@
               "type": "magic",
               "amount": 1
             }
-          },
-          {
-            "run_command": {
-              "target": "self",
-              "command": ["function api/gby.effect/golden"]
-            }
           }
         ]
       }
