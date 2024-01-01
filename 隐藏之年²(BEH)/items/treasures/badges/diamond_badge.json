@@ -33,11 +33,11 @@
     },
     "events": {
       "hy.on_use": {
-            "damage": {
-              "type": "magic",
-              "amount": 1
-            }
-          }
+        "damage": {
+          "type": "magic",
+          "amount": 1
+        }
+      }
     }
   }
 }

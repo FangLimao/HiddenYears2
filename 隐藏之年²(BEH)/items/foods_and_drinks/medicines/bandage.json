@@ -33,20 +33,10 @@
     },
     "events": {
       "hy.on_use": {
-        "sequence": [
-          {
-            "damage": {
-              "type": "magic",
-              "amount": 1
-            }
-          },
-          {
-            "run_command": {
-              "target": "self",
-              "command": ["function gameplay/items/medicines/bandage"]
-            }
-          }
-        ]
+        "damage": {
+          "type": "magic",
+          "amount": 1
+        }
       }
     }
   }

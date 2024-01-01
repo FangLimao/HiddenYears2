@@ -187,6 +187,7 @@
           "target": "self"
         }
       },
+      "tag:hy:imitation_tools":{},
       "tag:minecraft:is_axe": {}
     },
     "events": {
