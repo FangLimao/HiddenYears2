@@ -4,3 +4,15 @@ export let messageImitationDamage1 = {
 export let messageImitationDamage2 = {
   translate: "hy.message.imitation_damage.2",
 };
+export let messageUpgrade1 = {
+  translate: "hy.update.index",
+};
+export let messageUpgrade2 = {
+  translate: "hy.update.version",
+};
+export let messageUpgrade3 = {
+  translate: "hy.update.log",
+};
+export let messageUpgrade4 = {
+  translate: "hy.update.bbs",
+};

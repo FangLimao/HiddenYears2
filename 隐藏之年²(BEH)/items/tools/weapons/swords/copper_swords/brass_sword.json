@@ -14,9 +14,9 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:durability": {
-        "max_durability": 600
+        "max_durability": 1800
       },
-      "minecraft:damage": 7,
+      "minecraft:damage": 9,
       "minecraft:digger": {
         "use_efficiency": true,
         "on_dig": {
