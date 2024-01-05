@@ -14,7 +14,7 @@
       "minecraft:durability": {
         "max_durability": 1000
       },
-      "minecraft:damage": 4,
+      "minecraft:damage": 5,
       "minecraft:enchantable": {
         "value": 7,
         "slot": "hoe"
