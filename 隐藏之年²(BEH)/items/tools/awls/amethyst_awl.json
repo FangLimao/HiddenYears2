@@ -26,7 +26,8 @@
       "tag:minecraft:is_axe": {},
       "minecraft:creative_category": {
         "parent": "items"
-      }
+      },
+      "tag:hy:is_awl":{}
     },
     "events": {
       "hy.on_break_block": {
@@ -44,27 +45,10 @@
         }
       },
       "on_tool_used": {
-        "sequence": [
-          {
-            "randomize": [
-              {
-                "weight": 1,
-                "damage": {
+        "damage": {
                   "type": "magic",
                   "amount": 1
                 }
-              },
-              {
-                "weight": 9
-              }
-            ]
-          },
-          {
-            "run_command": {
-              "command": ["function gameplay/items/get_bark"]
-            }
-          }
-        ]
       }
     }
   }

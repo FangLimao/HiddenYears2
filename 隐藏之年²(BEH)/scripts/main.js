@@ -49,6 +49,14 @@ world.afterEvents.itemUse.subscribe((event) => {
   }
 });
 
+world.afterEvents.itemUseOn.subscribe((event) => {
+  const item = event.itemStack;
+  const player = event.source;
+  if (item.hasTag("hy:is_awl")) {
+    player.runCommandAsync("function gameplay/items/get_bark");
+  }
+});
+
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const item = event.itemStackBeforeBreak;
   const player = event.player;

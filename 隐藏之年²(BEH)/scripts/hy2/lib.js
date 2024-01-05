@@ -13,6 +13,6 @@ export function reportUpgradeInfo() {
   world.sendMessage(messageUpgrade4);
 }
 
-export function blockLit(){
-  block.setPermutation()
+export function blockLit() {
+  block.setPermutation();
 }

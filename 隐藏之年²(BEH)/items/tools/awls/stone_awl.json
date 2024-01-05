@@ -27,7 +27,8 @@
       "tag:minecraft:is_axe": {},
       "minecraft:creative_category": {
         "parent": "items"
-      }
+      },
+      "tag:hy:is_awl": {}
     },
     "events": {
       "hy.on_break_block": {
