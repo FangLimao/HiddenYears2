@@ -27,7 +27,7 @@
       "minecraft:creative_category": {
         "parent": "items"
       },
-      "tag:hy:is_awl":{}
+      "tag:hy:is_awl": {}
     },
     "events": {
       "hy.on_break_block": {
@@ -46,9 +46,9 @@
       },
       "on_tool_used": {
         "damage": {
-                  "type": "magic",
-                  "amount": 1
-                }
+          "type": "magic",
+          "amount": 1
+        }
       }
     }
   }

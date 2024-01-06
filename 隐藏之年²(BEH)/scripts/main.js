@@ -1,23 +1,14 @@
-// @todo:移植锥剥皮原木事件
+// @todo:移植更新播报
 import { world } from "@minecraft/server";
 import {
   messageImitationDamage1,
+  messageImitationDamage2,
   messageUpgrade1,
   messageUpgrade2,
   messageUpgrade3,
   messageUpgrade4,
 } from "hy2/texts.js";
 import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
-
-/*const modVer = 0;
-let clientVer = world.getDynamicProperty("hy:modVer");
-if (clientVer === undefined) {
-    world.setDynamicProperty("hy:modVer", modVer);
-    reportUpgradeInfo();
-} else if (clientVer != modVer) {
-    world.setDynamicProperty("hy:modVer", modVer);
-    reportUpgradeInfo();
-}*/
 
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
@@ -53,6 +44,7 @@ world.afterEvents.itemUseOn.subscribe((event) => {
   const item = event.itemStack;
   const player = event.source;
   if (item.hasTag("hy:is_awl")) {
+    // @todo:使用脚本代替函数
     player.runCommandAsync("function gameplay/items/get_bark");
   }
 });
@@ -61,10 +53,19 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   const item = event.itemStackBeforeBreak;
   const player = event.player;
   if (item.hasTag("hy:imitation_tools")) {
-    if (randomChance > 4) {
-      console.warn("随机抽取为" + randomChance);
-      player.applyDamage(2);
-      player.sendMessage(messageImitationDamage1);
+    let randomChance = Math.ceil(Math.random() * 10);
+    console.warn("[hy2]Random chance is " + randomChance);
+    switch (randomChance) {
+      case 1:
+        player.applyDamage(2);
+        player.sendMessage(messageImitationDamage1);
+        break;
+      case 2:
+        player.applyDamage(8);
+        player.sendMessage(messageImitationDamage2);
+        break;
+      default:
+        break;
     }
   }
 });
