@@ -160,19 +160,19 @@
       "tag:minecraft:is_tool": {}
     },
     "events": {
-      "hy.on_hurt_entity": {     
-            "damage": {
-              "type": "magic",
-              "amount": 1,
-              "target": "self"
-            }                  
+      "hy.on_hurt_entity": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
       },
-      "hy.on_break_block": {          
-            "damage": {
-              "type": "magic",
-              "amount": 2,
-              "target": "self"
-            }        
+      "hy.on_break_block": {
+        "damage": {
+          "type": "magic",
+          "amount": 2,
+          "target": "self"
+        }
       }
     }
   }

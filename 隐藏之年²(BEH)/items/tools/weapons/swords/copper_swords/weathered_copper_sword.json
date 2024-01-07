@@ -154,7 +154,12 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:copper_sword","hy:exposed_copper_sword","hy:weathered_copper_sword","hy:oxidized_copper_sword"],
+            "items": [
+              "hy:copper_sword",
+              "hy:exposed_copper_sword",
+              "hy:weathered_copper_sword",
+              "hy:oxidized_copper_sword"
+            ],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {

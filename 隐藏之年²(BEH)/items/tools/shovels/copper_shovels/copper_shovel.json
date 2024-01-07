@@ -22,7 +22,12 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:copper_shovel","hy:exposed_copper_shovel","hy:weathered_copper_shovel","hy:oxidized_copper_shovel"],
+            "items": [
+              "hy:copper_shovel",
+              "hy:exposed_copper_shovel",
+              "hy:weathered_copper_shovel",
+              "hy:oxidized_copper_shovel"
+            ],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {

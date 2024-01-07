@@ -26,7 +26,12 @@
             "repair_amount": 50
           },
           {
-            "items": ["hy:copper_axe","hy:oxidized_copper_axe","hy:exposed_copper_axe","hy:weathered_copper_axe"],
+            "items": [
+              "hy:copper_axe",
+              "hy:oxidized_copper_axe",
+              "hy:exposed_copper_axe",
+              "hy:weathered_copper_axe"
+            ],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           }
         ]

@@ -23,7 +23,12 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:copper_pickaxe","hy:exposed_copper_pickaxe","hy:weathered_copper_pickaxe","hy:oxidized_copper_pickaxe"],
+            "items": [
+              "hy:copper_pickaxe",
+              "hy:exposed_copper_pickaxe",
+              "hy:weathered_copper_pickaxe",
+              "hy:oxidized_copper_pickaxe"
+            ],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
