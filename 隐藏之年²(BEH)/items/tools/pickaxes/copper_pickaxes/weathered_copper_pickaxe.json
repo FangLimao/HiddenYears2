@@ -15,7 +15,7 @@
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-        "max_durability": 25
+        "max_durability": 50
       },
       "minecraft:icon": {
         "texture": "hy.weathered_copper_pickaxe"
@@ -23,33 +23,16 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:copper_pickaxe"],
+            "items": ["hy:copper_pickaxe","hy:exposed_copper_pickaxe","hy:weathered_copper_pickaxe","hy:oxidized_copper_pickaxe"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
             "items": ["copper_ingot"],
-            "repair_amount": 40
-          },
-          {
-            "items": ["hy:waxed_copper_pickaxe"],
-            "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:exposed_copper_pickaxe"],
-            "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:weathered_copper_pickaxe"],
-            "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:oxidized_copper_pickaxe"],
-            "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
+            "repair_amount": 50
           }
         ]
       },
-      "minecraft:mining_speed": 1,
-      "minecraft:damage": 1,
+      "minecraft:damage": 7,
       "minecraft:enchantable": {
         "value": 8,
         "slot": "pickaxe"
@@ -337,12 +320,6 @@
     "events": {
       "hy.on_hurt_entity": {
         "sequence": [
-          {
-            "run_command": {
-              "target": "self",
-              "command": ["function api/tetanus.effect/v1.0/radius4/lv2"]
-            }
-          },
           {
             "damage": {
               "type": "durability",

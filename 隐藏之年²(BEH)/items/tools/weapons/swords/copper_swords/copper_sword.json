@@ -14,9 +14,9 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:durability": {
-        "max_durability": 100
+        "max_durability": 150
       },
-      "minecraft:damage": 6,
+      "minecraft:damage": 7,
       "minecraft:digger": {
         "use_efficiency": true,
         "on_dig": {
@@ -158,28 +158,12 @@
       "minecraft:repairable": {
         "repair_items": [
           {
+            "items": ["hy:copper_sword","hy:exposed_copper_sword","hy:weathered_copper_sword","hy:oxidized_copper_sword"],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          },
+          {
             "items": ["copper_ingot"],
-            "repair_amount": 40
-          },
-          {
-            "items": ["hy:copper_sword"],
-            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:waxed_copper_sword"],
-            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:exposed_copper_sword"],
-            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:weathered_copper_sword"],
-            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
-          },
-          {
-            "items": ["hy:oxidized_copper_sword"],
-            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+            "repair_amount": 50
           }
         ]
       },
