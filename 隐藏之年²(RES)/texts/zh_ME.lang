@@ -27,10 +27,10 @@ item.spawn_egg.entity.hy:gemstone_trader.name=宝石商人刷怪蛋
 
 hy.item.wooden_handle=木手柄
 
-hy.block.copper_essence_ore=铜髓矿石
-hy.block.deepslate_copper_essence_ore=深层铜髓矿石
+hy.block.copper_essence_ore=铜之精华矿石
+hy.block.deepslate_copper_essence_ore=深层铜之精华矿石
 hy.item.copper_stick=铜手柄
-hy.item.copper_essence=铜髓
+hy.item.copper_essence=铜之精华
 hy.item.copper_coin=铜币
 hy.item.copper_star=铜之星
 hy.item.copper_hoe=铜锄

@@ -14,7 +14,6 @@
       "minecraft:durability": {
         "max_durability": 200
       },
-      "minecraft:mining_speed": 1,
       "minecraft:damage": 6,
       "minecraft:enchantable": {
         "value": 4,

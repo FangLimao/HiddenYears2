@@ -14,7 +14,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:durability": {
-        "max_durability": 60
+        "max_durability": 50
       },
       "minecraft:damage": 12,
       "minecraft:enchantable": {
