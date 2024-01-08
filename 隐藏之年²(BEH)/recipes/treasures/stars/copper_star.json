@@ -1,17 +1,23 @@
 {
   "format_version": "1.20.11",
-  "minecraft:recipe_shapeless": {
+  "minecraft:recipe_shaped": {
     "description": {
       "identifier": "copper_star"
     },
     "tags": ["crafting_table"],
-    "ingredients": [
-      {
-        "item": "hy:copper_essence",
-        "count": 4
+    "pattern": [" X ", "XOX", " X "],
+    "key": {
+      "X": {
+        "item": "copper_ingot"
+      },
+      "O": {
+        "item": "hy:copper_essence"
       }
-    ],
+    },
     "unlock": [
+      {
+        "item": "copper_ingot"
+      },
       {
         "item": "hy:copper_essence"
       }
