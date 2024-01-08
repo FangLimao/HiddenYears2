@@ -1,23 +1,29 @@
 {
   "format_version": "1.20.11",
-  "minecraft:recipe_shapeless": {
+  "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "golden_badge"
+      "identifier": "gold_badge"
     },
     "tags": ["crafting_table"],
-    "ingredients": [
-      {
-        "item": "gold_block",
-        "count": 9
+    "pattern": ["XXX", "XOX", "XXX"],
+    "key": {
+      "X": {
+        "item": "gold_block"
+      },
+      "O": {
+        "item": "hy:copper_star"
       }
-    ],
+    },
     "unlock": [
       {
         "item": "gold_block"
+      },
+      {
+        "item": "hy:copper_star"
       }
     ],
     "result": {
-      "item": "hy:golden_badge"
+      "item": "hy:gold_badge"
     }
   }
 }
