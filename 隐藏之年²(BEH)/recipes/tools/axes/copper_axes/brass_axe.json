@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "brass_axe"
+      "identifier": "flash_copper_axe"
     },
     "tags": ["crafting_table"],
     "pattern": ["XX", "X#", " #"],
@@ -11,16 +11,16 @@
         "item": "stick"
       },
       "X": {
-        "item": "hy:brass_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     },
     "unlock": [
       {
-        "item": "hy:brass_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     ],
     "result": {
-      "item": "hy:brass_axe"
+      "item": "hy:flash_copper_axe"
     }
   }
 }

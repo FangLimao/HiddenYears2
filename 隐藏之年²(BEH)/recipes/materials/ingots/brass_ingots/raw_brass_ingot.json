@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "raw_brass_ingot"
+      "identifier": "raw_flash_copper_ingot"
     },
     "tags": ["crafting_table"],
     "key": {
@@ -23,7 +23,7 @@
     ],
     "pattern": ["###", "#&#", "###"],
     "result": {
-      "item": "hy:raw_brass_ingot"
+      "item": "hy:raw_flash_copper_ingot"
     }
   }
 }

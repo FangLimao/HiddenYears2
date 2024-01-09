@@ -536,44 +536,44 @@
     "hy.copper_apple": {
       "textures": "textures/items/foods_and_drinks/copper_apple"
     },
-    "hy.brass_ingot": {
-      "textures": "textures/items/materials/ingots/brass_ingot"
+    "hy.flash_copper_ingot": {
+      "textures": "textures/items/materials/ingots/flash_copper_ingot"
     },
-    "hy.brass_dust": {
-      "textures": "textures/items/materials/dusts/brass_dust"
+    "hy.flash_copper_dust": {
+      "textures": "textures/items/materials/dusts/flash_copper_dust"
     },
-    "hy.brass_nugget": {
-      "textures": "textures/items/materials/nuggets/brass_nugget"
+    "hy.flash_copper_nugget": {
+      "textures": "textures/items/materials/nuggets/flash_copper_nugget"
     },
-    "hy.brass_hammer": {
-      "textures": "textures/items/tools/hammers/brass_hammer"
+    "hy.flash_copper_hammer": {
+      "textures": "textures/items/tools/hammers/flash_copper_hammer"
     },
-    "hy.brass_hoe": {
-      "textures": "textures/items/tools/hoes/brass_hoe"
+    "hy.flash_copper_hoe": {
+      "textures": "textures/items/tools/hoes/flash_copper_hoe"
     },
-    "hy.brass_pickaxe": {
-      "textures": "textures/items/tools/pickaxes/brass_pickaxe"
+    "hy.flash_copper_pickaxe": {
+      "textures": "textures/items/tools/pickaxes/flash_copper_pickaxe"
     },
-    "hy.brass_shovel": {
-      "textures": "textures/items/tools/shovels/brass_shovel"
+    "hy.flash_copper_shovel": {
+      "textures": "textures/items/tools/shovels/flash_copper_shovel"
     },
-    "hy.brass_sword": {
-      "textures": "textures/items/tools/weapons/swords/brass_sword"
+    "hy.flash_copper_sword": {
+      "textures": "textures/items/tools/weapons/swords/flash_copper_sword"
     },
-    "hy.brass_dagger": {
-      "textures": "textures/items/tools/weapons/daggers/brass_dagger"
+    "hy.flash_copper_dagger": {
+      "textures": "textures/items/tools/weapons/daggers/flash_copper_dagger"
     },
-    "hy.brass_knife": {
-      "textures": "textures/items/tools/weapons/knifes/brass_knife"
+    "hy.flash_copper_knife": {
+      "textures": "textures/items/tools/weapons/knifes/flash_copper_knife"
     },
-    "hy.brass_axe": {
-      "textures": "textures/items/tools/axes/brass_axe"
+    "hy.flash_copper_axe": {
+      "textures": "textures/items/tools/axes/flash_copper_axe"
     },
-    "hy.brass_awl": {
-      "textures": "textures/items/materials/awls/brass_awl"
+    "hy.flash_copper_awl": {
+      "textures": "textures/items/materials/awls/flash_copper_awl"
     },
-    "hy.raw_brass_ingot": {
-      "textures": "textures/items/materials/ingots/raw_brass_ingot"
+    "hy.raw_flash_copper_ingot": {
+      "textures": "textures/items/materials/ingots/raw_flash_copper_ingot"
     },
     "mc.diamond_axe": {
       "textures": "textures/items/diamond_axe"

@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "brass_hammer"
+      "identifier": "flash_copper_hammer"
     },
     "tags": ["crafting_table"],
     "key": {
@@ -10,17 +10,17 @@
         "tag": "hy:is_handle"
       },
       "#": {
-        "item": "hy:brass_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     },
     "unlock": [
       {
-        "item": "hy:brass_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     ],
     "pattern": ["###", "###", " X "],
     "result": {
-      "item": "hy:brass_hammer"
+      "item": "hy:flash_copper_hammer"
     }
   }
 }

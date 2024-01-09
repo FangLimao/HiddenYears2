@@ -2,21 +2,21 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:brass_dust",
+      "identifier": "hy:flash_copper_dust",
       "category": "items"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "hy.brass_dust"
+        "texture": "hy.flash_copper_dust"
       },
       "minecraft:display_name": {
-        "value": "hy.item.brass_dust"
+        "value": "hy.item.flash_copper_dust"
       },
       "minecraft:creative_category": {
         "category": "items"
       },
       "tag:dict:dusts": {},
-      "tag:dict:dusts.brass": {}
+      "tag:dict:dusts.flash_copper": {}
     }
   }
 }

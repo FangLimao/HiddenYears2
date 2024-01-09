@@ -2,22 +2,22 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "brass_awl"
+      "identifier": "flash_copper_awl"
     },
     "tags": ["crafting_table"],
     "pattern": ["#", "#"],
     "key": {
       "#": {
-        "item": "hy:brass_nugget"
+        "item": "hy:flash_copper_nugget"
       }
     },
     "unlock": [
       {
-        "item": "hy:brass_nugget"
+        "item": "hy:flash_copper_nugget"
       }
     ],
     "result": {
-      "item": "hy:brass_awl"
+      "item": "hy:flash_copper_awl"
     }
   }
 }

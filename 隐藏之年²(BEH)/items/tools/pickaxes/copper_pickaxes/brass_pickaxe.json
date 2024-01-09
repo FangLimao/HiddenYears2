@@ -3,11 +3,11 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "hy:brass_pickaxe"
+      "identifier": "hy:flash_copper_pickaxe"
     },
     "components": {
       "minecraft:display_name": {
-        "value": "hy.item.brass_pickaxe"
+        "value": "hy.item.flash_copper_pickaxe"
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.pickaxe"
@@ -18,16 +18,16 @@
         "max_durability": 1800
       },
       "minecraft:icon": {
-        "texture": "hy.brass_pickaxe"
+        "texture": "hy.flash_copper_pickaxe"
       },
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:brass_ingot"],
+            "items": ["hy:flash_copper_ingot"],
             "repair_amount": 40
           },
           {
-            "items": ["hy:brass_pickaxe"],
+            "items": ["hy:flash_copper_pickaxe"],
             "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
           }
         ]

@@ -2,22 +2,22 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "brass_dust_from_crafting_table"
+      "identifier": "flash_copper_dust_from_crafting_table"
     },
     "tags": ["crafting_table"],
     "priority": 0,
     "ingredients": [
       {
-        "item": "hy:brass_nugget"
+        "item": "hy:flash_copper_nugget"
       }
     ],
     "unlock": [
       {
-        "item": "hy:brass_nugget"
+        "item": "hy:flash_copper_nugget"
       }
     ],
     "result": {
-      "item": "hy:brass_dust",
+      "item": "hy:flash_copper_dust",
       "count": 9
     }
   }
