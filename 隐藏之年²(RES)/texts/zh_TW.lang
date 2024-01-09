@@ -416,9 +416,6 @@ hy.item.bark=樹皮
 item.leather.name=大塊皮革
 item.rabbit_hide.name=小塊皮革
 hy.item.enchanted_bone=附魔骨頭
-hy.item.diamond_bone=鉆石骨棒
-hy.item.gold_bone=金骨棒
-hy.item.iron_bone=鐵骨棒
 hy.item.raw_large_leather=大塊生皮革
 hy.item.raw_small_leather=小塊生皮革
 
@@ -448,3 +445,12 @@ hy.item.copper_helmet=銅頭盔
 hy.item.copper_chestplate=銅胸甲
 hy.item.copper_leggings=銅護腿
 hy.item.copper_boots=銅靴子
+
+hy.item.amethyst_boardsword=紫水晶闊劍
+hy.item.emerald_boardsword=綠寶石闊劍
+hy.item.flash_copper_boardsword=閃銅闊劍 # 黃銅劍
+hy.item.flash_metal_boardsword=閃金闊劍 # 青銅劍
+hy.item.corrosion_boardsword=腐蝕闊劍
+hy.item.diamond_bone=鑽石骨棒
+hy.item.gold_bone=金骨棒
+hy.item.iron_bone=鐵骨棒

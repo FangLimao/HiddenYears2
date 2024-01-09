@@ -691,6 +691,9 @@
     },
     "hy.copper_boots": {
       "textures": "textures/items/armors/copper_armors/copper_boots"
+    },
+    "hy.amethyst_boardsword": {
+      "textures": "textures/items/tools/weapons/swords/amethyst_boardsword"
     }
   }
 }

@@ -410,9 +410,6 @@ hy.item.bark=Bark
 item.leather.name=Large Leather
 item.rabbit_hide.name=Small Leather
 hy.item.enchanted_bone=Enchanted Bone
-hy.item.diamond_bone=Diamond Bone
-hy.item.gold_bone=Golden Bone
-hy.item.iron_bone=Iron Bone
 hy.item.raw_large_leather=Raw Large Leather
 hy.item.raw_small_leather=Raw Small Leather
 
@@ -439,3 +436,12 @@ hy.item.copper_helmet=Copper Helmet
 hy.item.copper_chestplate=Copper Chestplate
 hy.item.copper_leggings=Copper Leggings
 hy.item.copper_boots=Copper Boots
+
+hy.item.amethyst_boardsword=Amethyst Boardsword
+hy.item.emerald_boardsword=Emerald Boardsword
+hy.item.flash_copper_boardsword=Flash Copper Boardsword
+hy.item.flash_metal_boardsword=Flash Metal Boardsword
+hy.item.corrosion_boardsword=Corrosion Boardsword
+hy.item.diamond_bone=Diamond Bonesword
+hy.item.gold_bone=Golden Bonesword
+hy.item.iron_bone=Iron Bonesword

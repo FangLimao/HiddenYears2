@@ -396,9 +396,7 @@ hy.item.lv3_corrosion_pickaxe=腐蚀之镐III
 hy.item.lv1_corrosion_shovel=腐蚀之锹I
 hy.item.lv2_corrosion_shovel=腐蚀之锹II
 hy.item.lv3_corrosion_shovel=腐蚀之锹III
-hy.item.lv1_corrosion_sword=腐蚀之剑I
-hy.item.lv2_corrosion_sword=腐蚀之剑II
-hy.item.lv3_corrosion_sword=腐蚀之剑III
+
 hy.item.exposed_copper_dust=斑驳的铜粉
 hy.item.weathered_copper_dust=锈蚀的铜粉
 hy.item.oxidized_copper_dust=氧化的铜粉
@@ -417,9 +415,6 @@ hy.item.bark=树皮
 item.leather.name=大块皮革
 item.rabbit_hide.name=小块皮革
 hy.item.enchanted_bone=附魔骨头
-hy.item.diamond_bone=钻石骨棒
-hy.item.gold_bone=金骨棒
-hy.item.iron_bone=铁骨棒
 hy.item.raw_large_leather=大块生皮革
 hy.item.raw_small_leather=小块生皮革
 
@@ -449,3 +444,13 @@ hy.item.copper_helmet=铜头盔
 hy.item.copper_chestplate=铜胸甲
 hy.item.copper_leggings=铜护腿
 hy.item.copper_boots=铜靴子
+
+# 法器
+hy.item.amethyst_boardsword=紫水晶阔剑
+hy.item.emerald_boardsword=绿宝石阔剑
+hy.item.flash_copper_boardsword=闪铜阔剑 # 黄铜剑
+hy.item.flash_metal_boardsword=闪金阔剑 # 青铜剑
+hy.item.corrosion_boardsword=腐蚀阔剑
+hy.item.diamond_bone=钻石骨棒
+hy.item.gold_bone=金骨棒
+hy.item.iron_bone=铁骨棒
