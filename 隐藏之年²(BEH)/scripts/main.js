@@ -35,6 +35,9 @@ world.afterEvents.itemUse.subscribe((event) => {
     case "hy:medicine_pack":
       player.runCommandAsync("function gameplay/items/medicines/medicine_pack");
       break;
+    case "hy:flash_metal_boardsword":
+      player.runCommandAsync("function api/aoe/flash_metal");
+      break;
     default:
       break;
   }

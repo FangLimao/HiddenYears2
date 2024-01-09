@@ -85,7 +85,7 @@
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": ["cow", "mob"]
+        "family": ["cow", "mob", "poultry"]
       },
       "minecraft:breathable": {
         "total_supply": 15,

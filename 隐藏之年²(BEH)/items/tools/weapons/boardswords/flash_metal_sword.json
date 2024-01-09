@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:flash_metal_sword",
+      "identifier": "hy:flash_metal_boardsword",
       "category": "equipment"
     },
     "components": {
@@ -169,6 +169,12 @@
       },
       "minecraft:weapon": {
         "on_hurt_entity": {
+          "event": "hy.on_hurt_entity",
+          "target": "self"
+        }
+      },
+      "minecraft:on_use": {
+        "on_use": {
           "event": "hy.on_hurt_entity",
           "target": "self"
         }

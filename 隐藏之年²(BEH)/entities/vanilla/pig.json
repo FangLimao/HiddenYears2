@@ -146,7 +146,7 @@
         }
       },
       "minecraft:type_family": {
-        "family": ["pig", "mob"]
+        "family": ["pig", "mob", "poultry"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
