@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "copper_star"
+      "identifier": "metal_star"
     },
     "tags": ["crafting_table"],
     "pattern": [" X ", "XOX", " X "],
@@ -23,7 +23,7 @@
       }
     ],
     "result": {
-      "item": "hy:copper_star"
+      "item": "hy:metal_star"
     }
   }
 }

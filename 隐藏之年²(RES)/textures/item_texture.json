@@ -41,8 +41,8 @@
     "hy.copper_essence": {
       "textures": "textures/items/treasures/essences/copper_essence"
     },
-    "hy.copper_star": {
-      "textures": "textures/items/treasures/stars/copper_star"
+    "hy.metal_star": {
+      "textures": "textures/items/treasures/stars/metal_star"
     },
     "hy.copper_axe": {
       "textures": "textures/items/tools/axes/copper_axes/copper_axe"

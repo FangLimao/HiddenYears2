@@ -2,15 +2,15 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:copper_star",
+      "identifier": "hy:metal_star",
       "category": "items"
     },
     "components": {
       "minecraft:display_name": {
-        "value": "hy.item.copper_star"
+        "value": "hy.item.metal_star"
       },
       "minecraft:icon": {
-        "texture": "hy.copper_star"
+        "texture": "hy.metal_star"
       },
       "minecraft:creative_category": {
         "parent": "items"
@@ -25,7 +25,7 @@
     "events": {
       "hy.summon_lightning_bolt": {
         "run_command": {
-          "command": ["function gameplay/items/copper_star"],
+          "command": ["function gameplay/items/metal_star"],
           "target": "self"
         }
       }
