@@ -216,9 +216,9 @@
     "sound": "metal",
     "textures": "hy.tin_block"
   },
-  "hy:bronze_block": {
+  "hy:flash_metal_block": {
     "sound": "metal",
-    "textures": "hy.bronze_block"
+    "textures": "hy.flash_metal_block"
   },
   "hy:lab_table": {
     "sound": "metal",

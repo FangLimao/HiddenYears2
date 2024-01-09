@@ -2,21 +2,21 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:bronze_dust",
+      "identifier": "hy:flash_metal_dust",
       "category": "items"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "hy.bronze_dust"
+        "texture": "hy.flash_metal_dust"
       },
       "minecraft:display_name": {
-        "value": "hy.item.bronze_dust"
+        "value": "hy.item.flash_metal_dust"
       },
       "minecraft:creative_category": {
         "category": "items"
       },
       "tag:dict:dusts": {},
-      "tag:dict:dusts.bronze": {}
+      "tag:dict:dusts.flash_metal": {}
     }
   }
 }

@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hy:bronze_block",
+      "identifier": "hy:flash_metal_block",
       "menu_category": {
         "category": "construction"
       }
@@ -26,7 +26,7 @@
     "events": {
       "hy.spawn_loot": {
         "spawn_loot": {
-          "table": "loot_tables/blocks/metal_blocks/bronze_block.json"
+          "table": "loot_tables/blocks/metal_blocks/flash_metal_block.json"
         }
       }
     }

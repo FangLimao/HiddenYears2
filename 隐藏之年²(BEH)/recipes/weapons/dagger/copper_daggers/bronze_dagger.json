@@ -2,13 +2,13 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "bronze_dagger"
+      "identifier": "flash_metal_dagger"
     },
     "tags": ["crafting_table"],
     "priority": 0,
     "ingredients": [
       {
-        "item": "hy:bronze_knife"
+        "item": "hy:flash_metal_knife"
       },
       {
         "item": "flint"
@@ -16,14 +16,14 @@
     ],
     "unlock": [
       {
-        "item": "hy:bronze_knife"
+        "item": "hy:flash_metal_knife"
       },
       {
         "item": "flint"
       }
     ],
     "result": {
-      "item": "hy:bronze_dagger"
+      "item": "hy:flash_metal_dagger"
     }
   }
 }

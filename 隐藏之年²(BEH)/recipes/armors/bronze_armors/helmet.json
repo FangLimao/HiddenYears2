@@ -2,22 +2,22 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "bronze_helmet"
+      "identifier": "flash_metal_helmet"
     },
     "tags": ["crafting_table"],
     "pattern": ["XXX", "X X"],
     "key": {
       "X": {
-        "item": "hy:bronze_ingot"
+        "item": "hy:flash_metal_ingot"
       }
     },
     "unlock": [
       {
-        "item": "hy:bronze_ingot"
+        "item": "hy:flash_metal_ingot"
       }
     ],
     "result": {
-      "item": "hy:bronze_helmet"
+      "item": "hy:flash_metal_helmet"
     }
   }
 }

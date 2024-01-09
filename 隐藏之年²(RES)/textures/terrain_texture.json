@@ -76,8 +76,8 @@
     "hy.tin_block": {
       "textures": "textures/blocks/ingot_blocks/tin_block"
     },
-    "hy.bronze_block": {
-      "textures": "textures/blocks/ingot_blocks/bronze_block"
+    "hy.flash_metal_block": {
+      "textures": "textures/blocks/ingot_blocks/flash_metal_block"
     },
     "hy.lab_table.top": {
       "textures": "textures/blocks/machines/lab_tables/lab_table_top"

@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:bronze_boots",
+      "identifier": "hy:flash_metal_boots",
       "category": "equipment"
     },
     "components": {
@@ -10,10 +10,10 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:icon": {
-        "texture": "hy.bronze_boots"
+        "texture": "hy.flash_metal_boots"
       },
       "minecraft:display_name": {
-        "value": "hy.item.bronze_boots"
+        "value": "hy.item.flash_metal_boots"
       },
       "minecraft:max_stack_size": 1,
       "minecraft:enchantable": {
@@ -26,11 +26,11 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:bronze_ingot"],
+            "items": ["hy:flash_metal_ingot"],
             "repair_amount": 50
           },
           {
-            "items": ["hy:bronze_boots"],
+            "items": ["hy:flash_metal_boots"],
             "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
           }
         ]

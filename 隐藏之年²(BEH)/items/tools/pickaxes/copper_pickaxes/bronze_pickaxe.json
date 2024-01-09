@@ -3,11 +3,11 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "hy:bronze_pickaxe"
+      "identifier": "hy:flash_metal_pickaxe"
     },
     "components": {
       "minecraft:display_name": {
-        "value": "hy.item.bronze_pickaxe"
+        "value": "hy.item.flash_metal_pickaxe"
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.pickaxe"
@@ -18,16 +18,16 @@
         "max_durability": 800
       },
       "minecraft:icon": {
-        "texture": "hy.bronze_pickaxe"
+        "texture": "hy.flash_metal_pickaxe"
       },
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:bronze_ingot"],
+            "items": ["hy:flash_metal_ingot"],
             "repair_amount": 40
           },
           {
-            "items": ["hy:bronze_pickaxe"],
+            "items": ["hy:flash_metal_pickaxe"],
             "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
           }
         ]

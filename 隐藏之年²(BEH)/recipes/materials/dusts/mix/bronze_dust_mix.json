@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "bronze_dust_mix"
+      "identifier": "flash_metal_dust_mix"
     },
     "tags": ["crafting_table"],
     "priority": 0,
@@ -24,7 +24,7 @@
       }
     ],
     "result": {
-      "item": "hy:bronze_dust",
+      "item": "hy:flash_metal_dust",
       "count": 4
     }
   }

@@ -2,22 +2,22 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "bronze_dust_from_crafting_table"
+      "identifier": "flash_metal_dust_from_crafting_table"
     },
     "tags": ["crafting_table"],
     "priority": 0,
     "ingredients": [
       {
-        "item": "hy:bronze_nugget"
+        "item": "hy:flash_metal_nugget"
       }
     ],
     "unlock": [
       {
-        "item": "hy:bronze_nugget"
+        "item": "hy:flash_metal_nugget"
       }
     ],
     "result": {
-      "item": "hy:bronze_dust",
+      "item": "hy:flash_metal_dust",
       "count": 9
     }
   }

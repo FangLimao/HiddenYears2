@@ -2,22 +2,22 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "bronze_block"
+      "identifier": "flash_metal_block"
     },
     "tags": ["crafting_table"],
     "pattern": ["###", "###", "###"],
     "key": {
       "#": {
-        "item": "hy:bronze_ingot"
+        "item": "hy:flash_metal_ingot"
       }
     },
     "unlock": [
       {
-        "item": "hy:bronze_ingot"
+        "item": "hy:flash_metal_ingot"
       }
     ],
     "result": {
-      "item": "hy:bronze_block"
+      "item": "hy:flash_metal_block"
     }
   }
 }

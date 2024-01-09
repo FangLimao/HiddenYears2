@@ -2,12 +2,12 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:bronze_hoe",
+      "identifier": "hy:flash_metal_hoe",
       "category": "equipment"
     },
     "components": {
       "minecraft:display_name": {
-        "value": "hy.item.bronze_hoe"
+        "value": "hy.item.flash_metal_hoe"
       },
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
@@ -22,17 +22,17 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:bronze_hoe"],
+            "items": ["hy:flash_metal_hoe"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
-            "items": ["hy:bronze_ingot"],
+            "items": ["hy:flash_metal_ingot"],
             "repair_amount": 50
           }
         ]
       },
       "minecraft:icon": {
-        "texture": "hy.bronze_hoe"
+        "texture": "hy.flash_metal_hoe"
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.hoe"

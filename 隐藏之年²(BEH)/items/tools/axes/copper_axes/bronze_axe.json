@@ -2,12 +2,12 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:bronze_axe",
+      "identifier": "hy:flash_metal_axe",
       "category": "equipment"
     },
     "components": {
       "minecraft:display_name": {
-        "value": "hy.item.bronze_axe"
+        "value": "hy.item.flash_metal_axe"
       },
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
@@ -26,11 +26,11 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:bronze_ingot"],
+            "items": ["hy:flash_metal_ingot"],
             "repair_amount": 50
           },
           {
-            "items": ["hy:bronze_axe"],
+            "items": ["hy:flash_metal_axe"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           }
         ]
@@ -179,7 +179,7 @@
         ]
       },
       "minecraft:icon": {
-        "texture": "hy.bronze_axe"
+        "texture": "hy.flash_metal_axe"
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.axe"

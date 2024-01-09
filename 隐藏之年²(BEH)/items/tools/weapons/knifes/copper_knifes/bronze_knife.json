@@ -2,12 +2,12 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:bronze_knife",
+      "identifier": "hy:flash_metal_knife",
       "category": "equipment"
     },
     "components": {
       "minecraft:display_name": {
-        "value": "hy.item.bronze_knife"
+        "value": "hy.item.flash_metal_knife"
       },
       "minecraft:can_destroy_in_creative": false,
       "minecraft:creative_category": {
@@ -136,17 +136,17 @@
       },
       "minecraft:hand_equipped": true,
       "minecraft:icon": {
-        "texture": "hy.bronze_knife"
+        "texture": "hy.flash_metal_knife"
       },
       "minecraft:max_stack_size": 1,
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:bronze_ingot"],
+            "items": ["hy:flash_metal_ingot"],
             "repair_amount": 50
           },
           {
-            "items": ["hy:bronze_knife"],
+            "items": ["hy:flash_metal_knife"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           }
         ]
