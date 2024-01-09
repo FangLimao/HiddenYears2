@@ -47,4 +47,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 做模组/附加包不容易，如果可以，请到[苦力怕论他](https://klpbbs.com/space-uid-855752.html)支持一下我～
 
 [![pFpP1nU.jpg](https://s11.ax1x.com/2024/01/08/pFpP1nU.jpg)](https://imgse.com/i/pFpP1nU)
-*本作品系星屹工作室出品*
+_本作品系星屹工作室出品_

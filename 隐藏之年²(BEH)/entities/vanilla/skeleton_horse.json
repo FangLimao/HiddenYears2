@@ -77,7 +77,7 @@
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": ["skeletonhorse", "undead", "mob"]
+        "family": ["skeletonhorse", "undead", "mob", "skeleton"]
       },
       "minecraft:breathable": {
         "total_supply": 15,

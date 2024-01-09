@@ -77,9 +77,6 @@
     "hy.amethyst_ingot": {
       "textures": "textures/items/materials/ingots/amethyst_ingot"
     },
-    "hy.amethyst_sword": {
-      "textures": "textures/items/tools/weapons/swords/amethyst_sword"
-    },
     "hy.copper_hoe": {
       "textures": "textures/items/tools/hoes/copper_hoes/copper_hoe"
     },
@@ -656,15 +653,6 @@
     "hy.bark": {
       "textures": "textures/items/materials/bark"
     },
-    "hy.diamond_bone": {
-      "textures": "textures/items/materials/bones/diamond_bone"
-    },
-    "hy.gold_bone": {
-      "textures": "textures/items/materials/bones/gold_bone"
-    },
-    "hy.iron_bone": {
-      "textures": "textures/items/materials/bones/iron_bone"
-    },
     "hy.copper_badge": {
       "textures": "textures/items/treasures/badges/copper_badge"
     },
@@ -693,7 +681,25 @@
       "textures": "textures/items/armors/copper_armors/copper_boots"
     },
     "hy.amethyst_boardsword": {
-      "textures": "textures/items/tools/weapons/swords/amethyst_boardsword"
+      "textures": "textures/items/tools/weapons/boardswords/amethyst_boardsword"
+    },
+    "hy.flash_metal_boardsword": {
+      "textures": "textures/items/tools/weapons/boardswords/flash_metal_boardsword"
+    },
+    "hy.flash_copper_boardsword": {
+      "textures": "textures/items/tools/weapons/boardswords/flash_copper_boardsword"
+    },
+    "hy.diamond_bone": {
+      "textures": "textures/items/tools/weapons/boardswords/diamond_bone"
+    },
+    "hy.gold_bone": {
+      "textures": "textures/items/tools/weapons/boardswords/gold_bone"
+    },
+    "hy.iron_bone": {
+      "textures": "textures/items/tools/weapons/boardswords/iron_bone"
+    },
+    "hy.emerald_boardsword": {
+      "textures": "textures/items/tools/weapons/boardswords/emerald_boardsword"
     }
   }
 }

@@ -6,6 +6,13 @@
       "category": "equipment"
     },
     "components": {
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "hy.on_hurt_entity",
+          "target": "self"
+        }
+      },
+      "minecraft:hover_text_color": "yellow",
       "minecraft:display_name": {
         "value": "hy.item.diamond_bone"
       },
@@ -45,7 +52,8 @@
         }
       },
       "tag:minecraft:is_tool": {},
-      "tag:dict:materials.bone": {}
+      "tag:dict:materials.bone": {},
+      "tag:hy:bone_swords": {}
     },
     "events": {
       "hy.on_hurt_entity": {

@@ -12,6 +12,14 @@ import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
+  const item = event.itemStack;
+  if (item.hasTag("hy:bone_swords") === true) {
+    player.runCommandAsync("function api/aoe/bone");
+  }
+});
+
+world.afterEvents.itemUse.subscribe((event) => {
+  const player = event.source;
   const itemId = event.itemStack.typeId;
   switch (itemId) {
     case "hy:copper_badge":
@@ -37,6 +45,15 @@ world.afterEvents.itemUse.subscribe((event) => {
       break;
     case "hy:flash_metal_boardsword":
       player.runCommandAsync("function api/aoe/flash_metal");
+      break;
+    case "hy:corrosion_boardsword":
+      player.runCommandAsync("function api/aoe/corrosion");
+      break;
+    case "hy:emerald_boardsword":
+      player.runCommandAsync("function api/aoe/emerald");
+      break;
+    case "hy:flash_copper_boardsword":
+      player.runCommandAsync("function api/aoe/flash_copper");
       break;
     default:
       break;

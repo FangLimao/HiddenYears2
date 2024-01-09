@@ -2,14 +2,15 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:lv1_corrosion_sword",
+      "identifier": "hy:corrosion_boardsword",
       "category": "equipment"
     },
     "components": {
+      "minecraft:hover_text_color": "yellow",
       "minecraft:foil": true,
       "minecraft:on_use": {
         "on_use": {
-          "event": "hy.on_use",
+          "event": "hy.on_hurt_entity",
           "target": "self"
         }
       },
@@ -18,7 +19,7 @@
         "duration": 25
       },
       "minecraft:display_name": {
-        "value": "hy.item.lv1_corrosion_sword"
+        "value": "hy.item.corrosion_boardsword"
       },
       "minecraft:can_destroy_in_creative": false,
       "minecraft:creative_category": {
@@ -173,7 +174,7 @@
             "repair_amount": 40
           },
           {
-            "items": ["hy:lv1_corrosion_sword"],
+            "items": ["hy:corrosion_boardsword"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           }
         ]
