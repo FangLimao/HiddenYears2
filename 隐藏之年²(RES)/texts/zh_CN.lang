@@ -445,11 +445,10 @@ hy.item.copper_chestplate=铜胸甲
 hy.item.copper_leggings=铜护腿
 hy.item.copper_boots=铜靴子
 
-# 法器
 hy.item.amethyst_boardsword=紫水晶阔剑
 hy.item.emerald_boardsword=绿宝石阔剑
-hy.item.flash_copper_boardsword=闪铜阔剑 # 黄铜剑
-hy.item.flash_metal_boardsword=闪金阔剑 # 闪金剑
+hy.item.flash_copper_boardsword=闪铜阔剑
+hy.item.flash_metal_boardsword=闪金阔剑
 hy.item.corrosion_boardsword=腐蚀阔剑
 hy.item.diamond_bone=钻石骨棒
 hy.item.gold_bone=金骨棒

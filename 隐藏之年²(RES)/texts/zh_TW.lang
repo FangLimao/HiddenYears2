@@ -448,8 +448,8 @@ hy.item.copper_boots=銅靴子
 
 hy.item.amethyst_boardsword=紫水晶闊劍
 hy.item.emerald_boardsword=綠寶石闊劍
-hy.item.flash_copper_boardsword=閃銅闊劍 # 黃銅劍
-hy.item.flash_metal_boardsword=閃金闊劍 # 閃金劍
+hy.item.flash_copper_boardsword=閃銅闊劍
+hy.item.flash_metal_boardsword=閃金闊劍
 hy.item.corrosion_boardsword=腐蝕闊劍
 hy.item.diamond_bone=鑽石骨棒
 hy.item.gold_bone=金骨棒
