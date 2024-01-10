@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "amethyst_sword"
+      "identifier": "flash_copper_boardsword"
     },
     "tags": ["crafting_table"],
     "pattern": ["X", "X", "#"],
@@ -11,19 +11,16 @@
         "item": "stick"
       },
       "X": {
-        "item": "hy:amethyst_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     },
     "unlock": [
       {
-        "item": "stick"
-      },
-      {
-        "item": "hy:amethyst_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     ],
     "result": {
-      "item": "hy:amethyst_sword"
+      "item": "hy:flash_copper_boardsword"
     }
   }
 }
