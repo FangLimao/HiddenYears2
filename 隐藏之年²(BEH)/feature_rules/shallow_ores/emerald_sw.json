@@ -29,7 +29,7 @@
       "coordinate_eval_order": "zyx",
       "x": {
         "distribution": "uniform",
-        "extent": [0, 16]
+        "extent": [5, 256]
       },
       "y": {
         "distribution": "uniform",
