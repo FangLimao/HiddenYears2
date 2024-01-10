@@ -55,6 +55,12 @@ world.afterEvents.itemUse.subscribe((event) => {
     case "hy:flash_copper_boardsword":
       player.runCommandAsync("function api/aoe/flash_copper");
       break;
+    case "hy:flash_copper_boardsword":
+      player.runCommandAsync("function api/aoe/flash_copper");
+      break;
+    case "hy:amethyst_boardsword":
+      player.runCommandAsync("function api/aoe/amethyst");
+      break;
     default:
       break;
   }
