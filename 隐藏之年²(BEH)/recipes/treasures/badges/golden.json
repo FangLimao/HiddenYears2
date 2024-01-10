@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "gold_badge"
+      "identifier": "golden_badge"
     },
     "tags": ["crafting_table"],
     "pattern": ["XXX", "XOX", "XXX"],
@@ -23,7 +23,7 @@
       }
     ],
     "result": {
-      "item": "hy:gold_badge"
+      "item": "hy:golden_badge"
     }
   }
 }
