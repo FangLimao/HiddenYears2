@@ -7,10 +7,10 @@
     "tags": ["furnace", "blast_furnace"],
     "unlock": [
       {
-        "item": "iron_ingot"
+        "item": "iron_block"
       }
     ],
-    "input": "iron_ingot",
+    "input": "iron_block",
     "output": "hy:steel_ingot"
   }
 }
