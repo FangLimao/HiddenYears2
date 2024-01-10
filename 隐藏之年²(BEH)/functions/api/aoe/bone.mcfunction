@@ -1,5 +1,5 @@
 damage @s 5
 effect @s slowness 15 4
-kill @e[r=4,family=skeleton]
-damage @a[r=8,family=skeleton] 10
-effect @e[r=12,family=skeleton] poison 5 0 true
+damage @a[r=5,family=skeleton] 20
+damage @a[r=10,family=skeleton] 10
+damage @a[r=15,family=skeleton] 5
