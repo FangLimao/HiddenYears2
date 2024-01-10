@@ -1,3 +1,5 @@
+damage @s 5
+effect @s slowness 15 4
 tag @s add hy.aoe_flash
 kill @a[r=2,tag=!hy.aoe_flash]
 kill @e[r=2,type=!player]
