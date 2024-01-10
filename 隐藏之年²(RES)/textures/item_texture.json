@@ -700,6 +700,6 @@
     },
     "hy.flash_copper_boots": {
       "textures": "textures/items/armors/flash_copper_armors/flash_copper_boots"
-    },
+    }
   }
 }
