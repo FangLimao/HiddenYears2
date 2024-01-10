@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.helmet"
       },
       "minecraft:icon": {
-        "texture": "hy.flash_metal_helmet"
+        "texture": "hy.flash_copper_helmet"
       },
       "minecraft:display_name": {
         "value": "hy.item.flash_copper_helmet"

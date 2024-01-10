@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:icon": {
-        "texture": "hy.flash_metal_boots"
+        "texture": "hy.flash_copper_boots"
       },
       "minecraft:display_name": {
         "value": "hy.item.flash_copper_boots"

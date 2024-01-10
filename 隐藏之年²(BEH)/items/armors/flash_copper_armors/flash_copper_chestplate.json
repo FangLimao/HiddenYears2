@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.chestplate"
       },
       "minecraft:icon": {
-        "texture": "hy.flash_metal_chestplate"
+        "texture": "hy.flash_copper_chestplate"
       },
       "minecraft:display_name": {
         "value": "hy.item.flash_copper_chestplate"
