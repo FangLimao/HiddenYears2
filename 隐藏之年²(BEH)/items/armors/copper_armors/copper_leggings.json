@@ -40,7 +40,7 @@
         "slot": "slot.armor.legs"
       },
       "minecraft:durability": {
-        "max_durability": 800
+        "max_durability": 150
       },
       "tag:dict:armors": {},
       "tag:dict:armors.leggings": {}

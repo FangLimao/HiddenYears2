@@ -21,7 +21,7 @@
         "slot": "armor_feet"
       },
       "minecraft:armor": {
-        "protection": 5
+        "protection": 4
       },
       "minecraft:repairable": {
         "repair_items": [
@@ -40,7 +40,7 @@
         "slot": "slot.armor.feet"
       },
       "minecraft:durability": {
-        "max_durability": 800
+        "max_durability": 125
       },
       "tag:dict:armors": {},
       "tag:dict:armors.boots": {}
