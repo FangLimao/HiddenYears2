@@ -1,29 +1,16 @@
 {
   "format_version": "1.20.11",
-  "minecraft:recipe_shaped": {
+  "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "raw_flash_copper_ingot"
+      "identifier": "flash_copper_ingot"
     },
-    "tags": ["crafting_table"],
-    "key": {
-      "#": {
-        "item": "iron_nugget"
-      },
-      "&": {
-        "item": "copper_ingot"
-      }
-    },
+    "tags": ["furnace", "blast_furnace"],
     "unlock": [
       {
-        "item": "iron_nugget"
-      },
-      {
-        "item": "copper_ingot"
+        "item": "copper_block"
       }
     ],
-    "pattern": ["###", "#&#", "###"],
-    "result": {
-      "item": "hy:raw_flash_copper_ingot"
-    }
+    "input": "copper_block",
+    "output": "hy:raw_flash_copper_ingot"
   }
 }
