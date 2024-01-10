@@ -15,7 +15,7 @@
         "item": "end_stone"
       }
     ],
-    "pattern": ["###", "###", "###"],
+    "pattern": ["## ", " ##"],
     "result": {
       "item": "hy:end_metal_ingot",
       "count": 4

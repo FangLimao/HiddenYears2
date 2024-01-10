@@ -15,7 +15,7 @@
         "item": "stone"
       }
     ],
-    "pattern": ["###", "###", "###"],
+    "pattern": ["## ", " ##"],
     "result": {
       "item": "hy:over_metal_ingot",
       "count": 4
