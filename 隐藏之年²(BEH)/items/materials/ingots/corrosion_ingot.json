@@ -2,22 +2,22 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:lv3_corrosion_ingot",
+      "identifier": "hy:corrosion_ingot",
       "category": "items"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "hy.lv3_corrosion_ingot"
+        "texture": "hy.lv1_corrosion_ingot"
       },
       "minecraft:display_name": {
-        "value": "hy.item.lv3_corrosion_ingot"
+        "value": "hy.item.corrosion_ingot"
       },
       "minecraft:creative_category": {
         "category": "items"
       },
       "tag:dict:ingots": {},
       "tag:dict:ingots.corrosion": {},
-      "tag:dict:ingots.corrosion_lv3": {}
+      "tag:dict:ingots.corrosion_lv1": {}
     }
   }
 }
