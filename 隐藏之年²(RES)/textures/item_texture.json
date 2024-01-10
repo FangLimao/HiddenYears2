@@ -395,18 +395,6 @@
     "hy.flash_metal_nugget": {
       "textures": "textures/items/materials/nuggets/flash_metal_nugget"
     },
-    "hy.flash_metal_helmet": {
-      "textures": "textures/items/armors/flash_metal_armors/flash_metal_helmet"
-    },
-    "hy.flash_metal_chestplate": {
-      "textures": "textures/items/armors/flash_metal_armors/flash_metal_chestplate"
-    },
-    "hy.flash_metal_leggings": {
-      "textures": "textures/items/armors/flash_metal_armors/flash_metal_leggings"
-    },
-    "hy.flash_metal_boots": {
-      "textures": "textures/items/armors/flash_metal_armors/flash_metal_boots"
-    },
     "hy.flash_metal_hammer": {
       "textures": "textures/items/tools/hammers/flash_metal_hammer"
     },
@@ -700,6 +688,18 @@
     },
     "hy.emerald_boardsword": {
       "textures": "textures/items/tools/weapons/boardswords/emerald_boardsword"
-    }
+    },
+    "hy.flash_copper_helmet": {
+      "textures": "textures/items/armors/flash_copper_armors/flash_copper_helmet"
+    },
+    "hy.flash_copper_chestplate": {
+      "textures": "textures/items/armors/flash_copper_armors/flash_copper_chestplate"
+    },
+    "hy.flash_copper_leggings": {
+      "textures": "textures/items/armors/flash_copper_armors/flash_copper_leggings"
+    },
+    "hy.flash_copper_boots": {
+      "textures": "textures/items/armors/flash_copper_armors/flash_copper_boots"
+    },
   }
 }
