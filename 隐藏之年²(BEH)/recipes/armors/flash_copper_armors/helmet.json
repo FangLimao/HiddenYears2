@@ -2,22 +2,22 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "flash_metal_chestplate"
+      "identifier": "flash_copper_helmet"
     },
     "tags": ["crafting_table"],
-    "pattern": ["X X", "XXX", "XXX"],
+    "pattern": ["XXX", "X X"],
     "key": {
       "X": {
-        "item": "hy:flash_metal_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     },
     "unlock": [
       {
-        "item": "hy:flash_metal_ingot"
+        "item": "hy:flash_copper_ingot"
       }
     ],
     "result": {
-      "item": "hy:flash_metal_chestplate"
+      "item": "hy:flash_copper_helmet"
     }
   }
 }
