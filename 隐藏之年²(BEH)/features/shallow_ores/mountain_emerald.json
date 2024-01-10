@@ -4,7 +4,7 @@
     "description": {
       "identifier": "hy:shallow_ores/mountain_emerald"
     },
-    "count": 12,
+    "count": 15,
     "replace_rules": [
       {
         "places_block": "hy:shallow_emerald_ore",

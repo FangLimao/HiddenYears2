@@ -4,7 +4,7 @@
     "description": {
       "identifier": "hy:geocentric_ores/emerald"
     },
-    "count": 5,
+    "count": 4,
     "replace_rules": [
       {
         "places_block": "hy:geocentric_emerald_ore",
