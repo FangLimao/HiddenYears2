@@ -20,16 +20,37 @@
 - 新的矿物：地心/浅层矿石，它们生成在世界的浅层或深处，需要用一种特殊的工具——撬棍来挖掘
 - 新的货币：铜币、金币、钻石币，它们与原版的绿宝石等效，但不同的是它们获取更为方便
 - 新的工具：撬棍、锤子、小刀
-    - 撬棍可以快速挖掘矿物块及铁门，给你喜欢炫富的朋友迎面一击！
-    - 小刀、匕首，一击致命，耐久低、伤害高
-    - 锤子挖掘速度快，美中不足的是无法挖掘矿石
+  - 撬棍可以快速挖掘矿物块及铁门，给你喜欢炫富的朋友迎面一击！
+  - 小刀、匕首，一击致命，耐久低、伤害高
+  - 锤子挖掘速度快，美中不足的是无法挖掘矿石
 - 新的生物血量计算方式：其血量将为随机值，不再固定，类似于原版的马/驴/骡
 - 还有更多等待发现……
 
 ## 图片展示
 
+[![pF9JqyV.jpg](https://s11.ax1x.com/2024/01/10/pF9JqyV.jpg)](https://imgse.com/i/pF9JqyV)
+
+[![pF9JLLT.jpg](https://s11.ax1x.com/2024/01/10/pF9JLLT.jpg)](https://imgse.com/i/pF9JLLT)
+
+[![pF9JbQ0.jpg](https://s11.ax1x.com/2024/01/10/pF9JbQ0.jpg)](https://imgse.com/i/pF9JbQ0)
+
+[![pF9J7zq.jpg](https://s11.ax1x.com/2024/01/10/pF9J7zq.jpg)](https://imgse.com/i/pF9J7zq)
+
+[![pF9JTWn.jpg](https://s11.ax1x.com/2024/01/10/pF9JTWn.jpg)](https://imgse.com/i/pF9JTWn)
+
+[![pF9JoJs.jpg](https://s11.ax1x.com/2024/01/10/pF9JoJs.jpg)](https://imgse.com/i/pF9JoJs)
+
+## 下载及版本要求
+
+本模组使用了Script API，因此请在加载前保证：
+
+- 游戏版本在1.20.50以上
+- 开启了假日创作者、自定义生物群系、测试版API实验性玩法
+
+你可以通过云盘下载本模组：https://pan.huang1111.cn/s/N6m8H1
 
 ## 相关链接
+
 - 苦力怕论坛：https://klpbbs.com/thread-85797-1-1.html
 - Minebbs：https://www.minebbs.com/resources/6182/
 - 苦力怕论坛反馈：https://klpbbs.com/thread-109005-1-1.html
