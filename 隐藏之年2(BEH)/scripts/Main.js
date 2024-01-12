@@ -10,6 +10,14 @@ import {
 } from "hy2/texts.js";
 import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 
+world.afterEvents.playerBreakBlock.subscribe((event) => {
+  const block = event.brokenBlockPermutation;
+  const player = event.player;
+  if (block.hasTag("hy:suspicious_ores")===true){
+  world.sendMessage("nmsl");
+  }
+});
+
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
   const item = event.itemStack;
