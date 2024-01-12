@@ -7,7 +7,8 @@ import {
   messageUpgrade2,
   messageUpgrade3,
   messageUpgrade4,
-} from "hy2/texts.js";
+  itemBark,
+} from "hy2/gameplay.js";
 import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
@@ -19,9 +20,6 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
     let randomChance = Math.ceil(Math.random() * 10);
     console.warn("[hy2]Random chance is " + randomChance);
     if (randomChance <= 8) {
-      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
-      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
-      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
       blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
       blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
     } else {
@@ -89,9 +87,11 @@ world.afterEvents.itemUse.subscribe((event) => {
 world.afterEvents.itemUseOn.subscribe((event) => {
   const item = event.itemStack;
   const player = event.source;
-  if (item.hasTag("hy:is_awl")) {
-    // @todo:使用脚本代替函数
-    player.runCommandAsync("function gameplay/items/get_bark");
+  const dimension = player.dimension;
+  let playerLoc = player.location;
+  if (item.hasTag("hy:is_awl") === true) {
+    dimension.spawnItem(itemBark, playerLoc);
+    world.playSound("use.wood", playerLoc);
   }
 });
 

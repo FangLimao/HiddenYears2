@@ -19,7 +19,7 @@
       "minecraft:damage": 9,
       "minecraft:weapon": {
         "on_hurt_entity": {
-          "event": "hy.on_hurt_entity",
+          "event": "on_tool_used",
           "target": "self"
         }
       },
@@ -30,42 +30,11 @@
       "tag:hy:is_awl": {}
     },
     "events": {
-      "hy.on_break_block": {
-        "damage": {
-          "amount": 1,
-          "target": "self",
-          "type": "magic"
-        }
-      },
-      "hy.on_hurt_entity": {
-        "damage": {
-          "amount": 2,
-          "target": "self",
-          "type": "magic"
-        }
-      },
       "on_tool_used": {
-        "sequence": [
-          {
-            "randomize": [
-              {
-                "weight": 1,
-                "damage": {
-                  "type": "magic",
-                  "amount": 1
-                }
-              },
-              {
-                "weight": 9
-              }
-            ]
-          },
-          {
-            "run_command": {
-              "command": ["function gameplay/items/get_bark"]
-            }
-          }
-        ]
+        "damage": {
+          "type": "magic",
+          "amount": 1
+        }
       }
     }
   }

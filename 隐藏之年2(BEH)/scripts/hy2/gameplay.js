@@ -1,3 +1,5 @@
+import { ItemStack } from "@minecraft/server";
+
 export let messageImitationDamage1 = {
   translate: "hy.message.imitation_damage.1",
 };
@@ -16,3 +18,5 @@ export let messageUpgrade3 = {
 export let messageUpgrade4 = {
   translate: "hy.update.bbs",
 };
+
+export const itemBark = new ItemStack("hy:bark");
