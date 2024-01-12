@@ -62,28 +62,9 @@
         }
       },
       "hy.spawn_loot": {
-        "randomize": [
-          {
-            "weight": 8,
-            "spawn_loot": {
-              "table": "loot_tables/blocks/geocentric_ores/redstone.json"
-            }
-          },
-          {
-            "weight": 5,
-            "run_command": {
-              "target": "self",
-              "command": ["function gameplay/blocks/sus_ores/1"]
-            }
-          },
-          {
-            "weight": 1,
-            "run_command": {
-              "target": "self",
-              "command": ["function gameplay/blocks/sus_ores/2"]
-            }
-          }
-        ]
+        "spawn_loot": {
+          "table": "loot_tables/blocks/geocentric_ores/redstone.json"
+        }
       }
     }
   }
