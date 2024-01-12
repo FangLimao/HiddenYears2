@@ -13,8 +13,20 @@ import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
   const player = event.player;
-  if (block.hasTag("hy:suspicious_ores")===true){
-  world.sendMessage("nmsl");
+  const blockDimension = player.dimension;
+  let playerLoc = player.location;
+  if (block.hasTag("hy:suspicious_ores") === true) {
+    let randomChance = Math.ceil(Math.random() * 10);
+    console.warn("[hy2]Random chance is " + randomChance);
+    if (randomChance <= 8) {
+      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
+      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
+      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
+      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
+      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
+    } else {
+      blockDimension.spawnEntity("hy:oldb", playerLoc);
+    }
   }
 });
 

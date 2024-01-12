@@ -40,7 +40,7 @@
         "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
       },
       "tag:minecraft:stone_pick_diggable": {},
-      "tag:hy:suspicious_ores":{}
+      "tag:hy:suspicious_ores": {}
     },
     "permutations": [
       {
