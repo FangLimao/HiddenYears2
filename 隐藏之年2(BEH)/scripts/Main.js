@@ -14,7 +14,7 @@ import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
   const player = event.player;
-  const blockDimension = player.dimension;
+  let blockDimension = player.dimension;
   let playerLoc = player.location;
   if (block.hasTag("hy:suspicious_ores") === true) {
     let randomChance = Math.ceil(Math.random() * 10);
@@ -25,6 +25,10 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
     } else {
       blockDimension.spawnEntity("hy:oldb", playerLoc);
     }
+  }
+  if (block.hasTag("hy:custom_ores") === true) {
+    player.addExperience(1);
+    world.playSound("random.orb", playerLoc);
   }
 });
 
