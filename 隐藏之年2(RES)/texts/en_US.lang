@@ -426,3 +426,5 @@ hy.item.corrosion_boardsword=Corrosion Boardsword
 hy.item.diamond_bone=Diamond Bonesword
 hy.item.gold_bone=Golden Bonesword
 hy.item.iron_bone=Iron Bonesword
+
+entity.hy:oldb.name=[方漓猫的呆毛]

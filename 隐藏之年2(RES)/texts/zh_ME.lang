@@ -425,3 +425,5 @@ hy.item.corrosion_boardsword=腐蚀阔剑
 hy.item.diamond_bone=钻石骨棒
 hy.item.gold_bone=金骨棒
 hy.item.iron_bone=铁骨棒
+
+entity.hy:oldb.name=[方漓猫的呆毛]
