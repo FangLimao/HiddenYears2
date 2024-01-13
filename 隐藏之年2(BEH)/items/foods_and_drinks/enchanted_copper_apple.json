@@ -35,8 +35,7 @@
     "events": {
       "hy.on_eat": {
         "run_command": {
-          "target": "self",
-          "command": ["function gameplay/items/copper_apple/enchanted"]
+          "command": ["scriptevent hy:copper_apple enchanted"]
         }
       }
     }

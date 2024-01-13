@@ -1,5 +1,5 @@
 // @todo:移植更新播报
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import {
   messageImitationDamage1,
   messageImitationDamage2,
@@ -10,6 +10,26 @@ import {
   itemBark,
 } from "hy2/gameplay.js";
 import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
+
+system.afterEvents.scriptEventReceive.subscribe((event) => {
+  const eventId = event.id;
+  const eventMessage = event.message;
+  const player = event.sourceEntity;
+  switch (eventId) {
+    case "hy:copper_apple":
+      if (eventMessage === "enchanted") {
+        player.addEffect("absorption", 1200);
+        player.addEffect("fire_resistance", 1200);
+        player.addEffect("speed", 200);
+      } else if (eventMessage === "normal") {
+        player.addEffect("absorption", 600);
+        player.addEffect("fire_resistance", 200);
+      }
+      break;
+    default:
+      break;
+  }
+});
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
