@@ -34,8 +34,9 @@
     "events": {
       "hy.on_eat": {
         "run_command": {
-          "command": ["function gameplay/items/bark"],
-          "target": "self"
+          "command": [
+            "tellraw @s { \"rawtext\" : [ { \"translate\" : \"hy.message.eat_bark\" } ] }"
+          ]
         }
       }
     }
