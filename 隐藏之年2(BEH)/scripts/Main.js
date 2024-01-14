@@ -145,20 +145,22 @@ world.afterEvents.itemUseOn.subscribe((event) => {
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const item = event.itemStackBeforeBreak;
   const player = event.player;
-  if (item.hasTag("hy:imitation_tools")) {
-    let randomChance = Math.ceil(Math.random() * 10);
-    console.warn("[hy2]Random chance is " + randomChance);
-    switch (randomChance) {
-      case 1:
-        player.applyDamage(2);
-        player.sendMessage(messageImitationDamage1);
-        break;
-      case 2:
-        player.applyDamage(8);
-        player.sendMessage(messageImitationDamage2);
-        break;
-      default:
-        break;
+  if (item != undefined) {
+    if (item.hasTag("hy:imitation_tools")) {
+      let randomChance = Math.ceil(Math.random() * 10);
+      console.warn("[hy2]Random chance is " + randomChance);
+      switch (randomChance) {
+        case 1:
+          player.applyDamage(2);
+          player.sendMessage(messageImitationDamage1);
+          break;
+        case 2:
+          player.applyDamage(8);
+          player.sendMessage(messageImitationDamage2);
+          break;
+        default:
+          break;
+      }
     }
   }
 });
