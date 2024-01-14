@@ -7,6 +7,7 @@ import {
   messageUpgrade2,
   messageUpgrade3,
   messageUpgrade4,
+  messageFuel,
   itemBark,
 } from "hy2/gameplay.js";
 import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
@@ -24,6 +25,28 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
       } else if (eventMessage === "normal") {
         player.addEffect("absorption", 600);
         player.addEffect("fire_resistance", 200);
+      }
+      break;
+    case "hy:fuel_metal":
+      world.sendMessage(messageFuel);
+      switch (eventMessage) {
+        case "normal":
+          player.addEffect("fatal_poison", 1200);
+          break;
+        case "mineral":
+          player.addEffect("fatal_poison", 800, {
+            amplifier: 1,
+          });
+          break;
+        case "nightmare":
+          player.addEffect("strength", 500);
+          player.addEffect("night_vision", 500);
+          break;
+        case "stick":
+          player.applyDamage(2);
+          break;
+        default:
+          break;
       }
       break;
     default:

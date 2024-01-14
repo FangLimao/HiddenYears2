@@ -19,4 +19,8 @@ export let messageUpgrade4 = {
   translate: "hy.update.bbs",
 };
 
+export let messageFuel = {
+  translate: "hy.message.fuel_metal",
+};
+
 export const itemBark = new ItemStack("hy:bark");

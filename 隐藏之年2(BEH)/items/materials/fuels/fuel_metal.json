@@ -31,22 +31,9 @@
     },
     "events": {
       "hy.on_eat": {
-        "randomize": [
-          {
-            "weight": 1,
-            "run_command": {
-              "target": "self",
-              "command": ["kill"]
-            }
-          },
-          {
-            "weight": 10,
-            "run_command": {
-              "target": "self",
-              "command": ["function gameplay/items/fuel_metals/normal"]
-            }
-          }
-        ]
+        "run_command": {
+          "command": ["scriptevent hy:fuel_metal normal"]
+        }
       }
     }
   }

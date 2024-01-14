@@ -35,8 +35,7 @@
     "events": {
       "hy.on_eat": {
         "run_command": {
-          "target": "self",
-          "command": ["function gameplay/items/fuel_metals/stick"]
+          "command": ["scriptevent hy:fuel_metal stick"]
         }
       }
     }
