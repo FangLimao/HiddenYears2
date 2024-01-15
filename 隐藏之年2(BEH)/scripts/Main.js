@@ -72,10 +72,19 @@ world.afterEvents.itemUse.subscribe((event) => {
   }
 });
 
+world.afterEvents.itemUse.subscribe((event)=>{
+  const player = event.source;
+  switch(event.itemStack.typeId){
+     case "hy:medicine_1":
+      player.addEffect("darkness", 0);
+      player.addEffect("blindness", 0);
+      player.addEffect("night_vision", 300);
+  }
+})
+
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
-  const itemId = event.itemStack.typeId;
-  switch (itemId) {
+  switch (event.itemStack.typeId) {
     case "hy:copper_badge":
       player.addEffect("health_boost", 300, {
         amplifier: 2,
