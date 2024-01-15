@@ -32,8 +32,7 @@
     "events": {
       "hy.on_drink": {
         "run_command": {
-          "target": "self",
-          "command": ["function gameplay/items/medicines/5"]
+          "command": ["scriptevent hy:medicine 5"]
         }
       }
     }
