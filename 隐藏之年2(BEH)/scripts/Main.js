@@ -1,35 +1,24 @@
 // @todo:移植更新播报
 import { world, system } from "@minecraft/server";
-import {
-  messageImitationDamage1,
-  messageImitationDamage2,
-  messageUpgrade1,
-  messageUpgrade2,
-  messageUpgrade3,
-  messageUpgrade4,
-  messageFuel,
-  itemBark,
-} from "hy2/gameplay.js";
+import { itemBark, hyMessage } from "hy2/data.js";
 import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 
 system.afterEvents.scriptEventReceive.subscribe((event) => {
-  const eventId = event.id;
-  const eventMessage = event.message;
   const player = event.sourceEntity;
-  switch (eventId) {
+  switch (event.id) {
     case "hy:copper_apple":
-      if (eventMessage === "enchanted") {
+      if (event.message === "enchanted") {
         player.addEffect("absorption", 1200);
         player.addEffect("fire_resistance", 1200);
         player.addEffect("speed", 200);
-      } else if (eventMessage === "normal") {
+      } else if (event.message === "normal") {
         player.addEffect("absorption", 600);
         player.addEffect("fire_resistance", 200);
       }
       break;
     case "hy:fuel_metal":
-      world.sendMessage(messageFuel);
-      switch (eventMessage) {
+      world.sendMessage(hyMessage.fuel);
+      switch (event.message) {
         case "normal":
           player.addEffect("fatal_poison", 1200);
           break;
@@ -132,11 +121,10 @@ world.afterEvents.itemUse.subscribe((event) => {
 });
 
 world.afterEvents.itemUseOn.subscribe((event) => {
-  const item = event.itemStack;
   const player = event.source;
   const dimension = player.dimension;
   let playerLoc = player.location;
-  if (item.hasTag("hy:is_awl") === true) {
+  if (event.itemStack.hasTag("hy:is_awl") === true) {
     dimension.spawnItem(itemBark, playerLoc);
     world.playSound("use.wood", playerLoc);
   }
@@ -152,11 +140,11 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
       switch (randomChance) {
         case 1:
           player.applyDamage(2);
-          player.sendMessage(messageImitationDamage1);
+          player.sendMessage(hyMessage.imitationDamage1);
           break;
         case 2:
           player.applyDamage(8);
-          player.sendMessage(messageImitationDamage2);
+          player.sendMessage(hyMessage.imitationDamage2);
           break;
         default:
           break;
