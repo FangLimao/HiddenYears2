@@ -79,6 +79,8 @@ world.afterEvents.itemUse.subscribe((event)=>{
       player.addEffect("darkness", 0);
       player.addEffect("blindness", 0);
       player.addEffect("night_vision", 300);
+      break;
+      default:break;
   }
 })
 
