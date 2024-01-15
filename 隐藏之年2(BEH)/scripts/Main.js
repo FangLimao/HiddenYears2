@@ -1,11 +1,80 @@
 // @todo:移植更新播报
 import { world, system } from "@minecraft/server";
 import { itemBark, hyMessage } from "hy2/data.js";
-import { randomChance, reportUpgradeInfo } from "hy2/lib.js";
 
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   const player = event.sourceEntity;
   switch (event.id) {
+    case "hy:medicine":
+      switch (event.message) {
+        case "1":
+          player.runCommandAsync("effect @s darkness 0");
+          player.runCommandAsync("effect @s blindness 0");
+          player.addEffect("night_vision", 300);
+          break;
+        case "2":
+          player.runCommandAsync("effect @s nausea 0");
+          player.runCommandAsync("effect @s hunger 0");
+          player.addEffect("saturation", 300);
+          break;
+        case "3":
+          player.runCommandAsync("effect @s wither 0");
+          player.runCommandAsync("effect @s fatal_poison 0");
+          player.addEffect("absorption", 300);
+          break;
+        case "4":
+          player.runCommandAsync("effect @s poison 0");
+          player.addEffect("absorption", 300);
+          break;
+        case "5":
+          player.runCommandAsync("effect @s clear");
+          break;
+        case "6":
+          world.playSound("random.levelup", player.location);
+          player.runCommandAsync("effect @s clear");
+          player.addEffect("speed", 1200);
+          player.addEffect("haste", 1200);
+          player.addEffect("strength", 1200);
+          player.addEffect("jump_boost", 1200);
+          player.addEffect("resistance", 1200);
+          player.addEffect("regeneration", 1200);
+          player.addEffect("water_breathing", 1200);
+          player.addEffect("fire_resistance", 1200);
+          player.addEffect("night_vision", 1200);
+          player.addEffect("slow_falling", 1200);
+          player.addEffect("saturation", 1200);
+          player.addEffect("absorption", 1200);
+          player.addEffect("village_hero", 1200);
+          break;
+        case "7":
+          player.runCommandAsync("effect @s weakness 0");
+          player.addEffect("strength", 300);
+          break;
+        case "8":
+          player.runCommandAsync("effect @s bad_omen 0");
+          player.addEffect("village_hero", 300);
+          break;
+        case "9":
+          player.runCommandAsync("effect @s mining_fatigue 0");
+          player.addEffect("water_breathing", 300);
+          break;
+        case "10":
+          player.addEffect("health_boost", 6000);
+          break;
+        case "11":
+          player.runCommandAsync("effect @s slowness 0");
+          player.addEffect("jump_boost", 1200);
+          player.addEffect("speed", 1200);
+          break;
+        case "12":
+          player.addEffect("darkness", 1200);
+          player.addEffect("blindness", 1200);
+          player.runCommandAsync("effect @s night_vision 0");
+          break;
+        default:
+          break;
+      }
+      break;
     case "hy:copper_apple":
       if (event.message === "enchanted") {
         player.addEffect("absorption", 1200);
@@ -72,17 +141,18 @@ world.afterEvents.itemUse.subscribe((event) => {
   }
 });
 
-world.afterEvents.itemUse.subscribe((event)=>{
+world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
-  switch(event.itemStack.typeId){
-     case "hy:medicine_1":
+  switch (event.itemStack.typeId) {
+    case "hy:medicine_1":
       player.addEffect("darkness", 0);
       player.addEffect("blindness", 0);
       player.addEffect("night_vision", 300);
       break;
-      default:break;
+    default:
+      break;
   }
-})
+});
 
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
