@@ -1,4 +1,5 @@
-pack.name=隱藏之年²
+hy.block.flash_copper_ore=闪铜矿石
+hy.block.deepslate_copper_ore=深层闪铜矿石pack.name=隱藏之年²
 pack.description=為你而來的附加包 ｜ 正式版2.0.0 [§l本包需要基巖版1.20.50+並開啟§6假假日創作者功能、自訂生態域、即將推出的創作者功能§r實驗性玩法]
 hy.update.index=§l§6感謝你選用隱藏之年²
 hy.update.version=§l§b你已成功更新/加載正式版2.0.0
@@ -437,3 +438,6 @@ hy.item.gold_bone=金骨棒
 hy.item.iron_bone=鐵骨棒
 
 entity.hy:oldb.name=[方漓猫的呆毛]
+
+hy.block.flash_copper_ore=閃銅礦石
+hy.block.deepslate_copper_ore=深層閃銅礦石

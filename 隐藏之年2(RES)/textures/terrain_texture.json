@@ -96,6 +96,12 @@
     },
     "hy.lab_table.bottom": {
       "textures": "textures/blocks/machines/lab_tables/lab_table_bottom"
+    },
+    "hy.flash_copper_ore": {
+      "textures": "textures/blocks/ores/flash_copper_ore"
+    },
+    "hy.deepslate_flash_copper_ore": {
+      "textures": "textures/blocks/ores/deepslate_flash_copper_ore"
     }
   }
 }

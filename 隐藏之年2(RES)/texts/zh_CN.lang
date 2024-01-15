@@ -438,3 +438,6 @@ hy.item.gold_bone=金骨棒
 hy.item.iron_bone=铁骨棒
 
 entity.hy:oldb.name=[方漓猫的呆毛]
+
+hy.block.flash_copper_ore=闪铜矿石
+hy.block.deepslate_copper_ore=深层闪铜矿石
