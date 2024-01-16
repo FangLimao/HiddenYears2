@@ -8,22 +8,22 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
     case "hy:medicine":
       switch (event.message) {
         case "1":
-          player.runCommandAsync("effect @s darkness 0");
-          player.runCommandAsync("effect @s blindness 0");
+          player.removeEffect("darkness")
+          player.removeEffect("blindness")
           player.addEffect("night_vision", 300);
           break;
         case "2":
-          player.runCommandAsync("effect @s nausea 0");
-          player.runCommandAsync("effect @s hunger 0");
+          player.removeEffect("nausea");
+          player.removeEffect("hunger");
           player.addEffect("saturation", 300);
           break;
         case "3":
-          player.runCommandAsync("effect @s wither 0");
-          player.runCommandAsync("effect @s fatal_poison 0");
+          player.removeEffect("wither");
+          player.removeEffect("fatal_poison");
           player.addEffect("absorption", 300);
           break;
         case "4":
-          player.runCommandAsync("effect @s poison 0");
+          player.removeEffect("poison");
           player.addEffect("absorption", 300);
           break;
         case "5":
@@ -47,29 +47,29 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
           player.addEffect("village_hero", 1200);
           break;
         case "7":
-          player.runCommandAsync("effect @s weakness 0");
+          player.removeEffect("weakness");
           player.addEffect("strength", 300);
           break;
         case "8":
-          player.runCommandAsync("effect @s bad_omen 0");
+          player.removeEffect("bad_omen");
           player.addEffect("village_hero", 300);
           break;
         case "9":
-          player.runCommandAsync("effect @s mining_fatigue 0");
+          player.removeEffect("mining_fatigue");
           player.addEffect("water_breathing", 300);
           break;
         case "10":
           player.addEffect("health_boost", 6000);
           break;
         case "11":
-          player.runCommandAsync("effect @s slowness 0");
+          player.removeEffect("slowness");
           player.addEffect("jump_boost", 1200);
           player.addEffect("speed", 1200);
           break;
         case "12":
           player.addEffect("darkness", 1200);
           player.addEffect("blindness", 1200);
-          player.runCommandAsync("effect @s night_vision 0");
+          player.removeEffect("night_vision");
           break;
         default:
           break;
