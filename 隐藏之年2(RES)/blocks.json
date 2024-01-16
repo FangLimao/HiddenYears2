@@ -220,6 +220,10 @@
     "sound": "metal",
     "textures": "hy.flash_metal_block"
   },
+  "hy:flash_copper_block": {
+    "sound": "metal",
+    "textures": "hy.flash_copper_block"
+  },
   "hy:lab_table": {
     "sound": "metal",
     "textures": {

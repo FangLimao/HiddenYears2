@@ -102,6 +102,9 @@
     },
     "hy.deepslate_flash_copper_ore": {
       "textures": "textures/blocks/ores/deepslate_flash_copper_ore"
+    },
+    "hy.flash_copper_block": {
+      "textures": "textures/blocks/ingot_blocks/flash_copper_block"
     }
   }
 }

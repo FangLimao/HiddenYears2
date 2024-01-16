@@ -8,8 +8,8 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
     case "hy:medicine":
       switch (event.message) {
         case "1":
-          player.removeEffect("darkness")
-          player.removeEffect("blindness")
+          player.removeEffect("darkness");
+          player.removeEffect("blindness");
           player.addEffect("night_vision", 300);
           break;
         case "2":
