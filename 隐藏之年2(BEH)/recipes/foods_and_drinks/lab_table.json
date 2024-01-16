@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lab_table"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "XAX", "XXX"],
+    "key": {
+      "X": {
+        "item": "quartz"
+      },
+      "A": {
+        "item": "crafting_table"
+      }
+    },
+    "unlock": [
+      {
+        "item": "quartz"
+      },
+      {
+        "item": "crafting_table"
+      }
+    ],
+    "result": {
+      "item": "hy:lab_table"
+    }
+  }
+}
