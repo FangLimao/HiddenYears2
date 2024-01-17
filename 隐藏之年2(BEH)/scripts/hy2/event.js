@@ -1,0 +1,192 @@
+import { system } from "@minecraft/server";
+
+system.afterEvents.scriptEventReceive.subscribe((event) => {
+  const player = event.sourceEntity;
+  switch (event.id) {
+    case "hy:medicine_poison":
+      switch (event.message) {
+        case "1":
+          player.removeEffect("nausea");
+          player.removeEffect("hunger");
+          player.addEffect("saturation", 400);
+          break;
+        case "2":
+          player.removeEffect("slowness");
+          player.removeEffect("mining_fatigue");
+          player.removeEffect("nausea");
+          player.removeEffect("blindness");
+          player.removeEffect("hunger");
+          player.removeEffect("weakness");
+          player.removeEffect("poison");
+          player.removeEffect("wither");
+          player.removeEffect("levitation");
+          player.removeEffect("fatal_poison");
+          player.removeEffect("darkness");
+          break;
+        case "3":
+          player.removeEffect("darkness");
+          player.removeEffect("blindness");
+          player.addEffect("night_vision", 400);
+          break;
+        case "4":
+          player.addEffect("darkness", 600);
+          player.addEffect("blindness", 600);
+          player.removeEffect("night_vision");
+          break;
+        case "5":
+          player.removeEffect("wither");
+          player.removeEffect("poison");
+          player.removeEffect("fatal_poison");
+          player.addEffect("absorption", 400);
+          break;
+        case "6":
+          player.removeEffect("weakness");
+          player.addEffect("strength", 400);
+          break;
+        case "7":
+          player.removeEffect("slowness");
+          player.addEffect("speed", 600);
+          break;
+        case "8":
+          player.removeEffect("slowness");
+          player.addEffect("jump_boost", 600);
+          break;
+        case "9":
+          player.addEffect("poison", 400);
+          player.addEffect("slowness", 400);
+          player.addEffect("weakness", 400);
+          break;
+        case "10":
+          player.kill();
+          break;
+        case "11":
+          player.addEffect("speed", 400);
+          player.addEffect("haste", 400);
+          player.addEffect("strength", 400);
+          player.addEffect("jump_boost", 400);
+          player.addEffect("resistance", 400);
+          player.addEffect("regeneration", 400);
+          player.addEffect("water_breathing", 400);
+          player.addEffect("fire_resistance", 400);
+          player.addEffect("night_vision", 400);
+          player.addEffect("slow_falling", 400);
+          player.addEffect("saturation", 400);
+          player.addEffect("absorption", 400);
+          player.addEffect("village_hero", 400);
+          break;
+        case "12":
+          player.removeEffect("bad_omen");
+          player.addEffect("village_hero", 3000);
+          break;
+        case "13":
+          player.removeEffect("mining_fatigue");
+          player.addEffect("water_breathing", 200);
+          break;
+        case "14":
+          player.addEffect("fire_resistance", 400);
+          break;
+        case "15":
+          player.addEffect("health_boost", 6000);
+          break;
+        default:
+          break;
+      }
+      break;
+    case "hy:medicine":
+      switch (event.message) {
+        case "1":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.3`",
+          );
+          break;
+        case "2":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.1`",
+          );
+          break;
+        case "3":
+        case "4":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.5`",
+          );
+          break;
+        case "5":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.11`",
+          );
+          break;
+        case "6":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.11`",
+          );
+          break;
+        case "7":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.6`",
+          );
+          break;
+        case "8":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.12`",
+          );
+          break;
+        case "9":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.13`",
+          );
+          break;
+        case "10":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.15`",
+          );
+          break;
+        case "11":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.7&8`",
+          );
+          break;
+        case "12":
+          console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.4`",
+          );
+          break;
+        default:
+          break;
+      }
+      break;
+    case "hy:copper_apple":
+      if (event.message === "enchanted") {
+        player.addEffect("absorption", 1200);
+        player.addEffect("fire_resistance", 1200);
+        player.addEffect("speed", 200);
+      } else if (event.message === "normal") {
+        player.addEffect("absorption", 600);
+        player.addEffect("fire_resistance", 200);
+      }
+      break;
+    case "hy:fuel_metal":
+      world.sendMessage(hyMessage.fuel);
+      switch (event.message) {
+        case "normal":
+          player.addEffect("fatal_poison", 1200);
+          break;
+        case "mineral":
+          player.addEffect("fatal_poison", 800, {
+            amplifier: 1,
+          });
+          break;
+        case "nightmare":
+          player.addEffect("strength", 500);
+          player.addEffect("night_vision", 500);
+          break;
+        case "stick":
+          player.applyDamage(2);
+          break;
+        default:
+          break;
+      }
+      break;
+    default:
+      break;
+  }
+});
