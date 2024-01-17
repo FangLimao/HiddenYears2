@@ -14,9 +14,6 @@
     "hy.oxidized_copper_hammer": {
       "textures": "textures/items/tools/hammers/copper_hammers/oxidized_copper_hammer"
     },
-    "hy.copper_hammer_template": {
-      "textures": "textures/items/templates/tools/hammers/copper_hammers/hammer_template"
-    },
     "hy.wooden_handle": {
       "textures": "textures/items/materials/handles/wooden_handle"
     },
@@ -422,24 +419,6 @@
     "hy.flash_metal_awl": {
       "textures": "textures/items/materials/awls/flash_metal_awl"
     },
-    "hy.medicines.default": {
-      "textures": "textures/items/foods_and_drinks/medicines/medicine_default"
-    },
-    "hy.medicines.eye": {
-      "textures": "textures/items/foods_and_drinks/medicines/medicine_eye"
-    },
-    "hy.medicines.dope": {
-      "textures": "textures/items/foods_and_drinks/medicines/medicine_dope"
-    },
-    "hy.medicines.poison": {
-      "textures": "textures/items/foods_and_drinks/medicines/medicine_poison"
-    },
-    "hy.medicines.newlife": {
-      "textures": "textures/items/foods_and_drinks/medicines/medicine_newlife"
-    },
-    "hy.medicines.nausea": {
-      "textures": "textures/items/foods_and_drinks/medicines/medicine_nausea"
-    },
     "hy.medicines.bandage": {
       "textures": "textures/items/foods_and_drinks/medicines/bandage"
     },
@@ -508,15 +487,6 @@
     },
     "hy.oxidized_copper_knife": {
       "textures": "textures/items/tools/weapons/knifes/copper_knifes/oxidized_copper_knife"
-    },
-    "hy.exposed_copper_dagger": {
-      "textures": "textures/items/tools/weapons/daggers/copper_daggers/exposed_copper_dagger"
-    },
-    "hy.weathered_copper_dagger": {
-      "textures": "textures/items/tools/weapons/daggers/copper_daggers/weathered_copper_dagger"
-    },
-    "hy.oxidized_copper_dagger": {
-      "textures": "textures/items/tools/weapons/daggers/copper_daggers/oxidized_copper_dagger"
     },
     "hy.copper_apple": {
       "textures": "textures/items/foods_and_drinks/copper_apple"
@@ -608,12 +578,6 @@
     "hy.lv1_corrosion_ingot": {
       "textures": "textures/items/materials/ingots/corrosion_ingots/lv1_corrosion_ingot"
     },
-    "hy.lv2_corrosion_ingot": {
-      "textures": "textures/items/materials/ingots/corrosion_ingots/lv2_corrosion_ingot"
-    },
-    "hy.lv3_corrosion_ingot": {
-      "textures": "textures/items/materials/ingots/corrosion_ingots/lv3_corrosion_ingot"
-    },
     "hy.exposed_copper_dust": {
       "textures": "textures/items/materials/dusts/corrosion_dusts/exposed_copper_dust"
     },
@@ -700,6 +664,48 @@
     },
     "hy.flash_copper_boots": {
       "textures": "textures/items/armors/flash_copper_armors/flash_copper_boots"
+    },
+    "hy.medicines.1": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_1"
+    },
+    "hy.medicines.2": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_2"
+    },
+    "hy.medicines.3": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_3"
+    },
+    "hy.medicines.4": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_4"
+    },
+    "hy.medicines.5": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_5"
+    },
+    "hy.medicines.6": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_6"
+    },
+    "hy.medicines.7": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_7"
+    },
+    "hy.medicines.8": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_8"
+    },
+    "hy.medicines.9": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_9"
+    },
+    "hy.medicines.10": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_10"
+    },
+    "hy.medicines.11": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_11"
+    },
+    "hy.medicines.12": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_12"
+    },
+    "hy.medicines.13": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_13"
+    },
+    "hy.medicines.14": {
+      "textures": "textures/items/foods_and_drinks/medicines/medicine_14"
     }
   }
 }
