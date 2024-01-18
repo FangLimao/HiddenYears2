@@ -93,66 +93,9 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
       }
       break;
     case "hy:medicine":
-      switch (event.message) {
-        case "1":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.3`",
+      console.error(
+            "[hy2]This script event is deprecated,please use event `hy:medicine_poison`",
           );
-          break;
-        case "2":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.1`",
-          );
-          break;
-        case "3":
-        case "4":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.5`",
-          );
-          break;
-        case "5":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.11`",
-          );
-          break;
-        case "6":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.11`",
-          );
-          break;
-        case "7":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.6`",
-          );
-          break;
-        case "8":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.12`",
-          );
-          break;
-        case "9":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.13`",
-          );
-          break;
-        case "10":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.15`",
-          );
-          break;
-        case "11":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.7&8`",
-          );
-          break;
-        case "12":
-          console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison.4`",
-          );
-          break;
-        default:
-          break;
-      }
       break;
     case "hy:copper_apple":
       if (event.message === "enchanted") {
