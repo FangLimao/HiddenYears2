@@ -273,18 +273,6 @@ hy.item.flash_metal_sword=闪金剑
 hy.block.flash_metal_block=闪金块
 
 hy.block.lab_table=实验台
-hy.item.medicines.1=眼药水
-hy.item.medicines.2=胃药
-hy.item.medicines.3=驱邪药
-hy.item.medicines.4=驱毒药
-hy.item.medicines.5=驱魔药
-hy.item.medicines.6=灵药
-hy.item.medicines.7=枸橼酸铁铵溶液
-hy.item.medicines.8=村庄探索者溶液
-hy.item.medicines.9=海底探索者溶液
-hy.item.medicines.10=新生者溶液
-hy.item.medicines.11=兴奋剂
-hy.item.medicines.12=致盲眼药水
 hy.item.medicines.medicine_pack=医药包
 hy.item.medicines.bandage=绷带
 
@@ -442,3 +430,18 @@ entity.hy:oldb.name=[方漓猫的呆毛]
 hy.block.flash_copper_ore=闪铜矿石
 hy.block.deepslate_copper_ore=深层闪铜矿石
 hy.block.flash_copper_block=闪铜块
+
+hy.item.medicines.1=蒲公英药水
+hy.item.medicines.2=谜之药水
+hy.item.medicines.3=兰花药水
+hy.item.medicines.4=绒球葱药水
+hy.item.medicines.5=蓝花美耳草药水
+hy.item.medicines.6=郁金香药水
+hy.item.medicines.7=滨菊药水
+hy.item.medicines.8=矢车菊药水
+hy.item.medicines.9=铃兰药水
+hy.item.medicines.10=抹除药水
+hy.item.medicines.11=火把花药水
+hy.item.medicines.12=瓶子草药水
+hy.item.medicines.13=海草药水
+hy.item.medicines.14=向日葵药水

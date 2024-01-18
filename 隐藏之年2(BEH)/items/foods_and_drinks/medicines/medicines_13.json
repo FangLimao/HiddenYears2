@@ -2,15 +2,15 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:medicine_8",
+      "identifier": "hy:medicine_13",
       "category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "hy.medicines.8"
+        "texture": "hy.medicines.13"
       },
       "minecraft:display_name": {
-        "value": "hy.item.medicines.8"
+        "value": "hy.item.medicines.13"
       },
       "minecraft:creative_category": {
         "category": "equipment"
@@ -33,7 +33,7 @@
       "hy.on_drink": {
         "run_command": {
           "target": "self",
-          "command": ["scriptevent hy:medicine_poison 8"]
+          "command": ["scriptevent hy:medicine_poison 13"]
         }
       }
     }

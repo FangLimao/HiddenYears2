@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:icon": {
-        "texture": "hy.medicines.dope"
+        "texture": "hy.medicines.11"
       },
       "minecraft:display_name": {
         "value": "hy.item.medicines.11"
@@ -33,7 +33,7 @@
       "hy.on_drink": {
         "run_command": {
           "target": "self",
-          "command": ["scriptevent hy:medicine 11"]
+          "command": ["scriptevent hy:medicine_poison 11"]
         }
       }
     }
