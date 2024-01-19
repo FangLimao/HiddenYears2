@@ -94,8 +94,8 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
       break;
     case "hy:medicine":
       console.error(
-            "[hy2]This script event is deprecated,please use event `hy:medicine_poison`",
-          );
+        "[hy2]This script event is deprecated,please use event `hy:medicine_poison`",
+      );
       break;
     case "hy:copper_apple":
       if (event.message === "enchanted") {
