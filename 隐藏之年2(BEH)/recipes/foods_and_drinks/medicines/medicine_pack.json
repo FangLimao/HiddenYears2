@@ -11,7 +11,7 @@
         "item": "paper"
       },
       "S": {
-        "tag": "hy:medicine_poison"
+        "tag": "hy:medicine_potion"
       }
     },
     "unlock": [
@@ -19,7 +19,7 @@
         "item": "paper"
       },
       {
-        "tag": "hy:medicine_poison"
+        "tag": "hy:medicine_potion"
       }
     ],
     "result": {

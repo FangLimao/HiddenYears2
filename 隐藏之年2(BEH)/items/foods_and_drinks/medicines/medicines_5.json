@@ -27,12 +27,12 @@
           "target": "self"
         }
       },
-      "tag:hy:medicine_poison": {}
+      "tag:hy:medicine_potion": {}
     },
     "events": {
       "hy.on_drink": {
         "run_command": {
-          "command": ["scriptevent hy:medicine_poison 5"]
+          "command": ["scriptevent hy:medicine_potion 5"]
         }
       }
     }

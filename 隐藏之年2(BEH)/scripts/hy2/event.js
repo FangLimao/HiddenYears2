@@ -3,7 +3,7 @@ import { system } from "@minecraft/server";
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   const player = event.sourceEntity;
   switch (event.id) {
-    case "hy:medicine_poison":
+    case "hy:medicine_potion":
       switch (event.message) {
         case "1":
           player.removeEffect("nausea");
