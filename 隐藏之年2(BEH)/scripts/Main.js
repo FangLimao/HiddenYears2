@@ -1,7 +1,14 @@
 // @todo:移植更新播报
 import { world, system } from "@minecraft/server";
+import { MessageFormData } from "@minecraft/server-ui";
 import { itemBark, hyMessage } from "hy2/data.js";
 import "hy2/event.js";
+
+let aboutForm = new MessageFormData();
+aboutForm.title("关于隐藏之年²");
+aboutForm.body("Are you sure you want to run this command:\n/gamerule randomtickspeed 1000\nThis can cause lag to the world");
+aboutForm.button1("No, leave it as default!");
+aboutForm.button2("Yes, do it!");
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
