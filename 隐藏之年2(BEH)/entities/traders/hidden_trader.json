@@ -14,7 +14,7 @@
         "new_screen": true
       },
       "minecraft:type_family": {
-        "family": ["hidden_trader", "mob","trader"]
+        "family": ["hidden_trader", "mob", "trader"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
