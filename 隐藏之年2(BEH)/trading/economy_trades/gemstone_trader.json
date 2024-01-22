@@ -3,52 +3,179 @@
     {
       "groups": [
         {
-          "num_to_select": 5,
+          "num_to_select": 4,
           "trades": [
             {
               "max_uses": 16,
-              "wants": [{ "item": "hy:diamond_coin", "quantity": 1 }],
-              "gives": [{ "item": "iron_block", "quantity": 18 }]
+              "wants": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "copper_ingot",
+                  "quantity": 5
+                }
+              ]
             },
             {
               "max_uses": 16,
-              "wants": [{ "item": "hy:diamond_coin", "quantity": 1 }],
-              "gives": [{ "item": "copper_block", "quantity": 20 }]
+              "wants": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "iron_ingot",
+                  "quantity": 18
+                }
+              ]
             },
             {
               "max_uses": 8,
-              "wants": [{ "item": "hy:diamond_coin", "quantity": 2 }],
-              "gives": [{ "item": "gold_block", "quantity": 15 }]
-            },
-            {
-              "max_uses": 16,
-              "wants": [{ "item": "hy:stack_of_diamond_coin", "quantity": 15 }],
-              "gives": [{ "item": "diamond_block", "quantity": 1 }]
-            },
-            {
-              "max_uses": 16,
-              "wants": [{ "item": "hy:stack_of_diamond_coin", "quantity": 32 }],
-              "gives": [{ "item": "netherite_ingot", "quantity": 3 }]
-            },
-            {
-              "max_uses": 16,
-              "wants": [{ "item": "hy:stack_of_diamond_coin", "quantity": 5 }],
+              "wants": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 10
+                }
+              ],
               "gives": [
-                { "item": "dune_armor_trim_smithing_template", "quantity": 1 }
+                {
+                  "item": "gold_ingot",
+                  "quantity": 20
+                }
               ]
             },
             {
               "max_uses": 16,
-              "wants": [{ "item": "hy:stack_of_diamond_coin", "quantity": 7 }],
+              "wants": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 12
+                }
+              ],
               "gives": [
-                { "item": "tide_armor_trim_smithing_template", "quantity": 1 }
+                {
+                  "item": "quartz",
+                  "quantity": 12
+                }
               ]
             },
             {
               "max_uses": 16,
-              "wants": [{ "item": "hy:stack_of_diamond_coin", "quantity": 32 }],
+              "wants": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 15
+                }
+              ],
               "gives": [
-                { "item": "eye_armor_trim_smithing_template", "quantity": 3 }
+                {
+                  "item": "lapis_lazuli",
+                  "quantity": 12
+                }
+              ]
+            },
+            {
+              "max_uses": 16,
+              "wants": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 35
+                }
+              ],
+              "gives": [
+                {
+                  "item": "diamond",
+                  "quantity": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "max_uses": 16,
+              "wants": [
+                {
+                  "item": "yellow_flower",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 16,
+              "wants": [
+                {
+                  "item": "red_flower",
+                  "quantity": 3,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": 0
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 16,
+              "wants": [
+                {
+                  "item": "double_plant",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": 0
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 3
+                }
+              ]
+            },
+            {
+              "max_uses": 16,
+              "wants": [
+                {
+                  "item": "red_flower",
+                  "quantity": 7,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": 1
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "hy:copper_coin",
+                  "quantity": 1
+                }
               ]
             }
           ]

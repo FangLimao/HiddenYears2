@@ -56,7 +56,9 @@
                   "price_multiplier": 0.05
                 }
               ],
-              "gives": [{ "item": "netherite_upgrade_smithing_template", "quantity": 1 }],
+              "gives": [
+                { "item": "netherite_upgrade_smithing_template", "quantity": 1 }
+              ],
               "trader_exp": 2,
               "max_uses": 16,
               "reward_exp": true
