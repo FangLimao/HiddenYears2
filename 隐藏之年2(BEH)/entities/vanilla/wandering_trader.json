@@ -11,7 +11,7 @@
       "managed": { "minecraft:managed_wandering_trader": {} },
       "despawning": {
         "minecraft:type_family": {
-          "family": ["wandering_trader", "wandering_trader_despawning", "mob"]
+          "family": ["wandering_trader", "wandering_trader_despawning", "trader","mob"]
         }
       },
       "minecraft:scared": {
@@ -33,7 +33,7 @@
       "minecraft:loot": {
         "table": "loot_tables/entities/wandering_trader.json"
       },
-      "minecraft:type_family": { "family": ["wandering_trader", "mob"] },
+      "minecraft:type_family": { "family": ["wandering_trader", "mob","trader"] },
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:timer": {
         "looping": false,

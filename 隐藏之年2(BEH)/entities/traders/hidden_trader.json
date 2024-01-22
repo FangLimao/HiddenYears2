@@ -2,22 +2,19 @@
   "format_version": "1.20.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "hy:gemstone_trader",
+      "identifier": "hy:hidden_trader",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
     },
     "components": {
       "minecraft:economy_trade_table": {
-        "display_name": "entity.hy:gemstone_trader.name",
-        "table": "trading/economy_trades/gemstone_trader.json",
+        "display_name": "entity.hy:hidden_trader.name",
+        "table": "trading/economy_trades/hidden_trader.json",
         "new_screen": true
       },
-      "minecraft:loot": {
-        "table": "loot_tables/entities/gemstone_trader.json"
-      },
       "minecraft:type_family": {
-        "family": ["gemstone_trader", "mob", "trader"]
+        "family": ["hidden_trader", "mob","trader"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
