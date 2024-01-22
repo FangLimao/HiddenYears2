@@ -434,3 +434,6 @@ hy.item.medicines.11=火把花药水
 hy.item.medicines.12=瓶子草药水
 hy.item.medicines.13=海草药水
 hy.item.medicines.14=向日葵药水
+
+entity.hy:hidden_trader.name=隐秘商人
+item.spawn_egg.entity.hy:hidden_trader.name=隐秘商人刷怪蛋

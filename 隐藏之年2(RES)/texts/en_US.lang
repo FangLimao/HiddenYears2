@@ -435,3 +435,6 @@ hy.item.medicines.11=Torchflower Poison
 hy.item.medicines.12=Pitcher Plant Poison
 hy.item.medicines.13=Seagrass Poison
 hy.item.medicines.14=Sunflower Poison
+
+entity.hy:hidden_trader.name=Hidden Trader
+item.spawn_egg.entity.hy:hidden_trader.name=Hidden Trader Spawn Egg
