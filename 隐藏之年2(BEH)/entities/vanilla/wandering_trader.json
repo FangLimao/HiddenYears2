@@ -8,7 +8,15 @@
       "is_experimental": false
     },
     "component_groups": {
-      "managed": { "minecraft:managed_wandering_trader": {} },
+      "become_hidden_trader": {
+        "minecraft:transformation": {
+          "into": "hy:hidden_trader",
+          "delay": 0.5
+        }
+      },
+      "managed": {
+        "minecraft:managed_wandering_trader": {}
+      },
       "despawning": {
         "minecraft:type_family": {
           "family": [
@@ -30,7 +38,10 @@
             "subject": "other",
             "value": true
           },
-          "calm_event": { "event": "minecraft:become_calm", "target": "self" }
+          "calm_event": {
+            "event": "minecraft:become_calm",
+            "target": "self"
+          }
         }
       }
     },
@@ -45,8 +56,14 @@
       "minecraft:timer": {
         "looping": false,
         "random_time_choices": [
-          { "weight": 50, "value": 2400 },
-          { "weight": 50, "value": 3600 }
+          {
+            "weight": 50,
+            "value": 2400
+          },
+          {
+            "weight": 50,
+            "value": 3600
+          }
         ],
         "time_down_event": {
           "event": "minecraft:start_despawn",
@@ -71,8 +88,14 @@
         "table": "trading/economy_trades/wandering_trader_trades.json",
         "new_screen": true
       },
-      "minecraft:breathable": { "total_supply": 15, "suffocate_time": 0 },
-      "minecraft:health": { "value": 20, "max": 20 },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
@@ -87,8 +110,13 @@
           }
         ]
       },
-      "minecraft:collision_box": { "width": 0.6, "height": 1.9 },
-      "minecraft:movement": { "value": 0.5 },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
       "minecraft:navigation.walk": {
         "can_path_over_water": true,
         "can_pass_doors": true,
@@ -98,8 +126,12 @@
       "minecraft:movement.basic": {},
       "minecraft:jump.static": {},
       "minecraft:can_climb": {},
-      "minecraft:home": { "restriction_radius": 16 },
-      "minecraft:behavior.float": { "priority": 0 },
+      "minecraft:home": {
+        "restriction_radius": 16
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
       "minecraft:conditional_bandwidth_optimization": {},
       "minecraft:despawn": {
         "remove_child_entities": true,
@@ -130,19 +162,31 @@
       "minecraft:damage_sensor": {
         "triggers": [
           {
-            "cause": "entity_attack",
-            "deals_damage": true,
-            "on_damage": { "event": "minecraft:become_scared" }
+            "on_damage": {
+              "filters": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "lightning"
+                }
+              ],
+              "event": "become_hidden_trader"
+            },
+            "deals_damage": false
           },
           {
             "cause": "projectile",
             "deals_damage": true,
-            "on_damage": { "event": "minecraft:become_scared" }
+            "on_damage": {
+              "event": "minecraft:become_scared"
+            }
           },
           {
             "cause": "magic",
             "deals_damage": true,
-            "on_damage": { "event": "minecraft:become_scared" }
+            "on_damage": {
+              "event": "minecraft:become_scared"
+            }
           }
         ]
       },
@@ -150,11 +194,24 @@
         "priority": 1,
         "filters": {
           "all_of": [
-            { "all_of": [{ "test": "in_water", "value": false }] },
+            {
+              "all_of": [
+                {
+                  "test": "in_water",
+                  "value": false
+                }
+              ]
+            },
             {
               "any_of": [
-                { "test": "on_ground", "value": true },
-                { "test": "is_sleeping", "value": true }
+                {
+                  "test": "on_ground",
+                  "value": true
+                },
+                {
+                  "test": "is_sleeping",
+                  "value": true
+                }
               ]
             }
           ]
@@ -168,8 +225,13 @@
         "carried_item_switch_time": 2.0,
         "cooldown": 2.0
       },
-      "minecraft:behavior.look_at_trading_player": { "priority": 4 },
-      "minecraft:behavior.panic": { "priority": 1, "speed_multiplier": 0.6 },
+      "minecraft:behavior.look_at_trading_player": {
+        "priority": 4
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 0.6
+      },
       "minecraft:behavior.drink_potion": {
         "priority": 1,
         "speed_modifier": -0.2,
@@ -193,7 +255,11 @@
                     }
                   ]
                 },
-                { "test": "is_visible", "subject": "self", "value": true },
+                {
+                  "test": "is_visible",
+                  "subject": "self",
+                  "value": true
+                },
                 {
                   "any_of": [
                     {
@@ -236,7 +302,11 @@
                   "operator": "<",
                   "value": 18000
                 },
-                { "test": "is_visible", "subject": "self", "value": true },
+                {
+                  "test": "is_visible",
+                  "subject": "self",
+                  "value": true
+                },
                 {
                   "any_of": [
                     {
@@ -262,7 +332,11 @@
           {
             "filters": {
               "any_of": [
-                { "test": "is_family", "subject": "other", "value": "zombie" },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie"
+                },
                 {
                   "test": "is_family",
                   "subject": "other",
@@ -273,9 +347,21 @@
                   "subject": "other",
                   "value": "zombie_pigman"
                 },
-                { "test": "is_family", "subject": "other", "value": "illager" },
-                { "test": "is_family", "subject": "other", "value": "vex" },
-                { "test": "is_family", "subject": "other", "value": "zoglin" }
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "illager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "vex"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zoglin"
+                }
               ]
             },
             "walk_speed_multiplier": 0.6,
@@ -288,9 +374,20 @@
         "priority": 5,
         "filters": {
           "all_of": [
-            { "test": "is_daytime", "value": true },
-            { "test": "is_visible", "subject": "self", "value": false },
-            { "test": "is_avoiding_mobs", "subject": "self", "value": false }
+            {
+              "test": "is_daytime",
+              "value": true
+            },
+            {
+              "test": "is_visible",
+              "subject": "self",
+              "value": false
+            },
+            {
+              "test": "is_avoiding_mobs",
+              "subject": "self",
+              "value": false
+            }
           ]
         }
       },
@@ -307,7 +404,9 @@
         "look_distance": 8,
         "probability": 0.02
       },
-      "minecraft:behavior.random_look_around": { "priority": 9 },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
       "minecraft:physics": {},
       "minecraft:pushable": {
         "is_pushable": true,
@@ -316,15 +415,30 @@
       "minecraft:nameable": {}
     },
     "events": {
-      "minecraft:scheduled": { "add": { "component_groups": ["managed"] } },
+      "become_hidden_trader": {
+        "add": {
+          "component_groups": ["become_hidden_trader"]
+        }
+      },
+      "minecraft:scheduled": {
+        "add": {
+          "component_groups": ["managed"]
+        }
+      },
       "minecraft:start_despawn": {
-        "add": { "component_groups": ["despawning"] }
+        "add": {
+          "component_groups": ["despawning"]
+        }
       },
       "minecraft:become_scared": {
-        "add": { "component_groups": ["minecraft:scared"] }
+        "add": {
+          "component_groups": ["minecraft:scared"]
+        }
       },
       "minecraft:become_calm": {
-        "remove": { "component_groups": ["minecraft:scared"] }
+        "remove": {
+          "component_groups": ["minecraft:scared"]
+        }
       }
     }
   }
