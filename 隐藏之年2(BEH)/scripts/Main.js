@@ -1,16 +1,26 @@
-// @todo:移植更新播报
 import { world, system } from "@minecraft/server";
 import { MessageFormData } from "@minecraft/server-ui";
-import { itemBark, hyMessage } from "hy2/data.js";
+import { itemBark } from "hy2/data.js";
 import "hy2/event.js";
 
-let aboutForm = new MessageFormData();
-aboutForm.title("关于隐藏之年²");
-aboutForm.body(
-  "Are you sure you want to run this command:\n/gamerule randomtickspeed 1000\nThis can cause lag to the world",
-);
-aboutForm.button1("No, leave it as default!");
-aboutForm.button2("Yes, do it!");
+const VERSION_CODE = 2006;
+const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
+
+world.afterEvents.playerSpawn.subscribe((event)=>{
+if (VERSION_CODE !== LEAST_VERSION_CODE){
+world.sendMessage([
+      { translate: "hy.update.index" },
+    ]);
+    world.sendMessage([
+      { translate: "hy.update.version" },
+    ]);
+    world.sendMessage([
+      { translate: "hy.update.log" },
+    ]);
+    world.setDynamicProperty("hy:version_code", VERSION_CODE);
+}
+})
+
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
@@ -121,11 +131,19 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
       switch (randomChance) {
         case 1:
           player.applyDamage(2);
-          player.sendMessage(hyMessage.imitationDamage1);
+          player.sendMessage([
+            {
+              translate: "hy.message.imitation_damage.1",
+            },
+          ]);
           break;
         case 2:
           player.applyDamage(8);
-          player.sendMessage(hyMessage.imitationDamage2);
+          player.sendMessage([
+            {
+              translate: "hy.message.imitation_damage.2",
+            },
+          ]);
           break;
         default:
           break;
