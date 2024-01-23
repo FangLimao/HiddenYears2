@@ -7,7 +7,32 @@
       "is_summonable": true,
       "is_experimental": false
     },
+    "component_groups": {
+      "become_hidden_trader": {
+        "minecraft:transformation": {
+          "into": "hy:hidden_trader",
+          "delay": 0.5
+        }
+      }
+    },
     "components": {
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "lightning"
+                }
+              ],
+              "event": "become_hidden_trader"
+            },
+            "deals_damage": false
+          }
+        ]
+      },
       "minecraft:economy_trade_table": {
         "display_name": "entity.hy:gemstone_trader.name",
         "table": "trading/economy_trades/gemstone_trader.json",
@@ -92,6 +117,12 @@
         "is_pushable_by_piston": true
       }
     },
-    "events": {}
+    "events": {
+      "become_hidden_trader": {
+        "add": {
+          "component_groups": ["become_hidden_trader"]
+        }
+      }
+    }
   }
 }
