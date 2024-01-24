@@ -6,6 +6,12 @@ import "hy2/event.js";
 const VERSION_CODE = 2006;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
+function getRandomChance (){
+    let randomChance = Math.ceil(Math.random() * 10);
+    console.warn("[hy2]Random chance is " + randomChance);
+    return randomChance;
+};
+
 world.afterEvents.playerSpawn.subscribe((event) => {
   if (VERSION_CODE !== LEAST_VERSION_CODE) {
     world.sendMessage([{ translate: "hy.update.index" }]);
@@ -21,9 +27,8 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   let blockDimension = player.dimension;
   let playerLoc = player.location;
   if (block.hasTag("hy:suspicious_ores") === true) {
-    let randomChance = Math.ceil(Math.random() * 10);
-    console.warn("[hy2]Random chance is " + randomChance);
-    if (randomChance <= 8) {
+    let RANDOM_CHANCE = getRandomChance();
+    if (RANDOM_CHANCE <= 8) {
       blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
       blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
     } else {
@@ -119,9 +124,8 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   const player = event.player;
   if (typeof item != "undefined") {
     if (item.hasTag("hy:imitation_tools")) {
-      let randomChance = Math.ceil(Math.random() * 10);
-      console.warn("[hy2]Random chance is " + randomChance);
-      switch (randomChance) {
+      let RANDOM_CHANCE = getRandomChance();
+      switch (RANDOM_CHANCE) {
         case 1:
           player.applyDamage(2);
           player.sendMessage([
