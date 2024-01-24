@@ -6,21 +6,14 @@ import "hy2/event.js";
 const VERSION_CODE = 2006;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
-world.afterEvents.playerSpawn.subscribe((event)=>{
-if (VERSION_CODE !== LEAST_VERSION_CODE){
-world.sendMessage([
-      { translate: "hy.update.index" },
-    ]);
-    world.sendMessage([
-      { translate: "hy.update.version" },
-    ]);
-    world.sendMessage([
-      { translate: "hy.update.log" },
-    ]);
+world.afterEvents.playerSpawn.subscribe((event) => {
+  if (VERSION_CODE !== LEAST_VERSION_CODE) {
+    world.sendMessage([{ translate: "hy.update.index" }]);
+    world.sendMessage([{ translate: "hy.update.version" }]);
+    world.sendMessage([{ translate: "hy.update.log" }]);
     world.setDynamicProperty("hy:version_code", VERSION_CODE);
-}
-})
-
+  }
+});
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
@@ -124,7 +117,7 @@ world.afterEvents.itemUseOn.subscribe((event) => {
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const item = event.itemStackBeforeBreak;
   const player = event.player;
-  if (item != undefined) {
+  if (typeof item != "undefined") {
     if (item.hasTag("hy:imitation_tools")) {
       let randomChance = Math.ceil(Math.random() * 10);
       console.warn("[hy2]Random chance is " + randomChance);
