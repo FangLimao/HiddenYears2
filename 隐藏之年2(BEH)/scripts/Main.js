@@ -24,15 +24,13 @@ world.afterEvents.playerSpawn.subscribe((event) => {
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
   const player = event.player;
-  let blockDimension = player.dimension;
-  let playerLoc = player.location;
   if (block.hasTag("hy:suspicious_ores") === true) {
     let RANDOM_CHANCE = getRandomChance();
     if (RANDOM_CHANCE <= 8) {
-      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
-      blockDimension.spawnEntity("minecraft:silverfish", playerLoc);
+      player.dimension.spawnEntity("silverfish", player.location);
+      player.dimension.spawnEntity("silverfish", player.location);
     } else {
-      blockDimension.spawnEntity("hy:oldb", playerLoc);
+      player.dimension.spawnEntity("hy:oldb", player.location);
     }
   }
   if (block.hasTag("hy:custom_ores") === true) {
@@ -111,11 +109,9 @@ world.afterEvents.itemUse.subscribe((event) => {
 
 world.afterEvents.itemUseOn.subscribe((event) => {
   const player = event.source;
-  const dimension = player.dimension;
-  let playerLoc = player.location;
   if (event.itemStack.hasTag("hy:is_awl") === true) {
-    dimension.spawnItem(itemBark, playerLoc);
-    world.playSound("use.wood", playerLoc);
+    player.dimension.spawnItem(itemBark, player.location);
+    world.playSound("use.wood", player.location);
   }
 });
 
