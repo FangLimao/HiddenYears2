@@ -488,9 +488,6 @@
     "hy.oxidized_copper_knife": {
       "textures": "textures/items/tools/weapons/knifes/copper_knifes/oxidized_copper_knife"
     },
-    "hy.copper_apple": {
-      "textures": "textures/items/foods_and_drinks/copper_apple"
-    },
     "hy.flash_copper_ingot": {
       "textures": "textures/items/materials/ingots/flash_copper_ingot"
     },
@@ -706,6 +703,27 @@
     },
     "hy.medicines.14": {
       "textures": "textures/items/foods_and_drinks/medicines/medicine_14"
+    },
+    "hy.copper_apple": {
+      "textures": "textures/items/foods_and_drinks/copper_apple"
+    },
+    "hy.copper_bread": {
+      "textures": "textures/items/foods_and_drinks/copper_bread"
+    },
+        "hy.copper_carrot": {
+      "textures": "textures/items/foods_and_drinks/copper_carrot"
+    },
+        "hy.copper_hodgepodge": {
+      "textures": "textures/items/foods_and_drinks/copper_hodgepodge"
+    },
+        "hy.copper_kelp": {
+      "textures": "textures/items/foods_and_drinks/copper_kelp"
+    },
+        "hy.copper_melon_slice": {
+      "textures": "textures/items/foods_and_drinks/copper_melon_slice"
+    },
+        "hy.copper_potato": {
+      "textures": "textures/items/foods_and_drinks/copper_potato"
     }
   }
 }

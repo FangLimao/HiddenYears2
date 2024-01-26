@@ -68,6 +68,7 @@
 - 星屹工作室：开发团队
 - 方漓猫：所有者/策划/程序/美术
 - 大队长\_Captain：美术
+- KuLou_D：美术
 - RawDiamondMC：程序
 - oldb：吉祥物
 
