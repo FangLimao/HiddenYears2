@@ -1,5 +1,5 @@
 pack.name=HiddenYears²
-pack.description=The Add-on for you ｜ Release 2.0.5  [§lNeed Bedrock 1.20.50+ and enable§6 Holiday Creator Features,Custom Biomes,Upcoming Creator Features§r experimental gameplays]
+pack.description=The Add-on for you ｜ Release 2.0.5  [§lNeed Bedrock 1.20.5X and enable§6 Holiday Creator Features,Custom Biomes,Upcoming Creator Features§r experimental gameplays]
 hy.update.index=§l§6Thanks for playing HiddenYears²
 hy.update.version=§l§bYou loaded HiddenYears² 2.0.5
 hy.update.bbs=§7§oThis Add-on is made by CTN Studios,and open source according to the MIT LICENSE.
@@ -435,6 +435,13 @@ hy.item.medicines.11=Torchflower Poison
 hy.item.medicines.12=Pitcher Plant Poison
 hy.item.medicines.13=Seagrass Poison
 hy.item.medicines.14=Sunflower Poison
+
+hy.item.copper_kelp=Copper Kelp
+hy.item.copper_carrot=Copper Carrot
+hy.item.copper_bread=Copper Bread
+hy.item.copper_hodgepodge=Copper Hodgepodge
+hy.item.copper_melon_slice=Copper Melon Slice
+hy.item.copper_potato=Copper Potato
 
 entity.hy:hidden_trader.name=Hidden Trader
 item.spawn_egg.entity.hy:hidden_trader.name=Hidden Trader Spawn Egg

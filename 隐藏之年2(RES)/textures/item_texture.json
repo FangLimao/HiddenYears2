@@ -705,25 +705,25 @@
       "textures": "textures/items/foods_and_drinks/medicines/medicine_14"
     },
     "hy.copper_apple": {
-      "textures": "textures/items/foods_and_drinks/copper_apple"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_apple"
     },
     "hy.copper_bread": {
-      "textures": "textures/items/foods_and_drinks/copper_bread"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_bread"
     },
         "hy.copper_carrot": {
-      "textures": "textures/items/foods_and_drinks/copper_carrot"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_carrot"
     },
         "hy.copper_hodgepodge": {
-      "textures": "textures/items/foods_and_drinks/copper_hodgepodge"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_hodgepodge"
     },
         "hy.copper_kelp": {
-      "textures": "textures/items/foods_and_drinks/copper_kelp"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_kelp"
     },
         "hy.copper_melon_slice": {
-      "textures": "textures/items/foods_and_drinks/copper_melon_slice"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_melon_slice"
     },
         "hy.copper_potato": {
-      "textures": "textures/items/foods_and_drinks/copper_potato"
+      "textures": "textures/items/foods_and_drinks/copper_foods/copper_potato"
     }
   }
 }

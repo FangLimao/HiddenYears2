@@ -1,9 +1,9 @@
 pack.name=隐藏之年²
-pack.description=为你而来的附加包 ｜ 正式版2.0.5 [§l本包需要基岩版1.20.50+并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
+pack.description=为你而来的附加包 ｜ 正式版2.0.5 [§l本包需要基岩版1.20.5X并开启§6假日创造者功能、自定义生物群系、即将到来的创作者功能§r实验性玩法]
 hy.update.index=§l§6感谢你选用隐藏之年²
 hy.update.version=§l§b你已成功更新/加载正式版2.0.5
 hy.update.bbs=§7§o本模组按照MIT协议开源，欢迎访问苦力怕论坛或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了隐秘商人
+hy.update.log=§l本次更新在隐藏之年²一周年时发布，并加入了更多的铜食物
 
 hy.empty=     
 
@@ -445,6 +445,13 @@ hy.item.medicines.11=火把花药水
 hy.item.medicines.12=瓶子草药水
 hy.item.medicines.13=海草药水
 hy.item.medicines.14=向日葵药水
+
+hy.item.copper_kelp=铜海带
+hy.item.copper_carrot=铜胡萝卜
+hy.item.copper_bread=铜面包
+hy.item.copper_hodgepodge=铜之杂烩
+hy.item.copper_melon_slice=铜西瓜片
+hy.item.copper_potato=铜马铃薯
 
 entity.hy:hidden_trader.name=隐秘商人
 item.spawn_egg.entity.hy:hidden_trader.name=隐秘商人刷怪蛋

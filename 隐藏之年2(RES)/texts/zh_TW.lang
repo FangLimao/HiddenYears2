@@ -4,7 +4,7 @@ pack.description=為你而來的附加包 ｜ 正式版2.0.4 [§l本包需要基
 hy.update.index=§l§6感謝你選用隱藏之年²
 hy.update.version=§l§b你已成功更新/加載正式版2.0.4
 hy.update.bbs=§7§o本模組按照MIT協議開源，歡迎訪問苦力怕論壇或者Minebbs了解更多！
-hy.update.log=§l本次更新加入了隱秘商人
+hy.update.log=§l本次更新在隱藏之年²一周年時發布，並加入了更多的銅食物
 
 hy.empty=     
 
@@ -445,6 +445,13 @@ hy.item.medicines.11=火把花藥水
 hy.item.medicines.12=瓶子草藥水
 hy.item.medicines.13=海草藥水
 hy.item.medicines.14=向日葵藥水
+
+hy.item.copper_kelp=銅海帶
+hy.item.copper_carrot=銅胡蘿蔔
+hy.item.copper_bread=銅面包
+hy.item.copper_hodgepodge=銅之雜燴
+hy.item.copper_melon_slice=銅西瓜片
+hy.item.copper_potato=銅馬鈴薯
 
 entity.hy:hidden_trader.name=隱秘商人
 item.spawn_egg.entity.hy:hidden_trader.name=隱秘商人刷怪蛋
