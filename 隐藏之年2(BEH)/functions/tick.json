@@ -1,5 +1,3 @@
 {
-  "values": [
-    "api/close_feedback/v1.0/on_first_load"
-  ]
+  "values": ["api/close_feedback/v1.0/on_first_load"]
 }

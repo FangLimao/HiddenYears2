@@ -6,11 +6,11 @@ import "hy2/event.js";
 const VERSION_CODE = 2006;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
-function getRandomChance (){
-    let randomChance = Math.ceil(Math.random() * 10);
-    console.warn("[hy2]Random chance is " + randomChance);
-    return randomChance;
-};
+function getRandomChance() {
+  let randomChance = Math.ceil(Math.random() * 10);
+  console.warn("[hy2]Random chance is " + randomChance);
+  return randomChance;
+}
 
 world.afterEvents.playerSpawn.subscribe((event) => {
   if (VERSION_CODE !== LEAST_VERSION_CODE) {
