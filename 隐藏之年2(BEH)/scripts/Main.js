@@ -3,7 +3,7 @@ import { MessageFormData } from "@minecraft/server-ui";
 import { itemBark } from "hy2/data.js";
 import "hy2/event.js";
 
-const VERSION_CODE = 2006;
+const VERSION_CODE = 2007;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
 function getRandomChance() {
