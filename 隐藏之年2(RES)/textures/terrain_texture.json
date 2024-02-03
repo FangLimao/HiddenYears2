@@ -105,6 +105,12 @@
     },
     "hy.flash_copper_block": {
       "textures": "textures/blocks/ingot_blocks/flash_copper_block"
+    },
+    "hy.chocolate_block": {
+      "textures": "textures/blocks/ingot_blocks/chocolate_block"
+    },
+    "hy.chocolate_bricks": {
+      "textures": "textures/blocks/ingot_blocks/chocolate_bricks"
     }
   }
 }

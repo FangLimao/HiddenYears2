@@ -2,6 +2,7 @@ import { world, system } from "@minecraft/server";
 import { MessageFormData } from "@minecraft/server-ui";
 import { itemBark } from "hy2/data.js";
 import "hy2/event.js";
+import "hy2/ui.js";
 
 const VERSION_CODE = 2007;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");

@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["星屹工作室", "方漓猫", "大队长_Captain", "KuLou_D", "oldb"],
+    "license": "BSD-3",
+    "url": "https://klpbbs.com/thread-85797-1-1.html"
+  },
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "min_engine_version": [1, 20, 50],
+    "uuid": "e37c1954-95fa-4048-b4de-173d408952cc",
+    "version": "2.0.10",
+    "pack_scope": "world"
+  },
+  "capabilities": ["script_eval"],
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "077808ee-6bef-4a56-9ca2-3985c5c9663b",
+      "version": "2.0.10"
+    },
+    {
+      "type": "script",
+      "uuid": "d518d3a4-f900-479a-9968-bdd3eb25ee3d",
+      "version": "1.0.0-alpha",
+      "entry": "scripts/Main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ]
+}

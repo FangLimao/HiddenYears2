@@ -1,8 +1,53 @@
 import { system } from "@minecraft/server";
 
+function getRandomChance() {
+  let randomChance = Math.ceil(Math.random() * 10);
+  console.warn("[hy2]Random chance is " + randomChance);
+  return randomChance;
+}
+
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   const player = event.sourceEntity;
   switch (event.id) {
+    case "hy:candy":
+      switch (event.message) {
+        case "honey_candy":
+          player.addEffect("saturation", 600);
+          break;
+        case "syrup":
+          player.addEffect("fire_resistance", 160);
+          break;
+        case "chocolate_paste":
+          player.addEffect("fire_resistance", 900);
+          break;
+        case "milk_chocolate":
+          player.runCommand("effect clear");
+          break;
+        case "berry_chocolate":
+          player.addEffect("instant_health", 1, {
+            amplifier: 1,
+          });
+          break;
+        case "amethyst_chocolate":
+          player.addLevels(2);
+          break;
+        case "marshmallow":
+          let RANDOM_CHANCE = getRandomChance();
+          if (RANDOM_CHANCE > 5) {
+            player.addEffect("levitation", 100);
+          }
+          break;
+        case "berry_marshmallow":
+          player.addEffect("instant_health", 1);
+          break;
+        case "amethyst_marshmallow":
+          player.addLevels(3);
+          break;
+        default:
+          break;
+      }
+
+      break;
     case "hy:medicine_potion":
       switch (event.message) {
         case "1":

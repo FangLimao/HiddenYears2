@@ -261,5 +261,13 @@
   "hy:deepslate_flash_copper_ore": {
     "sound": "deepslate",
     "textures": "hy.deepslate_flash_copper_ore"
+  },
+  "hy:chocolate_block": {
+    "sound": "metal",
+    "textures": "hy.chocolate_block"
+  },
+  "hy:chocolate_bricks": {
+    "sound": "metal",
+    "textures": "hy.chocolate_bricks"
   }
 }

@@ -445,3 +445,16 @@ hy.item.copper_potato=Copper Potato
 
 entity.hy:hidden_trader.name=Hidden Trader
 item.spawn_egg.entity.hy:hidden_trader.name=Hidden Trader Spawn Egg
+hy.item.honey_candy=Honey Candy
+hy.item.syrup=Syrup
+hy.item.chocolate_paste=Chocolate Paste
+hy.item.chocolate_bar=Chocolate Bar
+hy.item.chocolate=Chocolate
+hy.item.milk_chocolate=Milk Chocolate
+hy.item.sweet_berry_chocolate=Sweet Berry Chocolate
+hy.item.amethyst_chocolate=Amethyst Chocolate
+hy.item.marshmallow=Marshallow
+hy.item.sweet_berry_marshmallow=Sweet Berry Marshmallow
+hy.item.amethyst_marshmallow=Amethyst Marshmallow
+hy.block.chocolate_block=Chocolate Block
+hy.block.chocolate_bricks=Chocolate Bricks

@@ -444,3 +444,17 @@ hy.item.copper_potato=铜马铃薯
 
 entity.hy:hidden_trader.name=隐秘商人
 item.spawn_egg.entity.hy:hidden_trader.name=隐秘商人刷怪蛋
+
+hy.item.honey_candy=蜜味糖
+hy.item.syrup=糖水
+hy.item.chocolate_paste=巧克力糊
+hy.item.chocolate_bar=巧克力棒
+hy.item.chocolate=巧克力
+hy.item.milk_chocolate=牛奶巧克力
+hy.item.sweet_berry_chocolate=甜浆果巧克力
+hy.item.amethyst_chocolate=水晶巧克力
+hy.item.marshmallow=棉花糖
+hy.item.sweet_berry_chocolate=甜浆果棉花糖
+hy.item.amethyst_marshmallow=水晶棉花糖
+hy.block.chocolate_block=巧克力块
+hy.block.chocolate_bricks=巧克力砖

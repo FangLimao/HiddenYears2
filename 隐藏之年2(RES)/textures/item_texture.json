@@ -724,6 +724,9 @@
     },
     "hy.copper_potato": {
       "textures": "textures/items/foods_and_drinks/copper_foods/copper_potato"
+    },
+    "hy.lost_letter": {
+      "textures": "textures/items/treasures/lost_letter"
     }
   }
 }
