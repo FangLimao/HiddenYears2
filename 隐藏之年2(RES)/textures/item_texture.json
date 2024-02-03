@@ -733,6 +733,9 @@
     },
     "hy.honey_candy": {
       "textures": "textures/items/foods_and_drinks/candies/honey_candy"
+    },
+    "hy.chocolate_paste": {
+      "textures": "textures/items/foods_and_drinks/candies/chocolate_paste"
     }
   }
 }
