@@ -730,6 +730,9 @@
     },    
     "mc.potion": {
       "textures": "textures/items/potion_bottle_drinkable"
-    }   
+    },
+    "hy.honey_candy": {
+      "textures": "textures/items/foods_and_drinks/candies/honey_candy"
+    }
   }
 }
