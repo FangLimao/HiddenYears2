@@ -736,6 +736,9 @@
     },
     "hy.chocolate_paste": {
       "textures": "textures/items/foods_and_drinks/candies/chocolate_paste"
+    },
+    "hy.chocolate_bar": {
+      "textures": "textures/items/foods_and_drinks/candies/chocolate_bar"
     }
   }
 }
