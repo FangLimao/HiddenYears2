@@ -727,6 +727,9 @@
     },
     "hy.lost_letter": {
       "textures": "textures/items/treasures/lost_letter"
-    }
+    },    
+    "mc.potion": {
+      "textures": "textures/items/potion_bottle_drinkable"
+    }   
   }
 }
