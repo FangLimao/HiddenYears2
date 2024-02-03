@@ -23,7 +23,7 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
         case "milk_chocolate":
           player.runCommand("effect clear");
           break;
-        case "berry_chocolate":
+        case "sweet_berry_chocolate":
           player.addEffect("instant_health", 1, {
             amplifier: 1,
           });
@@ -37,7 +37,7 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
             player.addEffect("levitation", 100);
           }
           break;
-        case "berry_marshmallow":
+        case "sweet_berry_marshmallow":
           player.addEffect("instant_health", 1);
           break;
         case "amethyst_marshmallow":

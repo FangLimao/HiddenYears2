@@ -739,6 +739,27 @@
     },
     "hy.chocolate_bar": {
       "textures": "textures/items/foods_and_drinks/candies/chocolate_bar"
+    },
+    "hy.chocolate": {
+      "textures": "textures/items/foods_and_drinks/candies/chocolate"
+    },
+    "hy.milk_chocolate": {
+      "textures": "textures/items/foods_and_drinks/candies/milk_chocolate"
+    },
+    "hy.sweet_berry_chocolate": {
+      "textures": "textures/items/foods_and_drinks/candies/sweet_berry_chocolate"
+    },
+    "hy.amethyst_chocolate": {
+      "textures": "textures/items/foods_and_drinks/candies/amethyst_chocolate"
+    },
+    "hy.marshallow": {
+      "textures": "textures/items/foods_and_drinks/candies/marshallow"
+    },
+    "hy.sweet_berry_marshallow": {
+      "textures": "textures/items/foods_and_drinks/candies/sweet_berry_marshallow"
+    },
+    "hy.amethyst_marshallow": {
+      "textures": "textures/items/foods_and_drinks/candies/amethyst_marshallow"
     }
   }
 }
