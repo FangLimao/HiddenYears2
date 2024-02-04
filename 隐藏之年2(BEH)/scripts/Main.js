@@ -4,7 +4,7 @@ import { itemBark } from "hy2/data.js";
 import "hy2/event.js";
 import "hy2/ui.js";
 
-const VERSION_CODE = 2007;
+const VERSION_CODE = 2008;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
 function getRandomChance() {
