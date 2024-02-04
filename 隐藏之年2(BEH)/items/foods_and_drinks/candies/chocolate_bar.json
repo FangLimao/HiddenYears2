@@ -32,7 +32,7 @@
       }
     },
     "events": {
-     "hy.on_hurt_entity": {
+      "hy.on_hurt_entity": {
         "damage": {
           "type": "magic",
           "amount": 1,

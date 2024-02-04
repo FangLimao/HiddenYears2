@@ -21,8 +21,8 @@
         "item": "hy:chocolate"
       }
     ],
-    "result": { 
-       "item": "hy:sweet_berry_chocolate" 
+    "result": {
+      "item": "hy:sweet_berry_chocolate"
     }
   }
 }

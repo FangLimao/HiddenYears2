@@ -21,9 +21,6 @@
         "item": "hy:chocolate"
       }
     ],
-    "result": [
-      { "item": "hy:milk_chocolate" },
-      { "item": "bucket" }
-    ]
+    "result": { "item": "hy:milk_chocolate" }
   }
 }
