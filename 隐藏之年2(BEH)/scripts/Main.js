@@ -1,3 +1,4 @@
+// @TODO:添加红宝石使用的音效
 import { world, system } from "@minecraft/server";
 import { MessageFormData } from "@minecraft/server-ui";
 import { itemBark } from "hy2/data.js";
@@ -64,6 +65,9 @@ world.afterEvents.itemUse.subscribe((event) => {
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
   switch (event.itemStack.typeId) {
+    case "hy:ruby":
+     player.addExperience(1);
+    break;
     case "hy:copper_badge":
       player.addEffect("health_boost", 300, {
         amplifier: 2,

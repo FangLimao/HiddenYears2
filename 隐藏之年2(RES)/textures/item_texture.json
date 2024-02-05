@@ -760,6 +760,9 @@
     },
     "hy.amethyst_marshallow": {
       "textures": "textures/items/foods_and_drinks/candies/amethyst_marshallow"
+    },
+    "hy.ruby": {
+      "textures": "textures/items/materials/ruby"
     }
   }
 }
