@@ -766,6 +766,18 @@
     },
     "hy.story_book": {
       "textures": "textures/items/treasures/story_book"
+    },
+    "hy.ruby_helmet": {
+      "textures": "textures/items/armors/ruby_armors/ruby_helmet"
+    },
+    "hy.ruby_chestplate": {
+      "textures": "textures/items/armors/ruby_armors/ruby_chestplate"
+    },
+    "hy.ruby_leggings": {
+      "textures": "textures/items/armors/ruby_armors/ruby_leggings"
+    },
+    "hy.ruby_boots": {
+      "textures": "textures/items/armors/ruby_armors/ruby_boots"
     }
   }
 }
