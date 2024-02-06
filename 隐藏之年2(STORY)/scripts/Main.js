@@ -2,17 +2,27 @@ import { world, ItemStack } from "@minecraft/server";
 import { ActionFormData, ActionFormResponse } from "@minecraft/server-ui";
 
 const itemLetter = new ItemStack("hy:letter_dimension");
+const itemBook = new ItemStack("hy:story_book");
+
+world.afterEvents.playerSpawn.subscribe((event) => {
+  const player = event.player;
+  const GET_BOOK = player.getDynamicProperty("hy:get_book");
+  if (GET_BOOK !== true) {
+    player.dimension.spawnItem(itemBook, player.location);
+    player.setDynamicProperty("hy:get_book", true);
+  }
+});
 
 function showLetterStory(section, player) {
   switch (section) {
     case "dimension":
-    const letterSection0 = new ActionFormData()
-          .title("散落的信纸之『三界巡视』")
-          .body(
-            "在这个世界中存在着三个相对独立的维度——§l『主世界』、『下界』、『末地』§r，其中下界位于世界的底部、末地漂浮于主世界的遥远高空。\n\n§l主世界§r：位于世界的中央，你的故乡，资源丰富、景色秀丽，可以发现各种矿藏、遗迹。但月光撒下时残存的『不死之族』会伺机行动意图伤害你们；\n§l下界§r：位于主世界之下，需要传送门到达，是人类和不死之族最初的居所。资源相对匮乏，在『远古之战』之后更是一片荒芜，但仍有残存的人类及不死之族逐渐适应炎热的环境并发生了变异，建立起了与现在主世界迥然不同的文明；\n§l末地§r：漂浮于主世界高空中的群岛，需要传送门到达，资源及其匮乏，在中央的大岛上生活着『末影龙』以及她的同类『末影人』，岛外有着不知何人修建的『末地城』",
-          )
-          .button("确定");
-        letterSection0.show(player);
+      const letterSection0 = new ActionFormData()
+        .title("散落的信纸之『三界巡视』")
+        .body(
+          "在这个世界中存在着三个相对独立的维度——§l『主世界』、『下界』、『末地』§r，\n其中下界位于世界的底部、末地漂浮于主世界的遥远高空。\n\n\n§l主世界§r：位于世界的中央，你的故乡，资源丰富、景色秀丽，可以发现各种矿藏、遗迹。但月光撒下时残存的『不死之族』会伺机行动意图伤害你们；\n\n§l下界§r：位于主世界之下，需要传送门到达，是人类和不死之族最初的居所。资源相对匮乏，在『远古之战』之后更是一片荒芜，但仍有残存的人类及不死之族逐渐适应炎热的环境并发生了变异，建立起了与现在主世界迥然不同的文明；\n\n§l末地§r：漂浮于主世界高空中的群岛，需要传送门到达，资源及其匮乏，在中央的大岛上生活着『末影龙』以及她的同类『末影人』，岛外有着不知何人修建的『末地城』",
+        )
+        .button("确定");
+      letterSection0.show(player);
       break;
     default:
       console.error("[hy2]-invalid section");
@@ -73,7 +83,7 @@ world.afterEvents.itemUse.subscribe((event) => {
       break;
     case "hy:letter_dimension":
       showLetterStory("dimension", event.source);
-    break;
+      break;
     default:
       break;
   }
