@@ -111,6 +111,9 @@
     },
     "hy.chocolate_bricks": {
       "textures": "textures/blocks/ingot_blocks/chocolate_bricks"
+    },
+    "hy.ruby_block": {
+      "textures": "textures/blocks/ingot_blocks/ruby_block"
     }
   }
 }

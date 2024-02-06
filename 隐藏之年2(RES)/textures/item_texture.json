@@ -763,6 +763,9 @@
     },
     "hy.ruby": {
       "textures": "textures/items/materials/ruby"
+    },
+    "hy.story_book": {
+      "textures": "textures/items/treasures/story_book"
     }
   }
 }

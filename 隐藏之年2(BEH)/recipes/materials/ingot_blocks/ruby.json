@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ruby_block"
+    },
+    "tags": ["crafrubyg_table"],
+    "pattern": ["###", "###", "###"],
+    "key": {
+      "#": {
+        "item": "hy:ruby"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:ruby"
+      }
+    ],
+    "result": {
+      "item": "hy:ruby_block"
+    }
+  }
+}

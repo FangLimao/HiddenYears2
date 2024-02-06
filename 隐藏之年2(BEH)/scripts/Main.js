@@ -66,8 +66,8 @@ world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
   switch (event.itemStack.typeId) {
     case "hy:ruby":
-     player.addExperience(1);
-    break;
+      player.addExperience(1);
+      break;
     case "hy:copper_badge":
       player.addEffect("health_boost", 300, {
         amplifier: 2,

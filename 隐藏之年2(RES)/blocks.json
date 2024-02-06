@@ -269,5 +269,9 @@
   "hy:chocolate_bricks": {
     "sound": "metal",
     "textures": "hy.chocolate_bricks"
+  },
+  "hy:ruby_block": {
+    "sound": "metal",
+    "textures": "hy.ruby_block"
   }
 }
