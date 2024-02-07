@@ -778,6 +778,9 @@
     },
     "hy.ruby_boots": {
       "textures": "textures/items/armors/ruby_armors/ruby_boots"
+    },
+    "hy.ruby_apple": {
+      "textures": "textures/items/foods_and_drinks/ruby_apple"
     }
   }
 }

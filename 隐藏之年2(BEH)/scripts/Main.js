@@ -37,7 +37,7 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   }
   if (block.hasTag("hy:custom_ores") === true) {
     player.addExperience(1);
-    world.playSound("random.orb", playerLoc);
+    world.playSound("random.orb", player.location);
   }
 });
 

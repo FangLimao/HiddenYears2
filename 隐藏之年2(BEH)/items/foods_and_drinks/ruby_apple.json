@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:ruby_apple",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hy.ruby_apple"
+      },
+      "minecraft:display_name": {
+        "value": "hy.item.ruby_apple"
+      },
+      "minecraft:creative_category": {
+        "category": "nature",
+        "parent": "itemGroup.name.crop"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.4,
+      "minecraft:food": {
+        "nutrition": 6,
+        "can_always_eat": true,
+        "saturation_modifier": 0.6,
+        "on_consume": {
+          "event": "hy.on_eat",
+          "target": "self"
+        }
+      },
+      "minecraft:hover_text_color": "yellow",
+      "tag:dict:crops": {},
+      "tag:dict:crops.apple": {}
+    },
+    "events": {
+      "hy.on_eat": {
+        "run_command": {
+          "command": ["scriptevent hy:ruby_apple"]
+        }
+      }
+    }
+  }
+}
