@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ruby_apple"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "XAX", "XXX"],
+    "key": {
+      "X": {
+        "item": "hy:ruby"
+      },
+      "A": {
+        "item": "apple"
+      }
+    },
+    "unlock": [
+      {
+        "item": "hy:ruby"
+      },
+      {
+        "item": "apple"
+      }
+    ],
+    "result": {
+      "item": "hy:ruby_apple"
+    }
+  }
+}

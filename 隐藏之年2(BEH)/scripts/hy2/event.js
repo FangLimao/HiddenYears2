@@ -1,4 +1,4 @@
-import { system } from "@minecraft/server";
+import { system,world } from "@minecraft/server";
 
 function getRandomChance() {
   let randomChance = Math.ceil(Math.random() * 10);
@@ -142,6 +142,10 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
         "[hy2]This script event is deprecated,please use event `hy:medicine_poison`",
       );
       break;
+    case "hy:ruby_apple":
+      player.addExperience(3);
+      world.playSound("random.orb", player.location);
+    break;
     case "hy:copper_apple":
       if (event.message === "enchanted") {
         player.addEffect("absorption", 1200);
