@@ -114,6 +114,12 @@
     },
     "hy.ruby_block": {
       "textures": "textures/blocks/ingot_blocks/ruby_block"
+    },
+    "hy.ruby_ore": {
+      "textures": "textures/blocks/ores/ruby_ore"
+    },
+    "hy.deepslate_ruby_ore": {
+      "textures": "textures/blocks/ores/deepslate_ruby_ore"
     }
   }
 }

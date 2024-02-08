@@ -71,7 +71,7 @@
         "height": 1.9
       },
       "minecraft:type_family": {
-        "family": [ "skeleton", "undead", "monster", "mob" ]
+        "family": ["skeleton", "undead", "monster", "mob"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -79,8 +79,7 @@
         "breathes_water": true
       },
 
-      "minecraft:burns_in_daylight": {
-      },
+      "minecraft:burns_in_daylight": {},
 
       "minecraft:health": {
         "value": 20,
@@ -89,7 +88,12 @@
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
             "cause": "lava",
             "damage_per_tick": 4
           }
@@ -106,14 +110,10 @@
         "avoid_sun": true,
         "avoid_water": true
       },
-      "minecraft:movement.basic": {
-      },
-      "minecraft:jump.static": {
-      },
-      "minecraft:can_climb": {
-      },
-      "minecraft:nameable": {
-      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:nameable": {},
       "minecraft:equipment": {
         "table": "loot_tables/entities/skeleton_gear.json"
       },
@@ -211,8 +211,7 @@
       "minecraft:behavior.random_look_around": {
         "priority": 6
       },
-      "minecraft:physics": {
-      },
+      "minecraft:physics": {},
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
@@ -222,22 +221,20 @@
     "events": {
       "minecraft:entity_spawned": {
         "add": {
-          "component_groups": [
-            "minecraft:ranged_attack"
-          ]
+          "component_groups": ["minecraft:ranged_attack"]
         }
       },
       "minecraft:spring_trap": {
-        "add": { "component_groups": [ "minecraft:lightning_immune" ] }
+        "add": { "component_groups": ["minecraft:lightning_immune"] }
       },
 
       "minecraft:melee_mode": {
-        "remove": { "component_groups": [ "minecraft:ranged_attack" ] },
-        "add": { "component_groups": [ "minecraft:melee_attack" ] }
+        "remove": { "component_groups": ["minecraft:ranged_attack"] },
+        "add": { "component_groups": ["minecraft:melee_attack"] }
       },
       "minecraft:ranged_mode": {
-        "remove": { "component_groups": [ "minecraft:melee_attack" ] },
-        "add": { "component_groups": [ "minecraft:ranged_attack" ] }
+        "remove": { "component_groups": ["minecraft:melee_attack"] },
+        "add": { "component_groups": ["minecraft:ranged_attack"] }
       }
     }
   }

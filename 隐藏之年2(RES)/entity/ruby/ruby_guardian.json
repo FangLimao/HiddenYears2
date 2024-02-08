@@ -20,9 +20,7 @@
         "pre_animation": [
           "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
         ],
-        "animate": [
-          "ruby_guardian_root_controller"
-        ]
+        "animate": ["ruby_guardian_root_controller"]
       },
       "animations": {
         "humanoid_base_pose": "animation.humanoid.base_pose",
@@ -47,7 +45,7 @@
         "controller_ruby_guardian_attack": "controller.animation.ruby_guardian.attack",
         "ruby_guardian_root_controller": "controller.animation.ruby_guardian.root"
       },
-      "render_controllers": [ "controller.render.ruby_guardian" ],
+      "render_controllers": ["controller.render.ruby_guardian"],
       "enable_attachables": true
     }
   }

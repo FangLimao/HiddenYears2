@@ -273,5 +273,13 @@
   "hy:ruby_block": {
     "sound": "metal",
     "textures": "hy.ruby_block"
+  },
+  "hy:ruby_ore": {
+    "sound": "stone",
+    "textures": "hy.ruby_ore"
+  },
+  "hy:deepslate_ruby_ore": {
+    "sound": "deepslate",
+    "textures": "hy.deepslate_ruby_ore"
   }
 }

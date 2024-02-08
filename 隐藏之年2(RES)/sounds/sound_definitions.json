@@ -104,65 +104,54 @@
       ]
     },
     "mob.ruby_zombie.death": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/death"
-    ]
-  },
-  "mob.ruby_zombie.hurt": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/hurt1",
-      "sounds/mob/zombie/hurt2"
-    ]
-  },
-  "mob.ruby_zombie.remedy": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/remedy"
-    ]
-  },
-  "mob.ruby_zombie.unfect": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/unfect"
-    ]
-  },
-  "mob.ruby_zombie.say": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/say1",
-      {
-        "name": "sounds/mob/zombie/say2",
-        "load_on_low_memory": true
-      },
-      "sounds/mob/zombie/say3"
-    ]
-  },
-  "mob.ruby_zombie.step": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/step1",
-      "sounds/mob/zombie/step2",
-      "sounds/mob/zombie/step3",
-      "sounds/mob/zombie/step4",
-      "sounds/mob/zombie/step5"
-    ]
-  },
-  "mob.ruby_zombie.wood": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/wood1",
-      "sounds/mob/zombie/wood2",
-      "sounds/mob/zombie/wood3",
-      "sounds/mob/zombie/wood4"
-    ]
-  },
-  "mob.ruby_zombie.woodbreak": {
-    "category": "hostile",
-    "sounds": [
-      "sounds/mob/zombie/woodbreak"
-    ]
-  }
+      "category": "hostile",
+      "sounds": ["sounds/mob/zombie/death"]
+    },
+    "mob.ruby_zombie.hurt": {
+      "category": "hostile",
+      "sounds": ["sounds/mob/zombie/hurt1", "sounds/mob/zombie/hurt2"]
+    },
+    "mob.ruby_zombie.remedy": {
+      "category": "hostile",
+      "sounds": ["sounds/mob/zombie/remedy"]
+    },
+    "mob.ruby_zombie.unfect": {
+      "category": "hostile",
+      "sounds": ["sounds/mob/zombie/unfect"]
+    },
+    "mob.ruby_zombie.say": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/zombie/say1",
+        {
+          "name": "sounds/mob/zombie/say2",
+          "load_on_low_memory": true
+        },
+        "sounds/mob/zombie/say3"
+      ]
+    },
+    "mob.ruby_zombie.step": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/zombie/step1",
+        "sounds/mob/zombie/step2",
+        "sounds/mob/zombie/step3",
+        "sounds/mob/zombie/step4",
+        "sounds/mob/zombie/step5"
+      ]
+    },
+    "mob.ruby_zombie.wood": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/zombie/wood1",
+        "sounds/mob/zombie/wood2",
+        "sounds/mob/zombie/wood3",
+        "sounds/mob/zombie/wood4"
+      ]
+    },
+    "mob.ruby_zombie.woodbreak": {
+      "category": "hostile",
+      "sounds": ["sounds/mob/zombie/woodbreak"]
+    }
   }
 }
