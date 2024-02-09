@@ -10,7 +10,7 @@
         "default": "textures/entity/ruby/ruby_guardian"
       },
       "geometry": {
-        "default": "geometry.ruby_guardian"
+        "default": "geometry.pillager"
       },
       "spawn_egg": {
         "texture": "spawn_egg",
