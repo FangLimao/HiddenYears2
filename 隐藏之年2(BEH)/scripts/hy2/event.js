@@ -9,6 +9,11 @@ function getRandomChance() {
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   const player = event.sourceEntity;
   switch (event.id) {
+    case "hy:ruby_boardsword":
+      let RANDOM_EXP = getRandomChance();
+      player.addExperience(RANDOM_EXP);
+      world.playSound("random.orb", player.location);
+    break;
     case "hy:candy":
       switch (event.message) {
         case "honey_candy":

@@ -781,6 +781,9 @@
     },
     "hy.ruby_apple": {
       "textures": "textures/items/foods_and_drinks/ruby_apple"
+    },
+    "hy.ruby_boardsword": {
+      "textures": "textures/items/tools/weapons/boardswords/ruby_boardsword"
     }
   }
 }

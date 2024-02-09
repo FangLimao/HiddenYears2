@@ -8,7 +8,7 @@
   "header": {
     "name": "pack.name",
     "description": "pack.description",
-    "min_engine_version": [1, 20, 50],
+    "min_engine_version": [1, 20, 60],
     "uuid": "e37c1954-95fa-4048-b4de-173d408952cc",
     "version": "2.0.10",
     "pack_scope": "world"
@@ -30,7 +30,7 @@
   "dependencies": [
     {
       "module_name": "@minecraft/server",
-      "version": "1.8.0-beta"
+      "version": "1.9.0-beta"
     },
     {
       "module_name": "@minecraft/server-ui",

@@ -1,5 +1,5 @@
 pack.name=HiddenYears²
-pack.description=The Add-on for you ｜ Release 2.0.8  [§lNeed Bedrock 1.20.5X and enable§6 Holiday Creator Features,Custom Biomes,Beta APIs§r experimental gameplays]
+pack.description=The Add-on for you ｜ Release 2.0.8  [§lNeed Bedrock 1.20.6X and enable§6 Holiday Creator Features,Custom Biomes,Beta APIs§r experimental gameplays]
 hy.update.index=§l§6Thanks for playing HiddenYears²
 hy.update.version=§l§bYou loaded HiddenYears² 2.0.8
 hy.update.bbs=§7§oThis Add-on is made by CTN Studios,and open source according to the BSD-3 LICENSE.
@@ -470,3 +470,4 @@ hy.item.ruby_boots=Ruby Boots
 hy.item.ruby_apple=Ruby Apple
 hy.block.ruby_ore=Ruby Ore
 hy.block.deepslate_ruby_ore=Deepslate Ruby Ore
+hy.item.ruby_boardsword=Ruby Boardsword

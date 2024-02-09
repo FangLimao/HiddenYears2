@@ -1,7 +1,7 @@
 hy.block.flash_copper_ore=闪铜矿石
 hy.block.deepslate_copper_ore=深层闪铜矿石
 pack.name=隱藏之年²
-pack.description=為你而來的附加包 ｜ 正式版2.0.8 [§l本包需要基巖版1.20.5X並開啟§6假假日創作者功能、自訂生態域、測試版API§r實驗性玩法]
+pack.description=為你而來的附加包 ｜ 正式版2.0.8 [§l本包需要基巖版1.20.6X並開啟§6假假日創作者功能、自訂生態域、測試版API§r實驗性玩法]
 hy.update.index=§l§6感謝你選用隱藏之年²
 hy.update.version=§l§b你已成功更新/加載正式版2.0.8
 hy.update.bbs=§7§o本模組按照MIT協議開源，歡迎訪問苦力怕論壇或者Minebbs了解更多！
@@ -482,3 +482,4 @@ hy.item.ruby_boots=紅寶石靴子
 hy.item.ruby_apple=紅寶石蘋果
 hy.block.ruby_ore=紅寶石礦石
 hy.block.deepslate_ruby_ore=深層紅寶石礦石
+hy.item.ruby_boardsword=紅寶石闊劍
