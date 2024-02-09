@@ -3,7 +3,7 @@ builds
 .git/
 .idea/
 logs/
-node_moudles/
+node_moudles
 
 package-lock.json
 package.json
