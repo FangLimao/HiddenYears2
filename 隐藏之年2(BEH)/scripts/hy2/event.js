@@ -13,7 +13,7 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
       let RANDOM_EXP = getRandomChance();
       player.addExperience(RANDOM_EXP);
       world.playSound("random.orb", player.location);
-    break;
+      break;
     case "hy:candy":
       switch (event.message) {
         case "honey_candy":
