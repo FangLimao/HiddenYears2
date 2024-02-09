@@ -8,28 +8,53 @@ import "hy2/ui.js";
 const VERSION_CODE = 2008;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
-/*
-* 获取1-10随机整数
-*/
 function getRandomChance() {
   let randomChance = Math.ceil(Math.random() * 10);
   console.warn("[hy2]Random chance is " + randomChance);
   return randomChance;
 }
 
-function getEquipmentItem(entity){
- let equipmentItem = entity.getComponent('minecraft:equippable').getEquipment(EquipmentSlot.Mainhand);
- return equipmentItem;
+function getEquipmentItem(entity) {
+  let equipmentItem = entity
+    .getComponent("minecraft:equippable")
+    .getEquipment(EquipmentSlot.Mainhand);
+  return equipmentItem;
 }
 
-function getEquipmentItemTypeId(entity){
- let equipmentItem = entity.getComponent('minecraft:equippable').getEquipment(EquipmentSlot.Mainhand);
- if (typeof equipmentItem != "undefined"){
-  return equipmentItem.typeId;
- }else{
-  console.warn("[hy2]-You might take nothing");
-  return "hy:nothing";
- }
+function getEquipmentItemTypeId(entity) {
+  let equipmentItem = entity
+    .getComponent("minecraft:equippable")
+    .getEquipment(EquipmentSlot.Mainhand);
+  if (typeof equipmentItem != "undefined") {
+    return equipmentItem.typeId;
+  } else {
+    console.warn("[hy2]-You might take nothing");
+    return "hy:nothing";
+  }
+}
+
+function applyImitationDamage(player) {
+  let RANDOM_CHANCE = getRandomChance();
+  switch (RANDOM_CHANCE) {
+    case 1:
+      player.applyDamage(2);
+      player.sendMessage([
+        {
+          translate: "hy.message.imitation_damage.1",
+        },
+      ]);
+      break;
+    case 2:
+      player.applyDamage(8);
+      player.sendMessage([
+        {
+          translate: "hy.message.imitation_damage.2",
+        },
+      ]);
+      break;
+    default:
+      break;
+  }
 }
 
 world.afterEvents.playerSpawn.subscribe((event) => {
@@ -41,7 +66,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   }
 });
 
-world.afterEvents.playerBreakBlock.subscribe((event) => {  
+world.afterEvents.playerBreakBlock.subscribe((event) => {
   const block = event.brokenBlockPermutation;
   const player = event.player;
   if (block.hasTag("hy:suspicious_ores") === true) {
@@ -138,32 +163,15 @@ world.afterEvents.itemUseOn.subscribe((event) => {
   }
 });
 
+world.afterEvents.entityHitEntity.subscribe((event) => {
+  let ITEM = getEquipmentItem(event.damagingEntity);
+});
+
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const item = event.itemStackBeforeBreak;
-  const player = event.player;
   if (typeof item != "undefined") {
     if (item.hasTag("hy:imitation_tools")) {
-      let RANDOM_CHANCE = getRandomChance();
-      switch (RANDOM_CHANCE) {
-        case 1:
-          player.applyDamage(2);
-          player.sendMessage([
-            {
-              translate: "hy.message.imitation_damage.1",
-            },
-          ]);
-          break;
-        case 2:
-          player.applyDamage(8);
-          player.sendMessage([
-            {
-              translate: "hy.message.imitation_damage.2",
-            },
-          ]);
-          break;
-        default:
-          break;
-      }
+     applyImitationDamage(event.player);
     }
   }
 });
