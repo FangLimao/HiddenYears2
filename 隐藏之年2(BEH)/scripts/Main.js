@@ -1,5 +1,5 @@
 // @TODO:添加红宝石使用的音效
-import { world, system } from "@minecraft/server";
+import { world, system, EquipmentSlot } from "@minecraft/server";
 import { MessageFormData } from "@minecraft/server-ui";
 import { itemBark } from "hy2/data.js";
 import "hy2/event.js";
@@ -8,10 +8,28 @@ import "hy2/ui.js";
 const VERSION_CODE = 2008;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
+/*
+* 获取1-10随机整数
+*/
 function getRandomChance() {
   let randomChance = Math.ceil(Math.random() * 10);
   console.warn("[hy2]Random chance is " + randomChance);
   return randomChance;
+}
+
+function getEquipmentItem(entity){
+ let equipmentItem = entity.getComponent('minecraft:equippable').getEquipment(EquipmentSlot.Mainhand);
+ return equipmentItem;
+}
+
+function getEquipmentItemTypeId(entity){
+ let equipmentItem = entity.getComponent('minecraft:equippable').getEquipment(EquipmentSlot.Mainhand);
+ if (typeof equipmentItem != "undefined"){
+  return equipmentItem.typeId;
+ }else{
+  console.warn("[hy2]-You might take nothing");
+  return "hy:nothing";
+ }
 }
 
 world.afterEvents.playerSpawn.subscribe((event) => {
@@ -23,7 +41,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   }
 });
 
-world.afterEvents.playerBreakBlock.subscribe((event) => {
+world.afterEvents.playerBreakBlock.subscribe((event) => {  
   const block = event.brokenBlockPermutation;
   const player = event.player;
   if (block.hasTag("hy:suspicious_ores") === true) {
