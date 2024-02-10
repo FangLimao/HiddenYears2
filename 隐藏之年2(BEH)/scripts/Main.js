@@ -1,61 +1,18 @@
 // @TODO:添加红宝石使用的音效
-import { world, system, EquipmentSlot } from "@minecraft/server";
+import { world, system, ItemStack } from "@minecraft/server";
 import { MessageFormData } from "@minecraft/server-ui";
-import { itemBark } from "hy2/data.js";
-import "hy2/event.js";
-import "hy2/ui.js";
+import {
+  getRandomChance,
+  getEquipmentItem,
+  getEquipmentItemTypeId,
+  applyImitationDamage,
+} from "@hy2/function.js";
+import "@hy2/event.js";
+
+const itemBark = new ItemStack("hy:bark");
 
 const VERSION_CODE = 2008;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
-
-function getRandomChance() {
-  let randomChance = Math.ceil(Math.random() * 10);
-  console.warn("[hy2]Random chance is " + randomChance);
-  return randomChance;
-}
-
-function getEquipmentItem(entity) {
-  let equipmentItem = entity
-    .getComponent("minecraft:equippable")
-    .getEquipment(EquipmentSlot.Mainhand);
-  return equipmentItem;
-}
-
-function getEquipmentItemTypeId(entity) {
-  let equipmentItem = entity
-    .getComponent("minecraft:equippable")
-    .getEquipment(EquipmentSlot.Mainhand);
-  if (typeof equipmentItem != "undefined") {
-    return equipmentItem.typeId;
-  } else {
-    console.warn("[hy2]-You might take nothing");
-    return "hy:nothing";
-  }
-}
-
-function applyImitationDamage(player) {
-  let RANDOM_CHANCE = getRandomChance();
-  switch (RANDOM_CHANCE) {
-    case 1:
-      player.applyDamage(2);
-      player.sendMessage([
-        {
-          translate: "hy.message.imitation_damage.1",
-        },
-      ]);
-      break;
-    case 2:
-      player.applyDamage(8);
-      player.sendMessage([
-        {
-          translate: "hy.message.imitation_damage.2",
-        },
-      ]);
-      break;
-    default:
-      break;
-  }
-}
 
 world.afterEvents.playerSpawn.subscribe((event) => {
   if (VERSION_CODE !== LEAST_VERSION_CODE) {
@@ -67,38 +24,36 @@ world.afterEvents.playerSpawn.subscribe((event) => {
 });
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
-  const block = event.brokenBlockPermutation;
-  const player = event.player;
-  if (block.hasTag("hy:suspicious_ores") === true) {
+  const BLOCK = event.brokenBlockPermutation;
+  const PLAYER = event.player;
+  let ITEM = getEquipmentItem(PLAYER);
+  if (BLOCK.hasTag("hy:suspicious_ores") === true) {
     let RANDOM_CHANCE = getRandomChance();
     if (RANDOM_CHANCE <= 8) {
-      player.dimension.spawnEntity("silverfish", player.location);
-      player.dimension.spawnEntity("silverfish", player.location);
+      PLAYER.dimension.spawnEntity("silverfish", PLAYER.location);
+      PLAYER.dimension.spawnEntity("silverfish", PLAYER.location);
     } else {
-      player.dimension.spawnEntity("hy:oldb", player.location);
+      PLAYER.dimension.spawnEntity("hy:oldb", PLAYER.location);
     }
   }
-  if (block.hasTag("hy:custom_ores") === true) {
-    player.addExperience(1);
-    world.playSound("random.orb", player.location);
+  if (BLOCK.hasTag("hy:custom_ores") === true) {
+    PLAYER.addExperience(1);
+    world.playSound("random.orb", PLAYER.location);
   }
 });
 
 world.afterEvents.itemUse.subscribe((event) => {
-  const player = event.source;
-  const item = event.itemStack;
-  if (item.hasTag("hy:bone_swords") === true) {
-    player.runCommandAsync("function api/aoe/bone");
+  if (event.itemStack.hasTag("hy:bone_swords") === true) {
+    event.source.runCommandAsync("function api/aoe/bone");
   }
 });
 
 world.afterEvents.itemUse.subscribe((event) => {
-  const player = event.source;
   switch (event.itemStack.typeId) {
     case "hy:medicine_1":
-      player.addEffect("darkness", 0);
-      player.addEffect("blindness", 0);
-      player.addEffect("night_vision", 300);
+      event.source.addEffect("darkness", 0);
+      event.source.addEffect("blindness", 0);
+      event.source.addEffect("night_vision", 300);
       break;
     default:
       break;
@@ -106,49 +61,49 @@ world.afterEvents.itemUse.subscribe((event) => {
 });
 
 world.afterEvents.itemUse.subscribe((event) => {
-  const player = event.source;
+  const PLAYER = event.source;
   switch (event.itemStack.typeId) {
     case "hy:ruby":
-      player.addExperience(1);
+      PLAYER.addExperience(1);
       break;
     case "hy:copper_badge":
-      player.addEffect("health_boost", 300, {
+      PLAYER.addEffect("health_boost", 300, {
         amplifier: 2,
       });
       break;
     case "hy:diamond_badge":
-      player.addEffect("health_boost", 900, {
+      PLAYER.addEffect("health_boost", 900, {
         amplifier: 4,
       });
       break;
     case "hy:golden_badge":
-      player.addEffect("health_boost", 600, {
+      PLAYER.addEffect("health_boost", 600, {
         amplifier: 4,
       });
       break;
     case "hy:bandage":
-      player.runCommandAsync("function gameplay/items/medicines/bandage");
+      PLAYER.runCommandAsync("function gameplay/items/medicines/bandage");
       break;
     case "hy:medicine_pack":
-      player.runCommandAsync("function gameplay/items/medicines/medicine_pack");
+      PLAYER.runCommandAsync("function gameplay/items/medicines/medicine_pack");
       break;
     case "hy:flash_metal_boardsword":
-      player.runCommandAsync("function api/aoe/flash_metal");
+      PLAYER.runCommandAsync("function api/aoe/flash_metal");
       break;
     case "hy:corrosion_boardsword":
-      player.runCommandAsync("function api/aoe/corrosion");
+      PLAYER.runCommandAsync("function api/aoe/corrosion");
       break;
     case "hy:emerald_boardsword":
-      player.runCommandAsync("function api/aoe/emerald");
+      PLAYER.runCommandAsync("function api/aoe/emerald");
       break;
     case "hy:flash_copper_boardsword":
-      player.runCommandAsync("function api/aoe/flash_copper");
+      PLAYER.runCommandAsync("function api/aoe/flash_copper");
       break;
     case "hy:flash_copper_boardsword":
-      player.runCommandAsync("function api/aoe/flash_copper");
+      PLAYER.runCommandAsync("function api/aoe/flash_copper");
       break;
     case "hy:amethyst_boardsword":
-      player.runCommandAsync("function api/aoe/amethyst");
+      PLAYER.runCommandAsync("function api/aoe/amethyst");
       break;
     default:
       break;
@@ -156,10 +111,10 @@ world.afterEvents.itemUse.subscribe((event) => {
 });
 
 world.afterEvents.itemUseOn.subscribe((event) => {
-  const player = event.source;
+  const PLAYER = event.source;
   if (event.itemStack.hasTag("hy:is_awl") === true) {
-    player.dimension.spawnItem(itemBark, player.location);
-    world.playSound("use.wood", player.location);
+    PLAYER.dimension.spawnItem(itemBark, PLAYER.location);
+    world.playSound("use.wood", PLAYER.location);
   }
 });
 
@@ -173,9 +128,9 @@ world.afterEvents.entityHitEntity.subscribe((event) => {
 });
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
-  const item = event.itemStackBeforeBreak;
-  if (typeof item != "undefined") {
-    if (item.hasTag("hy:imitation_tools")) {
+  const ITEM = event.itemStackBeforeBreak;
+  if (typeof ITEM != "undefined") {
+    if (ITEM.hasTag("hy:imitation_tools")) {
       applyImitationDamage(event.player);
     }
   }
