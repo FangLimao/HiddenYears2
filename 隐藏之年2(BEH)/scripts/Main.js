@@ -51,9 +51,9 @@ world.afterEvents.itemUse.subscribe((event) => {
 world.afterEvents.itemUse.subscribe((event) => {
   switch (event.itemStack.typeId) {
     case "hy:medicine_1":
-      event.source.addEffect("darkness", 0);
-      event.source.addEffect("blindness", 0);
-      event.source.addEffect("night_vision", 300);
+      event.source.addEffect("darkness");
+      event.source.removeEffect("blindness");
+      event.source.removeEffect("night_vision");
       break;
     default:
       break;
