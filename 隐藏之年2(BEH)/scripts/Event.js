@@ -2,46 +2,46 @@ import { system, world } from "@minecraft/server";
 import { clearEffect, getRandomChance } from "@hy2/lib.js";
 
 system.afterEvents.scriptEventReceive.subscribe((event) => {
-  const player = event.sourceEntity;
+  const PLAYER = event.sourceEntity;
   switch (event.id) {
     case "hy:ruby_boardsword":
       let RANDOM_EXP = getRandomChance();
-      player.addExperience(RANDOM_EXP);
-      world.playSound("random.orb", player.location);
+      PLAYER.addExperience(RANDOM_EXP);
+      world.playSound("random.orb", PLAYER.location);
       break;
     case "hy:candy":
       switch (event.message) {
         case "honey_candy":
-          player.addEffect("saturation", 600);
+          PLAYER.addEffect("saturation", 600);
           break;
         case "syrup":
-          player.addEffect("fire_resistance", 160);
+          PLAYER.addEffect("fire_resistance", 160);
           break;
         case "chocolate_paste":
-          player.addEffect("fire_resistance", 900);
+          PLAYER.addEffect("fire_resistance", 900);
           break;
         case "milk_chocolate":
-          player.runCommand("effect clear");
+          PLAYER.runCommand("effect clear");
           break;
         case "sweet_berry_chocolate":
-          player.addEffect("instant_health", 1, {
+          PLAYER.addEffect("instant_health", 1, {
             amplifier: 1,
           });
           break;
         case "amethyst_chocolate":
-          player.addLevels(2);
+          PLAYER.addLevels(2);
           break;
         case "marshmallow":
           let RANDOM_CHANCE = getRandomChance();
           if (RANDOM_CHANCE > 5) {
-            player.addEffect("levitation", 100);
+            PLAYER.addEffect("levitation", 100);
           }
           break;
         case "sweet_berry_marshmallow":
-          player.addEffect("instant_health", 1);
+          PLAYER.addEffect("instant_health", 1);
           break;
         case "amethyst_marshmallow":
-          player.addLevels(3);
+          PLAYER.addLevels(3);
           break;
         default:
           break;
@@ -51,65 +51,65 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
     case "hy:medicine_potion":
       switch (event.message) {
         case "1":
-          player.removeEffect("nausea");
-          player.removeEffect("hunger");
-          player.addEffect("saturation", 400);
+          PLAYER.removeEffect("nausea");
+          PLAYER.removeEffect("hunger");
+          PLAYER.addEffect("saturation", 400);
           break;
         case "2":
-          clearEffect(player, "bad");
+          clearEffect(PLAYER, "bad");
           break;
         case "3":
-          player.removeEffect("darkness");
-          player.removeEffect("blindness");
-          player.addEffect("night_vision", 400);
+          PLAYER.removeEffect("darkness");
+          PLAYER.removeEffect("blindness");
+          PLAYER.addEffect("night_vision", 400);
           break;
         case "4":
-          player.addEffect("darkness", 600);
-          player.addEffect("blindness", 600);
-          player.removeEffect("night_vision");
+          PLAYER.addEffect("darkness", 600);
+          PLAYER.addEffect("blindness", 600);
+          PLAYER.removeEffect("night_vision");
           break;
         case "5":
-          player.removeEffect("wither");
-          player.removeEffect("poison");
-          player.removeEffect("fatal_poison");
-          player.addEffect("absorption", 400);
+          PLAYER.removeEffect("wither");
+          PLAYER.removeEffect("poison");
+          PLAYER.removeEffect("fatal_poison");
+          PLAYER.addEffect("absorption", 400);
           break;
         case "6":
-          player.removeEffect("weakness");
-          player.addEffect("strength", 400);
+          PLAYER.removeEffect("weakness");
+          PLAYER.addEffect("strength", 400);
           break;
         case "7":
-          player.removeEffect("slowness");
-          player.addEffect("speed", 600);
+          PLAYER.removeEffect("slowness");
+          PLAYER.addEffect("speed", 600);
           break;
         case "8":
-          player.removeEffect("slowness");
-          player.addEffect("jump_boost", 600);
+          PLAYER.removeEffect("slowness");
+          PLAYER.addEffect("jump_boost", 600);
           break;
         case "9":
-          player.addEffect("poison", 400);
-          player.addEffect("slowness", 400);
-          player.addEffect("weakness", 400);
+          PLAYER.addEffect("poison", 400);
+          PLAYER.addEffect("slowness", 400);
+          PLAYER.addEffect("weakness", 400);
           break;
         case "10":
-          player.kill();
+          PLAYER.kill();
           break;
         case "11":
-          clearEffect(player, "good");
+          clearEffect(PLAYER, "good");
           break;
         case "12":
-          player.removeEffect("bad_omen");
-          player.addEffect("village_hero", 3000);
+          PLAYER.removeEffect("bad_omen");
+          PLAYER.addEffect("village_hero", 3000);
           break;
         case "13":
-          player.removeEffect("mining_fatigue");
-          player.addEffect("water_breathing", 200);
+          PLAYER.removeEffect("mining_fatigue");
+          PLAYER.addEffect("water_breathing", 200);
           break;
         case "14":
-          player.addEffect("fire_resistance", 400);
+          PLAYER.addEffect("fire_resistance", 400);
           break;
         case "15":
-          player.addEffect("health_boost", 6000);
+          PLAYER.addEffect("health_boost", 6000);
           break;
         default:
           break;
@@ -121,36 +121,36 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
       );
       break;
     case "hy:ruby_apple":
-      player.addExperience(3);
-      world.playSound("random.orb", player.location);
+      PLAYER.addExperience(3);
+      world.playSound("random.orb", PLAYER.location);
       break;
     case "hy:copper_apple":
       if (event.message === "enchanted") {
-        player.addEffect("absorption", 1200);
-        player.addEffect("fire_resistance", 1200);
-        player.addEffect("speed", 200);
+        PLAYER.addEffect("absorption", 1200);
+        PLAYER.addEffect("fire_resistance", 1200);
+        PLAYER.addEffect("speed", 200);
       } else if (event.message === "normal") {
-        player.addEffect("absorption", 600);
-        player.addEffect("fire_resistance", 200);
+        PLAYER.addEffect("absorption", 600);
+        PLAYER.addEffect("fire_resistance", 200);
       }
       break;
     case "hy:fuel_metal":
       world.sendMessage(hyMessage.fuel);
       switch (event.message) {
         case "normal":
-          player.addEffect("fatal_poison", 1200);
+          PLAYER.addEffect("fatal_poison", 1200);
           break;
         case "mineral":
-          player.addEffect("fatal_poison", 800, {
+          PLAYER.addEffect("fatal_poison", 800, {
             amplifier: 1,
           });
           break;
         case "nightmare":
-          player.addEffect("strength", 500);
-          player.addEffect("night_vision", 500);
+          PLAYER.addEffect("strength", 500);
+          PLAYER.addEffect("night_vision", 500);
           break;
         case "stick":
-          player.applyDamage(2);
+          PLAYER.applyDamage(2);
           break;
         default:
           break;

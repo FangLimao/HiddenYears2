@@ -1,6 +1,5 @@
 // @TODO:添加红宝石使用的音效
-import { world, system, ItemStack } from "@minecraft/server";
-import { MessageFormData } from "@minecraft/server-ui";
+import { world, ItemStack } from "@minecraft/server";
 import {
   getRandomChance,
   getEquipmentItem,

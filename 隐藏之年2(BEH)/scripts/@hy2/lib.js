@@ -1,4 +1,4 @@
-import { world, system, EquipmentSlot } from "@minecraft/server";
+import { EquipmentSlot } from "@minecraft/server";
 
 export function getRandomChance() {
   let randomChance = Math.ceil(Math.random() * 10);
