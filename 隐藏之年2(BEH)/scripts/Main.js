@@ -119,18 +119,14 @@ world.afterEvents.itemUseOn.subscribe((event) => {
 
 world.afterEvents.entityHitEntity.subscribe((event) => {
   let ITEM = getEquipmentItem(event.damagingEntity);
-  if (typeof ITEM != "undefined") {
-    if (ITEM.hasTag("hy:imitation_tools")) {
+    if (ITEM?.hasTag("hy:imitation_tools")) {
       applyImitationDamage(event.damagingEntity);
     }
-  }
 });
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const ITEM = event.itemStackBeforeBreak;
-  if (typeof ITEM != "undefined") {
-    if (ITEM.hasTag("hy:imitation_tools")) {
+    if (ITEM?.hasTag("hy:imitation_tools")) {
       applyImitationDamage(event.player);
-    }
-  }
+    }  
 });
