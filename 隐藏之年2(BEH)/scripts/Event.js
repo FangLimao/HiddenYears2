@@ -1,10 +1,5 @@
 import { system, world } from "@minecraft/server";
-
-function getRandomChance() {
-  let randomChance = Math.ceil(Math.random() * 10);
-  console.warn("[hy2]Random chance is " + randomChance);
-  return randomChance;
-}
+import { clearEffect, getRandomChance } from "@hy2/lib.js";
 
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   const player = event.sourceEntity;
@@ -61,17 +56,7 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
           player.addEffect("saturation", 400);
           break;
         case "2":
-          player.removeEffect("slowness");
-          player.removeEffect("mining_fatigue");
-          player.removeEffect("nausea");
-          player.removeEffect("blindness");
-          player.removeEffect("hunger");
-          player.removeEffect("weakness");
-          player.removeEffect("poison");
-          player.removeEffect("wither");
-          player.removeEffect("levitation");
-          player.removeEffect("fatal_poison");
-          player.removeEffect("darkness");
+          clearEffect(player, "bad");
           break;
         case "3":
           player.removeEffect("darkness");
@@ -110,19 +95,7 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
           player.kill();
           break;
         case "11":
-          player.addEffect("speed", 400);
-          player.addEffect("haste", 400);
-          player.addEffect("strength", 400);
-          player.addEffect("jump_boost", 400);
-          player.addEffect("resistance", 400);
-          player.addEffect("regeneration", 400);
-          player.addEffect("water_breathing", 400);
-          player.addEffect("fire_resistance", 400);
-          player.addEffect("night_vision", 400);
-          player.addEffect("slow_falling", 400);
-          player.addEffect("saturation", 400);
-          player.addEffect("absorption", 400);
-          player.addEffect("village_hero", 400);
+          clearEffect(player, "good");
           break;
         case "12":
           player.removeEffect("bad_omen");

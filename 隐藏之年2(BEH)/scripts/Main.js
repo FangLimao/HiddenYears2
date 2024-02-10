@@ -6,8 +6,8 @@ import {
   getEquipmentItem,
   getEquipmentItemTypeId,
   applyImitationDamage,
-} from "@hy2/function.js";
-import "@hy2/event.js";
+} from "@hy2/lib.js";
+import "Event.js";
 
 const itemBark = new ItemStack("hy:bark");
 
