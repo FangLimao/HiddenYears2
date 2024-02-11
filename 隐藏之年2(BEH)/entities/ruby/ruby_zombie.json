@@ -122,7 +122,7 @@
 
       // Zombie Components
       "minecraft:type_family": {
-        "family": ["ruby_zombie", "undead", "monster", "mob"]
+        "family": ["ruby_zombie", "zombie", "ruby", "undead", "monster", "mob"]
       },
       "minecraft:collision_box": {
         "width": 0.6,

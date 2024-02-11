@@ -71,7 +71,7 @@
         "height": 1.9
       },
       "minecraft:type_family": {
-        "family": ["skeleton", "undead", "monster", "mob"]
+        "family": ["ruby_skeleton", "skeleton", "ruby", "undead", "monster", "mob"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
