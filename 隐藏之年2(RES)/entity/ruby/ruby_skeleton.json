@@ -61,7 +61,7 @@
         },
         { "ruby_skeleton_attack": "controller.animation.ruby_skeleton.attack" }
       ],
-      "render_controllers": ["controller.render.ruby_skeleton"],
+      "render_controllers": ["controller.render.skeleton"],
       "enable_attachables": true
     }
   }

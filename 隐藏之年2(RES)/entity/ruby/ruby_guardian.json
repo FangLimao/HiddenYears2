@@ -45,7 +45,7 @@
         "controller_ruby_guardian_attack": "controller.animation.ruby_guardian.attack",
         "ruby_guardian_root_controller": "controller.animation.ruby_guardian.root"
       },
-      "render_controllers": ["controller.render.ruby_guardian"],
+      "render_controllers": ["controller.render.pillager"],
       "enable_attachables": true
     }
   }
