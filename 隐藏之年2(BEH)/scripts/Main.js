@@ -1,4 +1,3 @@
-// @TODO:添加红宝石使用的音效
 import { world, ItemStack } from "@minecraft/server";
 import {
   getRandomChance,
@@ -61,9 +60,17 @@ world.afterEvents.itemUse.subscribe((event) => {
 
 world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
-  switch (event.itemStack.typeId) {
+  switch (event.itemStack.typeId) {    
+    case "hy:ruby_runes":
+    let RANDOM_LEVEL = getRandomChance();
+    PLAYER.addLevels(RANDOM_LEVEL);
+    world.playSound("random.orb", PLAYER.location);
+    PLAYER.addEffect("fire_resistance", 1200);
+    PLAYER.addEffect("resistance", 1200);
+    break;
     case "hy:ruby":
       PLAYER.addExperience(1);
+      world.playSound("random.orb", PLAYER.location);
       break;
     case "hy:copper_badge":
       PLAYER.addEffect("health_boost", 300, {
