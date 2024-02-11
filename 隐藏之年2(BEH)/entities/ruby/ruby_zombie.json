@@ -107,7 +107,7 @@
       },
       "minecraft:can_have_equipment": {
         "minecraft:equipment": {
-          "table": "loot_tables/entities/ruby_zombie_equipment.json"
+          "table": "loot_tables/entities/zombie_equipment.json"
         }
       }
     },
