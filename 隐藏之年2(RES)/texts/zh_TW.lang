@@ -483,3 +483,15 @@ hy.item.ruby_apple=紅寶石蘋果
 hy.block.ruby_ore=紅寶石礦石
 hy.block.deepslate_ruby_ore=深層紅寶石礦石
 hy.item.ruby_boardsword=紅寶石闊劍
+hy.item.ruby_runes=紅寶石符文
+hy.item.ruby_bag=紅寶石謎袋
+hy.item.calamity_bag.experience=災厄謎袋·經驗
+
+entity.hy:ruby_zombie.name=紅寶石僵屍
+item.spawn_egg.entity.hy:ruby_zombie.name=紅寶石僵屍刷怪蛋
+entity.hy:ruby_skeleton.name=紅寶石骷髅
+item.spawn_egg.entity.hy:ruby_skeleton.name=紅寶石骷髅刷怪蛋
+entity.hy:ruby_guardian.name=紅寶石守衛
+item.spawn_egg.entity.hy:ruby_guardian.name=紅寶石守衛刷怪蛋
+entity.hy:king_of_ruby.name=紅寶石之王
+item.spawn_egg.entity.hy:king_of_ruby.name=紅寶石之王刷怪蛋

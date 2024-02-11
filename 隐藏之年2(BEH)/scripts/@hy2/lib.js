@@ -20,6 +20,10 @@ export function getEquipmentItemTypeId(entity) {
     return equipmentItem.typeId;
 }
 
+export function addEffect(entity,effectType,time,amplifier,showParticles){
+
+}
+
 export function clearEffect(entity, effectType) {
   switch (effectType) {
     case "all":
