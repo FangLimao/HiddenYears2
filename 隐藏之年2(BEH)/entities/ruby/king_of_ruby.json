@@ -15,10 +15,7 @@
         "track_target": true
       },
       "minecraft:attack": {
-        "damage": 1
-      },
-      "minecraft:equipment": {
-        "table": "loot_tables/equipments/king_of_ruby.json"
+        "damage": 10
       },
       "minecraft:boss": {
         "should_darken_sky": false,
@@ -99,7 +96,7 @@
                 "num_entities_spawned": 4,
                 "entity_type": "hy:ruby_guardian",
                 "summon_cap": 8,
-                "summon_cap_radius": 60.0,
+                "summon_cap_radius": 5.0,
                 "size": 1.0,
                 "sound_event": "prepare.summon"
               }

@@ -126,6 +126,9 @@ world.afterEvents.itemUseOn.subscribe((event) => {
 
 world.afterEvents.entityHitEntity.subscribe((event) => {
   let ITEM = getEquipmentItem(event.damagingEntity);
+    if (event.damagingEntity.typeId==="hy:king_of_ruby"){
+      event.hitEntity.runCommand("xp -15 @s");
+    }
     if (ITEM?.hasTag("hy:imitation_tools")) {
       applyImitationDamage(event.damagingEntity);
     }

@@ -71,16 +71,16 @@ export function applyImitationDamage(player) {
   let RANDOM_CHANCE = getRandomChance();
   switch (RANDOM_CHANCE) {
     case 1:
-      player.applyDamage(2);
-      player.sendMessage([
+      player?.applyDamage(2);
+      player?.sendMessage([
         {
           translate: "hy.message.imitation_damage.1",
         },
       ]);
       break;
     case 2:
-      player.applyDamage(8);
-      player.sendMessage([
+      player?.applyDamage(8);
+      player?.sendMessage([
         {
           translate: "hy.message.imitation_damage.2",
         },
