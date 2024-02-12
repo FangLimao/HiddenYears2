@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "decompose_copper_coin"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "hy:stack_of_copper_coin"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hy:stack_of_copper_coin"
+      }
+    ],
+    "result": {
+      "item": "hy:copper_coin",
+      "count": 9
+    }
+  }
+}
