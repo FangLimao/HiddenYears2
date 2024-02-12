@@ -9,13 +9,13 @@
     },
     "components": {
       "minecraft:behavior.melee_attack": {
-        "priority": 4,
+        "priority": 1,
         "target_dist": 1.2,
         "speed_multiplier": 1,
         "track_target": true
       },
       "minecraft:attack": {
-        "damage": 15
+        "damage": 10
       },
       "minecraft:equipment": {
         "table": "loot_tables/equipments/king_of_ruby.json"
@@ -84,7 +84,7 @@
         "priority": 0
       },
       "minecraft:behavior.summon_entity": {
-        "priority": 1,
+        "priority": 10,
         "summon_choices": [
           {
             "weight": 1,
