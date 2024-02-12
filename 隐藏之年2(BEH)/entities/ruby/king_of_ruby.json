@@ -15,7 +15,7 @@
         "track_target": true
       },
       "minecraft:attack": {
-        "damage": 10
+        "damage": 1
       },
       "minecraft:equipment": {
         "table": "loot_tables/equipments/king_of_ruby.json"
@@ -28,7 +28,7 @@
       "minecraft:equip_item": {},
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:experience_reward": {
-        "on_death": "10"
+        "on_death": "250"
       },
       "minecraft:type_family": {
         "family": [
@@ -84,7 +84,7 @@
         "priority": 0
       },
       "minecraft:behavior.summon_entity": {
-        "priority": 10,
+        "priority": 15,
         "summon_choices": [
           {
             "weight": 1,
@@ -96,9 +96,9 @@
                 "shape": "circle",
                 "target": "self",
                 "base_delay": 5.0,
-                "num_entities_spawned": 2,
+                "num_entities_spawned": 4,
                 "entity_type": "hy:ruby_guardian",
-                "summon_cap": 4,
+                "summon_cap": 8,
                 "summon_cap_radius": 60.0,
                 "size": 1.0,
                 "sound_event": "prepare.summon"
@@ -108,11 +108,11 @@
         ]
       },
       "minecraft:behavior.random_stroll": {
-        "priority": 8,
+        "priority": 2,
         "speed_multiplier": 0.6
       },
       "minecraft:behavior.nearest_attackable_target": {
-        "priority": 2,
+        "priority": 1,
         "entity_types": [
           {
             "filters": {
