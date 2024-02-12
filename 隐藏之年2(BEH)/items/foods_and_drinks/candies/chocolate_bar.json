@@ -16,7 +16,7 @@
         "parent": "itemGroup.name.crop",
         "category": "nature"
       },
-      "minecraft:damage": 15,
+      "minecraft:damage": 5,
       "minecraft:weapon": {
         "on_hurt_entity": {
           "event": "hy.on_hurt_entity",
