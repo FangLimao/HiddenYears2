@@ -482,6 +482,9 @@ hy.item.ruby_apple=红宝石苹果
 hy.block.ruby_ore=红宝石矿石
 hy.block.deepslate_ruby_ore=深层红宝石矿石
 hy.item.ruby_boardsword=红宝石阔剑
+hy.item.ruby_runes=红宝石符文
+hy.item.ruby_bag=红宝石谜袋
+hy.item.calamity_bag.experience=灾厄谜袋·经验
 
 entity.hy:ruby_zombie.name=红宝石僵尸
 item.spawn_egg.entity.hy:ruby_zombie.name=红宝石僵尸刷怪蛋

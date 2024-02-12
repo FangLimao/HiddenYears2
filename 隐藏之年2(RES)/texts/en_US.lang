@@ -471,3 +471,15 @@ hy.item.ruby_apple=Ruby Apple
 hy.block.ruby_ore=Ruby Ore
 hy.block.deepslate_ruby_ore=Deepslate Ruby Ore
 hy.item.ruby_boardsword=Ruby Boardsword
+hy.item.ruby_runes=Ruby Runes
+hy.item.ruby_bag=Ruby Bag
+hy.item.calamity_bag.experience=Experience Calamity Bag
+
+entity.hy:ruby_zombie.name=Ruby Zombie
+item.spawn_egg.entity.hy:ruby_zombie.name=Ruby Zombie Spawn Egg
+entity.hy:ruby_skeleton.name=Ruby Skeleton
+item.spawn_egg.entity.hy:ruby_skeleton.name=Ruby Skeleton Spawn Egg
+entity.hy:ruby_guardian.name=Ruby Guardian
+item.spawn_egg.entity.hy:ruby_guardian.name=Ruby Guardian Spawn Egg
+entity.hy:king_of_ruby.name=King of Ruby
+item.spawn_egg.entity.hy:king_of_ruby.name=King of Ruby Spawn Egg

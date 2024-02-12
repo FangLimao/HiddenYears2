@@ -67,7 +67,7 @@
         },
         { "swimming": "controller.animation.ruby_zombie.swimming" }
       ],
-      "render_controllers": ["controller.render.ruby_zombie"],
+      "render_controllers": ["controller.render.zombie"],
       "enable_attachables": true
     }
   }

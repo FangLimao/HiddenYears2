@@ -1,4 +1,4 @@
-import { EquipmentSlot } from "@minecraft/server";
+import { world, system, EquipmentSlot } from "@minecraft/server";
 
 export function getRandomChance() {
   let randomChance = Math.ceil(Math.random() * 10);
@@ -8,21 +8,20 @@ export function getRandomChance() {
 
 export function getEquipmentItem(entity) {
   let equipmentItem = entity
-    .getComponent("minecraft:equippable")
-    .getEquipment(EquipmentSlot.Mainhand);
+    ?.getComponent("minecraft:equippable")
+    ?.getEquipment(EquipmentSlot.Mainhand);
   return equipmentItem;
 }
 
 export function getEquipmentItemTypeId(entity) {
   let equipmentItem = entity
-    .getComponent("minecraft:equippable")
-    .getEquipment(EquipmentSlot.Mainhand);
-  if (typeof equipmentItem != "undefined") {
+    ?.getComponent("minecraft:equippable")
+    ?.getEquipment(EquipmentSlot.Mainhand);
     return equipmentItem.typeId;
-  } else {
-    console.warn("[Rainy API]-You might take nothing");
-    return "hy:nothing";
-  }
+}
+
+export function addEffect(entity,effectType,time,amplifier,showParticles){
+
 }
 
 export function clearEffect(entity, effectType) {

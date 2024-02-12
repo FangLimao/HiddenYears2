@@ -784,6 +784,9 @@
     },
     "hy.ruby_boardsword": {
       "textures": "textures/items/tools/weapons/boardswords/ruby_boardsword"
+    },
+    "hy.ruby_runes": {
+      "textures": "textures/items/treasures/runes/ruby_runes"
     }
   }
 }
