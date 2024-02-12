@@ -7,7 +7,6 @@
       "is_summonable": true,
       "is_experimental": false
     },
-
     "component_groups": {
       "minecraft:celebrate": {
         "minecraft:behavior.celebrate": {
@@ -87,9 +86,6 @@
           "priority": 5,
           "speed_multiplier": 1.0,
           "goal_radius": 2.0
-        },
-        "minecraft:loot": {
-          "table": "loot_tables/entities/ruby_guardian_raid.json"
         },
         "minecraft:ambient_sound_interval": {
           "value": 2.0,
@@ -260,7 +256,7 @@
       "minecraft:jump.static": {},
       "minecraft:nameable": {},
       "minecraft:equipment": {
-        "table": "loot_tables/entities/ruby_guardian_gear.json"
+        "table": "loot_tables/equipments/ruby_guardian.json"
       },
       "minecraft:behavior.float": {
         "priority": 0

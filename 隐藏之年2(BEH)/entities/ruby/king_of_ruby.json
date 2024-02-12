@@ -57,21 +57,15 @@
       }
     },
     "components": {
-      "minecraft:boss": {
+      "minecraft:equipment":{
+    "table": "loot_tables/equipments/king_of_ruby.json"
+},
+       "minecraft:boss": {
         "should_darken_sky": false,
-        "hud_range": 125
+        "hud_range": 125,
+        "name": "entity.hy:king_of_ruby.name"
       },
       "minecraft:equip_item": {},
-      "minecraft:shareables": {
-        "items": [
-          {
-            "item": "minecraft:banner:15",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 0
-          }
-        ]
-      },
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:experience_reward": {
         "on_death": "10"
@@ -126,7 +120,6 @@
       },
       "minecraft:behavior.summon_entity": {
         "priority": 2,
-
         "summon_choices": [
           {
             "min_activation_range": 0.0,
