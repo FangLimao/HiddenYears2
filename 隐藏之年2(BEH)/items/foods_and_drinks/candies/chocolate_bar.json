@@ -6,6 +6,7 @@
       "category": "nature"
     },
     "components": {
+      "minecraft:can_destroy_in_creative": false,
       "minecraft:icon": {
         "texture": "hy.chocolate_bar"
       },
