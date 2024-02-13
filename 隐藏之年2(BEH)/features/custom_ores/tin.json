@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "hy:custom_ores/tin"
+    },
+    "count": 8,
+    "replace_rules": [
+      {
+        "places_block": "hy:tin_ore",
+        "may_replace": ["stone"]
+      },
+      {
+        "places_block": "hy:deepslate_tin_ore",
+        "may_replace": ["deepslate"]
+      }
+    ]
+  }
+}
