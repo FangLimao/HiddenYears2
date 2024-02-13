@@ -1,4 +1,5 @@
 import { world, ItemStack } from "@minecraft/server";
+import { modItemData } from "@hy2/mod-data.js"
 import {
   getRandomChance,
   getEquipmentItem,
@@ -6,8 +7,6 @@ import {
   applyImitationDamage,
 } from "@hy2/lib.js";
 import "Event.js";
-
-const itemBark = new ItemStack("hy:bark");
 
 const VERSION_CODE = 2008;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
@@ -60,14 +59,14 @@ world.afterEvents.itemUse.subscribe((event) => {
 
 world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
-  switch (event.itemStack.typeId) {    
+  switch (event.itemStack.typeId) {
     case "hy:ruby_runes":
-    let RANDOM_LEVEL = getRandomChance();
-    PLAYER.addLevels(RANDOM_LEVEL);
-    world.playSound("random.orb", PLAYER.location);
-    PLAYER.addEffect("fire_resistance", 1200);
-    PLAYER.addEffect("resistance", 1200);
-    break;
+      let RANDOM_LEVEL = getRandomChance();
+      PLAYER.addLevels(RANDOM_LEVEL);
+      world.playSound("random.orb", PLAYER.location);
+      PLAYER.addEffect("fire_resistance", 1200);
+      PLAYER.addEffect("resistance", 1200);
+      break;
     case "hy:ruby":
       PLAYER.addExperience(1);
       world.playSound("random.orb", PLAYER.location);
@@ -119,24 +118,24 @@ world.afterEvents.itemUse.subscribe((event) => {
 world.afterEvents.itemUseOn.subscribe((event) => {
   const PLAYER = event.source;
   if (event.itemStack.hasTag("hy:is_awl") === true) {
-    PLAYER.dimension.spawnItem(itemBark, PLAYER.location);
+    PLAYER.dimension.spawnItem(modItemData.bark, PLAYER.location);
     world.playSound("use.wood", PLAYER.location);
   }
 });
 
 world.afterEvents.entityHitEntity.subscribe((event) => {
   let ITEM = getEquipmentItem(event.damagingEntity);
-    if (event.damagingEntity.typeId==="hy:king_of_ruby"){
-      event.hitEntity.runCommand("xp -15 @s");
-    }
-    if (ITEM?.hasTag("hy:imitation_tools")) {
-      applyImitationDamage(event.damagingEntity);
-    }
+  if (event.damagingEntity.typeId === "hy:king_of_ruby") {
+    event.hitEntity.runCommand("xp -15 @s");
+  }
+  if (ITEM?.hasTag("hy:imitation_tools")) {
+    applyImitationDamage(event.damagingEntity);
+  }
 });
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const ITEM = event.itemStackBeforeBreak;
-    if (ITEM?.hasTag("hy:imitation_tools")) {
-      applyImitationDamage(event.player);
-    }  
+  if (ITEM?.hasTag("hy:imitation_tools")) {
+    applyImitationDamage(event.player);
+  }
 });

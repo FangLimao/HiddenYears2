@@ -17,12 +17,10 @@ export function getEquipmentItemTypeId(entity) {
   let equipmentItem = entity
     ?.getComponent("minecraft:equippable")
     ?.getEquipment(EquipmentSlot.Mainhand);
-    return equipmentItem.typeId;
+  return equipmentItem.typeId;
 }
 
-export function addEffect(entity,effectType,time,amplifier,showParticles){
-
-}
+export function addEffect(entity, effectType, time, amplifier, showParticles) {}
 
 export function clearEffect(entity, effectType) {
   switch (effectType) {

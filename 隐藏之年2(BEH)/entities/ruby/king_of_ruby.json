@@ -19,12 +19,7 @@
         "on_death": "250"
       },
       "minecraft:type_family": {
-        "family": [
-          "king_of_ruby",
-          "monster",
-          "ruby",
-          "mob"
-        ]
+        "family": ["king_of_ruby", "monster", "ruby", "mob"]
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -72,11 +67,11 @@
         "priority": 0
       },
       "minecraft:spawn_entity": {
-                "min_wait_time": 1.0,
-                "max_wait_time": 10.0,
-                "num_to_spawn": 2,
-                "single_use": false,
-                "spawn_entity": "hy:ruby_guardian"
+        "min_wait_time": 1.0,
+        "max_wait_time": 10.0,
+        "num_to_spawn": 2,
+        "single_use": false,
+        "spawn_entity": "hy:ruby_guardian"
       },
       "minecraft:behavior.random_stroll": {
         "priority": 2,

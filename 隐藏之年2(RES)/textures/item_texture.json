@@ -787,6 +787,12 @@
     },
     "hy.ruby_runes": {
       "textures": "textures/items/treasures/runes/ruby_runes"
+    },
+    "hy.ruby_bag": {
+      "textures": "textures/items/treasures/bags/ruby_bag"
+    },
+    "hy.calamity_bag": {
+      "textures": "textures/items/treasures/bags/calamity_bag"
     }
   }
 }
