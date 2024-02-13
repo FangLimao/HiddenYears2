@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:icon": {
-        "texture": "hy.calamity_bag.experience"
+        "texture": "hy.calamity_bag"
       },
       "minecraft:durability": {
         "max_durability": 1
