@@ -60,6 +60,28 @@ world.afterEvents.itemUse.subscribe((event) => {
 world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
   switch (event.itemStack.typeId) {
+    case "hy:ruby_bag":
+    let RANDOM_CHANCE = getRandomChance();
+    switch(RANDOM_CHANCE){
+      case 1:
+      case 2:
+       PLAYER.dimension.spawnItem(modItemData.diamondBlockReward, PLAYER.location);
+     break;
+      case 3:
+      case 4:
+      case 5:
+       PLAYER.dimension.spawnItem(modItemData.goldBlockReward, PLAYER.location);
+     break;
+      case 6:
+      PLAYER.dimension.spawnItem(modItemData.scrapReward, PLAYER.location);
+     break;
+      case 7:
+      PLAYER.dimension.spawnItem(modItemData.templateReward, PLAYER.location);
+     break;
+     default:
+      PLAYER.dimension.spawnItem(modItemData.appleReward, PLAYER.location);
+    }
+    break;
     case "hy:experience_calamity_bag":
      PLAYER.dimension.spawnEntity("hy:king_of_ruby", PLAYER.location);
     break;
