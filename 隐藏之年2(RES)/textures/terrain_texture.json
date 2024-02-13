@@ -120,6 +120,9 @@
     },
     "hy.deepslate_ruby_ore": {
       "textures": "textures/blocks/ores/deepslate_ruby_ore"
+    },
+    "hy.ruby_stone_bricks": {
+      "textures": "textures/blocks/ingot_blocks/ruby_stone_bricks"
     }
   }
 }

@@ -16,14 +16,6 @@
     "sound": "deepslate",
     "textures": "hy.deepslate_amethyst_essence_ore"
   },
-  "hy:fuel_ore": {
-    "sound": "stone",
-    "textures": "hy.legacy_fuel_ore"
-  },
-  "hy:deepslate_fuel_ore": {
-    "sound": "deepslate",
-    "textures": "hy.legacy_deepslate_fuel_ore"
-  },
   "hy:fuel_metal_ore": {
     "sound": "stone",
     "textures": "hy.fuel_metal_ore"
@@ -281,5 +273,9 @@
   "hy:deepslate_ruby_ore": {
     "sound": "deepslate",
     "textures": "hy.deepslate_ruby_ore"
+  },
+    "hy:ruby_stone_bricks": {
+    "sound": "stone",
+    "textures": "hy.ruby_stone_bricks"
   }
 }

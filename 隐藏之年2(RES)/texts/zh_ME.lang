@@ -474,6 +474,7 @@ hy.item.ruby_boardsword=红宝石阔剑
 hy.item.ruby_runes=红宝石符文
 hy.item.ruby_bag=红宝石谜袋
 hy.item.calamity_bag.experience=灾厄谜袋·经验
+hy.block.ruby_stone_bricks=嵌入红宝石的石砖
 
 entity.hy:ruby_zombie.name=红宝石僵尸
 item.spawn_egg.entity.hy:ruby_zombie.name=红宝石僵尸刷怪蛋
