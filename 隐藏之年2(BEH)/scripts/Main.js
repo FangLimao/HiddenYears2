@@ -60,6 +60,9 @@ world.afterEvents.itemUse.subscribe((event) => {
 world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
   switch (event.itemStack.typeId) {
+    case "hy:experience_calamity_bag":
+     PLAYER.dimension.spawnEntity("hy:king_of_ruby", PLAYER.location);
+    break;
     case "hy:ruby_runes":
       let RANDOM_LEVEL = getRandomChance();
       PLAYER.addLevels(RANDOM_LEVEL);

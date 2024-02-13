@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hy:experience_calamity_bag",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hy.calamity_bag.experience"
+      },
+      "minecraft:durability": {
+        "max_durability": 1
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "hy.item.calamity_bag.experience"
+      },
+      "minecraft:creative_category": {
+        "category": "equipment"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "hy.on_use",
+          "target": "self"
+        }
+      },
+      "minecraft:hover_text_color": "light_purple"
+    },
+    "events": {
+      "hy.on_use": {
+        "damage": {
+          "type": "magic",
+          "amount": 1
+        }
+      }
+    }
+  }
+}
