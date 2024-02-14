@@ -150,10 +150,9 @@
         "entity_types": [
           {
           "filters": {
-            "test": "is_family",
-            "subject": "other",
-            "operator": "!=",
-            "value": "ruby"
+            "test" :  "is_family", 
+            "subject" : "other", 
+            "value" :  "player"
           }
           }
         ],
