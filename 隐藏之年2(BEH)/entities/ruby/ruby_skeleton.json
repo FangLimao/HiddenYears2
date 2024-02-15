@@ -63,6 +63,9 @@
     },
 
     "components": {
+      "minecraft:despawn": {
+        "filters": { "test": "is_difficulty", "value": "peaceful" }
+      },
       "minecraft:experience_reward": {
         "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
       },

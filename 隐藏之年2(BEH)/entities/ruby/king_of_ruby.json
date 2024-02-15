@@ -8,6 +8,9 @@
       "is_experimental": false
     },
     "components": {
+      "minecraft:despawn": {
+        "filters": { "test": "is_difficulty", "value": "peaceful" }
+      },
       "minecraft:boss": {
         "should_darken_sky": false,
         "hud_range": 125,

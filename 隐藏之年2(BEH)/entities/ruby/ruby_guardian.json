@@ -8,6 +8,9 @@
       "is_experimental": false
     },
     "components": {
+      "minecraft:despawn": {
+        "filters": { "test": "is_difficulty", "value": "peaceful" }
+      },
       "minecraft:behavior.melee_attack": {
         "priority": 4,
         "target_dist": 1.2,
