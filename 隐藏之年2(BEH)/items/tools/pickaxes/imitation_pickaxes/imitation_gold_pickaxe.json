@@ -52,8 +52,488 @@
             }
           },
           {
+            "block": "magma",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "coral_block",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "calcite",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "tuff",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "amethyst_block",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "budding_amethyst",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "blue_ice",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "packed_ice",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "chiseled_deepslate",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "polished_deepslate",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "basalt",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "polished_basalt",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "smooth_basalt",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "grindstone",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "undyed_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "white_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "orange_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "magenta_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "light_blue_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "yellow_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "lime_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "pink_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "gray_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "light_gray_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "cyan_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "purple_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "blue_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "brown_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "green_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "red_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "black_shulker_box",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "purpur_block",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "hardened_clay",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "stained_hardened_clay",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "white_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "orange_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "magenta_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "light_blue_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "yellow_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "lime_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "pink_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "gray_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "light_gray_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "cyan_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "purple_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "blue_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "brown_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "green_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "red_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "black_glazed_terracotta",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "quartz_block",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "quartz_bricks",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "nether_brick",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "red_nether_brick",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "cracked_nether_bricks",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "chiseled_nether_bricks",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bone_block",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "prismarine",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "lapis_block",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "nether_brick_fence",
+            "speed": 8,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
             "block": "dripstone_block",
-            "speed": 5,
+            "speed": 8,
             "on_dig": {
               "event": "hy.on_break_block",
               "target": "self"
@@ -61,7 +541,7 @@
           },
           {
             "block": "pointed_dripstone",
-            "speed": 5,
+            "speed": 8,
             "on_dig": {
               "event": "hy.on_break_block",
               "target": "self"
@@ -77,7 +557,7 @@
           },
           {
             "block": "netherrack",
-            "speed": 5,
+            "speed": 8,
             "on_dig": {
               "event": "hy.on_break_block",
               "target": "self"
@@ -85,7 +565,7 @@
           },
           {
             "block": "deepslate",
-            "speed": 5,
+            "speed": 8,
             "on_dig": {
               "event": "hy.on_break_block",
               "target": "self"
