@@ -8,7 +8,7 @@ import {
 } from "@hy2/lib.js";
 import "Event.js";
 
-const VERSION_CODE = 2008;
+const VERSION_CODE = 2100;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
 world.afterEvents.playerSpawn.subscribe((event) => {
