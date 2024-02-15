@@ -46,6 +46,14 @@
             }
           },
           {
+            "block": "crafting_table",
+            "speed": 6,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
             "block": "chest",
             "speed": 6,
             "on_dig": {

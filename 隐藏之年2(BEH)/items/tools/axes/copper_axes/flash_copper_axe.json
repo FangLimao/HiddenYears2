@@ -14,7 +14,6 @@
       "minecraft:durability": {
         "max_durability": 1800
       },
-      "minecraft:mining_speed": 1,
       "minecraft:damage": 8,
       "minecraft:enchantable": {
         "value": 8,
@@ -39,6 +38,14 @@
             "block": {
               "tags": "query.any_tag('wood', 'pumpkin', 'plant')"
             },
+            "speed": 6,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "crafting_table",
             "speed": 6,
             "on_dig": {
               "event": "hy.on_break_block",
