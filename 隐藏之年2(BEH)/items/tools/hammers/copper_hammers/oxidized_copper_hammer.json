@@ -41,6 +41,14 @@
             }
           },
           {
+            "block": "netherrack",
+            "speed": 3,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
             "block": "sandstone",
             "speed": 3,
             "on_dig": {
