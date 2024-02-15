@@ -52,6 +52,22 @@
             }
           },
           {
+            "block": "dripstone_block",
+            "speed": 5,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "pointed_dripstone",
+            "speed": 5,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
             "block": "ice",
             "speed": 6,
             "on_dig": {
