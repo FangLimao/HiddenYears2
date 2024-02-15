@@ -32,9 +32,7 @@
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
-            "items": [
-              "copper_ingot"
-            ],
+            "items": ["copper_ingot"],
             "repair_amount": 50
           }
         ]

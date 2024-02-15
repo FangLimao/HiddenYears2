@@ -274,7 +274,7 @@
     "sound": "deepslate",
     "textures": "hy.deepslate_ruby_ore"
   },
-    "hy:ruby_stone_bricks": {
+  "hy:ruby_stone_bricks": {
     "sound": "stone",
     "textures": "hy.ruby_stone_bricks"
   }

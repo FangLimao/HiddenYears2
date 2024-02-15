@@ -32,9 +32,7 @@
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
-            "items": [
-              "copper_ingot"
-            ],
+            "items": ["copper_ingot"],
             "repair_amount": 50
           }
         ]
@@ -842,9 +840,7 @@
           {
             "run_command": {
               "target": "self",
-              "command": [
-                "function api/tetanus.effect/v1.0/radius4/lv3"
-              ]
+              "command": ["function api/tetanus.effect/v1.0/radius4/lv3"]
             }
           },
           {

@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "hy:chocolate_paste",
-      "category": "nature"
+      "category": "equipment"
     },
     "components": {
       "minecraft:icon": {
@@ -13,8 +13,8 @@
         "value": "hy.item.chocolate_paste"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.crop",
-        "category": "nature"
+        "parent": "itemGroup.name.miscFood",
+        "category": "equipment"
       },
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.4,

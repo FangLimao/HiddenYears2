@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "hy:chocolate_bar",
-      "category": "nature"
+      "category": "equipment"
     },
     "components": {
       "minecraft:hand_equipped": true,
@@ -15,8 +15,8 @@
         "value": "hy.item.chocolate_bar"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.crop",
-        "category": "nature"
+        "parent": "itemGroup.name.miscFood",
+        "category": "equipment"
       },
       "minecraft:damage": 5,
       "minecraft:weapon": {

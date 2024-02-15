@@ -23,15 +23,11 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": [
-              "hy:nether_metal_pickaxe"
-            ],
+            "items": ["hy:nether_metal_pickaxe"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
-            "items": [
-              "hy:nether_metal_ingot"
-            ],
+            "items": ["hy:nether_metal_ingot"],
             "repair_amount": 50
           }
         ]

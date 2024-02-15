@@ -23,15 +23,11 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": [
-              "hy:flash_copper_ingot"
-            ],
+            "items": ["hy:flash_copper_ingot"],
             "repair_amount": 40
           },
           {
-            "items": [
-              "hy:flash_copper_pickaxe"
-            ],
+            "items": ["hy:flash_copper_pickaxe"],
             "repair_amount": "context.other->query.remaining_durability+0.05*context.other->query.max_durability"
           }
         ]

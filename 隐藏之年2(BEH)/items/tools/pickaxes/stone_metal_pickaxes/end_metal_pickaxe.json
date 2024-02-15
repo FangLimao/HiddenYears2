@@ -23,15 +23,11 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": [
-              "hy:end_metal_pickaxe"
-            ],
+            "items": ["hy:end_metal_pickaxe"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           },
           {
-            "items": [
-              "hy:end_metal_ingot"
-            ],
+            "items": ["hy:end_metal_ingot"],
             "repair_amount": 50
           }
         ]

@@ -149,11 +149,11 @@
         "priority": 1,
         "entity_types": [
           {
-          "filters": {
-            "test" :  "is_family", 
-            "subject" : "other", 
-            "value" :  "player"
-          }
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            }
           }
         ],
         "must_see": true

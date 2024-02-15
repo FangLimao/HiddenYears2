@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "hy:amethyst_marshallow",
-      "category": "nature"
+      "category": "equipment"
     },
     "components": {
       "minecraft:icon": {
@@ -13,8 +13,8 @@
         "value": "hy.item.amethyst_marshallow"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.crop",
-        "category": "nature"
+        "parent": "itemGroup.name.miscFood",
+        "category": "equipment"
       },
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.4,

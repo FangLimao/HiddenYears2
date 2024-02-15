@@ -89,7 +89,7 @@
               "event": "hy.on_break_block",
               "target": "self"
             }
-          },  
+          },
           {
             "block": "budding_amethyst",
             "speed": 5,
@@ -137,7 +137,7 @@
               "event": "hy.on_break_block",
               "target": "self"
             }
-          },          
+          },
           {
             "block": "polished_basalt",
             "speed": 5,
@@ -529,7 +529,7 @@
               "event": "hy.on_break_block",
               "target": "self"
             }
-          },  
+          },
           {
             "block": "dripstone_block",
             "speed": 5,
