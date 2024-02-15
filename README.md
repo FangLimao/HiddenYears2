@@ -51,8 +51,6 @@
 
 你可以通过云盘下载本模组：https://pan.huang1111.cn/s/N6m8H1
 
-当前最新版本：2.1.0-alpha
-
 ## 相关链接
 
 - 苦力怕论坛：https://klpbbs.com/thread-85797-1-1.html
