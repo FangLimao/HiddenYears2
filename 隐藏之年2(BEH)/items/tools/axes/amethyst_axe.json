@@ -141,6 +141,14 @@
             }
           },
           {
+            "block": "chiseled_bookshelf",
+            "speed": 6,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
             "block": "noteblock",
             "speed": 6,
             "on_dig": {

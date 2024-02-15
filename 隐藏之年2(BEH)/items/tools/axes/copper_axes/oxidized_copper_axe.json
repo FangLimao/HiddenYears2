@@ -46,7 +46,7 @@
           },
           {
             "block": "crafting_table",
-            "speed": 6,
+            "speed": 2,
             "on_dig": {
               "event": "hy.on_break_block",
               "target": "self"
@@ -134,6 +134,14 @@
           },
           {
             "block": "bookshelf",
+            "speed": 2,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "chiseled_bookshelf",
             "speed": 2,
             "on_dig": {
               "event": "hy.on_break_block",
