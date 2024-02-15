@@ -59,6 +59,22 @@
             }
           },
           {
+            "block": "netherrack",
+            "speed": 4,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "deepslate",
+            "speed": 4,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
             "block": "sandstone",
             "speed": 4,
             "on_dig": {
