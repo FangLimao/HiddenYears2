@@ -475,6 +475,7 @@ hy.item.ruby_runes=Ruby Runes
 hy.item.ruby_bag=Ruby Bag
 hy.item.calamity_bag.experience=Experience Calamity Bag
 hy.block.ruby_stone_bricks=Stone Bricks with Ruby
+hy.bossdead.ruby=『King of Ruby』has fallen and the world has fallen silent……
 
 entity.hy:ruby_zombie.name=Ruby Zombie
 item.spawn_egg.entity.hy:ruby_zombie.name=Ruby Zombie Spawn Egg

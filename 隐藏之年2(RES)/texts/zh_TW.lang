@@ -487,6 +487,7 @@ hy.item.ruby_runes=紅寶石符文
 hy.item.ruby_bag=紅寶石謎袋
 hy.item.calamity_bag.experience=災厄謎袋·經驗
 hy.block.ruby_stone_bricks=嵌入紅寶石的石磚
+hy.bossdead.ruby=『紅寶石之王』隕落了，世界都為之沉默……
 
 entity.hy:ruby_zombie.name=紅寶石僵屍
 item.spawn_egg.entity.hy:ruby_zombie.name=紅寶石僵屍刷怪蛋

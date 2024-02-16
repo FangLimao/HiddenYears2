@@ -5,15 +5,85 @@
         "volume": 1,
         "pitch": [0.8, 1.2],
         "events": {
-          "ambient": "mob.gemstone_trader.idle",
-          "hurt": "mob.gemstone_trader.hit",
-          "death": "mob.gemstone_trader.death",
-          "death.to.zombie": "mob.gemstone_trader.death",
-          "haggle": "mob.gemstone_trader.haggle",
-          "haggle.yes": "mob.gemstone_trader.yes",
-          "haggle.no": "mob.gemstone_trader.no"
+          "ambient": "mob.villager.idle",
+          "hurt": "mob.villager.hit",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.yes": "mob.villager.yes",
+          "haggle.no": "mob.villager.no"
         }
-      }
+      },
+      "hy:hidden_trader": {
+        "volume": 1,
+        "pitch": [0.8, 1.2],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "hurt": "mob.villager.hit",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.yes": "mob.villager.yes",
+          "haggle.no": "mob.villager.no"
+        }
+      },
+      "hy:ruby_zombie": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "hy:ruby_skeleton": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "hy:ruby_guardian": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "hurt": "mob.pillager.hurt",
+          "death": "mob.pillager.death",
+          "ambient.in.raid": {"sound": "mob.pillager.idle", "volume": 3.0, "pitch": [ 0.8, 1.2 ]},
+          "celebrate": "mob.pillager.celebrate"
+        }
+      },
+      "hy:king_of_ruby": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.evocation_illager.ambient",
+          "death": "mob.evocation_illager.death",
+          "hurt": "mob.evocation_illager.hurt",
+          "cast.spell": "mob.evocation_illager.cast_spell",
+          "prepare.attack": "mob.evocation_illager.prepare_attack",
+          "prepare.summon": "mob.evocation_illager.prepare_summon",
+          "prepare.wololo": "mob.evocation_illager.prepare_wololo",
+          "ambient.in.raid": {"sound": "mob.evocation_illager.ambient", "volume": 3.0, "pitch": [ 0.8, 1.2 ]},
+          "celebrate": "mob.evocation_illager.celebrate"
+        }
+      }      
     }
   }
 }
