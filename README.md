@@ -46,7 +46,7 @@
 
 本模组使用了Script API，因此请在加载前保证：
 
-- 游戏版本在1.20.50以上
+- 游戏版本在1.20.60以上
 - 开启了假日创作者、自定义生物群系、测试版API实验性玩法
 
 你可以通过云盘下载本模组：https://pan.huang1111.cn/s/N6m8H1
@@ -107,7 +107,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-# 写在最后
+## 写在最后
 
 做模组/附加包不容易，如果可以，请到[苦力怕论他](https://klpbbs.com/space-uid-855752.html)支持一下我～
 
