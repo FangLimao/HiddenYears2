@@ -108,10 +108,6 @@ world.afterEvents.itemUse.subscribe((event) => {
       PLAYER.addEffect("fire_resistance", 1200);
       PLAYER.addEffect("resistance", 1200);
       break;
-    case "hy:ruby":
-      PLAYER.addExperience(1);
-      world.playSound("random.orb", PLAYER.location);
-      break;
     case "hy:copper_badge":
       PLAYER.addEffect("health_boost", 300, {
         amplifier: 2,
