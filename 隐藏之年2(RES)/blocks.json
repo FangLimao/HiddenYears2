@@ -263,19 +263,19 @@
     "textures": "hy.chocolate_bricks"
   },
   "hy:ruby_block": {
-    "sound": "metal",
+    "sound": "amethyst_block",
     "textures": "hy.ruby_block"
   },
   "hy:ruby_ore": {
-    "sound": "stone",
+    "sound": "amethyst_block",
     "textures": "hy.ruby_ore"
   },
   "hy:deepslate_ruby_ore": {
-    "sound": "deepslate",
+    "sound": "amethyst_block",
     "textures": "hy.deepslate_ruby_ore"
   },
   "hy:ruby_stone_bricks": {
-    "sound": "stone",
+    "sound": "amethyst_block",
     "textures": "hy.ruby_stone_bricks"
   }
 }
