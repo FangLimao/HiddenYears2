@@ -8,6 +8,14 @@
       "is_experimental": false
     },
     "components": {
+      "minecraft:behavior.melee_attack": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "track_target": true
+      },
+      "minecraft:attack": {
+        "damage": 20
+      },
       "minecraft:despawn": {
         "filters": { "test": "is_difficulty", "value": "peaceful" }
       },
@@ -19,7 +27,7 @@
       "minecraft:equip_item": {},
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:experience_reward": {
-        "on_death": "250"
+        "on_death": "500"
       },
       "minecraft:type_family": {
         "family": ["king_of_ruby", "monster", "ruby", "mob"]
@@ -29,12 +37,15 @@
         "suffocate_time": 0
       },
       "minecraft:nameable": {},
+      "minecraft:equipment": {
+        "table": "loot_tables/equipments/king_of_ruby.json"
+      },
       "minecraft:loot": {
         "table": "loot_tables/entities/king_of_ruby.json"
       },
       "minecraft:health": {
-        "value": 200,
-        "max": 200
+        "value": 250,
+        "max": 250
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -70,10 +81,10 @@
         "priority": 0
       },
       "minecraft:spawn_entity": {
-        "min_wait_time": 18.0,
-        "max_wait_time": 25.0,
-        "num_to_spawn": 3,
-        "single_use": false,
+        "min_wait_time": 25.0,
+        "max_wait_time": 45.0,
+        "num_to_spawn": 4,
+        "single_use": true,
         "spawn_entity": "hy:ruby_guardian"
       },
       "minecraft:behavior.random_stroll": {
