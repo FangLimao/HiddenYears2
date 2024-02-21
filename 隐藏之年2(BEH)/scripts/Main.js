@@ -7,6 +7,7 @@ import {
   applyImitationDamage,
 } from "@hy2/lib.js";
 import "Event.js";
+//import "Level.js"; WIP
 
 const VERSION_CODE = 2101;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");

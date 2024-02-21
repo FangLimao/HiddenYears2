@@ -43,7 +43,7 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "empty", "weight": 10 },
+        { "type": "empty", "weight": 25 },
         {
           "type": "item",
           "name": "minecraft:tide_armor_trim_smithing_template",

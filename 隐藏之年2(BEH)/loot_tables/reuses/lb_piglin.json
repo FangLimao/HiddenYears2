@@ -8,7 +8,7 @@
           "name": "hy:raw_small_leather",
           "weight": 1,
           "functions": [
-            { "function": "set_count", "count": { "min": 0, "max": 3 } },
+            { "function": "set_count", "count": { "min": 0, "max": 2 } },
             { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
           ]
         }
@@ -22,7 +22,7 @@
           "name": "minecraft:bone",
           "weight": 1,
           "functions": [
-            { "function": "set_count", "count": { "min": 0, "max": 4 } },
+            { "function": "set_count", "count": { "min": 0, "max": 3 } },
             { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
           ]
         }

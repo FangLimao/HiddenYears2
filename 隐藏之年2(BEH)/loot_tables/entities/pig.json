@@ -15,8 +15,17 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:porkchop",
+          "name": "minecraft:carrot",
           "weight": 1,
+          "functions": [
+            { "function": "set_count", "count": { "min": 0, "max": 2 } }
+          ]
+        },
+        { "type": "empty", "weight": 4 },
+        {
+          "type": "item",
+          "name": "minecraft:porkchop",
+          "weight": 5,
           "functions": [
             { "function": "set_count", "count": { "min": 0, "max": 3 } },
             {
@@ -32,20 +41,6 @@
             { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
           ]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:carrot",
-          "weight": 1,
-          "functions": [
-            { "function": "set_count", "count": { "min": 0, "max": 2 } }
-          ]
-        },
-        { "type": "empty", "weight": 4 }
       ]
     }
   ]

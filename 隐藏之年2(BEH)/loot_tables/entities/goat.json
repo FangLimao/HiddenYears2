@@ -8,7 +8,7 @@
           "name": "minecraft:mutton",
           "weight": 1,
           "functions": [
-            { "function": "set_count", "count": { "min": 2, "max": 5 } },
+            { "function": "set_count", "count": { "min": 0, "max": 3 } },
             {
               "function": "furnace_smelt",
               "conditions": [
