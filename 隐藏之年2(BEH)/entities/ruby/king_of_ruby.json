@@ -32,9 +32,16 @@
       "minecraft:type_family": {
         "family": ["king_of_ruby", "monster", "ruby", "mob"]
       },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:fire_immune": {},
       "minecraft:breathable": {
-        "total_supply": 15,
-        "suffocate_time": 0
+        "breathes_air": true,
+        "breathes_lava": true,
+        "breathes_solids": true,
+        "breathes_water": true,
+        "total_supply": 120
       },
       "minecraft:nameable": {},
       "minecraft:equipment": {
@@ -46,6 +53,12 @@
       "minecraft:health": {
         "value": 250,
         "max": 250
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
