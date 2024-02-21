@@ -21,12 +21,12 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   }
 });
 
-world.afterEvents.entityDie.subscribe((event)=>{
- if(event.deadEntity.typeId==="hy:king_of_ruby"){
-  world.stopMusic();
-  world.sendMessage([{ translate: "hy.bossdead.ruby" }]);
- }
-})
+world.afterEvents.entityDie.subscribe((event) => {
+  if (event.deadEntity.typeId === "hy:king_of_ruby") {
+    world.stopMusic();
+    world.sendMessage([{ translate: "hy.bossdead.ruby" }]);
+  }
+});
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const BLOCK = event.brokenBlockPermutation;

@@ -1,6 +1,16 @@
 {
   "pools": [
     {
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.085,
+          "looting_multiplier": 0.02
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
@@ -8,7 +18,29 @@
           "name": "hy:ruby_bag",
           "weight": 1,
           "functions": [
-            { "function": "set_count", "count": { "min": 1, "max": 2 } },
+            { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.185,
+          "looting_multiplier": 0.02
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hy:ruby",
+          "weight": 1,
+          "functions": [
             { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
           ]
         }

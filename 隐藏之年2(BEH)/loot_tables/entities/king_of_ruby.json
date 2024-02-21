@@ -20,6 +20,7 @@
         }
       ]
     },
+
     {
       "rolls": 1,
       "entries": [
@@ -28,7 +29,16 @@
           "name": "hy:ruby_bag",
           "weight": 1,
           "functions": [
-            { "function": "set_count", "count": { "min": 2, "max": 5 } },
+            { "function": "set_count", "count": { "min": 2, "max": 3 } },
+            { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hy:ruby",
+          "weight": 1,
+          "functions": [
+            { "function": "set_count", "count": { "min": 4, "max": 9 } },
             { "function": "looting_enchant", "count": { "min": 2, "max": 3 } }
           ]
         }
