@@ -145,10 +145,6 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
             amplifier: 1,
           });
           break;
-        case "nightmare":
-          PLAYER.addEffect("strength", 500);
-          PLAYER.addEffect("night_vision", 500);
-          break;
         case "stick":
           PLAYER.applyDamage(2);
           break;

@@ -12,14 +12,6 @@
       "minecraft:display_name": {
         "value": "hy.item.nightmare_fuel_metal"
       },
-      "minecraft:food": {
-        "nutrition": 20,
-        "saturation_modifier": 0.8,
-        "using_converts_to": "hy:nightmare_fuel_metal",
-        "on_consume": {
-          "event": "hy.on_eat"
-        }
-      },
       "minecraft:icon": {
         "texture": "hy.fuel_metal"
       },
@@ -29,13 +21,6 @@
       "tag:hy:fuel_metal": {},
       "tag:dict:fuels": {},
       "tag:dict:fuels.metal": {}
-    },
-    "events": {
-      "hy.on_eat": {
-        "run_command": {
-          "command": ["scriptevent hy:fuel_metal nightmare"]
-        }
-      }
     }
   }
 }
