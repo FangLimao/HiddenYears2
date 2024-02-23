@@ -5,6 +5,7 @@
       "entries": [
         {
           "type": "item",
+          "weight": 1,
           "name": "raw_gold_block",
           "functions": [
             {
@@ -15,7 +16,8 @@
               }
             }
           ]
-        }
+        },
+        { "type": "empty", "weight": 3 }
       ]
     }
   ]

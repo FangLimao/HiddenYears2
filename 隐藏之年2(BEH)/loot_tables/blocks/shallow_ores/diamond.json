@@ -5,17 +5,19 @@
       "entries": [
         {
           "type": "item",
+          "weight": 1,
           "name": "hy:diamond_nugget",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 0,
-                "max": 4
+                "min": 2,
+                "max": 5
               }
             }
           ]
-        }
+        },
+        { "type": "empty", "weight": 1 }
       ]
     }
   ]

@@ -1,5 +1,6 @@
 import { world, ItemStack } from "@minecraft/server";
 import { modItemData } from "@hy2/mod-data.js";
+import * as hyapi from "@hy2/lib.js";
 import {
   getRandomChance,
   getEquipmentItem,
@@ -50,6 +51,7 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 world.afterEvents.itemUse.subscribe((event) => {
   if (event.itemStack.hasTag("hy:bone_swords") === true) {
     event.source.runCommandAsync("function api/aoe/bone");
+    hyapi.consumeDurability(event.itemStack, 20);
   }
 });
 

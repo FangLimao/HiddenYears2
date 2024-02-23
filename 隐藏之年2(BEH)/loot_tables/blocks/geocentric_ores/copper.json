@@ -4,6 +4,7 @@
       "rolls": 1,
       "entries": [
         {
+          "weight": 1,
           "type": "item",
           "name": "raw_copper_block",
           "functions": [
@@ -15,7 +16,8 @@
               }
             }
           ]
-        }
+        },
+        { "type": "empty", "weight": 3 }
       ]
     }
   ]

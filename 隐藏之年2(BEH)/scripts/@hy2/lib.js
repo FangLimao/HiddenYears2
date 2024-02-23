@@ -20,8 +20,6 @@ export function getEquipmentItemTypeId(entity) {
   return equipmentItem.typeId;
 }
 
-export function addEffect(entity, effectType, time, amplifier, showParticles) {}
-
 export function clearEffect(entity, effectType) {
   switch (effectType) {
     case "all":
@@ -62,6 +60,16 @@ export function clearEffect(entity, effectType) {
     default:
       entity.removeEffect(effectType);
       break;
+  }
+}
+
+export function consumeDurability(item, value) {
+  let durability = item.getComponent("minecraft:durability")?.damage;
+  if (durability === undefined) {
+    return item;
+  } else {
+    durability -= value;
+    return item;
   }
 }
 
