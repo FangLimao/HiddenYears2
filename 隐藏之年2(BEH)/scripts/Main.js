@@ -1,14 +1,8 @@
 import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
 import { modItemData } from "@hy2/mod-data.js";
 import * as hyapi from "@hy2/lib.js";
-import {
-  getRandomChance,
-  getEquipmentItem,
-  getEquipmentItemTypeId,
-  applyImitationDamage,
-} from "@hy2/lib.js";
-import "Event.js";
-//import "Level.js"; WIP
+import "@hy2/event.js";
+//import "@hy2/travel-level.js";
 
 const VERSION_CODE = 2101;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
@@ -32,7 +26,7 @@ world.afterEvents.entityDie.subscribe((event) => {
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const BLOCK = event.brokenBlockPermutation;
   const PLAYER = event.player;
-  let ITEM = getEquipmentItem(PLAYER);
+  let ITEM = hyapi.getEquipmentItem(PLAYER);
   if (ITEM.typeId === "hy:test_hammer") {
     let NEW_ITEM = hyapi.consumeDurability(ITEM, 10, PLAYER);
     PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
@@ -41,7 +35,7 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
     );
   }
   if (BLOCK.hasTag("hy:suspicious_ores") === true) {
-    let RANDOM_CHANCE = getRandomChance();
+    let RANDOM_CHANCE = hyapi.getRandomChance();
     if (RANDOM_CHANCE <= 8) {
       PLAYER.dimension.spawnEntity("silverfish", PLAYER.location);
       PLAYER.dimension.spawnEntity("silverfish", PLAYER.location);
@@ -78,7 +72,7 @@ world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
   switch (event.itemStack.typeId) {
     case "hy:ruby_bag":
-      let RANDOM_CHANCE = getRandomChance();
+      let RANDOM_CHANCE = hyapi.getRandomChance();
       switch (RANDOM_CHANCE) {
         case 1:
         case 2:
@@ -112,7 +106,7 @@ world.afterEvents.itemUse.subscribe((event) => {
       PLAYER.dimension.spawnEntity("hy:king_of_ruby", PLAYER.location);
       break;
     case "hy:ruby_runes":
-      let RANDOM_LEVEL = getRandomChance();
+      let RANDOM_LEVEL = hyapi.getRandomChance();
       PLAYER.addLevels(RANDOM_LEVEL);
       world.playSound("random.orb", PLAYER.location);
       PLAYER.addEffect("fire_resistance", 1200);
@@ -171,18 +165,18 @@ world.afterEvents.itemUseOn.subscribe((event) => {
 });
 
 world.afterEvents.entityHitEntity.subscribe((event) => {
-  let ITEM = getEquipmentItem(event.damagingEntity);
+  let ITEM = hyapi.getEquipmentItem(event.damagingEntity);
   if (event.damagingEntity.typeId === "hy:king_of_ruby") {
     event.hitEntity.runCommand("xp -15 @s");
   }
   if (ITEM?.hasTag("hy:imitation_tools")) {
-    applyImitationDamage(event.damagingEntity);
+    hyapi.applyImitationDamage(event.damagingEntity);
   }
 });
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const ITEM = event.itemStackBeforeBreak;
   if (ITEM?.hasTag("hy:imitation_tools")) {
-    applyImitationDamage(event.player);
+    hyapi.applyImitationDamage(event.player);
   }
 });
