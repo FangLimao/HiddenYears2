@@ -2,33 +2,29 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:corrosion_boardsword",
+      "identifier": "hy:emerald_boardsword",
       "category": "equipment"
     },
     "components": {
-      "minecraft:hover_text_color": "yellow",
-      "minecraft:foil": true,
       "minecraft:on_use": {
         "on_use": {
           "event": "hy.on_hurt_entity",
           "target": "self"
         }
       },
-      "minecraft:cooldown": {
-        "category": "hy.body_corrosion",
-        "duration": 25
-      },
+      "minecraft:hover_text_color": "yellow",
       "minecraft:display_name": {
-        "value": "hy.item.corrosion_boardsword"
+        "value": "hy.item.emerald_boardsword"
       },
       "minecraft:can_destroy_in_creative": false,
       "minecraft:creative_category": {
         "parent": "itemGroup.name.sword"
       },
       "minecraft:durability": {
-        "max_durability": 600
+        "max_durability": 1800
       },
-      "minecraft:damage": 7,
+      "minecraft:damage": 6,
+      "minecraft:foil": true,
       "minecraft:digger": {
         "use_efficiency": true,
         "on_dig": {
@@ -38,6 +34,14 @@
         "destroy_speeds": [
           {
             "block": "web",
+            "speed": 15,
+            "on_dig": {
+              "event": "hy.on_break_block",
+              "target": "self"
+            }
+          },
+          {
+            "block": "moss_carpet",
             "speed": 15,
             "on_dig": {
               "event": "hy.on_break_block",
@@ -147,14 +151,6 @@
               "event": "hy.on_break_block",
               "target": "self"
             }
-          },
-          {
-            "block": "moss_carpet",
-            "speed": 15,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
           }
         ]
       },
@@ -164,17 +160,17 @@
       },
       "minecraft:hand_equipped": true,
       "minecraft:icon": {
-        "texture": "hy.exposed_copper_sword"
+        "texture": "hy.emerald_boardsword"
       },
       "minecraft:max_stack_size": 1,
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["hy:lv1_corrosion_ingot"],
+            "items": ["emerald"],
             "repair_amount": 40
           },
           {
-            "items": ["hy:corrosion_boardsword"],
+            "items": ["hy:emerald_boardsword"],
             "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
           }
         ]
@@ -189,23 +185,6 @@
       "tag:minecraft:is_tool": {}
     },
     "events": {
-      "hy.on_use": {
-        "sequence": [
-          {
-            "damage": {
-              "type": "magic",
-              "amount": 10,
-              "target": "self"
-            }
-          },
-          {
-            "run_command": {
-              "target": "self",
-              "command": ["function api/body_corrosion.effect/v1.1/lv1"]
-            }
-          }
-        ]
-      },
       "hy.on_hurt_entity": {
         "damage": {
           "type": "magic",
