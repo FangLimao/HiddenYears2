@@ -485,3 +485,10 @@ entity.hy:ruby_guardian.name=Ruby Guardian
 item.spawn_egg.entity.hy:ruby_guardian.name=Ruby Guardian Spawn Egg
 entity.hy:king_of_ruby.name=King of Ruby
 item.spawn_egg.entity.hy:king_of_ruby.name=King of Ruby Spawn Egg
+
+hy.item.amethyst_boardsword.embryo=Amethyst Boardsword Embryo
+hy.item.emerald_boardsword.embryo=Emerald Boardsword Embryo
+hy.item.flash_copper_boardsword.embryo=Flash Copper Boardsword Embryo
+hy.item.flash_metal_boardsword.embryo=Flash Metal Boardsword Embryo
+hy.item.corrosion_boardsword.embryo=Corrosion Boardsword Embryo
+hy.item.ruby_boardsword.embryo=Ruby Boardsword Embryo

@@ -1,20 +1,17 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.20.60",
   "minecraft:item": {
     "description": {
       "identifier": "hy:enchanted_bone",
-      "category": "items"
+      "menu_category": {
+        "category": "equipment"
+      }
     },
     "components": {
-      "minecraft:foil": true,
-      "minecraft:icon": {
-        "texture": "bone"
-      },
+      "minecraft:glint": true,
+      "minecraft:icon": "bone",
       "minecraft:display_name": {
         "value": "hy.item.enchanted_bone"
-      },
-      "minecraft:creative_category": {
-        "category": "items"
       },
       "minecraft:hover_text_color": "yellow"
     }

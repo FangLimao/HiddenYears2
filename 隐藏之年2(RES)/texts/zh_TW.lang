@@ -497,3 +497,10 @@ entity.hy:ruby_guardian.name=紅寶石守衛
 item.spawn_egg.entity.hy:ruby_guardian.name=紅寶石守衛刷怪蛋
 entity.hy:king_of_ruby.name=紅寶石之王
 item.spawn_egg.entity.hy:king_of_ruby.name=紅寶石之王刷怪蛋
+
+hy.item.amethyst_boardsword.embryo=紫水晶闊劍原胚
+hy.item.emerald_boardsword.embryo=綠寶石闊劍原胚
+hy.item.flash_copper_boardsword.embryo=閃銅闊劍原胚
+hy.item.flash_metal_boardsword.embryo=閃金闊劍原胚
+hy.item.corrosion_boardsword.embryo=腐蝕闊劍原胚
+hy.item.ruby_boardsword.embryo=紅寶石闊劍原胚

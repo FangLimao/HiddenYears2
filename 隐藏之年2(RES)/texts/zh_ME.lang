@@ -10,13 +10,6 @@ hy.empty=
 hy.ui.open_source.title=开源项目
 hy.ui.open_source.description=本项目使用了下面开源项目的代码/资源，谨此对这些项目的开发者致以崇高的敬意！
 
-container.stonecutter=切割机	#
-container.stonecutter_block=切割机	#
-tile.stonecutter.name=切割机	#
-tile.stonecutter_block.name=切割机	#
-
-hy.message.error.100=§c致命错误(100)：缺少前置函数库，请重新下载此附加包。
-
 hy.message.tetanus=你获得了§b『破伤风』§r效果！
 hy.message.oxidising.exposed=此工具变得§b『斑驳』§r
 hy.message.oxidising.weathered=此工具变得§b『锈蚀』§r
@@ -414,7 +407,7 @@ hy.item.diamond_bone=钻石骨棒
 hy.item.gold_bone=金骨棒
 hy.item.iron_bone=铁骨棒
 
-entity.hy:oldb.name=[方漓猫的呆毛]
+entity.hy:oldb.name=[万狸猫的呆毛]
 
 hy.block.flash_copper_ore=闪铜矿石
 hy.block.deepslate_copper_ore=深层闪铜矿石
@@ -475,7 +468,7 @@ hy.item.ruby_runes=红宝石符文
 hy.item.ruby_bag=红宝石谜袋
 hy.item.calamity_bag.experience=灾厄谜袋·经验
 hy.block.ruby_stone_bricks=嵌入红宝石的石砖
-hy.bossdead.ruby=『红宝石之王』陨落了，世界都沉默了下来……
+hy.bossdead.ruby=『古希腊掌管经验的神』陨落了，世界都沉默了下来……
 
 entity.hy:ruby_zombie.name=红宝石僵尸
 item.spawn_egg.entity.hy:ruby_zombie.name=红宝石僵尸刷怪蛋
@@ -485,3 +478,10 @@ entity.hy:ruby_guardian.name=红宝石守卫
 item.spawn_egg.entity.hy:ruby_guardian.name=红宝石守卫刷怪蛋
 entity.hy:king_of_ruby.name=红宝石之王
 item.spawn_egg.entity.hy:king_of_ruby.name=红宝石之王刷怪蛋
+
+hy.item.amethyst_boardsword.embryo=紫水晶阔剑原胚
+hy.item.emerald_boardsword.embryo=绿宝石阔剑原胚
+hy.item.flash_copper_boardsword.embryo=闪铜阔剑原胚
+hy.item.flash_metal_boardsword.embryo=闪金阔剑原胚
+hy.item.corrosion_boardsword.embryo=腐蚀阔剑原胚
+hy.item.ruby_boardsword.embryo=红宝石阔剑原胚
