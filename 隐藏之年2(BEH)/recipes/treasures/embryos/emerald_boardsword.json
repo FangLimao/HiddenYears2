@@ -2,7 +2,7 @@
   "format_version": "1.20.11",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "flash_metal_boardsword"
+      "identifier": "emerald_boardsword_embryo"
     },
     "tags": ["crafting_table"],
     "pattern": ["X", "X", "#"],
@@ -11,16 +11,19 @@
         "item": "stick"
       },
       "X": {
-        "item": "hy:flash_metal_ingot"
+        "item": "emerald"
       }
     },
     "unlock": [
       {
-        "item": "hy:flash_metal_ingot"
+        "item": "stick"
+      },
+      {
+        "item": "emerald"
       }
     ],
     "result": {
-      "item": "hy:flash_metal_boardsword"
+      "item": "hy:emerald_boardsword_embryo"
     }
   }
 }
