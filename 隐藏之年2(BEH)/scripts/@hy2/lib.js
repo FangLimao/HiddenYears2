@@ -63,12 +63,14 @@ export function clearEffect(entity, effectType) {
   }
 }
 
-export function consumeDurability(item, value) {
-  let durability = item.getComponent("minecraft:durability")?.damage;
-  if (durability === undefined) {
-    return item;
+export function consumeDurability(item, value, player) {
+  let durability = item.getComponent("minecraft:durability");
+  if (durability === undefined) return item;
+  if (durability.damage + value >= durability.maxDurability) {
+    player?.playSound("random.break");
+    return undefined;
   } else {
-    durability -= value;
+    durability.damage += value;
     return item;
   }
 }

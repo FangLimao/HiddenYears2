@@ -1,4 +1,4 @@
-import { world, ItemStack } from "@minecraft/server";
+import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
 import { modItemData } from "@hy2/mod-data.js";
 import * as hyapi from "@hy2/lib.js";
 import {
@@ -33,6 +33,13 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   const BLOCK = event.brokenBlockPermutation;
   const PLAYER = event.player;
   let ITEM = getEquipmentItem(PLAYER);
+  if (ITEM.typeId === "hy:test_hammer") {
+    let NEW_ITEM = hyapi.consumeDurability(ITEM, 10, PLAYER);
+    PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
+      EquipmentSlot.Mainhand,
+      NEW_ITEM,
+    );
+  }
   if (BLOCK.hasTag("hy:suspicious_ores") === true) {
     let RANDOM_CHANCE = getRandomChance();
     if (RANDOM_CHANCE <= 8) {
