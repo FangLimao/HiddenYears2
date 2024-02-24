@@ -455,7 +455,7 @@
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": ["fox", "lightweight", "mob"]
+        "family": ["noaoe", "fox", "lightweight", "mob"]
       },
       "minecraft:breathable": {
         "totalSupply": 15,

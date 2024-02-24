@@ -255,7 +255,7 @@
       },
       "minecraft:panda_aggressive": {
         "minecraft:type_family": {
-          "family": ["panda", "panda_aggressive", "mob"]
+          "family": ["noaoe", "panda", "panda_aggressive", "mob"]
         },
         "minecraft:variant": {
           "value": 6
@@ -317,7 +317,7 @@
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": ["panda"]
+        "family": ["noaoe", "panda"]
       },
       "minecraft:breathable": {
         "total_supply": 15,

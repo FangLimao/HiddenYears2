@@ -194,6 +194,9 @@
       },
 
       "minecraft:wolf_tame": {
+        "minecraft:type_family": {
+          "family": ["noaoe", "wolf", "mob"]
+        },
         "minecraft:is_tamed": {},
         "minecraft:health": {
           "value": 20,
