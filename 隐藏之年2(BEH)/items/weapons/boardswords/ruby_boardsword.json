@@ -6,6 +6,10 @@
       "category": "equipment"
     },
     "components": {
+      "minecraft:cooldown": {
+        "category": "hy.magic_explode",
+        "duration": 10
+      },
       "minecraft:hover_text_color": "light_purple",
       "minecraft:display_name": {
         "value": "hy.item.ruby_boardsword"
