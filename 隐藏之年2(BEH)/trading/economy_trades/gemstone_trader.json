@@ -16,7 +16,7 @@
               "gives": [
                 {
                   "item": "copper_ingot",
-                  "quantity": 5
+                  "quantity": 4
                 }
               ]
             },
@@ -31,7 +31,7 @@
               "gives": [
                 {
                   "item": "iron_ingot",
-                  "quantity": 18
+                  "quantity": 12
                 }
               ]
             },
@@ -46,7 +46,7 @@
               "gives": [
                 {
                   "item": "gold_ingot",
-                  "quantity": 20
+                  "quantity": 8
                 }
               ]
             },
@@ -61,7 +61,7 @@
               "gives": [
                 {
                   "item": "quartz",
-                  "quantity": 12
+                  "quantity": 10
                 }
               ]
             },
@@ -76,7 +76,7 @@
               "gives": [
                 {
                   "item": "lapis_lazuli",
-                  "quantity": 12
+                  "quantity": 10
                 }
               ]
             },
@@ -91,7 +91,7 @@
               "gives": [
                 {
                   "item": "diamond",
-                  "quantity": 10
+                  "quantity": 4
                 }
               ]
             }
