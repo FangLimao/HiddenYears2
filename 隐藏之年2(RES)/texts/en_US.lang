@@ -301,7 +301,6 @@ hy.item.waxed_copper_dagger=Waxed Copper Dagger
 hy.item.copper_apple=Copper Apple
 hy.item.enchanted_copper_apple=Enchanted Copper Apple
 
-hy.item.raw_flash_copper_ingot=Raw Flash Copper Ingot
 hy.item.flash_copper_ingot=Flash Copper Ingot
 hy.item.flash_copper_nugget=Flash Copper Nugget
 hy.item.flash_copper_dust=Flash Copper Dust
@@ -494,3 +493,7 @@ hy.item.corrosion_boardsword.embryo=Corrosion Boardsword Embryo
 hy.item.ruby_boardsword.embryo=Ruby Boardsword Embryo
 
 hy.message.no_exp = You don't have enough experience to do §b 「Magic Explode」§r
+
+hy.item.raw_flash_copper_ingot=Raw Flash Copper Ingot
+hy.item.raw_flash_metal_ingot=Raw Flash Metal Ingot
+hy.item.raw_steel_ingot=Raw Steel Ingot

@@ -289,7 +289,6 @@ hy.item.waxed_copper_dagger=涂蜡的铜匕首
 hy.item.copper_apple=铜苹果
 hy.item.enchanted_copper_apple=附魔铜苹果
 
-hy.item.raw_flash_copper_ingot=粗闪铜锭
 hy.item.flash_copper_ingot=闪铜锭
 hy.item.flash_copper_nugget=闪铜粒
 hy.item.flash_copper_dust=闪铜粉
@@ -487,3 +486,7 @@ hy.item.corrosion_boardsword.embryo=腐蚀阔剑原胚
 hy.item.ruby_boardsword.embryo=红宝石阔剑原胚
 
 hy.message.no_exp=你没有足够的经验来进行§b『法术爆发』§r
+
+hy.item.raw_flash_copper_ingot=粗闪铜锭
+hy.item.raw_flash_metal_ingot=粗闪金锭
+hy.item.raw_steel_ingot=粗钢锭
