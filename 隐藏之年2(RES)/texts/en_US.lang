@@ -492,3 +492,5 @@ hy.item.flash_copper_boardsword.embryo=Flash Copper Boardsword Embryo
 hy.item.flash_metal_boardsword.embryo=Flash Metal Boardsword Embryo
 hy.item.corrosion_boardsword.embryo=Corrosion Boardsword Embryo
 hy.item.ruby_boardsword.embryo=Ruby Boardsword Embryo
+
+hy.message.no_exp = You don't have enough experience to do §b 「Magic Explode」§r

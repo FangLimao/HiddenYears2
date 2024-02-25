@@ -1,5 +1,3 @@
-damage @s 5
-effect @s slowness 15 4
-damage @a[r=5,family=illager] 20
-damage @a[r=10,family=illager] 10
-damage @a[r=15,family=illager] 5
+damage @a[r=15,family=illager] 10
+damage @a[r=18,family=illager] 8
+damage @a[r=20,family=illager] 5

@@ -485,3 +485,5 @@ hy.item.flash_copper_boardsword.embryo=闪铜阔剑原胚
 hy.item.flash_metal_boardsword.embryo=闪金阔剑原胚
 hy.item.corrosion_boardsword.embryo=腐蚀阔剑原胚
 hy.item.ruby_boardsword.embryo=红宝石阔剑原胚
+
+hy.message.no_exp=你没有足够的经验来进行§b『法术爆发』§r

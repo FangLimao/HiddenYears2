@@ -16,13 +16,6 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   }
 });
 
-world.afterEvents.entityDie.subscribe((event) => {
-  if (event.deadEntity.typeId === "hy:king_of_ruby") {
-    world.stopMusic();
-    world.sendMessage([{ translate: "hy.bossdead.ruby" }]);
-  }
-});
-
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const BLOCK = event.brokenBlockPermutation;
   const PLAYER = event.player;
@@ -49,11 +42,44 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   }
 });
 
-world.afterEvents.itemUse.subscribe((event) => {
-  if (event.itemStack.hasTag("hy:bone_swords") === true) {
-    event.source.runCommandAsync("function api/aoe/bone");
-    hyapi.consumeDurability(event.itemStack, 20);
+world.afterEvents.entityHitEntity.subscribe((event) => {
+  let ITEM = hyapi.getEquipmentItem(event.damagingEntity);
+  if (ITEM?.typeId==="hy:ruby_boardsword") {
+    let RANDOM_EXP = hyapi.getRandomChance();
+    event.damagingEntity.addExperience(RANDOM_EXP);
   }
+});
+
+world.afterEvents.itemUse.subscribe((event) => {
+ const PLAYER = event.source;
+  if(event.itemStack.hasTag("hy:magic_explode") === true){
+  //WIP
+  switch(event.itemStack.typeId){
+    case "hy:diamond_bone":
+    case "hy:gold_bone":
+    case "hy:iron_bone":
+     PLAYER.runCommandAsync("function api/aoe/bone");
+    break;
+    case "hy:flash_metal_boardsword":
+      PLAYER.runCommandAsync("function api/aoe/flash_metal");
+      break;
+    case "hy:corrosion_boardsword":
+      PLAYER.runCommandAsync("function api/aoe/corrosion");
+      break;
+    case "hy:emerald_boardsword":
+      PLAYER.runCommandAsync("function api/aoe/emerald");
+      break;
+    case "hy:flash_copper_boardsword":
+      PLAYER.runCommandAsync("function api/aoe/flash_copper");
+      break;
+    case "hy:amethyst_boardsword":
+      PLAYER.runCommandAsync("function api/aoe/amethyst");
+      break;
+    case "hy:ruby_boardsword":
+       PLAYER.runCommandAsync("function api/aoe/ruby");
+    break;
+    default:break;
+  }}
 });
 
 world.afterEvents.itemUse.subscribe((event) => {
@@ -133,24 +159,6 @@ world.afterEvents.itemUse.subscribe((event) => {
     case "hy:medicine_pack":
       PLAYER.runCommandAsync("function gameplay/items/medicines/medicine_pack");
       break;
-    case "hy:flash_metal_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/flash_metal");
-      break;
-    case "hy:corrosion_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/corrosion");
-      break;
-    case "hy:emerald_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/emerald");
-      break;
-    case "hy:flash_copper_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/flash_copper");
-      break;
-    case "hy:flash_copper_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/flash_copper");
-      break;
-    case "hy:amethyst_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/amethyst");
-      break;
     default:
       break;
   }
@@ -178,5 +186,12 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   const ITEM = event.itemStackBeforeBreak;
   if (ITEM?.hasTag("hy:imitation_tools")) {
     hyapi.applyImitationDamage(event.player);
+  }
+});
+
+world.afterEvents.entityDie.subscribe((event) => {
+  if (event.deadEntity.typeId === "hy:king_of_ruby") {
+    world.stopMusic();
+    world.sendMessage([{ translate: "hy.bossdead.ruby" }]);
   }
 });

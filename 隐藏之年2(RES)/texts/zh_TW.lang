@@ -504,3 +504,5 @@ hy.item.flash_copper_boardsword.embryo=閃銅闊劍原胚
 hy.item.flash_metal_boardsword.embryo=閃金闊劍原胚
 hy.item.corrosion_boardsword.embryo=腐蝕闊劍原胚
 hy.item.ruby_boardsword.embryo=紅寶石闊劍原胚
+
+hy.message.no_exp=你沒有足夠的經驗來進行§b『法術爆發』§r

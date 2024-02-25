@@ -7,17 +7,17 @@ world.afterEvents.entityDie.subscribe((event) => {
   ) {
     if (
       event.damageSource.damagingEntity.getDynamicProperty(
-        "hy:unlock_level",
+        "hy:unlock_tl",
       ) !== true
     ) {
       event.damageSource.damagingEntity.setDynamicProperty(
-        "hy:unlock_level",
+        "hy:unlock_tl",
         true,
       );
       event.damageSource.damagingEntity.sendMessage([
         { translate: "hy.message.unlock_level" },
       ]);
-      event.damageSource.damagingEntity.setDynamicProperty("hy:level", 0);
+      event.damageSource.damagingEntity.setDynamicProperty("hy:travel_level", 0);
     }
   }
 });

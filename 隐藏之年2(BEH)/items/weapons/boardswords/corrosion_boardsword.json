@@ -186,6 +186,7 @@
           "target": "self"
         }
       },
+      "tag:hy:magic_explode": {},
       "tag:minecraft:is_sword": {},
       "tag:minecraft:is_tool": {}
     },

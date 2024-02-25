@@ -486,7 +486,7 @@ hy.item.ruby_runes=红宝石符文
 hy.item.ruby_bag=红宝石谜袋
 hy.item.calamity_bag.experience=灾厄谜袋·经验
 hy.block.ruby_stone_bricks=嵌入红宝石的石砖
-hy.bossdead.ruby=『红宝石之王』陨落了，世界都沉默了下来……
+hy.bossdead.ruby=§b『红宝石之王』§r陨落了，世界都沉默了下来……
 
 entity.hy:ruby_zombie.name=红宝石僵尸
 item.spawn_egg.entity.hy:ruby_zombie.name=红宝石僵尸刷怪蛋
@@ -503,3 +503,5 @@ hy.item.flash_copper_boardsword.embryo=闪铜阔剑原胚
 hy.item.flash_metal_boardsword.embryo=闪金阔剑原胚
 hy.item.corrosion_boardsword.embryo=腐蚀阔剑原胚
 hy.item.ruby_boardsword.embryo=红宝石阔剑原胚
+
+hy.message.no_exp=你没有足够的经验来进行§b『法术爆发』§r
