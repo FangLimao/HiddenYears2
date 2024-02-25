@@ -6,9 +6,8 @@ world.afterEvents.entityDie.subscribe((event) => {
     event.damageSource.damagingEntity.typeId === "minecraft:player"
   ) {
     if (
-      event.damageSource.damagingEntity.getDynamicProperty(
-        "hy:unlock_tl",
-      ) !== true
+      event.damageSource.damagingEntity.getDynamicProperty("hy:unlock_tl") !==
+      true
     ) {
       event.damageSource.damagingEntity.setDynamicProperty(
         "hy:unlock_tl",
@@ -17,7 +16,10 @@ world.afterEvents.entityDie.subscribe((event) => {
       event.damageSource.damagingEntity.sendMessage([
         { translate: "hy.message.unlock_level" },
       ]);
-      event.damageSource.damagingEntity.setDynamicProperty("hy:travel_level", 0);
+      event.damageSource.damagingEntity.setDynamicProperty(
+        "hy:travel_level",
+        0,
+      );
     }
   }
 });

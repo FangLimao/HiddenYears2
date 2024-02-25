@@ -42,44 +42,52 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
   }
 });
 
+// 法术爆发与法术精通
 world.afterEvents.entityHitEntity.subscribe((event) => {
   let ITEM = hyapi.getEquipmentItem(event.damagingEntity);
-  if (ITEM?.typeId==="hy:ruby_boardsword") {
+  if (ITEM?.typeId === "hy:ruby_boardsword") {
     let RANDOM_EXP = hyapi.getRandomChance();
     event.damagingEntity.addExperience(RANDOM_EXP);
   }
 });
 
 world.afterEvents.itemUse.subscribe((event) => {
- const PLAYER = event.source;
-  if(event.itemStack.hasTag("hy:magic_explode") === true){
-  //WIP
-  switch(event.itemStack.typeId){
-    case "hy:diamond_bone":
-    case "hy:gold_bone":
-    case "hy:iron_bone":
-     PLAYER.runCommandAsync("function api/aoe/bone");
-    break;
-    case "hy:flash_metal_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/flash_metal");
-      break;
-    case "hy:corrosion_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/corrosion");
-      break;
-    case "hy:emerald_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/emerald");
-      break;
-    case "hy:flash_copper_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/flash_copper");
-      break;
-    case "hy:amethyst_boardsword":
-      PLAYER.runCommandAsync("function api/aoe/amethyst");
-      break;
-    case "hy:ruby_boardsword":
-       PLAYER.runCommandAsync("function api/aoe/ruby");
-    break;
-    default:break;
-  }}
+  const PLAYER = event.source;
+  if (event.itemStack.hasTag("hy:magic_explode") === true) {
+    if (PLAYER.level > 1) {
+      PLAYER.addLevels(-1);
+      PLAYER.runCommandAsync("function api/aoe/all");
+      switch (event.itemStack.typeId) {
+        case "hy:diamond_bone":
+        case "hy:gold_bone":
+        case "hy:iron_bone":
+          PLAYER.runCommandAsync("function api/aoe/bone");
+          break;
+        case "hy:flash_metal_boardsword":
+          PLAYER.runCommandAsync("function api/aoe/flash_metal");
+          break;
+        case "hy:corrosion_boardsword":
+          PLAYER.runCommandAsync("function api/aoe/corrosion");
+          break;
+        case "hy:emerald_boardsword":
+          PLAYER.runCommandAsync("function api/aoe/emerald");
+          break;
+        case "hy:flash_copper_boardsword":
+          PLAYER.runCommandAsync("function api/aoe/flash_copper");
+          break;
+        case "hy:amethyst_boardsword":
+          PLAYER.runCommandAsync("function api/aoe/amethyst");
+          break;
+        case "hy:ruby_boardsword":
+          PLAYER.runCommandAsync("function api/aoe/ruby");
+          break;
+        default:
+          break;
+      }
+    } else {
+      PLAYER.sendMessage([{ translate: "hy.message.no_exp" }]);
+    }
+  }
 });
 
 world.afterEvents.itemUse.subscribe((event) => {

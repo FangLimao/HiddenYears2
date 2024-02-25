@@ -4,7 +4,7 @@
     "description": {
       "identifier": "ruby_block"
     },
-    "tags": ["crafrubyg_table"],
+    "tags": ["crafting_table"],
     "pattern": ["###", "###", "###"],
     "key": {
       "#": {
