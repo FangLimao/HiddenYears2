@@ -13,8 +13,8 @@
         "default": "geometry.pillager"
       },
       "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 56
+        "texture": "hy.spawn_eggs",
+        "texture_index": 1
       },
       "scripts": {
         "pre_animation": [

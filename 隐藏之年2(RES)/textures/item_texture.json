@@ -19,10 +19,7 @@
     },
     "hy.copper_coin": {
       "textures": "textures/items/treasures/coins/copper_coin"
-    },
-    "hy.gemstone_trader_egg": {
-      "textures": "textures/items/traders/egg_gemstone_trader"
-    },
+    },    
     "hy.copper_pickaxe": {
       "textures": "textures/items/tools/pickaxes/copper_pickaxes/copper_pickaxe"
     },
@@ -793,6 +790,15 @@
     },
     "hy.calamity_bag": {
       "textures": "textures/items/treasures/bags/calamity_bag"
+    },
+    "hy.spawn_eggs": {
+      "textures": [
+        "textures/items/spawn_eggs/egg_king_of_ruby",
+        "textures/items/spawn_eggs/egg_ruby_guardian",
+        "textures/items/spawn_eggs/egg_ruby_zombie",
+        "textures/items/spawn_eggs/egg_ruby_skeleton",
+        "textures/items/spawn_eggs/egg_gemstone_trader"
+      ]
     }
   }
 }

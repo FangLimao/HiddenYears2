@@ -7,10 +7,10 @@
     "tags": ["furnace", "blast_furnace"],
     "unlock": [
       {
-        "item": "copper_block"
+        "item": "copper_ingot"
       }
     ],
-    "input": "copper_block",
+    "input": "copper_ingot",
     "output": "hy:raw_flash_copper_ingot"
   }
 }

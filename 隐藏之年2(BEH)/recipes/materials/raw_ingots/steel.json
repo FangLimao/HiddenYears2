@@ -2,15 +2,15 @@
   "format_version": "1.20.11",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "flash_copper_ingot"
+      "identifier": "raw_steel_ingot"
     },
     "tags": ["furnace", "blast_furnace"],
     "unlock": [
       {
-        "item": "hy:raw_flash_copper_ingot"
+        "item": "iron_ingot"
       }
     ],
-    "input": "hy:raw_flash_copper_ingot",
-    "output": "hy:flash_copper_ingot"
+    "input": "iron_ingot",
+    "output": "hy:raw_steel_ingot"
   }
 }

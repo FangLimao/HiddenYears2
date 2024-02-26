@@ -67,7 +67,18 @@
                   "price_multiplier": 0.2
                 }
               ],
-              "gives": [{ "item": "iron_sword", "quantity": 1 }],
+              "gives": [
+                {
+                  "item": "hy:imitation_diamond_sword",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_name",
+                      "name": "钻石剑"
+                    }
+                  ]
+                }
+              ],
               "trader_exp": 5,
               "max_uses": 3,
               "reward_exp": true
