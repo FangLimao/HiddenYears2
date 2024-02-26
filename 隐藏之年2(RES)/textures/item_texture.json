@@ -19,7 +19,7 @@
     },
     "hy.copper_coin": {
       "textures": "textures/items/treasures/coins/copper_coin"
-    },    
+    },
     "hy.copper_pickaxe": {
       "textures": "textures/items/tools/pickaxes/copper_pickaxes/copper_pickaxe"
     },
@@ -797,7 +797,8 @@
         "textures/items/spawn_eggs/egg_ruby_guardian",
         "textures/items/spawn_eggs/egg_ruby_zombie",
         "textures/items/spawn_eggs/egg_ruby_skeleton",
-        "textures/items/spawn_eggs/egg_gemstone_trader"
+        "textures/items/spawn_eggs/egg_gemstone_trader",
+        "textures/items/spawn_eggs/egg_hidden_trader"
       ]
     }
   }
