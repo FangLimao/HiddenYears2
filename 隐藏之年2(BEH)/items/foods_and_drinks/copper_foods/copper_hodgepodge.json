@@ -16,6 +16,7 @@
         "category": "nature",
         "parent": "itemGroup.name.crop"
       },
+      "minecraft:max_stack_size": 1,
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.4,
       "minecraft:food": {

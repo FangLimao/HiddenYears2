@@ -17,16 +17,45 @@ world.afterEvents.playerSpawn.subscribe((event) => {
 });
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
-  const BLOCK = event.brokenBlockPermutation;
   const PLAYER = event.player;
   let ITEM = hyapi.getEquipmentItem(PLAYER);
-  if (ITEM.typeId === "hy:test_hammer") {
-    let NEW_ITEM = hyapi.consumeDurability(ITEM, 10, PLAYER);
+  if (ITEM?.hasTag("hy:damage1_break")){
+    let NEW_ITEM = hyapi.consumeDurability(ITEM, 1, PLAYER);
     PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
       EquipmentSlot.Mainhand,
       NEW_ITEM,
     );
+  }else if(ITEM.hasTag("hy:damage2_break")){
+   let NEW_ITEM = hyapi.consumeDurability(ITEM, 2, PLAYER);
+   PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
+      EquipmentSlot.Mainhand,
+      NEW_ITEM,
+    );
   }
+});
+
+world.afterEvents.entityHitEntity.subscribe((event)=>{
+if(event.damagingEntity.typeId==="minecraft:player"){
+ let ITEM = hyapi.getEquipmentItem(event.damagingEntity);
+ if(ITEM?.hasTag("hy:damage1_attack")){
+   let NEW_ITEM = hyapi.consumeDurability(ITEM, 1, event.damagingEntity);
+    PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
+      EquipmentSlot.Mainhand,
+      NEW_ITEM)
+ }
+ if(ITEM?.hasTag("hy:damage2_attack")){
+   let NEW_ITEM = hyapi.consumeDurability(ITEM, 2, event.damagingEntity);
+    PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
+      EquipmentSlot.Mainhand,
+      NEW_ITEM)
+ }
+}
+})
+
+world.afterEvents.playerBreakBlock.subscribe((event) => {
+  const BLOCK = event.brokenBlockPermutation;
+  const PLAYER = event.player;
+  let ITEM = hyapi.getEquipmentItem(PLAYER);
   if (BLOCK.hasTag("hy:suspicious_ores") === true) {
     let RANDOM_CHANCE = hyapi.getRandomChance();
     if (RANDOM_CHANCE <= 8) {
