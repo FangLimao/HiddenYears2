@@ -2,6 +2,7 @@ import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
 import { modItemData } from "@hy2/mod-data.js";
 import * as hyapi from "@hy2/lib.js";
 import "@hy2/event.js";
+import "Tool.js"
 //import "@hy2/travel-level.js";
 
 const VERSION_CODE = 2102;
@@ -15,42 +16,6 @@ world.afterEvents.playerSpawn.subscribe((event) => {
     world.setDynamicProperty("hy:version_code", VERSION_CODE);
   }
 });
-
-world.afterEvents.playerBreakBlock.subscribe((event) => {
-  const PLAYER = event.player;
-  let ITEM = hyapi.getEquipmentItem(PLAYER);
-  if (ITEM?.hasTag("hy:damage1_break")){
-    let NEW_ITEM = hyapi.consumeDurability(ITEM, 1, PLAYER);
-    PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
-      EquipmentSlot.Mainhand,
-      NEW_ITEM,
-    );
-  }else if(ITEM.hasTag("hy:damage2_break")){
-   let NEW_ITEM = hyapi.consumeDurability(ITEM, 2, PLAYER);
-   PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
-      EquipmentSlot.Mainhand,
-      NEW_ITEM,
-    );
-  }
-});
-
-world.afterEvents.entityHitEntity.subscribe((event)=>{
-if(event.damagingEntity.typeId==="minecraft:player"){
- let ITEM = hyapi.getEquipmentItem(event.damagingEntity);
- if(ITEM?.hasTag("hy:damage1_attack")){
-   let NEW_ITEM = hyapi.consumeDurability(ITEM, 1, event.damagingEntity);
-    PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
-      EquipmentSlot.Mainhand,
-      NEW_ITEM)
- }
- if(ITEM?.hasTag("hy:damage2_attack")){
-   let NEW_ITEM = hyapi.consumeDurability(ITEM, 2, event.damagingEntity);
-    PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
-      EquipmentSlot.Mainhand,
-      NEW_ITEM)
- }
-}
-})
 
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const BLOCK = event.brokenBlockPermutation;
@@ -135,6 +100,9 @@ world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
   switch (event.itemStack.typeId) {
     case "hy:ruby_bag":
+      PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
+          EquipmentSlot.Mainhand,undefined
+      );
       let RANDOM_CHANCE = hyapi.getRandomChance();
       switch (RANDOM_CHANCE) {
         case 1:
@@ -166,6 +134,9 @@ world.afterEvents.itemUse.subscribe((event) => {
       }
       break;
     case "hy:experience_calamity_bag":
+      PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
+        EquipmentSlot.Mainhand,undefined
+      );
       PLAYER.dimension.spawnEntity("hy:king_of_ruby", PLAYER.location);
       break;
     case "hy:ruby_runes":
