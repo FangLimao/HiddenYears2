@@ -832,6 +832,7 @@
         }
       },
       "tag:minecraft:is_pickaxe": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:weathered_item": {}
     },
     "events": {

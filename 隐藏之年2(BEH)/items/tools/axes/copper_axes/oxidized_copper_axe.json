@@ -208,6 +208,7 @@
         }
       },
       "tag:minecraft:is_axe": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:oxidized_item": {}
     },
     "events": {

@@ -193,7 +193,8 @@
         }
       },
       "tag:hy:imitation_tools": {},
-      "tag:minecraft:is_hoe": {}
+      "tag:minecraft:is_hoe": {},
+      "tag:hy:custom_tools": {}
     },
     "events": {
       "hy.on_break_block": {

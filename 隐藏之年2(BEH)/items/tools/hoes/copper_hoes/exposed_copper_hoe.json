@@ -198,6 +198,7 @@
         }
       },
       "tag:minecraft:is_hoe": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:exposed_item": {}
     },
     "events": {

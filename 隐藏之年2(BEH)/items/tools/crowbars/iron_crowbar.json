@@ -110,7 +110,8 @@
       "minecraft:creative_category": {
         "category": "equipment"
       },
-      "tag:hy:is_crowbar": {}
+      "tag:hy:is_crowbar": {},
+      "tag:hy:custom_tools": {}
     },
     "events": {
       "hy.on_hurt_entity": {

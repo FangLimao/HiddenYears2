@@ -27,7 +27,8 @@
       "minecraft:creative_category": {
         "parent": "items"
       },
-      "tag:hy:is_awl": {}
+      "tag:hy:is_awl": {},
+      "tag:hy:custom_tools": {}
     },
     "events": {
       "on_tool_used": {

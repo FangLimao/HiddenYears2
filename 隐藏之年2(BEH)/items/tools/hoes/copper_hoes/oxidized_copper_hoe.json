@@ -198,6 +198,7 @@
         }
       },
       "tag:minecraft:is_hoe": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:oxidized_item": {}
     },
     "events": {

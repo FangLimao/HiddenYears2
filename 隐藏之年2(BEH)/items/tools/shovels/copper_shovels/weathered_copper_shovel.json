@@ -80,6 +80,7 @@
         }
       },
       "tag:minecraft:is_shovel": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:weathered_item": {}
     },
     "events": {

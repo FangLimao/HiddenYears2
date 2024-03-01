@@ -204,6 +204,7 @@
         }
       },
       "tag:minecraft:is_axe": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:imitation_tools": {}
     },
     "events": {

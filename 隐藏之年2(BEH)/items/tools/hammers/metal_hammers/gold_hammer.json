@@ -83,7 +83,8 @@
           }
         ]
       },
-      "tag:hy:is_hammer": {}
+      "tag:hy:is_hammer": {},
+      "tag:hy:custom_tools": {}
     },
     "events": {
       "hy.on_break_block": {

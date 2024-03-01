@@ -198,6 +198,7 @@
         }
       },
       "tag:minecraft:is_hoe": {},
+      "tag:hy:custom_tools": {},
       "tag:hy:weathered_item": {}
     },
     "events": {
