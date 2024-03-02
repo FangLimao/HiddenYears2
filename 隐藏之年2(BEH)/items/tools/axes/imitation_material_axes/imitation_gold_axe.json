@@ -39,155 +39,79 @@
             "block": {
               "tags": "query.any_tag('wood', 'pumpkin', 'plant')"
             },
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "crafting_table",
-            "speed": 6,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 6
           },
           {
             "block": "chest",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "trapped_chest",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "lectern",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "smithing_table",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "loom",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "cartography_table",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "barrel",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "jukebox",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "campfire",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "soul_campfire",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "bookshelf",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "chiseled_bookshelf",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "noteblock",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "beehive",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "bee_nest",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "daylight_detector",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           },
           {
             "block": "melon_block",
-            "speed": 8,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 8
           }
         ]
       },
@@ -197,24 +121,12 @@
       "minecraft:creative_category": {
         "parent": "itemGroup.name.axe"
       },
-      "minecraft:weapon": {
-        "on_hurt_entity": {
-          "event": "hy.on_break_block",
-          "target": "self"
-        }
-      },
+      "minecraft:weapon": {},
       "tag:hy:imitation_tools": {},
       "tag:minecraft:is_axe": {},
       "tag:hy:custom_tools": {}
     },
     "events": {
-      "hy.on_break_block": {
-        "damage": {
-          "amount": 1,
-          "target": "self",
-          "type": "magic"
-        }
-      },
       "on_tool_used": {
         "damage": {
           "type": "magic",

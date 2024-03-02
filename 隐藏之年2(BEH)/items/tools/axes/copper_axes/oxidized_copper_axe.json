@@ -43,155 +43,79 @@
             "block": {
               "tags": "query.any_tag('wood', 'pumpkin', 'plant')"
             },
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "crafting_table",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "chest",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "trapped_chest",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "lectern",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "smithing_table",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "loom",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "cartography_table",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "barrel",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "jukebox",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "campfire",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "soul_campfire",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "bookshelf",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "chiseled_bookshelf",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "banner",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "beehive",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "bee_nest",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "daylight_detector",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           },
           {
             "block": "melon_block",
-            "speed": 2,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
-            }
+            "speed": 2
           }
         ]
       },
@@ -213,27 +137,9 @@
     },
     "events": {
       "hy.on_hurt_entity": {
-        "sequence": [
-          {
-            "run_command": {
+        "run_command": {
               "target": "self",
               "command": ["function api/tetanus.effect/v1.0/radius4/lv3"]
-            }
-          },
-          {
-            "damage": {
-              "type": "durability",
-              "target": "self",
-              "amount": 2
-            }
-          }
-        ]
-      },
-      "hy.on_break_block": {
-        "damage": {
-          "amount": 1,
-          "target": "self",
-          "type": "magic"
         }
       },
       "on_tool_used": {
