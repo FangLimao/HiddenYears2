@@ -21,12 +21,7 @@
         "texture": "hy.nether_metal_hammer"
       },
       "minecraft:damage": 7,
-      "minecraft:weapon": {
-        "on_hurt_entity": {
-          "event": "hy.on_hurt_entity",
-          "target": "self"
-        }
-      },
+      "minecraft:weapon": {},
       "minecraft:digger": {
         "use_efficiency": false,
         "destroy_speeds": [
@@ -34,72 +29,38 @@
             "block": {
               "tags": "query.any_tag('stone')"
             },
-            "speed": 7,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
+            "speed": 7
             }
           },
           {
             "block": "netherrack",
-            "speed": 7,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
+            "speed": 7
             }
           },
           {
             "block": "sandstone",
-            "speed": 7,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
+            "speed": 7
             }
           },
           {
             "block": "deepslate",
-            "speed": 7,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
+            "speed": 7
             }
           },
           {
             "block": "chiseled_deepslate",
-            "speed": 7,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
+            "speed": 7
             }
           },
           {
             "block": "polished_deepslate",
-            "speed": 7,
-            "on_dig": {
-              "event": "hy.on_break_block",
-              "target": "self"
+            "speed": 7
             }
           }
         ]
       },
       "tag:hy:is_hammer": {},
       "tag:hy:custom_tools": {}
-    },
-    "events": {
-      "hy.on_break_block": {
-        "damage": {
-          "type": "magic",
-          "amount": 1,
-          "target": "self"
-        }
-      },
-      "hy.on_hurt_entity": {
-        "damage": {
-          "type": "magic",
-          "amount": 2,
-          "target": "self"
-        }
-      }
     }
   }
 }
