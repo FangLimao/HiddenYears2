@@ -2,7 +2,7 @@ import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
 import { modItemData } from "@hy2/mod-data.js";
 import * as hyapi from "@hy2/lib.js";
 import "@hy2/event.js";
-import "Tool.js"
+import "Tool.js";
 //import "@hy2/travel-level.js";
 
 const VERSION_CODE = 2102;
@@ -101,7 +101,8 @@ world.afterEvents.itemUse.subscribe((event) => {
   switch (event.itemStack.typeId) {
     case "hy:ruby_bag":
       PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
-          EquipmentSlot.Mainhand,undefined
+        EquipmentSlot.Mainhand,
+        undefined,
       );
       let RANDOM_CHANCE = hyapi.getRandomChance();
       switch (RANDOM_CHANCE) {
@@ -135,7 +136,8 @@ world.afterEvents.itemUse.subscribe((event) => {
       break;
     case "hy:experience_calamity_bag":
       PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
-        EquipmentSlot.Mainhand,undefined
+        EquipmentSlot.Mainhand,
+        undefined,
       );
       PLAYER.dimension.spawnEntity("hy:king_of_ruby", PLAYER.location);
       break;

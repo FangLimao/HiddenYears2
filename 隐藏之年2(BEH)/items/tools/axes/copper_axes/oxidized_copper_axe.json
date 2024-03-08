@@ -138,8 +138,8 @@
     "events": {
       "hy.on_hurt_entity": {
         "run_command": {
-              "target": "self",
-              "command": ["function api/tetanus.effect/v1.0/radius4/lv3"]
+          "target": "self",
+          "command": ["function api/tetanus.effect/v1.0/radius4/lv3"]
         }
       },
       "on_tool_used": {

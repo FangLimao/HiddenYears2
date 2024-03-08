@@ -2,7 +2,7 @@
   "format_version": "1.20.60",
   "minecraft:item": {
     "description": {
-	  "category": "equipment",
+      "category": "equipment",
       "identifier": "hy:flash_copper_hammer"
     },
     "components": {
@@ -18,7 +18,7 @@
         "max_durability": 300
       },
       "minecraft:icon": {
-       "texture": "hy.flash_copper_hammer"
+        "texture": "hy.flash_copper_hammer"
       },
       "minecraft:damage": 6,
       "minecraft:weapon": {},

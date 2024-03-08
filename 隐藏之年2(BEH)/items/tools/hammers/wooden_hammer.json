@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-	  "category": "equipment",
+      "category": "equipment",
       "identifier": "hy:wooden_hammer"
     },
     "components": {
@@ -18,7 +18,7 @@
         "max_durability": 100
       },
       "minecraft:icon": {
-       "texture": "hy.wooden_hammer"
+        "texture": "hy.wooden_hammer"
       },
       "minecraft:damage": 7,
       "minecraft:weapon": {},
