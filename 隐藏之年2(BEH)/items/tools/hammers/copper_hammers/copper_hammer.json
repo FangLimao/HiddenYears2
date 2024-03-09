@@ -8,7 +8,7 @@
     "components": {
       "minecraft:creative_category": {
         "parent": "equipment"
-      }
+      },
       "minecraft:display_name": {
         "value": "hy.item.copper_hammer"
       },
@@ -18,7 +18,7 @@
         "max_durability": 150
       },
       "minecraft:icon": {
-         "texture": "hy.copper_hammer"
+        "texture": "hy.copper_hammer"
       },
       "minecraft:damage": 7,
       "minecraft:weapon": {},

@@ -34,27 +34,22 @@
           {
             "block": "netherrack",
             "speed": 7
-            }
           },
           {
             "block": "sandstone",
             "speed": 7
-            }
           },
           {
             "block": "deepslate",
             "speed": 7
-            }
           },
           {
             "block": "chiseled_deepslate",
             "speed": 7
-            }
           },
           {
             "block": "polished_deepslate",
             "speed": 7
-            }
           }
         ]
       },

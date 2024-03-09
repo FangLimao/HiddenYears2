@@ -46,3 +46,13 @@ function showBookStory(player) {
     player.setDynamicProperty("hy:get_first_letter", true);
   }
 }
+
+world.afterEvents.itemUse.subscribe((event) => {
+  switch (event.itemStack.typeId) {
+    case "hy:story_book":
+      showBookStory(event.source);
+      break;
+    default:
+      break;
+  }
+});
