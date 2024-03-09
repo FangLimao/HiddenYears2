@@ -9,6 +9,7 @@ export let modItemData = {
     "minecraft:netherite_upgrade_smithing_template",
   ),
   appleReward: new ItemStack("minecraft:enchanted_golden_apple", 5),
+  letterDimension: new ItemStack("hy:letter_dimension"),
 };
 
 export const StoryTitle = {
