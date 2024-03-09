@@ -30,7 +30,6 @@
               "tags": "query.any_tag('stone')"
             },
             "speed": 7
-            }
           },
           {
             "block": "netherrack",
