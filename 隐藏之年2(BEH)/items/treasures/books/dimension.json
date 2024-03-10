@@ -1,30 +1,20 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.20.60",
   "minecraft:item": {
     "description": {
-      "identifier": "hy:letter_dimension"
+      "identifier": "hy:letter_dimension",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": false
+      }
     },
     "components": {
-      "minecraft:icon": {
-        "texture": "hy.lost_letter"
-      },
+      "minecraft:icon": "hy.lost_letter",
       "minecraft:max_stack_size": 1,
       "minecraft:display_name": {
         "value": "hy.item.lost_letter"
       },
-      "minecraft:creative_category": {
-        "category": "command"
-      },
-      "minecraft:on_use": {
-        "on_use": {
-          "event": "hy.on_use",
-          "target": "self"
-        }
-      },
       "minecraft:hover_text_color": "light_purple"
-    },
-    "events": {
-      "hy.on_use": {}
     }
   }
 }
