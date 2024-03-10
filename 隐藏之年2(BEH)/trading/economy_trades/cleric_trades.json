@@ -9,7 +9,7 @@
             {
               "wants": [
                 {
-                  "item": "hy:gold_ingot",
+                  "item": "hy:gold_coin",
                   "quantity": 2,
                   "price_multiplier": 0.05
                 }
