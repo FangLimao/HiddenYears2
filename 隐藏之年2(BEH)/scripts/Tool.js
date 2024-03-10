@@ -1,12 +1,6 @@
 import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
 import * as hyapi from "@hy2/lib.js";
 
-world.afterEvents.itemUseOn.subscribe((event) => {
-  if (event.itemStack.hasTag("minecraft:is_axe") && event.block.hasTag("log")) {
-    console.warn("Do you play Genshin Impact?");
-  }
-});
-
 world.afterEvents.playerBreakBlock.subscribe((event) => {
   const PLAYER = event.player;
   let ITEM = hyapi.getEquipmentItem(PLAYER);
