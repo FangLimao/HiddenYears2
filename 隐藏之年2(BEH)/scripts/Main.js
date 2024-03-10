@@ -4,10 +4,10 @@ import * as hyapi from "@hy2/lib.js";
 import "@hy2/event.js";
 import "Tool.js";
 import "Story.js";
-import "Quest.js";
+//import "Quest.js";
 //import "@hy2/travel-level.js";
 
-const VERSION_CODE = 2102;
+const VERSION_CODE = 2103;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
 world.afterEvents.playerSpawn.subscribe((event) => {
