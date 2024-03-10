@@ -1,6 +1,23 @@
 {
   "pools": [
     {
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.12,
+          "looting_multiplier": 0.02
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hy:letter_colonizer",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [{ "type": "item", "name": "minecraft:heart_of_the_sea" }]
     },
