@@ -1,0 +1,10 @@
+give @s hy:letter_dimension
+give @s hy:letter_ruby
+give @s hy:letter_city
+give @s hy:letter_hidden_years
+give @s hy:letter_time1
+give @s hy:letter_sacrifice
+give @s hy:letter_old_human
+give @s hy:letter_colonizer
+give @s hy:letter_imitation1
+give @s hy:letter_imitation2

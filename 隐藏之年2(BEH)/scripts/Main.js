@@ -4,6 +4,7 @@ import * as hyapi from "@hy2/lib.js";
 import "@hy2/event.js";
 import "Tool.js";
 import "Story.js";
+import "Quest.js";
 //import "@hy2/travel-level.js";
 
 const VERSION_CODE = 2102;

@@ -35,8 +35,8 @@ export const LetterTitle = {
   section4: "纪元·一",
   section5: "纪元·二",
   section6: "祀礼会",
-  section7: "掌舵者",
-  section8: "旧人类",
+  section7: "旧人类",
+  section8: "掌舵者",
   section9: "假冒伪劣·一",
   section10: "假冒伪劣·二",
 };

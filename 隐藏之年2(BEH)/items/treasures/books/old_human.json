@@ -13,7 +13,7 @@
         "value": "hy.item.lost_letter"
       },
       "minecraft:creative_category": {
-        "category": "none"
+        "category": "command"
       },
       "minecraft:on_use": {
         "on_use": {
