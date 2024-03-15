@@ -7,7 +7,7 @@ import "Story.js";
 //import "Quest.js";
 //import "@hy2/travel-level.js";
 
-const VERSION_CODE = 2103;
+const VERSION_CODE = 2104;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
 world.afterEvents.playerSpawn.subscribe((event) => {
