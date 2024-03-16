@@ -490,3 +490,5 @@ hy.message.no_exp=你没有足够的经验来进行§b『法术爆发』§r
 hy.item.raw_flash_copper_ingot=粗闪铜锭
 hy.item.raw_flash_metal_ingot=粗闪金锭
 hy.item.raw_steel_ingot=粗钢锭
+
+hy.item.quest_book=隐藏之年²主线任务书

@@ -78,7 +78,7 @@ const formMain = (player) => {
         ? getIconConfirm
         : `textures/${getIconItems[COUNT]}`
       : undefined;
-    const button = hasTag ? title + "\n §2完成" : title;
+    const button = hasTag ? title + "\n §2已完成" : title;
 
     form.button(button, icon);
     LIST.push(COUNT);
@@ -113,13 +113,13 @@ const formSelection = (player, string) => {
     form2.body(
       `${
         getDescriptionDescription[string - 1]
-      }\n\n§eObjective: §r${getItemName}\n§eReward: §r${getRewardName}\n§eComplated: §r${getDescriptionComplated}`,
+      }\n\n§e需要物品: §r${getItemName}\n§e奖励物品: §r${getRewardName}\n§完成: §r${getDescriptionComplated}`,
     );
   } else {
     form2.body(
       `${
         getDescriptionDescription[string - 1]
-      }\n\n§eObjective: §r${getItemName}\n§eReward: §r${getRewardName}\n§eStatus: §r${getDescriptionNotComplated}`,
+      }\n\n§e需要物品: §r${getItemName}\n§e奖励物品: §r${getRewardName}\n§e状态: §r${getDescriptionNotComplated}`,
     );
   }
 
@@ -153,7 +153,7 @@ const formAbout = (player) => {
   const form = new ActionFormData()
     .title(getTitle)
     .body(
-      `§e运行: §r${systemEnable}\n§e模组作者: §r@${getAuthor}\n§e本任务书基于 §r@abcdave 的 myQuestAPI开发而成`,
+      `§e本模组系星屹工作室作品\n§e任务书基于 §r@abcdave 的 myQuestAPI 开发而成`,
     )
     .button(getButtonBack);
   form.show(player).then((response) => {

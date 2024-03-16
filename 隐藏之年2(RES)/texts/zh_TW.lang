@@ -509,3 +509,5 @@ hy.message.no_exp=你沒有足夠的經驗來進行§b『法術爆發』§r
 hy.item.raw_flash_copper_ingot=粗閃銅錠
 hy.item.raw_flash_metal_ingot=粗閃金錠
 hy.item.raw_steel_ingot=粗鋼錠
+
+hy.item.quest_book=隱藏之年²主線任務書

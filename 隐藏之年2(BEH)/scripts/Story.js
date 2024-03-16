@@ -15,7 +15,7 @@ import {
 function showBookStory(player) {
   const story = new ActionFormData()
     .title("隐藏的故事")
-    .body("选择章节")
+    .body("这本书记载了一些模糊的上古旧事……\n请选择章节")
     .button(StoryTitle.section0)
     .button(StoryTitle.section1)
     .button(StoryTitle.section2);

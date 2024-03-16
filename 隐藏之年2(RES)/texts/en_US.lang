@@ -497,3 +497,5 @@ hy.message.no_exp = You don't have enough experience to do §b 「Magic Explode�
 hy.item.raw_flash_copper_ingot=Raw Flash Copper Ingot
 hy.item.raw_flash_metal_ingot=Raw Flash Metal Ingot
 hy.item.raw_steel_ingot=Raw Steel Ingot
+
+hy.item.quest_book=Hidden Years·Quest Book

@@ -791,6 +791,9 @@
     "hy.calamity_bag": {
       "textures": "textures/items/treasures/bags/calamity_bag"
     },
+    "hy.quest_book": {
+      "textures": "textures/items/treasures/quest_book"
+    },
     "hy.spawn_eggs": {
       "textures": [
         "textures/items/spawn_eggs/egg_king_of_ruby",

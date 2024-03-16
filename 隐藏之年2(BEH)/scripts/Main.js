@@ -4,7 +4,7 @@ import * as hyapi from "@hy2/lib.js";
 import "@hy2/event.js";
 import "Tool.js";
 import "Story.js";
-//import "Quest.js";
+import "Quest.js";
 //import "@hy2/travel-level.js";
 
 const VERSION_CODE = 2104;
@@ -16,6 +16,10 @@ world.afterEvents.playerSpawn.subscribe((event) => {
     world.sendMessage([{ translate: "hy.update.version" }]);
     world.sendMessage([{ translate: "hy.update.log" }]);
     world.setDynamicProperty("hy:version_code", VERSION_CODE);
+  }
+  if(event.player.getDynamicProperty("hy:get:quest")!==true){
+   event.player.runCommandAsync("give @s hy:quest_book");
+   event.player.setDynamicProperty("hy:get_quest", true);
   }
 });
 
@@ -87,20 +91,13 @@ world.afterEvents.itemUse.subscribe((event) => {
 });
 
 world.afterEvents.itemUse.subscribe((event) => {
-  switch (event.itemStack.typeId) {
-    case "hy:medicine_1":
-      event.source.addEffect("darkness");
-      event.source.removeEffect("blindness");
-      event.source.removeEffect("night_vision");
-      break;
-    default:
-      break;
-  }
-});
-
-world.afterEvents.itemUse.subscribe((event) => {
   const PLAYER = event.source;
   switch (event.itemStack.typeId) {
+    case "hy:medicine_1":
+      PLAYER.addEffect("darkness");
+      PLAYER.removeEffect("blindness");
+      PLAYER.removeEffect("night_vision");
+    break;
     case "hy:ruby_bag":
       PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
         EquipmentSlot.Mainhand,
