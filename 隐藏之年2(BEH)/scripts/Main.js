@@ -1,11 +1,12 @@
 import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
-import { modItemData } from "@hy2/mod-data.js";
+import { modItemData, mainQuest } from "@hy2/mod-data.js";
 import * as hyapi from "@hy2/lib.js";
 import "@hy2/event.js";
 import "Tool.js";
 import "Story.js";
-import "Quest.js";
 //import "@hy2/travel-level.js";
+
+hyapi.questUi(mainQuest);
 
 const VERSION_CODE = 2104;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
@@ -17,9 +18,9 @@ world.afterEvents.playerSpawn.subscribe((event) => {
     world.sendMessage([{ translate: "hy.update.log" }]);
     world.setDynamicProperty("hy:version_code", VERSION_CODE);
   }
-  if(event.player.getDynamicProperty("hy:get:quest")!==true){
-   event.player.runCommandAsync("give @s hy:quest_book");
-   event.player.setDynamicProperty("hy:get_quest", true);
+  if (event.player.getDynamicProperty("hy:get:quest") !== true) {
+    event.player.runCommandAsync("give @s hy:quest_book");
+    event.player.setDynamicProperty("hy:get_quest", true);
   }
 });
 
@@ -97,7 +98,7 @@ world.afterEvents.itemUse.subscribe((event) => {
       PLAYER.addEffect("darkness");
       PLAYER.removeEffect("blindness");
       PLAYER.removeEffect("night_vision");
-    break;
+      break;
     case "hy:ruby_bag":
       PLAYER?.getComponent("minecraft:equippable")?.setEquipment(
         EquipmentSlot.Mainhand,
