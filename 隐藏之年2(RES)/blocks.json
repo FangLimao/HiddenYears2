@@ -132,45 +132,9 @@
     "sound": "deepslate",
     "textures": "deepslate_redstone_ore"
   },
-  "hy:deep_gold_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_gold_ore"
-  },
-  "hy:deep_coal_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_coal_ore"
-  },
-  "hy:deep_copper_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_copper_ore"
-  },
-  "hy:deep_diamond_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_diamond_ore"
-  },
-  "hy:deep_emerald_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_emerald_ore"
-  },
-  "hy:deep_iron_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_iron_ore"
-  },
-  "hy:deep_lapis_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_lapis_ore"
-  },
-  "hy:deep_redstone_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_redstone_ore"
-  },
   "hy:geocentric_gold_ore": {
     "sound": "deepslate",
     "textures": "hy.deep_gold_ore"
-  },
-  "hy:geocentric_coal_ore": {
-    "sound": "deepslate",
-    "textures": "hy.deep_coal_ore"
   },
   "hy:geocentric_copper_ore": {
     "sound": "deepslate",
@@ -227,22 +191,7 @@
       "east": "hy.lab_table.front"
     }
   },
-  "hy:steel_furnace": {
-    "sound": "stone",
-    "textures": {
-      "down": "blast_furnace_top",
-      "east": "blast_furnace_side",
-      "north": "blast_furnace_side",
-      "south": "blast_furnace_front_off",
-      "up": "blast_furnace_top",
-      "west": "blast_furnace_side"
-    }
-  },
   "sc:crushed_stone": {
-    "sound": "stone",
-    "textures": "stone"
-  },
-  "hy:tutorial_stone": {
     "sound": "stone",
     "textures": "stone"
   },
