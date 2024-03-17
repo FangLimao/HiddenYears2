@@ -8,7 +8,7 @@ import "Story.js";
 
 hyapi.questUi(mainQuest);
 
-const VERSION_CODE = 2104;
+const VERSION_CODE = 2105;
 const LEAST_VERSION_CODE = world.getDynamicProperty("hy:version_code");
 
 world.afterEvents.playerSpawn.subscribe((event) => {
